@@ -1,0 +1,20 @@
+variant,held_out,contrast,first,second,best_conventional,macro_f1_diff,diff_lo,diff_hi,strict_diff,b,c,test,statistic,p,p_holm,ci_excludes_0_positive,kind,model,method,method_coverage,model_coverage,tau,selective_accuracy,method_conditional_accuracy,diff
+primary,DISTRAIN,C - B,C,B,Duval,-0.0496,-0.0762,-0.025,-0.0433,6.0,25.0,"chi-square, continuity corrected (Eq. 30)",10.4516,0.0012,0.0021,False,contrast,,,,,,,,
+primary,DISTRAIN,C - Duval,C,Duval,Duval,0.0883,0.0404,0.1411,0.0957,99.0,57.0,"chi-square, continuity corrected (Eq. 30)",10.7756,0.001,0.0021,True,contrast,,,,,,,,
+primary,DISTEST,B - A,B,A,Duval,0.0581,-0.026,0.1485,0.0492,5.0,2.0,exact binomial (Eq. 31),,0.4531,0.9062,False,contrast,,,,,,,,
+primary,DISTEST,C - B,C,B,Duval,0.022,0.0,0.0695,0.0164,1.0,0.0,exact binomial (Eq. 31),,1.0,1.0,False,contrast,,,,,,,,
+primary,DISTEST,C - Duval,C,Duval,Duval,0.3301,0.1921,0.4695,0.2951,22.0,4.0,"chi-square, continuity corrected (Eq. 30)",11.1154,0.0009,0.0026,True,contrast,,,,,,,,
+primary,IECTC10,B - A,B,A,Duval,0.0518,0.0,0.1181,0.0517,3.0,0.0,exact binomial (Eq. 31),,0.25,0.75,False,contrast,,,,,,,,
+primary,IECTC10,C - B,C,B,Duval,0.0382,0.0,0.0967,0.0345,2.0,0.0,exact binomial (Eq. 31),,0.5,1.0,False,contrast,,,,,,,,
+primary,IECTC10,C - Duval,C,Duval,Duval,0.069,-0.084,0.2026,0.0345,7.0,5.0,exact binomial (Eq. 31),,0.7744,1.0,False,contrast,,,,,,,,
+primary,LI2019,B - A,B,A,Duval,0.0227,-0.0364,0.0899,0.0118,4.0,3.0,exact binomial (Eq. 31),,1.0,1.0,False,contrast,,,,,,,,
+primary,LI2019,C - B,C,B,Duval,0.0032,-0.0241,0.0282,0.0,1.0,1.0,exact binomial (Eq. 31),,1.0,1.0,False,contrast,,,,,,,,
+primary,LI2019,C - Duval,C,Duval,Duval,0.0277,-0.1305,0.1858,0.1882,27.0,11.0,"chi-square, continuity corrected (Eq. 30)",5.9211,0.015,0.0449,False,contrast,,,,,,,,
+primary,DISTRAIN,,,,,,0.0293,0.1476,,,,,,,,,reject option,C,IEC60599,0.738,0.738,0.54,0.7253,0.6358,0.0895
+primary,DISTRAIN,,,,,,0.1391,0.2611,,,,,,,,,reject option,C,Rogers,0.6424,0.6424,0.6065,0.7766,0.5745,0.2021
+primary,DISTEST,,,,,,0.1606,0.4267,,,,,,,,,reject option,C,IEC60599,0.7213,0.7213,0.7174,0.9545,0.6591,0.2955
+primary,DISTEST,,,,,,0.2821,0.55,,,,,,,,,reject option,C,Rogers,0.623,0.623,0.7811,0.9474,0.5263,0.4211
+primary,IECTC10,,,,,,-0.0081,0.2119,,,,,,,,,reject option,C,IEC60599,0.8793,0.8793,0.5764,0.8235,0.7255,0.098
+primary,IECTC10,,,,,,0.0644,0.3574,,,,,,,,,reject option,C,Rogers,0.7241,0.7241,0.689,0.881,0.6667,0.2143
+primary,LI2019,,,,,,0.2132,0.4655,,,,,,,,,reject option,C,IEC60599,0.7882,0.7882,0.556,0.7313,0.3881,0.3433
+primary,LI2019,,,,,,0.3604,0.6318,,,,,,,,,reject option,C,Rogers,0.6824,0.6824,0.6154,0.7759,0.2759,0.5

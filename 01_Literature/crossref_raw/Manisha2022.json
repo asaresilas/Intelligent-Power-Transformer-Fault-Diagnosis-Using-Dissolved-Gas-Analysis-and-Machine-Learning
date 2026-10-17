@@ -1,0 +1,383 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    16
+   ]
+  ],
+  "date-time": "2026-09-16T16:10:56Z",
+  "timestamp": 1789575056524,
+  "version": "build-2803163510"
+ },
+ "reference-count": 12,
+ "publisher": "IOP Publishing",
+ "issue": "1",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2022,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2022-03-01T00:00:00Z",
+    "timestamp": 1646092800000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "http://creativecommons.org/licenses/by/3.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2022,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2022-03-01T00:00:00Z",
+    "timestamp": 1646092800000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "iopscience.iop.org"
+  ],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "IOP Conf. Ser.: Mater. Sci. Eng."
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2022,
+    3,
+    1
+   ]
+  ]
+ },
+ "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Power transformers are among the most important equipment in a power system. The assessment of the transformer\u2019s condition which is connected to a system is needed to avoid disastrous failures and the subsequent power outages. Although transformers are highly dependable and efficient, but are always under the influence of thermal, electrical stresses which are caused due to the deterioration of transformer insulation. Internal faults in a transformer can be classified as incipient faults and internal short circuit faults. The former type of faults develops over an extended period of time and lead to the degradation of insulation. Incipient faults are generally the result of deterioration of the dielectric strength of transformer mineral oil due to hydrolysis, pyrolysis, and oxidation, which result in the formation of gases that are collected in the gap between the oil and tank and partially get dissolved in it. If incipient conditions are not corrected timely, they may finally lead to collapse of the system where such a transformer is installed. Dissolved Gas Analysis (DGA) methods are extensively accepted by utilities for detection of developing faults. In this work, the brief study of two of the prevalent DGA methods for identification of incipient faults has been carried out. The methods that have been studied are IEEE/IEC Ratio Method and Duval\u2019s Triangle Method. The published DGA data where the actual fault is known is used for identification of the incipient faults and the results have been compared.</jats:p>",
+ "DOI": "10.1088/1757-899x/1228/1/012027",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2022,
+    3,
+    28
+   ]
+  ],
+  "date-time": "2022-03-28T14:26:50Z",
+  "timestamp": 1648477610000
+ },
+ "page": "012027",
+ "update-policy": "https://doi.org/10.1088/crossmark-policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 3,
+ "title": [
+  "Performance Assessment of IEEE/IEC Method and Duval Triangle technique for Transformer Incipient Fault Diagnosis"
+ ],
+ "prefix": "10.1088",
+ "volume": "1228",
+ "author": [
+  {
+   "family": "Manisha",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Kulraj",
+   "family": "Kaur",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Naveen Kumar",
+   "family": "Sharma",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jashandeep",
+   "family": "Singh",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Deepika",
+   "family": "Bhalla",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "266",
+ "reference": [
+  {
+   "key": "MSE_1228_1_012027bib1",
+   "first-page": "261",
+   "article-title": "Application of Artificial Intelligence Techniques for Dissolved Gas Analysis of Transformers",
+   "volume": "4",
+   "author": "Bhalla",
+   "year": "2010",
+   "journal-title": "International Journal of Electrical, Computer, Energetic, Electronic and Communication Engineering"
+  },
+  {
+   "key": "MSE_1228_1_012027bib2",
+   "doi-asserted-by": "crossref",
+   "first-page": "1196",
+   "DOI": "10.1016/j.ijepes.2012.06.042",
+   "article-title": "Function Analysis Based Rule Extraction from Artificial Neural Networks for Transformer Incipient Fault Diagnosis",
+   "volume": "33",
+   "author": "Bhalla",
+   "year": "2012",
+   "journal-title": "International Journal of Electrical Power & Energy Systems"
+  },
+  {
+   "key": "MSE_1228_1_012027bib3",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/DRPT.2008.4523635",
+   "article-title": "A Bayesian network approach to power system asset management for transformer dissolved gas analysis",
+   "author": "Tang",
+   "year": "2008"
+  },
+  {
+   "key": "MSE_1228_1_012027bib4",
+   "first-page": "1",
+   "author": "Patel",
+   "year": "2020"
+  },
+  {
+   "key": "MSE_1228_1_012027bib5",
+   "doi-asserted-by": "crossref",
+   "first-page": "8",
+   "DOI": "10.1109/MEI.2002.1014963",
+   "article-title": "A review of fault detectable by gas-in-oil analysis in transformers",
+   "volume": "18",
+   "author": "Duval",
+   "year": "2002",
+   "journal-title": "IEEE Electrical Insulation Magazine"
+  },
+  {
+   "key": "MSE_1228_1_012027bib6"
+  },
+  {
+   "key": "MSE_1228_1_012027bib7"
+  },
+  {
+   "key": "MSE_1228_1_012027bib8",
+   "doi-asserted-by": "crossref",
+   "first-page": "31",
+   "DOI": "10.1109/57.917529",
+   "article-title": "Interpretation of Oil in Gas Analysis using New IEC Publication 60599 and IEC TC 10 Databases",
+   "volume": "17",
+   "author": "Duvai",
+   "year": "2001",
+   "journal-title": "IEEE Electrical Insulation Magazine"
+  },
+  {
+   "key": "MSE_1228_1_012027bib9",
+   "author": "Sharma",
+   "year": "2022"
+  },
+  {
+   "key": "MSE_1228_1_012027bib10",
+   "volume": "509",
+   "author": "Gupta",
+   "year": "2019"
+  },
+  {
+   "key": "MSE_1228_1_012027bib11",
+   "doi-asserted-by": "crossref",
+   "first-page": "577",
+   "DOI": "10.7763/IJCEE.2011.V3.383",
+   "article-title": "Review of Artificial Intelligence Techniques Application to Dissolved Gas Analysis on Power Transformer",
+   "volume": "3",
+   "author": "Sharma",
+   "year": "2011",
+   "journal-title": "Int. J. Comput. Electr. Eng."
+  },
+  {
+   "key": "MSE_1228_1_012027bib12",
+   "author": "Banshwar",
+   "year": "2022"
+  }
+ ],
+ "container-title": [
+  "IOP Conference Series: Materials Science and Engineering"
+ ],
+ "link": [
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/1757-899X/1228/1/012027",
+   "content-type": "text/html",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/1757-899X/1228/1/012027/pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/1757-899X/1228/1/012027/pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "syndication"
+  },
+  {
+   "URL": "https://iopscience.iop.org/article/10.1088/1757-899X/1228/1/012027/pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2022,
+    3,
+    28
+   ]
+  ],
+  "date-time": "2022-03-28T14:27:01Z",
+  "timestamp": 1648477621000
+ },
+ "score": 131.56738,
+ "resource": {
+  "primary": {
+   "URL": "https://iopscience.iop.org/article/10.1088/1757-899X/1228/1/012027"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2022,
+    3,
+    1
+   ]
+  ]
+ },
+ "references-count": 12,
+ "journal-issue": {
+  "issue": "1",
+  "published-print": {
+   "date-parts": [
+    [
+     2022,
+     3,
+     1
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.1088/1757-899x/1228/1/012027",
+ "ISSN": [
+  "1757-8981",
+  "1757-899X"
+ ],
+ "issn-type": [
+  {
+   "value": "1757-8981",
+   "type": "print"
+  },
+  {
+   "value": "1757-899X",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2022,
+    3,
+    1
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Performance Assessment of IEEE/IEC Method and Duval Triangle technique for Transformer Incipient Fault Diagnosis",
+   "name": "article_title",
+   "label": "Article Title"
+  },
+  {
+   "value": "IOP Conference Series: Materials Science and Engineering",
+   "name": "journal_title",
+   "label": "Journal Title"
+  },
+  {
+   "value": "paper",
+   "name": "article_type",
+   "label": "Article Type"
+  },
+  {
+   "value": "Published under licence by IOP Publishing Ltd",
+   "name": "copyright_information",
+   "label": "Copyright Information"
+  },
+  {
+   "name": "date_received",
+   "label": "Date Received",
+   "group": {
+    "name": "publication_dates",
+    "label": "Publication dates"
+   }
+  },
+  {
+   "name": "date_accepted",
+   "label": "Date Accepted",
+   "group": {
+    "name": "publication_dates",
+    "label": "Publication dates"
+   }
+  },
+  {
+   "name": "date_epub",
+   "label": "Online publication date",
+   "group": {
+    "name": "publication_dates",
+    "label": "Publication dates"
+   }
+  }
+ ]
+}

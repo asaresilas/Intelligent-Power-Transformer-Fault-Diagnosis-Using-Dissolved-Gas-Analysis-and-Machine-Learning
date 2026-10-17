@@ -1,0 +1,12 @@
+[
+ {
+  "task": "primary/DISTEST/B",
+  "same_predictions": true,
+  "max_probability_difference": 0.0
+ },
+ {
+  "task": "primary/IECTC10/C",
+  "same_predictions": true,
+  "max_probability_difference": 0.0
+ }
+]

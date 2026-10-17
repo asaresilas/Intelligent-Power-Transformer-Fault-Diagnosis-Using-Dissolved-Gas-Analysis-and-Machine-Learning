@@ -1,0 +1,1 @@
+record_id,data_role,log_role,in_log,call_ok,offline_class,ml_class,class_match,probabilities_identical,max_probability_difference,offline_Rogers,offline_IEC60599,offline_Duval,rogers,iec60599,duval,rogers_match,iec60599_match,duval_match,hash_match,response_ms,warmup

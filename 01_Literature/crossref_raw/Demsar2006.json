@@ -1,0 +1,76 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    2,
+    26
+   ]
+  ],
+  "date-time": "2026-02-26T18:18:35Z",
+  "timestamp": 1772129915331,
+  "version": "3.50.1"
+ },
+ "description": "Supplemental Information for 10.1021/acs.molpharmaceut.8b01297",
+ "reference-count": 0,
+ "publisher": "American Chemical Society (ACS)",
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "DOI": "10.1021/acs.molpharmaceut.8b01297.s001",
+ "type": "component",
+ "created": {
+  "date-parts": [
+   [
+    2020,
+    4,
+    9
+   ]
+  ],
+  "date-time": "2020-04-09T18:46:14Z",
+  "timestamp": 1586457974000
+ },
+ "source": "Crossref",
+ "is-referenced-by-count": 0,
+ "title": [
+  "Multiple Machine Learning Comparisons of HIV Cell-based and Reverse Transcriptase Data Sets"
+ ],
+ "prefix": "10.1021",
+ "member": "316",
+ "deposited": {
+  "date-parts": [
+   [
+    2020,
+    4,
+    9
+   ]
+  ],
+  "date-time": "2020-04-09T18:46:14Z",
+  "timestamp": 1586457974000
+ },
+ "score": 45.40204,
+ "resource": {
+  "primary": {
+   "URL": "https://pubs.acs.org/doi/suppl/10.1021/acs.molpharmaceut.8b01297/suppl_file/mp8b01297_si_001.pdf"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    null
+   ]
+  ]
+ },
+ "references-count": 0,
+ "URL": "https://doi.org/10.1021/acs.molpharmaceut.8b01297.s001",
+ "relation": {
+  "is-component-of": [
+   {
+    "id-type": "doi",
+    "id": "10.1021/acs.molpharmaceut.8b01297",
+    "asserted-by": "object"
+   }
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+file,generating_script,run_folder,thesis_item
+11_Results/conventional/conventional_predictions.csv,04_MATLAB_Conventional/run_conventional_batch.m,,Chapter 4 (conventional-method results; Step 16)
+11_Results/conventional/conventional_counts.csv,04_MATLAB_Conventional/run_conventional_batch.m,,Chapter 4 (ND, DT and dual answers per method and data role; Step 16)
+11_Results/conventional/impact_of_rules.csv,04_MATLAB_Conventional/impact_of_rules.m,,Chapter 3 (decision D12 evidence; Step 14)
+11_Results/conventional/gate_by_class.csv,04_MATLAB_Conventional/impact_of_rules.m,,Chapter 4 (normality gate by class; Step 14)
+11_Results/conventional/sanity_agreement_benchmark.csv,04_MATLAB_Conventional/sanity_check_vs_truth.m,,not a thesis result (plausibility check; Step 16)
+11_Results/conventional/no_typed_limits_audit.csv,04_MATLAB_Conventional/check_no_typed_limits.m,,Chapter 3 (code audit; Step 14)
+"11_Results/figures/duval_development.png (+ .pdf, .csv)",04_MATLAB_Conventional/plot_duval_by_role.m,,Figure 4.4a
+"11_Results/figures/duval_internal_test.png (+ .pdf, .csv)",04_MATLAB_Conventional/plot_duval_by_role.m,,Figure 4.4b
+"11_Results/figures/duval_benchmark.png (+ .pdf, .csv)",04_MATLAB_Conventional/plot_duval_by_role.m,,Figure 4.4c
+"11_Results/figures/duval_external_test.png (+ .pdf, .csv)",04_MATLAB_Conventional/plot_duval_by_role.m,,Figure 4.4d
+11_Results/conventional/conventional_applicability.csv,04_MATLAB_Conventional/run_reduced_gas_applicability.m,,Chapter 4 (conventional methods with gases removed; Table 4.9 context; Step 26)
+11_Results/conventional/conventional_applicability_checks.csv,04_MATLAB_Conventional/run_reduced_gas_applicability.m,,Chapter 4 (Step 26 checks)
+08_Statistical_Analysis/cross_language_check_step26.csv,06_Python_ML/src/conventional/step26_crosscheck.py,,Chapter 3 (MATLAB-Python agreement; Step 26)
+

@@ -1,0 +1,304 @@
+%% DGADashboard_code.txt - the hand-written code of DGADashboard.mlapp (roadmap Steps 39 and 40, decisions D37 and D38; master control 15 Oct 2026).
+%% build_dashboard_mlapp.m reads this file and puts every section into the app. Section lines start with "%%@".
+%% Callbacks follow MATLAB_Build_Guide Part C (C4.1 to C4.5); additions are marked (D37), (D38) or (MC) = master control, 15 Oct 2026.
+%%@ PUBLIC_PROPERTIES
+    properties (Access = public)
+        DGAFile        % full path of the measured DGA file
+        ServiceURL     % address of the FastAPI service (D37)
+        LastResult     % struct of the last diagnosis: record_id, gas, conventional, ml, agreement (D37)
+        SimResult      % struct returned by run_transformer_simulation (public so that the checks can compare it) (MC)
+        SimEvents      % table of the sampling events of the last simulation: time_h, record_index, record_id (D38)
+        EventResults   % struct array, one element per sampling event diagnosed in the last run (D38)
+        PlaybackPause = 0.5  % pause between sampling events in the playback, s (0 in tests) (D38)
+        ExplainState   % struct with the explanation texts: sim, diag, events (string columns), focus ("diag" or "run") (MC)
+        ProjRoot       % folder that holds project_setup.m (MC)
+        ServiceStarted = false  % true when THIS app started the ML service; only then it stops it when it closes (MC)
+    end
+%%@ PRIVATE_PROPERTIES
+    properties (Access = private)
+        Gas        % struct with H2, CH4, C2H6, C2H4, C2H2 of the current record
+        Info        % table row of the current record (traceability)
+    end
+%%@ PRIVATE_METHODS
+    methods (Access = private)
+
+        % Lamp and text of the agreement flag (Build Guide C4.5; rule in dga_agreement.m, D37)
+        function updateAgreement(app, a)
+            app.AgreementLamp.Color = a.color;
+            app.AgreementLabel.Text = a.label;
+        end
+
+        % Text of the status line and of a progress dialog while a long step runs (MC)
+        function setProgress(app, dlg, txt)
+            app.StatusLabel.Text = txt;
+            if ~isempty(dlg) && isvalid(dlg), dlg.Message = txt; end
+            drawnow limitrate;
+        end
+
+        % Switch the buttons off while a long step runs, so that a second click cannot start a second step (MC)
+        function setBusy(app, tf)
+            if ~isvalid(app), return, end
+            st = 'on'; if tf, st = 'off'; end
+            app.RunSimulationButton.Enable = st;  app.LoadDGAFileButton.Enable = st;  app.DiagnoseButton.Enable = st;
+            app.RestartServiceButton.Enable = st;  app.RecordSpinner.Enable = st;
+            drawnow;
+        end
+
+        % Show the explanation text of the current state in the right-hand panel (MC)
+        function refreshExplanation(app)
+            app.ExplainArea.Value = cellstr(dashboard_explain('all', app.ExplainState));
+            try, scroll(app.ExplainArea, 'top'); catch, end
+        end
+
+        % Is the local ML service answering? If not, (re)start it before the call. A service that hangs is stopped and started again (MC)
+        function ok = mlReady(app)
+            ok = true;
+            if ~contains(app.ServiceURL, '127.0.0.1:8000'), return, end    % another address: nothing to manage
+            try
+                r = webread('http://127.0.0.1:8000/health', weboptions('Timeout', 2));
+                ok = isstruct(r);
+            catch
+                ok = false;
+            end
+            if ~ok
+                [ok, ~, started] = ensure_ml_service(app.ProjRoot, 60, @(s) app.setProgress([], s));
+                if started, app.ServiceStarted = true; end
+            end
+        end
+
+        % Show one finished diagnosis on the screen: tables, Duval Triangle, agreement lamp and the explanation text (MC)
+        function showResult(app, R, row)
+            g = R.gas;  d = R.conventional;  m = R.ml;  a = R.agreement;
+            app.GasTable.Data = table(["H2"; "CH4"; "C2H6"; "C2H4"; "C2H2"], ...
+                [g.H2; g.CH4; g.C2H6; g.C2H4; g.C2H2], 'VariableNames', {'Gas', 'ppm'});
+            mlText = m.status;
+            if m.status == "OK", mlText = m.fault_class; end
+            yesno = repmat("-", 3, 1);
+            if m.status == "OK", yesno(a.agrees) = "yes"; yesno(~a.agrees) = "no"; end
+            app.ResultsTable.Data = table(["Rogers Ratio"; "IEC 60599 ratio"; "Duval Triangle 1"; "Machine learning"], ...
+                [string(d.rogers); string(d.iec); string(d.duval); mlText], [yesno; "-"], ...
+                'VariableNames', {'Method', 'Diagnosis', 'Agrees with ML'});
+            if m.status == "OK"
+                app.ProbabilityTable.Data = table(m.classes(:), m.probabilities(:), 'VariableNames', {'Class', 'Probability'});
+                app.ModelLabel.Text = sprintf('ML: %s v%s (hash %s), confidence %.3f, %.0f ms', ...
+                    m.model_name, m.model_version, extractBefore(m.model_sha256, 9), m.confidence, 1000 * m.latency_s);
+            else
+                app.ProbabilityTable.Data = table(strings(0, 1), zeros(0, 1), 'VariableNames', {'Class', 'Probability'});
+                app.ModelLabel.Text = ['ML: ' char(m.status)];
+            end
+            try
+                plot_duval_triangle(app.UIAxesDuval, d.ratios, fullfile(app.ProjRoot, '02_Standards', 'duval_triangle_zones.csv'));
+            catch ME
+                cla(app.UIAxesDuval);
+                app.StatusLabel.Text = ['Duval Triangle not drawn: ' ME.message];
+            end
+            app.updateAgreement(a);
+            app.ExplainState.diag = dashboard_explain('diagnosis', g, d, m, a);
+            app.refreshExplanation();
+        end
+
+        % Diagnose one row of the loaded DGA file: the one code path of the Diagnose button and of the sampling events (D38)
+        function ok = diagnoseRow(app, row)
+            ok = false;
+            try
+                [app.Gas, app.Info] = load_dga_record(app.DGAFile, row);
+            catch ME
+                app.StatusLabel.Text = ['Cannot read the record: ' ME.message];
+                return
+            end
+            g = app.Gas;
+            app.StatusLabel.Text = 'Diagnosing...'; drawnow;
+            d = conventional_diagnosis(g);                 % three conventional diagnoses, computed here in MATLAB
+            app.mlReady();                                 % the service answers, or it is restarted (MC)
+            m = ml_diagnose(g, app.ServiceURL);            % ML diagnosis from the FastAPI service (webwrite)
+            if m.status == "NOT_CONNECTED" && contains(app.ServiceURL, ':8000/')   % stopped or hung during the call: restart once and retry
+                app.StatusLabel.Text = 'ML service not reachable: starting it...'; drawnow;
+                [okS, ~, started] = ensure_ml_service(app.ProjRoot, 60, @(s) app.setProgress([], s));
+                if started, app.ServiceStarted = true; end
+                if okS, m = ml_diagnose(g, app.ServiceURL); end
+            end
+            a = dga_agreement(d, m);
+            rid = ""; if isfield(g, 'record_id'), rid = g.record_id; end
+            app.LastResult = struct('record_id', rid, 'gas', g, 'conventional', d, 'ml', m, 'agreement', a);
+            app.ExplainState.focus = "diag";
+            app.showResult(app.LastResult, row);
+            if startsWith(app.StatusLabel.Text, 'Diagnosing')
+                app.StatusLabel.Text = sprintf('Record %d %s diagnosed.', row, char(rid));
+            end
+            ok = true;
+        end
+
+        % Play the sampling events of the last simulation back in time order and diagnose the record of each (D38)
+        function playEvents(app, baseText)
+            ev = app.SimEvents;  r = app.SimResult;
+            app.EventResults = struct('event', {}, 'time_h', {}, 'record_id', {}, 'row', {}, 'hot_spot_C', {}, 'result', {});
+            app.EventTable.Data = table(zeros(0, 1), zeros(0, 1), strings(0, 1), strings(0, 1), strings(0, 1), zeros(0, 1), ...
+                'VariableNames', {'Event', 'Time (h)', 'Record', 'ML', 'Agree (of 3)', 'Hot-spot (degC)'});
+            if isempty(ev)
+                app.StatusLabel.Text = [baseText ' No sampling events in this run.'];
+                return
+            end
+            if isempty(app.DGAFile)
+                app.DGAFile = fullfile(app.ProjRoot, '03_Data', 'processed', 'dga_master.csv');
+                baseText = [baseText ' (No DGA file loaded: using dga_master.csv.)'];
+            end
+            nrec = height(readtable(app.DGAFile));
+            app.RecordSpinner.Limits = [1 nrec];
+            tbl = app.EventTable.Data;  nok = 0;
+            for k = 1:height(ev)
+                row = find_dga_row(app.DGAFile, ev.record_id(k));
+                if isnan(row)
+                    app.StatusLabel.Text = sprintf('Event %d: record %s is not in the DGA file.', k, char(ev.record_id(k)));
+                    continue
+                end
+                app.RecordSpinner.Value = row;
+                app.StatusLabel.Text = sprintf('Sampling event %d at %.1f h: diagnosing %s...', k, ev.time_h(k), char(ev.record_id(k))); drawnow;
+                if ~app.diagnoseRow(row), continue, end
+                R = app.LastResult;  hs = interp1(r.t_h, r.theta_hs_C, ev.time_h(k));
+                mlText = R.ml.status;  agr = "-";
+                if R.ml.status == "OK", mlText = R.ml.fault_class; agr = string(R.agreement.count); end
+                tbl(end + 1, :) = {k, ev.time_h(k), ev.record_id(k), mlText, agr, hs}; %#ok<AGROW>
+                app.EventTable.Data = tbl;
+                app.EventResults(end + 1) = struct('event', k, 'time_h', ev.time_h(k), 'record_id', ev.record_id(k), 'row', row, 'hot_spot_C', hs, 'result', R);
+                nok = nok + 1;
+                pause(app.PlaybackPause);
+            end
+            app.StatusLabel.Text = sprintf('%s %d of %d sampling events diagnosed.', baseText, nok, height(ev));
+            app.ExplainState.events = dashboard_explain('events', app.EventResults);   % summary of the run first, then the last record (MC)
+            app.ExplainState.focus = "run";
+            app.refreshExplanation();
+        end
+    end
+%%@ STARTUP
+% The app finds the project folders itself, so it also starts when project_setup has not been run (15 Oct 2026).
+% It looks upwards from the app file, then from the current folder, for the folder that holds project_setup.m.
+projRoot = '';
+starts = {};
+try, starts{end + 1} = fileparts(which('DGADashboard')); catch, end
+try, starts{end + 1} = fileparts(mfilename('fullpath')); catch, end
+starts{end + 1} = pwd;
+for iStart = 1:numel(starts)
+    dirNow = starts{iStart};
+    while ~isempty(dirNow) && isempty(projRoot)
+        if isfile(fullfile(dirNow, 'project_setup.m')), projRoot = dirNow; end
+        parentDir = fileparts(dirNow);
+        if strcmp(parentDir, dirNow), break, end
+        dirNow = parentDir;
+    end
+    if ~isempty(projRoot), break, end
+end
+if isempty(projRoot)
+    app.StatusLabel.Text = 'Project folder not found. In MATLAB open the project folder, run project_setup.m, then start the dashboard again.';
+    error('DGADashboard:ProjectNotFound', 'project_setup.m was not found above the app file or the current folder.');
+end
+app.ProjRoot = projRoot;
+addpath(fullfile(projRoot, '04_MATLAB_Conventional'), fullfile(projRoot, '05_Simulink_Model'), fullfile(projRoot, '10_Dashboard_Client'));
+% Parameters of the transformer model into the base workspace (Build Guide C4.1)
+evalin('base', 'params_transformer;');
+app.ServiceURL = 'http://127.0.0.1:8000/diagnose';
+app.ExplainState = struct('sim', strings(0, 1), 'diag', strings(0, 1), 'events', strings(0, 1), 'focus', "diag");
+app.refreshExplanation();                                  % the welcome text: what the dashboard does and how to use it
+% The dashboard is the master control: it starts the ML service itself if it is not running (15 Oct 2026).
+% A progress dialog shows what happens, so that the window never looks frozen; the buttons stay off until the service is ready.
+app.setBusy(true);
+dlg = uiprogressdlg(app.UIFigure, 'Title', 'Starting the dashboard', 'Message', 'Checking the ML service...', 'Indeterminate', 'on');
+[mlOK, mlMsg, started] = ensure_ml_service(projRoot, 60, @(s) app.setProgress(dlg, s));
+app.ServiceStarted = started;
+% Warm-up of the Simulink/Simscape model: the first run in a MATLAB session compiles the model (about 50 s measured, 15 Oct 2026).
+% Doing it here, behind a progress message, means the first click on "Run transformer simulation" answers in seconds (no result is kept or shown).
+app.setProgress(dlg, 'Preparing the Simulink model (first start only, up to 1 minute)...');
+try
+    run_transformer_simulation();
+catch ME
+    app.StatusLabel.Text = ['Simulink model not ready: ' ME.message];
+end
+if isvalid(dlg), close(dlg); end
+app.setBusy(false);
+if startsWith(app.StatusLabel.Text, 'Simulink model not ready')
+    app.StatusLabel.Text = [app.StatusLabel.Text ' ML: ' mlMsg];
+elseif mlOK
+    app.StatusLabel.Text = 'Ready. ML service connected. Press "Run transformer simulation" or load a DGA file.';
+else
+    app.StatusLabel.Text = ['Ready, but ML NOT connected: ' mlMsg ' Use "Restart ML service" to try again.'];
+end
+app.AgreementLamp.Color = [0.6 0.6 0.6];
+%%@ CALLBACK RunSimulationButtonPushed Button pushed function: RunSimulationButton
+app.setBusy(true);  cleanBusy = onCleanup(@() app.setBusy(false));       % buttons off until the end of the run (MC)
+dlg = uiprogressdlg(app.UIFigure, 'Title', 'Simulation', 'Message', 'Simulating 24 h of transformer operation...', 'Indeterminate', 'on');
+cleanDlg = onCleanup(@() delete(dlg));
+app.StatusLabel.Text = 'Simulating transformer operation...'; drawnow;
+try
+    app.SimResult = run_transformer_simulation();   % sim of Transformer_Operating_Model; also returns the sampling events (D38)
+catch ME
+    app.StatusLabel.Text = ['Simulation failed: ' ME.message];
+    return
+end
+r = app.SimResult;
+delete(findall(app.UIAxesTemperature, 'Type', 'constantline'));   % event lines of an earlier run (hidden handles are not cleared by plot)
+plot(app.UIAxesTemperature, r.t_h, r.theta_oil_C, 'b', r.t_h, r.theta_hs_C, 'r', 'LineWidth', 1.3);
+xlabel(app.UIAxesTemperature, 'Time (h)'); ylabel(app.UIAxesTemperature, 'Temperature (\circC)');
+legend(app.UIAxesTemperature, 'Top-oil', 'Hot-spot', 'Location', 'southeast');
+grid(app.UIAxesTemperature, 'on');
+app.SimEvents = r.events;
+for k = 1:height(r.events)          % sampling events of SS8, numbered in time order
+    xline(app.UIAxesTemperature, r.events.time_h(k), ':', char("#" + k), 'HandleVisibility', 'off');
+end
+baseText = sprintf('Simulation done. Final hot-spot %.1f degC, ageing %.1f h. (Operating context only.)', ...
+    r.theta_hs_C(end), r.loss_of_life_h);
+app.StatusLabel.Text = baseText; drawnow;
+P = struct('theta_ref_age', evalin('base', 'theta_ref_age'), 'dT_double_age', evalin('base', 'dT_double_age'), 'theta_amb_C', evalin('base', 'theta_amb_C'));
+app.ExplainState = struct('sim', dashboard_explain('simulation', r, P), 'diag', strings(0, 1), 'events', strings(0, 1), 'focus', "run");
+app.refreshExplanation();
+if isvalid(dlg), dlg.Message = 'Diagnosing the sampling events...'; end
+app.playEvents(baseText);
+%%@ CALLBACK LoadDGAFileButtonPushed Button pushed function: LoadDGAFileButton
+[f, p] = uigetfile({'*.csv;*.xlsx', 'DGA files'}, 'Select measured DGA file', fullfile(app.ProjRoot, '03_Data', 'processed'));
+if isequal(f, 0), return, end
+try
+    n = height(readtable(fullfile(p, f)));
+catch ME
+    app.StatusLabel.Text = ['Cannot read the file: ' ME.message];
+    return
+end
+app.DGAFile = fullfile(p, f);
+app.RecordSpinner.Limits = [1 n];
+app.RecordSpinner.Value = 1;
+app.StatusLabel.Text = sprintf('Loaded %s (%d records).', f, n);
+%%@ CALLBACK DiagnoseButtonPushed Button pushed function: DiagnoseButton
+if isempty(app.DGAFile)
+    app.StatusLabel.Text = 'Load a DGA file first.'; return
+end
+app.setBusy(true);  cleanBusy = onCleanup(@() app.setBusy(false));
+app.diagnoseRow(app.RecordSpinner.Value);
+%%@ CALLBACK RestartServiceButtonPushed Button pushed function: RestartServiceButton
+% Master control: stop the ML service (if it runs, also a hung one) and start it again (MC)
+app.setBusy(true);  cleanBusy = onCleanup(@() app.setBusy(false));
+dlg = uiprogressdlg(app.UIFigure, 'Title', 'ML service', 'Message', 'Stopping the ML service...', 'Indeterminate', 'on');
+cleanDlg = onCleanup(@() delete(dlg));
+app.setProgress(dlg, 'Stopping the ML service...');
+stop_ml_service();  pause(1);
+[mlOK, mlMsg, started] = ensure_ml_service(app.ProjRoot, 60, @(s) app.setProgress(dlg, s));
+if started, app.ServiceStarted = true; end
+if mlOK
+    app.StatusLabel.Text = 'ML service restarted and connected.';
+else
+    app.StatusLabel.Text = ['ML NOT connected: ' mlMsg];
+end
+%%@ CALLBACK EventTableCellSelection Cell selection function: EventTable
+% Click a sampling event: show its diagnosis and its explanation again (MC)
+if isempty(event.Indices), return, end
+k = event.Indices(1, 1);
+if k < 1 || k > numel(app.EventResults), return, end
+R = app.EventResults(k).result;
+app.LastResult = R;
+app.RecordSpinner.Value = app.EventResults(k).row;
+app.ExplainState.focus = "diag";
+app.showResult(R, app.EventResults(k).row);
+app.StatusLabel.Text = sprintf('Showing sampling event %d: record %s.', k, char(R.record_id));
+%%@ CALLBACK UIFigureCloseRequest Close request function: UIFigure
+% Closing the dashboard stops the ML service when this app started it (MC)
+try
+    if app.ServiceStarted, stop_ml_service(); end
+catch
+end
+delete(app);

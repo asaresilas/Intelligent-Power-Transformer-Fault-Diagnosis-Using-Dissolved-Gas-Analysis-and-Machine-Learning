@@ -1,0 +1,778 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    3
+   ]
+  ],
+  "date-time": "2026-08-03T17:46:40Z",
+  "timestamp": 1785779200846,
+  "version": "3.56.0"
+ },
+ "reference-count": 57,
+ "publisher": "Elsevier BV",
+ "issue": "20",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2024-10-01T00:00:00Z",
+    "timestamp": 1727740800000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2024-10-01T00:00:00Z",
+    "timestamp": 1727740800000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      10,
+      15
+     ]
+    ],
+    "date-time": "2024-10-15T00:00:00Z",
+    "timestamp": 1728950400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 14,
+   "URL": "http://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "cell.com",
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Heliyon"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2024,
+    10
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.heliyon.2024.e39449",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2024,
+    10,
+    16
+   ]
+  ],
+  "date-time": "2024-10-16T20:11:12Z",
+  "timestamp": 1729109472000
+ },
+ "page": "e39449",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 7,
+ "title": [
+  "A comprehensive analysis for wind turbine transformer and its limits in the dissolved gas evaluation"
+ ],
+ "prefix": "10.1016",
+ "volume": "10",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0002-1067-9753",
+   "authenticated-orcid": false,
+   "given": "Ricardo Manuel",
+   "family": "Arias Vel\u00e1squez",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib1",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.epsr.2024.110527",
+   "article-title": "Forecasting of wind farm power output based on dynamic loading of power transformer at the substation",
+   "volume": "234",
+   "author": "Hartmann",
+   "year": "2024",
+   "journal-title": "Elec. Power Syst. Res."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib2",
+   "series-title": "2012 Proceedings of 17th Conference on Electrical Power Distribution",
+   "first-page": "1",
+   "article-title": "A new power transformer fault diagnosis system and its application for wind farms",
+   "author": "Amjady",
+   "year": "2012"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.heliyon.2024.e39449_bib3",
+   "doi-asserted-by": "crossref",
+   "first-page": "564",
+   "DOI": "10.1109/TDEI.2014.004592",
+   "article-title": "Improved power transformer winding fault detection using FRA diagnostics \u2013 part 2: radial deformation simulation",
+   "volume": "22",
+   "author": "Hashemnia",
+   "year": "2015",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib4",
+   "article-title": "Thermal influence in the design of DC to AC converters due to climatic change for photovoltaic solar plants",
+   "year": "2024",
+   "journal-title": "Results in Engineering"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib5",
+   "first-page": "1",
+   "article-title": "IEEE guide for the interpretation of gases generated in mineral oil-immersed transformers",
+   "year": "2019",
+   "journal-title": "IEEE Std C57.104-2019 (Revision of IEEE Std C57.104-2008)"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib6",
+   "series-title": "2022 IEEE/PES Transmission and Distribution Conference and Exposition (T&D)",
+   "first-page": "1",
+   "article-title": "How to improve IEEE C57.104-2019 DGA fault severity interpretation",
+   "author": "Draper",
+   "year": "2022"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib7",
+   "series-title": "Standard Practices for Sampling Electrical Insulating Liquids",
+   "first-page": "1",
+   "year": "2023"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib8",
+   "series-title": "Standard Test Method for Analysis of Gases Dissolved in Electrical Insulating Oil by Gas Chromatography",
+   "first-page": "1",
+   "year": "2017"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib9",
+   "doi-asserted-by": "crossref",
+   "first-page": "39",
+   "DOI": "10.1016/j.jclinepi.2023.06.015",
+   "article-title": "Risk-of-bias assessment using Cochrane's revised tool for randomized trials (RoB 2) was useful but challenging and resource-intensive: observations from a systematic review",
+   "volume": "161",
+   "author": "Frederick Crocker",
+   "year": "2023",
+   "journal-title": "J. Clin. Epidemiol."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib10",
+   "series-title": "IEC 60599 Edition 4.0 2022-05, Mineral Oil-Filled Electrical Equipment in Service \u2013 Guidance on the Interpretation of Dissolved and Free Gases Analysis",
+   "first-page": "1",
+   "year": "2022"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib11",
+   "article-title": "Explosion of power capacitors in a change of transformers with reactive power compensation",
+   "volume": "106",
+   "author": "Arias",
+   "year": "2019",
+   "journal-title": "Eng. Fail. Anal."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.heliyon.2024.e39449_bib12",
+   "doi-asserted-by": "crossref",
+   "first-page": "493",
+   "DOI": "10.1016/j.fiae.2017.12.005",
+   "article-title": "Principal components analysis and adaptive decision system based on fuzzy logic for power transformer",
+   "volume": "9",
+   "author": "Arias",
+   "year": "2017",
+   "journal-title": "Fuzzy Information and Engineering"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib13",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.rineng.2024.102314",
+   "article-title": "A comprehensive evaluation and advancements in dissolved gas analysis for biodegradable oil in photovoltaic solar plants",
+   "volume": "22",
+   "author": "Arias Vel\u00e1squez",
+   "year": "2024",
+   "journal-title": "Results in Engineering"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib14",
+   "doi-asserted-by": "crossref",
+   "first-page": "1399",
+   "DOI": "10.1016/j.egyr.2023.12.042",
+   "article-title": "Impact of turbine availability and wake effect on the application of dynamic thermal rating of wind farm export transformers",
+   "volume": "11",
+   "author": "Li",
+   "year": "2024",
+   "journal-title": "Energy Rep."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib15",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.apenergy.2024.122758",
+   "article-title": "Learning to optimise wind farms with graph transformers",
+   "volume": "359",
+   "author": "Li",
+   "year": "2024",
+   "journal-title": "Appl. Energy"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib16",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.epsr.2024.110751",
+   "article-title": "Health status perception of oil-immersed power transformers considering wind power uncertainty",
+   "volume": "234",
+   "author": "Yi",
+   "year": "2024",
+   "journal-title": "Elec. Power Syst. Res."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib17",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ijepes.2023.109352",
+   "article-title": "Probabilistic machine learning aided transformer lifetime prediction framework for wind energy systems",
+   "volume": "153",
+   "author": "Aizpurua",
+   "year": "2023",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib18",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.physc.2024.1354503",
+   "article-title": "Design and thermal analysis of a 250 MVA HTS transformer for substation of offshore wind farms",
+   "volume": "620",
+   "author": "Mahamed",
+   "year": "2024",
+   "journal-title": "Physica C: Superconductivity and its Applications"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib19",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.segan.2023.101048",
+   "article-title": "Grey-box modeling for hot-spot temperature prediction of oil-immersed transformers in power distribution networks",
+   "volume": "34",
+   "author": "Blomgren",
+   "year": "2023",
+   "journal-title": "Sustainable Energy, Grids and Networks"
+  },
+  {
+   "issue": "8",
+   "key": "10.1016/j.heliyon.2024.e39449_bib20",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/sym13081320",
+   "article-title": "Hotspot temperature prediction of dry-type transformers based on particle filter optimization with support vector regression",
+   "volume": "13",
+   "author": "Sun",
+   "year": "2021",
+   "journal-title": "Symmetry"
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.heliyon.2024.e39449_bib21",
+   "doi-asserted-by": "crossref",
+   "first-page": "3196",
+   "DOI": "10.1109/TPWRD.2020.3035842",
+   "article-title": "A monitoring method for average winding and hot-spot temperatures of single-phase, oil-immersed transformers",
+   "volume": "36",
+   "author": "Gezegin",
+   "year": "2021",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib22",
+   "doi-asserted-by": "crossref",
+   "first-page": "164392",
+   "DOI": "10.1109/ACCESS.2020.3021673",
+   "article-title": "Hot-spot temperature forecasting of the instrument transformer using an artificial neural network",
+   "volume": "8",
+   "author": "Juarez",
+   "year": "2020",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.heliyon.2024.e39449_bib23",
+   "doi-asserted-by": "crossref",
+   "first-page": "3133",
+   "DOI": "10.1109/TPWRD.2021.3123957",
+   "article-title": "Data driven transformer thermal model for condition monitoring",
+   "volume": "37",
+   "author": "Doolgindachbaporn",
+   "year": "2022",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib24",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ijepes.2023.109133",
+   "article-title": "Thermal-hydraulic model for temperature prediction on oil-directed power transformers",
+   "volume": "151",
+   "author": "Oliveira",
+   "year": "2023",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib25",
+   "series-title": "Voltage Breakdown Characteristics of Transformer Mineral Oil with Varies the Composition of Corn Oil,\" 2019 2nd International Conference on High Voltage Engineering and Power Systems (ICHVEPS)",
+   "first-page": "1",
+   "author": "Manjang",
+   "year": "2019"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib26",
+   "first-page": "262",
+   "author": "Ramli",
+   "year": "2014",
+   "journal-title": "\"Partial discharge characteristics of palm fatty acid ester (PFAE) as high voltage insulating material,\" The 2nd IEEE Conference on Power Engineering and Renewable Energy (ICPERE) 2014"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib27",
+   "doi-asserted-by": "crossref",
+   "first-page": "349",
+   "DOI": "10.1109/CENCON.2015.7409567",
+   "author": "Zaidi",
+   "year": "2015",
+   "journal-title": "\"Experimental study on vegetable oils properties for power transformer,\" 2015 IEEE Conference on Energy Conversion (CENCON)"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib28",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.indcrop.2024.118674",
+   "article-title": "Canola oil: a renewable and sustainable green dielectric liquid for transformer insulation",
+   "volume": "215",
+   "author": "Oparanti",
+   "year": "2024",
+   "journal-title": "Ind. Crop. Prod."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib29",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.engappai.2023.107841",
+   "article-title": "Probabilistic feature selection for improved asset lifetime estimation in renewables. Application to transformers in photovoltaic power plants",
+   "volume": "131",
+   "author": "Ramirez",
+   "year": "2024",
+   "journal-title": "Eng. Appl. Artif. Intell."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib30",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.rser.2024.114327",
+   "article-title": "Research progress on oil-immersed transformer mechanical condition identification based on vibration signals",
+   "volume": "196",
+   "author": "Sun",
+   "year": "2024",
+   "journal-title": "Renew. Sustain. Energy Rev."
+  },
+  {
+   "issue": "Part A",
+   "key": "10.1016/j.heliyon.2024.e39449_bib31",
+   "article-title": "MITDCNN: a multi-modal input Transformer-based deep convolutional neural network for misfire signal detection in high-noise diesel engines",
+   "volume": "238",
+   "author": "Li",
+   "year": "2024",
+   "journal-title": "Expert Syst. Appl."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib32",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.jmmm.2022.169470",
+   "article-title": "Bias magnetic characteristic analysis and condition identification of transformers under DC bias magnetism conditions based on electromagnetic vibration and convolutional neural network",
+   "volume": "557",
+   "author": "Guo",
+   "year": "2022",
+   "journal-title": "J. Magn. Magn Mater."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib33",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.compbiomed.2024.108565",
+   "article-title": "Parallel dual-branch fusion network for epileptic seizure prediction",
+   "volume": "176",
+   "author": "Ma",
+   "year": "2024",
+   "journal-title": "Comput. Biol. Med."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib34",
+   "volume": "vol. 2503",
+   "author": "Zheng",
+   "year": "2023"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.heliyon.2024.e39449_bib35",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.asej.2022.101945",
+   "article-title": "A systematic review of rolling bearing fault diagnoses based on deep learning and transfer learning: taxonomy, overview, application, open challenges, weaknesses and recommendations",
+   "volume": "14",
+   "author": "Hakim",
+   "year": "2023",
+   "journal-title": "Ain Shams Eng. J."
+  },
+  {
+   "issue": "8",
+   "key": "10.1016/j.heliyon.2024.e39449_bib36",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1088/1361-6501/acd2f3",
+   "article-title": "Time\u2013frequency Transformer with shifted windows for journal bearing-rotor systems fault diagnosis under multiple working conditions",
+   "volume": "34",
+   "author": "Chen",
+   "year": "2023",
+   "journal-title": "Meas. Sci. Technol."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib37",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/TIM.2022.3168929",
+   "article-title": "Multifeature extraction and semi-supervised deep learning scheme for state diagnosis of converter transformer",
+   "volume": "71",
+   "author": "Xiao",
+   "year": "2022",
+   "journal-title": "IEEE Trans. Instrum. Meas."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib38",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.molliq.2024.124836",
+   "article-title": "A systematic review on promising development of cost-effective, biodegradable, and environment friendly vegetable based nanofluids as a future resource for green transformer insulation oil",
+   "volume": "403",
+   "author": "Siddique",
+   "year": "2024",
+   "journal-title": "J. Mol. Liq."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.heliyon.2024.e39449_bib39",
+   "doi-asserted-by": "crossref",
+   "first-page": "3405",
+   "DOI": "10.1109/TDEI.2016.005927",
+   "article-title": "A new fault diagnostic technique in oil-filled electrical equipment; the dual of Duval triangle",
+   "volume": "23",
+   "author": "Irungu",
+   "year": "2016",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib40",
+   "series-title": "2017 IEEE Electrical Insulation Conference (EIC)",
+   "first-page": "279",
+   "article-title": "The new Duval Pentagons available for DGA diagnosis in transformers filled with mineral and ester oils",
+   "author": "Duval",
+   "year": "2017"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib41",
+   "series-title": "Proceedings of My Transformer Conference",
+   "first-page": "21",
+   "article-title": "State of the art of technical diagnosis through interpretation of dissolved gas analysis",
+   "author": "Duval",
+   "year": "2012"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib42",
+   "series-title": "2016 International Conference on Condition Monitoring and Diagnosis (CMD)",
+   "first-page": "60",
+   "article-title": "The state of the art for dissolved gas analysis based on interpretation techniques",
+   "author": "Wattakapaiboon",
+   "year": "2016"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.heliyon.2024.e39449_bib43",
+   "doi-asserted-by": "crossref",
+   "first-page": "1534",
+   "DOI": "10.1109/TDEI.2023.3278623",
+   "article-title": "Detection of carbonization of paper in transformers using duval pentagon 2 and triangle 5",
+   "volume": "30",
+   "author": "Duval",
+   "year": "2023",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.heliyon.2024.e39449_bib44",
+   "doi-asserted-by": "crossref",
+   "first-page": "19",
+   "DOI": "10.1109/MEI.2022.9648268",
+   "article-title": "Identification of arcing faults in paper and oil in transformers\u2014Part I: using the duval pentagons",
+   "volume": "38",
+   "author": "Duval",
+   "year": "2022",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib45",
+   "series-title": "2022 IEEE International Conference on Power and Energy (PECon), Langkawi, Kedah, Malaysia",
+   "first-page": "163",
+   "article-title": "Dissolved gases analysis comparison of electrical faults between rice bran oil and mineral oil insulation systems",
+   "author": "Suhaimi",
+   "year": "2022"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib46",
+   "series-title": "2022 1st International Conference on Sustainable Technology for Power and Energy Systems (STPES), SRINAGAR, India",
+   "first-page": "1",
+   "article-title": "Incipient Fault diagnosis of power transformer based on duval pentagon using medium neural network",
+   "author": "Verma",
+   "year": "2022"
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.heliyon.2024.e39449_bib47",
+   "doi-asserted-by": "crossref",
+   "first-page": "1729",
+   "DOI": "10.1109/TDEI.2021.009520",
+   "article-title": "Stray gassing of oil in HV transformers",
+   "volume": "28",
+   "author": "Buchacz",
+   "year": "2021",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "Part 13",
+   "key": "10.1016/j.heliyon.2024.e39449_bib48",
+   "first-page": "7098",
+   "article-title": "Graphical examination of dissolved gas analysis by ratio methods and Duval triangle method to investigate internal faults of power transformer",
+   "volume": "62",
+   "author": "Soni",
+   "year": "2022",
+   "journal-title": "Mater. Today: Proc."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.heliyon.2024.e39449_bib49",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.heliyon.2024.e25975",
+   "article-title": "Machine learning based multi-method interpretation to enhance dissolved gas analysis for power transformer fault diagnosis",
+   "volume": "10",
+   "author": "Suwarno",
+   "year": "2024",
+   "journal-title": "Heliyon"
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.heliyon.2024.e39449_bib50",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.heliyon.2024.e26336",
+   "article-title": "A novel approach for oil-based transformer fault identification in electrical secondary distribution networks",
+   "volume": "10",
+   "author": "Mbembati",
+   "year": "2024",
+   "journal-title": "Heliyon"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib51",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.compeleceng.2024.109232",
+   "article-title": "Improving the accuracy of diagnostic predictions for power transformers by employing a hybrid approach combining SMOTE and DNN",
+   "volume": "117",
+   "author": "Gamel",
+   "year": "2024",
+   "journal-title": "Comput. Electr. Eng."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib52",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ijepes.2024.109951",
+   "article-title": "Multichannel consecutive data cross-extraction with 1DCNN-attention for diagnosis of power transformer",
+   "volume": "158",
+   "author": "Zheng",
+   "year": "2024",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib53",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.asoc.2023.111072",
+   "article-title": "A feature selection and ensemble learning based methodology for transformer fault diagnosis",
+   "volume": "150",
+   "author": "Rao",
+   "year": "2024",
+   "journal-title": "Appl. Soft Comput."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib54",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.rser.2024.114473",
+   "article-title": "Evolution of graphical methods for the identification of insulation faults in oil-immersed power transformers: a review",
+   "volume": "199",
+   "author": "Bustamante",
+   "year": "2024",
+   "journal-title": "Renew. Sustain. Energy Rev."
+  },
+  {
+   "issue": "9",
+   "key": "10.1016/j.heliyon.2024.e39449_bib55",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.heliyon.2024.e30670",
+   "article-title": "Transformer fault diagnosis based on adversarial generative networks and deep stacked autoencoder",
+   "volume": "10",
+   "author": "Zhang",
+   "year": "2024",
+   "journal-title": "Heliyon"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib56",
+   "series-title": "IEC 60567 Ed. 5.0 B",
+   "first-page": "1",
+   "article-title": "Oil-filled electrical equipment - sampling of free gases and analysis of free and dissolved gases in mineral oils and other insulating liquids \u2013 guidance",
+   "year": "2023"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e39449_bib57",
+   "first-page": "1",
+   "article-title": "Natural esters - guidelines for maintenance and use in electrical equipment",
+   "year": "2021",
+   "journal-title": "IEC 62975 Ed. 1.0 B"
+  }
+ ],
+ "container-title": [
+  "Heliyon"
+ ],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S2405844024154801?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S2405844024154801?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    4,
+    9
+   ]
+  ],
+  "date-time": "2026-04-09T09:56:18Z",
+  "timestamp": 1775728578000
+ },
+ "score": 79.99803,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2405844024154801"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2024,
+    10
+   ]
+  ]
+ },
+ "references-count": 57,
+ "journal-issue": {
+  "issue": "20",
+  "published-print": {
+   "date-parts": [
+    [
+     2024,
+     10
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "S2405844024154801"
+ ],
+ "URL": "https://doi.org/10.1016/j.heliyon.2024.e39449",
+ "ISSN": [
+  "2405-8440"
+ ],
+ "issn-type": [
+  {
+   "value": "2405-8440",
+   "type": "print"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2024,
+    10
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "A comprehensive analysis for wind turbine transformer and its limits in the dissolved gas evaluation",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Heliyon",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.heliyon.2024.e39449",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "\u00a9 2024 The Author. Published by Elsevier Ltd.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "e39449"
+}

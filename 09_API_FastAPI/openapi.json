@@ -1,0 +1,353 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "DGA transformer fault diagnosis service",
+    "description": "Machine-learning diagnosis of dissolved gas analysis (DGA) samples of mineral-oil power transformers (MPhil thesis, UMaT). Model dga_model_v1: Random Forest on feature set F4, trained on 439 development records. Decision support only; the conventional methods (Rogers, IEC 60599, Duval) are computed by the MATLAB dashboard. Local test bench: no log-in, listens on 127.0.0.1 only.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Health",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Health"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/version": {
+      "get": {
+        "summary": "Version",
+        "operationId": "version_version_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "additionalProperties": true,
+                  "type": "object",
+                  "title": "Response Version Version Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/diagnose": {
+      "post": {
+        "summary": "Diagnose",
+        "operationId": "diagnose_diagnose_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GasSample"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Diagnosis"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Diagnosis": {
+        "properties": {
+          "record_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Record Id",
+            "description": "The record_id sent with the request, if any."
+          },
+          "fault_class": {
+            "type": "string",
+            "title": "Fault Class",
+            "description": "Most probable class: Normal, PD, D1, D2, T1, T2 or T3 (IEC 60599 codes)."
+          },
+          "probabilities": {
+            "$ref": "#/components/schemas/Probabilities"
+          },
+          "confidence": {
+            "type": "number",
+            "title": "Confidence",
+            "description": "The largest class probability."
+          },
+          "model_name": {
+            "type": "string",
+            "title": "Model Name"
+          },
+          "model_version": {
+            "type": "string",
+            "title": "Model Version"
+          },
+          "model_sha256": {
+            "type": "string",
+            "title": "Model Sha256"
+          },
+          "data_version": {
+            "type": "string",
+            "title": "Data Version"
+          },
+          "notes": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Notes",
+            "description": "Remarks about this sample, e.g. features filled with the training median."
+          }
+        },
+        "type": "object",
+        "required": [
+          "fault_class",
+          "probabilities",
+          "confidence",
+          "model_name",
+          "model_version",
+          "model_sha256",
+          "data_version",
+          "notes"
+        ],
+        "title": "Diagnosis"
+      },
+      "GasSample": {
+        "properties": {
+          "record_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 64
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Record Id",
+            "description": "Optional label; returned unchanged."
+          },
+          "H2": {
+            "type": "number",
+            "minimum": 0.0,
+            "title": "H2",
+            "description": "Hydrogen [ppm]",
+            "unit": "ppm (ul/l)"
+          },
+          "CH4": {
+            "type": "number",
+            "minimum": 0.0,
+            "title": "Ch4",
+            "description": "Methane [ppm]",
+            "unit": "ppm (ul/l)"
+          },
+          "C2H6": {
+            "type": "number",
+            "minimum": 0.0,
+            "title": "C2H6",
+            "description": "Ethane [ppm]",
+            "unit": "ppm (ul/l)"
+          },
+          "C2H4": {
+            "type": "number",
+            "minimum": 0.0,
+            "title": "C2H4",
+            "description": "Ethylene [ppm]",
+            "unit": "ppm (ul/l)"
+          },
+          "C2H2": {
+            "type": "number",
+            "minimum": 0.0,
+            "title": "C2H2",
+            "description": "Acetylene [ppm]",
+            "unit": "ppm (ul/l)"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "H2",
+          "CH4",
+          "C2H6",
+          "C2H4",
+          "C2H2"
+        ],
+        "title": "GasSample",
+        "description": "One dissolved gas analysis: the five gases in ppm (ul/l).",
+        "examples": [
+          {
+            "C2H2": 2.0,
+            "C2H4": 450.0,
+            "C2H6": 80.0,
+            "CH4": 300.0,
+            "H2": 200.0,
+            "record_id": "example"
+          }
+        ]
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "Health": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "model_loaded": {
+            "type": "boolean",
+            "title": "Model Loaded"
+          },
+          "model_sha256": {
+            "type": "string",
+            "title": "Model Sha256"
+          },
+          "model_version": {
+            "type": "string",
+            "title": "Model Version"
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "model_loaded",
+          "model_sha256",
+          "model_version"
+        ],
+        "title": "Health"
+      },
+      "Probabilities": {
+        "properties": {
+          "Normal": {
+            "type": "number",
+            "title": "Normal"
+          },
+          "PD": {
+            "type": "number",
+            "title": "Pd"
+          },
+          "D1": {
+            "type": "number",
+            "title": "D1"
+          },
+          "D2": {
+            "type": "number",
+            "title": "D2"
+          },
+          "T1": {
+            "type": "number",
+            "title": "T1"
+          },
+          "T2": {
+            "type": "number",
+            "title": "T2"
+          },
+          "T3": {
+            "type": "number",
+            "title": "T3"
+          }
+        },
+        "type": "object",
+        "required": [
+          "Normal",
+          "PD",
+          "D1",
+          "D2",
+          "T1",
+          "T2",
+          "T3"
+        ],
+        "title": "Probabilities",
+        "description": "Probability of each class (sums to 1)."
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

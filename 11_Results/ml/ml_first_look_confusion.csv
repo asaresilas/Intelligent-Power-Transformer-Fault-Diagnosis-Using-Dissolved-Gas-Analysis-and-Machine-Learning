@@ -1,0 +1,135 @@
+evaluation_set,true,predicted,count
+Internal test - independent,Normal,Normal,7
+Internal test - independent,Normal,PD,1
+Internal test - independent,Normal,D1,0
+Internal test - independent,Normal,D2,0
+Internal test - independent,Normal,T1,1
+Internal test - independent,Normal,T2,0
+Internal test - independent,Normal,T3,1
+Internal test - independent,PD,Normal,0
+Internal test - independent,PD,PD,5
+Internal test - independent,PD,D1,2
+Internal test - independent,PD,D2,0
+Internal test - independent,PD,T1,0
+Internal test - independent,PD,T2,0
+Internal test - independent,PD,T3,0
+Internal test - independent,D1,Normal,0
+Internal test - independent,D1,PD,0
+Internal test - independent,D1,D1,6
+Internal test - independent,D1,D2,1
+Internal test - independent,D1,T1,0
+Internal test - independent,D1,T2,0
+Internal test - independent,D1,T3,0
+Internal test - independent,D2,Normal,0
+Internal test - independent,D2,PD,0
+Internal test - independent,D2,D1,2
+Internal test - independent,D2,D2,6
+Internal test - independent,D2,T1,0
+Internal test - independent,D2,T2,0
+Internal test - independent,D2,T3,0
+Internal test - independent,T1,Normal,0
+Internal test - independent,T1,PD,1
+Internal test - independent,T1,D1,0
+Internal test - independent,T1,D2,0
+Internal test - independent,T1,T1,9
+Internal test - independent,T1,T2,0
+Internal test - independent,T1,T3,0
+Internal test - independent,T2,Normal,0
+Internal test - independent,T2,PD,0
+Internal test - independent,T2,D1,0
+Internal test - independent,T2,D2,0
+Internal test - independent,T2,T1,0
+Internal test - independent,T2,T2,9
+Internal test - independent,T2,T3,1
+Internal test - independent,T3,Normal,0
+Internal test - independent,T3,PD,0
+Internal test - independent,T3,D1,0
+Internal test - independent,T3,D2,1
+Internal test - independent,T3,T1,0
+Internal test - independent,T3,T2,0
+Internal test - independent,T3,T3,8
+IEC TC 10 - power transformers,PD,PD,1
+IEC TC 10 - power transformers,PD,D1,0
+IEC TC 10 - power transformers,PD,D2,0
+IEC TC 10 - power transformers,PD,T12,0
+IEC TC 10 - power transformers,PD,T3,0
+IEC TC 10 - power transformers,PD,Normal,0
+IEC TC 10 - power transformers,D1,PD,0
+IEC TC 10 - power transformers,D1,D1,7
+IEC TC 10 - power transformers,D1,D2,3
+IEC TC 10 - power transformers,D1,T12,0
+IEC TC 10 - power transformers,D1,T3,0
+IEC TC 10 - power transformers,D1,Normal,0
+IEC TC 10 - power transformers,D2,PD,0
+IEC TC 10 - power transformers,D2,D1,3
+IEC TC 10 - power transformers,D2,D2,24
+IEC TC 10 - power transformers,D2,T12,0
+IEC TC 10 - power transformers,D2,T3,0
+IEC TC 10 - power transformers,D2,Normal,0
+IEC TC 10 - power transformers,T12,PD,0
+IEC TC 10 - power transformers,T12,D1,0
+IEC TC 10 - power transformers,T12,D2,1
+IEC TC 10 - power transformers,T12,T12,5
+IEC TC 10 - power transformers,T12,T3,1
+IEC TC 10 - power transformers,T12,Normal,1
+IEC TC 10 - power transformers,T3,PD,0
+IEC TC 10 - power transformers,T3,D1,0
+IEC TC 10 - power transformers,T3,D2,2
+IEC TC 10 - power transformers,T3,T12,5
+IEC TC 10 - power transformers,T3,T3,5
+IEC TC 10 - power transformers,T3,Normal,0
+IEC TC 10 - power transformers,Normal,PD,0
+IEC TC 10 - power transformers,Normal,D1,0
+IEC TC 10 - power transformers,Normal,D2,0
+IEC TC 10 - power transformers,Normal,T12,0
+IEC TC 10 - power transformers,Normal,T3,0
+IEC TC 10 - power transformers,Normal,Normal,0
+Li 2019 - independent,PD,PD,4
+Li 2019 - independent,PD,D1,1
+Li 2019 - independent,PD,D2,0
+Li 2019 - independent,PD,T1,3
+Li 2019 - independent,PD,T2,0
+Li 2019 - independent,PD,T3,0
+Li 2019 - independent,PD,Normal,0
+Li 2019 - independent,D1,PD,0
+Li 2019 - independent,D1,D1,17
+Li 2019 - independent,D1,D2,6
+Li 2019 - independent,D1,T1,0
+Li 2019 - independent,D1,T2,0
+Li 2019 - independent,D1,T3,0
+Li 2019 - independent,D1,Normal,0
+Li 2019 - independent,D2,PD,0
+Li 2019 - independent,D2,D1,2
+Li 2019 - independent,D2,D2,4
+Li 2019 - independent,D2,T1,0
+Li 2019 - independent,D2,T2,0
+Li 2019 - independent,D2,T3,1
+Li 2019 - independent,D2,Normal,0
+Li 2019 - independent,T1,PD,4
+Li 2019 - independent,T1,D1,0
+Li 2019 - independent,T1,D2,0
+Li 2019 - independent,T1,T1,7
+Li 2019 - independent,T1,T2,1
+Li 2019 - independent,T1,T3,2
+Li 2019 - independent,T1,Normal,5
+Li 2019 - independent,T2,PD,0
+Li 2019 - independent,T2,D1,0
+Li 2019 - independent,T2,D2,0
+Li 2019 - independent,T2,T1,1
+Li 2019 - independent,T2,T2,4
+Li 2019 - independent,T2,T3,2
+Li 2019 - independent,T2,Normal,2
+Li 2019 - independent,T3,PD,0
+Li 2019 - independent,T3,D1,0
+Li 2019 - independent,T3,D2,1
+Li 2019 - independent,T3,T1,0
+Li 2019 - independent,T3,T2,1
+Li 2019 - independent,T3,T3,18
+Li 2019 - independent,T3,Normal,0
+Li 2019 - independent,Normal,PD,0
+Li 2019 - independent,Normal,D1,0
+Li 2019 - independent,Normal,D2,0
+Li 2019 - independent,Normal,T1,0
+Li 2019 - independent,Normal,T2,0
+Li 2019 - independent,Normal,T3,0
+Li 2019 - independent,Normal,Normal,0

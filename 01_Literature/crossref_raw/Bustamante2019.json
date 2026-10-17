@@ -1,0 +1,902 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    19
+   ]
+  ],
+  "date-time": "2026-09-19T15:54:53Z",
+  "timestamp": 1789833293825,
+  "version": "4.0.1"
+ },
+ "reference-count": 99,
+ "publisher": "MDPI AG",
+ "issue": "19",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2019,
+      9,
+      20
+     ]
+    ],
+    "date-time": "2019-09-20T00:00:00Z",
+    "timestamp": 1568937600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "name": "EU Regional Development Fund (FEDER) and the Spanish Government",
+   "award": [
+    "RETOS-COLABORACION RTC-2017-6782-3"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "RETOS-COLABORACION RTC-2017-6782-3"
+     ]
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100006365",
+   "name": "University of Cantabria",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "Industrial Doctorate 19.DI12.649"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "Industrial Doctorate 19.DI12.649"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100006365",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Sensors"
+ ],
+ "abstract": "<jats:p>Power transformers are the most important assets of electric power substations. The reliability in the operation of electric power transmission and distribution is due to the correct operation and maintenance of power transformers. The parameters that are most used to assess the health status of power transformers are dissolved gas analysis (DGA), oil quality analysis (OQA) and content of furfuraldehydes (FFA) in oil. The parameter that currently allows for simple online monitoring in an energized transformer is the DGA. Although most of the DGA continues to be done in the laboratory, the trend is online DGA monitoring, since it allows for detection or diagnosis of the faults throughout the life of the power transformers. This study presents a review of the main DGA monitors, single- or multi-gas, their most important specifications, accuracy, repeatability and measurement range, the types of installation, valve or closed loop, and number of analogue inputs and outputs. This review shows the differences between the main existing DGA monitors and aims to help in the selection of the most suitable DGA monitoring approach according to the needs of each case.</jats:p>",
+ "DOI": "10.3390/s19194057",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2019,
+    9,
+    20
+   ]
+  ],
+  "date-time": "2019-09-20T02:51:11Z",
+  "timestamp": 1568947871000
+ },
+ "page": "4057",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 174,
+ "title": [
+  "Dissolved Gas Analysis Equipment for Online Monitoring of Transformer Oil: A Review"
+ ],
+ "prefix": "10.3390",
+ "volume": "19",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0001-7691-6187",
+   "authenticated-orcid": false,
+   "given": "Sergio",
+   "family": "Bustamante",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "School of Industrial Engineering, University of Cantabria, Av. Los Castros s/n, 39005 Cantabria, Spain"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-6886-8170",
+   "authenticated-orcid": false,
+   "given": "Mario",
+   "family": "Manana",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "School of Industrial Engineering, University of Cantabria, Av. Los Castros s/n, 39005 Cantabria, Spain"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-6045-2610",
+   "authenticated-orcid": false,
+   "given": "Alberto",
+   "family": "Arroyo",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "School of Industrial Engineering, University of Cantabria, Av. Los Castros s/n, 39005 Cantabria, Spain"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-4276-4909",
+   "authenticated-orcid": false,
+   "given": "Pablo",
+   "family": "Castro",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "School of Industrial Engineering, University of Cantabria, Av. Los Castros s/n, 39005 Cantabria, Spain"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-3751-7305",
+   "authenticated-orcid": false,
+   "given": "Alberto",
+   "family": "Laso",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "School of Industrial Engineering, University of Cantabria, Av. Los Castros s/n, 39005 Cantabria, Spain"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-0278-2785",
+   "authenticated-orcid": false,
+   "given": "Raquel",
+   "family": "Martinez",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "School of Industrial Engineering, University of Cantabria, Av. Los Castros s/n, 39005 Cantabria, Spain"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2019,
+    9,
+    20
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "unstructured": "CIGRE (2018). Ageing High Voltage Substation Equipment and Possible Mitigation Techniques, CIGRE."
+  },
+  {
+   "key": "ref_2",
+   "doi-asserted-by": "crossref",
+   "first-page": "201",
+   "DOI": "10.1016/j.rser.2015.02.052",
+   "article-title": "A review of monitoring methods for predictive maintenance of electric power transformers based on dissolved gas analysis",
+   "volume": "46",
+   "author": "Costa",
+   "year": "2015",
+   "journal-title": "Renew. Sustain. Energy Rev."
+  },
+  {
+   "key": "ref_3",
+   "doi-asserted-by": "crossref",
+   "first-page": "1442",
+   "DOI": "10.1016/j.rser.2017.05.165",
+   "article-title": "Causes of transformer failures and diagnostic methods\u2014A review",
+   "volume": "82",
+   "author": "Christina",
+   "year": "2018",
+   "journal-title": "Renew. Sustain. Energy Rev."
+  },
+  {
+   "key": "ref_4",
+   "unstructured": "(2015). IEEE Guide for Acceptance and Maintenance of Insulating Mineral Oil in Electrical Equipment, IEEE."
+  },
+  {
+   "key": "ref_5",
+   "unstructured": "CIGRE (2011). Guide for Transformer Maintenance, CIGRE."
+  },
+  {
+   "key": "ref_6",
+   "unstructured": "CIGRE (2015). Guide on Transformer Intelligent Condition Monitoring (TICM) Systems, CIGRE."
+  },
+  {
+   "key": "ref_7",
+   "unstructured": "(2002). Power Transformer Maintenance and Application Guide, EPRI. Technical Report."
+  },
+  {
+   "key": "ref_8",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Saad, M., and teNyenhuis, E. (2017, January 22\u201325). On-line gas monitoring for increased transformer protection. Proceedings of the IEEE Electrical Power and Energy Conference (EPEC), Saskatoon, SK, Canada.",
+   "DOI": "10.1109/EPEC.2017.8286169"
+  },
+  {
+   "key": "ref_9",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Khederzadeh, M. (2008, January 9\u201312). Transformer Overload Management and Condition Monitoring. Proceedings of the IEEE International Symposium on Electrical Insulation, Vancouver, BC, Canada.",
+   "DOI": "10.1109/ELINSL.2008.4570292"
+  },
+  {
+   "key": "ref_10",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Bian, J., Yang, S., and Sun, X. (2017, January 29\u201331). The optimal maintenance strategy of power transformers based on the life cycle cost. Proceedings of the 13th International Conference on Natural Computation, Fuzzy Systems and Knowledge Discovery (ICNC-FSKD), Guilin, China.",
+   "DOI": "10.1109/FSKD.2017.8393140"
+  },
+  {
+   "key": "ref_11",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Freitag, S.C., Sperandio, M., Marchesan, T.B., and Carraro, R. (2018, January 12\u201316). Power transformer risk management: Predictive methodology based on reliability centered maintenance. Proceedings of the Simposio Brasileiro de Sistemas Eletricos (SBSE), Niteroi, Brazil.",
+   "DOI": "10.1109/SBSE.2018.8395532"
+  },
+  {
+   "key": "ref_12",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Irungu, G.K., Akumu, A.O., and Munda, J.L. (2017, January 18\u201320). Transformer condition assessment for maintenance ranking: A comparison of three standards and different weighting techniques. Proceedings of the IEEE AFRICON, Cape Town, South Africa.",
+   "DOI": "10.1109/AFRCON.2017.8095626"
+  },
+  {
+   "key": "ref_13",
+   "unstructured": "(2018). Risk Management. Guidelines 31000:2018, ISO."
+  },
+  {
+   "key": "ref_14",
+   "unstructured": "Working Group DNOs and NIE (2017). DNO Common Network Asset Indices Methodology, Technical Report."
+  },
+  {
+   "key": "ref_15",
+   "doi-asserted-by": "crossref",
+   "first-page": "20",
+   "DOI": "10.1109/MEI.2009.4802595",
+   "article-title": "An approach to power transformer asset management using health index",
+   "volume": "25",
+   "author": "Jahromi",
+   "year": "2009",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_16",
+   "doi-asserted-by": "crossref",
+   "first-page": "965",
+   "DOI": "10.1109/TDEI.2013.6518966",
+   "article-title": "Application of fuzzy support vector machine for determining the health index of the insulation system of in-service power transformers",
+   "volume": "20",
+   "author": "Ashkezari",
+   "year": "2013",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "first-page": "2029",
+   "DOI": "10.1109/TPWRD.2012.2205165",
+   "article-title": "Calculation of a Health Index for Oil-Immersed Transformers Rated Under 69 kV Using Fuzzy Logic",
+   "volume": "27",
+   "author": "Salama",
+   "year": "2012",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_18",
+   "doi-asserted-by": "crossref",
+   "first-page": "202",
+   "DOI": "10.1049/oap-cired.2017.1174",
+   "article-title": "Health index as condition estimator for power system equipment: A critical discussion and case study",
+   "volume": "2017",
+   "author": "Godin",
+   "year": "2017",
+   "journal-title": "CIRED Open Access Proc. J."
+  },
+  {
+   "key": "ref_19",
+   "doi-asserted-by": "crossref",
+   "first-page": "7",
+   "DOI": "10.1109/MEI.2016.7552372",
+   "article-title": "Health indexes for power transformers: A case study",
+   "volume": "32",
+   "author": "Ortiz",
+   "year": "2016",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Hernanda, I.G.N.S., Mulyana, A., Asfani, D.A., Negara, I.M.Y., and Fahmi, D. (2014, January 22\u201325). Application of health index method for transformer condition assessment. Proceedings of the TENCON 2014: IEEE Region 10 Conference FacebookTwitterLinkedInGoogle, Bangkok, Thailand.",
+   "DOI": "10.1109/TENCON.2014.7022433"
+  },
+  {
+   "key": "ref_21",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Alqudsi, A.Y., and ElHag, A.H. (2017, January 16\u201318). A cost effective artificial intelligence based transformer insulation health index. Proceedings of the 3rd International Conference on Condition Assessment Techniques in Electrical Systems (CATCON), Punjab, India.",
+   "DOI": "10.1109/CATCON.2017.8280194"
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Naderian, A., Cress, S., Piercy, R., Wang, F., and Service, J. (2008, January 22\u201326). An Approach to Determine the Health Index of Power Transformers. Proceedings of the Conference Record of the 2008 IEEE International Symposium on Electrical Insulation, Nice, France.",
+   "DOI": "10.1109/ELINSL.2008.4570308"
+  },
+  {
+   "key": "ref_23",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Haema, J., and Phadungthin, R. (2012, January 18\u201320). Condition assessment of the health index for power transformer. Proceedings of the 2012 Power Engineering and Automation Conference, Wuhan, China.",
+   "DOI": "10.1109/PEAM.2012.6612413"
+  },
+  {
+   "key": "ref_24",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Scatiggio, F., and Pompili, M. (2013, January 2\u20135). Health index: The TERNA\u2019s practical approach for transformers fleet management. Proceedings of the 2013 IEEE Electrical Insulation Conference (EIC), Ottawa, ON, Canada.",
+   "DOI": "10.1109/EIC.2013.6554228"
+  },
+  {
+   "key": "ref_25",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Taengko, K., and Damrongkulkamjorn, P. (2013, January 15\u201317). Risk assessment for power transformers in PEA substations using health index. Proceedings of the 10th International Conference on Electrical Engineering/Electronics, Computer, Telecommunications and Information Technology, Krabi, Thailand.",
+   "DOI": "10.1109/ECTICon.2013.6559602"
+  },
+  {
+   "key": "ref_26",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Wattakapaiboon, W., and Pattanadech, N. (2016, January 25\u201328). The new developed Health Index for transformer condition assessment. Proceedings of the International Conference on Condition Monitoring and Diagnosis (CMD), Xi\u2019an, China.",
+   "DOI": "10.1109/CMD.2016.7757760"
+  },
+  {
+   "key": "ref_27",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ghazali, Y.Z.Y., Talib, M.A., and Rosli, H.A. (2009). TNB Experience in Condition Assessment and Life Management of Distribution Power Transformers, IET.",
+   "DOI": "10.1049/cp.2009.0919"
+  },
+  {
+   "key": "ref_28",
+   "unstructured": "Scatiggio, F., Fraioli, A., Iuliani, V., Terna Rete Italia, and Pompili, M. (2014, January 24\u201329). Health Index: The TERNA\u2019s Practical Approach for Transformers Fleet Management. Proceedings of the CIGR\u00c9 Biennial Session A2-107, Paris, France."
+  },
+  {
+   "key": "ref_29",
+   "unstructured": "Picher, P., Boudreau, J.F., Manga, A., Rajotte, C., Tardif, C., Bizier, G., Gaetano, N.D., Garon, D., Girard, B., and Hamel, J.F. (2014, January 24\u201329). Use of Health Index and Reliability Data for Transformer Condition Assessment and Fleet Ranking. Proceedings of the CIGR\u00c9 Biennial Session A2-101, Paris, France."
+  },
+  {
+   "key": "ref_30",
+   "unstructured": "Saha, T.K., Ma, H., Ekanayake, C., Martin, D., and Allan, D. (2014, January 24\u201329). Pattern Recognition Techniques for Determining the Health Index of Oil-Paper Insulation of In-service Power Transformers. Proceedings of the CIGR\u00c9 Biennial Session A2-105, Paris, France."
+  },
+  {
+   "key": "ref_31",
+   "unstructured": "N\u00e9meth, B., V\u00f6r\u00f6s, C., and Cs\u00e9pes, G. (2014, January 24\u201329). Health index as one of the best practice for condition assessment of transformers and substation equipments\u2014Hungarian experience. Proceedings of the CIGR\u00c9 Biennial Session A2-103, Paris, France."
+  },
+  {
+   "key": "ref_32",
+   "doi-asserted-by": "crossref",
+   "first-page": "687",
+   "DOI": "10.1016/j.rser.2017.03.094",
+   "article-title": "Evolution of transformer health index in the form of mathematical equation",
+   "volume": "76",
+   "author": "Azmi",
+   "year": "2017",
+   "journal-title": "Renew. Sustain. Energy Rev."
+  },
+  {
+   "key": "ref_33",
+   "doi-asserted-by": "crossref",
+   "first-page": "125",
+   "DOI": "10.3311/PPee.8583",
+   "article-title": "Analysis of the Green Power Transition on Optimal Power Transformer Designs",
+   "volume": "59",
+   "author": "Orosz",
+   "year": "2015",
+   "journal-title": "Period. Polytech. Electr. Eng. Comput. Sci."
+  },
+  {
+   "key": "ref_34",
+   "unstructured": "(2008). IEEE Guide for the Interpretation of Gases Generated in Oil-Immersed Transformers, IEEE."
+  },
+  {
+   "key": "ref_35",
+   "unstructured": "(2015). IEC 60599:2015: Mineral Oil-Filled Electrical Equipment in Service\u2014Guidance on the Interpretation of Dissolved and Free Gases Analysis, IEC."
+  },
+  {
+   "key": "ref_36",
+   "unstructured": "CIGRE (2003). Life Management Techniques For Power Transformers, CIGRE."
+  },
+  {
+   "key": "ref_37",
+   "unstructured": "(1993). IEC 61198:1993: Mineral Insulating Oils\u2014Methods for the Determination of 2-Furfural and Related Compounds, IEC."
+  },
+  {
+   "key": "ref_38",
+   "unstructured": "CIGRE (2012). Furanic Compounds for Diagnosis, CIGRE."
+  },
+  {
+   "key": "ref_39",
+   "doi-asserted-by": "crossref",
+   "first-page": "15",
+   "DOI": "10.1109/MEI.2015.7126070",
+   "article-title": "Statistical study on the reference values of furanic compounds in power transformers",
+   "volume": "31",
+   "author": "Urquiza",
+   "year": "2015",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_40",
+   "doi-asserted-by": "crossref",
+   "first-page": "1220",
+   "DOI": "10.1016/j.egypro.2011.12.1079",
+   "article-title": "A Review of Dissolved Gas Analysis in Power Transformers",
+   "volume": "14",
+   "author": "Sun",
+   "year": "2012",
+   "journal-title": "Energy Procedia"
+  },
+  {
+   "key": "ref_41",
+   "unstructured": "(2010). CIGRE. DGA in Non-Mineral Oils and Load Tap Changers and Improved DGA Diagnosis Criteria, CIGRE."
+  },
+  {
+   "key": "ref_42",
+   "doi-asserted-by": "crossref",
+   "first-page": "873",
+   "DOI": "10.1109/TDEI.2015.005370",
+   "article-title": "A review on critical evaluation of natural ester vis-a-vis mineral oil insulating liquid for use in transformers: Part 1",
+   "volume": "23",
+   "author": "Mehta",
+   "year": "2016",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_43",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Scatiggio, F., Pepe, F., Sacco, S., and Serafino, C. (2019, January 23\u201327). Increased Loadability of Transformers Immersed in Natural Ester. Proceedings of the IEEE 20th International Conference on Dielectric Liquids (ICDL), Roma, Italy.",
+   "DOI": "10.1109/ICDL.2019.8796759"
+  },
+  {
+   "key": "ref_44",
+   "doi-asserted-by": "crossref",
+   "first-page": "995",
+   "DOI": "10.1049/iet-smt.2018.5537",
+   "article-title": "Performance analysis of vegetable oil-based nanofluids used in transformers",
+   "volume": "13",
+   "author": "Baruah",
+   "year": "2019",
+   "journal-title": "IET Sci. Meas. Technol."
+  },
+  {
+   "key": "ref_45",
+   "unstructured": "(2000). Transformer Maintenance - Facilities Instructions, Standards, and Techniques."
+  },
+  {
+   "key": "ref_46",
+   "unstructured": "(2007). Serveron White Paper: DGA Diagnostic Methods, Serveron Corporation."
+  },
+  {
+   "key": "ref_47",
+   "unstructured": "CIGRE (2019). Advances in DGA Interpretation, CIGRE."
+  },
+  {
+   "key": "ref_48",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Pattanadech, N., and Wattakapaiboon, W. (2019, January 2\u20135). Application of Duval Pentagon Compared with Other DGA Interpretation Techniques: Case Studies for Actual Transformer Inspections Including Experience from Power Plants in Thailand. Proceedings of the 5th International Conference on Engineering, Applied Sciences and Technology (ICEAST), Luang Prabang, Laos.",
+   "DOI": "10.1109/ICEAST.2019.8802523"
+  },
+  {
+   "key": "ref_49",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Pattanadech, N., Sasomponsawatline, K., Siriworachanyadee, J., and Angsusatra, W. (2019, January 23\u201327). The conformity of DGA interpretation techniques: Experience from transformer 132 units. Proceedings of the IEEE 20th International Conference on Dielectric Liquids (ICDL), Roma, Italy.",
+   "DOI": "10.1109/ICDL.2019.8796588"
+  },
+  {
+   "key": "ref_50",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Basuki, A. (2018, January 29\u201331). Online Dissolved Gas Analysis of Power Transformers Based on Decision Tree Model. Proceedings of the Conference on Power Engineering and Renewable Energy (ICPERE), Solo, Indonesia.",
+   "DOI": "10.1109/ICPERE.2018.8739761"
+  },
+  {
+   "key": "ref_51",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Wattakapaiboon, W., and Pattanadech, N. (2016, January 25\u201328). The state of the art for dissolved gas analysis based on interpretation techniques. Proceedings of the International Conference on Condition Monitoring and Diagnosis (CMD), Xi\u2019an, China.",
+   "DOI": "10.1109/CMD.2016.7757763"
+  },
+  {
+   "key": "ref_52",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Golarz, J. (2016, January 3\u20135). Understanding Dissolved Gas Analysis (DGA) techniques and interpretations. Proceedings of the IEEE/PES Transmission and Distribution Conference and Exposition (T&D), Dallas, TX, USA.",
+   "DOI": "10.1109/TDC.2016.7519852"
+  },
+  {
+   "key": "ref_53",
+   "doi-asserted-by": "crossref",
+   "first-page": "3600",
+   "DOI": "10.1109/TDEI.2015.005347",
+   "article-title": "Analysis of excessive hydrogen generation in transformers in service",
+   "volume": "22",
+   "author": "Piotrowski",
+   "year": "2015",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_54",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Bakar, N.A., Abu-Siada, A., Cui, H., and Li, S. (2017, January 14\u201317). Improvement of DGA interpretation using scoring index method. Proceedings of the 1st International Conference on Electrical Materials and Power Equipment (ICEMPE), Xi\u2019an, China.",
+   "DOI": "10.1109/ICEMPE.2017.7982139"
+  },
+  {
+   "key": "ref_55",
+   "doi-asserted-by": "crossref",
+   "first-page": "1007",
+   "DOI": "10.1109/TDEI.2012.6215106",
+   "article-title": "A new approach to identify power transformer criticality and asset management decision based on dissolved gas-in-oil analysis",
+   "volume": "19",
+   "author": "Islam",
+   "year": "2012",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_56",
+   "doi-asserted-by": "crossref",
+   "first-page": "21",
+   "DOI": "10.1109/MEI.2005.1489986",
+   "article-title": "Improving the reliability of transformer gas-in-oil diagnosis",
+   "volume": "21",
+   "author": "Duval",
+   "year": "2005",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_57",
+   "unstructured": "CIGRE (2010). Report on Gas Monitors for Oil-Filled Electrical Equipment, CIGRE."
+  },
+  {
+   "key": "ref_58",
+   "unstructured": "(2018, July 31). Calisto 2. Available online: https://www.morganschaffer.com/products.php?id=4."
+  },
+  {
+   "key": "ref_59",
+   "unstructured": "(2018, July 31). Calisto 5. Available online: https://www.morganschaffer.com/products.php?id=2."
+  },
+  {
+   "key": "ref_60",
+   "unstructured": "(2018, July 31). Calisto 9. Available online: https://www.morganschaffer.com/products.php?id=1."
+  },
+  {
+   "key": "ref_61",
+   "unstructured": "(2018, July 31). SmartDGA Guard\u2122. Available online: https://www.lumasenseinc.com/EN/products/gas-sensing/smart-dga-for-transformers/smart-dga-guard-4-gas/smartdga-guard.html."
+  },
+  {
+   "key": "ref_62",
+   "unstructured": "(2018, July 31). SmartDGA Guide\u2122. Available online: https://www.lumasenseinc.com/EN/products/gas-sensing/smart-dga-for-transformers/smart-dga-guide-9-gas/smartdga-guide.html."
+  },
+  {
+   "key": "ref_63",
+   "unstructured": "(2018, July 31). Kelman MINITRANS Multiple Gas Transformer DGA. Available online: https://www.gegridsolutions.com/md/catalog/minitrans.htm."
+  },
+  {
+   "key": "ref_64",
+   "unstructured": "(2018, July 31). Hydran 201Ti Single Gas Transformer DGA. Available online: https://www.gegridsolutions.com/MD/catalog/hydran201Ti.htm."
+  },
+  {
+   "key": "ref_65",
+   "unstructured": "(2018, July 31). Hydran M2-X Single Gas Transformer DGA. Available online: https://www.gegridsolutions.com/MD/catalog/hydranm2x.htm."
+  },
+  {
+   "key": "ref_66",
+   "unstructured": "(2018, July 31). Kelman TAPTRANS Multiple Gas Transformer DGA. Available online: https://www.gegridsolutions.com/md/catalog/taptrans.htm."
+  },
+  {
+   "key": "ref_67",
+   "unstructured": "(2018, July 31). Kelman TRANSFIX Multiple Gas Transformer DGA. Available online: https://www.gegridsolutions.com/md/catalog/transfix.htm."
+  },
+  {
+   "key": "ref_68",
+   "unstructured": "(2018, July 31). Kelman MULTITRANS Multiple Gas Transformer DGA. Available online: https://www.gegridsolutions.com/md/catalog/multitrans.htm."
+  },
+  {
+   "key": "ref_69",
+   "unstructured": "(2018, July 31). Kelman DGA 900 Multiple Gas Transformer DGA. Available online: https://www.gegridsolutions.com/md/catalog/DGA900.htm."
+  },
+  {
+   "key": "ref_70",
+   "unstructured": "(2018, July 31). Moisture, Hydrogen and Temperature Transmitter MHT410. Available online: https://www.vaisala.com/en/products/instruments-sensors-and-other-measurement-devices/instruments-industrial-measurements/mht410."
+  },
+  {
+   "key": "ref_71",
+   "unstructured": "(2018, July 31). Optimus\u2122 DGA Monitor OPT100. Available online: https://www.vaisala.com/en/products/instruments-sensors-and-other-measurement-devices/instruments-industrial-measurements/opt100."
+  },
+  {
+   "key": "ref_72",
+   "unstructured": "(2018, July 31). CoreSense\u2122 Gives Continuous Online Monitoring of Transformer Gases, Such as Hydrogen and Moisture. Available online: https://new.abb.com/products/transformers/service/advanced-services/coresense."
+  },
+  {
+   "key": "ref_73",
+   "unstructured": "(2018, July 31). CoreSense M10 Multi-Gas DGA Analyzer. Available online: https://new.abb.com/products/transformers/service/advanced-services/coresense-m10."
+  },
+  {
+   "key": "ref_74",
+   "unstructured": "(2018, July 31). DGA 150/250/400 Submersible Single Gas Monitor. Available online: https://www.qualitrolcorp.com/products/dissolved-gas-analyzers/single-gas-analyzers/qualitrol-dga-150250400-submersible-single-gas-monitor/."
+  },
+  {
+   "key": "ref_75",
+   "unstructured": "(2018, July 31). Serveron\u00ae TM1 Single Gas On-line Dissolved Gas Monitor. Available online: https://www.qualitrolcorp.com/products/dissolved-gas-analyzers/single-gas-analyzers/serveron-tm1-single-gas-on-line-dissolved-gas-monitor/."
+  },
+  {
+   "key": "ref_76",
+   "unstructured": "(2018, July 31). Multi Gas Serveron\u00ae TM3 On-line Gas Chromatography Dissolved Gas Monitor. Available online: https://www.qualitrolcorp.com/products/dissolved-gas-analyzers/multi-gas-analyzers/serveron-tm3-multi-gas-analyzer-multi-gas-on-line-dissolved-gas-monitor/."
+  },
+  {
+   "key": "ref_77",
+   "unstructured": "(2018, July 31). Multi Gas Serveron\u00ae TM8 On-line Gas Chromatography Dissolved Gas Monitor. Available online: https://www.qualitrolcorp.com/products/dissolved-gas-analyzers/multi-gas-analyzers/serveron-tm8-multi-gas-on-line-dissolved-gas-monitor/."
+  },
+  {
+   "key": "ref_78",
+   "unstructured": "(2018, July 31). Hydrocal Early Warning. Available online: https://www.mte.ch/products/transformer-monitoring/early-warning-10026."
+  },
+  {
+   "key": "ref_79",
+   "unstructured": "(2018, July 31). Hydrocal 1004 GenX. Available online: https://www.mte.ch/products/transformer-monitoring/hydrocal-genx-10024."
+  },
+  {
+   "key": "ref_80",
+   "unstructured": "(2018, July 31). Hydrocal Intensive Care. Available online: https://www.mte.ch/products/transformer-monitoring/intensive-care-10023."
+  },
+  {
+   "key": "ref_81",
+   "unstructured": "(2018, November 12). SITRAM H2 Guard\u2014Early Fault Detection in Transformer Oil. Available online: https://www.energy.siemens.com/hq/en/services/power-transmission-distribution-smart-grid/condition-monitoring/for-hv-gis/sensors-and-accessories.htm."
+  },
+  {
+   "key": "ref_82",
+   "unstructured": "(2018, November 12). SITRAM Multisense 5\u2014Monitoring and Diagnostics. Available online: https://www.siemens.com/content/dam/webassetpool/mam/tag-siemens-com/smdb/energy-management/services-power-transmission-power-distribution-smart-grid/customer-services/cs-ff-en-sitram-multisense-9-v-1-2.pdf."
+  },
+  {
+   "key": "ref_83",
+   "unstructured": "(2018, November 12). SITRAM Multisense 9\u2014Monitoring and Diagnostics. Available online: https://www.siemens.com/content/dam/webassetpool/mam/tag-siemens-com/smdb/energy-management/services-power-transmission-power-distribution-smart-grid/customer-services/cs-ff-en-sitram-multisense-9-v-1-2.pdf."
+  },
+  {
+   "key": "ref_84",
+   "unstructured": "(2018, November 12). TOTUS G5-DGA. Available online: https://www.camlingroup.com/product/totus-g5."
+  },
+  {
+   "key": "ref_85",
+   "unstructured": "(2018, November 12). TOTUS G9-DGA. Available online: https://www.camlingroup.com/product/totus-mt."
+  },
+  {
+   "key": "ref_86",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Chauhan, P.S., and Bhattacharya, S. (2019). Hydrogen gas sensing methods, materials, and approach to achieve parts per billion level detection: A review. Int. J. Hydrog. Energy.",
+   "DOI": "10.1016/j.ijhydene.2019.08.052"
+  },
+  {
+   "key": "ref_87",
+   "doi-asserted-by": "crossref",
+   "first-page": "329",
+   "DOI": "10.1016/j.snb.2011.04.070",
+   "article-title": "Hydrogen sensors\u2014A review",
+   "volume": "157",
+   "author": "Black",
+   "year": "2011",
+   "journal-title": "Sens. Actuators Chem."
+  },
+  {
+   "key": "ref_88",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Dennison, J.C., and Trout, J.M. (2016, January 2\u20135). Transformer oil DGA monitoring technology study 2015. Proceedings of the IEEE/PES Transmission and Distribution Conference and Exposition (T&D), Dallas, TX, USA.",
+   "DOI": "10.1109/TDC.2016.7519918"
+  },
+  {
+   "key": "ref_89",
+   "first-page": "61",
+   "article-title": "Gas Sensors\u2014A Review",
+   "volume": "168",
+   "author": "Yunusa",
+   "year": "2014",
+   "journal-title": "Sens. Transducers J."
+  },
+  {
+   "key": "ref_90",
+   "doi-asserted-by": "crossref",
+   "first-page": "39",
+   "DOI": "10.1109/MEI.2014.6804740",
+   "article-title": "A review of dissolved gas analysis measurement and interpretation techniques",
+   "volume": "30",
+   "author": "Bakar",
+   "year": "2014",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_91",
+   "unstructured": "(2003). Instrument Engineers\u2019 Handbook, Vol. 1: Process Measurement and Analysis, CRC Press."
+  },
+  {
+   "key": "ref_92",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Kolb, B., and Ettre, L.S. (2006). Static Headspace-Gas Chromatography, John Wiley & Sons, Inc.",
+   "DOI": "10.1002/0471914584"
+  },
+  {
+   "key": "ref_93",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Soria, A.C., Garc\u00eda-Sarri\u00f3, M.J., Ruiz-Matute, A.I., and Sanz, M.L. (2017). Headspace Techniques for Volatile Sampling. Comprehensive Analytical Chemistry, Elsevier.",
+   "DOI": "10.1016/bs.coac.2017.02.001"
+  },
+  {
+   "key": "ref_94",
+   "doi-asserted-by": "crossref",
+   "first-page": "85",
+   "DOI": "10.1016/j.trac.2015.04.015",
+   "article-title": "Volatile sampling by headspace techniques",
+   "volume": "71",
+   "author": "Soria",
+   "year": "2015",
+   "journal-title": "TrAC Trends Anal. Chem."
+  },
+  {
+   "key": "ref_95",
+   "unstructured": "(2012). IEEE Guide for Application for Monitoring Equipment to Liquid-Inmersed Transformers and Components, IEEE."
+  },
+  {
+   "key": "ref_96",
+   "doi-asserted-by": "crossref",
+   "first-page": "12",
+   "DOI": "10.1109/MEI.2002.1161455",
+   "article-title": "Review of condition assessment of power transformers in service",
+   "volume": "18",
+   "author": "Wang",
+   "year": "2002",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_97",
+   "unstructured": "CIGRE (2006). Recent Developments in DGA Intrepretation, CIGRE."
+  },
+  {
+   "key": "ref_98",
+   "doi-asserted-by": "crossref",
+   "first-page": "7",
+   "DOI": "10.1109/MEI.2008.4635656",
+   "article-title": "Calculation of DGA Limit Values and Sampling Intervals in Transformers in Service",
+   "volume": "24",
+   "author": "Duval",
+   "year": "2008",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_99",
+   "first-page": "1643",
+   "article-title": "Evaluation of On-Line DGA Limit Values and Calculation of Detecting Intervals for On-Line Monitoring Equipment for Transformers",
+   "volume": "986\u2013987",
+   "author": "Li",
+   "year": "2014",
+   "journal-title": "Adv. Mater. Res."
+  }
+ ],
+ "container-title": [
+  "Sensors"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/1424-8220/19/19/4057/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    11
+   ]
+  ],
+  "date-time": "2025-10-11T13:22:06Z",
+  "timestamp": 1760188926000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/1424-8220/19/19/4057"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2019,
+    9,
+    20
+   ]
+  ]
+ },
+ "references-count": 99,
+ "journal-issue": {
+  "issue": "19",
+  "published-online": {
+   "date-parts": [
+    [
+     2019,
+     10
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "s19194057"
+ ],
+ "URL": "https://doi.org/10.3390/s19194057",
+ "relation": {},
+ "ISSN": [
+  "1424-8220"
+ ],
+ "issn-type": [
+  {
+   "value": "1424-8220",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2019,
+    9,
+    20
+   ]
+  ]
+ }
+}

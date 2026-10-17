@@ -1,0 +1,134 @@
+TestConventionalMethods + TestReducedGas - roadmap Steps 15 and 26
+Run on: 2026-10-17 09:04:51
+MATLAB: 25.2.0.2998904 (R2025b)
+Data version: 1.0 (checked inside the tests)
+==============================================================================
+Running TestConventionalMethods
+.........  OK   03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv
+  OK   03_Data/raw/ieee_dataport_1375187/DGA_test_unseen.xlsx
+  OK   03_Data/raw/ieee_dataport_1375187/DGA_train.xlsx
+  OK   03_Data/raw/ieee_dataport_1375187/IEC_TC_10_data.xlsx
+  OK   03_Data/raw/ieee_dataport_7226/DGA dataset.xlsx
+  OK   03_Data/processed/dga_master.csv
+  OK   03_Data/processed/folds.csv
+  OK   03_Data/processed/label_map.csv
+  OK   02_Standards/duval_triangle_zones.csv
+  OK   02_Standards/iec_ratio_table.csv
+  OK   02_Standards/iec_typical_values.csv
+  OK   02_Standards/ieee_condition1_limits.csv
+  OK   02_Standards/rogers_ratio_table.csv
+  OK   02_Standards/rogers_secondary_versions.csv
+  OK   02_Standards/worked_examples.csv
+  OK   11_Results/figures/plot_style.csv
+Data version 1.0: 16 files checked, 0 differ.
+. Audit of 19 files: 0 disallowed numeric literal(s). PASS
+.......... .......... .......... ..........
+.......... .......
+Done TestConventionalMethods
+__________
+
+Running TestReducedGas
+.......... .......... ....10 of 10 checks passed.
+.Audit of 19 files: 0 disallowed numeric literal(s). PASS
+.
+Done TestReducedGas
+__________
+
+
+==============================================================================
+Test                                                                                  Passed  Duration [s]
+TestConventionalMethods/duvalPolygonsCoverTriangleExactlyOnce                         true    3.672
+TestConventionalMethods/duvalEveryPointHasAZone                                       true    0.067
+TestConventionalMethods/rogersCasesNeverOverlap                                       true    0.379
+TestConventionalMethods/iecT1RequiresMethaneHydrogenAboveOne                          true    1.253
+TestConventionalMethods/iecOverlapsAreOnlyTheDeclaredDualAnswer                       true    0.359
+TestConventionalMethods/boundaryDistanceRatioInDecades                                true    0.659
+TestConventionalMethods/boundaryDistanceDuvalIsPerpendicularInPercentagePoints        true    0.323
+TestConventionalMethods/duvalDecisionEdgesIgnoreTriangleSidesAndSeams                 true    0.451
+TestConventionalMethods/frozenDataVersionVerifies                                     true    4.739
+TestConventionalMethods/batchHasOneRowPerRecordAndMethod                              true    1.456
+TestConventionalMethods/noTypedLimitsInCode                                           true    0.678
+TestConventionalMethods/gateUpperAndLowerEnds                                         true    0.104
+TestConventionalMethods/gateC2H2DependsOnTapChanger                                   true    0.056
+TestConventionalMethods/gatedSampleIsNormalInAllThreeMethods                          true    0.315
+TestConventionalMethods/iecStrictLessThanAtLimit                                      true    0.436
+TestConventionalMethods/iecRangeIncludesBothEndPoints                                 true    0.536
+TestConventionalMethods/iecStrictGreaterThanAtLimit                                   true    0.346
+TestConventionalMethods/rogersStrictBothSidesAtOne                                    true    0.379
+TestConventionalMethods/duvalLowerLimitIncludedUpperExcluded                          true    1.019
+TestConventionalMethods/boundSemanticsOfBoundTest                                     true    0.845
+TestConventionalMethods/zeroDenominatorGivesUndefinedRatio                            true    0.017
+TestConventionalMethods/zeroNumeratorIsAValidRatio                                    true    0.015
+TestConventionalMethods/rogersNeedsAllThreeRatios                                     true    0.263
+TestConventionalMethods/iecUndefinedNeededRatioGivesND                                true    0.231
+TestConventionalMethods/iecUndefinedNSRatioStillDiagnoses                             true    0.250
+TestConventionalMethods/duvalAllZeroGivesND                                           true    0.245
+TestConventionalMethods/workedExample(example=ACIU_T12)                               true    0.236
+TestConventionalMethods/workedExample(example=ACIU_T14)                               true    0.279
+TestConventionalMethods/workedExample(example=ACIU_T16)                               true    0.193
+TestConventionalMethods/workedExample(example=MAN_EX)                                 true    0.170
+TestConventionalMethods/workedExample(example=MAN_01)                                 true    0.207
+TestConventionalMethods/workedExample(example=MAN_02)                                 true    0.186
+TestConventionalMethods/workedExample(example=MAN_03)                                 true    0.196
+TestConventionalMethods/workedExample(example=MAN_04)                                 true    0.197
+TestConventionalMethods/workedExample(example=MAN_05)                                 true    0.189
+TestConventionalMethods/workedExample(example=MAN_06)                                 true    0.169
+TestConventionalMethods/workedExample(example=MAN_07)                                 true    0.186
+TestConventionalMethods/workedExample(example=MAN_08)                                 true    0.166
+TestConventionalMethods/workedExample(example=MAN_09)                                 true    0.153
+TestConventionalMethods/workedExample(example=MAN_10)                                 true    0.175
+TestConventionalMethods/workedExample(example=MAN_11)                                 true    0.225
+TestConventionalMethods/workedExample(example=MAN_12)                                 true    0.213
+TestConventionalMethods/workedExample(example=MAN_13)                                 true    0.169
+TestConventionalMethods/workedExample(example=MAN_14)                                 true    0.193
+TestConventionalMethods/workedExample(example=MAN_15)                                 true    0.170
+TestConventionalMethods/workedExample(example=MAN_16)                                 true    0.170
+TestConventionalMethods/workedExample(example=MAN_17)                                 true    0.212
+TestConventionalMethods/workedExample(example=MAN_18)                                 true    0.165
+TestConventionalMethods/workedExample(example=MAN_19)                                 true    0.157
+TestConventionalMethods/workedExample(example=MAN_20)                                 true    0.155
+TestConventionalMethods/workedExample(example=MAN_21)                                 true    0.147
+TestConventionalMethods/workedExample(example=MAN_22)                                 true    0.146
+TestConventionalMethods/workedExample(example=MAN_23)                                 true    0.182
+TestConventionalMethods/workedExample(example=MAN_24)                                 true    0.177
+TestConventionalMethods/workedExample(example=MAN_25)                                 true    0.150
+TestConventionalMethods/workedExample(example=MAN_26)                                 true    0.163
+TestConventionalMethods/workedExample(example=MAN_27)                                 true    0.157
+TestConventionalMethods/workedExample(example=MAN_28)                                 true    0.165
+TestConventionalMethods/workedExample(example=MAN_29)                                 true    0.151
+TestConventionalMethods/workedExample(example=MAN_30)                                 true    0.151
+TestConventionalMethods/workedExample(example=MAN_31)                                 true    0.156
+TestConventionalMethods/workedExample(example=MAN_32)                                 true    0.181
+TestConventionalMethods/workedExample(example=MAN_33)                                 true    0.165
+TestConventionalMethods/workedExample(example=MAN_34)                                 true    0.167
+TestConventionalMethods/workedExample(example=MAN_35)                                 true    0.159
+TestConventionalMethods/workedExample(example=IEEE_F2)                                true    0.219
+TestConventionalMethods/exampleCountIsComplete                                        true    0.345
+TestReducedGas/oneRemovedGasGivesNdForRatioMethods(removedGas=H2)                     true    0.992
+TestReducedGas/oneRemovedGasGivesNdForRatioMethods(removedGas=CH4)                    true    0.255
+TestReducedGas/oneRemovedGasGivesNdForRatioMethods(removedGas=C2H6)                   true    0.220
+TestReducedGas/oneRemovedGasGivesNdForRatioMethods(removedGas=C2H4)                   true    0.229
+TestReducedGas/oneRemovedGasGivesNdForRatioMethods(removedGas=C2H2)                   true    0.219
+TestReducedGas/theTestIsNotVacuous                                                    true    0.010
+TestReducedGas/duvalIgnoresH2AndC2H6                                                  true    0.266
+TestReducedGas/duvalWithOneOfItsGasesRemovedGivesNd(duvalGasRemoved=CH4)              true    0.167
+TestReducedGas/duvalWithOneOfItsGasesRemovedGivesNd(duvalGasRemoved=C2H4)             true    0.209
+TestReducedGas/duvalWithOneOfItsGasesRemovedGivesNd(duvalGasRemoved=C2H2)             true    0.186
+TestReducedGas/removedGasValuesAreIgnored                                             true    0.564
+TestReducedGas/fiveGasesReproduceConventionalDiagnosis                                true    0.188
+TestReducedGas/gateNeverPassedWithMissingGas(removedGas=H2)                           true    0.208
+TestReducedGas/gateNeverPassedWithMissingGas(removedGas=CH4)                          true    0.250
+TestReducedGas/gateNeverPassedWithMissingGas(removedGas=C2H6)                         true    0.211
+TestReducedGas/gateNeverPassedWithMissingGas(removedGas=C2H4)                         true    0.195
+TestReducedGas/gateNeverPassedWithMissingGas(removedGas=C2H2)                         true    0.164
+TestReducedGas/sensitivityGateIsNotStricterThanPrimary(removedGas=H2)                 true    0.170
+TestReducedGas/sensitivityGateIsNotStricterThanPrimary(removedGas=CH4)                true    0.253
+TestReducedGas/sensitivityGateIsNotStricterThanPrimary(removedGas=C2H6)               true    0.197
+TestReducedGas/sensitivityGateIsNotStricterThanPrimary(removedGas=C2H4)               true    0.184
+TestReducedGas/sensitivityGateIsNotStricterThanPrimary(removedGas=C2H2)               true    0.170
+TestReducedGas/unknownGasNameIsRejected                                               true    0.038
+TestReducedGas/requiredGasesComeFromConfiguration                                     true    0.008
+TestReducedGas/batchPassesItsChecksAndHasAllRows                                      true    6.648
+TestReducedGas/noTypedLimitsInTheNewCode                                              true    0.480
+==============================================================================
+SUMMARY: 93 tests, 93 passed, 0 failed, 0 incomplete

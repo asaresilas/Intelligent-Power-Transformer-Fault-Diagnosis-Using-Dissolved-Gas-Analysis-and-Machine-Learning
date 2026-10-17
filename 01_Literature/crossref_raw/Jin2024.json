@@ -1,0 +1,547 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    30
+   ]
+  ],
+  "date-time": "2026-09-30T16:20:48Z",
+  "timestamp": 1790785248805,
+  "version": "4.1.0"
+ },
+ "reference-count": 64,
+ "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      1,
+      1
+     ]
+    ],
+    "date-time": "2024-01-01T00:00:00Z",
+    "timestamp": 1704067200000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "IEEE Access"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2024
+   ]
+  ]
+ },
+ "DOI": "10.1109/access.2024.3366905",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2024,
+    2,
+    19
+   ]
+  ],
+  "date-time": "2024-02-19T20:16:35Z",
+  "timestamp": 1708373795000
+ },
+ "page": "27794-27809",
+ "source": "Crossref",
+ "is-referenced-by-count": 65,
+ "title": [
+  "Deep Machine Learning-Based Asset Management Approach for Oil- Immersed Power Transformers Using Dissolved Gas Analysis"
+ ],
+ "prefix": "10.1109",
+ "volume": "12",
+ "author": [
+  {
+   "given": "Lan",
+   "family": "Jin",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Electrical and Computer Engineering Discipline, Curtin University, Perth, WA, Australia"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-8206-2189",
+   "authenticated-orcid": false,
+   "given": "Dowon",
+   "family": "Kim",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Electrical and Computer Engineering Discipline, Curtin University, Perth, WA, Australia"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-4949-7647",
+   "authenticated-orcid": false,
+   "given": "Kit Yan",
+   "family": "Chan",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Electrical and Computer Engineering Discipline, Curtin University, Perth, WA, Australia"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-2094-3036",
+   "authenticated-orcid": false,
+   "given": "Ahmed",
+   "family": "Abu-Siada",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Electrical and Computer Engineering Discipline, Curtin University, Perth, WA, Australia"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "ref1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/en15093379"
+  },
+  {
+   "key": "ref2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/a14040128"
+  },
+  {
+   "key": "ref3",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ieeestd.2009.4776518"
+  },
+  {
+   "key": "ref4",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/57.917529"
+  },
+  {
+   "key": "ref5",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.epsr.2023.109194"
+  },
+  {
+   "key": "ref6",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tdei.2013.6678888"
+  },
+  {
+   "key": "ref7",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.epsr.2017.04.025"
+  },
+  {
+   "key": "ref8",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tdei.2022.3148453"
+  },
+  {
+   "key": "ref9",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/jsen.2022.3149409"
+  },
+  {
+   "key": "ref10",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s42835-019-00105-0"
+  },
+  {
+   "key": "ref11",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/access.2021.3086135"
+  },
+  {
+   "key": "ref12",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/electronics10101206"
+  },
+  {
+   "key": "ref13",
+   "first-page": "83",
+   "article-title": "Power transformer fault diagnosis based on dissolved gas analysis with logistic regression",
+   "volume": "6",
+   "author": "Bo\u017ei\u0107",
+   "year": "2013",
+   "journal-title": "Przeglad Elektrotechniczny"
+  },
+  {
+   "key": "ref14",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1371/journal.pone.0191366"
+  },
+  {
+   "key": "ref15",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.epsr.2011.09.012"
+  },
+  {
+   "key": "ref16",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tdei.2018.006766"
+  },
+  {
+   "key": "ref17",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/en11040913"
+  },
+  {
+   "key": "ref18",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tdei.2018.007191"
+  },
+  {
+   "key": "ref19",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.measurement.2016.04.052"
+  },
+  {
+   "key": "ref20",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tdei.2018.006746"
+  },
+  {
+   "key": "ref21",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/mei.2012.6268440"
+  },
+  {
+   "key": "ref22",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1155/2017/9670290"
+  },
+  {
+   "key": "ref23",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/access.2020.3038386"
+  },
+  {
+   "key": "ref24",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tpwrd.2020.2988820"
+  },
+  {
+   "issue": "11",
+   "key": "ref25",
+   "doi-asserted-by": "crossref",
+   "first-page": "3623",
+   "DOI": "10.3390/s21113623",
+   "article-title": "A novel transformers fault diagnosis method based on probabilistic neural network and bio-inspired optimizer",
+   "volume": "21",
+   "author": "Tao",
+   "year": "2021",
+   "journal-title": "Sensors"
+  },
+  {
+   "key": "ref26",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1021/acsomega.1c01878"
+  },
+  {
+   "key": "ref27",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/acpee48638.2020.9136223"
+  },
+  {
+   "key": "ref28",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/icpsasia55496.2022.9949927"
+  },
+  {
+   "key": "ref29",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/access.2021.3112478"
+  },
+  {
+   "key": "ref30",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tdei.2014.004547"
+  },
+  {
+   "key": "ref31",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/access.2020.3027830"
+  },
+  {
+   "key": "ref32",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/poweri.2014.7117715"
+  },
+  {
+   "key": "ref33",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tdei.2017.006841"
+  },
+  {
+   "key": "ref34",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s40313-020-00625-5"
+  },
+  {
+   "key": "ref35",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tdei.2017.005959"
+  },
+  {
+   "key": "ref36",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.measurement.2021.110686"
+  },
+  {
+   "key": "ref37",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/naps.2015.7335098"
+  },
+  {
+   "key": "ref38",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.swevo.2017.03.005"
+  },
+  {
+   "key": "ref39",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.epsr.2020.106346"
+  },
+  {
+   "key": "ref40",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.epsr.2004.07.008"
+  },
+  {
+   "key": "ref41",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tpwrd.2002.803838"
+  },
+  {
+   "key": "ref42",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2017.0547"
+  },
+  {
+   "key": "ref43",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/wcica.2008.4593195"
+  },
+  {
+   "key": "ref44",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/access.2022.3156102"
+  },
+  {
+   "key": "ref45",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/en12214170"
+  },
+  {
+   "key": "ref46",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/61.544265"
+  },
+  {
+   "key": "ref47",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tpwrd.2007.893182"
+  },
+  {
+   "key": "ref48",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.asoc.2006.10.001"
+  },
+  {
+   "key": "ref49",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.asoc.2011.05.034"
+  },
+  {
+   "key": "ref50",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tpwrs.2005.846074"
+  },
+  {
+   "key": "ref51",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/energycon.2014.6850435"
+  },
+  {
+   "key": "ref52",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1080/15325008.2017.1338794"
+  },
+  {
+   "key": "ref53",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tkde.2008.239"
+  },
+  {
+   "key": "ref54",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tdei.2022.3230377"
+  },
+  {
+   "key": "ref55",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/aupec48547.2019.211896"
+  },
+  {
+   "key": "ref56",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tim.2022.3175268"
+  },
+  {
+   "key": "ref57",
+   "volume-title": "D1/A2 Technical Brochure\u2014Advances in DGA Interpretation",
+   "year": "2019"
+  },
+  {
+   "key": "ref58",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/mei.2017.7804313"
+  },
+  {
+   "key": "ref59",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/mei.2017.7804314"
+  },
+  {
+   "key": "ref60",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tdei.2012.6148524"
+  },
+  {
+   "key": "ref61",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tdei.2018.006392"
+  },
+  {
+   "issue": "3",
+   "key": "ref62",
+   "doi-asserted-by": "crossref",
+   "first-page": "670",
+   "DOI": "10.3390/en14030670",
+   "article-title": "The degree of polymerization in a prediction model of insulating paper and the remaining life of power transformers",
+   "volume": "14",
+   "author": "Ghoneim",
+   "year": "2021",
+   "journal-title": "Energies"
+  },
+  {
+   "issue": "6",
+   "key": "ref63",
+   "doi-asserted-by": "crossref",
+   "first-page": "981",
+   "DOI": "10.3390/pr9060981",
+   "article-title": "Classification of cellulosic insulation state based on smart life prediction approach (SLPA)",
+   "volume": "9",
+   "author": "Nezami",
+   "year": "2021",
+   "journal-title": "Processes"
+  },
+  {
+   "key": "ref64",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s13369-020-05180-4"
+  }
+ ],
+ "container-title": [
+  "IEEE Access"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx7/6287639/10380310/10439187.pdf?arnumber=10439187",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2024,
+    3,
+    1
+   ]
+  ],
+  "date-time": "2024-03-01T02:54:01Z",
+  "timestamp": 1709261641000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://ieeexplore.ieee.org/document/10439187/"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2024
+   ]
+  ]
+ },
+ "references-count": 64,
+ "URL": "https://doi.org/10.1109/access.2024.3366905",
+ "relation": {},
+ "ISSN": [
+  "2169-3536"
+ ],
+ "issn-type": [
+  {
+   "value": "2169-3536",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2024
+   ]
+  ]
+ }
+}

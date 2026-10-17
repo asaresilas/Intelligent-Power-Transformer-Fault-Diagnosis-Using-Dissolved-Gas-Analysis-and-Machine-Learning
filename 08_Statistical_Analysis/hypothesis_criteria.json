@@ -1,0 +1,75 @@
+{
+ "Internal test": {
+  "criterion1_ML_higher_and_significant": {
+   "Rogers": true,
+   "IEC60599": true,
+   "Duval": true
+  },
+  "criterion1_met": true,
+  "criterion2_conditional_gap_smaller": {
+   "Rogers": true,
+   "IEC60599": true,
+   "Duval": false
+  },
+  "criterion2_met": false,
+  "criterion3": "decided in Step 31",
+  "criterion3_beta1_negative_ci_excludes_0": {
+   "Rogers": false,
+   "IEC60599": false,
+   "Duval": false
+  },
+  "criterion3_met": false
+ },
+ "IEC TC 10 (power transformers)": {
+  "criterion1_ML_higher_and_significant": {
+   "Rogers": true,
+   "IEC60599": false,
+   "Duval": false
+  },
+  "criterion1_met": false,
+  "criterion2_conditional_gap_smaller": {
+   "Rogers": true,
+   "IEC60599": true,
+   "Duval": false
+  },
+  "criterion2_met": false,
+  "criterion3": "decided in Step 31",
+  "criterion3_beta1_negative_ci_excludes_0": {
+   "Rogers": true,
+   "IEC60599": false,
+   "Duval": false
+  },
+  "criterion3_met": false
+ },
+ "Li 2019": {
+  "criterion1_ML_higher_and_significant": {
+   "Rogers": true,
+   "IEC60599": true,
+   "Duval": true
+  },
+  "criterion1_met": true,
+  "criterion2_conditional_gap_smaller": {
+   "Rogers": true,
+   "IEC60599": true,
+   "Duval": false
+  },
+  "criterion2_met": false,
+  "criterion3": "decided in Step 31",
+  "criterion3_beta1_negative_ci_excludes_0": {
+   "Rogers": false,
+   "IEC60599": false,
+   "Duval": false
+  },
+  "criterion3_met": false
+ },
+ "decisive_set": "IEC TC 10 (power transformers)",
+ "pooled_primary_sets": {
+  "criterion3_beta1_negative_ci_excludes_0": {
+   "Rogers": false,
+   "IEC60599": false,
+   "Duval": false
+  },
+  "criterion3_met": false
+ },
+ "verdict_main_benchmark": "NOT SUPPORTED"
+}

@@ -1,0 +1,93 @@
+key,doi,query,note
+Rao2021,10.1109/tdei.2021.009770,,Consensus thread 1 [1]
+Adekunle2025,10.3390/en18133535,,Consensus thread 1 [2]
+AlSakini2024,10.3390/app15010118,,Consensus thread 1 [3]
+ZhangY2022,10.3389/fenrg.2022.1006474,,Consensus thread 1 [4]
+Das2023,10.1109/tdei.2022.3215936,,Consensus thread 1 [5]
+Prasojo2023,10.1016/j.epsr.2023.109361,,Consensus thread 1 [6]
+Hechifa2023,10.1007/s00202-023-02084-y,,Consensus thread 1 [7]
+Suwarno2024,10.1016/j.heliyon.2024.e25975,,Consensus thread 1 [8]
+Ngwenyama2024,10.1038/s41598-023-50833-7,,Consensus thread 1 [9]
+DladlaThango2025b,10.3390/machines13080742,,Consensus thread 1 [10]
+Abdelwahab2025,10.1038/s41598-024-78293-7,,Consensus thread 1 [11]
+Tanjim2026,10.1016/j.rineng.2026.109972,,Consensus thread 1 [12]
+Nkwambe2026,10.3390/en19132947,,Consensus thread 1 [13]
+Dogan2026,10.3390/app16178818,,Consensus thread 1 [14]
+Taha2021,10.1109/access.2021.3102415,,Consensus thread 1 [15]
+WangL2021,10.1109/tdei.2021.009470,,Consensus thread 1 [17]
+LiJB2026,10.1049/elp2.70195,,Consensus thread 1 [18]
+Kashiwagi2025,10.3390/s25216520,,Consensus thread 2 [2]
+Ali2023,10.1016/j.epsr.2022.109064,,Consensus thread 2 [3]
+DuvalPaulhiac2026,10.1109/tdei.2026.3657732,,Consensus thread 2 [4]
+Bustamante2019,10.3390/s19194057,,Consensus thread 2 [5]
+Wajid2023,10.1155/2023/9960743,,Consensus thread 2 [6]
+Su2024,10.1002/prs.12636,,Consensus thread 2 [7]
+Nanfak2021,10.1049/gtd2.12239,,Consensus thread 2 [8]
+RangelBessa2023,10.3390/en16217219,,Consensus thread 2 [9]; register P1
+Manoj2023,10.1109/tdei.2023.3237795,,Consensus thread 2 [10]
+Selim2025,10.1109/tdei.2024.3404365,,Consensus thread 2 [11]
+Aciu2021,10.3390/en14030588,,Consensus thread 2 [12]; register P2
+Ward2021,10.3390/s21062223,,Consensus thread 2 [15]
+MartinTenbohlen2026,10.3390/en19133197,,Consensus thread 2 [16]
+Jin2024,10.1109/access.2024.3366905,,Consensus thread 2 [18]
+Susa2004,,Susa Lehtonen Nordman Dynamic thermal modelling of power transformers IEEE Transactions on Power Delivery 2005,Consensus search
+Aslam2021,,Aslam Dynamic Thermal Model for Power Transformers IEEE Access 2021,Consensus search
+ZhangL2023,,Zhang Improving IEC thermal model for oil natural air natural transformers using optimised parameters based on dynamic simulation High Voltage,Consensus search
+Yao2024,,Yao Fault diagnosis method for oil-immersed transformers integrated digital twin model Scientific Reports 2024,Consensus search
+Cui2025,,Cui Intelligent fault diagnosis and operation condition monitoring of transformer based on multi-source data fusion and mining Scientific Reports 2025,Consensus search
+Owusu2026,,Owusu Data-driven Fault Detection and Diagnosis of Power Transformers Using Dissolved Gas Analysis and Random Forest Classifiers,Consensus search
+DladlaThango2025a,,Dladla Thango Fault Classification in Power Transformers via Dissolved Gas Analysis and Machine Learning Algorithms: A Systematic Literature Review Applied Sciences 2025,Consensus search; Ch1 draft
+Chen2025,,Chen Rethinking Shallow and Deep Learnings for Transformer Dissolved Gas Analysis: A Review IEEE Transactions on Dielectrics and Electrical Insulation,Consensus search
+Cheng2018,,Cheng Dissolved Gas Analysis Principle-Based Intelligent Approaches to Fault Diagnosis and Decision Making for Large Oil-Immersed Power Transformers: A Survey Energies 2018,Consensus search
+Ekojono2022,,Investigation on machine learning algorithms to support transformer dissolved gas analysis fault identification Electrical Engineering 2022,Consensus search
+Tenbohlen2017,,Tenbohlen Standardized survey of transformer reliability on behalf of CIGRE WG A2.37 ISEIM 2017,Consensus search
+Martin2017,,Martin Survey of Australian power transformer failures and retirements IEEE Electrical Insulation Magazine 2017,Consensus search
+Murugan2019,,Murugan Understanding the power transformer component failures for health index-based maintenance planning in electric utilities Engineering Failure Analysis,Consensus search
+WangT2023,,Wang Transformer Fault Diagnosis Method Based on Incomplete Data and TPE-XGBoost Applied Sciences 2023,Consensus search
+Kherif2021,,Kherif Accuracy Improvement of Transformer Faults Diagnostic Based on DGA Data Using SVM-BA Classifier Energies 2021,Consensus search
+Ghoneim2016,,Ghoneim Integrated ANN-based proactive fault diagnostic scheme for power transformers using dissolved gas analysis IEEE Transactions on Dielectrics and Electrical Insulation 2016,Consensus search
+Martin2014,,Martin Investigations Into the Stray Gassing of Oils in the Fault Diagnosis of Transformers IEEE Transactions on Power Delivery 2014,Consensus search
+WangX2024,,Wang Thermodynamic Computational Method of Thermal Decomposition Gas Content in Transformer Oil Considering Temperature and Competitive Reaction IEEE Transactions on Dielectrics and Electrical Insulation,Consensus search
+Duval2002,,Duval A review of faults detectable by gas-in-oil analysis in transformers IEEE Electrical Insulation Magazine 2002,register M24
+DuvaldePablo2001,,Duval dePablo Interpretation of gas-in-oil analysis using new IEC publication 60599 and IEC TC 10 databases IEEE Electrical Insulation Magazine 2001,register DS1
+Duval2003,,Duval New techniques for dissolved gas-in-oil analysis IEEE Electrical Insulation Magazine 2003,classic
+Rogers1978,,Rogers IEEE and IEC codes to interpret incipient faults in transformers using gas in oil analysis IEEE Transactions on Electrical Insulation 1978,classic
+Halstead1973,,Halstead A thermodynamic assessment of the formation of fault gases in insulating oil Journal of the Institute of Petroleum 1973,classic
+Kapoor2023,10.1016/j.patter.2023.100804,,register M2
+Pedregosa2011,,Pedregosa Scikit-learn: Machine Learning in Python Journal of Machine Learning Research 2011,register M3 (JMLR has no DOI)
+Breiman2001,10.1023/A:1010933404324,,register M15
+ChenGuestrin2016,10.1145/2939672.2939785,,register M10
+LundbergLee2017,,Lundberg Lee A unified approach to interpreting model predictions NIPS 2017,register M16
+Lundberg2020,10.1038/s42256-019-0138-9,,register M17
+VarmaSimon2006,10.1186/1471-2105-7-91,,register M13
+NadeauBengio2003,10.1023/A:1024068626366,,register M14
+Demsar2006,,Demsar Statistical comparisons of classifiers over multiple data sets Journal of Machine Learning Research 2006,register M26 (JMLR has no DOI)
+Friedman1937,10.1080/01621459.1937.10503522,,register M25
+Cochran1950,,Cochran The comparison of percentages in matched samples Biometrika 1950,register M28
+McNemar1947,10.1007/BF02295996,,register M29
+Holm1979,,Holm A simple sequentially rejective multiple test procedure Scandinavian Journal of Statistics 1979,register M30
+Firth1993,10.1093/biomet/80.1.27,,register M31
+Wilson1927,10.1080/01621459.1927.10502953,,register M21
+Cohen1960,10.1177/001316446002000104,,register M22
+Gorodkin2004,10.1016/j.compbiolchem.2004.09.006,,register M23
+Chow1970,10.1109/TIT.1970.1054406,,register M32
+Spearman1904,10.2307/1412159,,register M6
+KruskalWallis1952,10.1080/01621459.1952.10483441,,register M4
+Mitchell2019,10.1145/3287560.3287596,,register M19
+Strobl2008,10.1186/1471-2105-9-307,,register M18
+Virtanen2020,10.1038/s41592-019-0686-2,,register M7
+LiuNocedal1989,10.1007/BF01589116,,register M12
+Chawla2002,10.1613/jair.953,,SMOTE
+Efron1993,,Efron Tibshirani An Introduction to the Bootstrap Chapman and Hall 1993,register M20
+Platt1999,,Platt Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods,register M11
+Jiao2024,,Jiao A causal reasoning approach for power transformer failure diagnosis Frontiers in Energy Research 2024,Ch1 draft
+Miah2025,,Miah REDf A deep learning model for short-term load forecasting to facilitate renewable integration and attaining the SDGs PeerJ Computer Science 2025,Ch1 draft
+Rajora2024,,Rajora A review of asset management using artificial intelligence-based machine learning models applications for the electric power and energy system IET Generation Transmission Distribution 2024,Ch1 draft
+Velasquez2024,,Velasquez A comprehensive analysis for wind turbine transformer and its limits in the dissolved gas evaluation Heliyon 2024,Ch1 draft
+Khan2025,,Khan AI and Machine Learning in Transformer Fault Diagnosis: A Systematic Review SSRN 2025,Ch1 draft
+Fielding2022,10.17487/RFC9110,,register M34
+Sutherland1974,,Sutherland Hodgman Reentrant polygon clipping Communications of the ACM 1974,register M8
+Tomczak2014,,Tomczak The need to report effect size estimates revisited Trends in Sport Sciences 2014,register M5
+Manisha2022,,Manisha Kaur Sharma Singh Bhalla Performance Assessment of IEEE/IEC Method and Duval Triangle technique for Transformer Incipient Fault Diagnosis IOP Conference Series Materials Science and Engineering 2022,register P3
+Thurner2018,,Thurner pandapower An Open-Source Python Tool for Convenient Modeling Analysis and Optimization of Electric Power Systems IEEE Transactions on Power Systems 2018,pandapower
+Holm1979b,10.2307/4615733,,register M30 (JSTOR DOI)

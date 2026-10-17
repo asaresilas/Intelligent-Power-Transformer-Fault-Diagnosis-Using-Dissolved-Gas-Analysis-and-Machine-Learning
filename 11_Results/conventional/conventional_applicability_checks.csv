@@ -1,0 +1,11 @@
+check,passed,detail
+"subsets: every non-empty combination once (2^5 - 1 = 31), all different",1,"31 rows"
+"subsets: none empty, n_gases = number of gases kept",1,"n_gases column equals the row sum of has_*"
+"subsets: subset_id matches the gases kept",1,"id = gas names joined by ""+"", in H2, CH4, C2H6, C2H4, C2H2 order"
+"not applicable -> ND for 100 % of records (all roles)",1,"0 offending rows"
+"applicability agrees with iec_rogers_applicable / duval_available of Step 25",1,"all 31 combinations"
+"five-gas row reproduces conventional_counts.csv (ND_final, 3 methods x 5 roles)",1,""
+"Duval with CH4, C2H4, C2H2 kept: ND = five-gas Duval ND_raw (all roles)",1,""
+"no ""Normal"" result when a gas is missing",1,"gate needs all five gases (D23 rule 4)"
+"table: combinations x methods x roles rows, shares in [0,1], n_nd + n_diagnosed = n_records",1,"465 rows"
+"role sizes add up (the four roles sum to the number of records = all)",1,"N = 827"

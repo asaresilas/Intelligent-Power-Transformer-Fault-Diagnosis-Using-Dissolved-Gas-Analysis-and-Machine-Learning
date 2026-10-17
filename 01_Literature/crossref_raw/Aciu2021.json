@@ -1,0 +1,441 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    16
+   ]
+  ],
+  "date-time": "2026-09-16T16:10:57Z",
+  "timestamp": 1789575057154,
+  "version": "build-2803163510"
+ },
+ "reference-count": 30,
+ "publisher": "MDPI AG",
+ "issue": "3",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      1,
+      24
+     ]
+    ],
+    "date-time": "2021-01-24T00:00:00Z",
+    "timestamp": 1611446400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "name": "Ministry of Education and Scientific Research - Romania",
+   "award": [
+    "NUCLEU Program: PN 19 38 01 03"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "NUCLEU Program: PN 19 38 01 03"
+     ]
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Energies"
+ ],
+ "abstract": "<jats:p>Power transformers play an important role in electrical systems; being considered the core of electric power transmissions and distribution networks, the owners and users of these assets are increasingly concerned with adopting reliable, automated, and non-invasive techniques to monitor and diagnose their operating conditions. Thus, monitoring the conditions of power transformers has evolved, in the sense that a complete characterization of the conditions of oil\u2013paper insulation can be achieved through dissolved gas analysis (DGA) and furan compounds analysis, since these analyses provide a lot of information about the phenomena that occur in power transformers. The Duval triangles and pentagons methods can be used with a high percentage of correct predictions compared to the known classical methods (key gases, International Electrotechnical Commission (IEC), Rogers, Doernenburg ratios), because, in addition to the six types of basic faults, they also identify four sub-types of thermal faults that provide important additional information for the appropriate corrective actions to be applied to the transformers. A new approach is presented based on the complementarity between the analysis of the gases dissolved in the transformer oil and the analysis of furan compounds, for the identification of the different faults, especially when there are multiple faults, by extending the diagnosis of the operating conditions of the power transformers, in terms of paper degradation. The implemented software system based on artificial neural networks was tested and validated in practice, with good results.</jats:p>",
+ "DOI": "10.3390/en14030588",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2021,
+    1,
+    25
+   ]
+  ],
+  "date-time": "2021-01-25T02:07:00Z",
+  "timestamp": 1611540420000
+ },
+ "page": "588",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 36,
+ "title": [
+  "Complementary Analysis for DGA Based on Duval Methods and Furan Compounds Using Artificial Neural Networks"
+ ],
+ "prefix": "10.3390",
+ "volume": "14",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0001-9619-648X",
+   "authenticated-orcid": false,
+   "given": "Ancu\u021ba-Mihaela",
+   "family": "Aciu",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Research and Development Department, National Institute for Research, Development and Testing in Electrical Engineering-ICMET Craiova, 200746 Craiova, Romania"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-9950-6436",
+   "authenticated-orcid": false,
+   "given": "Claudiu-Ionel",
+   "family": "Nicola",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Research and Development Department, National Institute for Research, Development and Testing in Electrical Engineering-ICMET Craiova, 200746 Craiova, Romania"
+    },
+    {
+     "name": "Department of Automatic Control and Electronics, University of Craiova, 200585 Craiova, Romania"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-1456-0127",
+   "authenticated-orcid": false,
+   "given": "Marcel",
+   "family": "Nicola",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Research and Development Department, National Institute for Research, Development and Testing in Electrical Engineering-ICMET Craiova, 200746 Craiova, Romania"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-7018-3568",
+   "authenticated-orcid": false,
+   "given": "Maria-Cristina",
+   "family": "Ni\u021bu",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Research and Development Department, National Institute for Research, Development and Testing in Electrical Engineering-ICMET Craiova, 200746 Craiova, Romania"
+    },
+    {
+     "name": "Department Electrical Engineering, Energetic and Aeronautics, University of Craiova, 200585 Craiova, Romania"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2021,
+    1,
+    24
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Abu-Siada, A. (2019). Improved Consistent Interpretation Approach of Fault Type within Power Transformers Using Dissolved Gas Analysis and Gene Expression Programming. Energies, 12.",
+   "DOI": "10.3390/en12040730"
+  },
+  {
+   "key": "ref_2",
+   "unstructured": "Ashkezari, A.D., Saha, T.K., Ekanayake, C., and Ma, H. (2011, January 25\u201328). Evaluating the accuracy of different DGA techniques for improving the transformer oil quality interpretation. Proceedings of the Australasian Universities Power Engineering Conference (AUPEC), Brisbane, QLD, Australia."
+  },
+  {
+   "key": "ref_3",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Pattanadech, N., and Wattakapaiboon, W. (2019, January 2\u20135). Application of Duval Pentagon Compared with Other DGA Interpretation Techniques: Case Studies for Actual Transformer Inspections Including Experience from Power Plants in Thailand. Proceedings of the 5th International Conference on Engineering, Applied Sciences and Technology (ICEAST), Luang Prabang, Laos.",
+   "DOI": "10.1109/ICEAST.2019.8802523"
+  },
+  {
+   "key": "ref_4",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Piotrowski, T., Rozga, P., and Kozak, R. (2019). Comparative Analysis of the Results of Diagnostic Measurements with an Internal Inspection of Oil-Filled Power Transformers. Energies, 12.",
+   "DOI": "10.3390/en12112155"
+  },
+  {
+   "key": "ref_5",
+   "unstructured": "IEC (2015). IEC 60599\u2014Mineral Oil-Impregnated Electrical Equipment in Service\u2013Guide to the Interpretation of Dissolved and Free Gases Analysis, International Electrotechnical Commission."
+  },
+  {
+   "key": "ref_6",
+   "unstructured": "IEEE (2019). IEEE C57.104-2019\u2014Guide for the Interpretation of Gases Generated in Mineral Oil-Immersed Transformers, Institute of Electrical and Electronics Engineers."
+  },
+  {
+   "key": "ref_7",
+   "doi-asserted-by": "crossref",
+   "first-page": "22",
+   "DOI": "10.1109/MEI.2008.4665347",
+   "article-title": "The Duval Triangle for Load Tap Changers, Non-Mineral Oils and Low Temperature Faults in Transformers",
+   "volume": "24",
+   "author": "Duval",
+   "year": "2008",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_8",
+   "doi-asserted-by": "crossref",
+   "first-page": "9",
+   "DOI": "10.1109/MEI.2014.6943428",
+   "article-title": "The Duval Pentagon\u2014A new complementary tool for the interpretation of dissolved gas analysis in Transformers",
+   "volume": "30",
+   "author": "Duval",
+   "year": "2014",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_9",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Duval, M., and Heizmann, T. (2020). Identification of Stray Gassing of Inhibited and Uninhibited Mineral Oils in Transformers. Energies, 13.",
+   "DOI": "10.3390/en13153886"
+  },
+  {
+   "key": "ref_10",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Duval, M., and Haider, S. (2020). Combined Duval Pentagons: A Simplified Approach. Energies, 13.",
+   "DOI": "10.3390/en13112859"
+  },
+  {
+   "key": "ref_11",
+   "unstructured": "CIGRE (2010). DGA in Non-Mineral Oils and Load Tap Changers and Improved DGA Diagnosis Criteria, CIGRE. Technical Brochure no. 443."
+  },
+  {
+   "key": "ref_12",
+   "unstructured": "CIGRE (2019). Advances in DGA Interpretation, CIGRE. Technical Brochure no. 771."
+  },
+  {
+   "key": "ref_13",
+   "unstructured": "CIGRE (2012). CIGRE Brochure 494\u2014Furanic Compounds for Diagnosis, CIGRE."
+  },
+  {
+   "key": "ref_14",
+   "doi-asserted-by": "crossref",
+   "first-page": "157471",
+   "DOI": "10.1109/ACCESS.2019.2949580",
+   "article-title": "A New Technique to Estimate the Degree of Polymerization of Insulation Paper Using Multiple Aging Parameters of Transformer Oil",
+   "volume": "7",
+   "author": "Li",
+   "year": "2019",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_15",
+   "doi-asserted-by": "crossref",
+   "first-page": "31",
+   "DOI": "10.1109/MEI.2017.7804314",
+   "article-title": "Significance and detection of very low degree of polymerization of paper in transformers",
+   "volume": "33",
+   "author": "Duval",
+   "year": "2017",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_16",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Prasojo, R.A., Gumilang, H., Maulidevi, N.U., and Soedjarno, B.A. (2020). A Fuzzy Logic Model for Power Transformer Faults\u2019 Severity Determination Based on Gas Level, Gas Rate, and Dissolved Gas Analysis Interpretation. Energies, 13.",
+   "DOI": "10.3390/en13041009"
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Shang, H., Xu, J., Zheng, Z., Qi, B., and Zhang, L. (2019). A Novel Fault Diagnosis Method for Power Transformer Based on Dissolved Gas Analysis Using Hypersphere Multiclass Support Vector Machine and Improved D\u2013S Evidence Theory. Energies, 12.",
+   "DOI": "10.3390/en12204017"
+  },
+  {
+   "key": "ref_18",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Yuan, F., Guo, J., Xiao, Z., Zeng, B., Zhu, W., and Huang, S. (2019). A Transformer Fault Diagnosis Model Based on Chemical Reaction Optimization and Twin Support Vector Machine. Energies, 12.",
+   "DOI": "10.3390/en12050960"
+  },
+  {
+   "key": "ref_19",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zeng, B., Guo, J., Zhu, W., Xiao, Z., Yuan, F., and Huang, S. (2019). A Transformer Fault Diagnosis Model Based On Hybrid Grey Wolf Optimizer and LS-SVM. Energies, 12.",
+   "DOI": "10.3390/en12214170"
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zhang, W., Yang, X., Deng, Y., and Li, A. (2020). An Inspired Machine-Learning Algorithm with a Hybrid Whale Optimization for Power Transformer PHM. Energies, 13.",
+   "DOI": "10.3390/en13123143"
+  },
+  {
+   "key": "ref_21",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Bohatyrewicz, P., P\u0142owucha, J., and Subocz, J. (2019). Condition Assessment of Power Transformers Based on Health Index Value. Appl. Sci., 9.",
+   "DOI": "10.3390/app9224877"
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "first-page": "1081",
+   "DOI": "10.3390/en5041081",
+   "article-title": "Canonical Correlation between Partial Discharges and Gas Formation in Transformer Oil Paper Insulation",
+   "volume": "5",
+   "author": "Chen",
+   "year": "2012",
+   "journal-title": "Energies"
+  },
+  {
+   "key": "ref_23",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheng, L., Yu, T., Wang, G., Yang, B., and Zhou, L. (2018). Hot Spot Temperature and Grey Target Theory-Based Dynamic Modelling for Reliability Assessment of Transformer Oil-Paper Insulation Systems: A Practical Case Study. Energies, 11.",
+   "DOI": "10.20944/preprints201801.0122.v1"
+  },
+  {
+   "key": "ref_24",
+   "first-page": "183",
+   "article-title": "Fuzzy logic system based on DGA and furan analysis for power transformer fault diagnosis",
+   "volume": "81",
+   "author": "Nicola",
+   "year": "2019",
+   "journal-title": "UPB Sci. Bull. Ser. C Electr. Eng. Comput. Sci."
+  },
+  {
+   "key": "ref_25",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ni\u0163u, M.C., Aciu, A.M., Nicola, C.I., and Nicola, M. (2017, January 25\u201327). Power transformer fault diagnosis using fuzzy logic technique based on dissolved gas analysis and furan analysis. Proceedings of the International Conference on Optimization of Electrical and Electronic Equipment (OPTIM) & Intl Aegean Conference on Electrical Machines and Power Electronics (ACEMP), Brasov, Romania.",
+   "DOI": "10.1109/OPTIM.2017.7974968"
+  },
+  {
+   "key": "ref_26",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ni\u0163u, M.C., Aciu, A., Nicola, C.I., and Nicola, M. (2019, January 9\u201311). Fuzzy Controller vs. Classical Methods for Determining the Degree of Polymerization. Proceedings of the International Conference on Electromechanical and Energy Systems (SIELMEN), Craiova, Romania.",
+   "DOI": "10.1109/SIELMEN.2019.8905847"
+  },
+  {
+   "key": "ref_27",
+   "unstructured": "Demuth, H., and Beale, M. (2004). Neural Network Toolbox-For Use with MATLAB, The MathWorks, Inc.. [4th ed.]."
+  },
+  {
+   "key": "ref_28",
+   "unstructured": "Beale, M., Hagan, M., and Demuth, H. (2020). Deep Learning Toolbox\u2122 Getting Started Guide, The MathWorks, Inc.. [14th ed.]."
+  },
+  {
+   "key": "ref_29",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ng, W.W., Xu, S., Wang, T., Zhang, S., and Nugent, C. (2020). Radial Basis Function Neural Network with Localized Stochastic-Sensitive Autoencoder for Home-Based Activity Recognition. Sensors, 20.",
+   "DOI": "10.3390/s20051479"
+  },
+  {
+   "key": "ref_30",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Shaik, N.B., Pedapati, S.R., Taqvi, S.A.A., Othman, A.R., and Dzubir, F.A.A. (2020). A Feed-Forward Back Propagation Neural Network Approach to Predict the Life Condition of Crude Oil Pipeline. Processes, 8.",
+   "DOI": "10.3390/pr8060661"
+  }
+ ],
+ "container-title": [
+  "Energies"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/1996-1073/14/3/588/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    11
+   ]
+  ],
+  "date-time": "2025-10-11T05:14:45Z",
+  "timestamp": 1760159685000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/1996-1073/14/3/588"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2021,
+    1,
+    24
+   ]
+  ]
+ },
+ "references-count": 30,
+ "journal-issue": {
+  "issue": "3",
+  "published-online": {
+   "date-parts": [
+    [
+     2021,
+     2
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "en14030588"
+ ],
+ "URL": "https://doi.org/10.3390/en14030588",
+ "relation": {},
+ "ISSN": [
+  "1996-1073"
+ ],
+ "issn-type": [
+  {
+   "value": "1996-1073",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2021,
+    1,
+    24
+   ]
+  ]
+ }
+}

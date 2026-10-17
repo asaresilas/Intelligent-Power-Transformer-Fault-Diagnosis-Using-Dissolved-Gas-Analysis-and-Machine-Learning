@@ -1,0 +1,279 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    13
+   ]
+  ],
+  "date-time": "2026-10-13T17:16:20Z",
+  "timestamp": 1791911780608,
+  "version": "4.3.4"
+ },
+ "reference-count": 15,
+ "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+ "issue": "5",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2014,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2014-10-01T00:00:00Z",
+    "timestamp": 1412121600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "IEEE Trans. Power Delivery"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2014,
+    10
+   ]
+  ]
+ },
+ "DOI": "10.1109/tpwrd.2014.2316501",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2014,
+    5,
+    6
+   ]
+  ],
+  "date-time": "2014-05-06T18:05:06Z",
+  "timestamp": 1399399506000
+ },
+ "page": "2369-2374",
+ "source": "Crossref",
+ "is-referenced-by-count": 23,
+ "title": [
+  "Investigations Into the Stray Gassing of Oils in the Fault Diagnosis of Transformers"
+ ],
+ "prefix": "10.1109",
+ "volume": "29",
+ "author": [
+  {
+   "given": "Daniel",
+   "family": "Martin",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Nick",
+   "family": "Lelekakis",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jaury",
+   "family": "Wijaya",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Michel",
+   "family": "Duval",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Tapan",
+   "family": "Saha",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "ref10",
+   "author": "daintith",
+   "year": "2008",
+   "journal-title": "Dictionary of Chemistry"
+  },
+  {
+   "key": "ref11",
+   "volume": "96",
+   "author": "mottola",
+   "year": "1988",
+   "journal-title": "Kinetic Aspects of Analytical Chemistry"
+  },
+  {
+   "key": "ref12",
+   "author": "houston",
+   "year": "2001",
+   "journal-title": "Chemical Kinetics and Reaction Dynamics"
+  },
+  {
+   "key": "ref13",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2012.6396958"
+  },
+  {
+   "key": "ref14",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2012.6396960"
+  },
+  {
+   "key": "ref15",
+   "year": "2002",
+   "journal-title": "Standard Test Method for Analysis of Gases Dissolved in Electrical Insulating Oil by Gas Chromatography"
+  },
+  {
+   "key": "ref4",
+   "year": "2006",
+   "journal-title": "?Recent developments in DGA interpretation ?"
+  },
+  {
+   "key": "ref3",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MEI.2002.1014963"
+  },
+  {
+   "key": "ref6",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2012.6396946"
+  },
+  {
+   "key": "ref5",
+   "year": "2012",
+   "journal-title": "Fluids for Electrotechnical Applications?Unused Mineral Insulating Oils for Transformers and Switchgear"
+  },
+  {
+   "key": "ref8",
+   "author": "heghes",
+   "year": "2006",
+   "journal-title": "C1?C4 hydrocarbon oxidation mechanism"
+  },
+  {
+   "key": "ref7",
+   "year": "2005",
+   "journal-title": "Standard Test Method for Determination of Gassing Characteristics of Insulating Liquids under Thermal Stress at Low Temperature"
+  },
+  {
+   "key": "ref2",
+   "year": "2008",
+   "journal-title": "IEEE Guide for the Interpretation of Gases Generated in Oil-Immersed Transformers"
+  },
+  {
+   "key": "ref1",
+   "year": "2007",
+   "journal-title": "Mineral oil-impregnated electrical equipment in service?Guide to the interpretation of dissolved and free gases analysis"
+  },
+  {
+   "key": "ref9",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRD.2011.2175950"
+  }
+ ],
+ "container-title": [
+  "IEEE Transactions on Power Delivery"
+ ],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx7/61/6905874/06810884.pdf?arnumber=6810884",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2022,
+    1,
+    12
+   ]
+  ],
+  "date-time": "2022-01-12T16:51:06Z",
+  "timestamp": 1642006266000
+ },
+ "score": 84.53944,
+ "resource": {
+  "primary": {
+   "URL": "http://ieeexplore.ieee.org/document/6810884/"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2014,
+    10
+   ]
+  ]
+ },
+ "references-count": 15,
+ "journal-issue": {
+  "issue": "5"
+ },
+ "URL": "https://doi.org/10.1109/tpwrd.2014.2316501",
+ "ISSN": [
+  "0885-8977",
+  "1937-4208"
+ ],
+ "issn-type": [
+  {
+   "value": "0885-8977",
+   "type": "print"
+  },
+  {
+   "value": "1937-4208",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2014,
+    10
+   ]
+  ]
+ }
+}

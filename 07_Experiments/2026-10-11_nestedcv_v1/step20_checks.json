@@ -1,0 +1,11 @@
+{
+ "data_version_ok": true,
+ "tasks": 1200,
+ "tasks_expected": 1200,
+ "every_record_once_per_repeat": true,
+ "tasks_with_warnings": 5,
+ "prediction_rows": 105360,
+ "reproducible": true,
+ "repro_tasks": 4,
+ "max_probability_difference": 0.0
+}

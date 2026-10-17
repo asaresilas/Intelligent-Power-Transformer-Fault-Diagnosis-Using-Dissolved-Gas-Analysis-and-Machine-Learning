@@ -1,0 +1,35 @@
+{
+ "name": "dga_model_v1",
+ "version": "1.0",
+ "sha256": "1C46D10391429385D7A35DDD7C6B8AC560C7285980752AB938A1FA42B7809523",
+ "created": "2026-10-12T00:43:12",
+ "copied_from": "07_Experiments/2026-10-12_final_fit/final_pipeline.joblib",
+ "model": "random_forest",
+ "feature_set": "F4",
+ "best_params": {
+  "max_depth": null,
+  "min_samples_leaf": 1
+ },
+ "inputs": [
+  "H2",
+  "CH4",
+  "C2H6",
+  "C2H4",
+  "C2H2"
+ ],
+ "input_unit": "ppm (ul/l)",
+ "not_detected": "enter 0 ppm (decision D8)",
+ "classes": [
+  "Normal",
+  "PD",
+  "D1",
+  "D2",
+  "T1",
+  "T2",
+  "T3"
+ ],
+ "data_version": "1.0",
+ "python": "3.12.10",
+ "scikit_learn": "1.9.1",
+ "load_with": "06_Python_ML/src/ml/model_io.py: load_model()"
+}

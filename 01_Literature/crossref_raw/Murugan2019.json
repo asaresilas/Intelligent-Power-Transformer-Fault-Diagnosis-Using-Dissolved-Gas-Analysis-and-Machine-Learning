@@ -1,0 +1,447 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    30
+   ]
+  ],
+  "date-time": "2026-09-30T21:28:31Z",
+  "timestamp": 1790803711464,
+  "version": "4.1.0"
+ },
+ "reference-count": 24,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2019,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2019-02-01T00:00:00Z",
+    "timestamp": 1548979200000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100005767",
+   "name": "Anna University, Chennai, India",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "No:14/CR/ACRF/2014"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "No:14/CR/ACRF/2014"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100005767",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Engineering Failure Analysis"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2019,
+    2
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.engfailanal.2018.10.011",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2018,
+    10,
+    23
+   ]
+  ],
+  "date-time": "2018-10-23T14:25:15Z",
+  "timestamp": 1540304715000
+ },
+ "page": "274-288",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 107,
+ "special_numbering": "C",
+ "title": [
+  "Understanding the power transformer component failures for health index-based maintenance planning in electric utilities"
+ ],
+ "prefix": "10.1016",
+ "volume": "96",
+ "author": [
+  {
+   "given": "Raji",
+   "family": "Murugan",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Raju",
+   "family": "Ramasamy",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0005",
+   "doi-asserted-by": "crossref",
+   "first-page": "36",
+   "DOI": "10.1109/MPOT.2011.940233",
+   "article-title": "Failures monitoring, and new trends of power transformers",
+   "author": "Metwally",
+   "year": "2011",
+   "journal-title": "IEEE Potentials"
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0010",
+   "doi-asserted-by": "crossref",
+   "first-page": "12",
+   "DOI": "10.1109/MEI.2002.1161455",
+   "article-title": "Review of condition assessment of power transformers in service",
+   "volume": "18",
+   "author": "Wang",
+   "year": "2002",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0015",
+   "first-page": "97",
+   "article-title": "Reliability model of the power transformer with ONAF cooling",
+   "volume": "35",
+   "author": "Sefidgaran",
+   "year": "2011",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0020",
+   "first-page": "445",
+   "article-title": "Guide for transformer maintenance",
+   "author": "CIGRE Working Group A2, 34",
+   "year": "2011",
+   "journal-title": "Cigre Publication Techn. Brochure"
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0025",
+   "doi-asserted-by": "crossref",
+   "first-page": "756",
+   "DOI": "10.1016/j.fuel.2013.10.002",
+   "article-title": "Method for lifetime of power transformer mineral oil",
+   "volume": "117",
+   "author": "Dumitran",
+   "year": "2014",
+   "journal-title": "Fuel"
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0030",
+   "doi-asserted-by": "crossref",
+   "first-page": "26",
+   "DOI": "10.1016/j.engfailanal.2016.03.017",
+   "article-title": "Failure analysis of transformer liquid - solid insulation system under selective environmental conditions using Weibull statistics method",
+   "volume": "65",
+   "author": "Madavan",
+   "year": "2016",
+   "journal-title": "Eng. Fail. Anal."
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0035",
+   "series-title": "Transformer Reliability Survey",
+   "first-page": "642",
+   "author": "CIGRE Working Group A2.37",
+   "year": "2015"
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0040",
+   "series-title": "16th Int. Symp. High Volt, Eng Cape Town, South Africa",
+   "first-page": "1",
+   "article-title": "Evaluation of transformer reliability data based on national and utility statistics",
+   "author": "Jagers",
+   "year": "2009"
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0045",
+   "series-title": "Panel for Transformers. Australian/New Zealand Transformer Reliability Survey",
+   "author": "Australian CIGRE",
+   "year": "1996"
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0050",
+   "series-title": "CIGRE Confernce",
+   "article-title": "Impact of recent transformer failures and fires: Australian and New Zealand experiences",
+   "author": "Petersen",
+   "year": "2004"
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0055",
+   "first-page": "183",
+   "article-title": "Reliability analysis of 220 kV power transformers in Egypt",
+   "volume": "2",
+   "author": "Abdelfatah",
+   "year": "2011",
+   "journal-title": "Eng. J."
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0060",
+   "doi-asserted-by": "crossref",
+   "first-page": "316",
+   "DOI": "10.1080/21642583.2014.901930",
+   "article-title": "Reliability modeling of power transformers with maintenance outage",
+   "volume": "2",
+   "author": "Tang",
+   "year": "2014",
+   "journal-title": "Syst. Sci. Control Eng"
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0065",
+   "doi-asserted-by": "crossref",
+   "first-page": "493",
+   "DOI": "10.1016/j.fiae.2017.12.005",
+   "article-title": "Principal components analysis and adaptive Decision system based on fuzzy logic for power transformer",
+   "volume": "9",
+   "author": "Vel\u00e1squez",
+   "year": "2017",
+   "journal-title": "Fuzzy Inform. Eng."
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0070",
+   "first-page": "192",
+   "article-title": "An Advanced Analysis of a root Cause of a Power Transformer failure",
+   "author": "Bochenski",
+   "year": "2012",
+   "journal-title": "IEEE Electr. Power Energy Conf."
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0075",
+   "first-page": "49",
+   "article-title": "Transformer failures, Causes & Impact",
+   "author": "Jan",
+   "year": "2015",
+   "journal-title": "Int. Conf. Data Mining, Civil Mech. Eng."
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0080",
+   "doi-asserted-by": "crossref",
+   "first-page": "300",
+   "DOI": "10.1016/j.engfailanal.2018.08.006",
+   "article-title": "Bushing failure in power transformers and the influnce of moiture with the spectroscopy test",
+   "volume": "94",
+   "author": "Vel\u00e1squez",
+   "year": "2018",
+   "journal-title": "Eng. Fail. Anal."
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0085",
+   "doi-asserted-by": "crossref",
+   "first-page": "240",
+   "DOI": "10.1016/j.engfailanal.2018.05.018",
+   "article-title": "Sulphur effect in power and distribution transformers failures and treatments",
+   "volume": "25",
+   "author": "Vel\u00e1squez",
+   "year": "2018",
+   "journal-title": "Eng. Fail. Anal."
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0090",
+   "doi-asserted-by": "crossref",
+   "first-page": "450",
+   "DOI": "10.1002/etep.134",
+   "article-title": "Aging of transformer insulating materials under selective conditions",
+   "volume": "17",
+   "author": "Fofana",
+   "year": "2007",
+   "journal-title": "Eur. Trans. Electric Power"
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0095",
+   "first-page": "601",
+   "article-title": "Effect of temperature on sensitivity of diagnostic tests on oil-impregnated paper insulation",
+   "author": "Densley",
+   "year": "2001",
+   "journal-title": "IEEE Toronto Conf."
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0100",
+   "first-page": "91",
+   "article-title": "Transformer failure modes and planned replacement",
+   "author": "Lapworth",
+   "year": "1998",
+   "journal-title": "IEE Colloquium Transf. Life Manage."
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0105",
+   "series-title": "IEEE Guide for Application for Monitoring Equipment to Liquid Immersed Transformers and Components",
+   "first-page": "1",
+   "author": "IEEE-STD-C57.143",
+   "year": "2012"
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0110",
+   "doi-asserted-by": "crossref",
+   "first-page": "20",
+   "DOI": "10.1109/MEI.2009.4802595",
+   "article-title": "An approach to power transformer asset management using health index",
+   "author": "Jahromi",
+   "year": "2009",
+   "journal-title": "Electr. Insul. Mag."
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0115",
+   "doi-asserted-by": "crossref",
+   "first-page": "2676",
+   "DOI": "10.1109/TDEI.2015.005252",
+   "article-title": "Classification in iso-attention classes of HV transformer fleets",
+   "author": "Pompili",
+   "year": "2015",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "10.1016/j.engfailanal.2018.10.011_bb0120",
+   "doi-asserted-by": "crossref",
+   "first-page": "1103",
+   "DOI": "10.1002/etep.1764",
+   "article-title": "Risk-based maintenance for asset management of power transformer : practical experience in Thailand",
+   "volume": "24",
+   "author": "Suwanasri",
+   "year": "2014",
+   "journal-title": "Int. Trans. Elect. Energy"
+  }
+ ],
+ "container-title": [
+  "Engineering Failure Analysis"
+ ],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S1350630718308550?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S1350630718308550?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2019,
+    8,
+    8
+   ]
+  ],
+  "date-time": "2019-08-08T12:41:46Z",
+  "timestamp": 1565268106000
+ },
+ "score": 101.33032,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1350630718308550"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2019,
+    2
+   ]
+  ]
+ },
+ "references-count": 24,
+ "alternative-id": [
+  "S1350630718308550"
+ ],
+ "URL": "https://doi.org/10.1016/j.engfailanal.2018.10.011",
+ "ISSN": [
+  "1350-6307"
+ ],
+ "issn-type": [
+  {
+   "value": "1350-6307",
+   "type": "print"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2019,
+    2
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "Understanding the power transformer component failures for health index-based maintenance planning in electric utilities",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Engineering Failure Analysis",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.engfailanal.2018.10.011",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "\u00a9 2018 Elsevier Ltd. All rights reserved.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+model,average_rank,cd,friedman_p
+random_forest,1.76,1.0663,0.0
+xgboost,2.28,1.0663,0.0
+logistic_regression,3.42,1.0663,0.0
+svm,3.5,1.0663,0.0
+mlp,4.04,1.0663,0.0
+majority,6.0,1.0663,0.0

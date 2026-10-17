@@ -1,0 +1,695 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    6,
+    5
+   ]
+  ],
+  "date-time": "2026-06-05T19:44:38Z",
+  "timestamp": 1780688678990,
+  "version": "3.54.1"
+ },
+ "reference-count": 55,
+ "publisher": "MDPI AG",
+ "issue": "6",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      3,
+      22
+     ]
+    ],
+    "date-time": "2021-03-22T00:00:00Z",
+    "timestamp": 1616371200000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Sensors"
+ ],
+ "abstract": "<jats:p>Power transformers are considered important and expensive items in electrical power networks. In this regard, the early discovery of potential faults in transformers considering datasets collected from diverse sensors can guarantee the continuous operation of electrical systems. Indeed, the discontinuity of these transformers is expensive and can lead to excessive economic losses for the power utilities. Dissolved gas analysis (DGA), as well as partial discharge (PD) tests considering different intelligent sensors for the measurement process, are used as diagnostic techniques for detecting the oil insulation level. This paper includes two parts; the first part is about the integration among the diagnosis results of recognized dissolved gas analysis techniques, in this part, the proposed techniques are classified into four techniques. The integration between the different DGA techniques not only improves the oil fault condition monitoring but also overcomes the individual weakness, and this positive feature is proved by using 532 samples from the Egyptian Electricity Transmission Company (EETC). The second part overview the experimental setup for (66/11.86 kV\u201340 MVA) power transformer which exists in the Egyptian Electricity Transmission Company (EETC), the first section in this part analyzes the dissolved gases concentricity for many samples, and the second section illustrates the measurement of PD particularly in this case study. The results demonstrate that precise interpretation of oil transformers can be provided to system operators, thanks to the combination of the most appropriate techniques.</jats:p>",
+ "DOI": "10.3390/s21062223",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2021,
+    3,
+    22
+   ]
+  ],
+  "date-time": "2021-03-22T12:55:07Z",
+  "timestamp": 1616417707000
+ },
+ "page": "2223",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 84,
+ "title": [
+  "Towards Precise Interpretation of Oil Transformers via Novel Combined Techniques Based on DGA and Partial Discharge Sensors"
+ ],
+ "prefix": "10.3390",
+ "volume": "21",
+ "author": [
+  {
+   "given": "Sayed A.",
+   "family": "Ward",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Faculty of Engineering, Delta University for Science and Technology, Mansoura 11152, Egypt"
+    },
+    {
+     "name": "Department of Electrical Engineering, Shoubra Faculty of Engineering, Benha University, Cairo 11629, Egypt"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Adel",
+   "family": "El-Faraskoury",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Extra High Voltage Research Centre, Egyptian Electricity Holding Company, Cairo 11517, Egypt"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Mohamed",
+   "family": "Badawi",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering, Shoubra Faculty of Engineering, Benha University, Cairo 11629, Egypt"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Shimaa A.",
+   "family": "Ibrahim",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering, Shoubra Faculty of Engineering, Benha University, Cairo 11629, Egypt"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-6729-6809",
+   "authenticated-orcid": false,
+   "given": "Karar",
+   "family": "Mahmoud",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering and Automation, School of Electrical Engineering, Aalto University, 02150 Espoo, Finland"
+    },
+    {
+     "name": "Department of Electrical Engineering, Faculty of Engineering, Aswan University, Aswan 81542, Egypt"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-9979-7333",
+   "authenticated-orcid": false,
+   "given": "Matti",
+   "family": "Lehtonen",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering and Automation, School of Electrical Engineering, Aalto University, 02150 Espoo, Finland"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-9782-8813",
+   "authenticated-orcid": false,
+   "given": "Mohamed M. F.",
+   "family": "Darwish",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering, Shoubra Faculty of Engineering, Benha University, Cairo 11629, Egypt"
+    },
+    {
+     "name": "Department of Electrical Engineering and Automation, School of Electrical Engineering, Aalto University, 02150 Espoo, Finland"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2021,
+    3,
+    22
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Bustamante, S., Manana, M., Arroyo, A., Castro, P., Laso, A., and Martinez, R. (2019). Dissolved Gas Analysis Equipment for Online Monitoring of Transformer Oil: A Review. Sensors, 19.",
+   "DOI": "10.3390/s19194057"
+  },
+  {
+   "key": "ref_2",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Dong, H., Yang, X., Li, A., Xie, Z., and Zuo, Y. (2019). Bio-Inspired PHM Model for Diagnostics of Faults in Power Transformers Using Dissolved Gas-in-Oil Data. Sensors, 19.",
+   "DOI": "10.3390/s19040845"
+  },
+  {
+   "key": "ref_3",
+   "doi-asserted-by": "crossref",
+   "first-page": "30817",
+   "DOI": "10.1109/ACCESS.2021.3060288",
+   "article-title": "Enhancing Diagnostic Accuracy of Transformer Faults Using Teaching-Learning-Based Optimization",
+   "volume": "9",
+   "author": "Ghoneim",
+   "year": "2021",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_4",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Bezerra, F.E., Garcia, F.A.Z., Nabeta, S.I., De Souza, G.F.M., Chabu, I.E., Santos, J.C., Junior, S.N., and Pereira, F.H. (2020). Wavelet-Like Transform to Optimize the Order of an Autoregressive Neural Network Model to Predict the Dissolved Gas Concentration in Power Transformer Oil from Sensor Data. Sensors, 20.",
+   "DOI": "10.3390/s20092730"
+  },
+  {
+   "key": "ref_5",
+   "doi-asserted-by": "crossref",
+   "first-page": "65",
+   "DOI": "10.1016/j.asej.2012.04.009",
+   "article-title": "Implementation of three-phase transformer model in radial load-flow analysis",
+   "volume": "4",
+   "author": "Mahmoud",
+   "year": "2013",
+   "journal-title": "Ain Shams Eng. J."
+  },
+  {
+   "key": "ref_6",
+   "unstructured": "Ward, S.A., Elfaraskoury, A., Badwi, M., and Ibrahim, S.A. (2019, January 17\u201319). A Modified Dissolved Gas Analysis Technique as a Diagnostic Tool for Faults in Power Transformers. Proceedings of the 2019 21st International Middle East Power Systems Conference (MEPCON), Cairo, Egypt."
+  },
+  {
+   "key": "ref_7",
+   "doi-asserted-by": "crossref",
+   "first-page": "2299",
+   "DOI": "10.1049/iet-gtd.2018.6168",
+   "article-title": "Condition assessment of power transformers based on dissolved gas analysis",
+   "volume": "13",
+   "author": "Gouda",
+   "year": "2019",
+   "journal-title": "IET Gener. Transm. Distrib."
+  },
+  {
+   "key": "ref_8",
+   "unstructured": "Ward, S. (2003, January 19\u201322). Evaluating transformer condition using DGA oil analysis. Proceedings of the 2003 Annual Report Conference on Electrical Insulation and Dielectric Phenomena, Albuquerque, NM, USA."
+  },
+  {
+   "key": "ref_9",
+   "unstructured": "Ghoneim, S., Ward, S.A., Helmi, D.H., and Zidan, U.S. (2012, January 23\u201325). Detection of faults in power transformers using an expertise method depending on DGA. Proceedings of the 15th International Middle East Power Systems Conference (MEPCON\u201912), Alexandria, Egypt."
+  },
+  {
+   "key": "ref_10",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Elsisi, M., Mahmoud, K., Lehtonen, M., and Darwish, M.M.F. (2021). Reliable Industry 4.0 Based on Machine Learning and IoT for Analyzing, Monitoring, and Securing Smart Meters. Sensors, 21.",
+   "DOI": "10.3390/s21020487"
+  },
+  {
+   "key": "ref_11",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ali, M., Mahmoud, K., Lehtonen, M., and Darwish, M. (2021). Promising MPPT Methods Combining Metaheuristic, Fuzzy-Logic and ANN Techniques for Grid-Connected Photovoltaic. Sensors, 21.",
+   "DOI": "10.3390/s21041244"
+  },
+  {
+   "key": "ref_12",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Elsisi, M., Tran, M.-Q., Mahmoud, K., Lehtonen, M., and Darwish, M. (2021). Deep Learning-Based Industry 4.0 and Internet of Things Towards Effective Energy Management for Smart Buildings. Sensors, 21.",
+   "DOI": "10.3390/s21041038"
+  },
+  {
+   "key": "ref_13",
+   "doi-asserted-by": "crossref",
+   "first-page": "836",
+   "DOI": "10.1049/iet-smt.2018.5397",
+   "article-title": "Novel prediction-reliability based graphical DGA technique using multi-layer perceptron network & gas ratio combination algorithm",
+   "volume": "13",
+   "author": "Chatterjee",
+   "year": "2019",
+   "journal-title": "IET Sci. Meas. Technol."
+  },
+  {
+   "key": "ref_14",
+   "doi-asserted-by": "crossref",
+   "first-page": "2507",
+   "DOI": "10.1109/TDEI.2015.004999",
+   "article-title": "Development of a new graphical technique for dissolved gas analysis in power transformers based on the five combustible gases",
+   "volume": "22",
+   "author": "Mansour",
+   "year": "2015",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_15",
+   "first-page": "1",
+   "article-title": "An Efficient Fuzzy-Logic Based Variable-Step Incremental Conductance MPPT Method for Grid-connected PV Systems",
+   "volume": "9",
+   "author": "Ali",
+   "year": "2021",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_16",
+   "doi-asserted-by": "crossref",
+   "first-page": "11911",
+   "DOI": "10.1109/ACCESS.2021.3051807",
+   "article-title": "An Improved Neural Network Algorithm to Efficiently Track Various Trajectories of Robot Manipulator Arms",
+   "volume": "9",
+   "author": "Elsisi",
+   "year": "2021",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Abaza, A., El-Sehiemy, R., Mahmoud, K., Lehtonen, M., and Darwish, M. (2021). Optimal Estimation of Proton Exchange Membrane Fuel Cells Parameter Based on Coyote Optimization Algorithm. Appl. Sci., 11.",
+   "DOI": "10.3390/app11052052"
+  },
+  {
+   "key": "ref_18",
+   "doi-asserted-by": "crossref",
+   "first-page": "139176",
+   "DOI": "10.1109/ACCESS.2020.3012633",
+   "article-title": "Hybrid Grey Wolf Optimizer for Transformer Fault Diagnosis Using Dissolved Gases Considering Uncertainty in Measurements",
+   "volume": "8",
+   "author": "Hoballah",
+   "year": "2020",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_19",
+   "doi-asserted-by": "crossref",
+   "first-page": "37894",
+   "DOI": "10.1109/ACCESS.2021.3063053",
+   "article-title": "Robust Design of ANFIS-Based Blade Pitch Controller for Wind Energy Conversion Systems Against Wind Speed Fluctuations",
+   "volume": "9",
+   "author": "Elsisi",
+   "year": "2021",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Bayoumi, A., El-Sehiemy, R., Mahmoud, K., Lehtonen, M., and Darwish, M. (2021). Assessment of an Improved Three-Diode against Modified Two-Diode Patterns of MCS Solar Cells Associated with Soft Parameter Estimation Paradigms. Appl. Sci., 11.",
+   "DOI": "10.3390/app11031055"
+  },
+  {
+   "key": "ref_21",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Abbas, A.S., El-Sehiemy, R.A., El-Ela, A.A., Ali, E.S., Mahmoud, K., Lehtonen, M., and Darwish, M.M.F. (2021). Optimal Harmonic Mitigation in Distribution Systems with Inverter Based Distributed Generation. Appl. Sci., 11.",
+   "DOI": "10.3390/app11020774"
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "first-page": "225872",
+   "DOI": "10.1109/ACCESS.2020.3045073",
+   "article-title": "Fast Corona Discharge Assessment Using FDM integrated With Full Multigrid Method in HVDC Transmission Lines Considering Wind Impact",
+   "volume": "8",
+   "author": "Abouelatta",
+   "year": "2020",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_23",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ali, E., El-Sehiemy, R., El-Ela, A.A., Mahmoud, K., Lehtonen, M., and Darwish, M. (2021). An Effective Bi-Stage Method for Renewable Energy Sources Integration into Unbalanced Distribution Systems Considering Uncertainty. Processes, 9.",
+   "DOI": "10.3390/pr9030471"
+  },
+  {
+   "key": "ref_24",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheng, L., and Yu, T. (2018). Dissolved Gas Analysis Principle-Based Intelligent Approaches to Fault Diagnosis and Decision Making for Large Oil-Immersed Power Transformers: A Survey. Energies, 11.",
+   "DOI": "10.20944/preprints201804.0109.v1"
+  },
+  {
+   "key": "ref_25",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Wu, X., He, Y., and Duan, J. (2020). A Deep Parallel Diagnostic Method for Transformer Dissolved Gas Analysis. Appl. Sci., 10.",
+   "DOI": "10.3390/app10041329"
+  },
+  {
+   "key": "ref_26",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Abu-Siada, A. (2019). Improved Consistent Interpretation Approach of Fault Type within Power Transformers Using Dissolved Gas Analysis and Gene Expression Programming. Energies, 12.",
+   "DOI": "10.3390/en12040730"
+  },
+  {
+   "key": "ref_27",
+   "doi-asserted-by": "crossref",
+   "first-page": "1239",
+   "DOI": "10.1109/TDEI.2017.005959",
+   "article-title": "Dissolved gas analysis evaluation in electric power transformers using conventional methods a review",
+   "volume": "24",
+   "author": "Faiz",
+   "year": "2017",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_28",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Gongwei, X., ChuTian, Y., Weigen, C., Lingfeng, J., and Sirui, T. (2017, January 20\u201322). Study on the development and test method of SnO2-based gas sensor array for dissolved gas analysis. Proceedings of the 2017 13th IEEE International Conference on Electronic Measurement & Instruments (ICEMI), Yangzhou, China.",
+   "DOI": "10.1109/ICEMI.2017.8265771"
+  },
+  {
+   "key": "ref_29",
+   "first-page": "152",
+   "article-title": "Dissolved Gas Analysis as a Diagnostic Tools for Early Detection of Transformer Faults",
+   "volume": "1",
+   "author": "Ghoneim",
+   "year": "2012",
+   "journal-title": "Adv. Electr. Eng. Syst."
+  },
+  {
+   "key": "ref_30",
+   "unstructured": "Bureau of Reclamation (2005). Transformers: Basics, Maintenance and Diagnostics."
+  },
+  {
+   "key": "ref_31",
+   "doi-asserted-by": "crossref",
+   "first-page": "308",
+   "DOI": "10.1016/j.rser.2015.07.032",
+   "article-title": "Use of vegetable oils as transformer oils\u2014A review",
+   "volume": "52",
+   "author": "Rafiq",
+   "year": "2015",
+   "journal-title": "Renew. Sustain. Energy Rev."
+  },
+  {
+   "key": "ref_32",
+   "doi-asserted-by": "crossref",
+   "first-page": "39",
+   "DOI": "10.1109/MEI.2014.6804740",
+   "article-title": "A review of dissolved gas analysis measurement and interpretation techniques",
+   "volume": "30",
+   "author": "Islam",
+   "year": "2014",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_33",
+   "doi-asserted-by": "crossref",
+   "first-page": "193",
+   "DOI": "10.3923/ijepe.2010.193.197",
+   "article-title": "Duval Triangle: A Noble Technique for DGA in Power Transformers",
+   "volume": "4",
+   "author": "Singh",
+   "year": "2010",
+   "journal-title": "Int. J. Electr. Power Eng."
+  },
+  {
+   "key": "ref_34",
+   "doi-asserted-by": "crossref",
+   "first-page": "9",
+   "DOI": "10.1109/MEI.2014.6943428",
+   "article-title": "The duval pentagon\u2014A new complimentary tool for the interpretation of dissolved gas analysis in transformers",
+   "volume": "30",
+   "author": "Duval",
+   "year": "2014",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_35",
+   "unstructured": "Duval, M. (2016, January 23\u201325). Use of pentagons and triangles for the interpretation of DGA in electrical equipment. Proceedings of the TechCon North America Conference 2016, Albuquerque, NM, USA."
+  },
+  {
+   "key": "ref_36",
+   "unstructured": "Duval, M. (2012, January 21\u201322). State of the art of technical diagnosis through interpretation of DGA. Proceedings of the My Transfo Conference 2012, Torino, Italy."
+  },
+  {
+   "key": "ref_37",
+   "first-page": "9674054",
+   "article-title": "Power Transformer Fault Severity Estimation Based on Dissolved Gas Analysis and Energy of Fault Formation Technique",
+   "volume": "2019",
+   "author": "Mharakurwa",
+   "year": "2019",
+   "journal-title": "J. Electr. Comput. Eng."
+  },
+  {
+   "key": "ref_38",
+   "unstructured": "(2021, March 22). IEEE Guide for the Interpretation of Gases Generated in Oil-Immersed Transformers. IEEE Standard C57.104-2019, IEEE, USA. February 2019. Available online: https://ieeexplore.ieee.org/servlet/opac?punumber=2903."
+  },
+  {
+   "key": "ref_39",
+   "unstructured": "(2021, March 22). IEC Standard 60599\u2014Oil-Impregnated Electrical Equipment in Service\u2014Guide to the Interpretation of Dissolved and Free Gases Analysis, 2nd ed. Available online: https://www.sis.se/api/document/preview/568793/."
+  },
+  {
+   "key": "ref_40",
+   "doi-asserted-by": "crossref",
+   "first-page": "943",
+   "DOI": "10.1049/iet-gtd.2016.0886",
+   "article-title": "Conditional probability-based interpretation of dissolved gas analysis for transformer incipient faults",
+   "volume": "11",
+   "author": "Taha",
+   "year": "2017",
+   "journal-title": "IET Gener. Transm. Distrib."
+  },
+  {
+   "key": "ref_41",
+   "unstructured": "Ribeiro, M.I. (2021, March 22). Gaussian Probability Density Functions: Properties and Error Characterizatio. Available online: https://www.semanticscholar.org/paper/Gaussian-Probability-Density-Functions%3A-Properties-Ribeiro/8811a6d277323a4320d5a20608304ddfada8f0e2."
+  },
+  {
+   "key": "ref_42",
+   "first-page": "373",
+   "article-title": "Artificial Neural Network Approach to Dissolved Gas Analysis for Interpretation of Fault in Power Transformer",
+   "volume": "7",
+   "author": "Khade",
+   "year": "2016",
+   "journal-title": "Int. J. Sci. Eng. Res."
+  },
+  {
+   "key": "ref_43",
+   "doi-asserted-by": "crossref",
+   "first-page": "643",
+   "DOI": "10.1109/61.956751",
+   "article-title": "A Comparative Study of Neural Network Efficiency in Power Transformers Diagnosis Using Dissolved Gas Analysis",
+   "volume": "16",
+   "author": "Guardado",
+   "year": "2001",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_44",
+   "doi-asserted-by": "crossref",
+   "first-page": "1350",
+   "DOI": "10.1109/TPWRD.2012.2188143",
+   "article-title": "Diagnosing Faults in Power Transformers With Autoassociative Neural Networks and Mean Shift",
+   "volume": "27",
+   "author": "Miranda",
+   "year": "2012",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_45",
+   "first-page": "2096",
+   "article-title": "Conventional Ratio and Artificial Intelligence (AI) Diagnostic methods for DGA in Electrical Transformers",
+   "volume": "6",
+   "author": "Samy",
+   "year": "2015",
+   "journal-title": "Int. Electr. Eng. J."
+  },
+  {
+   "key": "ref_46",
+   "doi-asserted-by": "crossref",
+   "first-page": "37",
+   "DOI": "10.3311/PPee.13000",
+   "article-title": "Evolution and Modern Approaches of the Power Transformer Cost Optimization Methods",
+   "volume": "63",
+   "author": "Orosz",
+   "year": "2019",
+   "journal-title": "Period. Polytech. Electr. Eng. Comput. Sci."
+  },
+  {
+   "key": "ref_47",
+   "unstructured": "Ibrahim, S.A. (2020). A New Approach of Dissolved Gas Analysis (DGA) Technique for Transformer Faults Diagnosis. [Master\u2019s Thesis, Faculty of Engineering at Shoubra, Benha Unieristy]."
+  },
+  {
+   "key": "ref_48",
+   "unstructured": "(2021, March 19). IEC Standards 60076-3, Power Transformers-Part 3: Insulation Levels, Dielectric Tests and External Clearances in Air, Edition 3.0. Available online: https://webstore.iec.ch/publication/601."
+  },
+  {
+   "key": "ref_49",
+   "unstructured": "(2021, March 22). IEC Standards 60270, High Voltage Test Technique\u2014Discharge Measurements, Edition 3.1. Available online: https://global.ihs.com/doc_detail.cfm?document_name=IEC%2060270&item_s_key=00035759."
+  },
+  {
+   "key": "ref_50",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Abdel-Gawad, N.M.K., El Dein, A.Z., Mansour, D.-E.A., Ahmed, H.M., Darwish, M.M.F., and Lehtonen, M. (2017, January 19\u201321). Experimental measurements of partial discharge activity within LDPE/TiO2 nanocomposites. Proceedings of the 2017 Nineteenth International Middle East Power Systems Conference (MEPCON), Cairo, Egypt.",
+   "DOI": "10.1109/MEPCON.2017.8301273"
+  },
+  {
+   "key": "ref_51",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Mansour, D.-E.A., Abdel-Gawad, N.M.K., El Dein, A.Z., Ahmed, H.M., Darwish, M.M.F., and Lehtonen, M. (2021). Recent Advances in Polymer Nanocomposites Based on Polyethylene and Polyvinylchloride for Power Cables. Materials, 14.",
+   "DOI": "10.3390/ma14010066"
+  },
+  {
+   "key": "ref_52",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Abdel-Gawad, N.M., Mansour, D.-E.A., Darwish, M.M.F., El Dein, A.Z., Ahmed, H.M., and Lehtonen, M. (2018, January 1\u20135). Impact of nanoparticles functionalization on partial discharge activity within PVC/SiO2 nanocomposites. Proceedings of the 2018 IEEE 2nd International Conference on Dielectrics (ICD), Budapest, Hungary.",
+   "DOI": "10.1109/ICD.2018.8514756"
+  },
+  {
+   "key": "ref_53",
+   "unstructured": "El-Faraskoury, A.A. (September, January 27). Field Diagnosis for Determining the Insulation Health Index for Power Transformers. Proceedings of the 20th International Symposium on High Voltage Engineering, Buenos Aires, Argntina."
+  },
+  {
+   "key": "ref_54",
+   "unstructured": "Darwish, M.M.F., Ahmed, H.M., and Mansour, D.A. (2020, January 13\u201317). Thermo-Mechanical Properties of LDPE/SiO2 Nanocomposites based on Chemically Functionalized SiO2 Nanoparticles. Proceedings of the 2020 International Symposium on Electrical Insulating Materials (ISEIM), Tokyo, Japan."
+  },
+  {
+   "key": "ref_55",
+   "doi-asserted-by": "crossref",
+   "first-page": "90",
+   "DOI": "10.1049/iet-smt.2018.5270",
+   "article-title": "Development of industrial scale PVC nanocomposites with comprehensive enhancement in dielectric properties",
+   "volume": "13",
+   "author": "Mansour",
+   "year": "2019",
+   "journal-title": "IET Sci. Meas. Technol."
+  }
+ ],
+ "container-title": [
+  "Sensors"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/1424-8220/21/6/2223/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    11
+   ]
+  ],
+  "date-time": "2025-10-11T05:39:26Z",
+  "timestamp": 1760161166000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/1424-8220/21/6/2223"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2021,
+    3,
+    22
+   ]
+  ]
+ },
+ "references-count": 55,
+ "journal-issue": {
+  "issue": "6",
+  "published-online": {
+   "date-parts": [
+    [
+     2021,
+     3
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "s21062223"
+ ],
+ "URL": "https://doi.org/10.3390/s21062223",
+ "relation": {},
+ "ISSN": [
+  "1424-8220"
+ ],
+ "issn-type": [
+  {
+   "value": "1424-8220",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2021,
+    3,
+    22
+   ]
+  ]
+ }
+}

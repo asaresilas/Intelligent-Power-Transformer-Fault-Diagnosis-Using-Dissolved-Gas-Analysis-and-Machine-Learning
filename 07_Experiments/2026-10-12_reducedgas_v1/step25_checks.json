@@ -1,0 +1,9 @@
+{
+ "tasks": 1550,
+ "complete": true,
+ "every_record_once_per_repeat": true,
+ "identical_folds_to_step10": true,
+ "full_panel_reproduces_step20": true,
+ "tasks_with_warnings": 0,
+ "prediction_rows": 136090
+}

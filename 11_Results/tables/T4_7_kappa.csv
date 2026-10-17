@@ -1,0 +1,31 @@
+evaluation_set,a,b,kappa
+Internal test,True label,ML (selected model),0.79
+Internal test,True label,Rogers Ratio,0.253
+Internal test,True label,IEC 60599 ratio,0.408
+Internal test,True label,Duval Triangle 1,0.484
+Internal test,ML (selected model),Rogers Ratio,0.234
+Internal test,ML (selected model),IEC 60599 ratio,0.383
+Internal test,ML (selected model),Duval Triangle 1,0.378
+Internal test,Rogers Ratio,IEC 60599 ratio,0.746
+Internal test,Rogers Ratio,Duval Triangle 1,0.431
+Internal test,IEC 60599 ratio,Duval Triangle 1,0.514
+IEC TC 10 (power transformers),True label,ML (selected model),0.597
+IEC TC 10 (power transformers),True label,Rogers Ratio,0.334
+IEC TC 10 (power transformers),True label,IEC 60599 ratio,0.531
+IEC TC 10 (power transformers),True label,Duval Triangle 1,0.692
+IEC TC 10 (power transformers),ML (selected model),Rogers Ratio,0.349
+IEC TC 10 (power transformers),ML (selected model),IEC 60599 ratio,0.636
+IEC TC 10 (power transformers),ML (selected model),Duval Triangle 1,0.544
+IEC TC 10 (power transformers),Rogers Ratio,IEC 60599 ratio,0.673
+IEC TC 10 (power transformers),Rogers Ratio,Duval Triangle 1,0.472
+IEC TC 10 (power transformers),IEC 60599 ratio,Duval Triangle 1,0.693
+Li 2019,True label,ML (selected model),0.547
+Li 2019,True label,Rogers Ratio,0.138
+Li 2019,True label,IEC 60599 ratio,0.249
+Li 2019,True label,Duval Triangle 1,0.387
+Li 2019,ML (selected model),Rogers Ratio,0.215
+Li 2019,ML (selected model),IEC 60599 ratio,0.35
+Li 2019,ML (selected model),Duval Triangle 1,0.312
+Li 2019,Rogers Ratio,IEC 60599 ratio,0.729
+Li 2019,Rogers Ratio,Duval Triangle 1,0.514
+Li 2019,IEC 60599 ratio,Duval Triangle 1,0.624

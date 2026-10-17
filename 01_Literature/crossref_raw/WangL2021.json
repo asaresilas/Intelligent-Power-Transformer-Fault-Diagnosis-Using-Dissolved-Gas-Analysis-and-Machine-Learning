@@ -1,0 +1,386 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    29
+   ]
+  ],
+  "date-time": "2026-09-29T22:36:36Z",
+  "timestamp": 1790721396737,
+  "version": "4.1.0"
+ },
+ "reference-count": 25,
+ "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+ "issue": "5",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2021-10-01T00:00:00Z",
+    "timestamp": 1633046400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2021-10-01T00:00:00Z",
+    "timestamp": 1633046400000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-029"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2021-10-01T00:00:00Z",
+    "timestamp": 1633046400000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-037"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100000266",
+   "name": "Engineering and Physical Sciences Research Council",
+   "doi-asserted-by": "publisher",
+   "id": [
+    {
+     "id": "10.13039/501100000266",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "IEEE Trans. Dielect. Electr. Insul."
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2021,
+    10
+   ]
+  ]
+ },
+ "DOI": "10.1109/tdei.2021.009470",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2021,
+    11,
+    1
+   ]
+  ],
+  "date-time": "2021-11-01T20:02:49Z",
+  "timestamp": 1635796969000
+ },
+ "page": "1703-1712",
+ "source": "Crossref",
+ "is-referenced-by-count": 48,
+ "title": [
+  "Gaussian Process Multi-Class Classification for Transformer Fault Diagnosis Using Dissolved Gas Analysis"
+ ],
+ "prefix": "10.1109",
+ "volume": "28",
+ "author": [
+  {
+   "given": "Lin",
+   "family": "Wang",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "School of Electronics, Electrical Engineering and Computer Science, Queen&#x0027;s University Belfast,Belfast,UK"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Tim",
+   "family": "Littler",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "School of Electronics, Electrical Engineering and Computer Science, Queen&#x0027;s University Belfast,Belfast,UK"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Xueqin",
+   "family": "Liu",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "School of Electronics, Electrical Engineering and Computer Science, Queen&#x0027;s University Belfast,Belfast,UK"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "ref10",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2018.006766"
+  },
+  {
+   "key": "ref11",
+   "article-title": "Artificial intelligence model for transformer fault diagnosis using a constructed database",
+   "author": "wang",
+   "year": "2020",
+   "journal-title": "presented at the Conference on AC and DC Power Transmission"
+  },
+  {
+   "key": "ref12",
+   "author": "neal",
+   "year": "1995",
+   "journal-title": "Bayesian learning for neural networks"
+  },
+  {
+   "key": "ref13",
+   "first-page": "33",
+   "author": "rasmussen",
+   "year": "2006",
+   "journal-title": "Gaussian Processes for Machine Learning"
+  },
+  {
+   "key": "ref14",
+   "first-page": "514",
+   "article-title": "Gaussian processes for regressions",
+   "volume": "8",
+   "author": "williams",
+   "year": "1996",
+   "journal-title": "Advances in Neural Information Processing System"
+  },
+  {
+   "key": "ref15",
+   "doi-asserted-by": "crossref",
+   "first-page": "1948",
+   "DOI": "10.1109/TPAMI.2006.238",
+   "article-title": "Bayesian Gaussian process classification with the EM-EP algorithm",
+   "volume": "28",
+   "author": "kim",
+   "year": "2006",
+   "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+  },
+  {
+   "key": "ref16",
+   "first-page": "2035",
+   "article-title": "Approximations for binary Gaussian process classification",
+   "volume": "9",
+   "author": "nickisch",
+   "year": "2008",
+   "journal-title": "J Mach Learn Res"
+  },
+  {
+   "key": "ref17",
+   "first-page": "2608",
+   "article-title": "Fuzzy support vector machines based on FCM clustering",
+   "author": "xiong",
+   "year": "0",
+   "journal-title": "Proc Intl Conf on Machine Learning and Cybernetics (ICMLC)"
+  },
+  {
+   "key": "ref18",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/72.914517"
+  },
+  {
+   "key": "ref19",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/5254.708428"
+  },
+  {
+   "key": "ref4",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2018.006746"
+  },
+  {
+   "key": "ref3",
+   "article-title": "IEEE Guide for the Interpretation of Gases Generated in Mineral Oil-Immersed Transformers",
+   "year": "2019",
+   "journal-title": "IEEE Standard C57 104&#x2013;2008"
+  },
+  {
+   "key": "ref6",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2017.006841"
+  },
+  {
+   "key": "ref5",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2019.1423"
+  },
+  {
+   "key": "ref8",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRD.2017.2762920"
+  },
+  {
+   "key": "ref7",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2018.007247"
+  },
+  {
+   "key": "ref2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MEI.2014.6804740"
+  },
+  {
+   "key": "ref9",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRD.2019.2900543"
+  },
+  {
+   "key": "ref1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2012.6215106"
+  },
+  {
+   "key": "ref20",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/67.814667"
+  },
+  {
+   "key": "ref22",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/21.52545"
+  },
+  {
+   "key": "ref21",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TSMCC.2008.2007253"
+  },
+  {
+   "key": "ref24",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2017.005959"
+  },
+  {
+   "key": "ref23",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/JSTSP.2018.2872460"
+  },
+  {
+   "key": "ref25",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2018.007191"
+  }
+ ],
+ "container-title": [
+  "IEEE Transactions on Dielectrics and Electrical Insulation"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx7/94/9594861/09594881.pdf?arnumber=9594881",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2022,
+    6,
+    9
+   ]
+  ],
+  "date-time": "2022-06-09T20:20:38Z",
+  "timestamp": 1654806038000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://ieeexplore.ieee.org/document/9594881/"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2021,
+    10
+   ]
+  ]
+ },
+ "references-count": 25,
+ "journal-issue": {
+  "issue": "5"
+ },
+ "URL": "https://doi.org/10.1109/tdei.2021.009470",
+ "relation": {},
+ "ISSN": [
+  "1070-9878",
+  "1558-4135"
+ ],
+ "issn-type": [
+  {
+   "value": "1070-9878",
+   "type": "print"
+  },
+  {
+   "value": "1558-4135",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2021,
+    10
+   ]
+  ]
+ }
+}

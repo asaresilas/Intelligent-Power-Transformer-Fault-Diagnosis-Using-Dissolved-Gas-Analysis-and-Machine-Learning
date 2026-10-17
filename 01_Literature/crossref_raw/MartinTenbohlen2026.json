@@ -1,0 +1,728 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    8
+   ]
+  ],
+  "date-time": "2026-09-08T23:22:54Z",
+  "timestamp": 1788909774273,
+  "version": "build-2803163510"
+ },
+ "reference-count": 80,
+ "publisher": "MDPI AG",
+ "issue": "13",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      7,
+      6
+     ]
+    ],
+    "date-time": "2026-07-06T00:00:00Z",
+    "timestamp": 1783296000000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Energies"
+ ],
+ "abstract": "<jats:p>The probability of failure of a power transformer is difficult to quantify within a single utility because major failures are rare and operating histories are often incomplete. This paper uses large-scale CIGRE surveys (50 utilities, 26,533 transformers, 331,379 operating years) to estimate age-dependent component reliability by voltage class. In total, 1358 major failures and 991 retirements were reported for a reference period of up to 34 years. The data were treated as left-truncated and right-censored. Hazard rates were calculated for active parts, bushings, and on-load tap changers, retirements were assessed using the Kaplan\u2013Meier estimator, and Weibull distribution models were fitted to 100\u2013199 kV and 200\u2013700 kV populations. The overall major failure rate was 0.41% per year. For the 100\u2013199 kV transformers, the component hazard rates were close to constant with age (\u03b2 \u2248 1), and the late-life pattern was influenced by increasing retirements. For the 200\u2013700 kV transformers, bushing hazard showed a stronger age dependency and exceeded active-part hazard at around 50 years. The results highlight the value of component-focused risk management and show that fleet reliability should be interpreted alongside retirement and condition-management practices. Key limitations include data truncation, censoring, and the lack of categorisation of failures by technology type.</jats:p>",
+ "DOI": "10.3390/en19133197",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    7,
+    6
+   ]
+  ],
+  "date-time": "2026-07-06T13:43:14Z",
+  "timestamp": 1783345394000
+ },
+ "page": "3197",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 1,
+ "title": [
+  "Power Transformer Component Reliability Using CIGRE Large-Scale Data Surveys"
+ ],
+ "prefix": "10.3390",
+ "volume": "19",
+ "author": [
+  {
+   "given": "Daniel",
+   "family": "Martin",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Essential Energy, 8 Buller St., Port Macquarie, NSW 2444, Australia"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-6610-6965",
+   "authenticated-orcid": false,
+   "given": "Stefan",
+   "family": "Tenbohlen",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Institute for Power Transmission and High Voltage Technology, University of Stuttgart, Pfaffenwaldring 47, 70569 Stuttgart, Germany"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2026,
+    7,
+    6
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "doi-asserted-by": "crossref",
+   "first-page": "506",
+   "DOI": "10.1109/TPWRD.2011.2181541",
+   "article-title": "Modeling of replacement alternatives for power transformer populations",
+   "volume": "27",
+   "author": "Wouters",
+   "year": "2012",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_2",
+   "doi-asserted-by": "crossref",
+   "first-page": "817",
+   "DOI": "10.1109/TPWRD.2010.2091289",
+   "article-title": "A technoeconomic method for replacing transformers",
+   "volume": "26",
+   "author": "Salama",
+   "year": "2011",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_3",
+   "unstructured": "Winsor, G., and Buncombe, S. (2007, January 22\u201325). Repair/replace decision making practices. Proceedings of the ICOMS Asset Management Conference, Melbourne, Australia."
+  },
+  {
+   "key": "ref_4",
+   "unstructured": "Moubray, J. (1997). Reliability-Centered Maintenance, Industrial Press."
+  },
+  {
+   "key": "ref_5",
+   "unstructured": "Dean, A. (2007, January 22\u201325). Development and implementation of a spares strategy. Proceedings of the ICOMS Asset Management Conference, Melbourne, Australia."
+  },
+  {
+   "key": "ref_6",
+   "unstructured": "Australian Energy Regulator (AER) (2026, April 14). Industry Practice Application Note: Asset Replacement Planning, Available online: https://www.aer.gov.au/system/files/2024-07/AER%20-%20Industry%20practice%20application%20note%20Asset%20replacement%20planning%20-%20July%202024.pdf."
+  },
+  {
+   "key": "ref_7",
+   "unstructured": "CIGRE Working Group A2.37 (2015). Transformer Reliability Survey, CIGRE. Technical Brochure 642."
+  },
+  {
+   "key": "ref_8",
+   "unstructured": "CIGRE Working Group A2.62 (2024). Analysis of AC Transformer Reliability, CIGRE. Technical Brochure 939."
+  },
+  {
+   "key": "ref_9",
+   "unstructured": "Tenbohlen, S., Hanif, Z., and Martin, D. (December, January 29). Analysis of major failures of power transformers. Proceedings of the CIGRE SC A2 & 6th International Colloquium on Transformer Research and Asset Management (ICTRAM), Split, Croatia."
+  },
+  {
+   "key": "ref_10",
+   "unstructured": "(2026, April 14). Institute of Power Transmission and High Voltage Technology (IEH), University of Stuttgart. CIGRE Working Group A2.62 (News). Available online: https://www.ieh.uni-stuttgart.de/aktuelles/news/CIGRE-working-group-A2.62/."
+  },
+  {
+   "key": "ref_11",
+   "first-page": "21",
+   "article-title": "An international survey on failures in large power transformers in service",
+   "volume": "88",
+   "author": "Bossi",
+   "year": "1983",
+   "journal-title": "Electra"
+  },
+  {
+   "key": "ref_12",
+   "first-page": "47",
+   "article-title": "Reliability analysis by failure mode: A useful tool for product reliability evaluation and improvement",
+   "volume": "35",
+   "author": "Doganaksoy",
+   "year": "2002",
+   "journal-title": "Qual. Prog."
+  },
+  {
+   "key": "ref_13",
+   "doi-asserted-by": "crossref",
+   "first-page": "52",
+   "DOI": "10.1109/MPER.2002.4311976",
+   "article-title": "Evaluating unavailability of equipment aging failures",
+   "volume": "22",
+   "author": "Li",
+   "year": "2002",
+   "journal-title": "IEEE Power Eng. Rev."
+  },
+  {
+   "key": "ref_14",
+   "doi-asserted-by": "crossref",
+   "first-page": "52",
+   "DOI": "10.1109/MPAE.2006.1632454",
+   "article-title": "Power system equipment aging",
+   "volume": "4",
+   "author": "Li",
+   "year": "2006",
+   "journal-title": "IEEE Power Energy Mag."
+  },
+  {
+   "key": "ref_15",
+   "unstructured": "(2008). Weibull Analysis (Standard No. IEC 61649:2008)."
+  },
+  {
+   "key": "ref_16",
+   "doi-asserted-by": "crossref",
+   "first-page": "857",
+   "DOI": "10.1214/00-AOAS231",
+   "article-title": "Prediction of remaining life of power transformers based on left truncated and right censored lifetime data",
+   "volume": "3",
+   "author": "Hong",
+   "year": "2009",
+   "journal-title": "Ann. Appl. Stat."
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "first-page": "236",
+   "DOI": "10.1109/TPWRS.2003.821434",
+   "article-title": "Evaluating mean life of power system equipment with limited end-of-life failure data",
+   "volume": "19",
+   "author": "Li",
+   "year": "2004",
+   "journal-title": "IEEE Trans. Power Syst."
+  },
+  {
+   "key": "ref_18",
+   "doi-asserted-by": "crossref",
+   "first-page": "1750",
+   "DOI": "10.1109/TPWRD.2013.2264143",
+   "article-title": "Data requisites for transformer statistical lifetime modelling\u2014Part I: Aging-related failures",
+   "volume": "28",
+   "author": "Zhou",
+   "year": "2013",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_19",
+   "doi-asserted-by": "crossref",
+   "first-page": "154",
+   "DOI": "10.1109/TPWRD.2013.2270116",
+   "article-title": "Data requisites for transformer statistical lifetime modelling\u2014Part II: Combination of random and aging-related failures",
+   "volume": "29",
+   "author": "Zhou",
+   "year": "2014",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "first-page": "2558",
+   "DOI": "10.1109/TPWRS.2014.2308581",
+   "article-title": "Probabilistic indicators for assessing age- and loading-based criticality of transformers to cascading failure events",
+   "volume": "29",
+   "author": "Awadallah",
+   "year": "2014",
+   "journal-title": "IEEE Trans. Power Syst."
+  },
+  {
+   "key": "ref_21",
+   "doi-asserted-by": "crossref",
+   "first-page": "1895",
+   "DOI": "10.1109/TPWRD.2018.2814588",
+   "article-title": "Investigation into modelling power transformer failure and retirement statistics",
+   "volume": "33",
+   "author": "Martin",
+   "year": "2018",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "first-page": "16",
+   "DOI": "10.1109/MEI.2017.8014387",
+   "article-title": "Survey of Australian power transformer failures and retirements",
+   "volume": "33",
+   "author": "Martin",
+   "year": "2017",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_23",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Martin, D., Saha, T.K., Buckley, G., Chinnarajan, S., and MacArthur, T.L. (2018). Analyzing differences in useful life of power transformers across utilities for better strategic spares management. Proceedings of the 2018 IEEE Power & Energy Society General Meeting (PESGM), IEEE.",
+   "DOI": "10.1109/PESGM.2018.8585533"
+  },
+  {
+   "key": "ref_24",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Martin, D., Marks, J., Saha, T., Krause, O., Russell, G., and Alibegovic-Memisevic, A. (2017). On the development of power transformer failure models: An Australian case study. Proceedings of the 2017 IEEE Power & Energy Society General Meeting (PESGM), IEEE.",
+   "DOI": "10.1109/PESGM.2017.8274571"
+  },
+  {
+   "key": "ref_25",
+   "doi-asserted-by": "crossref",
+   "first-page": "7",
+   "DOI": "10.1109/MEI.2019.8878255",
+   "article-title": "Analysis and mitigation of Australian and New Zealand power transformer failures resulting in fires and explosions",
+   "volume": "35",
+   "author": "Martin",
+   "year": "2019",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_26",
+   "unstructured": "Western Power (1996). Australia/New Zealand Transformer Reliability Survey 1996, Western Power. Technical Report."
+  },
+  {
+   "key": "ref_27",
+   "unstructured": "Petersen, A., and Austin, P.L. (2004). Impact of recent transformer failures and fires\u2014Australian and New Zealand experiences. Proceedings of the CIGRE Paris Session, CIGRE."
+  },
+  {
+   "key": "ref_28",
+   "unstructured": "Australian Energy Regulator (AER) (2026, April 07). Networks Performance Reporting, Available online: https://www.aer.gov.au/industry/networks/performance."
+  },
+  {
+   "key": "ref_29",
+   "unstructured": "Martin, D., Tenbohlen, S., Hanif, Z., and Beckett, C. (2024). Australian and New Zealand transformer reliability analysis within the context of the international failure surveys. Proceedings of the CIGRE Paris Session, CIGRE."
+  },
+  {
+   "key": "ref_30",
+   "unstructured": "Picher, P., Boudreau, J.-F., Manga, A., Rajotte, C., Tardif, C., Bizier, G., Di Gaetano, N., Garon, D., Girard, B., and Hamel, J.-F. (2014). Use of health index and reliability data for transformer condition assessment and fleet ranking. Proceedings of the CIGRE Paris Session, CIGRE."
+  },
+  {
+   "key": "ref_31",
+   "unstructured": "Tenbohlen, S., Martin, D., and Tenbohlen, J. (November, January 27). Component reliability of power transformers based on hazard curve analysis. Proceedings of the CIGRE SC A2 & D1 Joint Colloquium, Seoul, Republic of Korea."
+  },
+  {
+   "key": "ref_32",
+   "unstructured": "Tenbohlen, S., Martin, D., and Tenbohlen, J. (2026, January 3\u20136). Modelling the failure probability of power transformers based on voltage level and population age. Proceedings of the IEEE International Conference on Condition Monitoring and Diagnosis (CMD), Bali, Indonesia."
+  },
+  {
+   "key": "ref_33",
+   "doi-asserted-by": "crossref",
+   "first-page": "457",
+   "DOI": "10.1080/01621459.1958.10501452",
+   "article-title": "Nonparametric estimation from incomplete observations",
+   "volume": "53",
+   "author": "Kaplan",
+   "year": "1958",
+   "journal-title": "J. Am. Stat. Assoc."
+  },
+  {
+   "key": "ref_34",
+   "doi-asserted-by": "crossref",
+   "first-page": "293",
+   "DOI": "10.1115/1.4010337",
+   "article-title": "A statistical distribution function of wide applicability",
+   "volume": "18",
+   "author": "Weibull",
+   "year": "1951",
+   "journal-title": "J. Appl. Mech."
+  },
+  {
+   "key": "ref_35",
+   "doi-asserted-by": "crossref",
+   "first-page": "15",
+   "DOI": "10.1080/00401706.1981.10486231",
+   "article-title": "Simple approximate distributional results for confidence and tolerance limits for the Weibull distribution based on maximum likelihood estimators",
+   "volume": "23",
+   "author": "Bain",
+   "year": "1981",
+   "journal-title": "Technometrics"
+  },
+  {
+   "key": "ref_36",
+   "doi-asserted-by": "crossref",
+   "first-page": "174",
+   "DOI": "10.1080/00224065.1986.11979006",
+   "article-title": "Approximate distributional results based on the maximum likelihood estimators for the Weibull distribution",
+   "volume": "18",
+   "author": "Bain",
+   "year": "1986",
+   "journal-title": "J. Qual. Technol."
+  },
+  {
+   "key": "ref_37",
+   "unstructured": "CIGRE Working Group A2.33 (2013). Guide for Transformer Fire Safety Practices, CIGRE. Technical Brochure 537."
+  },
+  {
+   "key": "ref_38",
+   "unstructured": "AusNet Services (2015). AMS\u2014Victorian Electricity Transmission Network: Power Transformers and Oil-Filled Reactors, AusNet Services."
+  },
+  {
+   "key": "ref_39",
+   "unstructured": "TransGrid (2011). Network Management Plan 2011\u20132016, TransGrid."
+  },
+  {
+   "key": "ref_40",
+   "unstructured": "ElectraNet (2018). Managing the Risk of Transformer Bushing Failure\u2014Project Specification Consultation, ElectraNet."
+  },
+  {
+   "key": "ref_41",
+   "unstructured": "AusNet Services (2015). Program of Works 2017\u20132022: Transformer Bushings Replacement, AusNet Services."
+  },
+  {
+   "key": "ref_42",
+   "unstructured": "Transpower (2017). Asset Management Plan 2017, Transpower."
+  },
+  {
+   "key": "ref_43",
+   "unstructured": "Schuette, T., and Santos, E. (2016). Understanding the Breakdown Mechanism of Bushings and Implementing Appropriate Life-Cycle-Orientated Maintenance Strategies, Western Power."
+  },
+  {
+   "key": "ref_44",
+   "unstructured": "CIGRE Working Group A2.36 (2013). Guide for Preparation of Specifications for Power Transformers, CIGRE. CIGRE Technical Brochure No. 528."
+  },
+  {
+   "key": "ref_45",
+   "unstructured": "CIGRE Working Group A2.36 (2013). Transformer Procurement Process: Guide to Design Review for Power Transformers, CIGRE. CIGRE Technical Brochure No. 529."
+  },
+  {
+   "key": "ref_46",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Overview of Transformer and Reactor Life Management. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_47",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.L., and Ryder, S. (2024). Transformer failure modes and effects analysis. Transformer and Reactor Life Management (CIGRE Green Books), Springer. Chapter 11.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_48",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Specification of Transformers and Reactors for a Long and Trouble-Free Life. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_49",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Loading and Temperature Rise for Transformers and Reactors in Service. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_50",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.L., and Ryder, S. (2024). What makes a transformer age?. Transformer and Reactor Life Management, Springer. Chapter 2.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_51",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Economics of Transformer and Reactor Life Management. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_52",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Operation of Transformers and Shunt Reactors. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_53",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Maintenance of Transformers and Reactors. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_54",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Life Extension for Transformers. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_55",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Condition Assessment Techniques for Transformers and Reactors. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_56",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Condition Monitoring Techniques for Transformers and Reactors. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_57",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Use of Digital Twins for Transformers and Reactors. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_58",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Troubleshooting of Transformers and Shunt Reactors. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_59",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Ageing of Solid Insulation in Transformer and Reactor Windings. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_60",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Management of Solid Insulation in Transformer and Reactor Windings. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_61",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Liquid Insulation Ageing in Transformers and Reactors. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_62",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Moisture in Transformers and Reactors. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_63",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Dielectric faults and failures in transformers and reactors. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_64",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Transformer and reactor mechanical condition assessment. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_65",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Overheating of transformers and reactors in service. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_66",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Transformer bushing and terminal condition assessment. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_67",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Transformer tapchanger condition assessment. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_68",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Corrosion and deterioration of external parts of transformers and reactors in service. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_69",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Gupta, A.K., MacArthur, T.-L., and Ryder, S. (2024). Transformers and the circular economy. Transformer and Reactor Life Management, Springer.",
+   "DOI": "10.1007/978-3-031-77219-1"
+  },
+  {
+   "key": "ref_70",
+   "unstructured": "teNyenhuis, E.G. (2020). Advancements in transformer site dryouts. Proceedings of the CIGRE Paris Session, CIGRE."
+  },
+  {
+   "key": "ref_71",
+   "unstructured": "CIGRE Study Committee A2 (2003). Life Extension of Oil-Filled Transformers and Shunt Reactors, CIGRE. CIGRE Technical Brochure No. 227."
+  },
+  {
+   "key": "ref_72",
+   "doi-asserted-by": "crossref",
+   "first-page": "23",
+   "DOI": "10.1109/MEI.2015.7214442",
+   "article-title": "Determining water in transformer paper insulation: Analyzing aging transformers",
+   "volume": "31",
+   "author": "Martin",
+   "year": "2015",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_73",
+   "doi-asserted-by": "crossref",
+   "first-page": "1576",
+   "DOI": "10.1109/TPAS.1979.319472",
+   "article-title": "Bubble formation in power transformer windings at overload temperatures",
+   "volume": "PAS-98",
+   "author": "Heinrichs",
+   "year": "1979",
+   "journal-title": "IEEE Trans. Power Appar. Syst."
+  },
+  {
+   "key": "ref_74",
+   "unstructured": "Oommen, T.V., and Lindgren, S.R. (November, January 28). Bubble evolution from transformer overload. Proceedings of the IEEE/PES Transmission and Distribution Conference and Exposition, Atlanta, GA, USA."
+  },
+  {
+   "key": "ref_75",
+   "doi-asserted-by": "crossref",
+   "first-page": "906",
+   "DOI": "10.1109/TDEI.2010.5492265",
+   "article-title": "The influence of cellulose insulation aging degree on its water sorption properties and bubble evolution",
+   "volume": "17",
+   "author": "Przybylek",
+   "year": "2010",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_76",
+   "doi-asserted-by": "crossref",
+   "first-page": "168",
+   "DOI": "10.1049/iet-epa.2010.0028",
+   "article-title": "Evolution of bubbles in oil\u2013paper insulation influenced by material quality and ageing",
+   "volume": "5",
+   "author": "Koch",
+   "year": "2011",
+   "journal-title": "IET Electr. Power Appl."
+  },
+  {
+   "key": "ref_77",
+   "doi-asserted-by": "crossref",
+   "first-page": "391",
+   "DOI": "10.1109/61.19229",
+   "article-title": "A refined mathematical model for prediction of bubble evolution in transformers",
+   "volume": "4",
+   "author": "Fessler",
+   "year": "1989",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_78",
+   "doi-asserted-by": "crossref",
+   "first-page": "2111",
+   "DOI": "10.1109/TDEI.2014.004493",
+   "article-title": "A comparison of the formation of bubbles and water droplets in vegetable and mineral oil impregnated transformer paper",
+   "volume": "21",
+   "author": "Perkasa",
+   "year": "2014",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_79",
+   "unstructured": "CIGRE Working Group A2.49 (2019). Condition Assessment of Power Transformers, CIGRE. CIGRE Technical Brochure No. 761."
+  },
+  {
+   "key": "ref_80",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Nowlan, F.S., and Heap, H. (1978). Reliability-Centered Maintenance, United Airlines.",
+   "DOI": "10.21236/ADA066579"
+  }
+ ],
+ "container-title": [
+  "Energies"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/1996-1073/19/13/3197/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    7,
+    9
+   ]
+  ],
+  "date-time": "2026-07-09T04:14:02Z",
+  "timestamp": 1783570442000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/1996-1073/19/13/3197"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    7,
+    6
+   ]
+  ]
+ },
+ "references-count": 80,
+ "journal-issue": {
+  "issue": "13",
+  "published-online": {
+   "date-parts": [
+    [
+     2026,
+     7
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "en19133197"
+ ],
+ "URL": "https://doi.org/10.3390/en19133197",
+ "relation": {},
+ "ISSN": [
+  "1996-1073"
+ ],
+ "issn-type": [
+  {
+   "value": "1996-1073",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    7,
+    6
+   ]
+  ]
+ }
+}

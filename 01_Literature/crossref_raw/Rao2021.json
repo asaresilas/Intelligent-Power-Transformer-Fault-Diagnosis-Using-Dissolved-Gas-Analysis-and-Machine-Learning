@@ -1,0 +1,375 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    13
+   ]
+  ],
+  "date-time": "2026-10-13T17:32:16Z",
+  "timestamp": 1791912736010,
+  "version": "4.3.4"
+ },
+ "reference-count": 25,
+ "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+ "issue": "5",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2021-10-01T00:00:00Z",
+    "timestamp": 1633046400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2021-10-01T00:00:00Z",
+    "timestamp": 1633046400000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-029"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      10,
+      1
+     ]
+    ],
+    "date-time": "2021-10-01T00:00:00Z",
+    "timestamp": 1633046400000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-037"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "IEEE Trans. Dielect. Electr. Insul."
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2021,
+    10
+   ]
+  ]
+ },
+ "DOI": "10.1109/tdei.2021.009770",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2021,
+    11,
+    1
+   ]
+  ],
+  "date-time": "2021-11-01T16:02:49Z",
+  "timestamp": 1635782569000
+ },
+ "page": "1828-1835",
+ "source": "Crossref",
+ "is-referenced-by-count": 102,
+ "title": [
+  "Identification and Application of Machine Learning Algorithms for Transformer Dissolved Gas Analysis"
+ ],
+ "prefix": "10.1109",
+ "volume": "28",
+ "author": [
+  {
+   "given": "U. Mohan",
+   "family": "Rao",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Research Chair on the Aging of Power Network Infrastructure (ViAHT), Universit&#x00E9; du Qu&#x00E9;beca,Department of Applied Sciences,Chicoutimi,QC,Canada"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "I.",
+   "family": "Fofana",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Research Chair on the Aging of Power Network Infrastructure (ViAHT), Universit&#x00E9; du Qu&#x00E9;beca,Department of Applied Sciences,Chicoutimi,QC,Canada"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "K. N. V. P. S.",
+   "family": "Rajesh",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Gayatri Vidya Parishad College of Engineering (A),Department of Electronics and Communication,India"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "P.",
+   "family": "Picher",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Institut de Recherche d&#x0027;Hydro-Qu&#x00E9;bec,Varennes,QC,Canada"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "ref10",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2018.0059"
+  },
+  {
+   "key": "ref11",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/DRPT.2015.7432473"
+  },
+  {
+   "key": "ref12",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CEC.2016.7744248"
+  },
+  {
+   "key": "ref13",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2018.5482"
+  },
+  {
+   "key": "ref14",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRD.2012.2197868"
+  },
+  {
+   "key": "ref15",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CEIDP.2017.8257475"
+  },
+  {
+   "key": "ref16",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/57.917529"
+  },
+  {
+   "key": "ref17",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/088342306000000060"
+  },
+  {
+   "key": "ref18",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/978-1-4471-0123-9_3"
+  },
+  {
+   "key": "ref19",
+   "author": "kotthoff",
+   "year": "2017",
+   "journal-title": "Auto-WEKA 2 0 Automatic model selection and hyperparameter optimization in WEKA"
+  },
+  {
+   "key": "ref4",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICDL.2017.8124628"
+  },
+  {
+   "key": "ref3",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2013.003602"
+  },
+  {
+   "key": "ref6",
+   "article-title": "The world of DGA-and its uncertainties Senior Industry Expert",
+   "author": "leivo",
+   "year": "2020",
+   "journal-title": "White Paper"
+  },
+  {
+   "key": "ref5",
+   "year": "2019",
+   "journal-title": "IEEE Guide for the Interpretation of Gases Generated in Mineral Oil-Immersed Transformers"
+  },
+  {
+   "key": "ref8",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TIA.2016.2598677"
+  },
+  {
+   "key": "ref7",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2016.005301"
+  },
+  {
+   "key": "ref2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MEI.2019.8878258"
+  },
+  {
+   "key": "ref9",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2019.1189"
+  },
+  {
+   "key": "ref1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACCESS.2021.3080090"
+  },
+  {
+   "key": "ref20",
+   "first-page": "106622",
+   "article-title": "AutoML: A survey of the state-of-the-Art",
+   "volume": "212",
+   "author": "he",
+   "year": "2019",
+   "journal-title": "ArXiv"
+  },
+  {
+   "key": "ref22",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/978-3-030-05318-5_6"
+  },
+  {
+   "key": "ref21",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/1656274.1656278"
+  },
+  {
+   "key": "ref24",
+   "author": "powers",
+   "year": "2020",
+   "journal-title": "Evaluation from precision recall and F-measure to ROC informedness markedness and correlation"
+  },
+  {
+   "key": "ref23",
+   "article-title": "Auto-PyTorch Tabular:multi-fidelity meta learning for efficient and robust autoDL",
+   "author": "zimmer",
+   "year": "2020",
+   "journal-title": "ArXiv"
+  },
+  {
+   "key": "ref25",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.patcog.2019.02.023"
+  }
+ ],
+ "container-title": [
+  "IEEE Transactions on Dielectrics and Electrical Insulation"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx7/94/9594861/09594902.pdf?arnumber=9594902",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2022,
+    6,
+    9
+   ]
+  ],
+  "date-time": "2022-06-09T16:20:48Z",
+  "timestamp": 1654791648000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://ieeexplore.ieee.org/document/9594902/"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2021,
+    10
+   ]
+  ]
+ },
+ "references-count": 25,
+ "journal-issue": {
+  "issue": "5"
+ },
+ "URL": "https://doi.org/10.1109/tdei.2021.009770",
+ "relation": {},
+ "ISSN": [
+  "1070-9878",
+  "1558-4135"
+ ],
+ "issn-type": [
+  {
+   "value": "1070-9878",
+   "type": "print"
+  },
+  {
+   "value": "1558-4135",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2021,
+    10
+   ]
+  ]
+ }
+}

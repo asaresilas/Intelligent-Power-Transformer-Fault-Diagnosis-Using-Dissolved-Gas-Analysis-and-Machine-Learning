@@ -1,0 +1,97 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    23
+   ]
+  ],
+  "date-time": "2026-09-23T21:27:11Z",
+  "timestamp": 1790198831514,
+  "version": "4.1.0"
+ },
+ "posted": {
+  "date-parts": [
+   [
+    2025
+   ]
+  ]
+ },
+ "group-title": "SSRN",
+ "reference-count": 0,
+ "publisher": "Elsevier BV",
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "abstract": "<jats:p>Power transformers are critical components of electrical power systems, and their failure can lead to severe operational disruptions, financial losses, and safety hazards. Traditional transformer fault diagnosis techniques, such as dissolved gas analysis (DGA), partial discharge (PD) monitoring, and frequency response analysis (FRA), rely heavily on expert knowledge and rule-based frameworks, making them prone to inaccuracies and inconsistencies. Recent advancements in artificial intelligence (AI) and machine learning (ML) have introduced data-driven methodologies that enhance fault detection, classification, and predictive maintenance by automating feature extraction and improving diagnostic accuracy. This systematic review, based on the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, evaluates 107 peer-reviewed studies published between 2010 and 2024, assessing the role of AI and ML in transformer fault diagnosis. The findings highlight that deep learning models, particularly convolutional neural networks (CNNs) and long short-term memory (LSTM) networks, achieve superior fault classification accuracy compared to conventional methods, with some models surpassing 95% accuracy in real-world applications. Hybrid AI models, such as ANN-SVM combinations and reinforcement learning-based optimizations, further enhance diagnostic reliability by mitigating data inconsistencies and optimizing fault classification strategies. AI-driven predictive maintenance models demonstrate substantial improvements in transformer health monitoring by shifting from traditional time-based maintenance to conditionbased strategies, reducing unexpected failures by up to 40%. Additionally, multi-sensor integration techniques, including wireless sensor networks (WSNs) and IoT-enabled monitoring systems, enhance fault detection accuracy by fusing real-time data from different diagnostic modalities. However, the review also identifies challenges related to AI model interpretability, dataset limitations, and deployment scalability, which need to be addressed for broader industrial adoption. Overall, this study underscores the transformative role of AI in improving transformer fault detection, classification, and predictive analytics, paving the way for more efficient and automated power grid management.</jats:p>",
+ "DOI": "10.2139/ssrn.5190585",
+ "type": "posted-content",
+ "created": {
+  "date-parts": [
+   [
+    2025,
+    4,
+    28
+   ]
+  ],
+  "date-time": "2025-04-28T13:23:24Z",
+  "timestamp": 1745846604000
+ },
+ "source": "Crossref",
+ "is-referenced-by-count": 6,
+ "title": [
+  "AI AND MACHINE LEARNING IN TRANSFORMER FAULT DIAGNOSIS: A SYSTEMATIC REVIEW"
+ ],
+ "prefix": "10.2139",
+ "author": [
+  {
+   "given": "M A Masud",
+   "family": "Khan",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    14
+   ]
+  ],
+  "date-time": "2026-08-14T16:33:34Z",
+  "timestamp": 1786725214000
+ },
+ "score": 70.57454,
+ "resource": {
+  "primary": {
+   "URL": "https://www.ssrn.com/abstract=5190585"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2025
+   ]
+  ]
+ },
+ "references-count": 0,
+ "URL": "https://doi.org/10.2139/ssrn.5190585",
+ "published": {
+  "date-parts": [
+   [
+    2025
+   ]
+  ]
+ },
+ "subtype": "preprint"
+}

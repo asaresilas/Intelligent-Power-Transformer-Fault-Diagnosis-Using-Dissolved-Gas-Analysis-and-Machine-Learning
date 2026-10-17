@@ -1,0 +1,576 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    3
+   ]
+  ],
+  "date-time": "2026-10-03T16:57:34Z",
+  "timestamp": 1791046654061,
+  "version": "4.1.0"
+ },
+ "reference-count": 41,
+ "publisher": "MDPI AG",
+ "issue": "21",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      10,
+      24
+     ]
+    ],
+    "date-time": "2023-10-24T00:00:00Z",
+    "timestamp": 1698105600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "name": "National Council for Scientific and Technological Development\u2014CNPq",
+   "award": [
+    "311848/2021-4"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "311848/2021-4"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "National Council for Scientific and Technological Development\u2014CNPq",
+   "award": [
+    "1024/2022"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "1024/2022"
+     ]
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100006182",
+   "name": "Esp\u00edrito Santo Research and Innovation Support Foundation\u2014FAPES",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "311848/2021-4"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "311848/2021-4"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100006182",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100006182",
+   "name": "Esp\u00edrito Santo Research and Innovation Support Foundation\u2014FAPES",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "1024/2022"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "1024/2022"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100006182",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Energies"
+ ],
+ "abstract": "<jats:p>Transformers insulated with mineral oil tend to form gases, which might be caused by system faults or extended use. Based on an evaluation of the main failure analysis techniques using combustible gases, this study reviewed the conventional techniques for Dissolved Gas Analysis (DGA), present in the norms IEC 60599 and IEEE Std C57.104, and their failure analysis tendency. Furthermore, to illustrate distinct technique performances and failures, the performance of the following techniques was analyzed based on the IEC TC10 database: Dornenburg, Duval Triangle, Duval Pentagon, IEC ratio method, Key Gas, and Rogers. The objective of this work was to present relevant information to support students and professionals who work in failure analysis and/or assist in the development of new tools in the DGA field.</jats:p>",
+ "DOI": "10.3390/en16217219",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2023,
+    10,
+    24
+   ]
+  ],
+  "date-time": "2023-10-24T11:39:04Z",
+  "timestamp": 1698147544000
+ },
+ "page": "7219",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 29,
+ "title": [
+  "Conventional Dissolved Gases Analysis in Power Transformers: Review"
+ ],
+ "prefix": "10.3390",
+ "volume": "16",
+ "author": [
+  {
+   "given": "Alceb\u00edades",
+   "family": "Rangel Bessa",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering, Federal University of Esp\u00edrito Santo, Vitoria 29075-910, Brazil"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-4785-556X",
+   "authenticated-orcid": false,
+   "given": "Jussara",
+   "family": "Farias Fardin",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering, Federal University of Esp\u00edrito Santo, Vitoria 29075-910, Brazil"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Patrick",
+   "family": "Marques Ciarelli",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering, Federal University of Esp\u00edrito Santo, Vitoria 29075-910, Brazil"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-6162-7697",
+   "authenticated-orcid": false,
+   "given": "Lucas",
+   "family": "Frizera Encarna\u00e7\u00e3o",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering, Federal University of Esp\u00edrito Santo, Vitoria 29075-910, Brazil"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2023,
+    10,
+    24
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "unstructured": "(2004). Specification for Electrical Insulating Paper and Paperboard (Standard No. ASTM D1305-99)."
+  },
+  {
+   "key": "ref_2",
+   "unstructured": "(1984). Specification for Cellulosic Papers for Electrical Purposes (Standard No. IEC 60554-3-3)."
+  },
+  {
+   "key": "ref_3",
+   "unstructured": "(2016). Standard Specification for Mineral Insulating Oil Used in Electrical Apparatus (Standard No. ASTM D3487-16E1)."
+  },
+  {
+   "key": "ref_4",
+   "unstructured": "Meyers, S.D., Kelly, J.J., and Parrish, E.R.H. (1981). A Guide to Transformer Maintenance, VDOC.PUB."
+  },
+  {
+   "key": "ref_5",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Colton, R. (1969, January 8\u201311). Combustible Gas Testing on Large Oil Filled Transformers. Proceedings of the 9th Electrical Insulation Conference, Boston, MA, USA.",
+   "DOI": "10.1109/EIC.1969.7461846"
+  },
+  {
+   "key": "ref_6",
+   "unstructured": "(2023, July 04). Messko Msafe Relay Buchholz, Mr Industry. Available online: https://www.reinhausen.com/productdetail/buchholz-relays/messko-msafe."
+  },
+  {
+   "key": "ref_7",
+   "unstructured": "(2023, July 04). Kelman TRANSPORT X. Available online: https://www.gegridsolutions.com/MD/CATALOG/TRANSPORTX.HTM."
+  },
+  {
+   "key": "ref_8",
+   "unstructured": "(2011). Method of Sampling Insulating Liquids (Standard No. CEI EN 60475)."
+  },
+  {
+   "key": "ref_9",
+   "unstructured": "(2011). Oil-Filled Electrical Equipment\u2014Sampling of Gases and Analysis of Free and Dissolved Gases\u2014Guidance (Standard No. VDE 0370-9)."
+  },
+  {
+   "key": "ref_10",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Vahidi, B., and Teymouri, A. (2019). Quality Confirmation Tests for Power Transformer Insulation Systems, Springer.",
+   "DOI": "10.1007/978-3-030-19693-6"
+  },
+  {
+   "key": "ref_11",
+   "doi-asserted-by": "crossref",
+   "first-page": "349",
+   "DOI": "10.1109/TEI.1978.298141",
+   "article-title": "IEEE and IEC Codes to Interpret Faults in Transformers Using Gas in Oil Analysis",
+   "volume": "75",
+   "author": "Rogers",
+   "year": "1978",
+   "journal-title": "IEEE Trans. Electr. Insul."
+  },
+  {
+   "key": "ref_12",
+   "unstructured": "(1991). IEEE Guide for the Interpretation of Gases Generated in Oil-Immersed Transformers (Standard No. C57.104-1991)."
+  },
+  {
+   "key": "ref_13",
+   "unstructured": "(2009). Standard Test Method for Analysis of Gases Dissolved in Eletric Insulation Oil by Gas Chromatography (Standard No. ASTM D3612-02)."
+  },
+  {
+   "key": "ref_14",
+   "first-page": "607",
+   "article-title": "An attempt to investigate transformer failure by Dissolved Gas Analysis",
+   "volume": "13",
+   "author": "Keshavamurthy",
+   "year": "2017",
+   "journal-title": "J. CPRI"
+  },
+  {
+   "key": "ref_15",
+   "doi-asserted-by": "crossref",
+   "first-page": "31",
+   "DOI": "10.1109/57.917529",
+   "article-title": "Interpretation of Gas-In-Oil Analysis Using New IEC Publication 60599 And IEC TC 10 Databases",
+   "volume": "17",
+   "author": "Duval",
+   "year": "2001",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_16",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zeng, B., Guo, J., Zhu, W., Xiao, Z., Yuan, F., and Huang, S. (2019). A transformer Fault Diagnosis Model Based on Hybrid Grey Wolf Optmizer and LS-SVM. Energies, 12.",
+   "DOI": "10.3390/en12214170"
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "unstructured": "N\u2019Cho, J.S., Fofana, I., Hadjadj, Y., and Beroual, A. (2016). Review of Physicochemical-Based Diagnostic Techniques for Assessing Insulation Condition in Aged Transformers. Energies, 9.",
+   "DOI": "10.3390/en9050367"
+  },
+  {
+   "key": "ref_18",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Syafruddin, H., and Nugroho, H.P. (2020, January 3\u20134). Dissolved Gas Analysis (DGA) for Diagnosis of Fault in Oil-Immersed Power Transformers A Case Study. Proceedings of the IEEE 4th International Conference on Electrical, Telecommunication and Computer Engineering (ELTICOM), Medan, Indonesia.",
+   "DOI": "10.1109/ELTICOM50775.2020.9230491"
+  },
+  {
+   "key": "ref_19",
+   "doi-asserted-by": "crossref",
+   "first-page": "109064",
+   "DOI": "10.1016/j.epsr.2022.109064",
+   "article-title": "Conventional Methods of Dissolved Gas Analysis Using Oil-Immersed Power Transformer for Fault Diagnosis: A Review",
+   "volume": "216",
+   "author": "Ali",
+   "year": "2023",
+   "journal-title": "Eletr. Power Syst. Res."
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "first-page": "1239",
+   "DOI": "10.1109/TDEI.2017.005959",
+   "article-title": "Dissolved Gas Analysis Evaluation in Eletric Power Transformers Using Conventional Methods a Review",
+   "volume": "24",
+   "author": "Faiz",
+   "year": "2017",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_21",
+   "unstructured": "Swanasri, C., Wannapring, E., and Swanasri, T. (July, January 28). Dissolved Gas Analysis Methods for Distribution Transformers. Proceedings of the 13th International Conference on Electrical Engineering/Electronics, Computer, Telecommunications and Information Technology (ECTI-CON), Chiang Mai, Thailand."
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Wattakapaiboon, W., and Pattanadech, N. (2016, January 25\u201328). The State of the Art for Dissolved Gas Analysis Based on Interpretation Techniques. Proceedings of the International Conference on Condition Monitoring and Diagnosis (CMD), Xi\u2019an, China.",
+   "DOI": "10.1109/CMD.2016.7757763"
+  },
+  {
+   "key": "ref_23",
+   "doi-asserted-by": "crossref",
+   "first-page": "201",
+   "DOI": "10.1016/j.rser.2015.02.052",
+   "article-title": "A Review of Monitoring Methods for Predictive Maintenance of Electric Power Transformers Based on Dissolved Gas Analysis",
+   "volume": "46",
+   "author": "Junior",
+   "year": "2015",
+   "journal-title": "Renew. Sustain. Energy Rev."
+  },
+  {
+   "key": "ref_24",
+   "doi-asserted-by": "crossref",
+   "first-page": "1220",
+   "DOI": "10.1016/j.egypro.2011.12.1079",
+   "article-title": "A Review of Dissolved Gas Analysis in Power Transformers",
+   "volume": "14",
+   "author": "Sun",
+   "year": "2012",
+   "journal-title": "Energy Procedia"
+  },
+  {
+   "key": "ref_25",
+   "unstructured": "(2015). Mineral Oil-Impregnated Electrical Equipment in Service\u2014Guide to the Interpretation of Dissolved and Free Gases Analysis (Standard No. IEC 60599 Ed. 3.0 b:2015)."
+  },
+  {
+   "key": "ref_26",
+   "first-page": "1",
+   "article-title": "Fault Gases Formed in Oil-Filled Breathing EHV Power Transformers\u2014the Interpretation of Gas Analysis Data",
+   "volume": "1974",
+   "author": "Duval",
+   "year": "1974",
+   "journal-title": "IEEE PAS"
+  },
+  {
+   "key": "ref_27",
+   "unstructured": "(2015). IEEE Guide for Dissolved Gas Analysis in Transformer Load Tap Changers (Standard No. C57.139-2015)."
+  },
+  {
+   "key": "ref_28",
+   "doi-asserted-by": "crossref",
+   "first-page": "22",
+   "DOI": "10.1109/MEI.2008.4665347",
+   "article-title": "The Duval Triangle for Load Tap Changers, Non-Mineral Oils and Low Temperature Faults in Transformers",
+   "volume": "24",
+   "author": "Duval",
+   "year": "2008",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_29",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Akbari, A., Setayeshmehr, A., Borsi, H., and Gockenbach, E. (2008, January 9\u201312). A Software Implementation of the Duval Triangle Method. Proceedings of the Conference Record of the 2008 IEEE International Symposium on Electrical Insulation, Vancouver, BC, Canada.",
+   "DOI": "10.1109/ELINSL.2008.4570294"
+  },
+  {
+   "key": "ref_30",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Mansour, D.A. (2012, January 14\u201317). A New Graphical Technique for the Interpretation of Dissolved Gas Analysis in Power Transformers. Proceedings of the 2012 Annual Report Conference on Electrical Insulation and Dielectric Phenomena, Montreal, QC, Canada.",
+   "DOI": "10.1109/CEIDP.2012.6378754"
+  },
+  {
+   "key": "ref_31",
+   "unstructured": "Gamez, C. (2018). Power Transformer Condition Monitoring and Diagnosis, The Institute of Engineering and Tecnology (IET)."
+  },
+  {
+   "key": "ref_32",
+   "doi-asserted-by": "crossref",
+   "first-page": "2507",
+   "DOI": "10.1109/TDEI.2015.004999",
+   "article-title": "Development of A New Graphical Technique for Dissolved Gas Analysis in Power Transformers Based on The Five Combustible Gases",
+   "volume": "22",
+   "author": "Mansour",
+   "year": "2015",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_33",
+   "doi-asserted-by": "crossref",
+   "first-page": "9",
+   "DOI": "10.1109/MEI.2014.6943428",
+   "article-title": "The Duval Pentagon\u2014A New Complementary Tool for the Interpretation of Dissolved Gas Analysis in Transformers",
+   "volume": "30",
+   "author": "Duval",
+   "year": "2014",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_34",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Duval, M., and Haider, S. (2020). Combined Duval Pentagons: A Simplified Approach. Energies, 13.",
+   "DOI": "10.3390/en13112859"
+  },
+  {
+   "key": "ref_35",
+   "unstructured": "Duval, M., Alzieu, E., Banovic, M., Bhumiwat, S., Boman, P., Buchacz, T., Dale, A.M., Djurik, B., Grisaru, M., and Heizmann, T. (2019). Advances in DGA Interpretation, CIGRE."
+  },
+  {
+   "key": "ref_36",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Saha, T.K., and Purkait, P. (2017). Transformer Ageing\u2014Monitoring and Estimation Techniques, Wiley-IEEE Press.",
+   "DOI": "10.1002/9781119239970"
+  },
+  {
+   "key": "ref_37",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zhang, Y., Tang, Y., Liu, Y., and Liang, Z. (2022). Fault Diagnosis of Transformer Using Artificial Intelligence: A Review, School of Electric Power, South China University of Technology.",
+   "DOI": "10.3389/fenrg.2022.1006474"
+  },
+  {
+   "key": "ref_38",
+   "unstructured": "Li, Y. (2023). The State of the Art in Transformer Fault Diagnosis with Artificial Intelligence and Dissolved Gas Analysis: A Review of the Literature, School of Electrical and Electronics Engineering, North China Electric Power University."
+  },
+  {
+   "key": "ref_39",
+   "doi-asserted-by": "crossref",
+   "first-page": "2650",
+   "DOI": "10.1049/iet-gtd.2017.1927",
+   "article-title": "Proposed Three Ratios Technique for the Interpretation of Mineral Oil Transformers Based Dissolved Gas Analysis",
+   "volume": "12",
+   "author": "Gouda",
+   "year": "2018",
+   "journal-title": "IET Gener. Transm. Distrib."
+  },
+  {
+   "key": "ref_40",
+   "doi-asserted-by": "crossref",
+   "first-page": "490",
+   "DOI": "10.1049/iet-gtd.2017.0826",
+   "article-title": "Proposed Heptagon Graph for DGA Interpretation of Oil Transformers",
+   "volume": "12",
+   "author": "Gouda",
+   "year": "2018",
+   "journal-title": "IET Gener. Transm. Distrib."
+  },
+  {
+   "key": "ref_41",
+   "doi-asserted-by": "crossref",
+   "first-page": "118031",
+   "DOI": "10.1109/ACCESS.2021.3107332",
+   "article-title": "Enhancing, the Diagnostic Accuracy of DGA Techniques Based on IEC-TC10 and Related Databases",
+   "volume": "9",
+   "author": "Gouda",
+   "year": "2021",
+   "journal-title": "IEEE Access"
+  }
+ ],
+ "container-title": [
+  "Energies"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/1996-1073/16/21/7219/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    10
+   ]
+  ],
+  "date-time": "2025-10-10T21:10:37Z",
+  "timestamp": 1760130637000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/1996-1073/16/21/7219"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2023,
+    10,
+    24
+   ]
+  ]
+ },
+ "references-count": 41,
+ "journal-issue": {
+  "issue": "21",
+  "published-online": {
+   "date-parts": [
+    [
+     2023,
+     11
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "en16217219"
+ ],
+ "URL": "https://doi.org/10.3390/en16217219",
+ "relation": {},
+ "ISSN": [
+  "1996-1073"
+ ],
+ "issn-type": [
+  {
+   "value": "1996-1073",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2023,
+    10,
+    24
+   ]
+  ]
+ }
+}

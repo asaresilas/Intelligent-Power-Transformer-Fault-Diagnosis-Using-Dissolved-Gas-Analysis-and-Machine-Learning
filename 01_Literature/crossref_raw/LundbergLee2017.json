@@ -1,0 +1,76 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    29
+   ]
+  ],
+  "date-time": "2026-09-29T07:38:13Z",
+  "timestamp": 1790667493163,
+  "version": "4.1.0"
+ },
+ "description": "Supplemental Information for 10.1021/acs.jcim.1c01467",
+ "reference-count": 0,
+ "publisher": "American Chemical Society (ACS)",
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "DOI": "10.1021/acs.jcim.1c01467.s001",
+ "type": "component",
+ "created": {
+  "date-parts": [
+   [
+    2022,
+    3,
+    10
+   ]
+  ],
+  "date-time": "2022-03-10T07:45:10Z",
+  "timestamp": 1646898310000
+ },
+ "source": "Crossref",
+ "is-referenced-by-count": 2,
+ "title": [
+  "Unified Deep Learning Model for Multitask Reaction Predictions with Explanation"
+ ],
+ "prefix": "10.1021",
+ "member": "316",
+ "deposited": {
+  "date-parts": [
+   [
+    2022,
+    3,
+    28
+   ]
+  ],
+  "date-time": "2022-03-28T03:41:38Z",
+  "timestamp": 1648438898000
+ },
+ "score": 27.291527,
+ "resource": {
+  "primary": {
+   "URL": "https://pubs.acs.org/doi/suppl/10.1021/acs.jcim.1c01467/suppl_file/ci1c01467_si_001.pdf"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    null
+   ]
+  ]
+ },
+ "references-count": 0,
+ "URL": "https://doi.org/10.1021/acs.jcim.1c01467.s001",
+ "relation": {
+  "is-component-of": [
+   {
+    "id-type": "doi",
+    "id": "10.1021/acs.jcim.1c01467",
+    "asserted-by": "object"
+   }
+  ]
+ }
+}

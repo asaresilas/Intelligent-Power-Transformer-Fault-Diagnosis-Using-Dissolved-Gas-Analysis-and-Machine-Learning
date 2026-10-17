@@ -1,0 +1,553 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    30
+   ]
+  ],
+  "date-time": "2026-09-30T06:50:41Z",
+  "timestamp": 1790751041549,
+  "version": "4.1.0"
+ },
+ "reference-count": 29,
+ "publisher": "MDPI AG",
+ "issue": "13",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      7,
+      4
+     ]
+    ],
+    "date-time": "2025-07-04T00:00:00Z",
+    "timestamp": 1751587200000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "name": "Canada Research Chair tier 1, in Aging of Oil-Filled Equipment on High Voltage Lines (ViAHT)",
+   "award": [
+    "CRC-2021-00453"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "CRC-2021-00453"
+     ]
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Energies"
+ ],
+ "abstract": "<jats:p>Dissolved gas analysis remains the most widely utilized non-intrusive diagnostic method for detecting incipient faults in insulating liquid-immersed transformers. Despite their prevalence, conventional ratio-based methods often suffer from ambiguity and limited potential for automation applicrations. To address these limitations, this study proposes a unified multiclass classification model that integrates traditional gas ratio features with supervised machine learning algorithms to enhance fault diagnosis accuracy. The performance of six machine learning classifiers was systematically evaluated using training and testing data generated through four widely recognized gas ratio schemes. Grid search optimization was employed to fine-tune the hyperparameters of each model, while model evaluation was conducted using 10-fold cross-validation and six performance metrics. Across all the diagnostic approaches, ensemble models, namely random forest, XGBoost, and LightGBM, consistently outperformed non-ensemble models. Notably, random forest and LightGBM classifiers demonstrated the most robust and superior performance across all schemes, achieving accuracy, precision, recall, and F1 scores between 0.99 and 1, along with Matthew correlation coefficient values exceeding 0.98 in all cases. This robustness suggests that ensemble models are effective at capturing complex decision boundaries and relationships among gas ratio features. Furthermore, beyond numerical classification, the integration of physicochemical and dielectric properties in this study revealed degradation signatures that strongly correlate with thermal fault indicators. Particularly, the CIGR\u00c9-based classification using a random forest classifier demonstrated high sensitivity in detecting thermally stressed units, corroborating trends observed in chemical deterioration parameters such as interfacial tension and CO2/CO ratios. Access to over 80 years of operational data provides a rare and invaluable perspective on the long-term performance and degradation of power equipment. This extended dataset enables a more accurate assessment of ageing trends, enhances the reliability of predictive maintenance models, and supports informed decision-making for asset management in legacy power systems.</jats:p>",
+ "DOI": "10.3390/en18133535",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2025,
+    7,
+    4
+   ]
+  ],
+  "date-time": "2025-07-04T03:47:26Z",
+  "timestamp": 1751600846000
+ },
+ "page": "3535",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 15,
+ "title": [
+  "Multiclass Fault Diagnosis in Power Transformers Using Dissolved Gas Analysis and Grid Search-Optimized Machine Learning"
+ ],
+ "prefix": "10.3390",
+ "volume": "18",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0002-6500-8201",
+   "authenticated-orcid": false,
+   "given": "Andrew Adewunmi",
+   "family": "Adekunle",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Canada Research Chair Tier 1, in Aging of Oil-Filled Equipment on High Voltage Lines (ViAHT), University of Quebec at Chicoutimi, Chicoutimi, QC G7H 2B1, Canada"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-7141-9173",
+   "authenticated-orcid": false,
+   "given": "Issouf",
+   "family": "Fofana",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Canada Research Chair Tier 1, in Aging of Oil-Filled Equipment on High Voltage Lines (ViAHT), University of Quebec at Chicoutimi, Chicoutimi, QC G7H 2B1, Canada"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-1940-4561",
+   "authenticated-orcid": false,
+   "given": "Patrick",
+   "family": "Picher",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Hydro Quebec Research Institute, Varennes, QC J3X 1S1, Canada"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-0991-2933",
+   "authenticated-orcid": false,
+   "given": "Esperanza Mariela",
+   "family": "Rodriguez-Celis",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Hydro Quebec Research Institute, Varennes, QC J3X 1S1, Canada"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-0971-7828",
+   "authenticated-orcid": false,
+   "given": "Oscar Henry",
+   "family": "Arroyo-Fernandez",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Hydro Quebec Research Institute, Varennes, QC J3X 1S1, Canada"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Hugo",
+   "family": "Simard",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Rio Tinto, Saguenay, QC G7S 2H8, Canada"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Marc-Andr\u00e9",
+   "family": "Lavoie",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Rio Tinto, Saguenay, QC G7S 2H8, Canada"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2025,
+    7,
+    4
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Dladla, V.M., and Thango, B.A. (2025). Fault Classification in Power Transformers via Dissolved Gas Analysis and Machine Learning Algorithms: A Systematic Literature Review. Appl. Sci., 15.",
+   "DOI": "10.3390/app15052395"
+  },
+  {
+   "key": "ref_2",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ngwenyama, M., and Gitau, M. (2024). Discernment of transformer oil stray gassing anomalies using machine learning classification techniques. Sci. Rep., 14.",
+   "DOI": "10.1038/s41598-023-50833-7"
+  },
+  {
+   "key": "ref_3",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Odongo, G., Musabe, R., and Hanyurwimfura, D. (2021). A multinomial DGA classifier for incipient fault detection in oil-impregnated power transformers. Algorithms, 14.",
+   "DOI": "10.3390/a14040128"
+  },
+  {
+   "key": "ref_4",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Adekunle, A.A., Oparanti, S.O., and Fofana, I. (2023). Performance assessment of cellulose paper impregnated in nanofluid for power transformer insulation application: A review. Energies, 16.",
+   "DOI": "10.3390/en16042002"
+  },
+  {
+   "key": "ref_5",
+   "doi-asserted-by": "crossref",
+   "first-page": "1828",
+   "DOI": "10.1109/TDEI.2021.009770",
+   "article-title": "Identification and application of machine learning algorithms for transformer dissolved gas analysis",
+   "volume": "28",
+   "author": "Rao",
+   "year": "2021",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_6",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Raghuraman, R., and Darvishi, A. (2022, January 17\u201319). Detecting Transformer Fault Types from Dissolved Gas Analysis Data Using Machine Learning Techniques. Proceedings of the 2022 IEEE 15th Dallas Circuit and System Conference (DCAS), Dallas, TX, USA.",
+   "DOI": "10.1109/DCAS53974.2022.9845611"
+  },
+  {
+   "key": "ref_7",
+   "doi-asserted-by": "crossref",
+   "first-page": "3443",
+   "DOI": "10.1109/TDEI.2017.006841",
+   "article-title": "Application of SVM and KNN to Duval Pentagon 1 for transformer oil diagnosis",
+   "volume": "24",
+   "author": "Benmahamed",
+   "year": "2017",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_8",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Prasojo, R.A., Gumilang, H., Maulidevi, N.U., and Soedjarno, B.A. (2020). A fuzzy logic model for power transformer faults\u2019 severity determination based on gas level, gas rate, and dissolved gas analysis interpretation. Energies, 13.",
+   "DOI": "10.3390/en13041009"
+  },
+  {
+   "key": "ref_9",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Benmahamed, Y., Kherif, O., Teguar, M., Boubakeur, A., and Ghoneim, S.S. (2021). Accuracy improvement of transformer faults diagnostic based on DGA data using SVM-BA classifier. Energies, 14.",
+   "DOI": "10.3390/en14102970"
+  },
+  {
+   "key": "ref_10",
+   "doi-asserted-by": "crossref",
+   "first-page": "97",
+   "DOI": "10.1049/nde2.12082",
+   "article-title": "Traditional fault diagnosis methods for mineral oil-immersed power transformer based on dissolved gas analysis: Past, present and future",
+   "volume": "7",
+   "author": "Nanfak",
+   "year": "2024",
+   "journal-title": "IET Nanodielectrics"
+  },
+  {
+   "key": "ref_11",
+   "doi-asserted-by": "crossref",
+   "first-page": "e25975",
+   "DOI": "10.1016/j.heliyon.2024.e25975",
+   "article-title": "Machine learning based multi-method interpretation to enhance dissolved gas analysis for power transformer fault diagnosis",
+   "volume": "10",
+   "author": "Sutikno",
+   "year": "2024",
+   "journal-title": "Heliyon"
+  },
+  {
+   "key": "ref_12",
+   "doi-asserted-by": "crossref",
+   "first-page": "109064",
+   "DOI": "10.1016/j.epsr.2022.109064",
+   "article-title": "Conventional methods of dissolved gas analysis using oil-immersed power transformer for fault diagnosis: A review",
+   "volume": "216",
+   "author": "Ali",
+   "year": "2022",
+   "journal-title": "Electr. Power Syst. Res."
+  },
+  {
+   "key": "ref_13",
+   "first-page": "507",
+   "article-title": "Why do tree-based models still outperform deep learning on typical tabular data?",
+   "volume": "35",
+   "author": "Grinsztajn",
+   "year": "2022",
+   "journal-title": "Adv. Neural Inf. Process. Syst."
+  },
+  {
+   "key": "ref_14",
+   "doi-asserted-by": "crossref",
+   "first-page": "100084",
+   "DOI": "10.1016/j.prime.2022.100084",
+   "article-title": "AERO2022-flying danger reduction for quadcopters by using machine learning to estimate current, voltage, and flight area",
+   "volume": "2",
+   "author": "Malakouti",
+   "year": "2022",
+   "journal-title": "e-Prime-Adv. Electr. Eng. Electron. Energy"
+  },
+  {
+   "key": "ref_15",
+   "doi-asserted-by": "crossref",
+   "first-page": "58349",
+   "DOI": "10.1109/ACCESS.2024.3391823",
+   "article-title": "Analyzing transformer insulation paper prognostics and health management: A modeling framework perspective",
+   "volume": "12",
+   "author": "Adekunle",
+   "year": "2024",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_16",
+   "doi-asserted-by": "crossref",
+   "first-page": "17836",
+   "DOI": "10.1038/s41598-025-03033-4",
+   "article-title": "Predicting the insulating paper state of the power transformer based on XGBoost/LightGBM models",
+   "volume": "15",
+   "author": "Ghoneim",
+   "year": "2025",
+   "journal-title": "Sci. Rep."
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "first-page": "846",
+   "DOI": "10.1002/cjce.25433",
+   "article-title": "Advanced EOR screening methodology based on LightGBM and random forest: A classification problem with imbalanced data",
+   "volume": "103",
+   "author": "Seyyedattar",
+   "year": "2025",
+   "journal-title": "Can. J. Chem. Eng."
+  },
+  {
+   "key": "ref_18",
+   "first-page": "8",
+   "article-title": "Support vector machine (svm) optimization using grid search and unigram to improve e-commerce review accuracy",
+   "volume": "1",
+   "author": "Muslim",
+   "year": "2020",
+   "journal-title": "J. Soft Comput. Explor."
+  },
+  {
+   "key": "ref_19",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Awad, M., and Khanna, R. (2015). Support vector machines for classification. Efficient Learning Machines: Theories, Concepts, and Applications for Engineers and System Designers, Springer.",
+   "DOI": "10.1007/978-1-4302-5990-9"
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "first-page": "104728",
+   "DOI": "10.1016/j.rineng.2025.104728",
+   "article-title": "Comprehensive flexible framework for using multi-machine learning methods to optimal dynamic transient stability prediction by considering prediction accuracy and time",
+   "volume": "26",
+   "author": "Abdalredha",
+   "year": "2025",
+   "journal-title": "Results Eng."
+  },
+  {
+   "key": "ref_21",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Fuadah, Y.N., Pramudito, M.A., and Lim, K.M. (2022). An optimal approach for heart sound classification using grid search in hyperparameter optimization of machine learning. Bioengineering, 10.",
+   "DOI": "10.3390/bioengineering10010045"
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "first-page": "108110",
+   "DOI": "10.1016/j.patcog.2021.108110",
+   "article-title": "Accurate detection of COVID-19 patients based on distance biased Na\u00efve Bayes (DBNB) classification strategy",
+   "volume": "119",
+   "author": "Shaban",
+   "year": "2021",
+   "journal-title": "Pattern Recognit."
+  },
+  {
+   "key": "ref_23",
+   "doi-asserted-by": "crossref",
+   "first-page": "100324",
+   "DOI": "10.1016/j.cscee.2023.100324",
+   "article-title": "Estimating the output power and wind speed with ML methods: A case study in Texas",
+   "volume": "7",
+   "author": "Malakouti",
+   "year": "2023",
+   "journal-title": "Case Stud. Chem. Environ. Eng."
+  },
+  {
+   "key": "ref_24",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Hussain, S., Raza, Z., Giacomini, G., and Goswami, N. (2021). Support vector machine-based classification of vasovagal syncope using head-up tilt test. Biology, 10.",
+   "DOI": "10.3390/biology10101029"
+  },
+  {
+   "key": "ref_25",
+   "doi-asserted-by": "crossref",
+   "first-page": "11141",
+   "DOI": "10.1007/s00521-023-08290-w",
+   "article-title": "An adaptive multi-class imbalanced classification framework based on ensemble methods and deep network",
+   "volume": "35",
+   "author": "Jiang",
+   "year": "2023",
+   "journal-title": "Neural Comput. Appl."
+  },
+  {
+   "key": "ref_26",
+   "doi-asserted-by": "crossref",
+   "first-page": "480",
+   "DOI": "10.1049/hve2.12456",
+   "article-title": "Effect of electric field on bubble generation and dissolution characteristics in oil\u2013paper insulation",
+   "volume": "10",
+   "author": "Yang",
+   "year": "2025",
+   "journal-title": "High Volt."
+  },
+  {
+   "key": "ref_27",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Adekunle, A.A., Oparanti, S.O., Fofana, I., Picher, P., Rodriguez-Celis, E.M., Arroyo-Fernandez, O.H., and Meghnefi, F. (2025). Degradation Mechanisms of Cellulose-Based Transformer Insulation: The Role of Dissolved Gases and Macromolecular Characterisation. Macromol, 5.",
+   "DOI": "10.3390/macromol5020020"
+  },
+  {
+   "key": "ref_28",
+   "doi-asserted-by": "crossref",
+   "first-page": "27944",
+   "DOI": "10.1021/acsomega.0c03326",
+   "article-title": "Effect of CO2/N2 mixture composition on interfacial tension of crude oil",
+   "volume": "5",
+   "author": "Gajbhiye",
+   "year": "2020",
+   "journal-title": "ACS Omega"
+  },
+  {
+   "key": "ref_29",
+   "doi-asserted-by": "crossref",
+   "first-page": "107095",
+   "DOI": "10.1016/j.petrol.2020.107095",
+   "article-title": "Effect of CO2 on the dynamic and equilibrium interfacial tension between crude oil and formation brine for a deepwater Pre-salt field",
+   "volume": "190",
+   "author": "Drexler",
+   "year": "2020",
+   "journal-title": "J. Pet. Sci. Eng."
+  }
+ ],
+ "container-title": [
+  "Energies"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/1996-1073/18/13/3535/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    9
+   ]
+  ],
+  "date-time": "2025-10-09T18:04:20Z",
+  "timestamp": 1760033060000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/1996-1073/18/13/3535"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2025,
+    7,
+    4
+   ]
+  ]
+ },
+ "references-count": 29,
+ "journal-issue": {
+  "issue": "13",
+  "published-online": {
+   "date-parts": [
+    [
+     2025,
+     7
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "en18133535"
+ ],
+ "URL": "https://doi.org/10.3390/en18133535",
+ "relation": {},
+ "ISSN": [
+  "1996-1073"
+ ],
+ "issn-type": [
+  {
+   "value": "1996-1073",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2025,
+    7,
+    4
+   ]
+  ]
+ }
+}

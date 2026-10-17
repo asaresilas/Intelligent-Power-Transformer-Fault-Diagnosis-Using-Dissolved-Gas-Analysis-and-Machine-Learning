@@ -1,0 +1,1231 @@
+record_id,evaluation_set,method,variant,distance,disagree,finite
+DISTEST_0001,Internal test,Rogers,primary,0.154348365924929,1,True
+DISTEST_0002,Internal test,Rogers,primary,0.0397671268714876,1,True
+DISTEST_0006,Internal test,Rogers,primary,0.160330711697141,1,True
+DISTEST_0007,Internal test,Rogers,primary,0.166693484715301,1,True
+DISTEST_0008,Internal test,Rogers,primary,0.2691408512505,1,True
+DISTEST_0009,Internal test,Rogers,primary,1.18150731655213,1,True
+DISTEST_0010,Internal test,Rogers,primary,0.0958363549039929,1,True
+DISTEST_0011,Internal test,Rogers,primary,0.0579919469776867,1,True
+DISTEST_0012,Internal test,Rogers,primary,0.0124619211673075,1,True
+DISTEST_0013,Internal test,Rogers,primary,0.0791812460476248,1,True
+DISTEST_0015,Internal test,Rogers,primary,0.263479208928839,1,True
+DISTEST_0016,Internal test,Rogers,primary,0.305394801066431,1,True
+DISTEST_0017,Internal test,Rogers,primary,0.0399632999450197,1,True
+DISTEST_0018,Internal test,Rogers,primary,0.189056236220049,1,True
+DISTEST_0022,Internal test,Rogers,primary,0.217483944213906,1,True
+DISTEST_0024,Internal test,Rogers,primary,0.134698573897456,1,True
+DISTEST_0025,Internal test,Rogers,primary,0.0736932473443584,1,True
+DISTEST_0026,Internal test,Rogers,primary,0.119906299280514,1,True
+DISTEST_0027,Internal test,Rogers,primary,0.0791812460476248,1,True
+DISTEST_0028,Internal test,Rogers,primary,0.21430917685786,0,True
+DISTEST_0029,Internal test,Rogers,primary,0.0522787900759529,1,True
+DISTEST_0030,Internal test,Rogers,primary,0.0737862141609186,1,True
+DISTEST_0031,Internal test,Rogers,primary,0.204910327700077,1,True
+DISTEST_0032,Internal test,Rogers,primary,0.216709109963945,1,True
+DISTEST_0033,Internal test,Rogers,primary,0.128666609127543,1,True
+DISTEST_0034,Internal test,Rogers,primary,0.218751373906346,1,True
+DISTEST_0035,Internal test,Rogers,primary,0.0636690798693773,1,True
+DISTEST_0036,Internal test,Rogers,primary,1.5284112338803,1,True
+DISTEST_0037,Internal test,Rogers,primary,0.219462510195994,1,True
+DISTEST_0038,Internal test,Rogers,primary,0.368814383397819,1,True
+DISTEST_0039,Internal test,Rogers,primary,0.424733185259974,1,True
+DISTEST_0040,Internal test,Rogers,primary,0.714958109720149,1,True
+DISTEST_0041,Internal test,Rogers,primary,0.140178703165037,1,True
+DISTEST_0042,Internal test,Rogers,primary,0.036859588381388,1,True
+DISTEST_0043,Internal test,Rogers,primary,0.157812603015125,0,True
+DISTEST_0044,Internal test,Rogers,primary,0.215009325086051,1,True
+DISTEST_0045,Internal test,Rogers,primary,0.0561159419789314,1,True
+DISTEST_0046,Internal test,Rogers,primary,0.224062902745309,0,True
+DISTEST_0047,Internal test,Rogers,primary,0.0058295436607238,0,True
+DISTEST_0048,Internal test,Rogers,primary,0.0,0,True
+DISTEST_0049,Internal test,Rogers,primary,0.0705810742857073,1,True
+DISTEST_0050,Internal test,Rogers,primary,0.165472283045387,0,True
+DISTEST_0051,Internal test,Rogers,primary,0.189056236220049,0,True
+DISTEST_0052,Internal test,Rogers,primary,0.180248862888407,1,True
+DISTEST_0053,Internal test,Rogers,primary,0.158843400373975,1,True
+DISTEST_0054,Internal test,Rogers,primary,0.32735893438633,1,True
+DISTEST_0055,Internal test,Rogers,primary,0.187086643357144,0,True
+DISTEST_0056,Internal test,Rogers,primary,0.446444317982079,0,True
+DISTEST_0058,Internal test,Rogers,primary,0.324511091513504,1,True
+DISTEST_0059,Internal test,Rogers,primary,0.430305799002654,0,True
+DISTEST_0060,Internal test,Rogers,primary,0.228321533254386,0,True
+DISTEST_0061,Internal test,Rogers,primary,0.0538751882174963,1,True
+DISTEST_0062,Internal test,Rogers,primary,0.164002759447942,0,True
+DISTEST_0063,Internal test,Rogers,primary,0.0430549648398222,1,True
+DISTEST_0064,Internal test,Rogers,primary,0.0969100130080564,0,True
+DISTEST_0065,Internal test,Rogers,primary,0.356547323513813,0,True
+DISTEST_0066,Internal test,Rogers,primary,0.130542614126298,0,True
+DISTEST_0067,Internal test,Rogers,primary,0.0259357340943998,1,True
+DISTEST_0068,Internal test,Rogers,primary,0.0091433794398697,0,True
+DISTEST_0069,Internal test,Rogers,primary,0.0543576623225927,0,True
+DISTEST_0070,Internal test,Rogers,primary,0.0,0,True
+DISTEST_0001,Internal test,Rogers,no_gate,0.154348365924929,1,True
+DISTEST_0002,Internal test,Rogers,no_gate,0.0397671268714876,1,True
+DISTEST_0006,Internal test,Rogers,no_gate,0.160330711697141,1,True
+DISTEST_0007,Internal test,Rogers,no_gate,0.166693484715301,1,True
+DISTEST_0008,Internal test,Rogers,no_gate,0.2691408512505,1,True
+DISTEST_0009,Internal test,Rogers,no_gate,1.18150731655213,1,True
+DISTEST_0010,Internal test,Rogers,no_gate,0.0958363549039929,1,True
+DISTEST_0011,Internal test,Rogers,no_gate,0.0579919469776867,1,True
+DISTEST_0012,Internal test,Rogers,no_gate,0.0124619211673075,1,True
+DISTEST_0013,Internal test,Rogers,no_gate,0.0791812460476248,1,True
+DISTEST_0015,Internal test,Rogers,no_gate,0.263479208928839,1,True
+DISTEST_0016,Internal test,Rogers,no_gate,0.305394801066431,1,True
+DISTEST_0017,Internal test,Rogers,no_gate,0.0399632999450197,1,True
+DISTEST_0018,Internal test,Rogers,no_gate,0.189056236220049,1,True
+DISTEST_0022,Internal test,Rogers,no_gate,0.217483944213906,1,True
+DISTEST_0024,Internal test,Rogers,no_gate,0.134698573897456,1,True
+DISTEST_0025,Internal test,Rogers,no_gate,0.0736932473443584,1,True
+DISTEST_0026,Internal test,Rogers,no_gate,0.119906299280514,1,True
+DISTEST_0027,Internal test,Rogers,no_gate,0.0791812460476248,1,True
+DISTEST_0028,Internal test,Rogers,no_gate,0.21430917685786,0,True
+DISTEST_0029,Internal test,Rogers,no_gate,0.0522787900759529,0,True
+DISTEST_0030,Internal test,Rogers,no_gate,0.0737862141609186,1,True
+DISTEST_0031,Internal test,Rogers,no_gate,0.204910327700077,1,True
+DISTEST_0032,Internal test,Rogers,no_gate,0.216709109963945,1,True
+DISTEST_0033,Internal test,Rogers,no_gate,0.128666609127543,1,True
+DISTEST_0034,Internal test,Rogers,no_gate,0.218751373906346,1,True
+DISTEST_0035,Internal test,Rogers,no_gate,0.0636690798693773,1,True
+DISTEST_0036,Internal test,Rogers,no_gate,1.5284112338803,1,True
+DISTEST_0037,Internal test,Rogers,no_gate,0.219462510195994,1,True
+DISTEST_0038,Internal test,Rogers,no_gate,0.368814383397819,1,True
+DISTEST_0039,Internal test,Rogers,no_gate,0.424733185259974,1,True
+DISTEST_0040,Internal test,Rogers,no_gate,0.714958109720149,1,True
+DISTEST_0041,Internal test,Rogers,no_gate,0.140178703165037,0,True
+DISTEST_0042,Internal test,Rogers,no_gate,0.036859588381388,1,True
+DISTEST_0043,Internal test,Rogers,no_gate,0.157812603015125,0,True
+DISTEST_0044,Internal test,Rogers,no_gate,0.215009325086051,0,True
+DISTEST_0045,Internal test,Rogers,no_gate,0.0561159419789314,0,True
+DISTEST_0046,Internal test,Rogers,no_gate,0.224062902745309,0,True
+DISTEST_0047,Internal test,Rogers,no_gate,0.0058295436607238,0,True
+DISTEST_0048,Internal test,Rogers,no_gate,0.0,0,True
+DISTEST_0049,Internal test,Rogers,no_gate,0.0705810742857073,0,True
+DISTEST_0050,Internal test,Rogers,no_gate,0.165472283045387,0,True
+DISTEST_0051,Internal test,Rogers,no_gate,0.189056236220049,0,True
+DISTEST_0052,Internal test,Rogers,no_gate,0.180248862888407,0,True
+DISTEST_0053,Internal test,Rogers,no_gate,0.158843400373975,0,True
+DISTEST_0054,Internal test,Rogers,no_gate,0.32735893438633,1,True
+DISTEST_0055,Internal test,Rogers,no_gate,0.187086643357144,0,True
+DISTEST_0056,Internal test,Rogers,no_gate,0.446444317982079,0,True
+DISTEST_0058,Internal test,Rogers,no_gate,0.324511091513504,1,True
+DISTEST_0059,Internal test,Rogers,no_gate,0.430305799002654,0,True
+DISTEST_0060,Internal test,Rogers,no_gate,0.228321533254386,0,True
+DISTEST_0061,Internal test,Rogers,no_gate,0.0538751882174963,1,True
+DISTEST_0062,Internal test,Rogers,no_gate,0.164002759447942,0,True
+DISTEST_0063,Internal test,Rogers,no_gate,0.0430549648398222,1,True
+DISTEST_0064,Internal test,Rogers,no_gate,0.0969100130080564,0,True
+DISTEST_0065,Internal test,Rogers,no_gate,0.356547323513813,0,True
+DISTEST_0066,Internal test,Rogers,no_gate,0.130542614126298,0,True
+DISTEST_0067,Internal test,Rogers,no_gate,0.0259357340943998,1,True
+DISTEST_0068,Internal test,Rogers,no_gate,0.0091433794398697,1,True
+DISTEST_0069,Internal test,Rogers,no_gate,0.0543576623225927,1,True
+DISTEST_0070,Internal test,Rogers,no_gate,0.0,1,True
+DISTEST_0001,Internal test,IEC60599,primary,0.0593728526940723,1,True
+DISTEST_0002,Internal test,IEC60599,primary,0.0397671268714876,1,True
+DISTEST_0006,Internal test,IEC60599,primary,0.101457640758777,0,True
+DISTEST_0007,Internal test,IEC60599,primary,0.166693484715301,1,True
+DISTEST_0008,Internal test,IEC60599,primary,0.2691408512505,1,True
+DISTEST_0009,Internal test,IEC60599,primary,1.18150731655213,1,True
+DISTEST_0010,Internal test,IEC60599,primary,0.0958363549039929,1,True
+DISTEST_0011,Internal test,IEC60599,primary,0.0791812460476249,1,True
+DISTEST_0012,Internal test,IEC60599,primary,0.0179959429035878,0,True
+DISTEST_0013,Internal test,IEC60599,primary,0.0554596104622917,1,True
+DISTEST_0015,Internal test,IEC60599,primary,0.270029526792521,1,True
+DISTEST_0016,Internal test,IEC60599,primary,0.180456064458131,1,True
+DISTEST_0017,Internal test,IEC60599,primary,0.0845260318927513,1,True
+DISTEST_0018,Internal test,IEC60599,primary,0.0705810742857073,0,True
+DISTEST_0022,Internal test,IEC60599,primary,0.105104491623328,1,True
+DISTEST_0024,Internal test,IEC60599,primary,0.134698573897456,1,True
+DISTEST_0025,Internal test,IEC60599,primary,0.018560483426384,1,True
+DISTEST_0026,Internal test,IEC60599,primary,0.112353221662834,1,True
+DISTEST_0027,Internal test,IEC60599,primary,0.0791812460476248,1,True
+DISTEST_0028,Internal test,IEC60599,primary,0.135127930810235,0,True
+DISTEST_0029,Internal test,IEC60599,primary,0.0386913001309159,1,True
+DISTEST_0030,Internal test,IEC60599,primary,0.0053950318867062,1,True
+DISTEST_0031,Internal test,IEC60599,primary,0.204910327700077,1,True
+DISTEST_0032,Internal test,IEC60599,primary,0.0843208857000359,1,True
+DISTEST_0033,Internal test,IEC60599,primary,0.128666609127543,1,True
+DISTEST_0034,Internal test,IEC60599,primary,0.218751373906346,0,True
+DISTEST_0035,Internal test,IEC60599,primary,0.0636690798693773,0,True
+DISTEST_0036,Internal test,IEC60599,primary,0.82944122954428,1,True
+DISTEST_0037,Internal test,IEC60599,primary,0.081567485467987,1,True
+DISTEST_0038,Internal test,IEC60599,primary,0.202471804275852,0,True
+DISTEST_0039,Internal test,IEC60599,primary,0.274236819076045,0,True
+DISTEST_0040,Internal test,IEC60599,primary,0.0159881053841303,0,True
+DISTEST_0041,Internal test,IEC60599,primary,0.140178703165037,1,True
+DISTEST_0042,Internal test,IEC60599,primary,0.088079148226912,0,True
+DISTEST_0043,Internal test,IEC60599,primary,0.0182786560405563,0,True
+DISTEST_0044,Internal test,IEC60599,primary,0.0389180660303697,1,True
+DISTEST_0045,Internal test,IEC60599,primary,0.11997531707675,1,True
+DISTEST_0046,Internal test,IEC60599,primary,0.0769670929186725,0,True
+DISTEST_0047,Internal test,IEC60599,primary,0.130768280269024,0,True
+DISTEST_0048,Internal test,IEC60599,primary,0.1249387366083,0,True
+DISTEST_0049,Internal test,IEC60599,primary,0.105510184769974,1,True
+DISTEST_0050,Internal test,IEC60599,primary,0.0405335464370873,0,True
+DISTEST_0051,Internal test,IEC60599,primary,0.189056236220049,0,True
+DISTEST_0052,Internal test,IEC60599,primary,0.0214686779678989,1,True
+DISTEST_0053,Internal test,IEC60599,primary,0.158843400373975,1,True
+DISTEST_0054,Internal test,IEC60599,primary,0.20242019777803,1,True
+DISTEST_0055,Internal test,IEC60599,primary,0.187086643357144,0,True
+DISTEST_0056,Internal test,IEC60599,primary,0.321505581373779,0,True
+DISTEST_0058,Internal test,IEC60599,primary,0.199572354905204,1,True
+DISTEST_0059,Internal test,IEC60599,primary,0.333699112417349,0,True
+DISTEST_0060,Internal test,IEC60599,primary,0.103382796646086,0,True
+DISTEST_0061,Internal test,IEC60599,primary,0.0538751882174963,1,True
+DISTEST_0062,Internal test,IEC60599,primary,0.0514637331249073,0,True
+DISTEST_0063,Internal test,IEC60599,primary,0.0430549648398222,1,True
+DISTEST_0064,Internal test,IEC60599,primary,0.0969100130080564,0,True
+DISTEST_0065,Internal test,IEC60599,primary,0.0855963476502785,0,True
+DISTEST_0066,Internal test,IEC60599,primary,0.130542614126298,0,True
+DISTEST_0067,Internal test,IEC60599,primary,0.0259357340943998,1,True
+DISTEST_0068,Internal test,IEC60599,primary,0.0091433794398697,0,True
+DISTEST_0069,Internal test,IEC60599,primary,0.0543576623225927,0,True
+DISTEST_0070,Internal test,IEC60599,primary,0.0,0,True
+DISTEST_0001,Internal test,IEC60599,no_gate,0.0593728526940723,1,True
+DISTEST_0002,Internal test,IEC60599,no_gate,0.0397671268714876,1,True
+DISTEST_0006,Internal test,IEC60599,no_gate,0.101457640758777,0,True
+DISTEST_0007,Internal test,IEC60599,no_gate,0.166693484715301,1,True
+DISTEST_0008,Internal test,IEC60599,no_gate,0.2691408512505,1,True
+DISTEST_0009,Internal test,IEC60599,no_gate,1.18150731655213,1,True
+DISTEST_0010,Internal test,IEC60599,no_gate,0.0958363549039929,1,True
+DISTEST_0011,Internal test,IEC60599,no_gate,0.0791812460476249,1,True
+DISTEST_0012,Internal test,IEC60599,no_gate,0.0179959429035878,0,True
+DISTEST_0013,Internal test,IEC60599,no_gate,0.0554596104622917,1,True
+DISTEST_0015,Internal test,IEC60599,no_gate,0.270029526792521,1,True
+DISTEST_0016,Internal test,IEC60599,no_gate,0.180456064458131,1,True
+DISTEST_0017,Internal test,IEC60599,no_gate,0.0845260318927513,1,True
+DISTEST_0018,Internal test,IEC60599,no_gate,0.0705810742857073,0,True
+DISTEST_0022,Internal test,IEC60599,no_gate,0.105104491623328,1,True
+DISTEST_0024,Internal test,IEC60599,no_gate,0.134698573897456,1,True
+DISTEST_0025,Internal test,IEC60599,no_gate,0.018560483426384,1,True
+DISTEST_0026,Internal test,IEC60599,no_gate,0.112353221662834,1,True
+DISTEST_0027,Internal test,IEC60599,no_gate,0.0791812460476248,1,True
+DISTEST_0028,Internal test,IEC60599,no_gate,0.135127930810235,0,True
+DISTEST_0029,Internal test,IEC60599,no_gate,0.0386913001309159,0,True
+DISTEST_0030,Internal test,IEC60599,no_gate,0.0053950318867062,1,True
+DISTEST_0031,Internal test,IEC60599,no_gate,0.204910327700077,1,True
+DISTEST_0032,Internal test,IEC60599,no_gate,0.0843208857000359,1,True
+DISTEST_0033,Internal test,IEC60599,no_gate,0.128666609127543,0,True
+DISTEST_0034,Internal test,IEC60599,no_gate,0.218751373906346,0,True
+DISTEST_0035,Internal test,IEC60599,no_gate,0.0636690798693773,0,True
+DISTEST_0036,Internal test,IEC60599,no_gate,0.82944122954428,1,True
+DISTEST_0037,Internal test,IEC60599,no_gate,0.081567485467987,1,True
+DISTEST_0038,Internal test,IEC60599,no_gate,0.202471804275852,0,True
+DISTEST_0039,Internal test,IEC60599,no_gate,0.274236819076045,0,True
+DISTEST_0040,Internal test,IEC60599,no_gate,0.0159881053841303,0,True
+DISTEST_0041,Internal test,IEC60599,no_gate,0.140178703165037,0,True
+DISTEST_0042,Internal test,IEC60599,no_gate,0.088079148226912,0,True
+DISTEST_0043,Internal test,IEC60599,no_gate,0.0182786560405563,0,True
+DISTEST_0044,Internal test,IEC60599,no_gate,0.0389180660303697,0,True
+DISTEST_0045,Internal test,IEC60599,no_gate,0.11997531707675,0,True
+DISTEST_0046,Internal test,IEC60599,no_gate,0.0769670929186725,0,True
+DISTEST_0047,Internal test,IEC60599,no_gate,0.130768280269024,0,True
+DISTEST_0048,Internal test,IEC60599,no_gate,0.1249387366083,0,True
+DISTEST_0049,Internal test,IEC60599,no_gate,0.105510184769974,0,True
+DISTEST_0050,Internal test,IEC60599,no_gate,0.0405335464370873,0,True
+DISTEST_0051,Internal test,IEC60599,no_gate,0.189056236220049,0,True
+DISTEST_0052,Internal test,IEC60599,no_gate,0.0214686779678989,1,True
+DISTEST_0053,Internal test,IEC60599,no_gate,0.158843400373975,0,True
+DISTEST_0054,Internal test,IEC60599,no_gate,0.20242019777803,1,True
+DISTEST_0055,Internal test,IEC60599,no_gate,0.187086643357144,0,True
+DISTEST_0056,Internal test,IEC60599,no_gate,0.321505581373779,0,True
+DISTEST_0058,Internal test,IEC60599,no_gate,0.199572354905204,1,True
+DISTEST_0059,Internal test,IEC60599,no_gate,0.333699112417349,0,True
+DISTEST_0060,Internal test,IEC60599,no_gate,0.103382796646086,0,True
+DISTEST_0061,Internal test,IEC60599,no_gate,0.0538751882174963,1,True
+DISTEST_0062,Internal test,IEC60599,no_gate,0.0514637331249073,1,True
+DISTEST_0063,Internal test,IEC60599,no_gate,0.0430549648398222,1,True
+DISTEST_0064,Internal test,IEC60599,no_gate,0.0969100130080564,1,True
+DISTEST_0065,Internal test,IEC60599,no_gate,0.0855963476502785,1,True
+DISTEST_0066,Internal test,IEC60599,no_gate,0.130542614126298,1,True
+DISTEST_0067,Internal test,IEC60599,no_gate,0.0259357340943998,1,True
+DISTEST_0068,Internal test,IEC60599,no_gate,0.0091433794398697,1,True
+DISTEST_0069,Internal test,IEC60599,no_gate,0.0543576623225927,1,True
+DISTEST_0070,Internal test,IEC60599,no_gate,0.0,1,True
+DISTEST_0001,Internal test,Duval,primary,3.23251822025388,1,True
+DISTEST_0002,Internal test,Duval,primary,12.0456260708199,1,True
+DISTEST_0006,Internal test,Duval,primary,0.968919511164781,1,True
+DISTEST_0007,Internal test,Duval,primary,1.73205080756888,1,True
+DISTEST_0008,Internal test,Duval,primary,2.59807621135332,1,True
+DISTEST_0009,Internal test,Duval,primary,12.9903810567666,1,True
+DISTEST_0010,Internal test,Duval,primary,3.46410161513776,1,True
+DISTEST_0011,Internal test,Duval,primary,3.079201435678,0,True
+DISTEST_0012,Internal test,Duval,primary,6.69148202747513,0,True
+DISTEST_0013,Internal test,Duval,primary,10.8803684980204,1,True
+DISTEST_0015,Internal test,Duval,primary,8.04248209553306,0,True
+DISTEST_0016,Internal test,Duval,primary,4.38121996309828,1,True
+DISTEST_0017,Internal test,Duval,primary,6.47995892580417,1,True
+DISTEST_0018,Internal test,Duval,primary,1.28259458535163,0,True
+DISTEST_0022,Internal test,Duval,primary,2.14755227891401,1,True
+DISTEST_0024,Internal test,Duval,primary,11.1788783772909,1,True
+DISTEST_0025,Internal test,Duval,primary,2.93739610640336,0,True
+DISTEST_0026,Internal test,Duval,primary,4.44502965234813,0,True
+DISTEST_0027,Internal test,Duval,primary,12.4528480475211,1,True
+DISTEST_0028,Internal test,Duval,primary,6.72835121401756,0,True
+DISTEST_0029,Internal test,Duval,primary,4.10431769033684,1,True
+DISTEST_0030,Internal test,Duval,primary,0.309746312302463,1,True
+DISTEST_0031,Internal test,Duval,primary,1.83934599033861,1,True
+DISTEST_0032,Internal test,Duval,primary,3.46410161513774,0,True
+DISTEST_0033,Internal test,Duval,primary,12.9903810567666,1,True
+DISTEST_0034,Internal test,Duval,primary,3.46410161513776,0,True
+DISTEST_0035,Internal test,Duval,primary,3.46410161513775,1,True
+DISTEST_0036,Internal test,Duval,primary,3.46410161513776,0,True
+DISTEST_0037,Internal test,Duval,primary,3.46410161513774,0,True
+DISTEST_0038,Internal test,Duval,primary,3.46410161513774,0,True
+DISTEST_0039,Internal test,Duval,primary,3.46410161513775,1,True
+DISTEST_0040,Internal test,Duval,primary,3.46410161513775,0,True
+DISTEST_0041,Internal test,Duval,primary,3.64216291311213,1,True
+DISTEST_0042,Internal test,Duval,primary,6.53654417520601,1,True
+DISTEST_0043,Internal test,Duval,primary,0.876854314996959,1,True
+DISTEST_0044,Internal test,Duval,primary,3.46410161513776,1,True
+DISTEST_0045,Internal test,Duval,primary,2.84552845528456,1,True
+DISTEST_0046,Internal test,Duval,primary,3.02820157189089,0,True
+DISTEST_0047,Internal test,Duval,primary,1.17192889478117,1,True
+DISTEST_0048,Internal test,Duval,primary,3.46410161513776,0,True
+DISTEST_0049,Internal test,Duval,primary,3.46410161513775,1,True
+DISTEST_0050,Internal test,Duval,primary,3.46410161513775,1,True
+DISTEST_0051,Internal test,Duval,primary,6.54191851779611,0,True
+DISTEST_0052,Internal test,Duval,primary,3.11383415656688,1,True
+DISTEST_0053,Internal test,Duval,primary,12.332034170683,1,True
+DISTEST_0054,Internal test,Duval,primary,11.8247900095645,0,True
+DISTEST_0055,Internal test,Duval,primary,10.6916883579188,0,True
+DISTEST_0056,Internal test,Duval,primary,11.7360980493105,0,True
+DISTEST_0058,Internal test,Duval,primary,15.0,1,True
+DISTEST_0059,Internal test,Duval,primary,12.1387273099595,0,True
+DISTEST_0060,Internal test,Duval,primary,12.7398876676628,0,True
+DISTEST_0061,Internal test,Duval,primary,2.90946116685628,1,True
+DISTEST_0062,Internal test,Duval,primary,1.3758134074306,0,True
+DISTEST_0063,Internal test,Duval,primary,1.59498203862457,1,True
+DISTEST_0064,Internal test,Duval,primary,0.674824989961905,0,True
+DISTEST_0065,Internal test,Duval,primary,3.46410161513774,0,True
+DISTEST_0066,Internal test,Duval,primary,3.46410161513776,0,True
+DISTEST_0067,Internal test,Duval,primary,5.98312156556469,1,True
+DISTEST_0068,Internal test,Duval,primary,3.46410161513776,0,True
+DISTEST_0069,Internal test,Duval,primary,3.46410161513774,0,True
+DISTEST_0070,Internal test,Duval,primary,3.46410161513774,0,True
+DISTEST_0001,Internal test,Duval,no_gate,3.23251822025388,1,True
+DISTEST_0002,Internal test,Duval,no_gate,12.0456260708199,0,True
+DISTEST_0006,Internal test,Duval,no_gate,0.968919511164781,1,True
+DISTEST_0007,Internal test,Duval,no_gate,1.73205080756888,0,True
+DISTEST_0008,Internal test,Duval,no_gate,2.59807621135332,0,True
+DISTEST_0009,Internal test,Duval,no_gate,12.9903810567666,1,True
+DISTEST_0010,Internal test,Duval,no_gate,3.46410161513776,1,True
+DISTEST_0011,Internal test,Duval,no_gate,3.079201435678,0,True
+DISTEST_0012,Internal test,Duval,no_gate,6.69148202747513,0,True
+DISTEST_0013,Internal test,Duval,no_gate,10.8803684980204,1,True
+DISTEST_0015,Internal test,Duval,no_gate,8.04248209553306,0,True
+DISTEST_0016,Internal test,Duval,no_gate,4.38121996309828,1,True
+DISTEST_0017,Internal test,Duval,no_gate,6.47995892580417,1,True
+DISTEST_0018,Internal test,Duval,no_gate,1.28259458535163,0,True
+DISTEST_0022,Internal test,Duval,no_gate,2.14755227891401,1,True
+DISTEST_0024,Internal test,Duval,no_gate,11.1788783772909,1,True
+DISTEST_0025,Internal test,Duval,no_gate,2.93739610640336,0,True
+DISTEST_0026,Internal test,Duval,no_gate,4.44502965234813,0,True
+DISTEST_0027,Internal test,Duval,no_gate,12.4528480475211,1,True
+DISTEST_0028,Internal test,Duval,no_gate,6.72835121401756,0,True
+DISTEST_0029,Internal test,Duval,no_gate,4.10431769033684,0,True
+DISTEST_0030,Internal test,Duval,no_gate,0.309746312302463,1,True
+DISTEST_0031,Internal test,Duval,no_gate,1.83934599033861,1,True
+DISTEST_0032,Internal test,Duval,no_gate,3.46410161513774,0,True
+DISTEST_0033,Internal test,Duval,no_gate,12.9903810567666,1,True
+DISTEST_0034,Internal test,Duval,no_gate,3.46410161513776,0,True
+DISTEST_0035,Internal test,Duval,no_gate,3.46410161513775,1,True
+DISTEST_0036,Internal test,Duval,no_gate,3.46410161513776,0,True
+DISTEST_0037,Internal test,Duval,no_gate,3.46410161513774,0,True
+DISTEST_0038,Internal test,Duval,no_gate,3.46410161513774,0,True
+DISTEST_0039,Internal test,Duval,no_gate,3.46410161513775,1,True
+DISTEST_0040,Internal test,Duval,no_gate,3.46410161513775,0,True
+DISTEST_0041,Internal test,Duval,no_gate,3.64216291311213,1,True
+DISTEST_0042,Internal test,Duval,no_gate,6.53654417520601,1,True
+DISTEST_0043,Internal test,Duval,no_gate,0.876854314996959,1,True
+DISTEST_0044,Internal test,Duval,no_gate,3.46410161513776,0,True
+DISTEST_0045,Internal test,Duval,no_gate,2.84552845528456,0,True
+DISTEST_0046,Internal test,Duval,no_gate,3.02820157189089,0,True
+DISTEST_0047,Internal test,Duval,no_gate,1.17192889478117,1,True
+DISTEST_0048,Internal test,Duval,no_gate,3.46410161513776,0,True
+DISTEST_0049,Internal test,Duval,no_gate,3.46410161513775,0,True
+DISTEST_0050,Internal test,Duval,no_gate,3.46410161513775,1,True
+DISTEST_0051,Internal test,Duval,no_gate,6.54191851779611,0,True
+DISTEST_0052,Internal test,Duval,no_gate,3.11383415656688,1,True
+DISTEST_0053,Internal test,Duval,no_gate,12.332034170683,0,True
+DISTEST_0054,Internal test,Duval,no_gate,11.8247900095645,0,True
+DISTEST_0055,Internal test,Duval,no_gate,10.6916883579188,0,True
+DISTEST_0056,Internal test,Duval,no_gate,11.7360980493105,0,True
+DISTEST_0058,Internal test,Duval,no_gate,15.0,0,True
+DISTEST_0059,Internal test,Duval,no_gate,12.1387273099595,0,True
+DISTEST_0060,Internal test,Duval,no_gate,12.7398876676628,0,True
+DISTEST_0061,Internal test,Duval,no_gate,2.90946116685628,0,True
+DISTEST_0062,Internal test,Duval,no_gate,1.3758134074306,1,True
+DISTEST_0063,Internal test,Duval,no_gate,1.59498203862457,1,True
+DISTEST_0064,Internal test,Duval,no_gate,0.674824989961905,1,True
+DISTEST_0065,Internal test,Duval,no_gate,3.46410161513774,1,True
+DISTEST_0066,Internal test,Duval,no_gate,3.46410161513776,1,True
+DISTEST_0067,Internal test,Duval,no_gate,5.98312156556469,0,True
+DISTEST_0068,Internal test,Duval,no_gate,3.46410161513776,1,True
+DISTEST_0069,Internal test,Duval,no_gate,3.46410161513774,1,True
+DISTEST_0070,Internal test,Duval,no_gate,3.46410161513774,1,True
+IECTC10_0001,IEC TC 10 (power transformers),Rogers,primary,0.137923696678254,1,True
+IECTC10_0010,IEC TC 10 (power transformers),Rogers,primary,0.0725506671486117,1,True
+IECTC10_0011,IEC TC 10 (power transformers),Rogers,primary,0.0492501343550573,1,True
+IECTC10_0013,IEC TC 10 (power transformers),Rogers,primary,0.183194772667948,1,True
+IECTC10_0014,IEC TC 10 (power transformers),Rogers,primary,0.0043710812889236,1,True
+IECTC10_0015,IEC TC 10 (power transformers),Rogers,primary,0.017454677660136,1,True
+IECTC10_0017,IEC TC 10 (power transformers),Rogers,primary,0.0222763947111522,1,True
+IECTC10_0025,IEC TC 10 (power transformers),Rogers,primary,0.0391214350258458,1,True
+IECTC10_0031,IEC TC 10 (power transformers),Rogers,primary,0.0365938022764563,1,True
+IECTC10_0032,IEC TC 10 (power transformers),Rogers,primary,0.0669467896306132,1,True
+IECTC10_0033,IEC TC 10 (power transformers),Rogers,primary,0.176091259055681,1,True
+IECTC10_0036,IEC TC 10 (power transformers),Rogers,primary,0.0808989588283434,0,True
+IECTC10_0038,IEC TC 10 (power transformers),Rogers,primary,0.210061778409264,0,True
+IECTC10_0039,IEC TC 10 (power transformers),Rogers,primary,0.303974376310762,1,True
+IECTC10_0040,IEC TC 10 (power transformers),Rogers,primary,0.283414784589124,0,True
+IECTC10_0041,IEC TC 10 (power transformers),Rogers,primary,0.304056450294169,0,True
+IECTC10_0042,IEC TC 10 (power transformers),Rogers,primary,0.200773723532712,0,True
+IECTC10_0044,IEC TC 10 (power transformers),Rogers,primary,0.420744788148693,0,True
+IECTC10_0046,IEC TC 10 (power transformers),Rogers,primary,0.344292558252452,0,True
+IECTC10_0047,IEC TC 10 (power transformers),Rogers,primary,0.150576673622576,0,True
+IECTC10_0048,IEC TC 10 (power transformers),Rogers,primary,0.210745237720185,1,True
+IECTC10_0049,IEC TC 10 (power transformers),Rogers,primary,0.237324861294404,0,True
+IECTC10_0051,IEC TC 10 (power transformers),Rogers,primary,0.0,1,True
+IECTC10_0052,IEC TC 10 (power transformers),Rogers,primary,0.184363785021671,1,True
+IECTC10_0054,IEC TC 10 (power transformers),Rogers,primary,0.209259622308336,1,True
+IECTC10_0058,IEC TC 10 (power transformers),Rogers,primary,0.0825348880552127,0,True
+IECTC10_0059,IEC TC 10 (power transformers),Rogers,primary,0.176091259055681,1,True
+IECTC10_0061,IEC TC 10 (power transformers),Rogers,primary,0.0791812460476249,1,True
+IECTC10_0065,IEC TC 10 (power transformers),Rogers,primary,0.225309281725863,0,True
+IECTC10_0068,IEC TC 10 (power transformers),Rogers,primary,0.12963385781668,0,True
+IECTC10_0069,IEC TC 10 (power transformers),Rogers,primary,0.113943352306837,1,True
+IECTC10_0070,IEC TC 10 (power transformers),Rogers,primary,0.420505836570779,0,True
+IECTC10_0071,IEC TC 10 (power transformers),Rogers,primary,0.183644396946127,0,True
+IECTC10_0075,IEC TC 10 (power transformers),Rogers,primary,0.340315019453321,0,True
+IECTC10_0076,IEC TC 10 (power transformers),Rogers,primary,0.37706416647742,0,True
+IECTC10_0078,IEC TC 10 (power transformers),Rogers,primary,0.338354318687794,0,True
+IECTC10_0082,IEC TC 10 (power transformers),Rogers,primary,0.171984935776023,0,True
+IECTC10_0083,IEC TC 10 (power transformers),Rogers,primary,0.329612313325039,0,True
+IECTC10_0084,IEC TC 10 (power transformers),Rogers,primary,0.0501097981003666,0,True
+IECTC10_0085,IEC TC 10 (power transformers),Rogers,primary,0.191264661970338,0,True
+IECTC10_0088,IEC TC 10 (power transformers),Rogers,primary,0.010921547963273,1,True
+IECTC10_0089,IEC TC 10 (power transformers),Rogers,primary,0.462397997898956,1,True
+IECTC10_0090,IEC TC 10 (power transformers),Rogers,primary,0.0,0,True
+IECTC10_0091,IEC TC 10 (power transformers),Rogers,primary,0.0413926851582251,1,True
+IECTC10_0092,IEC TC 10 (power transformers),Rogers,primary,0.183573416398138,1,True
+IECTC10_0096,IEC TC 10 (power transformers),Rogers,primary,0.154901959985743,1,True
+IECTC10_0100,IEC TC 10 (power transformers),Rogers,primary,0.122581084333321,0,True
+IECTC10_0101,IEC TC 10 (power transformers),Rogers,primary,0.194531507194069,0,True
+IECTC10_0103,IEC TC 10 (power transformers),Rogers,primary,0.304886131825092,0,True
+IECTC10_0104,IEC TC 10 (power transformers),Rogers,primary,0.0271229996392195,0,True
+IECTC10_0105,IEC TC 10 (power transformers),Rogers,primary,0.174736204970715,1,True
+IECTC10_0106,IEC TC 10 (power transformers),Rogers,primary,0.288218019904016,0,True
+IECTC10_0107,IEC TC 10 (power transformers),Rogers,primary,0.166331421766525,1,True
+IECTC10_0108,IEC TC 10 (power transformers),Rogers,primary,0.114473302930135,1,True
+IECTC10_0109,IEC TC 10 (power transformers),Rogers,primary,0.0607354933913778,1,True
+IECTC10_0110,IEC TC 10 (power transformers),Rogers,primary,0.301029995663981,0,True
+IECTC10_0111,IEC TC 10 (power transformers),Rogers,primary,0.0730806177719099,1,True
+IECTC10_0117,IEC TC 10 (power transformers),Rogers,primary,0.125952259779852,0,True
+IECTC10_0001,IEC TC 10 (power transformers),Rogers,no_gate,0.137923696678254,1,True
+IECTC10_0010,IEC TC 10 (power transformers),Rogers,no_gate,0.0725506671486117,1,True
+IECTC10_0011,IEC TC 10 (power transformers),Rogers,no_gate,0.0492501343550573,1,True
+IECTC10_0013,IEC TC 10 (power transformers),Rogers,no_gate,0.183194772667948,1,True
+IECTC10_0014,IEC TC 10 (power transformers),Rogers,no_gate,0.0043710812889236,1,True
+IECTC10_0015,IEC TC 10 (power transformers),Rogers,no_gate,0.017454677660136,1,True
+IECTC10_0017,IEC TC 10 (power transformers),Rogers,no_gate,0.0222763947111522,1,True
+IECTC10_0025,IEC TC 10 (power transformers),Rogers,no_gate,0.0391214350258458,1,True
+IECTC10_0031,IEC TC 10 (power transformers),Rogers,no_gate,0.0365938022764563,1,True
+IECTC10_0032,IEC TC 10 (power transformers),Rogers,no_gate,0.0669467896306132,1,True
+IECTC10_0033,IEC TC 10 (power transformers),Rogers,no_gate,0.176091259055681,1,True
+IECTC10_0036,IEC TC 10 (power transformers),Rogers,no_gate,0.0808989588283434,0,True
+IECTC10_0038,IEC TC 10 (power transformers),Rogers,no_gate,0.210061778409264,0,True
+IECTC10_0039,IEC TC 10 (power transformers),Rogers,no_gate,0.303974376310762,1,True
+IECTC10_0040,IEC TC 10 (power transformers),Rogers,no_gate,0.283414784589124,0,True
+IECTC10_0041,IEC TC 10 (power transformers),Rogers,no_gate,0.304056450294169,0,True
+IECTC10_0042,IEC TC 10 (power transformers),Rogers,no_gate,0.200773723532712,0,True
+IECTC10_0044,IEC TC 10 (power transformers),Rogers,no_gate,0.420744788148693,0,True
+IECTC10_0046,IEC TC 10 (power transformers),Rogers,no_gate,0.344292558252452,0,True
+IECTC10_0047,IEC TC 10 (power transformers),Rogers,no_gate,0.150576673622576,0,True
+IECTC10_0048,IEC TC 10 (power transformers),Rogers,no_gate,0.210745237720185,1,True
+IECTC10_0049,IEC TC 10 (power transformers),Rogers,no_gate,0.237324861294404,0,True
+IECTC10_0051,IEC TC 10 (power transformers),Rogers,no_gate,0.0,1,True
+IECTC10_0052,IEC TC 10 (power transformers),Rogers,no_gate,0.184363785021671,0,True
+IECTC10_0054,IEC TC 10 (power transformers),Rogers,no_gate,0.209259622308336,0,True
+IECTC10_0058,IEC TC 10 (power transformers),Rogers,no_gate,0.0825348880552127,0,True
+IECTC10_0059,IEC TC 10 (power transformers),Rogers,no_gate,0.176091259055681,1,True
+IECTC10_0061,IEC TC 10 (power transformers),Rogers,no_gate,0.0791812460476249,1,True
+IECTC10_0065,IEC TC 10 (power transformers),Rogers,no_gate,0.225309281725863,0,True
+IECTC10_0068,IEC TC 10 (power transformers),Rogers,no_gate,0.12963385781668,0,True
+IECTC10_0069,IEC TC 10 (power transformers),Rogers,no_gate,0.113943352306837,1,True
+IECTC10_0070,IEC TC 10 (power transformers),Rogers,no_gate,0.420505836570779,0,True
+IECTC10_0071,IEC TC 10 (power transformers),Rogers,no_gate,0.183644396946127,0,True
+IECTC10_0075,IEC TC 10 (power transformers),Rogers,no_gate,0.340315019453321,0,True
+IECTC10_0076,IEC TC 10 (power transformers),Rogers,no_gate,0.37706416647742,0,True
+IECTC10_0078,IEC TC 10 (power transformers),Rogers,no_gate,0.338354318687794,0,True
+IECTC10_0082,IEC TC 10 (power transformers),Rogers,no_gate,0.171984935776023,0,True
+IECTC10_0083,IEC TC 10 (power transformers),Rogers,no_gate,0.329612313325039,0,True
+IECTC10_0084,IEC TC 10 (power transformers),Rogers,no_gate,0.0501097981003666,0,True
+IECTC10_0085,IEC TC 10 (power transformers),Rogers,no_gate,0.191264661970338,0,True
+IECTC10_0088,IEC TC 10 (power transformers),Rogers,no_gate,0.010921547963273,1,True
+IECTC10_0089,IEC TC 10 (power transformers),Rogers,no_gate,0.462397997898956,1,True
+IECTC10_0090,IEC TC 10 (power transformers),Rogers,no_gate,0.0,1,True
+IECTC10_0091,IEC TC 10 (power transformers),Rogers,no_gate,0.0413926851582251,1,True
+IECTC10_0092,IEC TC 10 (power transformers),Rogers,no_gate,0.183573416398138,1,True
+IECTC10_0096,IEC TC 10 (power transformers),Rogers,no_gate,0.154901959985743,1,True
+IECTC10_0100,IEC TC 10 (power transformers),Rogers,no_gate,0.122581084333321,0,True
+IECTC10_0101,IEC TC 10 (power transformers),Rogers,no_gate,0.194531507194069,0,True
+IECTC10_0103,IEC TC 10 (power transformers),Rogers,no_gate,0.304886131825092,0,True
+IECTC10_0104,IEC TC 10 (power transformers),Rogers,no_gate,0.0271229996392195,0,True
+IECTC10_0105,IEC TC 10 (power transformers),Rogers,no_gate,0.174736204970715,1,True
+IECTC10_0106,IEC TC 10 (power transformers),Rogers,no_gate,0.288218019904016,0,True
+IECTC10_0107,IEC TC 10 (power transformers),Rogers,no_gate,0.166331421766525,0,True
+IECTC10_0108,IEC TC 10 (power transformers),Rogers,no_gate,0.114473302930135,1,True
+IECTC10_0109,IEC TC 10 (power transformers),Rogers,no_gate,0.0607354933913778,1,True
+IECTC10_0110,IEC TC 10 (power transformers),Rogers,no_gate,0.301029995663981,0,True
+IECTC10_0111,IEC TC 10 (power transformers),Rogers,no_gate,0.0730806177719099,1,True
+IECTC10_0117,IEC TC 10 (power transformers),Rogers,no_gate,0.125952259779852,0,True
+IECTC10_0001,IEC TC 10 (power transformers),IEC60599,primary,0.137923696678254,0,True
+IECTC10_0010,IEC TC 10 (power transformers),IEC60599,primary,0.0647253296366552,0,True
+IECTC10_0011,IEC TC 10 (power transformers),IEC60599,primary,0.0862519448259998,1,True
+IECTC10_0013,IEC TC 10 (power transformers),IEC60599,primary,0.262376018715573,1,True
+IECTC10_0014,IEC TC 10 (power transformers),IEC60599,primary,0.0748101647587012,0,True
+IECTC10_0015,IEC TC 10 (power transformers),IEC60599,primary,0.0617265683874888,0,True
+IECTC10_0017,IEC TC 10 (power transformers),IEC60599,primary,0.0222763947111522,1,True
+IECTC10_0025,IEC TC 10 (power transformers),IEC60599,primary,0.040059811021779,0,True
+IECTC10_0031,IEC TC 10 (power transformers),IEC60599,primary,0.0425874437711685,1,True
+IECTC10_0032,IEC TC 10 (power transformers),IEC60599,primary,0.0579919469776867,1,True
+IECTC10_0033,IEC TC 10 (power transformers),IEC60599,primary,0.176091259055681,0,True
+IECTC10_0036,IEC TC 10 (power transformers),IEC60599,primary,0.0017177127807185,0,True
+IECTC10_0038,IEC TC 10 (power transformers),IEC60599,primary,0.10653999696035,0,True
+IECTC10_0039,IEC TC 10 (power transformers),IEC60599,primary,0.1731468784089,1,True
+IECTC10_0040,IEC TC 10 (power transformers),IEC60599,primary,0.193706470130539,0,True
+IECTC10_0041,IEC TC 10 (power transformers),IEC60599,primary,0.1627272974977,0,True
+IECTC10_0042,IEC TC 10 (power transformers),IEC60599,primary,0.0205216671446017,0,True
+IECTC10_0044,IEC TC 10 (power transformers),IEC60599,primary,0.0563764665709691,0,True
+IECTC10_0046,IEC TC 10 (power transformers),IEC60599,primary,0.0432625625884707,0,True
+IECTC10_0047,IEC TC 10 (power transformers),IEC60599,primary,0.0120310874215355,0,True
+IECTC10_0048,IEC TC 10 (power transformers),IEC60599,primary,0.0468988696194843,1,True
+IECTC10_0049,IEC TC 10 (power transformers),IEC60599,primary,0.15814361524678,0,True
+IECTC10_0051,IEC TC 10 (power transformers),IEC60599,primary,0.0969100130080564,1,True
+IECTC10_0052,IEC TC 10 (power transformers),IEC60599,primary,0.0096157687915991,1,True
+IECTC10_0054,IEC TC 10 (power transformers),IEC60599,primary,0.0579919469776867,1,True
+IECTC10_0058,IEC TC 10 (power transformers),IEC60599,primary,0.0812666977471159,0,True
+IECTC10_0059,IEC TC 10 (power transformers),IEC60599,primary,0.0,0,True
+IECTC10_0061,IEC TC 10 (power transformers),IEC60599,primary,0.0,1,True
+IECTC10_0065,IEC TC 10 (power transformers),IEC60599,primary,0.0757207139381183,0,True
+IECTC10_0068,IEC TC 10 (power transformers),IEC60599,primary,0.0954837572700243,0,True
+IECTC10_0069,IEC TC 10 (power transformers),IEC60599,primary,0.0347621062592119,0,True
+IECTC10_0070,IEC TC 10 (power transformers),IEC60599,primary,0.0873945732953573,0,True
+IECTC10_0071,IEC TC 10 (power transformers),IEC60599,primary,0.104463150898502,0,True
+IECTC10_0075,IEC TC 10 (power transformers),IEC60599,primary,0.0392850237893402,0,True
+IECTC10_0076,IEC TC 10 (power transformers),IEC60599,primary,0.0300445443180241,0,True
+IECTC10_0078,IEC TC 10 (power transformers),IEC60599,primary,0.0177287669604316,0,True
+IECTC10_0082,IEC TC 10 (power transformers),IEC60599,primary,0.129045059887958,0,True
+IECTC10_0083,IEC TC 10 (power transformers),IEC60599,primary,0.0285823176610576,0,True
+IECTC10_0084,IEC TC 10 (power transformers),IEC60599,primary,0.125981460955315,0,True
+IECTC10_0085,IEC TC 10 (power transformers),IEC60599,primary,0.0663259253620377,0,True
+IECTC10_0088,IEC TC 10 (power transformers),IEC60599,primary,0.114017188645027,0,True
+IECTC10_0089,IEC TC 10 (power transformers),IEC60599,primary,0.236572006437063,0,True
+IECTC10_0090,IEC TC 10 (power transformers),IEC60599,primary,0.0,0,True
+IECTC10_0091,IEC TC 10 (power transformers),IEC60599,primary,0.0413926851582251,1,True
+IECTC10_0092,IEC TC 10 (power transformers),IEC60599,primary,0.0235560323490451,1,True
+IECTC10_0096,IEC TC 10 (power transformers),IEC60599,primary,0.146128035678238,0,True
+IECTC10_0100,IEC TC 10 (power transformers),IEC60599,primary,0.122581084333321,0,True
+IECTC10_0101,IEC TC 10 (power transformers),IEC60599,primary,0.194531507194069,0,True
+IECTC10_0103,IEC TC 10 (power transformers),IEC60599,primary,0.179947395216792,0,True
+IECTC10_0104,IEC TC 10 (power transformers),IEC60599,primary,0.148968259416462,0,True
+IECTC10_0105,IEC TC 10 (power transformers),IEC60599,primary,0.126293790693266,1,True
+IECTC10_0106,IEC TC 10 (power transformers),IEC60599,primary,0.288218019904016,0,True
+IECTC10_0107,IEC TC 10 (power transformers),IEC60599,primary,0.0377885608893999,1,True
+IECTC10_0108,IEC TC 10 (power transformers),IEC60599,primary,0.010465433678165,0,True
+IECTC10_0109,IEC TC 10 (power transformers),IEC60599,primary,0.0607354933913778,0,True
+IECTC10_0110,IEC TC 10 (power transformers),IEC60599,primary,0.182622126214639,0,True
+IECTC10_0111,IEC TC 10 (power transformers),IEC60599,primary,0.05185811883639,0,True
+IECTC10_0117,IEC TC 10 (power transformers),IEC60599,primary,0.125952259779852,0,True
+IECTC10_0001,IEC TC 10 (power transformers),IEC60599,no_gate,0.137923696678254,0,True
+IECTC10_0010,IEC TC 10 (power transformers),IEC60599,no_gate,0.0647253296366552,0,True
+IECTC10_0011,IEC TC 10 (power transformers),IEC60599,no_gate,0.0862519448259998,1,True
+IECTC10_0013,IEC TC 10 (power transformers),IEC60599,no_gate,0.262376018715573,1,True
+IECTC10_0014,IEC TC 10 (power transformers),IEC60599,no_gate,0.0748101647587012,0,True
+IECTC10_0015,IEC TC 10 (power transformers),IEC60599,no_gate,0.0617265683874888,0,True
+IECTC10_0017,IEC TC 10 (power transformers),IEC60599,no_gate,0.0222763947111522,1,True
+IECTC10_0025,IEC TC 10 (power transformers),IEC60599,no_gate,0.040059811021779,0,True
+IECTC10_0031,IEC TC 10 (power transformers),IEC60599,no_gate,0.0425874437711685,1,True
+IECTC10_0032,IEC TC 10 (power transformers),IEC60599,no_gate,0.0579919469776867,1,True
+IECTC10_0033,IEC TC 10 (power transformers),IEC60599,no_gate,0.176091259055681,0,True
+IECTC10_0036,IEC TC 10 (power transformers),IEC60599,no_gate,0.0017177127807185,0,True
+IECTC10_0038,IEC TC 10 (power transformers),IEC60599,no_gate,0.10653999696035,0,True
+IECTC10_0039,IEC TC 10 (power transformers),IEC60599,no_gate,0.1731468784089,1,True
+IECTC10_0040,IEC TC 10 (power transformers),IEC60599,no_gate,0.193706470130539,0,True
+IECTC10_0041,IEC TC 10 (power transformers),IEC60599,no_gate,0.1627272974977,0,True
+IECTC10_0042,IEC TC 10 (power transformers),IEC60599,no_gate,0.0205216671446017,0,True
+IECTC10_0044,IEC TC 10 (power transformers),IEC60599,no_gate,0.0563764665709691,0,True
+IECTC10_0046,IEC TC 10 (power transformers),IEC60599,no_gate,0.0432625625884707,0,True
+IECTC10_0047,IEC TC 10 (power transformers),IEC60599,no_gate,0.0120310874215355,0,True
+IECTC10_0048,IEC TC 10 (power transformers),IEC60599,no_gate,0.0468988696194843,1,True
+IECTC10_0049,IEC TC 10 (power transformers),IEC60599,no_gate,0.15814361524678,0,True
+IECTC10_0051,IEC TC 10 (power transformers),IEC60599,no_gate,0.0969100130080564,0,True
+IECTC10_0052,IEC TC 10 (power transformers),IEC60599,no_gate,0.0096157687915991,0,True
+IECTC10_0054,IEC TC 10 (power transformers),IEC60599,no_gate,0.0579919469776867,0,True
+IECTC10_0058,IEC TC 10 (power transformers),IEC60599,no_gate,0.0812666977471159,0,True
+IECTC10_0059,IEC TC 10 (power transformers),IEC60599,no_gate,0.0,0,True
+IECTC10_0061,IEC TC 10 (power transformers),IEC60599,no_gate,0.0,1,True
+IECTC10_0065,IEC TC 10 (power transformers),IEC60599,no_gate,0.0757207139381183,0,True
+IECTC10_0068,IEC TC 10 (power transformers),IEC60599,no_gate,0.0954837572700243,0,True
+IECTC10_0069,IEC TC 10 (power transformers),IEC60599,no_gate,0.0347621062592119,0,True
+IECTC10_0070,IEC TC 10 (power transformers),IEC60599,no_gate,0.0873945732953573,0,True
+IECTC10_0071,IEC TC 10 (power transformers),IEC60599,no_gate,0.104463150898502,0,True
+IECTC10_0075,IEC TC 10 (power transformers),IEC60599,no_gate,0.0392850237893402,0,True
+IECTC10_0076,IEC TC 10 (power transformers),IEC60599,no_gate,0.0300445443180241,0,True
+IECTC10_0078,IEC TC 10 (power transformers),IEC60599,no_gate,0.0177287669604316,0,True
+IECTC10_0082,IEC TC 10 (power transformers),IEC60599,no_gate,0.129045059887958,0,True
+IECTC10_0083,IEC TC 10 (power transformers),IEC60599,no_gate,0.0285823176610576,0,True
+IECTC10_0084,IEC TC 10 (power transformers),IEC60599,no_gate,0.125981460955315,0,True
+IECTC10_0085,IEC TC 10 (power transformers),IEC60599,no_gate,0.0663259253620377,0,True
+IECTC10_0088,IEC TC 10 (power transformers),IEC60599,no_gate,0.114017188645027,0,True
+IECTC10_0089,IEC TC 10 (power transformers),IEC60599,no_gate,0.236572006437063,0,True
+IECTC10_0090,IEC TC 10 (power transformers),IEC60599,no_gate,0.0,1,True
+IECTC10_0091,IEC TC 10 (power transformers),IEC60599,no_gate,0.0413926851582251,1,True
+IECTC10_0092,IEC TC 10 (power transformers),IEC60599,no_gate,0.0235560323490451,1,True
+IECTC10_0096,IEC TC 10 (power transformers),IEC60599,no_gate,0.146128035678238,0,True
+IECTC10_0100,IEC TC 10 (power transformers),IEC60599,no_gate,0.122581084333321,0,True
+IECTC10_0101,IEC TC 10 (power transformers),IEC60599,no_gate,0.194531507194069,0,True
+IECTC10_0103,IEC TC 10 (power transformers),IEC60599,no_gate,0.179947395216792,0,True
+IECTC10_0104,IEC TC 10 (power transformers),IEC60599,no_gate,0.148968259416462,0,True
+IECTC10_0105,IEC TC 10 (power transformers),IEC60599,no_gate,0.126293790693266,1,True
+IECTC10_0106,IEC TC 10 (power transformers),IEC60599,no_gate,0.288218019904016,0,True
+IECTC10_0107,IEC TC 10 (power transformers),IEC60599,no_gate,0.0377885608893999,1,True
+IECTC10_0108,IEC TC 10 (power transformers),IEC60599,no_gate,0.010465433678165,0,True
+IECTC10_0109,IEC TC 10 (power transformers),IEC60599,no_gate,0.0607354933913778,0,True
+IECTC10_0110,IEC TC 10 (power transformers),IEC60599,no_gate,0.182622126214639,0,True
+IECTC10_0111,IEC TC 10 (power transformers),IEC60599,no_gate,0.05185811883639,0,True
+IECTC10_0117,IEC TC 10 (power transformers),IEC60599,no_gate,0.125952259779852,0,True
+IECTC10_0001,IEC TC 10 (power transformers),Duval,primary,1.73205080756888,0,True
+IECTC10_0010,IEC TC 10 (power transformers),Duval,primary,1.46230518999667,0,True
+IECTC10_0011,IEC TC 10 (power transformers),Duval,primary,2.53328628089563,1,True
+IECTC10_0013,IEC TC 10 (power transformers),Duval,primary,5.15556309436667,1,True
+IECTC10_0014,IEC TC 10 (power transformers),Duval,primary,1.37226819496726,0,True
+IECTC10_0015,IEC TC 10 (power transformers),Duval,primary,1.34883878679097,0,True
+IECTC10_0017,IEC TC 10 (power transformers),Duval,primary,4.04145188432738,0,True
+IECTC10_0025,IEC TC 10 (power transformers),Duval,primary,1.25605137255904,0,True
+IECTC10_0031,IEC TC 10 (power transformers),Duval,primary,2.23555394930402,1,True
+IECTC10_0032,IEC TC 10 (power transformers),Duval,primary,10.5987420637231,1,True
+IECTC10_0033,IEC TC 10 (power transformers),Duval,primary,11.0917685285894,0,True
+IECTC10_0036,IEC TC 10 (power transformers),Duval,primary,2.97460899560742,0,True
+IECTC10_0038,IEC TC 10 (power transformers),Duval,primary,5.47307097811477,0,True
+IECTC10_0039,IEC TC 10 (power transformers),Duval,primary,7.88440047653642,0,True
+IECTC10_0040,IEC TC 10 (power transformers),Duval,primary,5.46491892732939,0,True
+IECTC10_0041,IEC TC 10 (power transformers),Duval,primary,3.84311046532006,0,True
+IECTC10_0042,IEC TC 10 (power transformers),Duval,primary,0.981495457622358,0,True
+IECTC10_0044,IEC TC 10 (power transformers),Duval,primary,11.3328100185991,0,True
+IECTC10_0046,IEC TC 10 (power transformers),Duval,primary,6.72380705721315,0,True
+IECTC10_0047,IEC TC 10 (power transformers),Duval,primary,8.46209568274116,0,True
+IECTC10_0048,IEC TC 10 (power transformers),Duval,primary,5.67185651774315,0,True
+IECTC10_0049,IEC TC 10 (power transformers),Duval,primary,2.59560890251062,0,True
+IECTC10_0051,IEC TC 10 (power transformers),Duval,primary,1.73205080756888,1,True
+IECTC10_0052,IEC TC 10 (power transformers),Duval,primary,0.572195356071859,1,True
+IECTC10_0054,IEC TC 10 (power transformers),Duval,primary,13.3752812362263,1,True
+IECTC10_0058,IEC TC 10 (power transformers),Duval,primary,3.92751956728391,0,True
+IECTC10_0059,IEC TC 10 (power transformers),Duval,primary,2.12569871837999,1,True
+IECTC10_0061,IEC TC 10 (power transformers),Duval,primary,13.5800153742368,0,True
+IECTC10_0065,IEC TC 10 (power transformers),Duval,primary,9.13163495382832,0,True
+IECTC10_0068,IEC TC 10 (power transformers),Duval,primary,13.0986342322396,0,True
+IECTC10_0069,IEC TC 10 (power transformers),Duval,primary,2.15657306432595,1,True
+IECTC10_0070,IEC TC 10 (power transformers),Duval,primary,3.90606246810232,0,True
+IECTC10_0071,IEC TC 10 (power transformers),Duval,primary,5.44983663189601,0,True
+IECTC10_0075,IEC TC 10 (power transformers),Duval,primary,11.331892252608,0,True
+IECTC10_0076,IEC TC 10 (power transformers),Duval,primary,6.69479997728428,0,True
+IECTC10_0078,IEC TC 10 (power transformers),Duval,primary,6.56978067657586,0,True
+IECTC10_0082,IEC TC 10 (power transformers),Duval,primary,6.03385320167392,0,True
+IECTC10_0083,IEC TC 10 (power transformers),Duval,primary,10.3524745048976,0,True
+IECTC10_0084,IEC TC 10 (power transformers),Duval,primary,3.32119313266507,0,True
+IECTC10_0085,IEC TC 10 (power transformers),Duval,primary,2.96063350686608,1,True
+IECTC10_0088,IEC TC 10 (power transformers),Duval,primary,3.97727453328032,1,True
+IECTC10_0089,IEC TC 10 (power transformers),Duval,primary,0.335235640174631,1,True
+IECTC10_0090,IEC TC 10 (power transformers),Duval,primary,1.81818181818182,0,True
+IECTC10_0091,IEC TC 10 (power transformers),Duval,primary,3.46410161513776,1,True
+IECTC10_0092,IEC TC 10 (power transformers),Duval,primary,0.528910450686183,1,True
+IECTC10_0096,IEC TC 10 (power transformers),Duval,primary,1.79866814632152,0,True
+IECTC10_0100,IEC TC 10 (power transformers),Duval,primary,8.56351929196416,1,True
+IECTC10_0101,IEC TC 10 (power transformers),Duval,primary,9.64743325459349,0,True
+IECTC10_0103,IEC TC 10 (power transformers),Duval,primary,11.2479367215843,0,True
+IECTC10_0104,IEC TC 10 (power transformers),Duval,primary,5.40048333527161,1,True
+IECTC10_0105,IEC TC 10 (power transformers),Duval,primary,4.97162731802178,1,True
+IECTC10_0106,IEC TC 10 (power transformers),Duval,primary,3.91554038945092,0,True
+IECTC10_0107,IEC TC 10 (power transformers),Duval,primary,2.7470698292087,1,True
+IECTC10_0108,IEC TC 10 (power transformers),Duval,primary,2.29904501811833,0,True
+IECTC10_0109,IEC TC 10 (power transformers),Duval,primary,12.7912127525976,1,True
+IECTC10_0110,IEC TC 10 (power transformers),Duval,primary,11.9090780554466,0,True
+IECTC10_0111,IEC TC 10 (power transformers),Duval,primary,3.13229111560348,0,True
+IECTC10_0117,IEC TC 10 (power transformers),Duval,primary,9.08500764188035,0,True
+IECTC10_0001,IEC TC 10 (power transformers),Duval,no_gate,1.73205080756888,0,True
+IECTC10_0010,IEC TC 10 (power transformers),Duval,no_gate,1.46230518999667,0,True
+IECTC10_0011,IEC TC 10 (power transformers),Duval,no_gate,2.53328628089563,1,True
+IECTC10_0013,IEC TC 10 (power transformers),Duval,no_gate,5.15556309436667,1,True
+IECTC10_0014,IEC TC 10 (power transformers),Duval,no_gate,1.37226819496726,0,True
+IECTC10_0015,IEC TC 10 (power transformers),Duval,no_gate,1.34883878679097,0,True
+IECTC10_0017,IEC TC 10 (power transformers),Duval,no_gate,4.04145188432738,0,True
+IECTC10_0025,IEC TC 10 (power transformers),Duval,no_gate,1.25605137255904,0,True
+IECTC10_0031,IEC TC 10 (power transformers),Duval,no_gate,2.23555394930402,1,True
+IECTC10_0032,IEC TC 10 (power transformers),Duval,no_gate,10.5987420637231,1,True
+IECTC10_0033,IEC TC 10 (power transformers),Duval,no_gate,11.0917685285894,0,True
+IECTC10_0036,IEC TC 10 (power transformers),Duval,no_gate,2.97460899560742,0,True
+IECTC10_0038,IEC TC 10 (power transformers),Duval,no_gate,5.47307097811477,0,True
+IECTC10_0039,IEC TC 10 (power transformers),Duval,no_gate,7.88440047653642,0,True
+IECTC10_0040,IEC TC 10 (power transformers),Duval,no_gate,5.46491892732939,0,True
+IECTC10_0041,IEC TC 10 (power transformers),Duval,no_gate,3.84311046532006,0,True
+IECTC10_0042,IEC TC 10 (power transformers),Duval,no_gate,0.981495457622358,0,True
+IECTC10_0044,IEC TC 10 (power transformers),Duval,no_gate,11.3328100185991,0,True
+IECTC10_0046,IEC TC 10 (power transformers),Duval,no_gate,6.72380705721315,0,True
+IECTC10_0047,IEC TC 10 (power transformers),Duval,no_gate,8.46209568274116,0,True
+IECTC10_0048,IEC TC 10 (power transformers),Duval,no_gate,5.67185651774315,0,True
+IECTC10_0049,IEC TC 10 (power transformers),Duval,no_gate,2.59560890251062,0,True
+IECTC10_0051,IEC TC 10 (power transformers),Duval,no_gate,1.73205080756888,1,True
+IECTC10_0052,IEC TC 10 (power transformers),Duval,no_gate,0.572195356071859,0,True
+IECTC10_0054,IEC TC 10 (power transformers),Duval,no_gate,13.3752812362263,0,True
+IECTC10_0058,IEC TC 10 (power transformers),Duval,no_gate,3.92751956728391,0,True
+IECTC10_0059,IEC TC 10 (power transformers),Duval,no_gate,2.12569871837999,1,True
+IECTC10_0061,IEC TC 10 (power transformers),Duval,no_gate,13.5800153742368,0,True
+IECTC10_0065,IEC TC 10 (power transformers),Duval,no_gate,9.13163495382832,0,True
+IECTC10_0068,IEC TC 10 (power transformers),Duval,no_gate,13.0986342322396,0,True
+IECTC10_0069,IEC TC 10 (power transformers),Duval,no_gate,2.15657306432595,1,True
+IECTC10_0070,IEC TC 10 (power transformers),Duval,no_gate,3.90606246810232,0,True
+IECTC10_0071,IEC TC 10 (power transformers),Duval,no_gate,5.44983663189601,0,True
+IECTC10_0075,IEC TC 10 (power transformers),Duval,no_gate,11.331892252608,0,True
+IECTC10_0076,IEC TC 10 (power transformers),Duval,no_gate,6.69479997728428,0,True
+IECTC10_0078,IEC TC 10 (power transformers),Duval,no_gate,6.56978067657586,0,True
+IECTC10_0082,IEC TC 10 (power transformers),Duval,no_gate,6.03385320167392,0,True
+IECTC10_0083,IEC TC 10 (power transformers),Duval,no_gate,10.3524745048976,0,True
+IECTC10_0084,IEC TC 10 (power transformers),Duval,no_gate,3.32119313266507,0,True
+IECTC10_0085,IEC TC 10 (power transformers),Duval,no_gate,2.96063350686608,1,True
+IECTC10_0088,IEC TC 10 (power transformers),Duval,no_gate,3.97727453328032,1,True
+IECTC10_0089,IEC TC 10 (power transformers),Duval,no_gate,0.335235640174631,1,True
+IECTC10_0090,IEC TC 10 (power transformers),Duval,no_gate,1.81818181818182,1,True
+IECTC10_0091,IEC TC 10 (power transformers),Duval,no_gate,3.46410161513776,0,True
+IECTC10_0092,IEC TC 10 (power transformers),Duval,no_gate,0.528910450686183,1,True
+IECTC10_0096,IEC TC 10 (power transformers),Duval,no_gate,1.79866814632152,0,True
+IECTC10_0100,IEC TC 10 (power transformers),Duval,no_gate,8.56351929196416,1,True
+IECTC10_0101,IEC TC 10 (power transformers),Duval,no_gate,9.64743325459349,0,True
+IECTC10_0103,IEC TC 10 (power transformers),Duval,no_gate,11.2479367215843,0,True
+IECTC10_0104,IEC TC 10 (power transformers),Duval,no_gate,5.40048333527161,1,True
+IECTC10_0105,IEC TC 10 (power transformers),Duval,no_gate,4.97162731802178,1,True
+IECTC10_0106,IEC TC 10 (power transformers),Duval,no_gate,3.91554038945092,0,True
+IECTC10_0107,IEC TC 10 (power transformers),Duval,no_gate,2.7470698292087,1,True
+IECTC10_0108,IEC TC 10 (power transformers),Duval,no_gate,2.29904501811833,0,True
+IECTC10_0109,IEC TC 10 (power transformers),Duval,no_gate,12.7912127525976,1,True
+IECTC10_0110,IEC TC 10 (power transformers),Duval,no_gate,11.9090780554466,0,True
+IECTC10_0111,IEC TC 10 (power transformers),Duval,no_gate,3.13229111560348,0,True
+IECTC10_0117,IEC TC 10 (power transformers),Duval,no_gate,9.08500764188035,0,True
+LI2019_0001,Li 2019,Rogers,primary,0.214724516341773,1,True
+LI2019_0080,Li 2019,Rogers,primary,0.233430622166172,0,True
+LI2019_0102,Li 2019,Rogers,primary,0.120194926695175,1,True
+LI2019_0103,Li 2019,Rogers,primary,0.192176492941731,0,True
+LI2019_0104,Li 2019,Rogers,primary,0.0280287236002434,1,True
+LI2019_0105,Li 2019,Rogers,primary,0.178160095080061,0,True
+LI2019_0106,Li 2019,Rogers,primary,0.0317322461162899,1,True
+LI2019_0107,Li 2019,Rogers,primary,0.150644136843202,1,True
+LI2019_0108,Li 2019,Rogers,primary,0.311502375331029,1,True
+LI2019_0109,Li 2019,Rogers,primary,0.329960413603657,1,True
+LI2019_0110,Li 2019,Rogers,primary,0.276838687911451,1,True
+LI2019_0111,Li 2019,Rogers,primary,0.11477193744371,1,True
+LI2019_0112,Li 2019,Rogers,primary,0.0359905504952016,1,True
+LI2019_0113,Li 2019,Rogers,primary,0.243290367353252,0,True
+LI2019_0114,Li 2019,Rogers,primary,0.0369610703591501,1,True
+LI2019_0115,Li 2019,Rogers,primary,0.226773322297459,0,True
+LI2019_0116,Li 2019,Rogers,primary,0.0143804378460023,0,True
+LI2019_0117,Li 2019,Rogers,primary,0.0299632233774432,1,True
+LI2019_0118,Li 2019,Rogers,primary,0.337487463146694,1,True
+LI2019_0119,Li 2019,Rogers,primary,0.128743854418547,1,True
+LI2019_0120,Li 2019,Rogers,primary,0.0530734971051883,1,True
+LI2019_0121,Li 2019,Rogers,primary,0.078269087454357,1,True
+LI2019_0122,Li 2019,Rogers,primary,0.0190232373134305,1,True
+LI2019_0123,Li 2019,Rogers,primary,0.156148363655578,0,True
+LI2019_0124,Li 2019,Rogers,primary,0.0175920022666738,1,True
+LI2019_0125,Li 2019,Rogers,primary,0.381812821210407,1,True
+LI2019_0126,Li 2019,Rogers,primary,0.190607718823814,0,True
+LI2019_0127,Li 2019,Rogers,primary,0.100911152097384,1,True
+LI2019_0128,Li 2019,Rogers,primary,0.0725674966803767,1,True
+LI2019_0129,Li 2019,Rogers,primary,0.204119982655925,1,True
+LI2019_0130,Li 2019,Rogers,primary,0.0,1,True
+LI2019_0131,Li 2019,Rogers,primary,0.172862288925483,0,True
+LI2019_0132,Li 2019,Rogers,primary,0.697035504558819,1,True
+LI2019_0133,Li 2019,Rogers,primary,0.611819828617119,1,True
+LI2019_0134,Li 2019,Rogers,primary,inf,1,False
+LI2019_0135,Li 2019,Rogers,primary,0.462665338308693,1,True
+LI2019_0136,Li 2019,Rogers,primary,0.301029995663981,0,True
+LI2019_0137,Li 2019,Rogers,primary,0.13321126257429,1,True
+LI2019_0138,Li 2019,Rogers,primary,0.0,1,True
+LI2019_0139,Li 2019,Rogers,primary,0.103896133868722,1,True
+LI2019_0140,Li 2019,Rogers,primary,0.0543576623225927,1,True
+LI2019_0141,Li 2019,Rogers,primary,0.646263653820016,0,True
+LI2019_0142,Li 2019,Rogers,primary,0.2814344396006,1,True
+LI2019_0143,Li 2019,Rogers,primary,0.301029995663981,0,True
+LI2019_0144,Li 2019,Rogers,primary,0.113943352306837,0,True
+LI2019_0145,Li 2019,Rogers,primary,0.0791812460476248,0,True
+LI2019_0146,Li 2019,Rogers,primary,0.0321846833714012,0,True
+LI2019_0147,Li 2019,Rogers,primary,0.0,1,True
+LI2019_0148,Li 2019,Rogers,primary,0.0579919469776868,0,True
+LI2019_0149,Li 2019,Rogers,primary,0.221848749616356,1,True
+LI2019_0150,Li 2019,Rogers,primary,0.238882088915137,0,True
+LI2019_0151,Li 2019,Rogers,primary,0.0725506671486117,1,True
+LI2019_0152,Li 2019,Rogers,primary,0.352182518111362,1,True
+LI2019_0153,Li 2019,Rogers,primary,0.180456064458131,1,True
+LI2019_0154,Li 2019,Rogers,primary,0.0097598372891563,1,True
+LI2019_0155,Li 2019,Rogers,primary,0.1249387366083,1,True
+LI2019_0156,Li 2019,Rogers,primary,0.20012949992312,1,True
+LI2019_0157,Li 2019,Rogers,primary,0.154348365924929,1,True
+LI2019_0158,Li 2019,Rogers,primary,0.0397671268714876,1,True
+LI2019_0159,Li 2019,Rogers,primary,0.0,1,True
+LI2019_0160,Li 2019,Rogers,primary,0.0521230133135888,1,True
+LI2019_0161,Li 2019,Rogers,primary,0.206054482433125,1,True
+LI2019_0162,Li 2019,Rogers,primary,0.0255214495242993,1,True
+LI2019_0163,Li 2019,Rogers,primary,0.0734289171585335,1,True
+LI2019_0164,Li 2019,Rogers,primary,0.0263289387223491,1,True
+LI2019_0165,Li 2019,Rogers,primary,0.0791812460476249,1,True
+LI2019_0166,Li 2019,Rogers,primary,0.0920026785133122,1,True
+LI2019_0167,Li 2019,Rogers,primary,0.436434165950446,1,True
+LI2019_0168,Li 2019,Rogers,primary,0.20242019777803,0,True
+LI2019_0169,Li 2019,Rogers,primary,0.243038048686294,1,True
+LI2019_0170,Li 2019,Rogers,primary,0.0133081145210752,0,True
+LI2019_0171,Li 2019,Rogers,primary,0.0084780674574923,1,True
+LI2019_0172,Li 2019,Rogers,primary,0.398501343489735,0,True
+LI2019_0173,Li 2019,Rogers,primary,0.345666725649361,0,True
+LI2019_0174,Li 2019,Rogers,primary,0.176091259055681,1,True
+LI2019_0175,Li 2019,Rogers,primary,0.168018638493407,0,True
+LI2019_0176,Li 2019,Rogers,primary,0.332928468409316,0,True
+LI2019_0177,Li 2019,Rogers,primary,0.388954424007012,0,True
+LI2019_0178,Li 2019,Rogers,primary,0.0115818725498151,1,True
+LI2019_0179,Li 2019,Rogers,primary,0.204843946183802,1,True
+LI2019_0180,Li 2019,Rogers,primary,0.0411473903299569,1,True
+LI2019_0181,Li 2019,Rogers,primary,0.0662862655764385,1,True
+LI2019_0182,Li 2019,Rogers,primary,0.109144469425068,1,True
+LI2019_0183,Li 2019,Rogers,primary,0.2498774732166,1,True
+LI2019_0184,Li 2019,Rogers,primary,0.0721951251869588,1,True
+LI2019_0185,Li 2019,Rogers,primary,0.166227977855209,1,True
+LI2019_0001,Li 2019,Rogers,no_gate,0.214724516341773,1,True
+LI2019_0080,Li 2019,Rogers,no_gate,0.233430622166172,0,True
+LI2019_0102,Li 2019,Rogers,no_gate,0.120194926695175,0,True
+LI2019_0103,Li 2019,Rogers,no_gate,0.192176492941731,0,True
+LI2019_0104,Li 2019,Rogers,no_gate,0.0280287236002434,1,True
+LI2019_0105,Li 2019,Rogers,no_gate,0.178160095080061,0,True
+LI2019_0106,Li 2019,Rogers,no_gate,0.0317322461162899,0,True
+LI2019_0107,Li 2019,Rogers,no_gate,0.150644136843202,0,True
+LI2019_0108,Li 2019,Rogers,no_gate,0.311502375331029,0,True
+LI2019_0109,Li 2019,Rogers,no_gate,0.329960413603657,1,True
+LI2019_0110,Li 2019,Rogers,no_gate,0.276838687911451,0,True
+LI2019_0111,Li 2019,Rogers,no_gate,0.11477193744371,0,True
+LI2019_0112,Li 2019,Rogers,no_gate,0.0359905504952016,1,True
+LI2019_0113,Li 2019,Rogers,no_gate,0.243290367353252,0,True
+LI2019_0114,Li 2019,Rogers,no_gate,0.0369610703591501,1,True
+LI2019_0115,Li 2019,Rogers,no_gate,0.226773322297459,0,True
+LI2019_0116,Li 2019,Rogers,no_gate,0.0143804378460023,0,True
+LI2019_0117,Li 2019,Rogers,no_gate,0.0299632233774432,1,True
+LI2019_0118,Li 2019,Rogers,no_gate,0.337487463146694,1,True
+LI2019_0119,Li 2019,Rogers,no_gate,0.128743854418547,1,True
+LI2019_0120,Li 2019,Rogers,no_gate,0.0530734971051883,1,True
+LI2019_0121,Li 2019,Rogers,no_gate,0.078269087454357,1,True
+LI2019_0122,Li 2019,Rogers,no_gate,0.0190232373134305,1,True
+LI2019_0123,Li 2019,Rogers,no_gate,0.156148363655578,0,True
+LI2019_0124,Li 2019,Rogers,no_gate,0.0175920022666738,1,True
+LI2019_0125,Li 2019,Rogers,no_gate,0.381812821210407,1,True
+LI2019_0126,Li 2019,Rogers,no_gate,0.190607718823814,0,True
+LI2019_0127,Li 2019,Rogers,no_gate,0.100911152097384,1,True
+LI2019_0128,Li 2019,Rogers,no_gate,0.0725674966803767,0,True
+LI2019_0129,Li 2019,Rogers,no_gate,0.204119982655925,1,True
+LI2019_0130,Li 2019,Rogers,no_gate,0.0,1,True
+LI2019_0131,Li 2019,Rogers,no_gate,0.172862288925483,0,True
+LI2019_0132,Li 2019,Rogers,no_gate,0.697035504558819,1,True
+LI2019_0133,Li 2019,Rogers,no_gate,0.611819828617119,1,True
+LI2019_0134,Li 2019,Rogers,no_gate,inf,1,False
+LI2019_0135,Li 2019,Rogers,no_gate,0.462665338308693,1,True
+LI2019_0136,Li 2019,Rogers,no_gate,0.301029995663981,0,True
+LI2019_0137,Li 2019,Rogers,no_gate,0.13321126257429,0,True
+LI2019_0138,Li 2019,Rogers,no_gate,0.0,1,True
+LI2019_0139,Li 2019,Rogers,no_gate,0.103896133868722,1,True
+LI2019_0140,Li 2019,Rogers,no_gate,0.0543576623225927,1,True
+LI2019_0141,Li 2019,Rogers,no_gate,0.646263653820016,1,True
+LI2019_0142,Li 2019,Rogers,no_gate,0.2814344396006,1,True
+LI2019_0143,Li 2019,Rogers,no_gate,0.301029995663981,1,True
+LI2019_0144,Li 2019,Rogers,no_gate,0.113943352306837,1,True
+LI2019_0145,Li 2019,Rogers,no_gate,0.0791812460476248,0,True
+LI2019_0146,Li 2019,Rogers,no_gate,0.0321846833714012,0,True
+LI2019_0147,Li 2019,Rogers,no_gate,0.0,1,True
+LI2019_0148,Li 2019,Rogers,no_gate,0.0579919469776868,0,True
+LI2019_0149,Li 2019,Rogers,no_gate,0.221848749616356,1,True
+LI2019_0150,Li 2019,Rogers,no_gate,0.238882088915137,1,True
+LI2019_0151,Li 2019,Rogers,no_gate,0.0725506671486117,1,True
+LI2019_0152,Li 2019,Rogers,no_gate,0.352182518111362,1,True
+LI2019_0153,Li 2019,Rogers,no_gate,0.180456064458131,1,True
+LI2019_0154,Li 2019,Rogers,no_gate,0.0097598372891563,1,True
+LI2019_0155,Li 2019,Rogers,no_gate,0.1249387366083,1,True
+LI2019_0156,Li 2019,Rogers,no_gate,0.20012949992312,1,True
+LI2019_0157,Li 2019,Rogers,no_gate,0.154348365924929,1,True
+LI2019_0158,Li 2019,Rogers,no_gate,0.0397671268714876,1,True
+LI2019_0159,Li 2019,Rogers,no_gate,0.0,1,True
+LI2019_0160,Li 2019,Rogers,no_gate,0.0521230133135888,1,True
+LI2019_0161,Li 2019,Rogers,no_gate,0.206054482433125,1,True
+LI2019_0162,Li 2019,Rogers,no_gate,0.0255214495242993,1,True
+LI2019_0163,Li 2019,Rogers,no_gate,0.0734289171585335,1,True
+LI2019_0164,Li 2019,Rogers,no_gate,0.0263289387223491,1,True
+LI2019_0165,Li 2019,Rogers,no_gate,0.0791812460476249,1,True
+LI2019_0166,Li 2019,Rogers,no_gate,0.0920026785133122,1,True
+LI2019_0167,Li 2019,Rogers,no_gate,0.436434165950446,1,True
+LI2019_0168,Li 2019,Rogers,no_gate,0.20242019777803,0,True
+LI2019_0169,Li 2019,Rogers,no_gate,0.243038048686294,0,True
+LI2019_0170,Li 2019,Rogers,no_gate,0.0133081145210752,0,True
+LI2019_0171,Li 2019,Rogers,no_gate,0.0084780674574923,1,True
+LI2019_0172,Li 2019,Rogers,no_gate,0.398501343489735,0,True
+LI2019_0173,Li 2019,Rogers,no_gate,0.345666725649361,0,True
+LI2019_0174,Li 2019,Rogers,no_gate,0.176091259055681,0,True
+LI2019_0175,Li 2019,Rogers,no_gate,0.168018638493407,0,True
+LI2019_0176,Li 2019,Rogers,no_gate,0.332928468409316,0,True
+LI2019_0177,Li 2019,Rogers,no_gate,0.388954424007012,0,True
+LI2019_0178,Li 2019,Rogers,no_gate,0.0115818725498151,1,True
+LI2019_0179,Li 2019,Rogers,no_gate,0.204843946183802,1,True
+LI2019_0180,Li 2019,Rogers,no_gate,0.0411473903299569,1,True
+LI2019_0181,Li 2019,Rogers,no_gate,0.0662862655764385,1,True
+LI2019_0182,Li 2019,Rogers,no_gate,0.109144469425068,1,True
+LI2019_0183,Li 2019,Rogers,no_gate,0.2498774732166,1,True
+LI2019_0184,Li 2019,Rogers,no_gate,0.0721951251869588,1,True
+LI2019_0185,Li 2019,Rogers,no_gate,0.166227977855209,1,True
+LI2019_0001,Li 2019,IEC60599,primary,0.0863054793222083,1,True
+LI2019_0080,Li 2019,IEC60599,primary,0.0656787756439777,0,True
+LI2019_0102,Li 2019,IEC60599,primary,0.120194926695175,1,True
+LI2019_0103,Li 2019,IEC60599,primary,0.122272085092487,0,True
+LI2019_0104,Li 2019,IEC60599,primary,0.0280287236002434,1,True
+LI2019_0105,Li 2019,IEC60599,primary,0.0020688360243794,0,True
+LI2019_0106,Li 2019,IEC60599,primary,0.144359012939391,1,True
+LI2019_0107,Li 2019,IEC60599,primary,0.0187259992743803,1,True
+LI2019_0108,Li 2019,IEC60599,primary,0.186563638722729,1,True
+LI2019_0109,Li 2019,IEC60599,primary,0.0955435898087844,1,True
+LI2019_0110,Li 2019,IEC60599,primary,0.151899951303151,1,True
+LI2019_0111,Li 2019,IEC60599,primary,0.0708930146786749,1,True
+LI2019_0112,Li 2019,IEC60599,primary,0.0359905504952016,1,True
+LI2019_0113,Li 2019,IEC60599,primary,0.243290367353252,0,True
+LI2019_0114,Li 2019,IEC60599,primary,0.0084876748096234,0,True
+LI2019_0115,Li 2019,IEC60599,primary,0.101834585689159,0,True
+LI2019_0116,Li 2019,IEC60599,primary,0.139319174454302,0,True
+LI2019_0117,Li 2019,IEC60599,primary,0.0226176870524126,1,True
+LI2019_0118,Li 2019,IEC60599,primary,0.0364574674827129,1,True
+LI2019_0119,Li 2019,IEC60599,primary,0.128743854418547,1,True
+LI2019_0120,Li 2019,IEC60599,primary,0.0530734971051883,1,True
+LI2019_0121,Li 2019,IEC60599,primary,0.078269087454357,0,True
+LI2019_0122,Li 2019,IEC60599,primary,0.0190232373134305,1,True
+LI2019_0123,Li 2019,IEC60599,primary,0.0366532685560023,0,True
+LI2019_0124,Li 2019,IEC60599,primary,0.0157696798870232,1,True
+LI2019_0125,Li 2019,IEC60599,primary,0.317157183125611,1,True
+LI2019_0126,Li 2019,IEC60599,primary,0.0656689822155144,0,True
+LI2019_0127,Li 2019,IEC60599,primary,0.0751801069582969,1,True
+LI2019_0128,Li 2019,IEC60599,primary,0.0725674966803767,1,True
+LI2019_0129,Li 2019,IEC60599,primary,0.0969100130080564,1,True
+LI2019_0130,Li 2019,IEC60599,primary,0.0,1,True
+LI2019_0131,Li 2019,IEC60599,primary,0.128167706738498,1,True
+LI2019_0132,Li 2019,IEC60599,primary,0.697035504558819,0,True
+LI2019_0133,Li 2019,IEC60599,primary,0.611819828617119,1,True
+LI2019_0134,Li 2019,IEC60599,primary,inf,1,False
+LI2019_0135,Li 2019,IEC60599,primary,0.236304666027326,0,True
+LI2019_0136,Li 2019,IEC60599,primary,0.210853365314893,0,True
+LI2019_0137,Li 2019,IEC60599,primary,0.1249387366083,1,True
+LI2019_0138,Li 2019,IEC60599,primary,0.0,1,True
+LI2019_0139,Li 2019,IEC60599,primary,0.103896133868722,1,True
+LI2019_0140,Li 2019,IEC60599,primary,0.0543576623225927,1,True
+LI2019_0141,Li 2019,IEC60599,primary,0.0280287236002436,0,True
+LI2019_0142,Li 2019,IEC60599,primary,0.0195955560633808,1,True
+LI2019_0143,Li 2019,IEC60599,primary,0.176091259055681,0,True
+LI2019_0144,Li 2019,IEC60599,primary,0.113943352306837,0,True
+LI2019_0145,Li 2019,IEC60599,primary,0.0791812460476248,0,True
+LI2019_0146,Li 2019,IEC60599,primary,0.0321846833714012,0,True
+LI2019_0147,Li 2019,IEC60599,primary,0.0,1,True
+LI2019_0148,Li 2019,IEC60599,primary,0.0,0,True
+LI2019_0149,Li 2019,IEC60599,primary,0.221848749616356,1,True
+LI2019_0150,Li 2019,IEC60599,primary,0.0969100130080564,0,True
+LI2019_0151,Li 2019,IEC60599,primary,0.0725506671486117,1,True
+LI2019_0152,Li 2019,IEC60599,primary,0.352182518111362,0,True
+LI2019_0153,Li 2019,IEC60599,primary,0.180456064458131,1,True
+LI2019_0154,Li 2019,IEC60599,primary,0.0097598372891563,1,True
+LI2019_0155,Li 2019,IEC60599,primary,0.1249387366083,0,True
+LI2019_0156,Li 2019,IEC60599,primary,0.0,0,True
+LI2019_0157,Li 2019,IEC60599,primary,0.0,1,True
+LI2019_0158,Li 2019,IEC60599,primary,0.0397671268714876,1,True
+LI2019_0159,Li 2019,IEC60599,primary,0.0,1,True
+LI2019_0160,Li 2019,IEC60599,primary,0.0270582327340361,1,True
+LI2019_0161,Li 2019,IEC60599,primary,0.206054482433125,0,True
+LI2019_0162,Li 2019,IEC60599,primary,0.0255214495242993,0,True
+LI2019_0163,Li 2019,IEC60599,primary,0.0734289171585335,0,True
+LI2019_0164,Li 2019,IEC60599,primary,0.0528523073252757,1,True
+LI2019_0165,Li 2019,IEC60599,primary,0.0791812460476249,1,True
+LI2019_0166,Li 2019,IEC60599,primary,0.0920026785133122,0,True
+LI2019_0167,Li 2019,IEC60599,primary,0.436434165950446,1,True
+LI2019_0168,Li 2019,IEC60599,primary,0.123238951730406,0,True
+LI2019_0169,Li 2019,IEC60599,primary,0.118099312077995,1,True
+LI2019_0170,Li 2019,IEC60599,primary,0.138246851129375,0,True
+LI2019_0171,Li 2019,IEC60599,primary,0.116460669150808,1,True
+LI2019_0172,Li 2019,IEC60599,primary,0.273562606881435,0,True
+LI2019_0173,Li 2019,IEC60599,primary,0.299374637616661,0,True
+LI2019_0174,Li 2019,IEC60599,primary,0.0582736210651111,1,True
+LI2019_0175,Li 2019,IEC60599,primary,0.168018638493407,0,True
+LI2019_0176,Li 2019,IEC60599,primary,0.332928468409316,0,True
+LI2019_0177,Li 2019,IEC60599,primary,0.0807556504129512,0,True
+LI2019_0178,Li 2019,IEC60599,primary,0.0115818725498151,1,True
+LI2019_0179,Li 2019,IEC60599,primary,0.284025192231427,1,True
+LI2019_0180,Li 2019,IEC60599,primary,0.0706820612602126,1,True
+LI2019_0181,Li 2019,IEC60599,primary,0.0843868929168061,0,True
+LI2019_0182,Li 2019,IEC60599,primary,0.015794267183232,0,True
+LI2019_0183,Li 2019,IEC60599,primary,0.1249387366083,1,True
+LI2019_0184,Li 2019,IEC60599,primary,0.0030910769771418,1,True
+LI2019_0185,Li 2019,IEC60599,primary,0.0870467318075847,0,True
+LI2019_0001,Li 2019,IEC60599,no_gate,0.0863054793222083,1,True
+LI2019_0080,Li 2019,IEC60599,no_gate,0.0656787756439777,0,True
+LI2019_0102,Li 2019,IEC60599,no_gate,0.120194926695175,0,True
+LI2019_0103,Li 2019,IEC60599,no_gate,0.122272085092487,0,True
+LI2019_0104,Li 2019,IEC60599,no_gate,0.0280287236002434,1,True
+LI2019_0105,Li 2019,IEC60599,no_gate,0.0020688360243794,0,True
+LI2019_0106,Li 2019,IEC60599,no_gate,0.144359012939391,0,True
+LI2019_0107,Li 2019,IEC60599,no_gate,0.0187259992743803,0,True
+LI2019_0108,Li 2019,IEC60599,no_gate,0.186563638722729,0,True
+LI2019_0109,Li 2019,IEC60599,no_gate,0.0955435898087844,1,True
+LI2019_0110,Li 2019,IEC60599,no_gate,0.151899951303151,0,True
+LI2019_0111,Li 2019,IEC60599,no_gate,0.0708930146786749,0,True
+LI2019_0112,Li 2019,IEC60599,no_gate,0.0359905504952016,0,True
+LI2019_0113,Li 2019,IEC60599,no_gate,0.243290367353252,0,True
+LI2019_0114,Li 2019,IEC60599,no_gate,0.0084876748096234,0,True
+LI2019_0115,Li 2019,IEC60599,no_gate,0.101834585689159,0,True
+LI2019_0116,Li 2019,IEC60599,no_gate,0.139319174454302,0,True
+LI2019_0117,Li 2019,IEC60599,no_gate,0.0226176870524126,1,True
+LI2019_0118,Li 2019,IEC60599,no_gate,0.0364574674827129,1,True
+LI2019_0119,Li 2019,IEC60599,no_gate,0.128743854418547,0,True
+LI2019_0120,Li 2019,IEC60599,no_gate,0.0530734971051883,1,True
+LI2019_0121,Li 2019,IEC60599,no_gate,0.078269087454357,0,True
+LI2019_0122,Li 2019,IEC60599,no_gate,0.0190232373134305,1,True
+LI2019_0123,Li 2019,IEC60599,no_gate,0.0366532685560023,0,True
+LI2019_0124,Li 2019,IEC60599,no_gate,0.0157696798870232,1,True
+LI2019_0125,Li 2019,IEC60599,no_gate,0.317157183125611,1,True
+LI2019_0126,Li 2019,IEC60599,no_gate,0.0656689822155144,0,True
+LI2019_0127,Li 2019,IEC60599,no_gate,0.0751801069582969,0,True
+LI2019_0128,Li 2019,IEC60599,no_gate,0.0725674966803767,0,True
+LI2019_0129,Li 2019,IEC60599,no_gate,0.0969100130080564,1,True
+LI2019_0130,Li 2019,IEC60599,no_gate,0.0,1,True
+LI2019_0131,Li 2019,IEC60599,no_gate,0.128167706738498,1,True
+LI2019_0132,Li 2019,IEC60599,no_gate,0.697035504558819,0,True
+LI2019_0133,Li 2019,IEC60599,no_gate,0.611819828617119,1,True
+LI2019_0134,Li 2019,IEC60599,no_gate,inf,1,False
+LI2019_0135,Li 2019,IEC60599,no_gate,0.236304666027326,0,True
+LI2019_0136,Li 2019,IEC60599,no_gate,0.210853365314893,1,True
+LI2019_0137,Li 2019,IEC60599,no_gate,0.1249387366083,1,True
+LI2019_0138,Li 2019,IEC60599,no_gate,0.0,1,True
+LI2019_0139,Li 2019,IEC60599,no_gate,0.103896133868722,0,True
+LI2019_0140,Li 2019,IEC60599,no_gate,0.0543576623225927,1,True
+LI2019_0141,Li 2019,IEC60599,no_gate,0.0280287236002436,1,True
+LI2019_0142,Li 2019,IEC60599,no_gate,0.0195955560633808,1,True
+LI2019_0143,Li 2019,IEC60599,no_gate,0.176091259055681,1,True
+LI2019_0144,Li 2019,IEC60599,no_gate,0.113943352306837,1,True
+LI2019_0145,Li 2019,IEC60599,no_gate,0.0791812460476248,1,True
+LI2019_0146,Li 2019,IEC60599,no_gate,0.0321846833714012,0,True
+LI2019_0147,Li 2019,IEC60599,no_gate,0.0,1,True
+LI2019_0148,Li 2019,IEC60599,no_gate,0.0,1,True
+LI2019_0149,Li 2019,IEC60599,no_gate,0.221848749616356,0,True
+LI2019_0150,Li 2019,IEC60599,no_gate,0.0969100130080564,1,True
+LI2019_0151,Li 2019,IEC60599,no_gate,0.0725506671486117,1,True
+LI2019_0152,Li 2019,IEC60599,no_gate,0.352182518111362,0,True
+LI2019_0153,Li 2019,IEC60599,no_gate,0.180456064458131,1,True
+LI2019_0154,Li 2019,IEC60599,no_gate,0.0097598372891563,1,True
+LI2019_0155,Li 2019,IEC60599,no_gate,0.1249387366083,0,True
+LI2019_0156,Li 2019,IEC60599,no_gate,0.0,0,True
+LI2019_0157,Li 2019,IEC60599,no_gate,0.0,1,True
+LI2019_0158,Li 2019,IEC60599,no_gate,0.0397671268714876,1,True
+LI2019_0159,Li 2019,IEC60599,no_gate,0.0,1,True
+LI2019_0160,Li 2019,IEC60599,no_gate,0.0270582327340361,1,True
+LI2019_0161,Li 2019,IEC60599,no_gate,0.206054482433125,0,True
+LI2019_0162,Li 2019,IEC60599,no_gate,0.0255214495242993,0,True
+LI2019_0163,Li 2019,IEC60599,no_gate,0.0734289171585335,0,True
+LI2019_0164,Li 2019,IEC60599,no_gate,0.0528523073252757,1,True
+LI2019_0165,Li 2019,IEC60599,no_gate,0.0791812460476249,1,True
+LI2019_0166,Li 2019,IEC60599,no_gate,0.0920026785133122,0,True
+LI2019_0167,Li 2019,IEC60599,no_gate,0.436434165950446,1,True
+LI2019_0168,Li 2019,IEC60599,no_gate,0.123238951730406,0,True
+LI2019_0169,Li 2019,IEC60599,no_gate,0.118099312077995,0,True
+LI2019_0170,Li 2019,IEC60599,no_gate,0.138246851129375,0,True
+LI2019_0171,Li 2019,IEC60599,no_gate,0.116460669150808,0,True
+LI2019_0172,Li 2019,IEC60599,no_gate,0.273562606881435,0,True
+LI2019_0173,Li 2019,IEC60599,no_gate,0.299374637616661,0,True
+LI2019_0174,Li 2019,IEC60599,no_gate,0.0582736210651111,0,True
+LI2019_0175,Li 2019,IEC60599,no_gate,0.168018638493407,0,True
+LI2019_0176,Li 2019,IEC60599,no_gate,0.332928468409316,0,True
+LI2019_0177,Li 2019,IEC60599,no_gate,0.0807556504129512,0,True
+LI2019_0178,Li 2019,IEC60599,no_gate,0.0115818725498151,1,True
+LI2019_0179,Li 2019,IEC60599,no_gate,0.284025192231427,1,True
+LI2019_0180,Li 2019,IEC60599,no_gate,0.0706820612602126,1,True
+LI2019_0181,Li 2019,IEC60599,no_gate,0.0843868929168061,0,True
+LI2019_0182,Li 2019,IEC60599,no_gate,0.015794267183232,0,True
+LI2019_0183,Li 2019,IEC60599,no_gate,0.1249387366083,1,True
+LI2019_0184,Li 2019,IEC60599,no_gate,0.0030910769771418,1,True
+LI2019_0185,Li 2019,IEC60599,no_gate,0.0870467318075847,0,True
+LI2019_0001,Li 2019,Duval,primary,1.73205080756888,1,True
+LI2019_0080,Li 2019,Duval,primary,6.5533564137121,0,True
+LI2019_0102,Li 2019,Duval,primary,4.64329062866002,1,True
+LI2019_0103,Li 2019,Duval,primary,8.57782338373824,0,True
+LI2019_0104,Li 2019,Duval,primary,0.221541382363462,1,True
+LI2019_0105,Li 2019,Duval,primary,3.46410161513775,0,True
+LI2019_0106,Li 2019,Duval,primary,3.46410161513775,1,True
+LI2019_0107,Li 2019,Duval,primary,5.70425178359724,1,True
+LI2019_0108,Li 2019,Duval,primary,12.8963646512689,1,True
+LI2019_0109,Li 2019,Duval,primary,6.64039128489135,1,True
+LI2019_0110,Li 2019,Duval,primary,12.1836849011967,1,True
+LI2019_0111,Li 2019,Duval,primary,8.51806842196379,1,True
+LI2019_0112,Li 2019,Duval,primary,3.46410161513776,1,True
+LI2019_0113,Li 2019,Duval,primary,4.95610836162955,0,True
+LI2019_0114,Li 2019,Duval,primary,2.21005720298469,0,True
+LI2019_0115,Li 2019,Duval,primary,12.9421515330822,0,True
+LI2019_0116,Li 2019,Duval,primary,3.88052250828811,1,True
+LI2019_0117,Li 2019,Duval,primary,6.61039574264819,1,True
+LI2019_0118,Li 2019,Duval,primary,1.73205080756888,1,True
+LI2019_0119,Li 2019,Duval,primary,3.74745777740335,1,True
+LI2019_0120,Li 2019,Duval,primary,9.65800834229754,1,True
+LI2019_0121,Li 2019,Duval,primary,8.1908957011245,0,True
+LI2019_0122,Li 2019,Duval,primary,5.83377552219627,1,True
+LI2019_0123,Li 2019,Duval,primary,12.554160335785,0,True
+LI2019_0124,Li 2019,Duval,primary,11.9256971853451,0,True
+LI2019_0125,Li 2019,Duval,primary,12.9903810567666,1,True
+LI2019_0126,Li 2019,Duval,primary,4.08976805149139,0,True
+LI2019_0127,Li 2019,Duval,primary,0.724803035781218,1,True
+LI2019_0128,Li 2019,Duval,primary,8.27287165360491,1,True
+LI2019_0129,Li 2019,Duval,primary,2.35064038170063,1,True
+LI2019_0130,Li 2019,Duval,primary,0.170380833249219,1,True
+LI2019_0131,Li 2019,Duval,primary,2.48280320538884,1,True
+LI2019_0132,Li 2019,Duval,primary,1.73205080756888,0,True
+LI2019_0133,Li 2019,Duval,primary,3.2754997651748,0,True
+LI2019_0134,Li 2019,Duval,primary,3.27137546468403,1,True
+LI2019_0135,Li 2019,Duval,primary,3.46410161513776,0,True
+LI2019_0136,Li 2019,Duval,primary,0.0,0,True
+LI2019_0137,Li 2019,Duval,primary,3.46410161513776,1,True
+LI2019_0138,Li 2019,Duval,primary,3.46410161513776,1,True
+LI2019_0139,Li 2019,Duval,primary,3.46410161513774,1,True
+LI2019_0140,Li 2019,Duval,primary,3.46410161513775,1,True
+LI2019_0141,Li 2019,Duval,primary,2.6153846153846,0,True
+LI2019_0142,Li 2019,Duval,primary,12.9903810567666,1,True
+LI2019_0143,Li 2019,Duval,primary,3.9364791081111,0,True
+LI2019_0144,Li 2019,Duval,primary,3.46410161513775,0,True
+LI2019_0145,Li 2019,Duval,primary,0.662883642402903,0,True
+LI2019_0146,Li 2019,Duval,primary,3.46410161513776,1,True
+LI2019_0147,Li 2019,Duval,primary,3.29914439536928,1,True
+LI2019_0148,Li 2019,Duval,primary,1.0810810810811,0,True
+LI2019_0149,Li 2019,Duval,primary,1.73205080756888,1,True
+LI2019_0150,Li 2019,Duval,primary,3.46410161513776,0,True
+LI2019_0151,Li 2019,Duval,primary,1.79008746355684,1,True
+LI2019_0152,Li 2019,Duval,primary,1.39656780665625,1,True
+LI2019_0153,Li 2019,Duval,primary,0.0491963500680583,1,True
+LI2019_0154,Li 2019,Duval,primary,1.44433472657738,1,True
+LI2019_0155,Li 2019,Duval,primary,1.73205080756888,0,True
+LI2019_0156,Li 2019,Duval,primary,0.995588259468718,1,True
+LI2019_0157,Li 2019,Duval,primary,4.14079352983572,0,True
+LI2019_0158,Li 2019,Duval,primary,12.0456260708199,1,True
+LI2019_0159,Li 2019,Duval,primary,7.54679280440725,1,True
+LI2019_0160,Li 2019,Duval,primary,2.81190964438651,1,True
+LI2019_0161,Li 2019,Duval,primary,9.13315368722115,0,True
+LI2019_0162,Li 2019,Duval,primary,1.14460700220461,0,True
+LI2019_0163,Li 2019,Duval,primary,0.0666173387526466,1,True
+LI2019_0164,Li 2019,Duval,primary,3.18854807756998,1,True
+LI2019_0165,Li 2019,Duval,primary,6.92820323027551,0,True
+LI2019_0166,Li 2019,Duval,primary,11.7814328420876,0,True
+LI2019_0167,Li 2019,Duval,primary,16.793029326791,1,True
+LI2019_0168,Li 2019,Duval,primary,5.91024354512538,0,True
+LI2019_0169,Li 2019,Duval,primary,10.9868894509966,1,True
+LI2019_0170,Li 2019,Duval,primary,5.06207581990904,1,True
+LI2019_0171,Li 2019,Duval,primary,1.2852847905318,1,True
+LI2019_0172,Li 2019,Duval,primary,12.4331102285309,0,True
+LI2019_0173,Li 2019,Duval,primary,12.4058546344136,0,True
+LI2019_0174,Li 2019,Duval,primary,0.97631745834073,1,True
+LI2019_0175,Li 2019,Duval,primary,0.39508458201844,0,True
+LI2019_0176,Li 2019,Duval,primary,12.8694653162444,0,True
+LI2019_0177,Li 2019,Duval,primary,5.48602528386323,0,True
+LI2019_0178,Li 2019,Duval,primary,6.86452489176195,1,True
+LI2019_0179,Li 2019,Duval,primary,6.62241872452564,1,True
+LI2019_0180,Li 2019,Duval,primary,7.24312155892439,0,True
+LI2019_0181,Li 2019,Duval,primary,1.72721267682147,0,True
+LI2019_0182,Li 2019,Duval,primary,3.23258987353201,1,True
+LI2019_0183,Li 2019,Duval,primary,12.6448801082751,0,True
+LI2019_0184,Li 2019,Duval,primary,3.04769412010275,1,True
+LI2019_0185,Li 2019,Duval,primary,1.70721260287142,1,True
+LI2019_0001,Li 2019,Duval,no_gate,1.73205080756888,1,True
+LI2019_0080,Li 2019,Duval,no_gate,6.5533564137121,0,True
+LI2019_0102,Li 2019,Duval,no_gate,4.64329062866002,0,True
+LI2019_0103,Li 2019,Duval,no_gate,8.57782338373824,0,True
+LI2019_0104,Li 2019,Duval,no_gate,0.221541382363462,1,True
+LI2019_0105,Li 2019,Duval,no_gate,3.46410161513775,0,True
+LI2019_0106,Li 2019,Duval,no_gate,3.46410161513775,0,True
+LI2019_0107,Li 2019,Duval,no_gate,5.70425178359724,0,True
+LI2019_0108,Li 2019,Duval,no_gate,12.8963646512689,0,True
+LI2019_0109,Li 2019,Duval,no_gate,6.64039128489135,0,True
+LI2019_0110,Li 2019,Duval,no_gate,12.1836849011967,0,True
+LI2019_0111,Li 2019,Duval,no_gate,8.51806842196379,0,True
+LI2019_0112,Li 2019,Duval,no_gate,3.46410161513776,0,True
+LI2019_0113,Li 2019,Duval,no_gate,4.95610836162955,0,True
+LI2019_0114,Li 2019,Duval,no_gate,2.21005720298469,0,True
+LI2019_0115,Li 2019,Duval,no_gate,12.9421515330822,0,True
+LI2019_0116,Li 2019,Duval,no_gate,3.88052250828811,1,True
+LI2019_0117,Li 2019,Duval,no_gate,6.61039574264819,0,True
+LI2019_0118,Li 2019,Duval,no_gate,1.73205080756888,1,True
+LI2019_0119,Li 2019,Duval,no_gate,3.74745777740335,0,True
+LI2019_0120,Li 2019,Duval,no_gate,9.65800834229754,0,True
+LI2019_0121,Li 2019,Duval,no_gate,8.1908957011245,0,True
+LI2019_0122,Li 2019,Duval,no_gate,5.83377552219627,0,True
+LI2019_0123,Li 2019,Duval,no_gate,12.554160335785,0,True
+LI2019_0124,Li 2019,Duval,no_gate,11.9256971853451,0,True
+LI2019_0125,Li 2019,Duval,no_gate,12.9903810567666,0,True
+LI2019_0126,Li 2019,Duval,no_gate,4.08976805149139,0,True
+LI2019_0127,Li 2019,Duval,no_gate,0.724803035781218,1,True
+LI2019_0128,Li 2019,Duval,no_gate,8.27287165360491,0,True
+LI2019_0129,Li 2019,Duval,no_gate,2.35064038170063,1,True
+LI2019_0130,Li 2019,Duval,no_gate,0.170380833249219,1,True
+LI2019_0131,Li 2019,Duval,no_gate,2.48280320538884,1,True
+LI2019_0132,Li 2019,Duval,no_gate,1.73205080756888,0,True
+LI2019_0133,Li 2019,Duval,no_gate,3.2754997651748,0,True
+LI2019_0134,Li 2019,Duval,no_gate,3.27137546468403,1,True
+LI2019_0135,Li 2019,Duval,no_gate,3.46410161513776,0,True
+LI2019_0136,Li 2019,Duval,no_gate,0.0,1,True
+LI2019_0137,Li 2019,Duval,no_gate,3.46410161513776,0,True
+LI2019_0138,Li 2019,Duval,no_gate,3.46410161513776,1,True
+LI2019_0139,Li 2019,Duval,no_gate,3.46410161513774,0,True
+LI2019_0140,Li 2019,Duval,no_gate,3.46410161513775,0,True
+LI2019_0141,Li 2019,Duval,no_gate,2.6153846153846,1,True
+LI2019_0142,Li 2019,Duval,no_gate,12.9903810567666,0,True
+LI2019_0143,Li 2019,Duval,no_gate,3.9364791081111,1,True
+LI2019_0144,Li 2019,Duval,no_gate,3.46410161513775,1,True
+LI2019_0145,Li 2019,Duval,no_gate,0.662883642402903,1,True
+LI2019_0146,Li 2019,Duval,no_gate,3.46410161513776,1,True
+LI2019_0147,Li 2019,Duval,no_gate,3.29914439536928,1,True
+LI2019_0148,Li 2019,Duval,no_gate,1.0810810810811,1,True
+LI2019_0149,Li 2019,Duval,no_gate,1.73205080756888,0,True
+LI2019_0150,Li 2019,Duval,no_gate,3.46410161513776,1,True
+LI2019_0151,Li 2019,Duval,no_gate,1.79008746355684,0,True
+LI2019_0152,Li 2019,Duval,no_gate,1.39656780665625,1,True
+LI2019_0153,Li 2019,Duval,no_gate,0.0491963500680583,1,True
+LI2019_0154,Li 2019,Duval,no_gate,1.44433472657738,0,True
+LI2019_0155,Li 2019,Duval,no_gate,1.73205080756888,0,True
+LI2019_0156,Li 2019,Duval,no_gate,0.995588259468718,1,True
+LI2019_0157,Li 2019,Duval,no_gate,4.14079352983572,0,True
+LI2019_0158,Li 2019,Duval,no_gate,12.0456260708199,0,True
+LI2019_0159,Li 2019,Duval,no_gate,7.54679280440725,1,True
+LI2019_0160,Li 2019,Duval,no_gate,2.81190964438651,1,True
+LI2019_0161,Li 2019,Duval,no_gate,9.13315368722115,0,True
+LI2019_0162,Li 2019,Duval,no_gate,1.14460700220461,0,True
+LI2019_0163,Li 2019,Duval,no_gate,0.0666173387526466,1,True
+LI2019_0164,Li 2019,Duval,no_gate,3.18854807756998,1,True
+LI2019_0165,Li 2019,Duval,no_gate,6.92820323027551,0,True
+LI2019_0166,Li 2019,Duval,no_gate,11.7814328420876,0,True
+LI2019_0167,Li 2019,Duval,no_gate,16.793029326791,1,True
+LI2019_0168,Li 2019,Duval,no_gate,5.91024354512538,0,True
+LI2019_0169,Li 2019,Duval,no_gate,10.9868894509966,0,True
+LI2019_0170,Li 2019,Duval,no_gate,5.06207581990904,1,True
+LI2019_0171,Li 2019,Duval,no_gate,1.2852847905318,0,True
+LI2019_0172,Li 2019,Duval,no_gate,12.4331102285309,0,True
+LI2019_0173,Li 2019,Duval,no_gate,12.4058546344136,0,True
+LI2019_0174,Li 2019,Duval,no_gate,0.97631745834073,0,True
+LI2019_0175,Li 2019,Duval,no_gate,0.39508458201844,0,True
+LI2019_0176,Li 2019,Duval,no_gate,12.8694653162444,0,True
+LI2019_0177,Li 2019,Duval,no_gate,5.48602528386323,0,True
+LI2019_0178,Li 2019,Duval,no_gate,6.86452489176195,0,True
+LI2019_0179,Li 2019,Duval,no_gate,6.62241872452564,1,True
+LI2019_0180,Li 2019,Duval,no_gate,7.24312155892439,0,True
+LI2019_0181,Li 2019,Duval,no_gate,1.72721267682147,0,True
+LI2019_0182,Li 2019,Duval,no_gate,3.23258987353201,1,True
+LI2019_0183,Li 2019,Duval,no_gate,12.6448801082751,0,True
+LI2019_0184,Li 2019,Duval,no_gate,3.04769412010275,0,True
+LI2019_0185,Li 2019,Duval,no_gate,1.70721260287142,1,True

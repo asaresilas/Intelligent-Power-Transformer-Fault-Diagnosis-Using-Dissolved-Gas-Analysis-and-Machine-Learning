@@ -1,0 +1,488 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    3
+   ]
+  ],
+  "date-time": "2026-08-03T17:46:43Z",
+  "timestamp": 1785779203294,
+  "version": "3.56.0"
+ },
+ "reference-count": 28,
+ "publisher": "MDPI AG",
+ "issue": "10",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      5,
+      20
+     ]
+    ],
+    "date-time": "2021-05-20T00:00:00Z",
+    "timestamp": 1621468800000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "name": "Taif University Researchers Supporting project",
+   "award": [
+    "TURSP 2020/34"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "TURSP 2020/34"
+     ]
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Energies"
+ ],
+ "abstract": "<jats:p>The main objective of the current work was to enhance the transformer fault diagnostic accuracy based on dissolved gas analysis (DGA) data with a proposed coupled system of support vector machine (SVM)-bat algorithm (BA) and Gaussian classifiers. Six electrical and thermal fault classes were categorized based on the IEC and IEEE standard rules. The concentration of five main combustible gases (hydrogen, methane, ethane, ethylene, and acetylene) was utilized as an input vector of the two classifiers. Two types of input vectors have been tested; the first input type considered the five gases in ppm, and the second input type considered the gases introduced in the percentage of the sum of the five gases. An extensive database of 481 had been used for training and testing phases (321 data samples for training and 160 data samples for testing). The SVM model conditioning parameter \u201c\u03bb\u201d and penalty margin parameter \u201cC\u201d were adjusted through the bat algorithm to develop a maximum accuracy rate. The SVM-BA and Gaussian classifiers\u2019 accuracy was evaluated and compared with several DGA techniques in the literature.</jats:p>",
+ "DOI": "10.3390/en14102970",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2021,
+    5,
+    20
+   ]
+  ],
+  "date-time": "2021-05-20T11:45:57Z",
+  "timestamp": 1621511157000
+ },
+ "page": "2970",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 73,
+ "title": [
+  "Accuracy Improvement of Transformer Faults Diagnostic Based on DGA Data Using SVM-BA Classifier"
+ ],
+ "prefix": "10.3390",
+ "volume": "14",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0001-7179-3448",
+   "authenticated-orcid": false,
+   "given": "Youcef",
+   "family": "Benmahamed",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Research Laboratories, National Polytechnic School (ENP), B.P 182, El-Harrach, Algiers 16200, Algeria"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-0888-298X",
+   "authenticated-orcid": false,
+   "given": "Omar",
+   "family": "Kherif",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Research Laboratories, National Polytechnic School (ENP), B.P 182, El-Harrach, Algiers 16200, Algeria"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Madjid",
+   "family": "Teguar",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Research Laboratories, National Polytechnic School (ENP), B.P 182, El-Harrach, Algiers 16200, Algeria"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-9984-266X",
+   "authenticated-orcid": false,
+   "given": "Ahmed",
+   "family": "Boubakeur",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Research Laboratories, National Polytechnic School (ENP), B.P 182, El-Harrach, Algiers 16200, Algeria"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-9387-1950",
+   "authenticated-orcid": false,
+   "given": "Sherif S. M.",
+   "family": "Ghoneim",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Electrical Engineering Department, College of Engineering, Taif University, Taif 21944, Saudi Arabia"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2021,
+    5,
+    20
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "doi-asserted-by": "crossref",
+   "first-page": "3443",
+   "DOI": "10.1109/TDEI.2017.006841",
+   "article-title": "Application of SVM and KNN to Duval Pentagon 1 Transformer Oil Diagnosis",
+   "volume": "24",
+   "author": "Benmahamed",
+   "year": "2017",
+   "journal-title": "IEEE Trans. Dielect. Electr. Inst."
+  },
+  {
+   "key": "ref_2",
+   "doi-asserted-by": "crossref",
+   "first-page": "213",
+   "DOI": "10.1080/15325008.2020.1734116",
+   "article-title": "Insulation Condition Assessment of Power Transformers Employing Fused Information in Time and Space Dimensions",
+   "volume": "48",
+   "author": "Ji",
+   "year": "2020",
+   "journal-title": "Electr. Power Comp. Syst."
+  },
+  {
+   "key": "ref_3",
+   "doi-asserted-by": "crossref",
+   "first-page": "1339",
+   "DOI": "10.1080/15325008.2017.1338794",
+   "article-title": "Selection of Most Relevant Input Parameters Using Principal Component Analysis for Extreme Learning Machine Based Power Transformer Fault Diagnosis Model",
+   "volume": "45",
+   "author": "Malik",
+   "year": "2017",
+   "journal-title": "Electr. Power Compon. Syst."
+  },
+  {
+   "key": "ref_4",
+   "unstructured": "IEEE Standard C57-104 (2008). Guide for the Interpretation of Gases Generated in Oil-Immersed Transformers, IEEE."
+  },
+  {
+   "key": "ref_5",
+   "doi-asserted-by": "crossref",
+   "first-page": "2130",
+   "DOI": "10.1109/TDEI.2020.008984",
+   "article-title": "Dynamic Fault Prediction of Power Transformers Based on Lasso Regression and Change Point Detection by Dissolved Gas Analysis",
+   "volume": "27",
+   "author": "Jiang",
+   "year": "2020",
+   "journal-title": "IEEE Trans. Dielect. Electr. Inst."
+  },
+  {
+   "key": "ref_6",
+   "doi-asserted-by": "crossref",
+   "first-page": "222",
+   "DOI": "10.1109/TDEI.2019.008395",
+   "article-title": "Optimal ratio limits of Rogers\u2019 four-ratios and IEC 60599 code methods using particle swarm optimization fuzzy-logic approach",
+   "volume": "27",
+   "author": "Taha",
+   "year": "2020",
+   "journal-title": "IEEE Trans. Dielect. Electr. Inst."
+  },
+  {
+   "key": "ref_7",
+   "doi-asserted-by": "crossref",
+   "first-page": "2299",
+   "DOI": "10.1049/iet-gtd.2018.6168",
+   "article-title": "Condition assessment of power transformers based on dissolved gas analysis",
+   "volume": "13",
+   "author": "Gouda",
+   "year": "2019",
+   "journal-title": "IET Gener. Trans. Distrib."
+  },
+  {
+   "key": "ref_8",
+   "unstructured": "Code, P., and Prix, C. (2007). Mineral Oil-Impregnated Electrical Equipment in Service\u2013Guide to the Interpretation of Dissolved and Free Gases Analysis, IEC Publication 60599; British Standards Institution."
+  },
+  {
+   "key": "ref_9",
+   "doi-asserted-by": "crossref",
+   "first-page": "9",
+   "DOI": "10.1109/MEI.2014.6943428",
+   "article-title": "The Duval Pentagon\u2014A new Complementary Tool for the Interpretation of Dissolved Gas Analysis in Transformers",
+   "volume": "30",
+   "author": "Duval",
+   "year": "2014",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_10",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheim, L., Duval, M., and and Haider, S. (2020). Combined Duval Pentagons: A Simplified Approach. Energies, 13.",
+   "DOI": "10.3390/en13112859"
+  },
+  {
+   "key": "ref_11",
+   "doi-asserted-by": "crossref",
+   "first-page": "2507",
+   "DOI": "10.1109/TDEI.2015.004999",
+   "article-title": "Development of a new graphical technique for dissolved gas analysis in power transformers based on the five combustible gases",
+   "volume": "22",
+   "author": "Mansour",
+   "year": "2015",
+   "journal-title": "IEEE Trans. Dielect. Electr. Inst."
+  },
+  {
+   "key": "ref_12",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Benmahamed, Y., Kemari, Y., Teguar, M., and Boubakeur, A. (2018, January 1\u20135). Diagnosis of Power Transformer Oil Using KNN and Nave Bayes Classifiers. Proceedings of the 2018 IEEE 2nd International Conference on Dielectrics (ICD), Budapest, Hungary.",
+   "DOI": "10.1109/ICD.2018.8468532"
+  },
+  {
+   "key": "ref_13",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Poonnoy, N., Suwanasri, C., and Suwanasri, T. (2021). \u2018Fuzzy Logic Approach to Dissolved Gas Analysis for Power Transformer Failure Index and Fault Identification. Energies, 14.",
+   "DOI": "10.3390/en14010036"
+  },
+  {
+   "key": "ref_14",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Benmahamed, Y., Teguar, M., and Boubakeur, A. (2018, January 28\u201331). Diagnosis of Power Transformer Oil Using PSO-SVM and KNN Classifiers. Proceedings of the 2018 International Conference on Electrical Sciences and Technologies in Maghreb (CISTEM), Algiers, Algeria.",
+   "DOI": "10.1109/CISTEM.2018.8613548"
+  },
+  {
+   "key": "ref_15",
+   "doi-asserted-by": "crossref",
+   "first-page": "265",
+   "DOI": "10.1016/j.ijepes.2016.02.018",
+   "article-title": "A new approach of DGA interpretation technique for transformer fault diagnosis",
+   "volume": "81",
+   "author": "Ghoneim",
+   "year": "2016",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "key": "ref_16",
+   "doi-asserted-by": "crossref",
+   "first-page": "943",
+   "DOI": "10.1049/iet-gtd.2016.0886",
+   "article-title": "Conditional probability-based interpretation of dissolved gas analysis for transformer incipient faults",
+   "volume": "11",
+   "author": "Taha",
+   "year": "2017",
+   "journal-title": "IET Gener. Transm. Distrib."
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "first-page": "4117",
+   "DOI": "10.1049/iet-gtd.2018.5564",
+   "article-title": "DGALab: An extensible software implementation for DGA",
+   "volume": "18",
+   "author": "Ibrahim",
+   "year": "2018",
+   "journal-title": "IET Gener. Transm. Distrib."
+  },
+  {
+   "key": "ref_18",
+   "unstructured": "Ibrahim, S., Taha, I.B.M., and Ghoneim, S.S.M. (2021, May 19). DGA Tool GitHub Repository. Available online: https://github.com/Saleh860/DGA."
+  },
+  {
+   "key": "ref_19",
+   "unstructured": "IEEE Std C57-104 (2015). IEEE Guide for the Reclamation of Mineral Insulating Oil and Criteria for Its Use, British Standards Institution."
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "first-page": "6977",
+   "DOI": "10.1007/s13369-019-03739-4",
+   "article-title": "Smart Diagnosis of Incipient Faults Using Dissolved Gas Analysis-Based Fault Interpretation Matrix (FIM)",
+   "volume": "44",
+   "author": "Wani",
+   "year": "2019",
+   "journal-title": "Arab. J. Sci. Eng."
+  },
+  {
+   "key": "ref_21",
+   "doi-asserted-by": "crossref",
+   "first-page": "207287",
+   "DOI": "10.1109/ACCESS.2020.3037685",
+   "article-title": "Prediction of Nonsinusoidal AC Loss of Superconducting Tapes Using Artificial Intelligence-Based Models",
+   "volume": "8",
+   "author": "Song",
+   "year": "2020",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "first-page": "830",
+   "DOI": "10.5370/JEET.2017.12.2.830",
+   "article-title": "A new support vector machine model based on improved imperialist competitive algorithm for fault diagnosis of oil-immersed transformers",
+   "volume": "12",
+   "author": "Wei",
+   "year": "2017",
+   "journal-title": "J. Elect. Eng. Technol."
+  },
+  {
+   "key": "ref_23",
+   "doi-asserted-by": "crossref",
+   "first-page": "13",
+   "DOI": "10.1016/j.patrec.2016.10.007",
+   "article-title": "A BA-based algorithm for parameter optimization of Support Vector Machine",
+   "volume": "93",
+   "author": "Tharwat",
+   "year": "2017",
+   "journal-title": "Pattern Recognit. Lett."
+  },
+  {
+   "key": "ref_24",
+   "doi-asserted-by": "crossref",
+   "first-page": "17333",
+   "DOI": "10.1007/s00500-020-05023-2",
+   "article-title": "A design of information granule-based under-sampling method in imbalanced data classification",
+   "volume": "24",
+   "author": "Liu",
+   "year": "2020",
+   "journal-title": "Soft Comput."
+  },
+  {
+   "key": "ref_25",
+   "unstructured": "ASTM (2017). Standard Test Method for Analysis of Gases Dissolved in Electrical Insulating Oil by Gas Chromatography, ASTM. D3612-2."
+  },
+  {
+   "key": "ref_26",
+   "unstructured": "(2021, May 19). Available online: https://www.agilent.com/cs/library/usermanuals/public/G1176-90000_034327.pdf."
+  },
+  {
+   "key": "ref_27",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Foysal, K.H., Chang, H.J., Bruess, F., and Chong, J.W. (2021). SmartFit. Smartphone Application for Garment Fit Detection. Electronics, 10.",
+   "DOI": "10.3390/electronics10010097"
+  },
+  {
+   "key": "ref_28",
+   "unstructured": "Ali, S., and Smith, K.A. (2003, January 27\u201329). Automatic parameter selection for polynomial kernel. Proceedings of the Fifth IEEE Workshop on Mobile Computing Systems and Applications, Las Vegas, NV, USA."
+  }
+ ],
+ "container-title": [
+  "Energies"
+ ],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/1996-1073/14/10/2970/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    11
+   ]
+  ],
+  "date-time": "2025-10-11T06:04:50Z",
+  "timestamp": 1760162690000
+ },
+ "score": 107.9998,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/1996-1073/14/10/2970"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2021,
+    5,
+    20
+   ]
+  ]
+ },
+ "references-count": 28,
+ "journal-issue": {
+  "issue": "10",
+  "published-online": {
+   "date-parts": [
+    [
+     2021,
+     5
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "en14102970"
+ ],
+ "URL": "https://doi.org/10.3390/en14102970",
+ "ISSN": [
+  "1996-1073"
+ ],
+ "issn-type": [
+  {
+   "value": "1996-1073",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2021,
+    5,
+    20
+   ]
+  ]
+ }
+}

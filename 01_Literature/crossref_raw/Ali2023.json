@@ -1,0 +1,931 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    13
+   ]
+  ],
+  "date-time": "2026-10-13T17:44:39Z",
+  "timestamp": 1791913479491,
+  "version": "4.3.4"
+ },
+ "reference-count": 61,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2023-03-01T00:00:00Z",
+    "timestamp": 1677628800000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2023-03-01T00:00:00Z",
+    "timestamp": 1677628800000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2023-03-01T00:00:00Z",
+    "timestamp": 1677628800000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-017"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2023-03-01T00:00:00Z",
+    "timestamp": 1677628800000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-037"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2023-03-01T00:00:00Z",
+    "timestamp": 1677628800000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-012"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2023-03-01T00:00:00Z",
+    "timestamp": 1677628800000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-029"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      3,
+      1
+     ]
+    ],
+    "date-time": "2023-03-01T00:00:00Z",
+    "timestamp": 1677628800000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-004"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Electric Power Systems Research"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2023,
+    3
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.epsr.2022.109064",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2022,
+    12,
+    13
+   ]
+  ],
+  "date-time": "2022-12-13T06:01:09Z",
+  "timestamp": 1670911269000
+ },
+ "page": "109064",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 178,
+ "special_numbering": "C",
+ "title": [
+  "Conventional methods of dissolved gas analysis using oil-immersed power transformer for fault diagnosis: A review"
+ ],
+ "prefix": "10.1016",
+ "volume": "216",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0002-4758-3966",
+   "authenticated-orcid": false,
+   "given": "Mohd Syukri",
+   "family": "Ali",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-8390-0204",
+   "authenticated-orcid": false,
+   "given": "Ab Halim",
+   "family": "Abu Bakar",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Azimah",
+   "family": "Omar",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-1818-2829",
+   "authenticated-orcid": false,
+   "given": "Amirul Syafiq",
+   "family": "Abdul Jaafar",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Siti Hajar",
+   "family": "Mohamed",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "issue": "6",
+   "key": "10.1016/j.epsr.2022.109064_bib0001",
+   "doi-asserted-by": "crossref",
+   "first-page": "21",
+   "DOI": "10.3390/s21062223",
+   "article-title": "Towards precise interpretation of oil transformers via novel combined techniques based on DGA and partial discharge sensors",
+   "volume": "21",
+   "author": "Ward",
+   "year": "2021",
+   "journal-title": "Sensors"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0002",
+   "series-title": "J & P Transformer Book (Thirteenth Editon)",
+   "first-page": "105",
+   "article-title": "4 - Transformer construction",
+   "author": "Heathcote",
+   "year": "2007"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.epsr.2022.109064_bib0003",
+   "doi-asserted-by": "crossref",
+   "first-page": "12",
+   "DOI": "10.3390/act5020012",
+   "article-title": "Piezoelectric transformers: an historical review",
+   "volume": "5",
+   "author": "Vazquez Carazo",
+   "year": "2016",
+   "journal-title": "Actuators"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0004",
+   "doi-asserted-by": "crossref",
+   "first-page": "78324",
+   "DOI": "10.1109/ACCESS.2021.3083593",
+   "article-title": "Adaptive dynamic meta-heuristics for feature selection and classification in diagnostic accuracy of transformer faults",
+   "volume": "9",
+   "author": "Ghoneim",
+   "year": "2021",
+   "journal-title": "Ieee Access"
+  },
+  {
+   "issue": "10",
+   "key": "10.1016/j.epsr.2022.109064_bib0005",
+   "doi-asserted-by": "crossref",
+   "first-page": "17",
+   "DOI": "10.3390/en14102970",
+   "article-title": "Accuracy improvement of transformer faults diagnostic based on DGA data using SVM-BA classifier",
+   "volume": "14",
+   "author": "Benmahamed",
+   "year": "2021",
+   "journal-title": "Energies"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.epsr.2022.109064_bib0006",
+   "doi-asserted-by": "crossref",
+   "first-page": "1589",
+   "DOI": "10.1109/TPWRD.2009.2039149",
+   "article-title": "A permeance-based transformer model and its application to winding interturn arcing fault studies",
+   "volume": "25",
+   "author": "Oliveira",
+   "year": "2010",
+   "journal-title": "Ieee Trans. Power Delivery"
+  },
+  {
+   "issue": "7",
+   "key": "10.1016/j.epsr.2022.109064_bib0007",
+   "doi-asserted-by": "crossref",
+   "first-page": "17",
+   "DOI": "10.1371/journal.pone.0133851",
+   "article-title": "Numerical methods for the analysis of power transformer tank deformation and rupture due to internal arcing faults",
+   "volume": "10",
+   "author": "Yan",
+   "year": "2015",
+   "journal-title": "PLoS ONE"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0008",
+   "series-title": "IEEE Electrical Insulation Conference (EIC), San Antonio, TX, Jun 17-20 2018",
+   "first-page": "150",
+   "article-title": "Dissolved gas analysis (DGA) of arc discharge fault in transformer insulation oils (Ester and Mineral oils)",
+   "author": "Ayalew",
+   "year": "2018"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0009",
+   "series-title": "IEEE 16th International Conference on Environment and Electrical Engineering (EEEIC), Florence, ITALY, Jun 06-10 2016",
+   "article-title": "Modification of duval triangle for diagnostic transformer fault through a procedure of dissolved gases analysis",
+   "author": "Desouky",
+   "year": "2016"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0010",
+   "doi-asserted-by": "crossref",
+   "unstructured": "S. Ghoneim, D. Mansour, I. Bedir, M. Alharthi, and Ieee, \"A decision transformer fault diagnostics system based on dissolved gas analysis,\" in 21st international middle east power systems conference (MEPCON), Cairo, Egypt, Dec 17-19 2019, New York: ieee, in proceedings of the international middle east power systems conference, 2019, pp. 76\u201380.",
+   "DOI": "10.1109/MEPCON47431.2019.9008078"
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.epsr.2022.109064_bib0011",
+   "doi-asserted-by": "crossref",
+   "first-page": "29",
+   "DOI": "10.1109/MEI.2011.6025366",
+   "article-title": "Comparison of dissolved gas-in-oil analysis methods using a dissolved gas-in-oil standard",
+   "volume": "27",
+   "author": "Lelekakis",
+   "year": "2011",
+   "journal-title": "Ieee Electric. Insulation Magazine"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0012",
+   "series-title": "IEEE PES Asia-Pacific Power and Energy Engineering Conference (APPEEC), Bangalore, India, Nov 08-10 2017",
+   "article-title": "Case studies on transformer fault diagnosis using dissolved gas analysis",
+   "author": "Shanker",
+   "year": "2017"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0013",
+   "series-title": "IEEE Conference on Energy Conversion (CENCON), Johor Bahru, Malaysia",
+   "first-page": "363",
+   "article-title": "Comparative study between Dorneneburg and Rogers methods for transformer fault diagnosis based on dissolved gas analysis using matlab simulink tools",
+   "author": "Taha",
+   "year": "2015"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0014",
+   "series-title": "2020 4rd International Conference on Electrical, Telecommunication and Computer Engineering (ELTICOM)",
+   "first-page": "57",
+   "article-title": "Dissolved gas analysis (DGA) for diagnosis of fault in oil-immersed power transformers: a case study",
+   "year": "2020"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0015",
+   "first-page": "10",
+   "article-title": "Power transformer fault severity estimation based on dissolved gas analysis and energy of fault formation technique",
+   "volume": "2019",
+   "author": "Mharakurwa",
+   "year": "2019",
+   "journal-title": "J. Electr. Comput. Eng."
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0016",
+   "series-title": "IEEE-Power-Engineering-Society Conference and Exposition in Africa (PowerAfrica), Johannesburg, South Africa, Jul 09-13 2012",
+   "article-title": "Developing a power transformer low energy degradation assessment triangle",
+   "author": "Moodley",
+   "year": "2012"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0017",
+   "unstructured": "V. Jadoun, K. Chatterjee, and R. Jarial, DGA techniques: recent advancements. 2017."
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0018",
+   "series-title": "IEEE 19th International Conference on Dielectric Liquids (ICDL), Manchester, England, Jun 25-29 2017",
+   "article-title": "Performance evaluation of dissolved gas analysis techniques against measurement errors",
+   "author": "Etman",
+   "year": "2017"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0019",
+   "series-title": "IEEE Lausanne Powertech",
+   "article-title": "Comparative study and analysis of DGA methods for transformer mineral oil",
+   "author": "Muhamad",
+   "year": "2007"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0020",
+   "series-title": "IEEE Region 10 Conference on Analog and Digital Techniques in Electrical Engineering",
+   "article-title": "ANN approach for condition monitoring of power transformers using DGA",
+   "author": "Siva Sarma",
+   "year": "2004"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0021",
+   "series-title": "IEEE International Conference on Condition Monitoring and Diagnosis (CMD)",
+   "first-page": "374",
+   "article-title": "Improving accuracy of DGA interpreation of oil-filled power transformers needed for effective condition monitoring",
+   "author": "Suleiman",
+   "year": "2012"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0022",
+   "doi-asserted-by": "crossref",
+   "first-page": "118031",
+   "DOI": "10.1109/ACCESS.2021.3107332",
+   "article-title": "Enhancing the diagnostic accuracy of DGA techniques based on IEC-TC10 and related databases",
+   "volume": "9",
+   "author": "Gouda",
+   "year": "2021",
+   "journal-title": "Ieee Access"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0023",
+   "doi-asserted-by": "crossref",
+   "first-page": "30817",
+   "DOI": "10.1109/ACCESS.2021.3060288",
+   "article-title": "Enhancing diagnostic accuracy of transformer faults using teaching-learning-based optimization",
+   "volume": "9",
+   "author": "Ghoneim",
+   "year": "2021",
+   "journal-title": "Ieee Access"
+  },
+  {
+   "issue": "15",
+   "key": "10.1016/j.epsr.2022.109064_bib0024",
+   "doi-asserted-by": "crossref",
+   "first-page": "3741",
+   "DOI": "10.1364/OL.44.003741",
+   "article-title": "Immersion photoacoustic spectrometer (iPAS) for arcing fault detection in power transformers",
+   "volume": "44",
+   "author": "Zhou",
+   "year": "2019",
+   "journal-title": "Opt. Lett."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.epsr.2022.109064_bib0025",
+   "doi-asserted-by": "crossref",
+   "first-page": "2922",
+   "DOI": "10.1080/03772063.2020.1732844",
+   "article-title": "An intelligent genetic fuzzy classifier for transformer faults",
+   "volume": "68",
+   "author": "Kukker",
+   "year": "2022",
+   "journal-title": "IETE J. Res."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.epsr.2022.109064_bib0026",
+   "doi-asserted-by": "crossref",
+   "first-page": "360",
+   "DOI": "10.1109/TDEI.2018.006746",
+   "article-title": "An integrated method of ANFIS and Dempster-shafer theory for fault diagnosis of power transformer",
+   "volume": "25",
+   "author": "Kari",
+   "year": "2018",
+   "journal-title": "Ieee Trans. Dielectric. Electric. Insulation"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.epsr.2022.109064_bib0027",
+   "doi-asserted-by": "crossref",
+   "first-page": "1838",
+   "DOI": "10.1109/TDEI.2016.005301",
+   "article-title": "Integrated ANN-based proactive fault diagnostic scheme for power transformers using dissolved gas analysis",
+   "volume": "23",
+   "author": "Ghoneim",
+   "year": "2016",
+   "journal-title": "Ieee Trans. Dielectric. Electric. Insulation"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0028",
+   "doi-asserted-by": "crossref",
+   "first-page": "178",
+   "DOI": "10.1016/j.aei.2019.01.001",
+   "article-title": "BA-PNN-based methods for power transformer fault diagnosis",
+   "volume": "39",
+   "author": "Yang",
+   "year": "2019",
+   "journal-title": "Adv. Eng. Inform."
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0029",
+   "series-title": "Quality Confirmation Tests For Power Transformer Insulation Systems",
+   "author": "Behrooz Vahidi",
+   "year": "2019"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0030",
+   "doi-asserted-by": "crossref",
+   "unstructured": "E. Wannapring, C. Suwanasri, T. Suwanasri, and Ieee, \"Dissolved gas analysis methods for distribution transformers,\" in 13th international conference on electrical engineering/electronics, computer, telecommunications and information technology (ECTI-CON), Chiang Mai, Thailand, Jun 28-Jul 01 2016, New York: ieee, 2016.",
+   "DOI": "10.1109/ECTICon.2016.7561320"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0031",
+   "unstructured": "I.S. Board, \"IEEE guide for the interpretation of gases generated in oil-immersed transformers,\" 1992."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.epsr.2022.109064_bib0032",
+   "doi-asserted-by": "crossref",
+   "first-page": "388",
+   "DOI": "10.1049/iet-smt.2017.0450",
+   "article-title": "Intelligent prediction of transformer faults and severities based on dissolved gas analysis integrated with thermodynamics theory",
+   "volume": "12",
+   "author": "Ghoneim",
+   "year": "2018",
+   "journal-title": "IET Sci. Meas. Technol."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.epsr.2022.109064_bib0033",
+   "first-page": "17",
+   "article-title": "Fuzzy logic approach to dissolved gas analysis for power transformer failure index and fault identification",
+   "volume": "14",
+   "author": "Poonnoy",
+   "year": "2021",
+   "journal-title": "Energies"
+  },
+  {
+   "issue": "11",
+   "key": "10.1016/j.epsr.2022.109064_bib0034",
+   "doi-asserted-by": "crossref",
+   "first-page": "2650",
+   "DOI": "10.1049/iet-gtd.2017.1927",
+   "article-title": "Proposed three ratios technique for the interpretation of mineral oil transformers based dissolved gas analysis",
+   "volume": "12",
+   "author": "Gouda",
+   "year": "2018",
+   "journal-title": "IET Gener. Transm. Distrib."
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.epsr.2022.109064_bib0035",
+   "doi-asserted-by": "crossref",
+   "first-page": "22",
+   "DOI": "10.3390/en14030588",
+   "article-title": "Complementary analysis for DGA based on duval methods and furan compounds using artificial neural networks",
+   "volume": "14",
+   "author": "Aciu",
+   "year": "2021",
+   "journal-title": "Energies"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0036",
+   "doi-asserted-by": "crossref",
+   "unstructured": "S. H and H. Nugroho, Dissolved gas analysis (DGA) for diagnosis of fault in oil-immersed power transformers: a case study. 2020, pp. 57\u201362.",
+   "DOI": "10.1109/ELTICOM50775.2020.9230491"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0037",
+   "first-page": "36",
+   "article-title": "Failure of 150 KV power transformer in indication of dissolved gas analysis test in total dissolved combustile gas (TDCG) method",
+   "volume": "6",
+   "year": "2021",
+   "journal-title": "J. Mech. Eng. Educ."
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0038",
+   "doi-asserted-by": "crossref",
+   "first-page": "81693",
+   "DOI": "10.1109/ACCESS.2021.3086135",
+   "article-title": "Accuracy improvement of power transformer faults diagnostic using KNN classifier with decision tree principle",
+   "volume": "9",
+   "author": "Kherif",
+   "year": "2021",
+   "journal-title": "IEEE ACCESS"
+  },
+  {
+   "issue": "23",
+   "key": "10.1016/j.epsr.2022.109064_bib0039",
+   "doi-asserted-by": "crossref",
+   "first-page": "16",
+   "DOI": "10.3390/en13236459",
+   "article-title": "Diagnostic simplexes for dissolved-gas analysis",
+   "volume": "13",
+   "author": "Dukarm",
+   "year": "2020",
+   "journal-title": "Energies"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.epsr.2022.109064_bib0040",
+   "doi-asserted-by": "crossref",
+   "first-page": "8",
+   "DOI": "10.1109/MEI.2002.1014963",
+   "article-title": "A review of faults detectable by gas-in-oil analysis in transformers",
+   "volume": "18",
+   "author": "Duval",
+   "year": "2002",
+   "journal-title": "Ieee Electric. Insulation Magazine"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0041",
+   "doi-asserted-by": "crossref",
+   "first-page": "22",
+   "DOI": "10.1109/MEI.2008.4665347",
+   "article-title": "The duval triangle for load tap changers, non-mineral oils and low temperature faults in transformers",
+   "volume": "24",
+   "author": "Duval",
+   "year": "2009",
+   "journal-title": "Electric. Insulation Magazine, IEEE"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0042",
+   "doi-asserted-by": "crossref",
+   "unstructured": "N. Pattanadech and W. Wattakapaiboon, Application of duval pentagon compared with other DGA interpretation techniques: case studies for actual transformer inspections including experience from power plants in Thailand. 2019, pp. 1\u20134.",
+   "DOI": "10.1109/ICEAST.2019.8802523"
+  },
+  {
+   "issue": "15",
+   "key": "10.1016/j.epsr.2022.109064_bib0043",
+   "doi-asserted-by": "crossref",
+   "first-page": "9",
+   "DOI": "10.3390/en13153886",
+   "article-title": "Identification of stray gassing of inhibited and uninhibited mineral oils in transformers",
+   "volume": "13",
+   "author": "Duval",
+   "year": "2020",
+   "journal-title": "Energies"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0044",
+   "series-title": "DGA in Non-mineral Oils and Load Tap Changers and Improved DGA Diagnosis Criteria",
+   "year": "2010"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0045",
+   "doi-asserted-by": "crossref",
+   "first-page": "139176",
+   "DOI": "10.1109/ACCESS.2020.3012633",
+   "article-title": "Hybrid grey wolf optimizer for transformer fault diagnosis using dissolved gases considering uncertainty in measurements",
+   "volume": "8",
+   "author": "Hoballah",
+   "year": "2020",
+   "journal-title": "Ieee Access"
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.epsr.2022.109064_bib0046",
+   "doi-asserted-by": "crossref",
+   "first-page": "9",
+   "DOI": "10.1109/MEI.2014.6943428",
+   "article-title": "The duval pentagon-a new complementary tool for the interpretation of dissolved gas analysis in transformers",
+   "volume": "30",
+   "author": "Duval",
+   "year": "2014",
+   "journal-title": "Ieee Electric. Insulation Magazine"
+  },
+  {
+   "issue": "11",
+   "key": "10.1016/j.epsr.2022.109064_bib0047",
+   "doi-asserted-by": "crossref",
+   "first-page": "12",
+   "DOI": "10.3390/en13112859",
+   "article-title": "Combined duval pentagons: a simplified approach",
+   "volume": "13",
+   "author": "Cheim",
+   "year": "2020",
+   "journal-title": "Energies"
+  },
+  {
+   "issue": "11",
+   "key": "10.1016/j.epsr.2022.109064_bib0048",
+   "doi-asserted-by": "crossref",
+   "first-page": "18",
+   "DOI": "10.3390/en12112155",
+   "article-title": "Comparative analysis of the results of diagnostic measurements with an internal inspection of oil-filled power transformers",
+   "volume": "12",
+   "author": "Piotrowski",
+   "year": "2019",
+   "journal-title": "Energies"
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.epsr.2022.109064_bib0049",
+   "doi-asserted-by": "crossref",
+   "first-page": "2507",
+   "DOI": "10.1109/TDEI.2015.004999",
+   "article-title": "Development of a new graphical technique for dissolved gas analysis in power transformers based on the five combustible gases",
+   "volume": "22",
+   "author": "Mansour",
+   "year": "2015",
+   "journal-title": "Ieee Tran. Dielectric. Electric. Insulation"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.epsr.2022.109064_bib0050",
+   "doi-asserted-by": "crossref",
+   "first-page": "490",
+   "DOI": "10.1049/iet-gtd.2017.0826",
+   "article-title": "Proposed heptagon graph for DGA interpretation of oil transformers",
+   "volume": "12",
+   "author": "Gouda",
+   "year": "2018",
+   "journal-title": "IET Generation, Transm. Distribution"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.epsr.2022.109064_bib0051",
+   "doi-asserted-by": "crossref",
+   "first-page": "639",
+   "DOI": "10.1109/TDEI.2016.006042",
+   "article-title": "Low energy degradation triangle for power transformer health assessment",
+   "volume": "24",
+   "author": "Moodley",
+   "year": "2017",
+   "journal-title": "Ieee Trans. Dielectric. Electric. Insulation"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.epsr.2022.109064_bib0052",
+   "doi-asserted-by": "crossref",
+   "first-page": "554",
+   "DOI": "10.1109/TPWRD.2011.2175950",
+   "article-title": "A thermodynamic approach to evaluation of the severity of transformer faults",
+   "volume": "27",
+   "author": "Jakob",
+   "year": "2012",
+   "journal-title": "Ieee Trans. Power Delivery"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.epsr.2022.109064_bib0053",
+   "doi-asserted-by": "crossref",
+   "first-page": "39",
+   "DOI": "10.1109/MEI.2014.6804740",
+   "article-title": "A review of dissolved gas analysis measurement and interpretation techniques",
+   "volume": "30",
+   "author": "Abu Bakar",
+   "year": "2014",
+   "journal-title": "Ieee Electric. Insulation Magazine"
+  },
+  {
+   "issue": "21",
+   "key": "10.1016/j.epsr.2022.109064_bib0054",
+   "doi-asserted-by": "crossref",
+   "first-page": "3032",
+   "DOI": "10.1049/gtd2.12239",
+   "article-title": "Interpreting dissolved gases in transformer oil: a new method based on the analysis of labelled fault data",
+   "volume": "15",
+   "author": "Nanfak",
+   "year": "2021",
+   "journal-title": "IET Gener. Transm. Distrib"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0055",
+   "doi-asserted-by": "crossref",
+   "unstructured": "H.C. Sun, Y.C. Huang, and C.M. Huang, \"A review of dissolved gas analysis in power transformers,\" in 2nd international conference on advances in energy engineering (ICAEE), Bangkok, Thailand, Dec 27-28 2011, vol. 14, Amsterdam: elsevier Science Bv, in Energy Procedia, 2012, pp. 1220-1225, doi: 10.1016/j.egypro.2011.12.1079.",
+   "DOI": "10.1016/j.egypro.2011.12.1079"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0056",
+   "doi-asserted-by": "crossref",
+   "unstructured": "N. Chattranont, S. Woothipatanapan, and N. Rugthaicharoencheep, Case study on power transformer using dissolved gas analysis technique. 2020, pp. 165\u2013168.",
+   "DOI": "10.1109/ICPEI49860.2020.9431480"
+  },
+  {
+   "issue": "10",
+   "key": "10.1016/j.epsr.2022.109064_bib0057",
+   "first-page": "11",
+   "article-title": "Application of logistic regression algorithm in the interpretation of dissolved gas analysis for power transformers",
+   "volume": "10",
+   "author": "Almoallem",
+   "year": "2021",
+   "journal-title": "Electronics (Basel)"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0058",
+   "article-title": "A novel association rule mining with IEC ratio based dissolved gas analysis for fault diagnosis of power transformers",
+   "volume": "2",
+   "author": "Shrivastava",
+   "year": "2012",
+   "journal-title": "Int. J. Adv. Comput. Res."
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0059",
+   "series-title": "2007 IEEE Lausanne Power Tech",
+   "first-page": "45",
+   "article-title": "Comparative study and analysis of DGA methods for transformer mineral oil",
+   "author": "Muhamad",
+   "year": "2007"
+  },
+  {
+   "issue": "12",
+   "key": "10.1016/j.epsr.2022.109064_bib0060",
+   "doi-asserted-by": "crossref",
+   "first-page": "2299",
+   "DOI": "10.1049/iet-gtd.2018.6168",
+   "article-title": "Condition assessment of power transformers based on dissolved gas analysis",
+   "volume": "13",
+   "author": "Gouda",
+   "year": "2019",
+   "journal-title": "IET Generation, Transm. Distribution"
+  },
+  {
+   "key": "10.1016/j.epsr.2022.109064_bib0061",
+   "series-title": "2016 IEEE/PES Transmission and Distribution Conference and Exposition (T&D)",
+   "first-page": "1",
+   "article-title": "Understanding dissolved gas analysis (DGA) techniques and interpretations",
+   "author": "Golarz",
+   "year": "2016"
+  }
+ ],
+ "container-title": [
+  "Electric Power Systems Research"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0378779622011130?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S0378779622011130?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    8
+   ]
+  ],
+  "date-time": "2025-10-08T15:49:12Z",
+  "timestamp": 1759938552000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0378779622011130"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2023,
+    3
+   ]
+  ]
+ },
+ "references-count": 61,
+ "alternative-id": [
+  "S0378779622011130"
+ ],
+ "URL": "https://doi.org/10.1016/j.epsr.2022.109064",
+ "relation": {},
+ "ISSN": [
+  "0378-7796"
+ ],
+ "issn-type": [
+  {
+   "value": "0378-7796",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2023,
+    3
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "Conventional methods of dissolved gas analysis using oil-immersed power transformer for fault diagnosis: A review",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Electric Power Systems Research",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.epsr.2022.109064",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "\u00a9 2022 Elsevier B.V. All rights reserved.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "109064"
+}

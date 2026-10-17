@@ -1,0 +1,436 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    14
+   ]
+  ],
+  "date-time": "2026-09-14T22:25:38Z",
+  "timestamp": 1789424738116,
+  "version": "build-2803163510"
+ },
+ "reference-count": 27,
+ "publisher": "MDPI AG",
+ "issue": "13",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      6,
+      23
+     ]
+    ],
+    "date-time": "2026-06-23T00:00:00Z",
+    "timestamp": 1782172800000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Energies"
+ ],
+ "abstract": "<jats:p>Reliable diagnosis of incipient transformer faults is essential for preventing catastrophic failures and enabling predictive asset management in power systems. Although dissolved gas analysis (DGA) is the most established diagnostic tool for assessing transformer internal condition, fault discrimination remains difficult when gas features are highly correlated, redundant, and only partially separable across fault classes. This study presents a PCA-enhanced artificial neural network (ANN) framework for multiclass transformer fault diagnosis using DGA data. The method is developed on 595 samples classified into six IEC 60599 fault categories and uses a 15-feature representation comprising raw gas concentrations, total hydrocarbon content, and engineered gas-ratio descriptors. To identify an evidence-based diagnostic representation, principal component analysis (PCA) was evaluated across all dimensionalities from k = 1 to 15 before ANN training. The proposed model was benchmarked against alternative feature sets and conventional classifiers, including Gaussian Na\u00efve Bayes, k-nearest neighbours, support vector machines, and ANN without PCA. The best-performing configuration was obtained at k = 13, yielding a test accuracy of 68.1%, compared with 63.9% for ANN without PCA, 56.3% for raw-gas-only ANN, and 33.6% for the IEC three-ratio feature configuration. In addition to improving diagnostic performance, the PCA stage revealed interpretable component structures associated with dominant gas and ratio patterns underlying fault separation. The results indicate that PCA-based feature extraction improves ANN generalization by reducing redundancy and multicollinearity in DGA-derived variables, and provides a practical, lightweight, and interpretable framework for transformer fault diagnosis.</jats:p>",
+ "DOI": "10.3390/en19132947",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    6,
+    23
+   ]
+  ],
+  "date-time": "2026-06-23T18:35:05Z",
+  "timestamp": 1782239705000
+ },
+ "page": "2947",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 2,
+ "title": [
+  "Power Transformer Fault Classification from Dissolved Gas Analysis Using Principal Component Analysis and Artificial Neural Networks"
+ ],
+ "prefix": "10.3390",
+ "volume": "19",
+ "author": [
+  {
+   "given": "Mwamba S.",
+   "family": "Nkwambe",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Department of Electrical and Electronic Engineering Technology, University of Johannesburg, Johannesburg 2092, South Africa"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-3635-0988",
+   "authenticated-orcid": false,
+   "given": "Bonginkosi A.",
+   "family": "Thango",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical and Electronic Engineering Technology, University of Johannesburg, Johannesburg 2092, South Africa"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2026,
+    6,
+    23
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Lai, J., Weng, D., Xian, F., Xie, Y., Chen, Y., Zhou, Q., and Yuan, C. (2026). A Hybrid Optimization Model for Transformer Fault Diagnosis Based on Gas Classification. Digital, 6.",
+   "DOI": "10.3390/digital6010024"
+  },
+  {
+   "key": "ref_2",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Laayati, O., El Hadraoui, H., El Magharaoui, A., El-Bazi, N., Bouzi, M., Chebak, A., and Guerrero, J.M. (2022). An AI-Layered with MultiAgent Systems Architecture for Prognostics Health Management of Smart Transformers: A Novel Approach for Smart Grid-Ready Energy Management Systems. Energies, 15.",
+   "DOI": "10.3390/en15197217"
+  },
+  {
+   "key": "ref_3",
+   "doi-asserted-by": "crossref",
+   "first-page": "111347",
+   "DOI": "10.1016/j.rser.2021.111347",
+   "article-title": "Advances in DGA based condition monitoring of transformers: A review",
+   "volume": "149",
+   "author": "Wani",
+   "year": "2021",
+   "journal-title": "Renew. Sustain. Energy Rev."
+  },
+  {
+   "key": "ref_4",
+   "doi-asserted-by": "crossref",
+   "first-page": "104684",
+   "DOI": "10.1016/j.engfailanal.2020.104684",
+   "article-title": "Root cause analysis improved with machine learning for failure analysis in power transformers",
+   "volume": "115",
+   "author": "Lara",
+   "year": "2020",
+   "journal-title": "Eng. Fail. Anal."
+  },
+  {
+   "key": "ref_5",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Gifalli, A., Neto, A.B., de Souza, A.N., de Mello, R.P., Ikeshoji, M.A., Garbelini, E., and Neto, F.T. (2024). Fault Detection and Normal Operating Condition in Power Transformers via Pattern Recognition Artificial Neural Network. Appl. Syst. Innov., 7.",
+   "DOI": "10.3390/asi7030041"
+  },
+  {
+   "key": "ref_6",
+   "first-page": "3324",
+   "article-title": "New Feature Selection Method for Transformer Fault Diagnosis Based on DGA Data",
+   "volume": "45",
+   "author": "Zhang",
+   "year": "2021",
+   "journal-title": "Power Syst. Technol."
+  },
+  {
+   "key": "ref_7",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Said, M., Anwar, T., El-Rifaie, A.M., Ismaeel, A.A.K., Elaziz, E.M.A., Accouche, O., and Ibrahim, K.H. (2026). Performance of a Newly Developed Hybrid APO\u2013PSO Metaheuristic for Monitoring of Intelligent Transformer. Machines, 14.",
+   "DOI": "10.3390/machines14020185"
+  },
+  {
+   "key": "ref_8",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cui, F., Nie, M., Chen, T., and Xu, M. (2025). Highly Sensitive Online Detection of Acetylene in Transformer Oil Using Photoacoustic Spectroscopy. Electronics, 14.",
+   "DOI": "10.3390/electronics14244907"
+  },
+  {
+   "key": "ref_9",
+   "doi-asserted-by": "crossref",
+   "first-page": "290",
+   "DOI": "10.63125/sxb17553",
+   "article-title": "Ai and Machine Learning in Transformer Fault Diagnosis: A Systematic Review",
+   "volume": "1",
+   "author": "Khan",
+   "year": "2025",
+   "journal-title": "Am. J. Adv. Technol. Eng. Solut."
+  },
+  {
+   "key": "ref_10",
+   "doi-asserted-by": "crossref",
+   "first-page": "109038",
+   "DOI": "10.1016/j.ijepes.2023.109038",
+   "article-title": "Improvement of power transformer fault diagnosis by using sequential Kalman filter sensor fusion",
+   "volume": "149",
+   "author": "Demirci",
+   "year": "2022",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "key": "ref_11",
+   "first-page": "66",
+   "article-title": "An Artificial Intelligence-Based Novel Strategy for Fault Prognostics in Transformers",
+   "volume": "12",
+   "author": "Solanki",
+   "year": "2025",
+   "journal-title": "Int. J. Electr. Electron. Eng."
+  },
+  {
+   "key": "ref_12",
+   "doi-asserted-by": "crossref",
+   "first-page": "2828",
+   "DOI": "10.1109/TDEI.2017.006727",
+   "article-title": "Dissolved gas analysis of insulating oil for power transformer fault diagnosis with deep belief network",
+   "volume": "24",
+   "author": "Dai",
+   "year": "2017",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_13",
+   "doi-asserted-by": "crossref",
+   "first-page": "e70014",
+   "DOI": "10.1049/smt2.70014",
+   "article-title": "Frequency Response Analysis-Based Transformer Condition Monitoring Supported by Artificial Intelligence\u2014A Review",
+   "volume": "19",
+   "author": "Faiz",
+   "year": "2025",
+   "journal-title": "IET Sci. Meas. Technol."
+  },
+  {
+   "key": "ref_14",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Al-Sakini, S.R., Bilal, G.A., Sadiq, A.T., and Al-Maliki, W.A.K. (2025). Dissolved Gas Analysis for Fault Prediction in Power Transformers Using Machine Learning Techniques. Appl. Sci., 15.",
+   "DOI": "10.3390/app15010118"
+  },
+  {
+   "key": "ref_15",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Du, Y., Wang, Z., Feng, G., Rao, S., Zou, G., and Yang, S. (2022). A Methodology to Diagnose Transformer Faults Based on Principal Components Analysis and Artificial Neural Network. Proceedings of the 2022 IEEE 6th Conference on Energy Internet and Energy System Integration (EI2), Chengdu, China, 11\u201313 November 2022, IEEE.",
+   "DOI": "10.1109/EI256261.2022.10117337"
+  },
+  {
+   "key": "ref_16",
+   "doi-asserted-by": "crossref",
+   "first-page": "31",
+   "DOI": "10.1109/57.917529",
+   "article-title": "Interpretation of gas-in-oil analysis using new IEC publication 60599 and IEC TC 10 databases",
+   "volume": "17",
+   "author": "Duval",
+   "year": "2001",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Aciu, A.-M., Nicola, C.-I., Nicola, M., and Ni\u021bu, M.-C. (2021). Complementary Analysis for DGA Based on Duval Methods and Furan Compounds Using Artificial Neural Networks. Energies, 14.",
+   "DOI": "10.3390/en14030588"
+  },
+  {
+   "key": "ref_18",
+   "doi-asserted-by": "crossref",
+   "first-page": "5672",
+   "DOI": "10.1049/iet-gtd.2018.5482",
+   "article-title": "Hybrid feature selection approach for power transformer fault diagnosis based on support vector machine and genetic algorithm",
+   "volume": "12",
+   "author": "Kari",
+   "year": "2018",
+   "journal-title": "IET Gener. Transm. Distrib."
+  },
+  {
+   "key": "ref_19",
+   "doi-asserted-by": "crossref",
+   "first-page": "1198",
+   "DOI": "10.1109/TDEI.2015.005277",
+   "article-title": "Optimal Dissolved Gas Ratios Selected by Genetic Algorithm for Power Transformer Fault Diagnosis Based on Support Vector Machine",
+   "volume": "23",
+   "author": "Li",
+   "year": "2016",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "first-page": "433",
+   "DOI": "10.1002/wics.101",
+   "article-title": "Principal component analysis",
+   "volume": "2",
+   "author": "Abdi",
+   "year": "2010",
+   "journal-title": "Wiley Interdiscip. Rev. Comput. Stat."
+  },
+  {
+   "key": "ref_21",
+   "unstructured": "Shlens, J. (2014). A tutorial on principal component analysis. arXiv."
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "first-page": "65",
+   "DOI": "10.1080/19393555.2024.2408256",
+   "article-title": "Enhanced Intrusion Detection Framework for Securing IoT Network Using Principal Component Analysis and CNN",
+   "volume": "35",
+   "author": "Mazid",
+   "year": "2026",
+   "journal-title": "Inf. Secur. J. Glob. Perspect."
+  },
+  {
+   "key": "ref_23",
+   "doi-asserted-by": "crossref",
+   "first-page": "012001",
+   "DOI": "10.1088/1742-6596/2299/1/012001",
+   "article-title": "Artificial intelligence for predictive maintenance",
+   "volume": "2299",
+   "author": "Kamel",
+   "year": "2022",
+   "journal-title": "J. Phys. Conf. Ser."
+  },
+  {
+   "key": "ref_24",
+   "doi-asserted-by": "crossref",
+   "first-page": "1863",
+   "DOI": "10.1007/s00521-014-1677-y",
+   "article-title": "Artificial neural network approaches for fault classification: Comparison and performance",
+   "volume": "25",
+   "author": "Nagpal",
+   "year": "2014",
+   "journal-title": "Neural Comput. Appl."
+  },
+  {
+   "key": "ref_25",
+   "doi-asserted-by": "crossref",
+   "first-page": "021501",
+   "DOI": "10.1063/5.0186054",
+   "article-title": "Brain-Inspired Learning in Artificial Neural Networks: A Review",
+   "volume": "2",
+   "author": "Schmidgall",
+   "year": "2024",
+   "journal-title": "APL Mach. Learn."
+  },
+  {
+   "key": "ref_26",
+   "doi-asserted-by": "crossref",
+   "first-page": "129002",
+   "DOI": "10.1016/j.eswa.2025.129002",
+   "article-title": "An improvement by introducing LBFGS idea into the Adam optimizer for machine learning",
+   "volume": "296",
+   "author": "Zhang",
+   "year": "2026",
+   "journal-title": "Expert Syst. Appl."
+  },
+  {
+   "key": "ref_27",
+   "doi-asserted-by": "crossref",
+   "first-page": "371",
+   "DOI": "10.1021/acsmaterialslett.5c01179",
+   "article-title": "Semiconductor Gas-Sensing Materials for Dissolved Gas Analysis in Transformer Oil: Advances, Challenges, and Future Perspectives in Material Design and Optimization",
+   "volume": "8",
+   "author": "Wu",
+   "year": "2026",
+   "journal-title": "ACS Mater. Lett."
+  }
+ ],
+ "container-title": [
+  "Energies"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/1996-1073/19/13/2947/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    6,
+    23
+   ]
+  ],
+  "date-time": "2026-06-23T18:42:36Z",
+  "timestamp": 1782240156000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/1996-1073/19/13/2947"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    6,
+    23
+   ]
+  ]
+ },
+ "references-count": 27,
+ "journal-issue": {
+  "issue": "13",
+  "published-online": {
+   "date-parts": [
+    [
+     2026,
+     7
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "en19132947"
+ ],
+ "URL": "https://doi.org/10.3390/en19132947",
+ "relation": {},
+ "ISSN": [
+  "1996-1073"
+ ],
+ "issn-type": [
+  {
+   "value": "1996-1073",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    6,
+    23
+   ]
+  ]
+ }
+}

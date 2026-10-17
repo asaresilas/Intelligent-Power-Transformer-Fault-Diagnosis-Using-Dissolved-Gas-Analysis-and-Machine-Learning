@@ -1,0 +1,44 @@
+{
+ "request": {
+  "record_id": "example",
+  "H2": 200.0,
+  "CH4": 300.0,
+  "C2H6": 80.0,
+  "C2H4": 450.0,
+  "C2H2": 2.0
+ },
+ "answer": {
+  "record_id": "example",
+  "fault_class": "T3",
+  "probabilities": {
+   "Normal": 0.0,
+   "PD": 0.002,
+   "D1": 0.0,
+   "D2": 0.0,
+   "T1": 0.014,
+   "T2": 0.098,
+   "T3": 0.886
+  },
+  "confidence": 0.886,
+  "model_name": "dga_model_v1",
+  "model_version": "1.0",
+  "model_sha256": "1C46D10391429385D7A35DDD7C6B8AC560C7285980752AB938A1FA42B7809523",
+  "data_version": "1.0",
+  "notes": []
+ },
+ "refused_example": {
+  "request_change": "H2 = -5",
+  "status": 422,
+  "detail": [
+   {
+    "loc": [
+     "body",
+     "H2"
+    ],
+    "msg": "Input should be greater than or equal to 0",
+    "type": "greater_than_equal",
+    "input": -5.0
+   }
+  ]
+ }
+}

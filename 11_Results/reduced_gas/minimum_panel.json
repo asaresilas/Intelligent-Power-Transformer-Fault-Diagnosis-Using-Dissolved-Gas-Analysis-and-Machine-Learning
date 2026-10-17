@@ -1,0 +1,25 @@
+{
+ "delta": 0.05,
+ "B": 2000,
+ "seed": 20261010,
+ "n_records": 439,
+ "minimum_panel": {
+  "n_gases": 4,
+  "subset": "H2+C2H6+C2H4+C2H2",
+  "all_qualifying_of_that_size": [
+   "H2+C2H6+C2H4+C2H2"
+  ]
+ },
+ "qualifying_subsets_bootstrap": [
+  "H2+C2H6+C2H4+C2H2"
+ ],
+ "minimum_panel_t_sensitivity": "H2+C2H6+C2H4+C2H2",
+ "qualifying_subsets_t": [
+  "H2+C2H6+C2H4+C2H2"
+ ],
+ "full_macro_f1": 0.8510381858904568,
+ "full_macro_f1_ci": [
+  0.8194335893582319,
+  0.8811116872194921
+ ]
+}

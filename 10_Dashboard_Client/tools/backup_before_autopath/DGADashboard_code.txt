@@ -1,0 +1,160 @@
+%% DGADashboard_code.txt - the hand-written code of DGADashboard.mlapp (roadmap Steps 39 and 40, decisions D37 and D38).
+%% build_dashboard_mlapp.m reads this file and puts every section into the app. Section lines start with "%%@".
+%% Callbacks follow MATLAB_Build_Guide Part C (C4.1 to C4.5); additions are marked (D37) or (D38).
+%%@ PUBLIC_PROPERTIES
+    properties (Access = public)
+        DGAFile        % full path of the measured DGA file
+        ServiceURL     % address of the FastAPI service (D37)
+        LastResult     % struct of the last diagnosis: record_id, gas, conventional, ml, agreement (D37)
+        SimEvents      % table of the sampling events of the last simulation: time_h, record_index, record_id (D38)
+        EventResults   % struct array, one element per sampling event diagnosed in the last run (D38)
+        PlaybackPause = 0.5  % pause between sampling events in the playback, s (0 in tests) (D38)
+    end
+%%@ PRIVATE_PROPERTIES
+    properties (Access = private)
+        SimResult   % struct returned by run_transformer_simulation
+        Gas         % struct with H2, CH4, C2H6, C2H4, C2H2 of the current record
+        Info        % table row of the current record (traceability)
+    end
+%%@ PRIVATE_METHODS
+    methods (Access = private)
+
+        % Lamp and text of the agreement flag (Build Guide C4.5; rule in dga_agreement.m, D37)
+        function updateAgreement(app, a)
+            app.AgreementLamp.Color = a.color;
+            app.AgreementLabel.Text = a.label;
+        end
+
+        % Diagnose one row of the loaded DGA file: the one code path of the Diagnose button and of the sampling events (D38)
+        function ok = diagnoseRow(app, row)
+            ok = false;
+            try
+                [app.Gas, app.Info] = load_dga_record(app.DGAFile, row);
+            catch ME
+                app.StatusLabel.Text = ['Cannot read the record: ' ME.message];
+                return
+            end
+            g = app.Gas;
+            app.StatusLabel.Text = 'Diagnosing...'; drawnow;
+            d = conventional_diagnosis(g);                 % three conventional diagnoses, computed here in MATLAB
+            m = ml_diagnose(g, app.ServiceURL);            % ML diagnosis from the FastAPI service (webwrite)
+            a = dga_agreement(d, m);
+            app.GasTable.Data = table(["H2"; "CH4"; "C2H6"; "C2H4"; "C2H2"], ...
+                [g.H2; g.CH4; g.C2H6; g.C2H4; g.C2H2], 'VariableNames', {'Gas', 'ppm'});
+            mlText = m.status;
+            if m.status == "OK", mlText = m.fault_class; end
+            yesno = repmat("-", 3, 1);
+            if m.status == "OK", yesno(a.agrees) = "yes"; yesno(~a.agrees) = "no"; end
+            app.ResultsTable.Data = table(["Rogers Ratio"; "IEC 60599 ratio"; "Duval Triangle 1"; "Machine learning"], ...
+                [string(d.rogers); string(d.iec); string(d.duval); mlText], [yesno; "-"], ...
+                'VariableNames', {'Method', 'Diagnosis', 'Agrees with ML'});
+            if m.status == "OK"
+                app.ProbabilityTable.Data = table(m.classes(:), m.probabilities(:), 'VariableNames', {'Class', 'Probability'});
+                app.ModelLabel.Text = sprintf('ML: %s v%s (hash %s), confidence %.3f, %.0f ms', ...
+                    m.model_name, m.model_version, extractBefore(m.model_sha256, 9), m.confidence, 1000 * m.latency_s);
+            else
+                app.ProbabilityTable.Data = table(strings(0, 1), zeros(0, 1), 'VariableNames', {'Class', 'Probability'});
+                app.ModelLabel.Text = ['ML: ' char(m.status)];
+            end
+            root = fileparts(fileparts(which('conventional_diagnosis')));
+            try
+                plot_duval_triangle(app.UIAxesDuval, d.ratios, fullfile(root, '02_Standards', 'duval_triangle_zones.csv'));
+            catch ME
+                cla(app.UIAxesDuval);
+                app.StatusLabel.Text = ['Duval Triangle not drawn: ' ME.message];
+            end
+            app.updateAgreement(a);
+            rid = ""; if isfield(g, 'record_id'), rid = g.record_id; end
+            app.LastResult = struct('record_id', rid, 'gas', g, 'conventional', d, 'ml', m, 'agreement', a);
+            if startsWith(app.StatusLabel.Text, 'Diagnosing')
+                app.StatusLabel.Text = sprintf('Record %d %s diagnosed.', row, char(rid));
+            end
+            ok = true;
+        end
+
+        % Play the sampling events of the last simulation back in time order and diagnose the record of each (D38)
+        function playEvents(app, baseText)
+            ev = app.SimEvents;  r = app.SimResult;
+            app.EventResults = struct('event', {}, 'time_h', {}, 'record_id', {}, 'row', {}, 'hot_spot_C', {}, 'result', {});
+            app.EventTable.Data = table(zeros(0, 1), zeros(0, 1), strings(0, 1), strings(0, 1), strings(0, 1), zeros(0, 1), ...
+                'VariableNames', {'Event', 'Time (h)', 'Record', 'ML', 'Agree (of 3)', 'Hot-spot (°C)'});
+            if isempty(ev)
+                app.StatusLabel.Text = [baseText ' No sampling events in this run.'];
+                return
+            end
+            if isempty(app.DGAFile)
+                root = fileparts(fileparts(which('conventional_diagnosis')));
+                app.DGAFile = fullfile(root, '03_Data', 'processed', 'dga_master.csv');
+                baseText = [baseText ' (No DGA file loaded: using dga_master.csv.)'];
+            end
+            nrec = height(readtable(app.DGAFile));
+            app.RecordSpinner.Limits = [1 nrec];
+            tbl = app.EventTable.Data;  nok = 0;
+            for k = 1:height(ev)
+                row = find_dga_row(app.DGAFile, ev.record_id(k));
+                if isnan(row)
+                    app.StatusLabel.Text = sprintf('Event %d: record %s is not in the DGA file.', k, char(ev.record_id(k)));
+                    continue
+                end
+                app.RecordSpinner.Value = row;
+                app.StatusLabel.Text = sprintf('Sampling event %d at %.1f h: diagnosing %s...', k, ev.time_h(k), char(ev.record_id(k))); drawnow;
+                if ~app.diagnoseRow(row), continue, end
+                R = app.LastResult;  hs = interp1(r.t_h, r.theta_hs_C, ev.time_h(k));
+                mlText = R.ml.status;  agr = "-";
+                if R.ml.status == "OK", mlText = R.ml.fault_class; agr = string(R.agreement.count); end
+                tbl(end + 1, :) = {k, ev.time_h(k), ev.record_id(k), mlText, agr, hs}; %#ok<AGROW>
+                app.EventTable.Data = tbl;
+                app.EventResults(end + 1) = struct('event', k, 'time_h', ev.time_h(k), 'record_id', ev.record_id(k), 'row', row, 'hot_spot_C', hs, 'result', R);
+                nok = nok + 1;
+                pause(app.PlaybackPause);
+            end
+            app.StatusLabel.Text = sprintf('%s %d of %d sampling events diagnosed.', baseText, nok, height(ev));
+        end
+    end
+%%@ STARTUP
+% Parameters of the transformer model into the base workspace (Build Guide C4.1)
+evalin('base', 'params_transformer;');
+app.ServiceURL = 'http://127.0.0.1:8000/diagnose';
+app.StatusLabel.Text = 'Ready. Run the simulation or load a DGA file.';
+app.AgreementLamp.Color = [0.6 0.6 0.6];
+%%@ CALLBACK RunSimulationButtonPushed Button pushed function: RunSimulationButton
+app.StatusLabel.Text = 'Simulating transformer operation...'; drawnow;
+try
+    app.SimResult = run_transformer_simulation();   % sim of Transformer_Operating_Model; also returns the sampling events (D38)
+catch ME
+    app.StatusLabel.Text = ['Simulation failed: ' ME.message];
+    return
+end
+r = app.SimResult;
+delete(findall(app.UIAxesTemperature, 'Type', 'constantline'));   % event lines of an earlier run (hidden handles are not cleared by plot)
+plot(app.UIAxesTemperature, r.t_h, r.theta_oil_C, 'b', r.t_h, r.theta_hs_C, 'r', 'LineWidth', 1.3);
+xlabel(app.UIAxesTemperature, 'Time (h)'); ylabel(app.UIAxesTemperature, 'Temperature (\circC)');
+legend(app.UIAxesTemperature, 'Top-oil', 'Hot-spot', 'Location', 'southeast');
+grid(app.UIAxesTemperature, 'on');
+app.SimEvents = r.events;
+for k = 1:height(r.events)          % sampling events of SS8, numbered in time order
+    xline(app.UIAxesTemperature, r.events.time_h(k), ':', char("#" + k), 'HandleVisibility', 'off');
+end
+baseText = sprintf('Simulation done. Final hot-spot %.1f °C, ageing %.1f h. (Operating context only.)', ...
+    r.theta_hs_C(end), r.loss_of_life_h);
+app.StatusLabel.Text = baseText; drawnow;
+app.playEvents(baseText);
+%%@ CALLBACK LoadDGAFileButtonPushed Button pushed function: LoadDGAFileButton
+root = fileparts(fileparts(which('conventional_diagnosis')));
+[f, p] = uigetfile({'*.csv;*.xlsx', 'DGA files'}, 'Select measured DGA file', fullfile(root, '03_Data', 'processed'));
+if isequal(f, 0), return, end
+try
+    n = height(readtable(fullfile(p, f)));
+catch ME
+    app.StatusLabel.Text = ['Cannot read the file: ' ME.message];
+    return
+end
+app.DGAFile = fullfile(p, f);
+app.RecordSpinner.Limits = [1 n];
+app.RecordSpinner.Value = 1;
+app.StatusLabel.Text = sprintf('Loaded %s (%d records).', f, n);
+%%@ CALLBACK DiagnoseButtonPushed Button pushed function: DiagnoseButton
+if isempty(app.DGAFile)
+    app.StatusLabel.Text = 'Load a DGA file first.'; return
+end
+app.diagnoseRow(app.RecordSpinner.Value);

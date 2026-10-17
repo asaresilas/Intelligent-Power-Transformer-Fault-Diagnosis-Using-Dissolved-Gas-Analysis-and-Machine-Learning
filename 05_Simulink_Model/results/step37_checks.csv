@@ -1,0 +1,11 @@
+check,passed,detail
+"SS8 has an annotation and a Description, and no input or output port (no connection to SS1-SS7)",1,"2 annotations; ports in/out = 0/0"
+"every block of SS8 is a clock, constant, comparison, counting, logic or logging block",1,"13 blocks; kinds: Clock, Compare To Constant, Constant, DataTypeConversion, Logic, MinMax, Product, RelationalOperator, Sum, ToWorkspace; not allowed: none"
+"no block name or dialog value in the model refers to a gas or a concentration",1,"98 blocks scanned; hits: none"
+"the logged signals are exactly K_pu, theta_oil_C, theta_hs_C, ageing_rate_V, record_index, sampling_event",1,"K_pu, ageing_rate_V, record_index, sampling_event, theta_hs_C, theta_oil_C"
+"params_transformer.m reads only the columns record_id and data_role and defines no gas variable",1,"gas names in code lines: 0; column limit present: 1; gas-named variables: 0; heldout_record_ids string 388x1"
+"record_index is 0 before the first sampling time and k from the k-th (step within 1e-6 s)",1,"1459 logged points; wrong values 0; largest timing error 6.98e-10 s"
+"sampling_event is 1 only inside [t_k, t_k + t_event_s) and one pulse per sampling time",1,"mismatching points 0; pulses 4 (expected 4); points inside pulses 11"
+"the record_ids are the first held-out ids, unique, and exist in dga_master.csv with a role other than development",1,"IECTC10_0001, IECTC10_0002, IECTC10_0003, IECTC10_0004; roles benchmark"
+"Step 36 scenarios: same signals as the saved results on common time points (0.01 K; K 1e-4; V 0.12 %)",1,"rated: 296 common points of 1441; oil 0.0021 K, hot-spot 0.0021 K, K 6.7e-16, V 2.40e-04 | daily: 295 common points of 4322; oil 0.0009 K, hot-spot 0.0009 K, K 1.7e-16, V 1.02e-04 | overload: 296 common points of 1475; oil 0.0015 K, hot-spot 0.0015 K, K 4.4e-16, V 1.78e-04"
+"the nine checks of verify_step33.m pass on the model with SS8",1,"9 of 9 pass"

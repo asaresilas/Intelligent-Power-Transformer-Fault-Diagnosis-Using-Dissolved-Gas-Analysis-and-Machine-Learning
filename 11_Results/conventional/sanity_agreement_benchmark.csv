@@ -1,0 +1,4 @@
+method,n_scored,n_correct,share_correct,n_ND,n_DT,n_dual
+IEC60599,117,81,0.692307692307692,27,0,27
+Rogers,117,55,0.47008547008547,47,0,0
+Duval,117,103,0.88034188034188,0,1,0

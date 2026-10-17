@@ -1,0 +1,545 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    12
+   ]
+  ],
+  "date-time": "2026-10-12T00:30:13Z",
+  "timestamp": 1791765013444,
+  "version": "4.3.4"
+ },
+ "reference-count": 39,
+ "publisher": "Elsevier BV",
+ "issue": "5-6",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2004,
+      12,
+      1
+     ]
+    ],
+    "date-time": "2004-12-01T00:00:00Z",
+    "timestamp": 1101859200000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Computational Biology and Chemistry"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2004,
+    12
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.compbiolchem.2004.09.006",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2004,
+    12,
+    16
+   ]
+  ],
+  "date-time": "2004-12-16T01:41:18Z",
+  "timestamp": 1103161278000
+ },
+ "page": "367-374",
+ "source": "Crossref",
+ "is-referenced-by-count": 489,
+ "title": [
+  "Comparing two K-category assignments by a K-category correlation coefficient"
+ ],
+ "prefix": "10.1016",
+ "volume": "28",
+ "author": [
+  {
+   "given": "J.",
+   "family": "Gorodkin",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib1",
+   "doi-asserted-by": "crossref",
+   "first-page": "412",
+   "DOI": "10.1093/bioinformatics/16.5.412",
+   "article-title": "Assessing the accuracy of prediction algorithms for classification: an overview",
+   "volume": "15",
+   "author": "Baldi",
+   "year": "2000",
+   "journal-title": "Bioinformatics"
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib2",
+   "doi-asserted-by": "crossref",
+   "first-page": "23",
+   "DOI": "10.1093/nar/gkg057",
+   "article-title": "Genbank",
+   "volume": "31",
+   "author": "Benson",
+   "year": "2003",
+   "journal-title": "Nucleic Acids Res."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib3",
+   "doi-asserted-by": "crossref",
+   "first-page": "535",
+   "DOI": "10.1016/S0022-2836(77)80200-3",
+   "article-title": "The protein data bank: a computer based archival file for macromolecular structures",
+   "volume": "122",
+   "author": "Bernstein",
+   "year": "1977",
+   "journal-title": "J. Mol. Biol."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib4",
+   "doi-asserted-by": "crossref",
+   "first-page": "346",
+   "DOI": "10.1016/S0959-440X(98)80069-9",
+   "article-title": "Finding the genes in genomic DNA",
+   "volume": "8",
+   "author": "Burge",
+   "year": "1998",
+   "journal-title": "Curr. Opin. Struct. Biol."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib5",
+   "doi-asserted-by": "crossref",
+   "first-page": "508",
+   "DOI": "10.1002/(SICI)1097-0134(19990301)34:4<508::AID-PROT10>3.0.CO;2-4",
+   "article-title": "Evaluation and improvement of multiple sequence methods for protein secondary structure prediction",
+   "volume": "34",
+   "author": "Cuff",
+   "year": "1999",
+   "journal-title": "Proteins"
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib6",
+   "doi-asserted-by": "crossref",
+   "first-page": "369",
+   "DOI": "10.1016/j.jmb.2003.12.010",
+   "article-title": "RNA interactions in the 5\u2032 region of the HIV-1 genome",
+   "volume": "336",
+   "author": "Damgaard",
+   "year": "2004",
+   "journal-title": "J. Mol. Biol."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib7",
+   "doi-asserted-by": "crossref",
+   "first-page": "349",
+   "DOI": "10.1093/bioinformatics/17.4.349",
+   "article-title": "Multi-class protein fold recognition using support vector machines and neural networks",
+   "volume": "17",
+   "author": "Ding",
+   "year": "2001",
+   "journal-title": "Bioinformatics"
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib8",
+   "doi-asserted-by": "crossref",
+   "first-page": "71",
+   "DOI": "10.1186/1471-2105-5-71",
+   "article-title": "Evaluation of several lightweight stochastic context-free grammars for RNA secondary structure prediction",
+   "volume": "5",
+   "author": "Dowell",
+   "year": "2004",
+   "journal-title": "BMC Bioinform."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib9",
+   "doi-asserted-by": "crossref",
+   "first-page": "751",
+   "DOI": "10.2307/2529140",
+   "article-title": "Le traitement des variables vectorielle",
+   "volume": "29",
+   "author": "Escoufier",
+   "year": "1973",
+   "journal-title": "Biometrics"
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib10",
+   "doi-asserted-by": "crossref",
+   "first-page": "769",
+   "DOI": "10.1093/bioinformatics/15.9.769",
+   "article-title": "Matrixplot: visualizing sequence constraints",
+   "volume": "15",
+   "author": "Gorodkin",
+   "year": "1999",
+   "journal-title": "Bioinformatics"
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib11",
+   "doi-asserted-by": "crossref",
+   "first-page": "642",
+   "DOI": "10.1093/bioinformatics/17.7.642",
+   "article-title": "Semi-automated update and cleanup of structural RNA databases",
+   "volume": "17",
+   "author": "Gorodkin",
+   "year": "2001",
+   "journal-title": "Bioinformatics"
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib12",
+   "doi-asserted-by": "crossref",
+   "first-page": "2135",
+   "DOI": "10.1093/nar/29.10.2135",
+   "article-title": "Discovering common stem-loop motifs in unaligned RNA sequences",
+   "volume": "29",
+   "author": "Gorodkin",
+   "year": "2001",
+   "journal-title": "Nucleic Acids Res."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib13",
+   "doi-asserted-by": "crossref",
+   "first-page": "115",
+   "DOI": "10.1023/A:1006960004440",
+   "article-title": "Prediction of mucin type O-glycosylation sites based on sequence context and surface accessibility",
+   "volume": "15",
+   "author": "Hansen",
+   "year": "1998",
+   "journal-title": "Glycoconjugate J."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib14",
+   "doi-asserted-by": "crossref",
+   "first-page": "195",
+   "DOI": "10.1006/jmbi.1999.3091",
+   "article-title": "Protein secondary structure prediction based on position-specific scoring matrices",
+   "volume": "292",
+   "author": "Jones",
+   "year": "1999",
+   "journal-title": "J. Mol. Biol."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib15",
+   "doi-asserted-by": "crossref",
+   "first-page": "2577",
+   "DOI": "10.1002/bip.360221211",
+   "article-title": "Dictionary of protein secondary structure: pattern recognition and hydrogen-bonded and geometrical features",
+   "volume": "22",
+   "author": "Kabsch",
+   "year": "1983",
+   "journal-title": "Biopolymers"
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib16",
+   "doi-asserted-by": "crossref",
+   "first-page": "846",
+   "DOI": "10.1093/bioinformatics/14.10.846",
+   "article-title": "Hidden Markov models for detecting remote protein homologies",
+   "volume": "14",
+   "author": "Karplus",
+   "year": "1998",
+   "journal-title": "Bioinformatics"
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib17",
+   "doi-asserted-by": "crossref",
+   "first-page": "643",
+   "DOI": "10.1016/0167-9473(94)00064-2",
+   "article-title": "Refined approximations to permutation tests for multivariate inference",
+   "volume": "20",
+   "author": "Kazi-Aoual",
+   "year": "1995",
+   "journal-title": "Comput. Stat. Data Anal."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib18",
+   "doi-asserted-by": "crossref",
+   "first-page": "219",
+   "DOI": "10.1016/j.compbiolchem.2004.04.001",
+   "article-title": "Evolutionary rate variation and RNA secondary structure prediction",
+   "volume": "28",
+   "author": "Knudsen",
+   "year": "2004",
+   "journal-title": "Comput. Biol. Chem."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib19",
+   "first-page": "122",
+   "article-title": "A method to combine a set of alignments in one better alignment",
+   "volume": "15",
+   "author": "Knudsen",
+   "year": "1999",
+   "journal-title": "Bioinformatics"
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib20",
+   "doi-asserted-by": "crossref",
+   "first-page": "3311",
+   "DOI": "10.1093/nar/gkg619",
+   "article-title": "Eva: evaluation of protein structure prediction servers",
+   "volume": "31",
+   "author": "Koh",
+   "year": "2003",
+   "journal-title": "Nucleic Acids Res."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib21",
+   "unstructured": "Kuiken, C.L., Foley, B., Hahn, B., Korber, B., McCutchan, F., Marx, P.A., Mellors, J.W., Mullins, J.I., Sodroski, J., Wolinksy, S., 2002. Human retroviruses and aids 2000 (http://hiv-web.lanl.gov/seq-db.html)."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib22",
+   "doi-asserted-by": "crossref",
+   "first-page": "191",
+   "DOI": "10.1006/jmbi.2001.5351",
+   "article-title": "Dynalign: an algorithm for finding the secondary structure common to two RNA sequences",
+   "volume": "317",
+   "author": "Mathews",
+   "year": "2002",
+   "journal-title": "J. Mol. Biol."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib23",
+   "first-page": "442",
+   "article-title": "Comparison of the predicted and observed secondary structure of T4 phage lysozyme",
+   "volume": "405",
+   "author": "Matthews",
+   "year": "1975",
+   "journal-title": "Biochem. Biophys. Acta"
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib24",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1093/protein/10.1.1",
+   "article-title": "Identification of prokaryotic and eukaryotic signal peptides and prediction of their cleavage sites",
+   "volume": "10",
+   "author": "Nielsen",
+   "year": "1997",
+   "journal-title": "Protein Eng."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib25",
+   "doi-asserted-by": "crossref",
+   "first-page": "1162",
+   "DOI": "10.1110/ps.9.6.1162",
+   "article-title": "Cascaded multiple classifiers for secondary structure prediction",
+   "volume": "9",
+   "author": "Ouali",
+   "year": "1999",
+   "journal-title": "Protein Sci."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib26",
+   "doi-asserted-by": "crossref",
+   "first-page": "228",
+   "DOI": "10.1002/prot.10082",
+   "article-title": "Improving the prediction of protein secondary structure in three and eight classes using recurrent neural networks and profiles",
+   "volume": "47",
+   "author": "Pollastri",
+   "year": "2002",
+   "journal-title": "Proteins"
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib27",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Przybylski, D., Rost, B., 2001. Alignments grow, secondary structure prediction improves (http://cubic.bioc.columbia.edu/predictprotein).",
+   "DOI": "10.1002/prot.10029"
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib28",
+   "unstructured": "Raghava, G.P.S., 2000. Protein secondary structure prediction using nearest neighbor and neural network approach (http://www.imtech.res.in/[raghava/apssp2/])."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib29",
+   "doi-asserted-by": "crossref",
+   "first-page": "525",
+   "DOI": "10.1016/S0076-6879(96)66033-9",
+   "article-title": "Predicting one-dimensional protein structure by profile based neural networks",
+   "volume": "266",
+   "author": "Rost",
+   "year": "1996",
+   "journal-title": "Meth. Enzymol."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib30",
+   "unstructured": "Rost, B., 2003. Profsec, unpublished (http://cubic.bioc.columbia.edu/[predictprotein])."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib31",
+   "doi-asserted-by": "crossref",
+   "first-page": "584",
+   "DOI": "10.1006/jmbi.1993.1413",
+   "article-title": "Prediction of protein secondary structure at better than 70% accuracy",
+   "volume": "232",
+   "author": "Rost",
+   "year": "1993",
+   "journal-title": "J. Mol. Biol."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib32",
+   "doi-asserted-by": "crossref",
+   "first-page": "13",
+   "DOI": "10.1016/S0022-2836(05)80007-5",
+   "article-title": "Redefining the goals of protein secondary structure prediction",
+   "volume": "235",
+   "author": "Rost",
+   "year": "1994",
+   "journal-title": "J. Mol. Biol."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib33",
+   "unstructured": "Sonnhammer, E.L., von Heijne, G., Krogh, A., 1998. A hidden Markov model for predicting transmembrane helices in protein sequences. In: Glasgow, J., Littlejohn, T., Major, F., Lathrop, R., Sankoff, D., Sensen, C. (Eds.), Proceedings of the Sixth International Conference on Intelligent Systems in Molecular Biology. AAAI/MIT Press, Menlo Park, California, pp. 175\u2013182."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib34",
+   "unstructured": "Weisstein, E.W., 2004a. Correlation coefficient (http://mathworld.[wolfram.com/CorrelationCoefficient.html])."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib35",
+   "unstructured": "Weisstein, E.W., 2004b. Least squares fitting (http://mathworld.wolfram.[com/LeastSquaresFitting.html])."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib36",
+   "doi-asserted-by": "crossref",
+   "first-page": "343",
+   "DOI": "10.1002/1097-0134(20000815)40:3<343::AID-PROT10>3.0.CO;2-S",
+   "article-title": "Protein threading using prospect: design and evaluation",
+   "volume": "40",
+   "author": "Xu",
+   "year": "2000",
+   "journal-title": "Proteins"
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib37",
+   "doi-asserted-by": "crossref",
+   "first-page": "220",
+   "DOI": "10.1002/(SICI)1097-0134(19990201)34:2<220::AID-PROT7>3.0.CO;2-K",
+   "article-title": "A modified definition of SOV, a segment-based measure for protein secondary structure prediction assessment",
+   "volume": "34",
+   "author": "Zemla",
+   "year": "1999",
+   "journal-title": "Proteins"
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib38",
+   "first-page": "267",
+   "article-title": "Prediction of RNA secondary structure by energy minimization",
+   "volume": "25",
+   "author": "Zuker",
+   "year": "1994",
+   "journal-title": "Meth. Mol. Biol."
+  },
+  {
+   "key": "10.1016/j.compbiolchem.2004.09.006_bib39",
+   "doi-asserted-by": "crossref",
+   "first-page": "669",
+   "DOI": "10.1017/S1355838298980116",
+   "article-title": "Using reliability information to annotate RNA secondary structure",
+   "volume": "4",
+   "author": "Zuker",
+   "year": "1998",
+   "journal-title": "RNA"
+  }
+ ],
+ "container-title": [
+  "Computational Biology and Chemistry"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S1476927104000799?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S1476927104000799?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2023,
+    4,
+    30
+   ]
+  ],
+  "date-time": "2023-04-30T22:48:30Z",
+  "timestamp": 1682894910000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1476927104000799"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2004,
+    12
+   ]
+  ]
+ },
+ "references-count": 39,
+ "journal-issue": {
+  "issue": "5-6",
+  "published-print": {
+   "date-parts": [
+    [
+     2004,
+     12
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "S1476927104000799"
+ ],
+ "URL": "https://doi.org/10.1016/j.compbiolchem.2004.09.006",
+ "relation": {},
+ "ISSN": [
+  "1476-9271"
+ ],
+ "issn-type": [
+  {
+   "value": "1476-9271",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2004,
+    12
+   ]
+  ]
+ }
+}

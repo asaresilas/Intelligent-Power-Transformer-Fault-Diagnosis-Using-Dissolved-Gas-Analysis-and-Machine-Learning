@@ -1,0 +1,5 @@
+task,same_predictions,max_probability_difference,same_best_setting,same_macro_f1
+F4_xgboost_rep01_f1,True,0.0,True,True
+F1_svm_rep07_f3,True,0.0,True,True
+F3_mlp_rep10_f5,True,0.0,True,True
+F2_random_forest_rep04_f2,True,0.0,True,True

@@ -1,0 +1,420 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    22
+   ]
+  ],
+  "date-time": "2026-09-22T07:48:38Z",
+  "timestamp": 1790063318133,
+  "version": "4.0.1"
+ },
+ "reference-count": 42,
+ "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      1,
+      1
+     ]
+    ],
+    "date-time": "2021-01-01T00:00:00Z",
+    "timestamp": 1609459200000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100006261",
+   "name": "Taif University Researchers Supporting through Taif University, Taif, Saudi Arabia",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "TURSP-2020/61"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "TURSP-2020/61"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100006261",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "IEEE Access"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2021
+   ]
+  ]
+ },
+ "DOI": "10.1109/access.2021.3102415",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2021,
+    8,
+    3
+   ]
+  ],
+  "date-time": "2021-08-03T16:08:35Z",
+  "timestamp": 1628006915000
+ },
+ "page": "111162-111170",
+ "source": "Crossref",
+ "is-referenced-by-count": 123,
+ "title": [
+  "Power Transformer Fault Diagnosis Based on DGA Using a Convolutional Neural Network With Noise in Measurements"
+ ],
+ "prefix": "10.1109",
+ "volume": "9",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0003-2217-6923",
+   "authenticated-orcid": false,
+   "given": "Ibrahim B. M.",
+   "family": "Taha",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-7135-9366",
+   "authenticated-orcid": false,
+   "given": "Saleh",
+   "family": "Ibrahim",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-3894-4299",
+   "authenticated-orcid": false,
+   "given": "Diaa-Eldin A.",
+   "family": "Mansour",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "ref39",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TENCON.2012.6412171"
+  },
+  {
+   "key": "ref38",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/REVET.2012.6195276"
+  },
+  {
+   "key": "ref33",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TENCON.2004.1414803"
+  },
+  {
+   "key": "ref32",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TENCON.2006.343895"
+  },
+  {
+   "key": "ref31",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRD.2002.803838"
+  },
+  {
+   "key": "ref30",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/SCES.2012.6199110"
+  },
+  {
+   "key": "ref37",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2017.1927"
+  },
+  {
+   "key": "ref36",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ISdea.2012.599"
+  },
+  {
+   "key": "ref35",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACCESS.2019.2902299"
+  },
+  {
+   "key": "ref34",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICDL.1999.798957"
+  },
+  {
+   "key": "ref10",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/61.956751"
+  },
+  {
+   "key": "ref40",
+   "year": "2016",
+   "journal-title": "Dissolved Gas Analysis Reports"
+  },
+  {
+   "key": "ref11",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2016.005301"
+  },
+  {
+   "key": "ref12",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.ijepes.2014.12.017"
+  },
+  {
+   "key": "ref13",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.15866/iree.v11i3.8453"
+  },
+  {
+   "key": "ref14",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2017.0028"
+  },
+  {
+   "key": "ref15",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2014.004478"
+  },
+  {
+   "key": "ref16",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2015.005277"
+  },
+  {
+   "key": "ref17",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2017.006841"
+  },
+  {
+   "key": "ref18",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACCESS.2019.2927018"
+  },
+  {
+   "key": "ref19",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACCESS.2020.3012633"
+  },
+  {
+   "key": "ref28",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.epsr.2011.09.012"
+  },
+  {
+   "key": "ref4",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/IEEESTD.2019.8890040"
+  },
+  {
+   "key": "ref27",
+   "article-title": "Adam: A method for stochastic optimization",
+   "author": "kingma",
+   "year": "2014",
+   "journal-title": "arXiv 1412 6980"
+  },
+  {
+   "key": "ref3",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/s21062223"
+  },
+  {
+   "key": "ref6",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CEIDP.2012.6378754"
+  },
+  {
+   "key": "ref29",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MEI.2002.1014963"
+  },
+  {
+   "key": "ref5",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/57.917529"
+  },
+  {
+   "key": "ref8",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2016.0886"
+  },
+  {
+   "key": "ref7",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MEI.2014.6943428"
+  },
+  {
+   "key": "ref2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2019.008395"
+  },
+  {
+   "key": "ref9",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2017.0826"
+  },
+  {
+   "key": "ref1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2017.005959"
+  },
+  {
+   "key": "ref20",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CAC.2017.8243226"
+  },
+  {
+   "key": "ref22",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/en11071880"
+  },
+  {
+   "key": "ref21",
+   "doi-asserted-by": "crossref",
+   "first-page": "2828",
+   "DOI": "10.1109/TDEI.2017.006727",
+   "article-title": "Dissolved gas analysis of insulating oil for power transformer fault diagnosis with deep belief network",
+   "volume": "24",
+   "author": "jiejie",
+   "year": "2017",
+   "journal-title": "IEEE Trans Dielectr Electr Insul"
+  },
+  {
+   "key": "ref42",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2018.5564"
+  },
+  {
+   "key": "ref24",
+   "first-page": "d1-204",
+   "article-title": "Investigation on sampling, measurement and interpretation of gas-in-oil analysis for power transformers",
+   "author": "tenbohlen",
+   "year": "2008",
+   "journal-title": "Proc CIGRE"
+  },
+  {
+   "key": "ref41",
+   "year": "2020",
+   "journal-title": "Technology Information Forecasting and Assessment Council (TIFAC)"
+  },
+  {
+   "key": "ref23",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/app10041329"
+  },
+  {
+   "key": "ref26",
+   "year": "2021",
+   "journal-title": "Convolutional neural network"
+  },
+  {
+   "key": "ref25",
+   "author": "singh",
+   "year": "2018",
+   "journal-title": "Deep Learning with Applications Using Python"
+  }
+ ],
+ "container-title": [
+  "IEEE Access"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx7/6287639/9312710/09505669.pdf?arnumber=9505669",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2021,
+    12,
+    17
+   ]
+  ],
+  "date-time": "2021-12-17T14:57:22Z",
+  "timestamp": 1639753042000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://ieeexplore.ieee.org/document/9505669/"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2021
+   ]
+  ]
+ },
+ "references-count": 42,
+ "URL": "https://doi.org/10.1109/access.2021.3102415",
+ "relation": {},
+ "ISSN": [
+  "2169-3536"
+ ],
+ "issn-type": [
+  {
+   "value": "2169-3536",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2021
+   ]
+  ]
+ }
+}

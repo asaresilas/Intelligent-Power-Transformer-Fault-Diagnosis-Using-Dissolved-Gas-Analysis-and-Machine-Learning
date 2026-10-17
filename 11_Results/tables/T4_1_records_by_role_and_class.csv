@@ -1,0 +1,8 @@
+Set,Normal,PD,D1,D2,T1,T2,T12,T3,Total
+Development,75,37,53,85,80,39,0,70,439
+Internal test (all),10,10,10,10,10,10,0,10,70
+  of which independent of benchmark,10,7,7,8,10,10,0,9,61
+"Benchmark IEC TC 10, all equipment",0,9,26,48,0,0,16,18,117
+  of which power transformers (primary),0,1,10,27,0,0,8,12,58
+External test Li 2019 (all),0,16,49,54,19,9,16,38,201
+  of which independent of benchmark,0,8,23,7,19,9,0,20,86

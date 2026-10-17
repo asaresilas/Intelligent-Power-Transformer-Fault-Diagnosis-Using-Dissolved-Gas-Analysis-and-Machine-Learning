@@ -1,0 +1,24 @@
+evaluation_set,n,level,feature,baseline_macro_f1,importance_mean,ci_low,ci_high,rank
+Internal test,61,gas,H2,0.8119,0.24142,0.18007,0.2863,3
+Internal test,61,gas,CH4,0.8119,0.09105,0.03148,0.16166,5
+Internal test,61,gas,C2H6,0.8119,0.24127,0.17467,0.31416,4
+Internal test,61,gas,C2H4,0.8119,0.36025,0.27953,0.45173,1
+Internal test,61,gas,C2H2,0.8119,0.25667,0.13993,0.34878,2
+Internal test,61,feature,log_H2,0.8119,0.00986,-0.02124,0.03987,4
+Internal test,61,feature,log_CH4,0.8119,0.00607,-0.0161,0.02455,7
+Internal test,61,feature,log_C2H6,0.8119,-0.00188,-0.01681,0.01748,12
+Internal test,61,feature,log_C2H4,0.8119,-0.00186,-0.01577,0.01987,11
+Internal test,61,feature,log_C2H2,0.8119,-0.00685,-0.03466,0.02025,13
+Internal test,61,feature,pct_H2,0.8119,0.03389,-0.01604,0.07412,2
+Internal test,61,feature,pct_CH4,0.8119,-0.00096,-0.03214,0.01803,10
+Internal test,61,feature,pct_C2H6,0.8119,-0.00885,-0.03101,0.01987,14
+Internal test,61,feature,pct_C2H4,0.8119,0.00718,-0.03132,0.02841,6
+Internal test,61,feature,pct_C2H2,0.8119,-0.01397,-0.04049,0.02516,15
+Internal test,61,feature,log_R1,0.8119,0.05726,-0.00705,0.10519,1
+Internal test,61,feature,log_R2,0.8119,-0.03135,-0.05491,-0.01112,18
+Internal test,61,feature,log_R3,0.8119,-0.01761,-0.04853,0.02025,16
+Internal test,61,feature,log_R4,0.8119,0.00122,-0.02414,0.02468,8
+Internal test,61,feature,log_R5,0.8119,0.02964,-0.00238,0.07399,3
+Internal test,61,feature,duval_pct_CH4,0.8119,0.0074,-0.01681,0.01973,5
+Internal test,61,feature,duval_pct_C2H4,0.8119,0.0,0.0,0.0,9
+Internal test,61,feature,duval_pct_C2H2,0.8119,-0.02081,-0.05139,0.019,17

@@ -1,0 +1,57 @@
+# Machine-learning configuration (roadmap Step 19). Every value here comes from the approved Analysis Plan
+# (00_Project_Admin/Expected_Results_and_Analysis_Plan.docx, Sections 5.1-5.4) or a recorded decision.
+# Read by 06_Python_ML/src/ml/pipelines.py. Do not change without a new decision in decisions_log.md.
+
+data_version: "1.0"            # 03_Data/data_version_1.0.sha256 - verified before any data is read
+seed: 20261010                 # same seed as folds.csv (Step 10); model random_state
+target: class_code             # fine classes 0-6: Normal, PD, D1, D2, T1, T2, T3 (development set)
+gases: [H2, CH4, C2H6, C2H4, C2H2]   # ppm; not detected = 0 ppm (decision D8)
+
+feature_sets:                  # Analysis Plan Section 5.1; zero handling by decision D15
+  F1: [log_gas]                # log10(x + 1)                          (Eq. 11)
+  F2: [pct_gas]                # 100 x_g / sum of the five gases       (Eq. 12)
+  F3: [log_ratio, duval_pct]   # log10((a+1)/(b+1)) for R1-R5 (D15) + Duval Triangle 1 percentages (Eq. 4)
+  F4: [log_gas, pct_gas, log_ratio, duval_pct]
+
+preprocessing:
+  imputer: median              # only Duval percentages can be undefined (2 development records; D15)
+  scaler: standard             # z = (x - mean) / sd, fitted on the training fold      (Eq. 13)
+  class_weights: balanced      # w_c = N / (K n_c), recomputed in every training fold   (Eq. 14, D15)
+  oversampling: none           # SMOTE not approved (Section 5.3, D15)
+
+models:                        # Analysis Plan Section 5.2; classifiers per decision D6 (fifth = logistic regression)
+  majority:
+    estimator: DummyClassifier
+    fixed: {strategy: most_frequent}
+    grid: {}
+    weighted: false            # D15: the baseline is not weighted
+  svm:
+    estimator: PlattSVC          # SVC(rbf) + Platt (sigmoid) calibration, 5 internal folds (decision D16)
+    fixed: {kernel: rbf, cv: 5}
+    grid: {C: [0.1, 1, 10, 100], gamma: [0.001, 0.01, 0.1, 1, scale]}
+    weighted: true
+  random_forest:
+    estimator: RandomForestClassifier
+    fixed: {n_estimators: 500, n_jobs: 1}
+    grid: {max_depth: [null, 5, 10], min_samples_leaf: [1, 2, 5]}
+    weighted: true
+  xgboost:
+    estimator: XGBClassifier
+    fixed: {objective: "multi:softprob", tree_method: hist, n_jobs: 1, eval_metric: mlogloss}
+    grid: {learning_rate: [0.03, 0.1, 0.3], max_depth: [2, 4, 6], n_estimators: [100, 300]}
+    weighted: true
+  mlp:
+    estimator: MLPClassifier
+    fixed: {solver: lbfgs, max_iter: 5000}   # L-BFGS: converges on this small data set (decision D16)
+    grid: {hidden_layer_sizes: [[16], [32], [32, 16]], alpha: [0.0001, 0.001, 0.01]}
+    weighted: true
+  logistic_regression:
+    estimator: LogisticRegression
+    fixed: {max_iter: 5000}
+    grid: {C: [0.1, 1, 10]}
+    weighted: true
+
+validation:                    # Analysis Plan Section 5.4 (approved item 10)
+  outer: folds.csv             # 5 folds x 10 repeats, stratified and grouped (Step 10)
+  inner_folds: 5               # stratified, inside each outer training part (nested CV)
+  tuning_score: f1_macro

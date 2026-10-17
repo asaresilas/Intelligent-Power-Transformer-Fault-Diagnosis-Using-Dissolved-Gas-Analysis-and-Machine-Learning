@@ -1,0 +1,70 @@
+evaluation_set,n,level,feature,baseline_macro_f1,importance_mean,ci_low,ci_high,rank
+Internal test,61,gas,H2,0.8119,0.24142,0.18007,0.2863,3
+Internal test,61,gas,CH4,0.8119,0.09105,0.03148,0.16166,5
+Internal test,61,gas,C2H6,0.8119,0.24127,0.17467,0.31416,4
+Internal test,61,gas,C2H4,0.8119,0.36025,0.27953,0.45173,1
+Internal test,61,gas,C2H2,0.8119,0.25667,0.13993,0.34878,2
+Internal test,61,feature,log_H2,0.8119,0.00986,-0.02124,0.03987,4
+Internal test,61,feature,log_CH4,0.8119,0.00607,-0.0161,0.02455,7
+Internal test,61,feature,log_C2H6,0.8119,-0.00188,-0.01681,0.01748,12
+Internal test,61,feature,log_C2H4,0.8119,-0.00186,-0.01577,0.01987,11
+Internal test,61,feature,log_C2H2,0.8119,-0.00685,-0.03466,0.02025,13
+Internal test,61,feature,pct_H2,0.8119,0.03389,-0.01604,0.07412,2
+Internal test,61,feature,pct_CH4,0.8119,-0.00096,-0.03214,0.01803,10
+Internal test,61,feature,pct_C2H6,0.8119,-0.00885,-0.03101,0.01987,14
+Internal test,61,feature,pct_C2H4,0.8119,0.00718,-0.03132,0.02841,6
+Internal test,61,feature,pct_C2H2,0.8119,-0.01397,-0.04049,0.02516,15
+Internal test,61,feature,log_R1,0.8119,0.05726,-0.00705,0.10519,1
+Internal test,61,feature,log_R2,0.8119,-0.03135,-0.05491,-0.01112,18
+Internal test,61,feature,log_R3,0.8119,-0.01761,-0.04853,0.02025,16
+Internal test,61,feature,log_R4,0.8119,0.00122,-0.02414,0.02468,8
+Internal test,61,feature,log_R5,0.8119,0.02964,-0.00238,0.07399,3
+Internal test,61,feature,duval_pct_CH4,0.8119,0.0074,-0.01681,0.01973,5
+Internal test,61,feature,duval_pct_C2H4,0.8119,0.0,0.0,0.0,9
+Internal test,61,feature,duval_pct_C2H2,0.8119,-0.02081,-0.05139,0.019,17
+IEC TC 10 (power transformers),58,gas,H2,0.7306,0.28764,0.21886,0.34949,2
+IEC TC 10 (power transformers),58,gas,CH4,0.7306,0.12736,0.02991,0.3141,4
+IEC TC 10 (power transformers),58,gas,C2H6,0.7306,-0.03278,-0.09471,0.03768,5
+IEC TC 10 (power transformers),58,gas,C2H4,0.7306,0.22361,0.14249,0.42443,3
+IEC TC 10 (power transformers),58,gas,C2H2,0.7306,0.37075,0.18873,0.48449,1
+IEC TC 10 (power transformers),58,feature,log_H2,0.7306,-0.00569,-0.02959,0.02156,11
+IEC TC 10 (power transformers),58,feature,log_CH4,0.7306,0.00093,-0.01821,0.01699,6
+IEC TC 10 (power transformers),58,feature,log_C2H6,0.7306,-0.00668,-0.01821,0.0,13
+IEC TC 10 (power transformers),58,feature,log_C2H4,0.7306,0.0007,-0.01821,0.0108,7
+IEC TC 10 (power transformers),58,feature,log_C2H2,0.7306,-0.00131,-0.02027,0.02115,8
+IEC TC 10 (power transformers),58,feature,pct_H2,0.7306,-0.01928,-0.04536,0.00862,16
+IEC TC 10 (power transformers),58,feature,pct_CH4,0.7306,0.00691,-0.01253,0.02976,2
+IEC TC 10 (power transformers),58,feature,pct_C2H6,0.7306,-0.00593,-0.02174,0.0,12
+IEC TC 10 (power transformers),58,feature,pct_C2H4,0.7306,0.00538,-0.02902,0.02985,3
+IEC TC 10 (power transformers),58,feature,pct_C2H2,0.7306,-0.0167,-0.03653,0.0,15
+IEC TC 10 (power transformers),58,feature,log_R1,0.7306,0.03164,-0.02959,0.13068,1
+IEC TC 10 (power transformers),58,feature,log_R2,0.7306,-0.00384,-0.03272,0.01996,9
+IEC TC 10 (power transformers),58,feature,log_R3,0.7306,0.00271,-0.01219,0.01699,4
+IEC TC 10 (power transformers),58,feature,log_R4,0.7306,-0.00546,-0.01821,0.0,10
+IEC TC 10 (power transformers),58,feature,log_R5,0.7306,-0.04477,-0.10473,0.03903,18
+IEC TC 10 (power transformers),58,feature,duval_pct_CH4,0.7306,-0.00947,-0.01136,0.0,14
+IEC TC 10 (power transformers),58,feature,duval_pct_C2H4,0.7306,0.00161,-0.01136,0.01588,5
+IEC TC 10 (power transformers),58,feature,duval_pct_C2H2,0.7306,-0.02247,-0.04793,0.0,17
+Li 2019,86,gas,H2,0.5954,0.11149,0.05015,0.17391,3
+Li 2019,86,gas,CH4,0.5954,0.03149,-0.06457,0.12014,5
+Li 2019,86,gas,C2H6,0.5954,0.09713,0.03456,0.14737,4
+Li 2019,86,gas,C2H4,0.5954,0.28521,0.20081,0.35557,1
+Li 2019,86,gas,C2H2,0.5954,0.27699,0.21722,0.32419,2
+Li 2019,86,feature,log_H2,0.5954,-0.02135,-0.03846,-0.00484,17
+Li 2019,86,feature,log_CH4,0.5954,-0.00074,-0.01361,0.01825,8
+Li 2019,86,feature,log_C2H6,0.5954,-0.01258,-0.03737,0.00556,15
+Li 2019,86,feature,log_C2H4,0.5954,-0.02442,-0.04039,-0.00824,18
+Li 2019,86,feature,log_C2H2,0.5954,-0.00428,-0.00985,0.0,11
+Li 2019,86,feature,pct_H2,0.5954,-0.00024,-0.02306,0.02765,7
+Li 2019,86,feature,pct_CH4,0.5954,-0.01846,-0.0329,-0.00302,16
+Li 2019,86,feature,pct_C2H6,0.5954,-0.00523,-0.01505,0.00613,12
+Li 2019,86,feature,pct_C2H4,0.5954,0.00403,-0.03561,0.04511,5
+Li 2019,86,feature,pct_C2H2,0.5954,0.00635,-0.01043,0.02865,3
+Li 2019,86,feature,log_R1,0.5954,-0.00373,-0.03502,0.03865,10
+Li 2019,86,feature,log_R2,0.5954,-0.01192,-0.03685,0.00613,14
+Li 2019,86,feature,log_R3,0.5954,0.00653,-0.00415,0.02444,2
+Li 2019,86,feature,log_R4,0.5954,-0.00338,-0.02022,0.02076,9
+Li 2019,86,feature,log_R5,0.5954,0.05124,0.02067,0.09132,1
+Li 2019,86,feature,duval_pct_CH4,0.5954,0.00393,-0.01102,0.01815,6
+Li 2019,86,feature,duval_pct_C2H4,0.5954,-0.00925,-0.0245,0.00636,13
+Li 2019,86,feature,duval_pct_C2H2,0.5954,0.00564,-0.01858,0.02608,4

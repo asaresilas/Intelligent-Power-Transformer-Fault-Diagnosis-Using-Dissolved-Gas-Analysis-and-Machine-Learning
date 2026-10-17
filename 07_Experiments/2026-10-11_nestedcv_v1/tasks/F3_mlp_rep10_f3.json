@@ -1,0 +1,118 @@
+{
+ "feature_set": "F3",
+ "model": "mlp",
+ "rep": "rep10",
+ "fold": 3,
+ "inner_seed": 20271013,
+ "n_train": 352,
+ "n_test": 87,
+ "best_params": {
+  "alpha": 0.0001,
+  "hidden_layer_sizes": [
+   32,
+   16
+  ]
+ },
+ "inner_macro_f1": 0.812541562099873,
+ "seconds": 43.57,
+ "warnings": {},
+ "macro_f1": 0.770583717357911,
+ "balanced_accuracy": 0.7804321728691477,
+ "accuracy": 0.7931034482758621,
+ "kappa": 0.7555035128805621,
+ "mcc": 0.7570400871200128,
+ "macro_f1_merged_T12": 0.7879032258064517,
+ "confusion_matrix": [
+  [
+   12,
+   1,
+   0,
+   0,
+   0,
+   2,
+   0
+  ],
+  [
+   1,
+   6,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   2,
+   6,
+   2,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   2,
+   12,
+   1,
+   1,
+   1
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   14,
+   0,
+   2
+  ],
+  [
+   2,
+   0,
+   0,
+   0,
+   1,
+   5,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   14
+  ]
+ ],
+ "precision_Normal": 0.8,
+ "recall_Normal": 0.8,
+ "f1_Normal": 0.8,
+ "support_Normal": 15,
+ "precision_PD": 0.6666666666666666,
+ "recall_PD": 0.8571428571428571,
+ "f1_PD": 0.75,
+ "support_PD": 7,
+ "precision_D1": 0.75,
+ "recall_D1": 0.6,
+ "f1_D1": 0.6666666666666666,
+ "support_D1": 10,
+ "precision_D2": 0.8571428571428571,
+ "recall_D2": 0.7058823529411765,
+ "f1_D2": 0.7741935483870968,
+ "support_D2": 17,
+ "precision_T1": 0.875,
+ "recall_T1": 0.875,
+ "f1_T1": 0.875,
+ "support_T1": 16,
+ "precision_T2": 0.625,
+ "recall_T2": 0.625,
+ "f1_T2": 0.625,
+ "support_T2": 8,
+ "precision_T3": 0.8235294117647058,
+ "recall_T3": 1.0,
+ "f1_T3": 0.9032258064516129,
+ "support_T3": 14
+}

@@ -1,0 +1,7 @@
+2026-10-12T00:11:14  Step 22 started; selected pipeline random_forest / F4 (from model_selection.md); data version 1.0 verified
+2026-10-12T00:11:35  final pipeline fitted on 439 development records and saved: 07_Experiments/2026-10-12_final_fit/final_pipeline.joblib SHA-256 1C46D10391429385D7A35DDD7C6B8AC560C7285980752AB938A1FA42B7809523; best setting {'max_depth': None, 'min_samples_leaf': 1}
+2026-10-12T00:11:35  TEST SETS OPENED for ML prediction: external_test 201, benchmark 117, internal_test 70
+2026-10-12T00:11:35  predictions written: 11_Results/ml/ml_predictions.csv (388 rows) SHA-256 D103E8CA1B21C49A78E2F5A8795D0C423D46E6303856DAD1081928BAFACCF142
+2026-10-12T00:11:35  first-look scores written from the saved predictions: 11_Results/ml/ml_first_look.csv
+2026-10-12T00:11:58  first-look scores written from the saved predictions: 11_Results/ml/ml_first_look.csv
+2026-10-13T17:27:48  Step 38 service check: 388 held-out records sent through the FastAPI service for an identity check against ml_predictions.csv (saved model dga_model_v1, unchanged); true labels not read; no measure computed

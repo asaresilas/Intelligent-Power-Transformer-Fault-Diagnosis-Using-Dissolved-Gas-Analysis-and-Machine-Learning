@@ -1,0 +1,22 @@
+class,feature,mean_abs_shap,spearman_value_vs_shap,direction
+Normal,log_C2H6,0.040407,-0.878,low values push towards the class
+Normal,log_H2,0.035446,-0.871,low values push towards the class
+Normal,log_C2H4,0.034004,-0.882,low values push towards the class
+PD,log_R1,0.071164,-0.669,low values push towards the class
+PD,log_H2,0.031765,0.856,high values push towards the class
+PD,pct_H2,0.027189,0.719,high values push towards the class
+D1,duval_pct_C2H2,0.053162,0.828,high values push towards the class
+D1,pct_C2H2,0.040131,0.822,high values push towards the class
+D1,log_R1,0.030582,-0.463,low values push towards the class
+D2,duval_pct_C2H2,0.065218,0.606,high values push towards the class
+D2,pct_C2H2,0.05675,0.705,high values push towards the class
+D2,log_C2H2,0.03394,0.802,high values push towards the class
+T1,log_R1,0.036252,0.363,high values push towards the class
+T1,log_R5,0.035757,-0.863,low values push towards the class
+T1,log_R4,0.035116,0.663,high values push towards the class
+T2,log_R5,0.046318,-0.218,mixed / non-monotonic
+T2,pct_C2H4,0.033208,0.618,high values push towards the class
+T2,log_C2H4,0.029966,0.806,high values push towards the class
+T3,log_R5,0.077075,0.615,high values push towards the class
+T3,pct_C2H4,0.054457,0.621,high values push towards the class
+T3,log_R2,0.026916,-0.891,low values push towards the class

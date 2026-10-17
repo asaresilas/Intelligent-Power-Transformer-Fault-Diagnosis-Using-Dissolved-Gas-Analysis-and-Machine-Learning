@@ -1,0 +1,18 @@
+{
+ "protocol_sha256": "3EF4C2855A16C5A957CFBDBCA28FEFA180D3A5A734CDD157DD90D2B8AA744655",
+ "seed": 20261012,
+ "sources": [
+  "DISTRAIN",
+  "DISTEST",
+  "IECTC10",
+  "LI2019"
+ ],
+ "variants": [
+  "primary",
+  "equal_source_weight",
+  "iec_all"
+ ],
+ "scikit_learn": "1.9.1",
+ "start": "2026-10-12T16:49:32",
+ "end": "2026-10-12T20:47:37"
+}

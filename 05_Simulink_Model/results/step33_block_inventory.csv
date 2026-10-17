@@ -1,0 +1,8 @@
+subsystem,domain,n_blocks,n_inputs,n_outputs,n_annotations,description
+SS1_Grid_Supply,Simscape Electrical,4,0,1,2,"Simscape Electrical. Ideal 110 kV, 50 Hz three-phase source (infinite bus). Output HV_out."
+SS2_Power_Transformer,Simscape Electrical,3,1,1,3,"Simscape Electrical. 40 MVA Delta/grounded-Wye transformer with winding resistance, leakage and magnetising branch. HV_in -> LV_out."
+SS3_LV_Measurement,Simscape Electrical + Simulink,9,1,2,2,"Simscape Electrical sensor + Simulink arithmetic. Measures the LV currents and outputs the load factor K_pu. LV_in -> LV_out, K_pu."
+SS4_Variable_Load,Simscape Electrical + Simulink,7,1,0,3,"Simscape Electrical + Simulink. Resistive three-phase load, P = K(t)*S_rated, from load_profile. Input LV_in."
+SS5_Losses_to_Heat,Simulink,15,1,3,2,"Simulink. Heat inputs Q_oil, Q_h1, Q_h2 [W] from K_pu (IEC 60076-7 differential-equation model)."
+SS6_Thermal_Network,Simscape thermal (Foundation),27,3,3,3,"Simscape Foundation thermal. Three R-C circuits: top oil, hot-spot rise 1 and 2. Own Solver Configuration."
+SS7_Outputs_and_Ageing,Simulink,12,4,0,2,"Simulink. Hot-spot temperature, relative ageing rate, and logging of K_pu, theta_oil_C, theta_hs_C, ageing_rate_V."

@@ -1,0 +1,826 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    16
+   ]
+  ],
+  "date-time": "2026-09-16T19:34:05Z",
+  "timestamp": 1789587245877,
+  "version": "build-2803163510"
+ },
+ "reference-count": 100,
+ "publisher": "Institution of Engineering and Technology (IET)",
+ "issue": "12",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      6,
+      12
+     ]
+    ],
+    "date-time": "2024-06-12T00:00:00Z",
+    "timestamp": 1718150400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 11,
+   "URL": "http://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "ietresearch.onlinelibrary.wiley.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "IET Generation Trans &amp;amp; Dist"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2024,
+    6
+   ]
+  ]
+ },
+ "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Power system protection and asset management present persistent technical challenges, particularly in the context of the smart grid and renewable energy sectors. This paper aims to address these challenges by providing a comprehensive assessment of machine learning applications for effective asset management in power systems. The study focuses on the increasing demand for energy production while maintaining environmental sustainability and efficiency. By harnessing the power of modern technologies such as artificial intelligence (AI), machine learning (ML), and deep learning (DL), this research explores how ML techniques can be leveraged as powerful tools for the power industry. By showcasing practical applications and success stories, this paper demonstrates the growing acceptance of machine learning as a significant technology for current and future business needs in the power sector. Additionally, the study examines the barriers and difficulties of large\u2010scale ML deployment in practical settings while exploring potential opportunities for these tactics. Through this overview, insights into the transformative potential of ML in shaping the future of power system asset management are provided.</jats:p>",
+ "DOI": "10.1049/gtd2.13183",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2024,
+    6,
+    12
+   ]
+  ],
+  "date-time": "2024-06-12T04:01:08Z",
+  "timestamp": 1718164868000
+ },
+ "page": "2155-2170",
+ "update-policy": "https://doi.org/10.1002/crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 26,
+ "title": [
+  "A review of asset management using artificial intelligence\u2010based machine learning models: Applications for the electric power and energy system"
+ ],
+ "prefix": "10.1049",
+ "volume": "18",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0002-9731-959X",
+   "authenticated-orcid": false,
+   "given": "Gopal Lal",
+   "family": "Rajora",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Institute for Research in Technology Universidad Pontificia Comillas Madrid  Madrid Spain"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Miguel A.",
+   "family": "Sanz\u2010Bobi",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Institute for Research in Technology Universidad Pontificia Comillas Madrid  Madrid Spain"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Lina Bertling",
+   "family": "Tjernberg",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Division of Electric Power and Energy Systems KTH Royal Institute of Technology Stockholm  Stockholm Sweden"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jos\u00e9 Eduardo",
+   "family": "Urrea Cabus",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "School of Electrical Engineering and Computer Science KTH Royal Institute of Technology Stockholm  Stockholm Sweden"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "265",
+ "published-online": {
+  "date-parts": [
+   [
+    2024,
+    6,
+    12
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "e_1_2_11_2_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRS.2019.2897727"
+  },
+  {
+   "key": "e_1_2_11_3_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRS.2020.3041774"
+  },
+  {
+   "key": "e_1_2_11_4_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1155/2020/8833767"
+  },
+  {
+   "key": "e_1_2_11_5_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/en12040682"
+  },
+  {
+   "key": "e_1_2_11_6_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRS.2019.2894769"
+  },
+  {
+   "key": "e_1_2_11_7_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.apenergy.2020.115852"
+  },
+  {
+   "key": "e_1_2_11_8_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.apenergy.2019.03.027"
+  },
+  {
+   "key": "e_1_2_11_9_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.autcon.2019.102930"
+  },
+  {
+   "key": "e_1_2_11_10_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jclepro.2019.118962"
+  },
+  {
+   "key": "e_1_2_11_11_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.ress.2018.09.009"
+  },
+  {
+   "key": "e_1_2_11_12_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.autcon.2020.103336"
+  },
+  {
+   "key": "e_1_2_11_13_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.apenergy.2020.115237"
+  },
+  {
+   "key": "e_1_2_11_14_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Koksal A. Ozdemir A.:Composite system reliability assessment to reduce the curtailment risk using the storage systems. In:Proceedings of the 2022 IEEE 7th International Energy Conference (ENERGYCON) pp.\u00a01\u20136.IEEE Piscataway NJ(2022)",
+   "DOI": "10.1109/ENERGYCON53164.2022.9830234"
+  },
+  {
+   "key": "e_1_2_11_15_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/en15051616"
+  },
+  {
+   "key": "e_1_2_11_16_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/PEPQA.2019.8851575"
+  },
+  {
+   "key": "e_1_2_11_17_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACCESS.2020.3015919"
+  },
+  {
+   "key": "e_1_2_11_18_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/JPROC.2020.2988715"
+  },
+  {
+   "key": "e_1_2_11_19_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.35833/MPCE.2020.000552"
+  },
+  {
+   "key": "e_1_2_11_20_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.11591/ijece.v9i5.pp3391-3398"
+  },
+  {
+   "key": "e_1_2_11_21_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1088/1757-899X/688/5/055063"
+  },
+  {
+   "key": "e_1_2_11_22_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ISGT-Asia.2019.8881348"
+  },
+  {
+   "key": "e_1_2_11_23_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1108/IJQRM-10-2020-0346"
+  },
+  {
+   "key": "e_1_2_11_24_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Bosisio A. Della Giustina D. Fratti S. Ded\u00e8 A. Gozzi S.:A metamodel for multi\u2010utilities asset management. In:2019 IEEE Milan PowerTech pp.\u00a01\u20134.IEEE Piscataway NJ(2019)",
+   "DOI": "10.1109/PTC.2019.8810812"
+  },
+  {
+   "key": "e_1_2_11_25_1",
+   "first-page": "1",
+   "article-title": "Artificial intelligence\u2010chances and challenges in quantitative asset management",
+   "volume": "3122237",
+   "author": "Dori F.",
+   "year": "2018",
+   "journal-title": "SSRN"
+  },
+  {
+   "key": "e_1_2_11_26_1",
+   "unstructured": "Flynn D. Tang W. Roman D. Dickie R. Robu V.:Optimisation of hybrid energy systems for maritime vessels. In:9th International Conference on Power Electronics Machines and Drives.Institution of Engineering and Technology Savoy Place London(2018)"
+  },
+  {
+   "key": "e_1_2_11_27_1",
+   "unstructured": "Weijs L.:Reinforcement learning in Portfolio Management and its interpretation. Thesis Erasmus Universiteit Rotterdam(2018)"
+  },
+  {
+   "key": "e_1_2_11_28_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Wenjun G.:Design and implementation of asset management system based on RFID. In:2021 IEEE International Conference on Power Intelligent Computing and Systems (ICPICS) pp.\u00a0579\u2013583.IEEE Piscataway NJ(2021)",
+   "DOI": "10.1109/ICPICS52425.2021.9524245"
+  },
+  {
+   "key": "e_1_2_11_29_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/su12155955"
+  },
+  {
+   "key": "e_1_2_11_30_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Mharakurwa E.T. Nyakoe G.N. Akumu A.:Transformer remnant life estimation and asset management model based on insulation stress assessment. In:2019 IEEE Electrical Insulation Conference (EIC) pp.\u00a0325\u2013329.IEEE Piscataway NJ(2019)",
+   "DOI": "10.1109/EIC43217.2019.9046526"
+  },
+  {
+   "key": "e_1_2_11_31_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Xie P. Li L. Hao Y.:Asset management of power transformer: Optimization of transformer liftime cost based on quality management strategy. In:Proceedings of the 16th IET International Conference on AC and DC Power Transmission (ACDC 2020) pp.\u00a01506\u20131509.IEEE Piscataway NJ(2021)",
+   "DOI": "10.1049/icp.2020.0017"
+  },
+  {
+   "key": "e_1_2_11_32_1",
+   "first-page": "79",
+   "article-title": "Infrastructural asset management and maintenance of system health in power sector utilities: An overview",
+   "volume": "16",
+   "author": "Anandakumar M.",
+   "year": "2020",
+   "journal-title": "Power Res"
+  },
+  {
+   "key": "e_1_2_11_33_1",
+   "first-page": "78",
+   "article-title": "Advanced analytics for transformer asset management",
+   "volume": "7",
+   "author": "Das B.",
+   "year": "2020",
+   "journal-title": "Transformers Mag"
+  },
+  {
+   "key": "e_1_2_11_34_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACCESS.2020.3026049"
+  },
+  {
+   "key": "e_1_2_11_35_1",
+   "article-title": "Including operational aspects in the planning of power systems with large amounts of variable generation: A review of modeling approaches",
+   "volume": "8",
+   "author": "Helist\u00f6 N.",
+   "year": "2019",
+   "journal-title": "Wiley Interdiscip. Rev.: Energy Environ."
+  },
+  {
+   "key": "e_1_2_11_36_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/gtd2.12177"
+  },
+  {
+   "key": "e_1_2_11_37_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s10479-020-03650-4"
+  },
+  {
+   "key": "e_1_2_11_38_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Khuntia S.R. Rueda J.L. van derMeijden M.A.:Smart asset management for electric utilities: Big data and future. In:Asset Intelligence through Integration and Interoperability and Contemporary Vibration Engineering Technologies: Proceedings of the 12th World Congress on Engineering Asset Management and the 13th International Conference on Vibration Engineering and Technology of Machinery pp.\u00a0311\u2013322 Springer Cham(2019)",
+   "DOI": "10.1007/978-3-319-95711-1_31"
+  },
+  {
+   "key": "e_1_2_11_39_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.17352/tcsit.000012"
+  },
+  {
+   "key": "e_1_2_11_40_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3934/ElectrEng.2020.3.234"
+  },
+  {
+   "key": "e_1_2_11_41_1",
+   "first-page": "145",
+   "article-title": "Depuration based efficient coverage mechanism for wireless sensor network",
+   "volume": "8",
+   "author": "Ashraf S.",
+   "year": "2020",
+   "journal-title": "J. Electr. Comput. Eng. Innovations"
+  },
+  {
+   "key": "e_1_2_11_42_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Niaki A.H.M.:Asset management in smart grids: A review. In:Proceedings of the 2021 11th Smart Grid Conference (SGC) pp.\u00a01\u20136.IEEE Piscataway NJ(2021)",
+   "DOI": "10.1109/SGC54087.2021.9664019"
+  },
+  {
+   "key": "e_1_2_11_43_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.ijepes.2021.107395"
+  },
+  {
+   "key": "e_1_2_11_44_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Amelete S. Vaillancourt R. Abdul\u2010Nour G. Gauthier F.:Asset management industry 4.0 and maintenance in electrical energy distribution. In:Proceedings of the International Conference on Advances in Production Management Systems. Artificial Intelligence for Sustainable and Resilient Production Systems: IFIP WG 5.7 APMS 2021 pp.\u00a0199\u2013208 Springer Cham(2021)",
+   "DOI": "10.1007/978-3-030-85914-5_21"
+  },
+  {
+   "key": "e_1_2_11_45_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/er.4333"
+  },
+  {
+   "key": "e_1_2_11_46_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/en15218079"
+  },
+  {
+   "key": "e_1_2_11_47_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TSG.2019.2933191"
+  },
+  {
+   "key": "e_1_2_11_48_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRS.2020.2990179"
+  },
+  {
+   "key": "e_1_2_11_49_1",
+   "first-page": "213",
+   "article-title": "Deep reinforcement learning for power system applications: An overview",
+   "volume": "6",
+   "author": "Zhang Z.",
+   "year": "2019",
+   "journal-title": "CSEE J. Power Energy Syst"
+  },
+  {
+   "key": "e_1_2_11_50_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRS.2019.2957377"
+  },
+  {
+   "key": "e_1_2_11_51_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.cie.2014.12.033"
+  },
+  {
+   "key": "e_1_2_11_52_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.rser.2022.113052"
+  },
+  {
+   "key": "e_1_2_11_53_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.energy.2020.117200"
+  },
+  {
+   "key": "e_1_2_11_54_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TIE.2019.2952823"
+  },
+  {
+   "key": "e_1_2_11_55_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.tej.2020.106881"
+  },
+  {
+   "key": "e_1_2_11_56_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TIE.2019.2931229"
+  },
+  {
+   "key": "e_1_2_11_57_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1088/1757-899X/1055/1/012133"
+  },
+  {
+   "key": "e_1_2_11_58_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.energy.2021.121993"
+  },
+  {
+   "key": "e_1_2_11_59_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.scitotenv.2020.136848"
+  },
+  {
+   "key": "e_1_2_11_60_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jclepro.2021.125834"
+  },
+  {
+   "key": "e_1_2_11_61_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jclepro.2020.123285"
+  },
+  {
+   "key": "e_1_2_11_62_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.18034/ei.v9i2.559"
+  },
+  {
+   "key": "e_1_2_11_63_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s10462-020-09896-5"
+  },
+  {
+   "key": "e_1_2_11_64_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jup.2021.101294"
+  },
+  {
+   "key": "e_1_2_11_65_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.renene.2021.02.017"
+  },
+  {
+   "key": "e_1_2_11_66_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/s20133709"
+  },
+  {
+   "key": "e_1_2_11_67_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.epsr.2021.107436"
+  },
+  {
+   "key": "e_1_2_11_68_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TSMC.2019.2897646"
+  },
+  {
+   "key": "e_1_2_11_69_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.joule.2020.07.007"
+  },
+  {
+   "key": "e_1_2_11_70_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.jii.2020.100196"
+  },
+  {
+   "key": "e_1_2_11_71_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/JSYST.2020.2965993"
+  },
+  {
+   "key": "e_1_2_11_72_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRS.2020.2999890"
+  },
+  {
+   "key": "e_1_2_11_73_1",
+   "article-title": "AI\u2010based prediction of capital structure: Performance comparison of ANN SVM and LR models",
+   "volume": "2022",
+   "author": "Gaytan J.C.T.",
+   "year": "2022",
+   "journal-title": "Comput. Intell. Neurosci."
+  },
+  {
+   "key": "e_1_2_11_74_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRD.2019.2897905"
+  },
+  {
+   "key": "e_1_2_11_75_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Arshad M. Islam S.:A novel fuzzy logic technique for power transformer asset management. In:Proceedings of the Conference Record of the 2006 IEEE Industry Applications Conference Forty\u2010First IAS Annual Meeting pp.\u00a0276\u2013286.IEEE Piscataway NJ(2006)",
+   "DOI": "10.1109/IAS.2006.256536"
+  },
+  {
+   "key": "e_1_2_11_76_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5267/j.dsl.2014.3.003"
+  },
+  {
+   "key": "e_1_2_11_77_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s40565-018-0453-x"
+  },
+  {
+   "key": "e_1_2_11_78_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/su11133586"
+  },
+  {
+   "key": "e_1_2_11_79_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1061/JPEODX.0000175"
+  },
+  {
+   "key": "e_1_2_11_80_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1061/(ASCE)IS.1943-555X.0000512"
+  },
+  {
+   "key": "e_1_2_11_81_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Idrees M. Riaz M.T. Waleed A. Paracha Z.J. Raza H.A. Khan M.A. et\u00a0al.:Fuzzy logic based calculation and analysis of health index for power transformer installed in grid stations. In:Proceedings of the 2019 International Symposium on Recent Advances in Electrical Engineering (RAEE) pp.\u00a01\u20136.IEEE Piscataway NJ(2019)",
+   "DOI": "10.1109/RAEE.2019.8887016"
+  },
+  {
+   "key": "e_1_2_11_82_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Protalinsky O. Khanova A. Shcherbatov I.:Simulation of power assets management process. In:Recent Research in Control Engineering and Decision Making vol.199 pp.\u00a0488\u2013501.Springer Berlin(2019)",
+   "DOI": "10.1007/978-3-030-12072-6_40"
+  },
+  {
+   "key": "e_1_2_11_83_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1088/1757-899X/643/1/012016"
+  },
+  {
+   "key": "e_1_2_11_84_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/gtd2.12177"
+  },
+  {
+   "key": "e_1_2_11_85_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.energy.2019.116622"
+  },
+  {
+   "key": "e_1_2_11_86_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TSTE.2022.3194728"
+  },
+  {
+   "issue": "1",
+   "key": "e_1_2_11_87_1",
+   "article-title": "Machine learning for intelligent energy consumption in smart homes",
+   "volume": "2",
+   "author": "Alzoubi A.",
+   "year": "2022",
+   "journal-title": "Int. J. Comput., Inf. Manuf."
+  },
+  {
+   "key": "e_1_2_11_88_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/info12020050"
+  },
+  {
+   "key": "e_1_2_11_89_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Hossam\u2010Eldin A. Refaey M. Ramadan H.:New approach to power transformer asset management and life assessment using fuzzy logic techniques. In:2017 Nineteenth International Middle East Power Systems Conference (MEPCON) pp.\u00a0901\u2013908.IEEE Piscataway NJ(2017)",
+   "DOI": "10.1109/MEPCON.2017.8301287"
+  },
+  {
+   "key": "e_1_2_11_90_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Majzoobi A. Mahoor M. Khodaei A.:Machine learning applications in estimating transformer loss of life. In:2017 IEEE Power & Energy Society General Meeting pp.\u00a01\u20135.IEEE Piscataway NJ(2017)",
+   "DOI": "10.1109/PESGM.2017.8274564"
+  },
+  {
+   "key": "e_1_2_11_91_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Li J. Zhu Y. Xu Y. Guo C.:A transformer fault diagnosis method based on sub\u2010clustering reduction and multiclass multi\u2010kernel support vector machine. In:2017 IEEE Conference on Energy Internet and Energy System Integration (EI2) pp.\u00a01\u20136.IEEE Piscataway NJ(2017)",
+   "DOI": "10.1109/EI2.2017.8245354"
+  },
+  {
+   "key": "e_1_2_11_92_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1002/we.2628"
+  },
+  {
+   "key": "e_1_2_11_93_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cui Y. Tjernberg L.B.:Fault diagnostics of power transformers using autoencoders and gated recurrent units with applications for sensor failures. In:Proceedings of the 2022 17th International Conference on Probabilistic Methods Applied to Power Systems (PMAPS) pp.\u00a01\u20135.IEEE Piscataway NJ(2022)",
+   "DOI": "10.1109/PMAPS53380.2022.9810620"
+  },
+  {
+   "key": "e_1_2_11_94_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cabus J.E.U. Cui Y. Tjernberg L.B.:An Anomaly Detection Approach Based on Autoencoders for Condition Monitoring of Wind Turbines. In:Proceedings of the 2022 17th International Conference on Probabilistic Methods Applied to Power Systems (PMAPS) pp.\u00a01\u20136.IEEE Piscataway NJ(2022)",
+   "DOI": "10.1109/PMAPS53380.2022.9810575"
+  },
+  {
+   "key": "e_1_2_11_95_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/978-3-031-28543-1_9"
+  },
+  {
+   "key": "e_1_2_11_96_1",
+   "first-page": "11",
+   "article-title": "Machine learning model applications for fault detection and classification in distributed power networks",
+   "volume": "4",
+   "author": "Cabus J.E.U.",
+   "year": "2021",
+   "journal-title": "Data Sci. Appl"
+  },
+  {
+   "key": "e_1_2_11_97_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TSG.2014.2386305"
+  },
+  {
+   "key": "e_1_2_11_98_1",
+   "unstructured": "World Energy Outlook 2020.https://www.iea.org/reports/world\u2010energy\u2010outlook\u20102020(2020)"
+  },
+  {
+   "key": "e_1_2_11_99_1",
+   "first-page": "450",
+   "article-title": "Reliability analysis of a geographic information system\u2010aided optimal phasor measurement unit location for smart grid operation",
+   "volume": "227",
+   "author": "Ghosh D.",
+   "year": "2013",
+   "journal-title": "Proc. Inst. Mech. Eng., Part O: J. Risk Reliab."
+  },
+  {
+   "key": "e_1_2_11_100_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TSG.2012.2197229"
+  },
+  {
+   "key": "e_1_2_11_101_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Gharavi H. Hu B.:Distributed Control and Communications for Grid Systems. In:Proceedings of the 2016 IEEE Global Communications Conference (GLOBECOM) pp.\u00a01\u20136.IEEE Piscataway NJ(2016)",
+   "DOI": "10.1109/GLOCOM.2016.7841738"
+  }
+ ],
+ "container-title": [
+  "IET Generation, Transmission &amp; Distribution"
+ ],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/gtd2.13183",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    28
+   ]
+  ],
+  "date-time": "2025-10-28T06:10:41Z",
+  "timestamp": 1761631841000
+ },
+ "score": 93.0735,
+ "resource": {
+  "primary": {
+   "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/gtd2.13183"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2024,
+    6
+   ]
+  ]
+ },
+ "references-count": 100,
+ "journal-issue": {
+  "issue": "12",
+  "published-print": {
+   "date-parts": [
+    [
+     2024,
+     6
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "10.1049/gtd2.13183"
+ ],
+ "URL": "https://doi.org/10.1049/gtd2.13183",
+ "archive": [
+  "Portico"
+ ],
+ "relation": {
+  "has-preprint": [
+   {
+    "id-type": "doi",
+    "id": "10.22541/au.171753166.67934665/v1",
+    "asserted-by": "object"
+   }
+  ]
+ },
+ "ISSN": [
+  "1751-8687",
+  "1751-8695"
+ ],
+ "issn-type": [
+  {
+   "value": "1751-8687",
+   "type": "print"
+  },
+  {
+   "value": "1751-8695",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2024,
+    6
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "2023-11-20",
+   "order": 0,
+   "name": "received",
+   "label": "Received",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  },
+  {
+   "value": "2024-05-10",
+   "order": 2,
+   "name": "accepted",
+   "label": "Accepted",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  },
+  {
+   "value": "2024-06-12",
+   "order": 3,
+   "name": "published",
+   "label": "Published",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  }
+ ]
+}

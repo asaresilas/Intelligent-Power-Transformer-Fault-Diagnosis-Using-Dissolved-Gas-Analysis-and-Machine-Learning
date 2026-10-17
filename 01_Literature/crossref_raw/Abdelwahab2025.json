@@ -1,0 +1,522 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    13
+   ]
+  ],
+  "date-time": "2026-10-13T17:57:12Z",
+  "timestamp": 1791914232155,
+  "version": "4.3.4"
+ },
+ "reference-count": 31,
+ "publisher": "Springer Science and Business Media LLC",
+ "issue": "1",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      3,
+      10
+     ]
+    ],
+    "date-time": "2025-03-10T00:00:00Z",
+    "timestamp": 1741564800000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      3,
+      10
+     ]
+    ],
+    "date-time": "2025-03-10T00:00:00Z",
+    "timestamp": 1741564800000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "link.springer.com"
+  ],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Sci Rep"
+ ],
+ "DOI": "10.1038/s41598-024-78293-7",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2025,
+    3,
+    10
+   ]
+  ],
+  "date-time": "2025-03-10T10:25:02Z",
+  "timestamp": 1741602302000
+ },
+ "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 37,
+ "title": [
+  "Transformer fault diagnose intelligent system based on DGA methods"
+ ],
+ "prefix": "10.1038",
+ "volume": "15",
+ "author": [
+  {
+   "given": "Saad A. Mohamed",
+   "family": "Abdelwahab",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Ibrahim B. M.",
+   "family": "Taha",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Rizk",
+   "family": "Fahim",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Sherif S. M.",
+   "family": "Ghoneim",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "297",
+ "published-online": {
+  "date-parts": [
+   [
+    2025,
+    3,
+    10
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "78293_CR1",
+   "unstructured": "IEC Publication 599. Interpretation of the analysis of gases in transformers and other oil-filled electrical equipment in service. First Ed. (1978)."
+  },
+  {
+   "key": "78293_CR2",
+   "unstructured": "IEEE Guide for the Interpretation of Gases Generated in Oil-Immersed Transformers, IEEE Standard C57.104-2008. Edition 1978. Feb. (2009)."
+  },
+  {
+   "key": "78293_CR3",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Sherif, S. M., Ghoneim, Ibrahim, B. M., Taha & Nagy, I. Elkalashy, Integrated ANN-Based proactive Fault Diagnostic Scheme for Power Transformers Using Dissolved Gas Analysis. IEEE Trans. Dielectr. Electr. Insul., 23 (3), 1838\u20131845 (2016).",
+   "DOI": "10.1109/TDEI.2016.005301"
+  },
+  {
+   "key": "78293_CR4",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Sherif, S. M., Ghoneim, Ibrahim, B. M. & Taha A New Approach of DGA interpretation technique for Transformer Fault diagnosis. Int. J. Electr. Power Energy Syst. 81, 265\u2013274 (2016).",
+   "DOI": "10.1016/j.ijepes.2016.02.018"
+  },
+  {
+   "key": "78293_CR5",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ibrahim, B. M., Taha, D. A., Mansour, Sherif, S. M., Ghoneim, Nagy, I. & Elkalashy Conditional Probability-Based Interpretation of Dissolved Gas Analysis for Transformer Incipient Faults. IET Generation Transmission Distribution. 11 (4), 943\u2013951 (2016).",
+   "DOI": "10.1049/iet-gtd.2016.0886"
+  },
+  {
+   "key": "78293_CR6",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Saleh, I., Ibrahim, Sherif, S. M., Ghoneim, Ibrahim, B. M. & Taha DGALab: an extensible software implementation for DGA, IET Generation, Transmission & Distribution 12 (18) 4117\u20134124 (2018).",
+   "DOI": "10.1049/iet-gtd.2018.5564"
+  },
+  {
+   "key": "78293_CR7",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ibrahim Taha, A. & Hoballah, S. G. Optimal Ratio Limits of Rogers\u2019 Four-Ratios and IEC 60599 Code Methods Using Particle Swarm Optimization Fuzzy-Logic Approach, IEEE Trans. Dielectr. Electr. Insul. 27 (1), 222\u2013230 (2020).",
+   "DOI": "10.1109/TDEI.2019.008395"
+  },
+  {
+   "key": "78293_CR8",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Sherif, S. M. et al. Enhancing Diagnostic Accuracy of Transformer Faults Using Teaching-learning-Based Optimization, IEEE Access, 9, 30817\u201330832 (2021).",
+   "DOI": "10.1109/ACCESS.2021.3060288"
+  },
+  {
+   "key": "78293_CR9",
+   "doi-asserted-by": "publisher",
+   "unstructured": "Youcef Benmahamed, O. et al. Energies, Accuracy Improvement of Transformer Faults Diagnostic Based on DGA Data Using SVM-BA Classifier, 14, 2970 https://doi.org/10.3390/en14102970 (2021).",
+   "DOI": "10.3390/en14102970"
+  },
+  {
+   "key": "78293_CR10",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Sherif, S. M., Ghoneim, T. A., Farrag, A., Ali Rashed, El-Sayed, M. & El-Kenawy And Abdelhameed Ibrahim, Adaptive Dynamic Meta-Heuristics for Feature Selection and Classification in Diagnostic Accuracy of Transformer Faults, IEEE Access. 9, 78324\u201378340 (2021).",
+   "DOI": "10.1109/ACCESS.2021.3083593"
+  },
+  {
+   "issue": "3",
+   "key": "78293_CR11",
+   "doi-asserted-by": "publisher",
+   "first-page": "8",
+   "DOI": "10.1109/MEI.2002.1014963",
+   "volume": "18",
+   "author": "M Duval",
+   "year": "2002",
+   "unstructured": "Duval, M. A review of faults detectable by gas-in-oil analysis in transformers. IEEE Electr. Insul. Mag. 18 (3), 8\u201317 (2002).",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "78293_CR12",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Duval, M. & DePablo, A. Interpretation of gas-in-oil analysis using new IEC publication 60599 and IEC TC 10 databases. IEEE Electr. Insul. Mag. 17 (2), 31\u201341 (2001).",
+   "DOI": "10.1109/57.917529"
+  },
+  {
+   "issue": "5",
+   "key": "78293_CR13",
+   "doi-asserted-by": "publisher",
+   "first-page": "2507",
+   "DOI": "10.1109/TDEI.2015.004999",
+   "volume": "22",
+   "author": "DA Mansour",
+   "year": "2015",
+   "unstructured": "Mansour, D. A. Development of a New Graphical Technique for Dissolved Gas Analysis in Power transformers based on the five combustible gases. IEEE Trans. Dielectr. Electr. Insul. 22 (5), 2507\u20132512 (2015).",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "4",
+   "key": "78293_CR14",
+   "doi-asserted-by": "publisher",
+   "first-page": "643",
+   "DOI": "10.1109/61.956751",
+   "volume": "16",
+   "author": "JL Guardado",
+   "year": "2001",
+   "unstructured": "Guardado, J. L., Nared, J. L., Moreno, P. & Fuerte, C. R. A comparative study of Neural Network Efficiency in Power Transformers Diagnosis Using Dissolved Gas Analysis. IEEE Trans. Power Delivery. 16 (4), 643\u2013647 (2001).",
+   "journal-title": "IEEE Trans. Power Delivery"
+  },
+  {
+   "issue": "3",
+   "key": "78293_CR15",
+   "doi-asserted-by": "publisher",
+   "first-page": "1350",
+   "DOI": "10.1109/TPWRD.2012.2188143",
+   "volume": "27",
+   "author": "V Miranda",
+   "year": "2012",
+   "unstructured": "Miranda, V., Garez Castro, A. R., Sh, Lima & Diagnosing faults in Power transformers with Autoassociative Neural Networks and Mean Shift. IEEE Trans. Power Delivery. 27 (3), 1350\u20131357 (2012).",
+   "journal-title": "IEEE Trans. Power Delivery"
+  },
+  {
+   "issue": "3",
+   "key": "78293_CR16",
+   "doi-asserted-by": "publisher",
+   "first-page": "974",
+   "DOI": "10.1109/TDEI.2013.6518967",
+   "volume": "20",
+   "author": "YC Huang",
+   "year": "2013",
+   "unstructured": "Huang, Y. C. & Sun, H. C. Dissolved gas analysis of Mineral Oil for Power Transformer Fault diagnosis using fuzzy logic. IEEE Trans. Dielectr. Electr. Insul. 20 (3), 974\u2013981 (2013).",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "78293_CR17",
+   "unstructured": "Hooshmand, R. & Banejad, M. Application of Fuzzy Logic in Fault Diagnosis in Transformers using Dissolved Gas based on Different Standards, World Academy of Science, Engineering and Technology, 17, (2006)."
+  },
+  {
+   "key": "78293_CR18",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Taha, I. B. M., Sherif, S. M., Ghoneim, Hatim, G. & Zaini A fuzzy Diagnostic System for Incipient Transformer faults based on DGA of the insulating transformer oils. Int. Rev. Electr. Eng. (IREE), 11 (3), 305\u2013313 2016.",
+   "DOI": "10.15866/iree.v11i3.8453"
+  },
+  {
+   "issue": "issue 1",
+   "key": "78293_CR19",
+   "doi-asserted-by": "publisher",
+   "first-page": "73",
+   "DOI": "10.1016/j.epsr.2011.09.012",
+   "volume": "83",
+   "author": "S Khmais Bacha",
+   "year": "2012",
+   "unstructured": "Khmais Bacha, S., Souahlia & Gossa, M. Power Transformer Fault Diagnosis Based on Dissolved Gas Analysis by support Vector Machine. Electr. Power Syst. Res. 83 (1), 73\u201379 (2012).",
+   "journal-title": "Electr. Power Syst. Res."
+  },
+  {
+   "issue": "8",
+   "key": "78293_CR20",
+   "doi-asserted-by": "publisher",
+   "first-page": "320",
+   "DOI": "10.1049/iet-epa.2014.0085",
+   "volume": "8",
+   "author": "C Wei",
+   "year": "2014",
+   "unstructured": "Wei, C., Tang, W. & Wu, Q. Dissolved gas analysis Method based on Novel feature prioritization and support Vector Machine. IET Electr. Power Appl. 8 (8), 320\u2013328 (2014).",
+   "journal-title": "IET Electr. Power Appl."
+  },
+  {
+   "issue": "2",
+   "key": "78293_CR21",
+   "doi-asserted-by": "publisher",
+   "first-page": "673",
+   "DOI": "10.1109/TPWRD.2005.864044",
+   "volume": "21",
+   "author": "DR Morais",
+   "year": "2006",
+   "unstructured": "Morais, D. R. & Rolim, J. G. A Hybrid Tool for detection of incipient faults in transformers based on the Dissolved Gas Analysis of Insulating Oil. IEEE Trans. Power Delivery. 21 (2), 673\u2013680 (2006).",
+   "journal-title": "IEEE Trans. Power Delivery"
+  },
+  {
+   "issue": "3",
+   "key": "78293_CR22",
+   "doi-asserted-by": "publisher",
+   "first-page": "1007",
+   "DOI": "10.1109/TDEI.2012.6215106",
+   "volume": "19",
+   "author": "A Abu-Siada",
+   "year": "2012",
+   "unstructured": "Abu-Siada, A. & Islam, S. A New Approach to identify Power Transformer Criticality and Asset Management decision based on dissolved Gas-in-Oil Analysis. IEEE Trans. Dielectr. Electr. Insul. 19 (3), 1007\u20131012 (2012).",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "78293_CR23",
+   "unstructured": "Chang, C. S., Lim, C. W. & Su, Q. Fuzzy-Neural Approach For Dissolved Gas Analysis Of Power Transformer Incipient Faults, Australasian Universities Power Engineering ConferenceAUPEC 26\u201329 September 2004, Brisbane, Australia. (2004)."
+  },
+  {
+   "key": "78293_CR24",
+   "volume-title": "Transformer fault types and severity class prediction based on neural pattern-recognition techniques, Electric power system research",
+   "author": "IBM Taha",
+   "year": "2021",
+   "unstructured": "Taha, I. B. M., Dessouky, S. S. & Ghoneim, S. S. M. Transformer Fault Types and Severity Class Prediction Based on Neural pattern-recognition Techniques, Electric Power System Research (Elsevier), 2021)."
+  },
+  {
+   "key": "78293_CR25",
+   "doi-asserted-by": "publisher",
+   "first-page": "139176",
+   "DOI": "10.1109/ACCESS.2020.3012633",
+   "volume": "8",
+   "author": "A Hoballah",
+   "year": "2020",
+   "unstructured": "Hoballah, A., Mansour, D. A. & Taha, I. B. M. Hybrid Grey Wolf Optimizer for Transformer Fault diagnosis using dissolved gases considering uncertainty in measurements. IEEE Access. 8, 139176\u2013139187 (2020).",
+   "journal-title": "IEEE Access."
+  },
+  {
+   "key": "78293_CR26",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Taha, I. B. M. & Mansour, D. A. Novel Power Transformer Fault Diagnosis Using Optimized Machine Learning Methods, Intell. Autom. Soft Comput., 28, 3, 739\u2013752, (2021).",
+   "DOI": "10.32604/iasc.2021.017703"
+  },
+  {
+   "key": "78293_CR27",
+   "unstructured": "Egyptian Electricity Holding. Company (EEHC.) Reports, 1991\u20132016."
+  },
+  {
+   "issue": "1",
+   "key": "78293_CR28",
+   "doi-asserted-by": "publisher",
+   "first-page": "164",
+   "DOI": "10.1109/TPWRD.2002.803838",
+   "volume": "18",
+   "author": "MH Wang",
+   "year": "2003",
+   "unstructured": "Wang, M. H. A novel extension method for transformer fault diagnosis. IEEE Trans. Power Del. 18 (1), 164\u2013169 (2003).",
+   "journal-title": "IEEE Trans. Power Del."
+  },
+  {
+   "key": "78293_CR29",
+   "unstructured": "Sanjay, A. A. K. Chandel Transformer incipient fault diagnosis based on probabilistic neural network. In: 2012 students conference on engineering and systems (SCES); p. 15, March (2012)."
+  },
+  {
+   "key": "78293_CR30",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Wang, M., Zhu, Y., Wang, F. & Geng, L. Transformer fault diagnosis based on naive Bayesian classifier and SVR, IEEE Region 10 conference (TENCON 2006); November 2006. pp. 1\u20134.",
+   "DOI": "10.1109/TENCON.2006.343895"
+  },
+  {
+   "key": "78293_CR31",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Diao, J. et al. Jiahui andDefect Pattern Recognition of Transformers Based on the method of vectorization of parameters, IEEE International Conference on High Voltage Engineering and (ICHVE), (2020).",
+   "DOI": "10.1109/ICHVE49031.2020.9280029"
+  }
+ ],
+ "container-title": [
+  "Scientific Reports"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.nature.com/articles/s41598-024-78293-7.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://www.nature.com/articles/s41598-024-78293-7",
+   "content-type": "text/html",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://www.nature.com/articles/s41598-024-78293-7.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    3,
+    10
+   ]
+  ],
+  "date-time": "2025-03-10T21:39:45Z",
+  "timestamp": 1741642785000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.nature.com/articles/s41598-024-78293-7"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2025,
+    3,
+    10
+   ]
+  ]
+ },
+ "references-count": 31,
+ "journal-issue": {
+  "issue": "1",
+  "published-online": {
+   "date-parts": [
+    [
+     2025,
+     12
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "78293"
+ ],
+ "URL": "https://doi.org/10.1038/s41598-024-78293-7",
+ "relation": {},
+ "ISSN": [
+  "2045-2322"
+ ],
+ "issn-type": [
+  {
+   "value": "2045-2322",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2025,
+    3,
+    10
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "5 July 2024",
+   "order": 1,
+   "name": "received",
+   "label": "Received",
+   "group": {
+    "name": "ArticleHistory",
+    "label": "Article History"
+   }
+  },
+  {
+   "value": "29 October 2024",
+   "order": 2,
+   "name": "accepted",
+   "label": "Accepted",
+   "group": {
+    "name": "ArticleHistory",
+    "label": "Article History"
+   }
+  },
+  {
+   "value": "10 March 2025",
+   "order": 3,
+   "name": "first_online",
+   "label": "First Online",
+   "group": {
+    "name": "ArticleHistory",
+    "label": "Article History"
+   }
+  },
+  {
+   "order": 1,
+   "name": "Ethics",
+   "group": {
+    "name": "EthicsHeading",
+    "label": "Declarations"
+   }
+  },
+  {
+   "value": "The authors declare no competing interests.",
+   "order": 2,
+   "name": "Ethics",
+   "group": {
+    "name": "EthicsHeading",
+    "label": "Competing interests"
+   }
+  }
+ ],
+ "article-number": "8263"
+}

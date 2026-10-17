@@ -1,0 +1,989 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    30
+   ]
+  ],
+  "date-time": "2026-09-30T06:50:51Z",
+  "timestamp": 1790751051221,
+  "version": "4.1.0"
+ },
+ "reference-count": 79,
+ "publisher": "MDPI AG",
+ "issue": "21",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      10,
+      23
+     ]
+    ],
+    "date-time": "2025-10-23T00:00:00Z",
+    "timestamp": 1761177600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "name": "Funda\u00e7\u00e3o para o Desenvolvimento Tecnol\u00f3gico da Engenharia"
+  },
+  {
+   "DOI": "10.13039/501100003593",
+   "name": "Conselho Nacional de Desenvolvimento Cient\u00edfico e Tecnol\u00f3gico",
+   "doi-asserted-by": "crossref",
+   "award": [
+    "303986/2022-0"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "303986/2022-0"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100003593",
+     "id-type": "DOI",
+     "asserted-by": "crossref"
+    }
+   ]
+  },
+  {
+   "name": "EDP Brasil for the development of the present research as part of an ANEEL R&D Project"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Sensors"
+ ],
+ "abstract": "<jats:p>Power transformers are critical assets in modern power grids, where failures can lead to significant operational disruptions and financial losses. Dissolved Gas Analysis (DGA) is a key sensor-based technique widely used for condition monitoring, but traditional diagnostic approaches rely on deterministic thresholds that overlook uncertainty in degradation dynamics. This paper proposes a probabilistic framework for Prognostics and Health Management (PHM) of power transformers, integrating self-adaptive Auto Regressive Integrated Moving Average modeling with a probabilistic reformulation of Duval\u2019s graphical methods. The framework enables automated estimation of fault types and failure likelihood directly from DGA sensor data, without requiring labeled datasets or expert-defined rules. Dissolved gas dynamics are forecasted using time-series models with residual-based uncertainty quantification, allowing probabilistic fault inference from predicted gas trends without assuming deterministic persistence of a specific fault type. A sequential pipeline is developed for real-time fault tracking and reliability assessment, aligned with IEC, IEEE, and CIGRE standards. Two case studies validate the method: one involving gas loss in an experimental setup and another examining thermal degradation in a 345 kV transformer. Results show that the framework improves diagnostic reliability, supports early fault detection, and enhances predictive maintenance strategies. By combining probabilistic modeling, time-series forecasting, and sensor-based diagnostic inference, this work contributes a practical and interpretable PHM solution for sensor-enabled monitoring environments in modern power grids.</jats:p>",
+ "DOI": "10.3390/s25216520",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    23
+   ]
+  ],
+  "date-time": "2025-10-23T05:20:44Z",
+  "timestamp": 1761196844000
+ },
+ "page": "6520",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 4,
+ "title": [
+  "Probabilistic Prognostics and Health Management of Power Transformers Using Dissolved Gas Analysis Sensor Data and Duval\u2019s Polygons"
+ ],
+ "prefix": "10.3390",
+ "volume": "25",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0009-0005-1016-808X",
+   "authenticated-orcid": false,
+   "given": "Fabio Norikazu",
+   "family": "Kashiwagi",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Department of Mechatronics and Mechanical Systems Engineering, Polytechnic School, University of S\u00e3o Paulo, Avenida Professor Mello de Moraes 2231, S\u00e3o Paulo 05508-030, SP, Brazil"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-5140-1651",
+   "authenticated-orcid": false,
+   "given": "Miguel Angelo de Carvalho",
+   "family": "Michalski",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Mechatronics and Mechanical Systems Engineering, Polytechnic School, University of S\u00e3o Paulo, Avenida Professor Mello de Moraes 2231, S\u00e3o Paulo 05508-030, SP, Brazil"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-9837-7038",
+   "authenticated-orcid": false,
+   "given": "Gilberto Francisco Martha",
+   "family": "de Souza",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Mechatronics and Mechanical Systems Engineering, Polytechnic School, University of S\u00e3o Paulo, Avenida Professor Mello de Moraes 2231, S\u00e3o Paulo 05508-030, SP, Brazil"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Halley Jos\u00e9 Braga",
+   "family": "da Silva",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Mechatronics and Mechanical Systems Engineering, Polytechnic School, University of S\u00e3o Paulo, Avenida Professor Mello de Moraes 2231, S\u00e3o Paulo 05508-030, SP, Brazil"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-7508-9404",
+   "authenticated-orcid": false,
+   "given": "Hyghor Miranda",
+   "family": "C\u00f4rtes",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Mechatronics and Mechanical Systems Engineering, Polytechnic School, University of S\u00e3o Paulo, Avenida Professor Mello de Moraes 2231, S\u00e3o Paulo 05508-030, SP, Brazil"
+    },
+    {
+     "name": "EDP Brasil, Avenida Cassiano Ricardo, 1973\u2014Jardim Alvorada, S\u00e3o Jos\u00e9 dos Campos 12240-540, SP, Brazil"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    23
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "doi-asserted-by": "crossref",
+   "first-page": "418",
+   "DOI": "10.1016/j.egypro.2017.11.053",
+   "article-title": "An Analysis of Power Transformer Outages and Reliability Monitoring",
+   "volume": "141",
+   "author": "Rexhepi",
+   "year": "2017",
+   "journal-title": "Energy Procedia"
+  },
+  {
+   "key": "ref_2",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Atwa, O.S.E. (2019). Practical Power System and Protective Relays Commissioning, Elsevier.",
+   "DOI": "10.1016/B978-0-12-816858-5.00020-4"
+  },
+  {
+   "key": "ref_3",
+   "first-page": "222",
+   "article-title": "Influence of Electrical and Thermal Ageing on the Mineral Insulating Oil Performance for Power Transformer Applications",
+   "volume": "62",
+   "author": "Ranga",
+   "year": "2020",
+   "journal-title": "Insight\u2014Non-Destr. Test. Cond. Monit."
+  },
+  {
+   "key": "ref_4",
+   "doi-asserted-by": "crossref",
+   "first-page": "601",
+   "DOI": "10.1007/s12667-015-0186-0",
+   "article-title": "Distribution Transformers Failures: How Does It Cost? Evidence from Greece",
+   "volume": "7",
+   "author": "Doukas",
+   "year": "2016",
+   "journal-title": "Energy Syst."
+  },
+  {
+   "key": "ref_5",
+   "doi-asserted-by": "crossref",
+   "unstructured": "El-Bassiouny, A., El-Shimy, M., and Hammouda, R. (2017, January 19\u201321). Impact of Power Transformer Failures on Customer Interruptions Costs Using Customer Damage Functions. Proceedings of the 2017 Nineteenth International Middle East Power Systems Conference (MEPCON), Cairo, Egypt.",
+   "DOI": "10.1109/MEPCON.2017.8301237"
+  },
+  {
+   "key": "ref_6",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zhao, X., Gui, F., Chen, H., Fan, L., and Pan, P. (2024). Life Cycle Cost Estimation and Analysis of Transformers Based on Failure Rate. Appl. Sci., 14.",
+   "DOI": "10.3390/app14031210"
+  },
+  {
+   "key": "ref_7",
+   "first-page": "713",
+   "article-title": "A Review on Power Transformer Failures: Analysis of Failure Types and Causative Factors",
+   "volume": "38",
+   "author": "Zokirovich",
+   "year": "2025",
+   "journal-title": "Indones. J. Electr. Eng. Comput. Sci."
+  },
+  {
+   "key": "ref_8",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Verma, N., and Chandel, A.K. (2022, January 4). Incipient Fault Diagnosis of Power Transformer Based on Duval Pentagon Using Medium Neural Network. Proceedings of the 2022 1st International Conference on Sustainable Technology for Power and Energy Systems (STPES), Srinagar, India.",
+   "DOI": "10.1109/STPES54845.2022.10006647"
+  },
+  {
+   "key": "ref_9",
+   "doi-asserted-by": "crossref",
+   "first-page": "22",
+   "DOI": "10.1109/57.44605",
+   "article-title": "Dissolved Gas Analysis: It Can Save Your Transformer",
+   "volume": "5",
+   "author": "Duval",
+   "year": "1989",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_10",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Bessa, A.R., Fardin, J.F., Ciarelli, P.M., and Encarna\u00e7\u00e3o, L.F. (2023). Conventional Dissolved Gases Analysis in Power Transformers: Review. Energies, 16.",
+   "DOI": "10.3390/en16217219"
+  },
+  {
+   "key": "ref_11",
+   "unstructured": "(2022). Mineral Oil-Filled Electrical Equipment in Service\u2014Guidance on the Interpretation of Dissolved and Free Gases Analysis (Standard No. IEC 60599)."
+  },
+  {
+   "key": "ref_12",
+   "unstructured": "(2019). IEEE Guide for the Interpretation of Gases Generated in Mineral Oil-Immersed Transformers (Standard No. IEEE SA IEEE Std C57.104)."
+  },
+  {
+   "key": "ref_13",
+   "doi-asserted-by": "crossref",
+   "first-page": "8",
+   "DOI": "10.1109/MEI.2002.1014963",
+   "article-title": "A Review of Faults Detectable by Gas-in-Oil Analysis in Transformers",
+   "volume": "18",
+   "author": "Duval",
+   "year": "2002",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_14",
+   "doi-asserted-by": "crossref",
+   "first-page": "22",
+   "DOI": "10.1109/MEI.2008.4665347",
+   "article-title": "The Duval Triangle for Load Tap Changers, Non-Mineral Oils and Low Temperature Faults in Transformers",
+   "volume": "24",
+   "author": "Duval",
+   "year": "2008",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_15",
+   "doi-asserted-by": "crossref",
+   "first-page": "7",
+   "DOI": "10.1109/MEI.2008.4635656",
+   "article-title": "Calculation of DGA Limit Values and Sampling Intervals in Transformers in Service",
+   "volume": "24",
+   "author": "Duval",
+   "year": "2008",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_16",
+   "doi-asserted-by": "crossref",
+   "first-page": "9",
+   "DOI": "10.1109/MEI.2014.6943428",
+   "article-title": "The Duval Pentagon-a New Complementary Tool for the Interpretation of Dissolved Gas Analysis in Transformers",
+   "volume": "30",
+   "author": "Duval",
+   "year": "2014",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "first-page": "19",
+   "DOI": "10.1109/MEI.2022.9648268",
+   "article-title": "Identification of Arcing Faults in Paper and Oil in Transformers\u2014Part I: Using the Duval Pentagons",
+   "volume": "38",
+   "author": "Duval",
+   "year": "2022",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_18",
+   "doi-asserted-by": "crossref",
+   "first-page": "2507",
+   "DOI": "10.1109/TDEI.2015.004999",
+   "article-title": "Development of a New Graphical Technique for Dissolved Gas Analysis in Power Transformers Based on the Five Combustible Gases",
+   "volume": "22",
+   "author": "Mansour",
+   "year": "2015",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_19",
+   "doi-asserted-by": "crossref",
+   "first-page": "e25975",
+   "DOI": "10.1016/j.heliyon.2024.e25975",
+   "article-title": "Machine Learning Based Multi-Method Interpretation to Enhance Dissolved Gas Analysis for Power Transformer Fault Diagnosis",
+   "volume": "10",
+   "author": "Suwarno",
+   "year": "2024",
+   "journal-title": "Heliyon"
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "first-page": "111347",
+   "DOI": "10.1016/j.rser.2021.111347",
+   "article-title": "Advances in DGA Based Condition Monitoring of Transformers: A Review",
+   "volume": "149",
+   "author": "Wani",
+   "year": "2021",
+   "journal-title": "Renew. Sustain. Energy Rev."
+  },
+  {
+   "key": "ref_21",
+   "doi-asserted-by": "crossref",
+   "first-page": "108676",
+   "DOI": "10.1016/j.ress.2022.108676",
+   "article-title": "Probabilistic Forecasting Informed Failure Prognostics Framework for Improved RUL Prediction under Uncertainty: A Transformer Case Study",
+   "volume": "226",
+   "author": "Aizpurua",
+   "year": "2022",
+   "journal-title": "Reliab. Eng. Syst. Saf."
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "first-page": "109064",
+   "DOI": "10.1016/j.epsr.2022.109064",
+   "article-title": "Conventional Methods of Dissolved Gas Analysis Using Oil-Immersed Power Transformer for Fault Diagnosis: A Review",
+   "volume": "216",
+   "author": "Ali",
+   "year": "2023",
+   "journal-title": "Electr. Power Syst. Res."
+  },
+  {
+   "key": "ref_23",
+   "doi-asserted-by": "crossref",
+   "first-page": "1350",
+   "DOI": "10.1109/TPWRD.2012.2188143",
+   "article-title": "Diagnosing Faults in Power Transformers with Autoassociative Neural Networks and Mean Shift",
+   "volume": "27",
+   "author": "Miranda",
+   "year": "2012",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_24",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Pereira, F.H., Bezerra, F.E., Junior, S., Santos, J., Chabu, I., de Souza, G.F.M., Micerino, F., and Nabeta, S.I. (2018). Nonlinear Autoregressive Neural Network Models for Prediction of Transformer Oil-Dissolved Gas Concentrations. Energies, 11.",
+   "DOI": "10.3390/en11071691"
+  },
+  {
+   "key": "ref_25",
+   "doi-asserted-by": "crossref",
+   "first-page": "1838",
+   "DOI": "10.1109/TDEI.2016.005301",
+   "article-title": "Integrated ANN-Based Proactive Fault Diagnostic Scheme for Power Transformers Using Dissolved Gas Analysis",
+   "volume": "23",
+   "author": "Ghoneim",
+   "year": "2016",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_26",
+   "doi-asserted-by": "crossref",
+   "first-page": "974",
+   "DOI": "10.1109/TDEI.2013.6518967",
+   "article-title": "Dissolved Gas Analysis of Mineral Oil for Power Transformer Fault Diagnosis Using Fuzzy Logic",
+   "volume": "20",
+   "author": "Huang",
+   "year": "2013",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_27",
+   "doi-asserted-by": "crossref",
+   "first-page": "305",
+   "DOI": "10.15866/iree.v11i3.8453",
+   "article-title": "A Fuzzy Diagnostic System for Incipient Transformer Faults Based on DGA of the Insulating Transformer Oils",
+   "volume": "11",
+   "author": "Taha",
+   "year": "2016",
+   "journal-title": "Int. Rev. Electr. Eng. (IREE)"
+  },
+  {
+   "key": "ref_28",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zeng, B., Guo, J., Zhu, W., Xiao, Z., Yuan, F., and Huang, S. (2019). A Transformer Fault Diagnosis Model Based On Hybrid Grey Wolf Optimizer and LS-SVM. Energies, 12.",
+   "DOI": "10.3390/en12214170"
+  },
+  {
+   "key": "ref_29",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Aciu, A.-M., Ni\u021bu, M.-C., Nicola, C.-I., and Nicola, M. (2024). Determining the Remaining Functional Life of Power Transformers Using Multiple Methods of Diagnosing the Operating Condition Based on SVM Classification Algorithms. Machines, 12.",
+   "DOI": "10.3390/machines12010037"
+  },
+  {
+   "key": "ref_30",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Yuan, F., Guo, J., Xiao, Z., Zeng, B., Zhu, W., and Huang, S. (2019). A Transformer Fault Diagnosis Model Based on Chemical Reaction Optimization and Twin Support Vector Machine. Energies, 12.",
+   "DOI": "10.3390/en12050960"
+  },
+  {
+   "key": "ref_31",
+   "doi-asserted-by": "crossref",
+   "first-page": "2828",
+   "DOI": "10.1109/TDEI.2017.006727",
+   "article-title": "Dissolved Gas Analysis of Insulating Oil for Power Transformer Fault Diagnosis with Deep Belief Network",
+   "volume": "24",
+   "author": "Dai",
+   "year": "2017",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_32",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Shang, H., Xu, J., Zheng, Z., Qi, B., and Zhang, L. (2019). A Novel Fault Diagnosis Method for Power Transformer Based on Dissolved Gas Analysis Using Hypersphere Multiclass Support Vector Machine and Improved D\u2013S Evidence Theory. Energies, 12.",
+   "DOI": "10.3390/en12204017"
+  },
+  {
+   "key": "ref_33",
+   "doi-asserted-by": "crossref",
+   "first-page": "360",
+   "DOI": "10.1109/TDEI.2018.006746",
+   "article-title": "An Integrated Method of ANFIS and Dempster-Shafer Theory for Fault Diagnosis of Power Transformer",
+   "volume": "25",
+   "author": "Kari",
+   "year": "2018",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_34",
+   "unstructured": "Hyndman, R.J., and Athanasopoulos, G. (2018). Forecasting: Principles and Practice, OTexts. [2nd ed.]."
+  },
+  {
+   "key": "ref_35",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.18637/jss.v027.i03",
+   "article-title": "Automatic Time Series Forecasting: The Forecast Package for R",
+   "volume": "27",
+   "author": "Hyndman",
+   "year": "2008",
+   "journal-title": "J. Stat. Softw."
+  },
+  {
+   "key": "ref_36",
+   "doi-asserted-by": "crossref",
+   "first-page": "1360",
+   "DOI": "10.1016/j.egyr.2022.03.020",
+   "article-title": "Prediction of the Dissolved Gas Concentration in Power Transformer Oil Based on SARIMA Model",
+   "volume": "8",
+   "author": "Liu",
+   "year": "2022",
+   "journal-title": "Energy Rep."
+  },
+  {
+   "key": "ref_37",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Wang, T.-L., Yang, J.-G., Li, J.-S., Li, Y., Wu, P., Lin, J.-S., and Liang, J.-B. (2022, January 16\u201318). Time Series Prediction of Dissolved Gas Concentrations in Transformer Oil Using ARIMA-NKDE Method. Proceedings of the 2022 2nd International Conference on Electrical Engineering and Control Science (IC2ECS), Nanjing, China.",
+   "DOI": "10.1109/IC2ECS57645.2022.10087902"
+  },
+  {
+   "key": "ref_38",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zhang, P., Hu, K., Yang, Y., Yi, G., Zhang, X., Peng, R., and Liu, J. (2025). Research on Prediction of Dissolved Gas Concentration in a Transformer Based on Dempster\u2013Shafer Evidence Theory-Optimized Ensemble Learning. Electronics, 14.",
+   "DOI": "10.3390/electronics14071266"
+  },
+  {
+   "key": "ref_39",
+   "doi-asserted-by": "crossref",
+   "first-page": "103",
+   "DOI": "10.1177/0020294017707461",
+   "article-title": "Bayesian Duval Triangle Method for Fault Prediction and Assessment of Oil Immersed Transformers",
+   "volume": "50",
+   "author": "Lakehal",
+   "year": "2017",
+   "journal-title": "Meas. Control"
+  },
+  {
+   "key": "ref_40",
+   "doi-asserted-by": "crossref",
+   "first-page": "1910",
+   "DOI": "10.1109/TIA.2021.3134140",
+   "article-title": "Bayesian Optimization-Based Gradient Boosting Method of Fault Detection in Oil-Immersed Transformer and Reactors",
+   "volume": "58",
+   "author": "Paul",
+   "year": "2022",
+   "journal-title": "IEEE Trans. Ind. Appl."
+  },
+  {
+   "key": "ref_41",
+   "doi-asserted-by": "crossref",
+   "first-page": "58654",
+   "DOI": "10.1109/ACCESS.2023.3285413",
+   "article-title": "Gas Losses in Transformers\u2014Influences and Consideration",
+   "volume": "11",
+   "author": "Riedmann",
+   "year": "2023",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_42",
+   "doi-asserted-by": "crossref",
+   "first-page": "31",
+   "DOI": "10.1109/57.917529",
+   "article-title": "Interpretation of Gas-in-Oil Analysis Using New IEC Publication 60599 and IEC TC 10 Databases",
+   "volume": "17",
+   "author": "Duval",
+   "year": "2001",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_43",
+   "doi-asserted-by": "crossref",
+   "first-page": "349",
+   "DOI": "10.1109/TEI.1978.298141",
+   "article-title": "IEEE and IEC Codes to Interpret Incipient Faults in Transformers, Using Gas in Oil Analysis",
+   "volume": "EI-13",
+   "author": "Rogers",
+   "year": "1978",
+   "journal-title": "IEEE Trans. Electr. Insul."
+  },
+  {
+   "key": "ref_44",
+   "doi-asserted-by": "crossref",
+   "first-page": "1534",
+   "DOI": "10.1109/TDEI.2023.3278623",
+   "article-title": "Detection of Carbonization of Paper in Transformers Using Duval Pentagon 2 and Triangle 5",
+   "volume": "30",
+   "author": "Duval",
+   "year": "2023",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_45",
+   "doi-asserted-by": "crossref",
+   "first-page": "12",
+   "DOI": "10.1109/MEI.2022.9916225",
+   "article-title": "Gas Formation from Arcing Faults in Transformers\u2014Part II",
+   "volume": "38",
+   "author": "Duval",
+   "year": "2022",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_46",
+   "unstructured": "Duval, M., Arvidsson, L., Boman, P., Carrander, K., Foschum, H., Grisaru, M., Hall, A.C., Haug, A.M., Kelly, J., and Knab, H. (2006). Recent Developments in DGA Interpretation\u2014Joint Task Force.01/A2.11, CIGRE."
+  },
+  {
+   "key": "ref_47",
+   "doi-asserted-by": "crossref",
+   "first-page": "97",
+   "DOI": "10.1049/nde2.12082",
+   "article-title": "Traditional Fault Diagnosis Methods for Mineral Oil-immersed Power Transformer Based on Dissolved Gas Analysis: Past, Present and Future",
+   "volume": "7",
+   "author": "Nanfak",
+   "year": "2024",
+   "journal-title": "IET Nanodielectrics"
+  },
+  {
+   "key": "ref_48",
+   "doi-asserted-by": "crossref",
+   "first-page": "689",
+   "DOI": "10.1002/tee.22148",
+   "article-title": "Integrated Power Transformer Diagnosis Using Hybrid Fuzzy Dissolved Gas Analysis",
+   "volume": "10",
+   "author": "Liu",
+   "year": "2015",
+   "journal-title": "IEEJ Trans. Electr. Electron. Eng."
+  },
+  {
+   "key": "ref_49",
+   "doi-asserted-by": "crossref",
+   "first-page": "1239",
+   "DOI": "10.1109/TDEI.2017.005959",
+   "article-title": "Dissolved Gas Analysis Evaluation in Electric Power Transformers Using Conventional Methods a Review",
+   "volume": "24",
+   "author": "Faiz",
+   "year": "2017",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_50",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Singh, S.N., Wen, F., and Jain, M. (2019). Comparative Study of Duval Triangle with the New DGA Interpretation Scheme. Advances in System Optimization and Control\u2014Select Proceedings of ICAEDC 2017, Springer.",
+   "DOI": "10.1007/978-981-13-0665-5"
+  },
+  {
+   "key": "ref_51",
+   "doi-asserted-by": "crossref",
+   "first-page": "303",
+   "DOI": "10.1049/hve.2018.5061",
+   "article-title": "Application of Parzen Window Estimation for Incipient Fault Diagnosis in Power Transformers",
+   "volume": "3",
+   "author": "Islam",
+   "year": "2018",
+   "journal-title": "High Volt."
+  },
+  {
+   "key": "ref_52",
+   "first-page": "9674054",
+   "article-title": "Power Transformer Fault Severity Estimation Based on Dissolved Gas Analysis and Energy of Fault Formation Technique",
+   "volume": "2019",
+   "author": "Mharakurwa",
+   "year": "2019",
+   "journal-title": "J. Electr. Comput. Eng."
+  },
+  {
+   "key": "ref_53",
+   "doi-asserted-by": "crossref",
+   "first-page": "665",
+   "DOI": "10.1016/j.procs.2015.08.086",
+   "article-title": "Probabilistic Neural Network Based Incipient Fault Identification Using DGA Dataset",
+   "volume": "58",
+   "author": "Malik",
+   "year": "2015",
+   "journal-title": "Procedia Comput. Sci."
+  },
+  {
+   "key": "ref_54",
+   "doi-asserted-by": "crossref",
+   "first-page": "111162",
+   "DOI": "10.1109/ACCESS.2021.3102415",
+   "article-title": "Power Transformer Fault Diagnosis Based on DGA Using a Convolutional Neural Network With Noise in Measurements",
+   "volume": "9",
+   "author": "Taha",
+   "year": "2021",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_55",
+   "doi-asserted-by": "crossref",
+   "first-page": "943",
+   "DOI": "10.1049/iet-gtd.2016.0886",
+   "article-title": "Conditional Probability-based Interpretation of Dissolved Gas Analysis for Transformer Incipient Faults",
+   "volume": "11",
+   "author": "Taha",
+   "year": "2017",
+   "journal-title": "IET Gener. Transm. Distrib."
+  },
+  {
+   "key": "ref_56",
+   "doi-asserted-by": "crossref",
+   "first-page": "186",
+   "DOI": "10.1016/j.egyr.2022.10.389",
+   "article-title": "Prediction of Dissolved Gas Concentration in Transformer Oil Considering Data Loss Scenarios in Power System",
+   "volume": "9",
+   "author": "Zhang",
+   "year": "2023",
+   "journal-title": "Energy Rep."
+  },
+  {
+   "key": "ref_57",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Huang, X., Zhuang, X., Tian, F., Niu, Z., Chen, Y., Zhou, Q., and Yuan, C. (2025). A Hybrid ARIMA-LSTM-XGBoost Model with Linear Regression Stacking for Transformer Oil Temperature Prediction. Energies, 18.",
+   "DOI": "10.3390/en18061432"
+  },
+  {
+   "key": "ref_58",
+   "doi-asserted-by": "crossref",
+   "unstructured": "de Carvalho Michalski, M.A., de Andrade Melani, A.H., da Silva, R.F., and de Souza, G.F.M. Remaining Useful Life Estimation Based on an Adaptive Approach of Autoregressive Integrated Moving Average (ARIMA). Extended Abstracts, Proceedings of the 32nd European Safety and Reliability Conference, Dublin, Ireland, 28 August\u20131 September 2022, Research Publishing Services.",
+   "DOI": "10.3850/978-981-18-5183-4_R22-04-073"
+  },
+  {
+   "key": "ref_59",
+   "unstructured": "Parsaei, H.R., and Karwowski, W. (2021). Recent Advances in Time Series Forecasting, CRC Press."
+  },
+  {
+   "key": "ref_60",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Brockwell, P.J., and Davis, R.A. (2016). Introduction to Time Series and Forecasting, Springer International Publishing. Springer Texts in Statistics.",
+   "DOI": "10.1007/978-3-319-29854-2"
+  },
+  {
+   "key": "ref_61",
+   "doi-asserted-by": "crossref",
+   "first-page": "37",
+   "DOI": "10.1002/for.3980120104",
+   "article-title": "Time-Series Analysis Supported by Power Transformations",
+   "volume": "12",
+   "author": "Guerrero",
+   "year": "1993",
+   "journal-title": "J. Forecast."
+  },
+  {
+   "key": "ref_62",
+   "doi-asserted-by": "crossref",
+   "first-page": "211",
+   "DOI": "10.1111/j.2517-6161.1964.tb00553.x",
+   "article-title": "An Analysis of Transformations",
+   "volume": "26",
+   "author": "Box",
+   "year": "1964",
+   "journal-title": "J. R. Stat. Soc. Series. B Stat. Methodol."
+  },
+  {
+   "key": "ref_63",
+   "doi-asserted-by": "crossref",
+   "first-page": "716",
+   "DOI": "10.1109/TAC.1974.1100705",
+   "article-title": "A New Look at the Statistical Model Identification",
+   "volume": "19",
+   "author": "Akaike",
+   "year": "1974",
+   "journal-title": "IEEE Trans. Autom. Control"
+  },
+  {
+   "key": "ref_64",
+   "doi-asserted-by": "crossref",
+   "first-page": "125",
+   "DOI": "10.1016/S0169-2070(01)00112-1",
+   "article-title": "Bootstrap Prediction Intervals for Single Period Regression Forecasts",
+   "volume": "18",
+   "author": "Lam",
+   "year": "2002",
+   "journal-title": "Int. J. Forecast."
+  },
+  {
+   "key": "ref_65",
+   "doi-asserted-by": "crossref",
+   "first-page": "1026",
+   "DOI": "10.1080/01621459.1985.10478220",
+   "article-title": "Bootstrap Prediction Intervals for Regression",
+   "volume": "80",
+   "author": "Stine",
+   "year": "1985",
+   "journal-title": "J. Am. Stat. Assoc."
+  },
+  {
+   "key": "ref_66",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Wu, B., Gao, Y., Feng, S., and Chanwimalueang, T. (2018). Sparse Optimistic Based on Lasso-LSQR and Minimum Entropy De-Convolution with FARIMA for the Remaining Useful Life Prediction of Machinery. Entropy, 20.",
+   "DOI": "10.3390/e20100747"
+  },
+  {
+   "key": "ref_67",
+   "doi-asserted-by": "crossref",
+   "first-page": "265",
+   "DOI": "10.1016/j.microrel.2016.07.151",
+   "article-title": "Lithium-Ion Batteries Remaining Useful Life Prediction Based on a Mixture of Empirical Mode Decomposition and ARIMA Model",
+   "volume": "65",
+   "author": "Zhou",
+   "year": "2016",
+   "journal-title": "Microelectron. Reliab."
+  },
+  {
+   "key": "ref_68",
+   "doi-asserted-by": "crossref",
+   "first-page": "302",
+   "DOI": "10.1049/hve2.12136",
+   "article-title": "New Correlation Features for Dissolved Gas Analysis Based Transformer Fault Diagnosis Based on the Maximal Information Coefficient",
+   "volume": "7",
+   "author": "Liang",
+   "year": "2022",
+   "journal-title": "High Volt."
+  },
+  {
+   "key": "ref_69",
+   "first-page": "4",
+   "article-title": "Predicting the Present with Bayesian Structural Time Series",
+   "volume": "5",
+   "author": "Scott",
+   "year": "2014",
+   "journal-title": "Int. J. Math. Model. Numer. Optim."
+  },
+  {
+   "key": "ref_70",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Dietterich, T. (2006). Gaussian Processes for Machine Learning, MIT Press.",
+   "DOI": "10.1002/0470018860.s00036"
+  },
+  {
+   "key": "ref_71",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Casolaro, A., Capone, V., Iannuzzo, G., and Camastra, F. (2023). Deep Learning for Time Series Forecasting: Advances and Open Problems. Information, 14.",
+   "DOI": "10.3390/info14110598"
+  },
+  {
+   "key": "ref_72",
+   "unstructured": "Box, G.E.P., Jenkins, G.M., Reinsel, G.C., and Ljung, G.M. (2016). Time Series Analysis: Forecasting and Control, Wiley. [5th ed.]."
+  },
+  {
+   "key": "ref_73",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.2307/2529336",
+   "article-title": "The Analysis and Selection of Variables in Linear Regression",
+   "volume": "32",
+   "author": "Hocking",
+   "year": "1976",
+   "journal-title": "Biometrics"
+  },
+  {
+   "key": "ref_74",
+   "unstructured": "Ralston, A., and Wilf, H.S. (1960). Mathematical Methods for Digital Computers, John Wiley & Sons."
+  },
+  {
+   "key": "ref_75",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Shapiro, S.S., and Wilk, M.B. (1965). An Analysis of Variance Test for Normality (Complete Samples). Biometrika, 52.",
+   "DOI": "10.2307/2333709"
+  },
+  {
+   "key": "ref_76",
+   "doi-asserted-by": "crossref",
+   "first-page": "297",
+   "DOI": "10.1093/biomet/65.2.297",
+   "article-title": "On a Measure of Lack of Fit in Time Series Models",
+   "volume": "65",
+   "author": "Ljung",
+   "year": "1978",
+   "journal-title": "Biometrika"
+  },
+  {
+   "key": "ref_77",
+   "doi-asserted-by": "crossref",
+   "first-page": "1509",
+   "DOI": "10.1080/01621459.1970.10481180",
+   "article-title": "Distribution of Residual Autocorrelations in Autoregressive-Integrated Moving Average Time Series Models",
+   "volume": "65",
+   "author": "Box",
+   "year": "1970",
+   "journal-title": "J. Am. Stat. Assoc."
+  },
+  {
+   "key": "ref_78",
+   "doi-asserted-by": "crossref",
+   "first-page": "987",
+   "DOI": "10.2307/1912773",
+   "article-title": "Autoregressive Conditional Heteroscedasticity with Estimates of the Variance of United Kingdom Inflation",
+   "volume": "50",
+   "author": "Engle",
+   "year": "1982",
+   "journal-title": "Econometrica"
+  },
+  {
+   "key": "ref_79",
+   "doi-asserted-by": "crossref",
+   "first-page": "88",
+   "DOI": "10.1007/s00502-022-00992-8",
+   "article-title": "Online Dissolved Gas Analysis Used for Transformers\u2014Possibilities, Experiences, and Limitations",
+   "volume": "139",
+   "author": "Riedmann",
+   "year": "2022",
+   "journal-title": "e Elektrotech. Inf."
+  }
+ ],
+ "container-title": [
+  "Sensors"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/1424-8220/25/21/6520/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    25
+   ]
+  ],
+  "date-time": "2025-10-25T04:16:54Z",
+  "timestamp": 1761365814000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/1424-8220/25/21/6520"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    23
+   ]
+  ]
+ },
+ "references-count": 79,
+ "journal-issue": {
+  "issue": "21",
+  "published-online": {
+   "date-parts": [
+    [
+     2025,
+     11
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "s25216520"
+ ],
+ "URL": "https://doi.org/10.3390/s25216520",
+ "relation": {},
+ "ISSN": [
+  "1424-8220"
+ ],
+ "issn-type": [
+  {
+   "value": "1424-8220",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    23
+   ]
+  ]
+ }
+}

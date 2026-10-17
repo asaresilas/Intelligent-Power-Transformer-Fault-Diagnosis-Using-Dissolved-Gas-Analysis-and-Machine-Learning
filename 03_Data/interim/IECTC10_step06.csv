@@ -1,0 +1,118 @@
+record_id,source_id,source_file,source_line,original_label,H2,CH4,C2H6,C2H4,C2H2,src_equipment_type,src_inspection,src_ref,src_CO,src_CO2,n_measured,n_zero,n_placeholder,n_blank,n_not_available,all_five_reported
+IECTC10_0001,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,2,PD,32930.0,2397.0,157.0,,,U,Low energy partial discharges and x-wax formation,2,313.0,560.0,3,0,0,2,2,False
+IECTC10_0002,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,3,PD,37800.0,1740.0,249.0,8.0,8.0,I,Corona and x-wax formation,4,56.0,197.0,5,0,0,0,0,True
+IECTC10_0003,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,4,PD,92600.0,10200.0,,,,I,X-wax deposition,4,6400.0,103151.0,2,0,0,3,3,False
+IECTC10_0004,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,5,PD,8266.0,1061.0,22.0,,,B,Partial discharges inducing displacement of insulation and bolt,10,107.0,498.0,3,0,0,2,2,False
+IECTC10_0005,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,6,PD,9340.0,995.0,60.0,6.0,7.0,I,Partial discharges,15,60.0,620.0,5,0,0,0,0,True
+IECTC10_0006,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,7,PD,36036.0,4704.0,554.0,5.0,10.0,I,X-wax deposits,19,6.0,347.0,5,0,0,0,0,True
+IECTC10_0007,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,8,PD,33046.0,619.0,58.0,2.0,,I,X-wax deposits,19,51.0,1.0,4,0,0,1,1,False
+IECTC10_0008,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,9,PD,40280.0,1069.0,1060.0,1.0,1.0,I,X-wax deposits,19,1.0,,5,0,0,0,0,True
+IECTC10_0009,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,10,PD,26788.0,18342.0,2111.0,27.0,,I,Heavy x-wax deposits,19,704.0,,4,0,0,1,1,False
+IECTC10_0010,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,11,D1,78.0,20.0,11.0,13.0,28.0,P,"Loosening of potential ring on bushing, with marks of sparking and tracking",2,,784.0,5,0,0,0,0,True
+IECTC10_0011,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,12,D1,305.0,100.0,33.0,161.0,541.0,P,Sparking between HV braided connection and isolated copper tube,3,440.0,3700.0,5,0,0,0,0,True
+IECTC10_0012,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,13,D1,35.0,6.0,3.0,26.0,482.0,S,Selector breaking current in selector tank,3,200.0,2240.0,5,0,0,0,0,True
+IECTC10_0013,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,14,D1,543.0,120.0,41.0,411.0,1880.0,U,Continuous sparking between metal cups and earthed bolts in winding,3,76.0,2800.0,5,0,0,0,0,True
+IECTC10_0014,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,15,D1,1230.0,163.0,27.0,233.0,692.0,P,Tracking to HV bushing,4,130.0,115.0,5,0,0,0,0,True
+IECTC10_0015,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,16,D1,645.0,86.0,13.0,110.0,317.0,P,Tracking in bushing,4,74.0,114.0,5,0,0,0,0,True
+IECTC10_0016,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,17,D1,60.0,10.0,4.0,4.0,4.0,R,Tracking to the ground in glue of central beam,4,780.0,7600.0,5,0,0,0,0,True
+IECTC10_0017,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,18,D1,95.0,10.0,,11.0,39.0,P,Sparking on tank walls to the bushing,4,122.0,467.0,4,0,0,1,1,False
+IECTC10_0018,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,19,D1,6870.0,1028.0,79.0,900.0,5500.0,S,500 OLTC normal operations,8,29.0,388.0,5,0,0,0,0,True
+IECTC10_0019,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,20,D1,10092.0,5399.0,530.0,6500.0,37565.0,S,3600 OLTC normal operations,8,42.0,413.0,5,0,0,0,0,True
+IECTC10_0020,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,21,D1,650.0,81.0,170.0,51.0,270.0,,Poor shielding contact (electrical problem),10,380.0,2000.0,5,0,0,0,0,True
+IECTC10_0021,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,22,D1,210.0,22.0,6.0,6.0,7.0,C,Traces of discharges in paper of cone junction of HV cable,13,19.0,74.0,5,0,0,0,0,True
+IECTC10_0022,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,23,D1,385.0,60.0,8.0,53.0,159.0,R,Sparking from bushing to tank,14,465.0,1250.0,5,0,0,0,0,True
+IECTC10_0023,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,24,D1,4230.0,690.0,5.0,196.0,1180.0,R,Sparking from bushing to tank,14,438.0,791.0,5,0,0,0,0,True
+IECTC10_0024,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,25,D1,7600.0,1230.0,318.0,836.0,1560.0,R,Tracking in paper,14,4970.0,4080.0,5,0,0,0,0,True
+IECTC10_0025,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,26,D1,595.0,80.0,9.0,89.0,244.0,P,Low energy arcing on bushing,14,524.0,2100.0,5,0,0,0,0,True
+IECTC10_0026,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,27,D1,120.0,25.0,1.0,8.0,40.0,R,Low energy in core,14,500.0,1600.0,5,0,0,0,0,True
+IECTC10_0027,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,28,D1,8.0,,,43.0,101.0,S,Contamination from OLTC,14,192.0,4067.0,3,0,0,2,2,False
+IECTC10_0028,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,29,D1,6454.0,2313.0,121.0,2159.0,6432.0,R,Tracking in insulation,14,3628.0,225.0,5,0,0,0,0,True
+IECTC10_0029,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,30,D1,2177.0,1049.0,207.0,440.0,705.0,R,Tracking from windings to beam,14,4571.0,3923.0,5,0,0,0,0,True
+IECTC10_0030,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,31,D1,1790.0,580.0,321.0,336.0,619.0,R,Sparking / Tracking in insulation,14,956.0,4250.0,5,0,0,0,0,True
+IECTC10_0031,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,32,D1,1330.0,10.0,20.0,66.0,182.0,P,Sparking from core to ground,14,231.0,1820.0,5,0,0,0,0,True
+IECTC10_0032,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,33,D1,4.0,1.0,2.0,7.0,52.0,U,Contamination from OLTC,14,93.0,519.0,5,0,0,0,0,True
+IECTC10_0033,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,34,D1,1900.0,285.0,31.0,957.0,7730.0,U,Defective OLTC operation,14,681.0,732.0,5,0,0,0,0,True
+IECTC10_0034,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,35,D1,57.0,24.0,2.0,27.0,30.0,B,Low energy arcing in bushing,14,540.0,2518.0,5,0,0,0,0,True
+IECTC10_0035,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,36,D1,1000.0,500.0,1.0,400.0,500.0,B,"Low energy discharge in oil, signs of tracking along inner porcelain",18,200.0,1000.0,5,0,0,0,0,True
+IECTC10_0036,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,37,D2,440.0,89.0,19.0,304.0,757.0,P,"Flahover from LV to ground, external",4,299.0,1190.0,5,0,0,0,0,True
+IECTC10_0037,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,38,D2,210.0,43.0,12.0,102.0,187.0,S,Arc in selector switch,4,167.0,1070.0,5,0,0,0,0,True
+IECTC10_0038,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,39,D2,2850.0,1115.0,138.0,1987.0,3675.0,U,Short circuit in distribution windings,4,2330.0,4330.0,5,0,0,0,0,True
+IECTC10_0039,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,40,D2,7020.0,1850.0,,2960.0,4410.0,U,"Short circuit from LV to ground, internal",4,2140.0,1000.0,4,0,0,1,1,False
+IECTC10_0040,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,41,D2,545.0,130.0,16.0,153.0,239.0,P,Short circuit from LV to connector,4,660.0,2850.0,5,0,0,0,0,True
+IECTC10_0041,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,42,D2,7150.0,1440.0,97.0,1210.0,1760.0,P,Arcing from windings to porcelain,4,608.0,2260.0,5,0,0,0,0,True
+IECTC10_0042,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,43,D2,620.0,325.0,38.0,181.0,244.0,U,Tertiary windings damaged by arcing,4,1480.0,2530.0,5,0,0,0,0,True
+IECTC10_0043,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,44,D2,120.0,31.0,,66.0,94.0,R,Arcing in wet cellulose,4,48.0,271.0,4,0,0,1,1,False
+IECTC10_0044,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,45,D2,755.0,229.0,32.0,404.0,460.0,P,Short circuit in windings,4,845.0,5580.0,5,0,0,0,0,True
+IECTC10_0045,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,46,D2,5100.0,1430.0,,1140.0,1010.0,R,Arcing from windings to ground (inadvertent piece leftover),4,117.0,197.0,4,0,0,1,1,False
+IECTC10_0046,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,47,D2,13500.0,6110.0,212.0,4510.0,4040.0,U,Short circuit in windings,4,8690.0,1460.0,5,0,0,0,0,True
+IECTC10_0047,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,48,D2,1570.0,1110.0,175.0,1780.0,1830.0,P,"Bushing swollen, tank opened",4,135.0,602.0,5,0,0,0,0,True
+IECTC10_0048,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,49,D2,3090.0,5020.0,323.0,3800.0,2540.0,P,Arcing to magnetic circuit (ground),4,270.0,400.0,5,0,0,0,0,True
+IECTC10_0049,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,50,D2,1820.0,405.0,35.0,365.0,634.0,P,Short circuit between conductors,4,1010.0,8610.0,5,0,0,0,0,True
+IECTC10_0050,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,51,D2,535.0,160.0,16.0,305.0,680.0,R,Arcing inside windings,4,172.0,338.0,5,0,0,0,0,True
+IECTC10_0051,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,52,D2,13.0,3.0,1.0,3.0,6.0,U,Flash-over between dislocated connection and HV bushing turret,9,4.0,51.0,5,0,0,0,0,True
+IECTC10_0052,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,53,D2,137.0,67.0,7.0,53.0,104.0,U,Flash-over due to lightning overvoltage with burnt insulation and leads,9,196.0,1678.0,5,0,0,0,0,True
+IECTC10_0053,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,54,D2,1084.0,188.0,8.0,166.0,769.0,S,Arcing on selector switch ring,9,38.0,199.0,5,0,0,0,0,True
+IECTC10_0054,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,55,D2,34.0,21.0,4.0,49.0,56.0,U,"Arcing between connections to tap changer, burnt areas on windings",9,95.0,315.0,5,0,0,0,0,True
+IECTC10_0055,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,56,D2,7940.0,2000.0,355.0,3120.0,5390.0,I,Arcing in static shield connections,10,1130.0,285.0,5,0,0,0,0,True
+IECTC10_0056,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,57,D2,150.0,130.0,9.0,55.0,30.0,C,"Very short HV high energy discharge, followed by tracking",13,120.0,200.0,5,0,0,0,0,True
+IECTC10_0057,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,58,D2,8200.0,3790.0,250.0,4620.0,5830.0,R,Arcing from bushing to tank,14,31.0,85.0,5,0,0,0,0,True
+IECTC10_0058,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,59,D2,260.0,215.0,35.0,334.0,277.0,P,Arcing in windings,14,130.0,416.0,5,0,0,0,0,True
+IECTC10_0059,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,60,D2,75.0,15.0,7.0,14.0,26.0,P,Arcing in windings,14,105.0,322.0,5,0,0,0,0,True
+IECTC10_0060,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,61,D2,530.0,345.0,85.0,266.0,250.0,R,Arcing in windings,14,3900.0,20000.0,5,0,0,0,0,True
+IECTC10_0061,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,62,D2,60.0,5.0,2.0,21.0,21.0,P,Arcing in oil,14,188.0,2510.0,5,0,0,0,0,True
+IECTC10_0062,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,63,D2,90.0,28.0,8.0,31.0,32.0,R,Arcing in wndings,14,1380.0,11700.0,5,0,0,0,0,True
+IECTC10_0063,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,64,D2,220.0,77.0,22.0,170.0,240.0,R,Arcing in wndings,14,1800.0,13800.0,5,0,0,0,0,True
+IECTC10_0064,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,65,D2,5900.0,1500.0,68.0,1200.0,2300.0,R,Arcing in wndings,14,750.0,335.0,5,0,0,0,0,True
+IECTC10_0065,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,66,D2,420.0,250.0,41.0,530.0,800.0,U,Arcing in wndings,14,300.0,751.0,5,0,0,0,0,True
+IECTC10_0066,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,67,D2,2800.0,2800.0,234.0,3500.0,3600.0,R,Arcing from bushing to tank,14,92.0,718.0,5,0,0,0,0,True
+IECTC10_0067,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,68,D2,99.0,170.0,20.0,200.0,190.0,R,Arcing in bushing,14,140.0,1160.0,5,0,0,0,0,True
+IECTC10_0068,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,69,D2,310.0,230.0,54.0,610.0,760.0,U,Arcing in oil duct,14,150.0,631.0,5,0,0,0,0,True
+IECTC10_0069,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,70,D2,800.0,160.0,23.0,260.0,600.0,U,Arcing in oil duct,14,490.0,690.0,5,0,0,0,0,True
+IECTC10_0070,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,71,D2,1500.0,395.0,28.0,395.0,323.0,P,Arcing from bushing to tank,14,365.0,576.0,5,0,0,0,0,True
+IECTC10_0071,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,72,D2,20000.0,13000.0,1850.0,29000.0,57000.0,P,Arcing from windings to core,14,2600.0,2430.0,5,0,0,0,0,True
+IECTC10_0072,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,73,D2,305.0,85.0,25.0,197.0,130.0,R,Arcing in windings (molten metal),14,813.0,8380.0,5,0,0,0,0,True
+IECTC10_0073,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,74,D2,1900.0,530.0,35.0,383.0,434.0,R,Arcing in windings,14,1890.0,7570.0,5,0,0,0,0,True
+IECTC10_0074,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,75,D2,110.0,62.0,90.0,140.0,250.0,R,Arcing in windings,14,680.0,6470.0,5,0,0,0,0,True
+IECTC10_0075,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,76,D2,3700.0,1690.0,128.0,2810.0,3270.0,P,Arcing in oil (turret),14,22.0,86.0,5,0,0,0,0,True
+IECTC10_0076,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,77,D2,2770.0,660.0,54.0,712.0,763.0,P,Arcing in oil (turret),14,522.0,1490.0,5,0,0,0,0,True
+IECTC10_0077,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,78,D2,245.0,120.0,18.0,131.0,167.0,R,Arcing from bushing to tank,14,829.0,4250.0,5,0,0,0,0,True
+IECTC10_0078,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,79,D2,1170.0,255.0,18.0,312.0,325.0,P,Arcing from HV to tank,14,5.0,1800.0,5,0,0,0,0,True
+IECTC10_0079,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,80,D2,4419.0,3564.0,668.0,2861.0,2025.0,R,Arcing from bushing to tank,14,909.0,9082.0,5,0,0,0,0,True
+IECTC10_0080,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,81,D2,810.0,580.0,111.0,570.0,490.0,R,Arcing in bushing,14,1100.0,6800.0,5,0,0,0,0,True
+IECTC10_0081,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,82,D2,5000.0,1200.0,83.0,1000.0,1100.0,R,Arcing in bushing insulation,14,140.0,265.0,5,0,0,0,0,True
+IECTC10_0082,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,83,D2,10000.0,6730.0,345.0,7330.0,10400.0,U,Arcing in OLTC and windings,14,1980.0,3830.0,5,0,0,0,0,True
+IECTC10_0083,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,84,D2,1570.0,735.0,87.0,1330.0,1740.0,U,Arcing in oil from copper bus to tank,14,711.0,4240.0,5,0,0,0,0,True
+IECTC10_0084,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,85,T1/T2,1270.0,3450.0,520.0,1390.0,8.0,P,High circulating currents between conductors with winding damage,3,483.0,44500.0,5,0,0,0,0,True
+IECTC10_0085,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,86,T1/T2,3420.0,7870.0,1500.0,6990.0,33.0,P,Circulating currents in LV windings and core,3,573.0,4640.0,5,0,0,0,0,True
+IECTC10_0086,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,87,T1/T2,360.0,610.0,259.0,260.0,9.0,I,Thermal runaway inside thick insulation with puncture / carbonization of paper,5,12000.0,74200.0,5,0,0,0,0,True
+IECTC10_0087,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,88,T1/T2,1.0,27.0,49.0,4.0,1.0,I,Thermal runaway in thick paper insulation,5,53.0,254.0,5,0,0,0,0,True
+IECTC10_0088,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,89,T1/T2,3675.0,6392.0,2500.0,7691.0,5.0,U,"Blackened area within windings, interturn fault, open circuit parallel path",9,101.0,833.0,5,0,0,0,0,True
+IECTC10_0089,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,90,T1/T2,48.0,610.0,29.0,10.0,,P,"Vertical bar buses burnt out, carbonization of paper strips",10,1900.0,970.0,4,0,0,1,1,False
+IECTC10_0090,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,91,T1/T2,12.0,18.0,4.0,4.0,,P,Carbonized windings during heat run tests,12,559.0,1710.0,4,0,0,1,1,False
+IECTC10_0091,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,92,T1/T2,66.0,60.0,2.0,7.0,,P,Circulating currents in magnetic tank shunt during heat run tests,12,76.0,90.0,4,0,0,1,1,False
+IECTC10_0092,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,93,T1/T2,1450.0,940.0,211.0,322.0,61.0,U,Overheating of core to ground and insulation shields (narrow oil ducts),14,2420.0,3560.0,5,0,0,0,0,True
+IECTC10_0093,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,94,T1/T2,,18900.0,410.0,540.0,330.0,B,Hot spot with carbon formation,14,3900.0,710.0,4,0,0,1,1,False
+IECTC10_0094,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,95,T1/T2,960.0,4000.0,1290.0,1560.0,6.0,I,Hot spot in paper,14,15800.0,50300.0,5,0,0,0,0,True
+IECTC10_0095,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,96,T1/T2,24700.0,61000.0,26300.0,42100.0,1560.0,I,Hot spot in paper,14,14400.0,30400.0,5,0,0,0,0,True
+IECTC10_0096,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,97,T1/T2,14.0,44.0,124.0,7.0,1.0,P,Overheating of conductor < 200 C,16,128.0,2746.0,5,0,0,0,0,True
+IECTC10_0097,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,98,T1/T2,2031.0,149.0,20.0,3.0,,R,Low temperature overheating of clamping beams of yokes by stray flux,17,556.0,3008.0,4,0,0,1,1,False
+IECTC10_0098,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,99,T1/T2,480.0,1075.0,298.0,1132.0,,R,"Idem, with carbonization of beams",17,464.0,1000.0,4,0,0,1,1,False
+IECTC10_0099,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,100,T1/T2,40000.0,400.0,70.0,600.0,6.0,B,Thermodielectric failure,18,800.0,218.0,5,0,0,0,0,True
+IECTC10_0100,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,101,T3,8800.0,64064.0,72128.0,95650.0,,P,Hot spot at connection,1,290.0,90300.0,4,0,0,1,1,False
+IECTC10_0101,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,102,T3,6709.0,10500.0,1400.0,17700.0,750.0,P,Circulating currents between yoke clamps and connecting bolts,3,290.0,1500.0,5,0,0,0,0,True
+IECTC10_0102,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,103,T3,1100.0,1600.0,221.0,2010.0,26.0,S,Pyrolitic carbon growth between selector contacts,3,,1430.0,5,0,0,0,0,True
+IECTC10_0103,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,104,T3,290.0,966.0,299.0,1810.0,57.0,P,Steel lamination eroded,4,72.0,756.0,5,0,0,0,0,True
+IECTC10_0104,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,105,T3,2500.0,10500.0,4790.0,13500.0,6.0,P,Circulating currents in clamping bolt,4,530.0,2310.0,5,0,0,0,0,True
+IECTC10_0105,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,106,T3,1860.0,4980.0,,10700.0,1600.0,U,Contacts of selector switch burnt,4,158.0,1300.0,4,0,0,1,1,False
+IECTC10_0106,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,107,T3,860.0,1670.0,30.0,2050.0,40.0,U,Lengthy overheating of tap changer contacts,6,10.0,690.0,5,0,0,0,0,True
+IECTC10_0107,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,108,T3,150.0,22.0,9.0,60.0,11.0,U,Defects on contacts of tap changer selector,7,,,5,0,0,0,0,True
+IECTC10_0108,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,109,T3,400.0,940.0,210.0,820.0,24.0,P,High contact resistance of winding terminal,10,390.0,1700.0,5,0,0,0,0,True
+IECTC10_0109,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,110,T3,6.0,2990.0,29990.0,26076.0,67.0,P,Ground wiring burnt and ruptured by circulating current,10,6.0,26.0,5,0,0,0,0,True
+IECTC10_0110,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,111,T3,100.0,200.0,110.0,670.0,11.0,U,Burnt copper contacts in change over selector,11,100.0,650.0,5,0,0,0,0,True
+IECTC10_0111,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,112,T3,290.0,1260.0,231.0,820.0,8.0,P,Bad contact in windings,14,228.0,826.0,5,0,0,0,0,True
+IECTC10_0112,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,113,T3,1550.0,2740.0,816.0,5450.0,184.0,R,Bad contact in defective weld in windings,14,1140.0,9360.0,5,0,0,0,0,True
+IECTC10_0113,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,114,T3,3910.0,4290.0,626.0,6040.0,1230.0,R,Hot spots in laminations,14,1800.0,11500.0,5,0,0,0,0,True
+IECTC10_0114,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,115,T3,12705.0,23498.0,6047.0,34257.0,5188.0,R,Hot spot in laminations (molten steel),14,4004.0,8539.0,5,0,0,0,0,True
+IECTC10_0115,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,116,T3,1.0,8.0,8.0,100.0,6.0,R,Hot spot on bushing,14,300.0,5130.0,5,0,0,0,0,True
+IECTC10_0116,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,117,T3,300.0,700.0,280.0,1700.0,36.0,R,High temperature in laminations,14,760.0,9250.0,5,0,0,0,0,True
+IECTC10_0117,IECTC10,03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv,118,T3,107.0,143.0,34.0,222.0,2.0,P,Burnt lamination during heat run test,14,193.0,1330.0,5,0,0,0,0,True

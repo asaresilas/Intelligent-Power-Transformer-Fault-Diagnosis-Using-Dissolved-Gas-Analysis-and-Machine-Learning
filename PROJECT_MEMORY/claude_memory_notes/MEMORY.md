@@ -1,0 +1,5 @@
+- [Project overview and status](project-overview-and-status.md) — MPhil DGA thesis goal, unified objectives, done vs pending
+- [User working preferences](user-working-preferences.md) — Word docs 12 pt / 1.15 spacing, no fabrication, simple step-by-step
+- [MATLAB environment facts](matlab-environment-facts.md) — R2025b without SPS, C: drive full kills logging, batch-run workaround
+- [Simscape model design](simscape-model-design.md) — parameter sources and solver/network pitfalls of the verified model
+- [Dataset access status](dataset-access-status.md) — paywalled IEEE datasets, requests sent, free Mendeley alternatives

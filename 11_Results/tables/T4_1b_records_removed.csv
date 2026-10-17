@@ -1,0 +1,4 @@
+source_id,reason,records removed
+DISTRAIN,exact copy within file,2
+DISTRAIN,"identical gases, conflicting labels",4
+DISTRAIN,leakage: matches a test record,139

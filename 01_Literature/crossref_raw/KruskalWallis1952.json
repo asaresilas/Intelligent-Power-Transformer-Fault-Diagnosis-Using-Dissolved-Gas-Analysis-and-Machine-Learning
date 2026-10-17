@@ -1,0 +1,633 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    13
+   ]
+  ],
+  "date-time": "2026-10-13T14:18:02Z",
+  "timestamp": 1791901082376,
+  "version": "4.3.4"
+ },
+ "reference-count": 69,
+ "publisher": "Informa UK Limited",
+ "issue": "260",
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Journal of the American Statistical Association"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    1952,
+    12
+   ]
+  ]
+ },
+ "DOI": "10.1080/01621459.1952.10483441",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2012,
+    4,
+    11
+   ]
+  ],
+  "date-time": "2012-04-11T14:43:34Z",
+  "timestamp": 1334155414000
+ },
+ "page": "583-621",
+ "source": "Crossref",
+ "is-referenced-by-count": 14254,
+ "title": [
+  "Use of Ranks in One-Criterion Variance Analysis"
+ ],
+ "prefix": "10.1080",
+ "volume": "47",
+ "author": [
+  {
+   "given": "William H.",
+   "family": "Kruskal",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "University of Chicago"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "W. Allen",
+   "family": "Wallis",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "University of Chicago"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "301",
+ "published-online": {
+  "date-parts": [
+   [
+    2012,
+    4,
+    11
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "e_1_2_1_2_1",
+   "first-page": "657",
+   "article-title": "\u201cM\u00e9moire sur les \u00e9lections au scrutin,\u201d",
+   "author": "Board Jean Charles",
+   "year": "1781",
+   "unstructured": "Board , Jean Charles . 1781 . \u201cM\u00e9moire sur les \u00e9lections au scrutin,\u201d . M\u00e9moires de l'Acad\u00e9mie royale des Sciences de Paris pour l'Ann\u00e9e , : 657 \u2013 65 .",
+   "journal-title": "M\u00e9moires de l'Acad\u00e9mie royale des Sciences de Paris pour l'Ann\u00e9e"
+  },
+  {
+   "key": "e_1_2_1_3_1",
+   "volume-title": "Industrial Experimentation,",
+   "author": "Brownlee K. A.",
+   "year": "1949",
+   "unstructured": "Brownlee , K. A. 1949 . Industrial Experimentation, , Third American Edition , Brooklyn : Chemical Publishing Company ."
+  },
+  {
+   "key": "e_1_2_1_4_1",
+   "volume-title": "\u201cOeuvres compl\u00e8tes,\u201d",
+   "author": "Cauchy D'Augustin",
+   "year": "1893",
+   "unstructured": "Cauchy , D'Augustin . 1893 . \u201cOeuvres compl\u00e8tes,\u201d , Volume 8 , Paris : Gauthier-Villars et Fils . Series 1"
+  },
+  {
+   "key": "e_1_2_1_5_1",
+   "first-page": "lvii",
+   "volume-title": "Essai sur l'application de l'analyse \u00e0 la probabilit\u00e9 des d\u00e9cisions rendues \u00e0 la pluralit\u00e9 des voix",
+   "author": "Condorcet, le Marquis de (Marie Jean Antoine Nicolas Caritat)",
+   "year": "1785",
+   "unstructured": "Condorcet, le Marquis de (Marie Jean Antoine Nicolas Caritat) . 1785 . Essai sur l'application de l'analyse \u00e0 la probabilit\u00e9 des d\u00e9cisions rendues \u00e0 la pluralit\u00e9 des voix lvii Paris clxxvii ff"
+  },
+  {
+   "key": "e_1_2_1_6_1",
+   "first-page": "46",
+   "article-title": "\u201cFormulas and tables for rank correlation,\u201d",
+   "volume": "3",
+   "author": "DuBois Philip",
+   "year": "1939",
+   "unstructured": "DuBois , Philip . 1939 . \u201cFormulas and tables for rank correlation,\u201d . Psychological Record , 3 : 46 \u2013 56 .",
+   "journal-title": "Psychological Record"
+  },
+  {
+   "key": "e_1_2_1_7_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1111/j.2044-8317.1951.tb00314.x"
+  },
+  {
+   "key": "e_1_2_1_8_1",
+   "volume-title": "On the treatment of discontinuous random variables",
+   "author": "Eudey M. W.",
+   "year": "1949",
+   "unstructured": "Eudey , M. W. 1949 . On the treatment of discontinuous random variables , Berkeley : Statistical Laboratory, University of California . Technical Report Number 13"
+  },
+  {
+   "key": "e_1_2_1_9_1",
+   "volume-title": "\u201cIntroduction \u00e0 l'analyse infinit\u00e9simale,\u201d",
+   "author": "Euler Leonhard",
+   "year": "1796",
+   "unstructured": "Euler , Leonhard . 1796 . \u201cIntroduction \u00e0 l'analyse infinit\u00e9simale,\u201d , Vol. 1 , Paris : Chez Barrois . (translated from the Latin edition of 1748 into French by J. B. Labey)"
+  },
+  {
+   "key": "e_1_2_1_10_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/BF02288926"
+  },
+  {
+   "key": "e_1_2_1_11_1",
+   "volume-title": "The Design of Experiments",
+   "author": "Fisher R. A.",
+   "year": "1935",
+   "unstructured": "Fisher , R. A. 1935 . The Design of Experiments , Edinburgh : Oliver and Boyd Ltd. . and later"
+  },
+  {
+   "key": "e_1_2_1_12_1",
+   "volume-title": "Statistical Tables for Biological, Agricultural and Medical Research",
+   "author": "Fisher Ronald A.",
+   "year": "1938",
+   "unstructured": "Fisher , Ronald A. and Yates , Frank . 1938 . Statistical Tables for Biological, Agricultural and Medical Research , Edinburgh : Oliver and Boyd Ltd. . and later"
+  },
+  {
+   "key": "e_1_2_1_13_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1080/01621459.1937.10503522"
+  },
+  {
+   "key": "e_1_2_1_14_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177731944"
+  },
+  {
+   "key": "e_1_2_1_15_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.5962/bhl.title.32181"
+  },
+  {
+   "key": "e_1_2_1_16_1",
+   "first-page": "168",
+   "article-title": "\u201cA table of percentage points of the \u03c72-distribution,\u201d",
+   "volume": "33",
+   "author": "Hald A.",
+   "year": "1950",
+   "unstructured": "Hald , A. and Sinkbaek , S. A. 1950 . \u201cA table of percentage points of the \u03c72-distribution,\u201d . Skandinavisk Aktuarietidskrift , 33 : 168 \u2013 75 .",
+   "journal-title": "Skandinavisk Aktuarietidskrift"
+  },
+  {
+   "key": "e_1_2_1_17_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1111/j.1469-1809.1947.tb02383.x"
+  },
+  {
+   "key": "e_1_2_1_18_1",
+   "first-page": "1186",
+   "article-title": "\u201cA family of parameterfree tests for symmetry with respect to a given point. II,\u201d",
+   "volume": "53",
+   "author": "Hemelrijk J.",
+   "year": "1950",
+   "unstructured": "Hemelrijk , J. 1950 . \u201cA family of parameterfree tests for symmetry with respect to a given point. II,\u201d . Proceedings, Koninklijke Nederlandse Akademie van Wetenschappen , 53 : 1186 \u2013 98 .",
+   "journal-title": "Proceedings, Koninklijke Nederlandse Akademie van Wetenschappen"
+  },
+  {
+   "key": "e_1_2_1_19_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177729491"
+  },
+  {
+   "key": "e_1_2_1_20_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177730196"
+  },
+  {
+   "key": "e_1_2_1_21_1",
+   "first-page": "303",
+   "article-title": "\u201cSome powerful rank order tests\u201d",
+   "volume": "23",
+   "author": "Hoeffding Wassily",
+   "year": "1952",
+   "unstructured": "Hoeffding , Wassily . 1952 . \u201cSome powerful rank order tests\u201d . Annals of Mathematical Statistics , 23 : 303 (abstract)",
+   "journal-title": "Annals of Mathematical Statistics"
+  },
+  {
+   "key": "e_1_2_1_22_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1037/h0060400"
+  },
+  {
+   "key": "e_1_2_1_23_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177732543"
+  },
+  {
+   "key": "e_1_2_1_24_1",
+   "volume-title": "Rank Correlation Methods",
+   "author": "Kendall Maurice G.",
+   "year": "1948",
+   "unstructured": "Kendall , Maurice G. 1948 . Rank Correlation Methods , Charles Griffin and Company : London ."
+  },
+  {
+   "key": "e_1_2_1_25_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177732186"
+  },
+  {
+   "key": "e_1_2_1_26_1",
+   "first-page": "173",
+   "article-title": "\u201cThe theory of probability distributions of points on a line,\u201d",
+   "volume": "1",
+   "author": "Iyer Krishna P. V.",
+   "year": "1948",
+   "unstructured": "Iyer , Krishna P. V. 1948 . \u201cThe theory of probability distributions of points on a line,\u201d . Journal of the Indian Society of Agricultural Statistics , 1 : 173 \u2013 95 .",
+   "journal-title": "Journal of the Indian Society of Agricultural Statistics"
+  },
+  {
+   "key": "e_1_2_1_27_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1038/167033a0"
+  },
+  {
+   "key": "e_1_2_1_28_1",
+   "first-page": "140",
+   "article-title": "\u201cA nonparametric analogue based upon ranks of oneway analysis of variance\u201d",
+   "volume": "23",
+   "author": "Kruskal William H.",
+   "year": "1952",
+   "unstructured": "Kruskal , William H. 1952 . \u201cA nonparametric analogue based upon ranks of oneway analysis of variance\u201d . Annals of Mathematical Statistics , 23 : 140 (abstract)",
+   "journal-title": "Annals of Mathematical Statistics"
+  },
+  {
+   "key": "e_1_2_1_29_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177729332"
+  },
+  {
+   "key": "e_1_2_1_30_1",
+   "volume-title": "A Philosophical Essay on Probabilities",
+   "author": "Laplace Pierre Simon",
+   "year": "1951",
+   "unstructured": "Laplace , Pierre Simon . 1951 . A Philosophical Essay on Probabilities , New York : Dover Publications, Inc. . (first edition 1814)"
+  },
+  {
+   "key": "e_1_2_1_31_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177729639"
+  },
+  {
+   "key": "e_1_2_1_32_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177730491"
+  },
+  {
+   "key": "e_1_2_1_33_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177729653"
+  },
+  {
+   "key": "e_1_2_1_34_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.2307/2333621"
+  },
+  {
+   "key": "e_1_2_1_35_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177731825"
+  },
+  {
+   "key": "e_1_2_1_36_1",
+   "volume-title": "Introduction to the Theory of Statistics",
+   "author": "Mood Alexander McFarlane",
+   "year": "1950",
+   "unstructured": "Mood , Alexander McFarlane . 1950 . Introduction to the Theory of Statistics , New York : McGraw-Hill Book Co. ."
+  },
+  {
+   "key": "e_1_2_1_37_1",
+   "unstructured": "Mood A. M. Unpublished manuscript submitted to Annals of Mathematical Statistics."
+  },
+  {
+   "key": "e_1_2_1_38_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177730290"
+  },
+  {
+   "key": "e_1_2_1_39_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177729892"
+  },
+  {
+   "key": "e_1_2_1_40_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177731608"
+  },
+  {
+   "key": "e_1_2_1_41_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1093/biomet/37.3-4.383"
+  },
+  {
+   "key": "e_1_2_1_42_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1093/biomet/16.1-2.172"
+  },
+  {
+   "key": "e_1_2_1_43_1",
+   "volume-title": "Tables of the Incomplete Beta Function",
+   "author": "Pearson Karl",
+   "year": "1934",
+   "unstructured": "Pearson , Karl . 1934 . Tables of the Incomplete Beta Function , Biometrika Office : London ."
+  },
+  {
+   "key": "e_1_2_1_44_1",
+   "volume-title": "Tables of the Incomplete \u0393-Function",
+   "author": "Pearson Karl",
+   "year": "1951",
+   "unstructured": "Pearson , Karl , ed. 1951 . Tables of the Incomplete \u0393-Function , London : Biometrika Office . (reissue)"
+  },
+  {
+   "key": "e_1_2_1_45_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.2307/2984124"
+  },
+  {
+   "key": "e_1_2_1_46_1",
+   "first-page": "225",
+   "article-title": "\u201cSignificance tests which may be applied to samples from any populations. II. The correlation coefficient test,\u201d",
+   "volume": "4",
+   "author": "Pitman E. J. G.",
+   "year": "1937",
+   "unstructured": "Pitman , E. J. G. 1937 . \u201cSignificance tests which may be applied to samples from any populations. II. The correlation coefficient test,\u201d . Supplement to the Journal of the Royal Statistical Society , 4 : 225 \u2013 32 .",
+   "journal-title": "Supplement to the Journal of the Royal Statistical Society"
+  },
+  {
+   "key": "e_1_2_1_47_1",
+   "first-page": "322",
+   "article-title": "\u201cSignificance tests which may be applied to samples from any populations. III. The analysis of variance test,\u201d",
+   "volume": "29",
+   "author": "Pitman E. J. G.",
+   "year": "1937",
+   "unstructured": "Pitman , E. J. G. 1937 . \u201cSignificance tests which may be applied to samples from any populations. III. The analysis of variance test,\u201d . Biometrika , 29 : 322 \u2013 35 .",
+   "journal-title": "Biometrika"
+  },
+  {
+   "key": "e_1_2_1_48_1",
+   "article-title": "\u201cA generalization of Wilcoxon's test,\u201d",
+   "volume": "53",
+   "author": "Rijkoort P. G.",
+   "year": "1952",
+   "unstructured": "Rijkoort , P. G. 1952 . \u201cA generalization of Wilcoxon's test,\u201d . Proceedings, Koninklijke Nederlandse Akademie van Wetenschappen , 53",
+   "journal-title": "Proceedings, Koninklijke Nederlandse Akademie van Wetenschappen"
+  },
+  {
+   "key": "e_1_2_1_49_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177731355"
+  },
+  {
+   "key": "e_1_2_1_50_1",
+   "volume-title": "Statistical Methods",
+   "author": "Snedecor George W.",
+   "year": "1937",
+   "unstructured": "Snedecor , George W. 1937 . Statistical Methods , Ames : Iowa State College Press . and later"
+  },
+  {
+   "key": "e_1_2_1_51_1",
+   "first-page": "1",
+   "article-title": "\u201cPr\u00f3ba uzasadnienia zastosowa\u0144 rachunku prawdopodobie\u0144stwa do do\u00e1wiadcze\u0144 polowych. (Sur les applications de la th\u00e9orie des probabilit\u00e9s aux exp\u00e9riences agricoles. Essay des principes),\u201d",
+   "volume": "10",
+   "author": "Splawa-Neyman Jerzy",
+   "year": "1923",
+   "unstructured": "Splawa-Neyman , Jerzy . 1923 . \u201cPr\u00f3ba uzasadnienia zastosowa\u0144 rachunku prawdopodobie\u0144stwa do do\u00e1wiadcze\u0144 polowych. (Sur les applications de la th\u00e9orie des probabilit\u00e9s aux exp\u00e9riences agricoles. Essay des principes),\u201d . Roczniki Nauk Rolniczych , 10 : 1 \u2013 51 . (Polish with German summary.)",
+   "journal-title": "Roczniki Nauk Rolniczych"
+  },
+  {
+   "key": "e_1_2_1_52_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1111/j.1469-1809.1939.tb02193.x"
+  },
+  {
+   "key": "e_1_2_1_53_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1093/biomet/13.2-3.263"
+  },
+  {
+   "key": "e_1_2_1_54_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177731494"
+  },
+  {
+   "key": "e_1_2_1_55_1",
+   "volume-title": "\u201cA non-parametric k-sample test and its connection with the H test.\u201d",
+   "author": "Terpstra T. J.",
+   "unstructured": "Terpstra , T. J. \u201cA non-parametric k-sample test and its connection with the H test.\u201d Unpublished manuscript"
+  },
+  {
+   "key": "e_1_2_1_56_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/S1385-7258(52)50043-X"
+  },
+  {
+   "key": "e_1_2_1_57_1",
+   "volume-title": "A History of the Mathematical Theory of Probability from the Time of Pascal to That of Laplace",
+   "author": "Todhunter Isaac",
+   "year": "1949",
+   "unstructured": "Todhunter , Isaac . 1949 . A History of the Mathematical Theory of Probability from the Time of Pascal to That of Laplace , New York : Chelsea Publishing Company . (first edition 1865)"
+  },
+  {
+   "key": "e_1_2_1_58_1",
+   "first-page": "1",
+   "article-title": "\u201cOn the consistency and the power of Wilcoxon's two sample test,\u201d",
+   "volume": "13",
+   "author": "van Dantzig D.",
+   "year": "1951",
+   "unstructured": "van Dantzig , D. 1951 . \u201cOn the consistency and the power of Wilcoxon's two sample test,\u201d . Indagationes Mathematicae , 13 : 1 \u2013 8 . also Proceedings, Koninklijke Nederlandse Akademie van Wetenschappen, 54 (1951), 1\u20138",
+   "journal-title": "Indagationes Mathematicae"
+  },
+  {
+   "key": "e_1_2_1_59_1",
+   "first-page": "494",
+   "article-title": "\u201cSome remarks on the power of Wilcoxon's test for the problem of two samples,\u201d",
+   "volume": "53",
+   "author": "van der Vaart H. R.",
+   "year": "1950",
+   "unstructured": "van der Vaart , H. R. 1950 . \u201cSome remarks on the power of Wilcoxon's test for the problem of two samples,\u201d . Proceedings, Koninklijke Nederlandse Akademie van Wetenschappen , 53 : 494 \u2013 506 . 507\u201320",
+   "journal-title": "Proceedings, Koninklijke Nederlandse Akademie van Wetenschappen"
+  },
+  {
+   "key": "e_1_2_1_60_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177731909"
+  },
+  {
+   "key": "e_1_2_1_61_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177731207"
+  },
+  {
+   "key": "e_1_2_1_62_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1080/01621459.1939.10503552"
+  },
+  {
+   "key": "e_1_2_1_63_1",
+   "first-page": "35",
+   "article-title": "\u201cRough-and-ready statistical tests,\u201d",
+   "volume": "8",
+   "author": "Wallis Allen W.",
+   "year": "1952",
+   "unstructured": "Wallis , Allen W. 1952 . \u201cRough-and-ready statistical tests,\u201d . Industrial Quality Control , 8 : 35 \u2013 40 .",
+   "journal-title": "Industrial Quality Control"
+  },
+  {
+   "key": "e_1_2_1_64_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1093/biomet/29.1-2.21"
+  },
+  {
+   "key": "e_1_2_1_65_1",
+   "first-page": "252",
+   "article-title": "\u201cSignificance test for median and interquartile range in samples from continuous populations of any form,\u201d",
+   "volume": "51",
+   "author": "Westenberg J.",
+   "year": "1948",
+   "unstructured": "Westenberg , J. 1948 . \u201cSignificance test for median and interquartile range in samples from continuous populations of any form,\u201d . Proceedings, Koninklijke Nederlandse Akademie van Wetenschappen , 51 : 252 \u2013 61 .",
+   "journal-title": "Proceedings, Koninklijke Nederlandse Akademie van Wetenschappen"
+  },
+  {
+   "key": "e_1_2_1_66_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.2307/3001523"
+  },
+  {
+   "key": "e_1_2_1_67_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1214/aoms/1177729647"
+  },
+  {
+   "key": "e_1_2_1_68_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.2307/3001968"
+  },
+  {
+   "key": "e_1_2_1_69_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.2307/3001946"
+  },
+  {
+   "key": "e_1_2_1_70_1",
+   "first-page": "93",
+   "volume-title": "Proceedings of the Berkeley Symposium on Mathematical Statistics and Probability",
+   "author": "Wolfowitz J.",
+   "unstructured": "Wolfowitz , J. \u201cNon-parametric statistical inference,\u201d . Proceedings of the Berkeley Symposium on Mathematical Statistics and Probability . Edited by: Neyman , Jerzy . pp. 93 \u2013 113 . Berkeley and Los Angeles : University of California Press ."
+  }
+ ],
+ "container-title": [
+  "Journal of the American Statistical Association"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.tandfonline.com/doi/pdf/10.1080/01621459.1952.10483441",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    2,
+    12
+   ]
+  ],
+  "date-time": "2026-02-12T16:18:14Z",
+  "timestamp": 1770913094000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.tandfonline.com/doi/full/10.1080/01621459.1952.10483441"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    1952,
+    12
+   ]
+  ]
+ },
+ "references-count": 69,
+ "aliases": [
+  "10.2307/2280779",
+  "10.2307/2280779",
+  "10.2307/2280779"
+ ],
+ "journal-issue": {
+  "issue": "260",
+  "published-print": {
+   "date-parts": [
+    [
+     1952,
+     12
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "10.1080/01621459.1952.10483441"
+ ],
+ "URL": "https://doi.org/10.1080/01621459.1952.10483441",
+ "relation": {},
+ "ISSN": [
+  "0162-1459",
+  "1537-274X"
+ ],
+ "issn-type": [
+  {
+   "value": "0162-1459",
+   "type": "print"
+  },
+  {
+   "value": "1537-274X",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    1952,
+    12
+   ]
+  ]
+ }
+}

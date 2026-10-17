@@ -1,0 +1,483 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    29
+   ]
+  ],
+  "date-time": "2026-08-29T03:40:59Z",
+  "timestamp": 1787974859842,
+  "version": "build-2784847793"
+ },
+ "reference-count": 28,
+ "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+ "issue": "3",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2024-06-01T00:00:00Z",
+    "timestamp": 1717200000000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2024-06-01T00:00:00Z",
+    "timestamp": 1717200000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-029"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2024-06-01T00:00:00Z",
+    "timestamp": 1717200000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-037"
+  }
+ ],
+ "funder": [
+  {
+   "name": "State Grid Corporation of China Science and Technology Project",
+   "award": [
+    "5500-202355352A-2-1-ZX"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "5500-202355352A-2-1-ZX"
+     ]
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "IEEE Trans. Dielect. Electr. Insul."
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2024,
+    6
+   ]
+  ]
+ },
+ "DOI": "10.1109/tdei.2024.3351591",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2024,
+    1,
+    8
+   ]
+  ],
+  "date-time": "2024-01-08T20:25:29Z",
+  "timestamp": 1704745529000
+ },
+ "page": "1331-1339",
+ "source": "Crossref",
+ "is-referenced-by-count": 9,
+ "title": [
+  "Thermodynamic Computational Method of Thermal Decomposition Gas Content in Transformer Oil Considering Temperature and Competitive Reaction"
+ ],
+ "prefix": "10.1109",
+ "volume": "31",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0009-0009-5739-1667",
+   "authenticated-orcid": false,
+   "given": "Xiang",
+   "family": "Wang",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "State Key Laboratory of Power Transmission Equipment Technology, Chongqing University, Chongqing, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-4407-3773",
+   "authenticated-orcid": false,
+   "given": "Lijun",
+   "family": "Yang",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "State Key Laboratory of Power Transmission Equipment Technology, Chongqing University, Chongqing, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Ke",
+   "family": "Wang",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "China Electric Power Research Institute, Beijing, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Yikun",
+   "family": "Zhao",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "China Electric Power Research Institute, Beijing, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-5441-0820",
+   "authenticated-orcid": false,
+   "given": "Li",
+   "family": "Cheng",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "State Key Laboratory of Power Transmission Equipment Technology, Chongqing University, Chongqing, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Chen",
+   "family": "Chen",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "State Key Laboratory of Power Transmission Equipment Technology, Chongqing University, Chongqing, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Xuan",
+   "family": "Wang",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "State Grid Shanxi Electric Power Research Institute, Shanxi, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-3884-8782",
+   "authenticated-orcid": false,
+   "given": "Ruijin",
+   "family": "Liao",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "State Key Laboratory of Power Transmission Equipment Technology, Chongqing University, Chongqing, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "ref1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tdei.2015.7076789"
+  },
+  {
+   "key": "ref2",
+   "volume-title": "Mineral Oil-Filled Electrical Equipment in Service\u2014Guidance on the Interpretation of Dissolved and Free Gases Analysis",
+   "year": "2015"
+  },
+  {
+   "key": "ref3",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/mei.2005.1489986"
+  },
+  {
+   "key": "ref4",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2017.0826"
+  },
+  {
+   "key": "ref5",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2018.6168"
+  },
+  {
+   "key": "ref6",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/access.2021.3107332"
+  },
+  {
+   "issue": "6",
+   "key": "ref7",
+   "first-page": "70",
+   "article-title": "Statistical analysis of short circuit damage accidents of 110 kV and above power transformers in China",
+   "volume": "23",
+   "author": "Jin",
+   "year": "1999",
+   "journal-title": "Power Grid Technol."
+  },
+  {
+   "key": "ref8",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/s19194057"
+  },
+  {
+   "issue": "11",
+   "key": "ref9",
+   "first-page": "3441",
+   "article-title": "Reflections and prospects on computational high voltage engineering",
+   "volume": "44",
+   "author": "Li",
+   "year": "2018",
+   "journal-title": "High Voltage Technol."
+  },
+  {
+   "key": "ref10",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/icempe.2019.8727371"
+  },
+  {
+   "issue": "569",
+   "key": "ref11",
+   "first-page": "239",
+   "article-title": "A thermodynamic assessment of the formation of gaseous hydrocarbons in faulty transformers",
+   "volume": "59",
+   "author": "Halstead",
+   "year": "1973",
+   "journal-title": "J. Inst. Petroleum"
+  },
+  {
+   "key": "ref12",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.combustflame.2010.08.010"
+  },
+  {
+   "key": "ref13",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.matdes.2019.107850"
+  },
+  {
+   "key": "ref14",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.compstruct.2020.113283"
+  },
+  {
+   "key": "ref15",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tei.1977.297979"
+  },
+  {
+   "issue": "33",
+   "key": "ref16",
+   "first-page": "5956",
+   "article-title": "Thermal decomposition mechanism of the insulation oil based on enthalpy analysis and severity evaluation of transformer thermal faults",
+   "volume": "34",
+   "author": "Zhang",
+   "year": "2014",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref17",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1021/acsomega.2c03721"
+  },
+  {
+   "key": "ref18",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1515/revce-2015-0029"
+  },
+  {
+   "key": "ref19",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s11144-015-0918-0"
+  },
+  {
+   "key": "ref20",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1093/hesc/9780198847816.001.0001"
+  },
+  {
+   "key": "ref21",
+   "volume-title": "Chemical Principles",
+   "author": "Zumdahl",
+   "year": "2013"
+  },
+  {
+   "key": "ref22",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1021/ed044p755"
+  },
+  {
+   "key": "ref23",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s10698-020-09376-2"
+  },
+  {
+   "key": "ref24",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tpwrd.2011.2175950"
+  },
+  {
+   "key": "ref25",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.camwa.2018.09.039"
+  },
+  {
+   "key": "ref26",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/mei.2014.6804740"
+  },
+  {
+   "key": "ref27",
+   "volume-title": "Transformer Maintenance\u2014Facilities Instructions, Standards, and Techniques",
+   "year": "2000"
+  },
+  {
+   "key": "ref28",
+   "volume-title": "Guide to the Analysis and the Diagnosis of Gases Dissolved in Transformer Oil",
+   "year": "2014"
+  }
+ ],
+ "container-title": [
+  "IEEE Transactions on Dielectrics and Electrical Insulation"
+ ],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx7/94/10543207/10384428.pdf?arnumber=10384428",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2024,
+    12,
+    30
+   ]
+  ],
+  "date-time": "2024-12-30T19:52:15Z",
+  "timestamp": 1735588335000
+ },
+ "score": 94.50258,
+ "resource": {
+  "primary": {
+   "URL": "https://ieeexplore.ieee.org/document/10384428/"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2024,
+    6
+   ]
+  ]
+ },
+ "references-count": 28,
+ "journal-issue": {
+  "issue": "3"
+ },
+ "URL": "https://doi.org/10.1109/tdei.2024.3351591",
+ "ISSN": [
+  "1070-9878",
+  "1558-4135"
+ ],
+ "issn-type": [
+  {
+   "value": "1070-9878",
+   "type": "print"
+  },
+  {
+   "value": "1558-4135",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2024,
+    6
+   ]
+  ]
+ }
+}

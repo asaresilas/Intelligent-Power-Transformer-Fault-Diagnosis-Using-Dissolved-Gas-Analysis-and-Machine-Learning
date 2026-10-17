@@ -1,0 +1,19 @@
+evaluation_set,variant,comparison,method,n,b,c,test,statistic,p,odds_ratio,or_lo,or_hi,haldane,p_holm,significant_holm,ml_better
+Internal test,primary,ML vs Rogers Ratio,Rogers,61,33,3,"chi-square, continuity corrected (Eq. 30)",23.361111,1e-06,11.0,3.373568,35.867075,False,4e-06,True,True
+Internal test,primary,ML vs IEC 60599 ratio,IEC60599,61,24,3,"chi-square, continuity corrected (Eq. 30)",14.814815,0.000119,8.0,2.408951,26.567576,False,0.000237,True,True
+Internal test,primary,ML vs Duval Triangle 1,Duval,61,22,6,"chi-square, continuity corrected (Eq. 30)",8.035714,0.004586,3.666667,1.486721,9.043016,False,0.004586,True,True
+Internal test,no_gate,ML vs Rogers Ratio,Rogers,61,30,2,"chi-square, continuity corrected (Eq. 30)",22.78125,2e-06,15.0,3.584678,62.767148,False,4e-06,True,True
+Internal test,no_gate,ML vs IEC 60599 ratio,IEC60599,61,24,0,exact binomial (Eq. 31),,0.0,49.0,2.979693,805.787692,True,0.0,True,True
+Internal test,no_gate,ML vs Duval Triangle 1,Duval,61,22,4,"chi-square, continuity corrected (Eq. 30)",11.115385,0.000856,5.5,1.895297,15.960556,False,0.000856,True,True
+IEC TC 10 (power transformers),primary,ML vs Rogers Ratio,Rogers,58,17,3,exact binomial (Eq. 31),,0.002577,5.666667,1.660637,19.336619,False,0.00773,True,True
+IEC TC 10 (power transformers),primary,ML vs IEC 60599 ratio,IEC60599,58,8,3,exact binomial (Eq. 31),,0.226562,2.666667,0.707444,10.051838,False,0.453125,False,True
+IEC TC 10 (power transformers),primary,ML vs Duval Triangle 1,Duval,58,6,9,exact binomial (Eq. 31),,0.607239,0.666667,0.237289,1.873008,False,0.607239,False,False
+IEC TC 10 (power transformers),no_gate,ML vs Rogers Ratio,Rogers,58,15,4,exact binomial (Eq. 31),,0.019211,3.75,1.244585,11.298946,False,0.057632,False,True
+IEC TC 10 (power transformers),no_gate,ML vs IEC 60599 ratio,IEC60599,58,6,6,exact binomial (Eq. 31),,1.0,1.0,0.322515,3.100634,False,1.0,False,False
+IEC TC 10 (power transformers),no_gate,ML vs Duval Triangle 1,Duval,58,3,13,exact binomial (Eq. 31),,0.021271,0.230769,0.06576,0.809829,False,0.057632,False,False
+Li 2019,primary,ML vs Rogers Ratio,Rogers,86,41,2,"chi-square, continuity corrected (Eq. 30)",33.581395,0.0,20.5,4.958459,84.754162,False,0.0,True,True
+Li 2019,primary,ML vs IEC 60599 ratio,IEC60599,86,30,2,"chi-square, continuity corrected (Eq. 30)",22.78125,2e-06,15.0,3.584678,62.767148,False,4e-06,True,True
+Li 2019,primary,ML vs Duval Triangle 1,Duval,86,29,14,"chi-square, continuity corrected (Eq. 30)",4.55814,0.032763,2.071429,1.094585,3.920038,False,0.032763,True,True
+Li 2019,no_gate,ML vs Rogers Ratio,Rogers,86,34,2,"chi-square, continuity corrected (Eq. 30)",26.694444,0.0,17.0,4.08411,70.762049,False,1e-06,True,True
+Li 2019,no_gate,ML vs IEC 60599 ratio,IEC60599,86,19,3,exact binomial (Eq. 31),,0.000855,6.333333,1.874151,21.402286,False,0.001711,True,True
+Li 2019,no_gate,ML vs Duval Triangle 1,Duval,86,8,18,"chi-square, continuity corrected (Eq. 30)",3.115385,0.077556,0.444444,0.19325,1.022151,False,0.077556,False,False

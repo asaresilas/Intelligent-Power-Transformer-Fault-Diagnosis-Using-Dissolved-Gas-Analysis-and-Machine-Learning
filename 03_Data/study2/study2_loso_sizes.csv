@@ -1,0 +1,5 @@
+held_out,n_test,n_train_before,n_train_removed_near_copies,n_train_used
+IECTC10,58,585,0,585
+DISTRAIN,439,204,0,204
+DISTEST,61,582,0,582
+LI2019,85,558,0,558

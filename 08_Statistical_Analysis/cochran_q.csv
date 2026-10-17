@@ -1,0 +1,7 @@
+evaluation_set,variant,n,Q,df,p,correct_ML,correct_Rogers,correct_IEC60599,correct_Duval
+Internal test,primary,61,42.2,3,0.0,50,20,29,34
+Internal test,no_gate,61,37.216216,3,0.0,50,22,26,32
+IEC TC 10 (power transformers),primary,58,21.652174,3,7.7e-05,42,28,37,45
+IEC TC 10 (power transformers),no_gate,58,26.227723,3,9e-06,42,31,42,52
+Li 2019,primary,86,57.235955,3,0.0,54,15,26,39
+Li 2019,no_gate,86,66.456522,3,0.0,54,22,38,64

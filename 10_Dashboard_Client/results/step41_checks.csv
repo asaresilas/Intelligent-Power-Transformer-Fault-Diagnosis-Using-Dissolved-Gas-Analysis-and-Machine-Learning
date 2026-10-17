@@ -1,0 +1,13 @@
+check,passed,detail
+"one log row per held-out record, in file order, no record twice",1,"388 rows; 388 held-out records in dga_master.csv"
+"data_role in the log equals the role in dga_master.csv (benchmark 117, internal_test 70, external_test 201)",1,"benchmark 117, internal_test 70, external_test 201"
+"sampling events at the bench schedule (record k at k x 15 min), in order",1,"first 0.25 h, last 97.00 h, stop time 98 h"
+"no failed calls: every status OK, no error text",1,"388 OK of 388; n_failed in run info 0"
+"every row has the ML class, seven probabilities that sum to 1, the confidence, and the three conventional answers",1,"388 rows checked"
+"response, conventional and total times are present, positive, and total >= response",1,"response 62 to 158 ms"
+"the first 5 calls (and only they) are marked as warm-up",1,"5 marked"
+"the gas values in the log are those of the file rows (read, never created)",1,"388 x 5 values"
+"service healthy before and after; the model hash is the same in both, in every row, and equals the saved model of Step 22",1,"1C46D1039142..."
+"the model file is unchanged by the bench (checksum before = after)",1,"B423EC161BF2A057C496A31704404A02"
+"the log holds no true label of any record",1,"no label column"
+"agreement count 0 to 3 and state consistent (green only when all three agree)",1,"green 140, amber 248"

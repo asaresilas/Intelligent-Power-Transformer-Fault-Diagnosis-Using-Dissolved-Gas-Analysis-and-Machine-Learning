@@ -1,0 +1,28 @@
+test,quantity,measure,value,unit,limit,passed
+Test 1 rated load,top-oil temperature,"e_max (after 10 min)",0.00141618120115439,K,0.1,yes
+Test 1 rated load,hot-spot temperature,"e_max (after 10 min)",0.0128976086247334,K,0.1,yes
+Test 1 rated load,top-oil temperature,"RMSE (after 10 min)",0.000179940274106668,K,NaN,
+Test 1 rated load,hot-spot temperature,"RMSE (after 10 min)",0.000715663300423859,K,NaN,
+Test 1 rated load,top-oil temperature,"final value, model",78.6384766647938,degC,NaN,
+Test 1 rated load,hot-spot temperature,"final value, model",100.275783252339,degC,NaN,
+Test 1 rated load,hot-spot temperature,"peak value, model",100.275783252339,degC,NaN,
+Test 1 rated load,ageing rate V,"largest relative difference",0.00148888069144615,-,0.0116194403019225,yes
+Test 1 rated load,top-oil temperature,"legacy measure (information)",0.00230735021686357,K,NaN,
+Test 1 rated load,hot-spot temperature,"legacy measure (information)",0.0234152453552596,K,NaN,
+Test 1 rated load,top-oil temperature,"interpolation error of the logged grid (information)",0.000899013863030262,K,NaN,
+Test 1 rated load,hot-spot temperature,"interpolation error of the logged grid (information)",0.0109111195723912,K,NaN,
+Test 2 load step,top-oil temperature,"e_max (after 10 min)",0.00148895684300498,K,0.1,yes
+Test 2 load step,hot-spot temperature,"e_max (after 10 min)",0.0151621617011131,K,0.1,yes
+Test 2 load step,top-oil temperature,"RMSE (after 10 min)",0.00022895401450397,K,NaN,
+Test 2 load step,hot-spot temperature,"RMSE (after 10 min)",0.00128814811943098,K,NaN,
+Test 2 load step,top-oil temperature,"final value, model",95.4960455538073,degC,NaN,
+Test 2 load step,hot-spot temperature,"final value, model",122.700090739003,degC,NaN,
+Test 2 load step,hot-spot temperature,"peak value, model",122.700090739003,degC,NaN,
+Test 2 load step,ageing rate V,"largest relative difference",0.00175006844691894,-,0.0116194403019225,yes
+Test 2 load step,top-oil temperature,"legacy measure (information)",0.00199638352595599,K,NaN,
+Test 2 load step,hot-spot temperature,"legacy measure (information)",0.0286328297599709,K,NaN,
+Test 2 load step,top-oil temperature,"interpolation error of the logged grid (information)",0.00078452722539879,K,NaN,
+Test 2 load step,hot-spot temperature,"interpolation error of the logged grid (information)",0.0144030158118653,K,NaN,
+Test 1 rated load,top-oil temperature,"e_max against closed form B",0.00141618170227886,K,0.1,yes
+Test 1 rated load,hot-spot temperature,"e_max against closed form B",0.0128975897469132,K,0.1,yes
+Test 1 rated load,top-oil temperature,"63.2 % rise time (difference to k11 x tau_o)",0.00159836235121702,min,1,yes

@@ -1,0 +1,315 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    13
+   ]
+  ],
+  "date-time": "2026-10-13T17:07:16Z",
+  "timestamp": 1791911236361,
+  "version": "4.3.4"
+ },
+ "reference-count": 15,
+ "publisher": "Association for Computing Machinery (ACM)",
+ "issue": "1",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      1974,
+      1,
+      1
+     ]
+    ],
+    "date-time": "1974-01-01T00:00:00Z",
+    "timestamp": 126230400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://www.acm.org/publications/policies/copyright_policy#Background"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "dl.acm.org"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Commun. ACM"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    1974,
+    1
+   ]
+  ]
+ },
+ "abstract": "<jats:p>A new family of clipping algorithms is described. These algorithms are able to clip polygons against irregular convex plane-faced volumes in three dimensions, removing the parts of the polygon which lie outside the volume. In two dimensions the algorithms permit clipping against irregular convex windows.</jats:p>\n                  <jats:p>Polygons to be clipped are represented as an ordered sequence of vertices without repetition of first and last, in marked contrast to representation as a collection of edges as was heretofore the common procedure. Output polygons have an identical format, with new vertices introduced in sequence to describe any newly-cut edge or edges. The algorithms easily handle the particularly difficult problem of detecting that a new vertex may be required at a corner of the clipping window.</jats:p>\n                  <jats:p>The algorithms described achieve considerable simplicity by clipping separately against each clipping plane or window boundary. Code capable of clipping the polygon against a single boundary is reentered to clip against subsequent boundaries. Each such reentrant stage of clipping need store only two vertex values and may begin its processing as soon as the first output vertex from the preceeding stage is ready. Because the same code is reentered for clipping against subsequent boundaries, clipping against very complex window shapes is practical.</jats:p>\n                  <jats:p>For perspective applications in three dimensions, a six-plane truncated pyramid is chosen as the clipping volume. The two additional planes parallel to the projection screen serve to limit the range of depth preserved through the projection. A perspective projection method which provides for arbitrary view angles and depth of field in spite of simple fixed clipping planes is described. This method is ideal for subsequent hidden-surface computations.</jats:p>",
+ "DOI": "10.1145/360767.360802",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2002,
+    7,
+    27
+   ]
+  ],
+  "date-time": "2002-07-27T07:34:59Z",
+  "timestamp": 1027755299000
+ },
+ "page": "32-42",
+ "update-policy": "https://doi.org/10.1145/crossmark-policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 471,
+ "title": [
+  "Reentrant polygon clipping"
+ ],
+ "prefix": "10.1145",
+ "volume": "17",
+ "author": [
+  {
+   "given": "Ivan E.",
+   "family": "Sutherland",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Evans and Sutherland Corp., Salt Lake City, UT"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Gary W.",
+   "family": "Hodgman",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Evans and Sutherland Corp., Salt Lake City, UT"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "320",
+ "published-online": {
+  "date-parts": [
+   [
+    1974,
+    1
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "e_1_2_1_1_2",
+   "volume-title": "Salt Lake City",
+   "author": "Archuleta",
+   "year": "1970",
+   "unstructured": "Archuleta , Michael. Computer Science Technical Memos 7002, 7102, 7105, and 7203 pertaining to Watkins' Hiddenline processing, U. of Utah , Salt Lake City , Utah , Nov. 1970 , Oct. 1971, May 1971, and Mar. 1972 respectively. Archuleta, Michael. Computer Science Technical Memos 7002, 7102, 7105, and 7203 pertaining to Watkins' Hiddenline processing, U. of Utah, Salt Lake City, Utah, Nov. 1970, Oct. 1971, May 1971, and Mar. 1972 respectively."
+  },
+  {
+   "key": "e_1_2_1_2_2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/362736.362739"
+  },
+  {
+   "key": "e_1_2_1_3_2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/362912.362921"
+  },
+  {
+   "key": "e_1_2_1_4_2",
+   "volume-title": "A solution to the hidden-line problem for computer-drawn polyhedra. NYU Eng. and Sci. Dept. of EE Rept",
+   "author": "Loutrel P.P.",
+   "year": "1967",
+   "unstructured": "Loutrel , P.P. A solution to the hidden-line problem for computer-drawn polyhedra. NYU Eng. and Sci. Dept. of EE Rept . 400-167, Sep. 1967 . (Also IEEE Tran. on Computers EC- 1913}, Mar. 1970.) Loutrel, P.P. A solution to the hidden-line problem for computer-drawn polyhedra. NYU Eng. and Sci. Dept. of EE Rept. 400-167, Sep. 1967. (Also IEEE Tran. on Computers EC-1913}, Mar. 1970.)"
+  },
+  {
+   "key": "e_1_2_1_5_2",
+   "volume-title": "3-D simulated graphics. Datamation (Feb",
+   "author": "Mathematical Applications Group Inc. (MAGI).",
+   "year": "1968",
+   "unstructured": "Mathematical Applications Group Inc. (MAGI). 3-D simulated graphics. Datamation (Feb . 1968 ). Mathematical Applications Group Inc. (MAGI). 3-D simulated graphics. Datamation (Feb. 1968)."
+  },
+  {
+   "key": "e_1_2_1_6_2",
+   "first-page": "285",
+   "volume-title": "Shortest Path Through a Maze. Ann. of Computation Laboratory of Harvard U",
+   "author": "Moore E.",
+   "year": "1959",
+   "unstructured": "Moore , E. Shortest Path Through a Maze. Ann. of Computation Laboratory of Harvard U ., Vol. 30 , Harvard U. Press , Cambridge, Mass . pp. 285 - 292 , 1959 . Moore, E. Shortest Path Through a Maze. Ann. of Computation Laboratory of Harvard U., Vol. 30, Harvard U. Press, Cambridge, Mass. pp. 285-292, 1959."
+  },
+  {
+   "key": "e_1_2_1_7_2",
+   "volume-title": "Proc. ACM Nat. Conf.",
+   "author": "Newell M.E.",
+   "year": "1972",
+   "unstructured": "Newell , M.E. , Newell , R.G. , and Sancha , T.L . A new approach to the shaded picture problem . Proc. ACM Nat. Conf. , Boston , Aug. 1972 . Newell, M.E., Newell, R.G., and Sancha, T.L. A new approach to the shaded picture problem. Proc. ACM Nat. Conf., Boston, Aug. 1972."
+  },
+  {
+   "key": "e_1_2_1_8_2",
+   "volume-title": "Prhrciples ofblteractive Computer Graphics. }McGraw-Hill",
+   "author": "Newman W.M.",
+   "year": "1973",
+   "unstructured": "Newman , W.M. ; and Sprouli , R.F . Prhrciples ofblteractive Computer Graphics. }McGraw-Hill , New York , 1973 . (See especially Chap . 13). Newman, W.M.; and Sprouli, R.F. Prhrciples ofblteractive Computer Graphics. }McGraw-Hill, New York, 1973. (See especially Chap. 13)."
+  },
+  {
+   "key": "e_1_2_1_9_2",
+   "first-page": "651",
+   "volume-title": "Proc. AFIPS 1973 FJCC",
+   "volume": "42",
+   "author": "Newman W.M.",
+   "unstructured": "Newman , W.M. An informal graphics system based on the LOGO language . Proc. AFIPS 1973 FJCC , Vol. 42 , AFIPS Press, Montvale, N.J. , pp. 651 - 655 . Newman, W.M. An informal graphics system based on the LOGO language. Proc. AFIPS 1973 FJCC, Vol. 42, AFIPS Press, Montvale, N.J., pp. 651-655."
+  },
+  {
+   "key": "e_1_2_1_10_2",
+   "volume-title": "Homogeneous matrix representation and manipulation of N-dimensional constructs. MIT Lincoln Laboratory MS",
+   "author": "Roberts L.G.",
+   "year": "1965",
+   "unstructured": "Roberts , L.G. Homogeneous matrix representation and manipulation of N-dimensional constructs. MIT Lincoln Laboratory MS 1405, May 1965 . Roberts, L.G. Homogeneous matrix representation and manipulation of N-dimensional constructs. MIT Lincoln Laboratory MS 1405, May 1965."
+  },
+  {
+   "key": "e_1_2_1_11_2",
+   "first-page": "765",
+   "volume-title": "A clipping divider. Proc. 1968 AFIPS FJCC",
+   "author": "Sproull R.F.",
+   "unstructured": "Sproull , R.F. , and Sutherland I.E . A clipping divider. Proc. 1968 AFIPS FJCC , Vol. 33 , AFIPS Press , Montvale, N.J. , pp. 765 - 775 . Sproull, R.F., and Sutherland I.E. A clipping divider. Proc. 1968 AFIPS FJCC, Vol. 33, AFIPS Press, Montvale, N.J., pp. 765-775."
+  },
+  {
+   "key": "e_1_2_1_12_2",
+   "first-page": "757",
+   "volume-title": "A head-mounted three-dimensional display. Proc. 1968 AFIPS FJCC",
+   "author": "Sutherland I.E.",
+   "unstructured": "Sutherland I.E. A head-mounted three-dimensional display. Proc. 1968 AFIPS FJCC , Vol. 33 , AFIPS Press , Montvale, N.J. , pp. 757 - 764 . Sutherland I.E. A head-mounted three-dimensional display. Proc. 1968 AFIPS FJCC, Vol. 33, AFIPS Press, Montvale, N.J., pp. 757-764."
+  },
+  {
+   "key": "e_1_2_1_13_2",
+   "volume-title": "U. of Utah, TR",
+   "author": "Warnock J.E.",
+   "year": "1969",
+   "unstructured": "Warnock , J.E. A hidden-surface algorithm for computergenerated halftone pictures. Computer Science Dept ., U. of Utah, TR 4-15, June 1969 . Warnock, J.E. A hidden-surface algorithm for computergenerated halftone pictures. Computer Science Dept., U. of Utah, TR 4-15, June 1969."
+  },
+  {
+   "key": "e_1_2_1_14_2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/321328.321330"
+  },
+  {
+   "key": "e_1_2_1_15_2",
+   "first-page": "351",
+   "volume-title": "UAIDE Proc. 8th Ann. Meeting",
+   "author": "Zajac E.E.",
+   "year": "1969",
+   "unstructured": "Zajac , E.E. , and Behler , B.L . A generalized window-shield routine . UAIDE Proc. 8th Ann. Meeting , Nov. 1969 , pp. 351 - 388 . Zajac, E.E., and Behler, B.L. A generalized window-shield routine. UAIDE Proc. 8th Ann. Meeting, Nov. 1969, pp. 351-388."
+  }
+ ],
+ "container-title": [
+  "Communications of the ACM"
+ ],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://dl.acm.org/doi/10.1145/360767.360802",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://dl.acm.org/doi/pdf/10.1145/360767.360802",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    6,
+    17
+   ]
+  ],
+  "date-time": "2025-06-17T12:36:28Z",
+  "timestamp": 1750163788000
+ },
+ "score": 79.598236,
+ "resource": {
+  "primary": {
+   "URL": "https://dl.acm.org/doi/10.1145/360767.360802"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    1974,
+    1
+   ]
+  ]
+ },
+ "references-count": 15,
+ "journal-issue": {
+  "issue": "1",
+  "published-print": {
+   "date-parts": [
+    [
+     1974,
+     1
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "10.1145/360767.360802"
+ ],
+ "URL": "https://doi.org/10.1145/360767.360802",
+ "ISSN": [
+  "0001-0782",
+  "1557-7317"
+ ],
+ "issn-type": [
+  {
+   "value": "0001-0782",
+   "type": "print"
+  },
+  {
+   "value": "1557-7317",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    1974,
+    1
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "1974-01-01",
+   "order": 2,
+   "name": "published",
+   "label": "Published",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+variant,held_out,contrast,first,second,best_conventional,macro_f1_diff,diff_lo,diff_hi,strict_diff,b,c,test,statistic,p,p_holm,ci_excludes_0_positive
+equal_source_weight,DISTRAIN,C - B,C,B,Duval,-0.007627,-0.024574,0.008594,-0.004556,4,6,exact binomial (Eq. 31),,0.753906,0.753906,False
+equal_source_weight,DISTRAIN,C - Duval,C,Duval,Duval,0.100901,0.048701,0.152986,0.107062,103,56,"chi-square, continuity corrected (Eq. 30)",13.308176,0.000264,0.000529,True
+equal_source_weight,DISTEST,B - A,B,A,Duval,0.002156,-0.112826,0.107558,0.0,5,5,exact binomial (Eq. 31),,1.0,1.0,False
+equal_source_weight,DISTEST,C - B,C,B,Duval,0.055948,0.0,0.128553,0.04918,3,0,exact binomial (Eq. 31),,0.25,0.5,False
+equal_source_weight,DISTEST,C - Duval,C,Duval,Duval,0.308057,0.200288,0.422338,0.278689,20,3,exact binomial (Eq. 31),,0.000488,0.001465,True
+equal_source_weight,IECTC10,B - A,B,A,Duval,0.085912,0.017838,0.166462,0.086207,5,0,exact binomial (Eq. 31),,0.0625,0.1875,True
+equal_source_weight,IECTC10,C - B,C,B,Duval,0.014344,-0.04548,0.077311,0.017241,2,1,exact binomial (Eq. 31),,1.0,1.0,False
+equal_source_weight,IECTC10,C - Duval,C,Duval,Duval,0.079229,-0.071191,0.213867,0.051724,7,4,exact binomial (Eq. 31),,0.548828,1.0,False
+equal_source_weight,LI2019,B - A,B,A,Duval,0.006181,-0.069196,0.080247,-0.011765,5,6,exact binomial (Eq. 31),,1.0,1.0,False
+equal_source_weight,LI2019,C - B,C,B,Duval,0.038037,0.000838,0.086637,0.035294,3,0,exact binomial (Eq. 31),,0.25,0.5,True
+equal_source_weight,LI2019,C - Duval,C,Duval,Duval,0.045969,-0.100195,0.194316,0.2,26,9,"chi-square, continuity corrected (Eq. 30)",7.314286,0.006841,0.020523,False
+iec_all,DISTRAIN,C - B,C,B,Duval,0.031954,0.01207,0.055114,0.022779,12,2,exact binomial (Eq. 31),,0.012939,0.012939,True
+iec_all,DISTRAIN,C - Duval,C,Duval,Duval,0.117211,0.067881,0.166715,0.118451,99,47,"chi-square, continuity corrected (Eq. 30)",17.815068,2.4e-05,4.9e-05,True
+iec_all,DISTEST,B - A,B,A,Duval,0.058104,-0.030044,0.145497,0.04918,5,2,exact binomial (Eq. 31),,0.453125,0.90625,False
+iec_all,DISTEST,C - B,C,B,Duval,0.008028,-0.030543,0.064785,0.0,1,1,exact binomial (Eq. 31),,1.0,1.0,False
+iec_all,DISTEST,C - Duval,C,Duval,Duval,0.316085,0.181602,0.450616,0.278689,21,4,"chi-square, continuity corrected (Eq. 30)",10.24,0.001374,0.004123,True
+iec_all,IECTC10,B - A,B,A,Duval,0.058594,0.014599,0.114286,0.051282,6,0,exact binomial (Eq. 31),,0.03125,0.09375,True
+iec_all,IECTC10,C - B,C,B,Duval,0.022077,0.0,0.057481,0.017094,2,0,exact binomial (Eq. 31),,0.5,1.0,False
+iec_all,IECTC10,C - Duval,C,Duval,Duval,0.026864,-0.049374,0.112326,0.034188,13,9,exact binomial (Eq. 31),,0.523467,1.0,False
+iec_all,LI2019,B - A,B,A,Duval,0.080856,0.009835,0.158947,0.058824,7,2,exact binomial (Eq. 31),,0.179688,0.359375,True
+iec_all,LI2019,C - B,C,B,Duval,-0.033018,-0.100009,0.030611,-0.035294,1,4,exact binomial (Eq. 31),,0.375,0.375,False
+iec_all,LI2019,C - Duval,C,Duval,Duval,0.049589,-0.07493,0.197157,0.2,26,9,"chi-square, continuity corrected (Eq. 30)",7.314286,0.006841,0.020523,False
+primary,DISTRAIN,C - B,C,B,Duval,-0.049566,-0.076153,-0.025029,-0.04328,6,25,"chi-square, continuity corrected (Eq. 30)",10.451613,0.001225,0.002057,False
+primary,DISTRAIN,C - Duval,C,Duval,Duval,0.088263,0.040438,0.141142,0.095672,99,57,"chi-square, continuity corrected (Eq. 30)",10.775641,0.001028,0.002057,True
+primary,DISTEST,B - A,B,A,Duval,0.058104,-0.026028,0.148532,0.04918,5,2,exact binomial (Eq. 31),,0.453125,0.90625,False
+primary,DISTEST,C - B,C,B,Duval,0.022024,0.0,0.069493,0.016393,1,0,exact binomial (Eq. 31),,1.0,1.0,False
+primary,DISTEST,C - Duval,C,Duval,Duval,0.33008,0.192135,0.469458,0.295082,22,4,"chi-square, continuity corrected (Eq. 30)",11.115385,0.000856,0.002568,True
+primary,IECTC10,B - A,B,A,Duval,0.051813,0.0,0.118117,0.051724,3,0,exact binomial (Eq. 31),,0.25,0.75,False
+primary,IECTC10,C - B,C,B,Duval,0.038221,0.0,0.096724,0.034483,2,0,exact binomial (Eq. 31),,0.5,1.0,False
+primary,IECTC10,C - Duval,C,Duval,Duval,0.069006,-0.084021,0.202593,0.034483,7,5,exact binomial (Eq. 31),,0.774414,1.0,False
+primary,LI2019,B - A,B,A,Duval,0.02272,-0.036368,0.089886,0.011765,4,3,exact binomial (Eq. 31),,1.0,1.0,False
+primary,LI2019,C - B,C,B,Duval,0.003207,-0.024138,0.028179,0.0,1,1,exact binomial (Eq. 31),,1.0,1.0,False
+primary,LI2019,C - Duval,C,Duval,Duval,0.027677,-0.130541,0.185838,0.188235,27,11,"chi-square, continuity corrected (Eq. 30)",5.921053,0.014961,0.044883,False

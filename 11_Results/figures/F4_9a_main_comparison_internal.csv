@@ -1,0 +1,5 @@
+evaluation_set,method,n,strict_accuracy,strict_accuracy_lo,strict_accuracy_hi,conditional_accuracy,conditional_accuracy_lo,conditional_accuracy_hi,macro_f1,macro_f1_lo,macro_f1_hi,coverage
+Internal test,ML,61,0.819672,0.705258,0.896209,0.819672,0.705258,0.896209,0.811882,0.710875,0.899801,1.0
+Internal test,Rogers,61,0.327869,0.223351,0.452782,0.526316,0.37259,0.67521,0.282029,0.190443,0.361973,0.622951
+Internal test,IEC60599,61,0.47541,0.355305,0.598428,0.659091,0.511391,0.781242,0.5007,0.358985,0.606482,0.721311
+Internal test,Duval,61,0.557377,0.433034,0.674922,0.557377,0.433034,0.674922,0.528498,0.414288,0.620727,1.0

@@ -1,0 +1,17 @@
+{
+ "run": "2026-10-11_nestedcv_v1",
+ "data_version": "1.0",
+ "seed": 20261010,
+ "jobs": 6,
+ "python": "3.12.10",
+ "scikit_learn": "1.9.1",
+ "xgboost": "3.4.1",
+ "numpy": "2.5.3",
+ "pandas": "3.0.6",
+ "joblib": "1.6.0",
+ "machine": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD",
+ "start": "2026-10-11T21:01:58",
+ "development_records": 439,
+ "test_sets_opened": false,
+ "end": "2026-10-11T23:44:27"
+}

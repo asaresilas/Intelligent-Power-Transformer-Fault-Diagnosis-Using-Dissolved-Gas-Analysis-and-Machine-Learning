@@ -1,0 +1,485 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    12
+   ]
+  ],
+  "date-time": "2026-10-12T18:56:35Z",
+  "timestamp": 1791831395911,
+  "version": "4.3.4"
+ },
+ "reference-count": 33,
+ "publisher": "MDPI AG",
+ "issue": "1",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      12,
+      27
+     ]
+    ],
+    "date-time": "2024-12-27T00:00:00Z",
+    "timestamp": 1735257600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Applied Sciences"
+ ],
+ "abstract": "<jats:p>Power transformers are one of the most important elements of electrical power systems. The fast diagnosis of transformer faults improves the efficiency of power systems. One of the most favored methodologies for transformer fault diagnostics is based on dissolved gas analysis (DGA) techniques, including the Duval triangle method (DTM), the Doernenburg ratio method (DRM), and the Rogers ratio method (RRM), which are suitable for on-line diagnosis of transformers. The imbalanced, insufficient, and overlapping state of gas-decomposed DGA datasets, however, remains a limitation to the deployment of a powerful and accurate diagnosis approach. This study presents a new approach for transformer fault diagnosis based on DGA, one which aims to improve the performance evaluation criteria to predict current faults and to lower the associated costs. We used six optimized machine learning methods (MLMs) for dataset transformation to organize the dataset. The MLMs used for transformer fault diagnosis were random forest (RF), backpropagation neural network (BPNN), K-nearest neighbors (KNN), support vector machine (SVM), decision tree (DT), and Naive Bayes (NB). The MLMs were implemented by using 628 dataset samples, which were obtained from laboratories, other studies, and electricity stations in Iraq. Accordingly, 502 dataset samples constituted the training set while the remaining 126 dataset samples served as the testing set. The results were examined according to six important measurements (accuracy ratio, precision, recall, specificity, F1 score, and Matthews correlation coefficient (MCC)). The best results were found for case A with RF (95.2%). In cases B and C, the best results were found for RF and DT (100% and 99.2%, respectively). With respect to the advanced machine learning method, the transformer fault diagnosis based on the MLMs was exceedingly more accurate in its predictions than the conventional and artificial intelligence-based methods.</jats:p>",
+ "DOI": "10.3390/app15010118",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2024,
+    12,
+    27
+   ]
+  ],
+  "date-time": "2024-12-27T04:30:58Z",
+  "timestamp": 1735273858000
+ },
+ "page": "118",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 35,
+ "title": [
+  "Dissolved Gas Analysis for Fault Prediction in Power Transformers Using Machine Learning Techniques"
+ ],
+ "prefix": "10.3390",
+ "volume": "15",
+ "author": [
+  {
+   "given": "Sahar R.",
+   "family": "Al-Sakini",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Department of Electromechanical Engineering, University of Technology-Iraq, Ministry of Higher Education and Scientific Research, Baghdad 10066, Iraq"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Ghassan A.",
+   "family": "Bilal",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electromechanical Engineering, University of Technology-Iraq, Ministry of Higher Education and Scientific Research, Baghdad 10066, Iraq"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-4217-1321",
+   "authenticated-orcid": false,
+   "given": "Ahmed T.",
+   "family": "Sadiq",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Computer Sciences Department, University of Technology-Iraq, Ministry of Higher Education and Scientific Research, Baghdad 10066, Iraq"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-4585-7812",
+   "authenticated-orcid": false,
+   "given": "Wisam Abed Kattea",
+   "family": "Al-Maliki",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Mechanical Engineering Department, University of Technology-Iraq, Ministry of Higher Education and Scientific Research, Baghdad 10066, Iraq"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2024,
+    12,
+    27
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "doi-asserted-by": "crossref",
+   "first-page": "597",
+   "DOI": "10.1109/TSMCC.2009.2021989",
+   "article-title": "Association Rule Mining-Based Dissolved Gas Analysis for Fault Diagnosis of Power Transformers",
+   "volume": "39",
+   "author": "Yang",
+   "year": "2009",
+   "journal-title": "IEEE Trans. Syst. Man Cybern. Part C Appl. Rev."
+  },
+  {
+   "key": "ref_2",
+   "doi-asserted-by": "crossref",
+   "first-page": "1220",
+   "DOI": "10.1016/j.egypro.2011.12.1079",
+   "article-title": "A review of dissolved gas analysis in power transformers",
+   "volume": "14",
+   "author": "Suna",
+   "year": "2012",
+   "journal-title": "Energy Procedia"
+  },
+  {
+   "key": "ref_3",
+   "doi-asserted-by": "crossref",
+   "first-page": "6977",
+   "DOI": "10.1007/s13369-019-03739-4",
+   "article-title": "Smart Diagnosis of Incipient Faults Using Dissolved Gas Analysis-Based Fault Interpretation Matrix (FIM)",
+   "volume": "44",
+   "author": "Wani",
+   "year": "2019",
+   "journal-title": "Arab. J. Sci. Eng."
+  },
+  {
+   "key": "ref_4",
+   "doi-asserted-by": "crossref",
+   "first-page": "543",
+   "DOI": "10.1049/hve2.12059",
+   "article-title": "Power transformer fault diagnosis considering data imbalance and data set fusion",
+   "volume": "6",
+   "author": "Zhang",
+   "year": "2021",
+   "journal-title": "High Volt."
+  },
+  {
+   "key": "ref_5",
+   "unstructured": "Senoussaoui, M.E.A. (2019). Contribution Des Techniques Intelligences Au Diagnostic Industrial Des Transformations De Puissance. [Ph.D. Thesis, Universit\u00e9 Djillali Liabbes De Sidi Bel Abbes]."
+  },
+  {
+   "key": "ref_6",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Bustamante, S., Manana, M., Arroyo, A., Castro, P., Laso, A., and Martinez, R. (2018). Dissolved Gas Analysis Equipment for Online Monitoring of Transformer Oil: A Review. Sensors, 19.",
+   "DOI": "10.3390/s19194057"
+  },
+  {
+   "key": "ref_7",
+   "unstructured": "IEEE (2019). IEEE Guide for the Interpretation of Gases Generated in Mineral Oil-Immersed Transformers IEEE Std C57.104TM, IEEE Power and Energy Society."
+  },
+  {
+   "key": "ref_8",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Xie, H., Chen, J., Zhang, P., Zhang, F., Meng, X., and Cheng, J. (2019, January 21\u201324). Knowledge Acquisition for Transformer Condition Assessment Using Synthetic Minority Over-sampling Technique and Decision Tree Algorithm. Proceedings of the 2019 IEEE Innovative Smart Grid Technologies\u2014Asia (ISGT Asia), Chengdu, China.",
+   "DOI": "10.1109/ISGT-Asia.2019.8881388"
+  },
+  {
+   "key": "ref_9",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1007/s10115-007-0114-2",
+   "article-title": "Top 10 Algorithms in Data Mining",
+   "volume": "14",
+   "author": "Wu",
+   "year": "2008",
+   "journal-title": "Knowl. Inf. Syst."
+  },
+  {
+   "key": "ref_10",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Odongo, G., Musabe, R., and Hanyurwimfura, D. (2021). A Multinomial DGA Classifier for Incipient Fault Detection in Oil-Impregnated Power Transformers. Algorithms, 14.",
+   "DOI": "10.3390/a14040128"
+  },
+  {
+   "key": "ref_11",
+   "doi-asserted-by": "crossref",
+   "first-page": "73",
+   "DOI": "10.1016/j.epsr.2011.09.012",
+   "article-title": "Power transformer fault diagnosis based on dissolved gas analysis by support vector machine",
+   "volume": "83",
+   "author": "Bacha",
+   "year": "2012",
+   "journal-title": "Electr. Power Syst. Res."
+  },
+  {
+   "key": "ref_12",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Prasojo, R.A., Gumilang, H.,  Maulidevi, N.U., and Soedjarno, B.A. (2020). A fuzzy logic model for power transformer faults\u2019 severity determination based on gas level, gas rate, and dissolved gas analysis interpretation. Energies, 13.",
+   "DOI": "10.3390/en13041009"
+  },
+  {
+   "key": "ref_13",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Liu, Y., Song, B., Wang, L., Gao, J., and Xu, R. (2020). Power transformer fault diagnosis based on dissolved gas analysis by correlation coefficient-DBSCAN. Appl. Sci., 10.",
+   "DOI": "10.3390/app10134440"
+  },
+  {
+   "key": "ref_14",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Abu-Siada, A. (2019). Improved consistent interpretation approach of Fault Type within power transformers using dissolved gas analysis and Gene expression programming. Energies, 12.",
+   "DOI": "10.3390/en12040730"
+  },
+  {
+   "key": "ref_15",
+   "doi-asserted-by": "crossref",
+   "first-page": "1431",
+   "DOI": "10.1049/iet-gtd.2015.0955",
+   "article-title": "Fault discrimination scheme for power transformer using random forest technique",
+   "volume": "10",
+   "author": "Shah",
+   "year": "2016",
+   "journal-title": "IET Gener. Transm. Distrib."
+  },
+  {
+   "key": "ref_16",
+   "doi-asserted-by": "crossref",
+   "first-page": "25954",
+   "DOI": "10.1109/ACCESS.2022.3156102",
+   "article-title": "Reliable estimation for health index of transformer oil based on novel combined predictive maintenance techniques",
+   "volume": "10",
+   "author": "Badawi",
+   "year": "2022",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Kartojo, I.H., Wang, Y.-B., and Zhang, G.-J. (2019, January 23\u201327). Suwarno Partial Discharge Defect Recognition in Power Transformer Using Random Forest. Proceedings of the 2019 IEEE 20th International Conference on Dielectric Liquids (ICDL), Roma, Italy.",
+   "DOI": "10.1109/ICDL.2019.8796809"
+  },
+  {
+   "key": "ref_18",
+   "unstructured": "N\u2019Cho, J. (2011). D\u00e9veloppement De Nouvelles M\u00e9thodes De Diagnostic Et De R\u00e9g\u00e9n\u00e9ration Des Huiles Pour Transformateurs De Puis-Sance. [Ph.D. Thesis, Ecole Centrale de Lyon]."
+  },
+  {
+   "key": "ref_19",
+   "unstructured": "Abidin, Z., Shukri, M., Rashid, H.A., Marzuki, K., Rohani, A.M., Razak, A., Afifi, M., and Aisyah, I.S.H. (2007). Design of a fault diagnostic engine for power transformer using data mining. Fac. Electr. Eng., Unpublished, Available online: https://core.ac.uk/outputs/11781963/."
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Illias, H.A., and Liang, W.Z. (2018). Identification of transformer fault based on dissolved gas analysis using hybrid support vector ma-chine-modified evolutionary particle swarm optimization. PLoS ONE, 13.",
+   "DOI": "10.1371/journal.pone.0191366"
+  },
+  {
+   "key": "ref_21",
+   "doi-asserted-by": "crossref",
+   "first-page": "2507",
+   "DOI": "10.1109/TDEI.2015.004999",
+   "article-title": "Development of a new graphical technique for dissolved gas analysis in power transformers based on the five combustible gases",
+   "volume": "22",
+   "author": "Mansour",
+   "year": "2015",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "first-page": "2299",
+   "DOI": "10.1049/iet-gtd.2018.6168",
+   "article-title": "Condition assessment of power transformers based on dissolved gas analysis",
+   "volume": "13",
+   "author": "Gouda",
+   "year": "2019",
+   "journal-title": "IET Gener. Transm. Distrib."
+  },
+  {
+   "key": "ref_23",
+   "unstructured": "G\u00e9ron, A. (2017). Hands-On Machine Learning with Scikit-Learn and Tensorflow Concepts, O\u2019Reilly Publishing."
+  },
+  {
+   "key": "ref_24",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Bernard, S., Adam, S., and Heutte, L. (2007, January 23\u201326). Using Random Forests for Handwritten Digit Recognition. Proceedings of the Ninth International Conference on Document Analysis and Recognition (ICDAR 2007), Curitiba, Brazil.",
+   "DOI": "10.1109/ICDAR.2007.4377074"
+  },
+  {
+   "key": "ref_25",
+   "unstructured": "Gilles Louppe (2024, December 13). Understanding Random Forests: From Theory to Practice. Available online: https://arxiv.org/pdf/1407.7502.pdf."
+  },
+  {
+   "key": "ref_26",
+   "doi-asserted-by": "crossref",
+   "first-page": "1838",
+   "DOI": "10.1109/TDEI.2016.005301",
+   "article-title": "Integrated ANN-based proactive fault diagnostic scheme for power transformers using dissolved gas analysis",
+   "volume": "23",
+   "author": "Ghoneim",
+   "year": "2016",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_27",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Benmahamed, Y., Teguar, M., and Boubakeur, A. (2018, January 28\u201331). Diagnosis of Power Transformer Oil Using PSO-SVM and KNN Classifiers. Proceedings of the International Conference on Electrical Sciences and Technologies in Maghreb (CISTEM), Algiers, Algeria.",
+   "DOI": "10.1109/CISTEM.2018.8613548"
+  },
+  {
+   "key": "ref_28",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Demirci, M., Gozde, H., and Taplamacioglu, M.C. (2021, January 11\u201313). Comparative Dissolved Gas Analysis with Machine Learning and Traditional Methods. Proceedings of the 2021 3rd International Congress on Human-Computer Interaction, Optimization and Robotic Applications (HORA), Ankara, Turkey.",
+   "DOI": "10.1109/HORA52670.2021.9461371"
+  },
+  {
+   "key": "ref_29",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Alqudsi, A., and El-Hag, A. (2019). Application of machine learning in transformer health index prediction. Energies, 12.",
+   "DOI": "10.3390/en12142694"
+  },
+  {
+   "key": "ref_30",
+   "doi-asserted-by": "crossref",
+   "first-page": "585",
+   "DOI": "10.1007/s10845-009-0321-7",
+   "article-title": "Classification knowledge discovery in mold tooling test using decision tree algorithm",
+   "volume": "22",
+   "author": "Yeh",
+   "year": "2011",
+   "journal-title": "J. Intell. Manuf."
+  },
+  {
+   "key": "ref_31",
+   "doi-asserted-by": "crossref",
+   "first-page": "273",
+   "DOI": "10.1080/0952813X.2012.721010",
+   "article-title": "Naive Bayes text classifiers: A locally weighted learning approach",
+   "volume": "25",
+   "author": "Jiang",
+   "year": "2013",
+   "journal-title": "J. Exp. Theor. Artif. Intell."
+  },
+  {
+   "key": "ref_32",
+   "doi-asserted-by": "crossref",
+   "first-page": "401",
+   "DOI": "10.1016/j.ijepes.2014.12.017",
+   "article-title": "A new fuzzy logic approach to identify power transformer criticality using dissolved gas-in-oil analysis",
+   "volume": "67",
+   "author": "Hmood",
+   "year": "2015",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "key": "ref_33",
+   "doi-asserted-by": "crossref",
+   "first-page": "427",
+   "DOI": "10.1016/j.ipm.2009.03.002",
+   "article-title": "A systematic analysis of performance measures for classification tasks",
+   "volume": "45",
+   "author": "Sokolova",
+   "year": "2009",
+   "journal-title": "Inf. Process. Manag."
+  }
+ ],
+ "container-title": [
+  "Applied Sciences"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/2076-3417/15/1/118/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    10
+   ]
+  ],
+  "date-time": "2025-10-10T17:01:11Z",
+  "timestamp": 1760115671000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/2076-3417/15/1/118"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2024,
+    12,
+    27
+   ]
+  ]
+ },
+ "references-count": 33,
+ "journal-issue": {
+  "issue": "1",
+  "published-online": {
+   "date-parts": [
+    [
+     2025,
+     1
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "app15010118"
+ ],
+ "URL": "https://doi.org/10.3390/app15010118",
+ "relation": {},
+ "ISSN": [
+  "2076-3417"
+ ],
+ "issn-type": [
+  {
+   "value": "2076-3417",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2024,
+    12,
+    27
+   ]
+  ]
+ }
+}

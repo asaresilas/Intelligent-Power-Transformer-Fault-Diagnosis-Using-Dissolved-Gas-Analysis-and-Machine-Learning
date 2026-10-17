@@ -1,0 +1,37 @@
+Step 35 verification of Transformer_Operating_Model against IEC 60076-7 equations, 2026-10-13, MATLAB 25.2.0.2998904 (R2025b)
+Tolerance 0.10 K; compared after 600 s; D33.
+
+Test 1 rated load: K(24 h) = 0.9839; M = 1446 logged model points after 10 min (of 1459)
+  top-oil : e_max 0.0014 K (whole run 0.0017), RMSE 0.0002 K, final model 78.638 / reference 78.638 degC
+  hot-spot: e_max 0.0129 K (whole run 0.0330), RMSE 0.0007 K, final model 100.276 / reference 100.276 degC, peak 100.276 degC
+  legacy measure (model interpolated onto reference points): oil 0.0023 K, hot-spot 0.0234 K; interpolation error of the logged grid itself: oil 0.0009 K, hot-spot 0.0109 K
+  start-up: whole-run maximum at 85 s (oil) and 85 s (hot-spot); last time above 0.10 K: oil NaN s, hot-spot NaN s (NaN = never)
+  ageing rate V: largest relative difference to the formula on the reference hot-spot 0.00149 (limit 0.01162)
+Test 2 load step: K(24 h) = 1.1733; M = 1523 logged model points after 10 min (of 1536)
+  top-oil : e_max 0.0015 K (whole run 0.0017), RMSE 0.0002 K, final model 95.496 / reference 95.496 degC
+  hot-spot: e_max 0.0152 K (whole run 0.0337), RMSE 0.0013 K, final model 122.700 / reference 122.700 degC, peak 122.700 degC
+  legacy measure (model interpolated onto reference points): oil 0.0020 K, hot-spot 0.0286 K; interpolation error of the logged grid itself: oil 0.0008 K, hot-spot 0.0144 K
+  start-up: whole-run maximum at 95 s (oil) and 95 s (hot-spot); last time above 0.10 K: oil NaN s, hot-spot NaN s (NaN = never)
+  ageing rate V: largest relative difference to the formula on the reference hot-spot 0.00175 (limit 0.01162)
+
+Closed form B (constant K = 0.9839): model - B e_max oil 0.0014 K, hot-spot 0.0129 K; reference A - B oil 0.00000 K, hot-spot 0.00000 K
+Top-oil 63.2 % rise time: model 75.002 min, expected k11*tau_o = 75.000 min (difference 0.002 min)
+Baseline 3 Oct: Test 1 final oil 78.638 / hs 100.276 (now 78.638 / 100.276); Test 2 K 0.5960 -> 1.1733 (now 0.5960 -> 1.1733)
+PASS  Test 1: top-oil e_max against reference A (K)                               value 0.0014162  limit 0.1
+PASS  Test 1: hot-spot e_max against reference A (K)                              value 0.012898  limit 0.1
+PASS  Test 2: top-oil e_max against reference A (K)                               value 0.001489  limit 0.1
+PASS  Test 2: hot-spot e_max against reference A (K)                              value 0.015162  limit 0.1
+PASS  Test 1: top-oil e_max against closed form B (K)                             value 0.0014162  limit 0.1
+PASS  Test 1: hot-spot e_max against closed form B (K)                            value 0.012898  limit 0.1
+PASS  reference A equals closed form B, top-oil (K)                               value 4.9962e-10  limit 0.001
+PASS  reference A equals closed form B, hot-spot (K)                              value 7.4233e-08  limit 0.001
+PASS  top-oil 63.2 % rise time equals k11*tau_o (difference, min)                 value 0.0015984  limit 1
+PASS  ageing rate V equals formula on reference hot-spot, Test 1 (relative)       value 0.0014889  limit 0.011619
+PASS  ageing rate V equals formula on reference hot-spot, Test 2 (relative)       value 0.0017501  limit 0.011619
+PASS  Test 1 final top-oil equals 3 Oct baseline (K)                              value 0.00047666  limit 0.1
+PASS  Test 1 final hot-spot equals 3 Oct baseline (K)                             value 0.00021675  limit 0.1
+PASS  Test 2 load factor before the step equals baseline (pu)                     value 2.9579e-05  limit 0.0005
+PASS  Test 2 load factor after the step equals baseline (pu)                      value 1.9284e-05  limit 0.0005
+
+15 of 15 checks passed.
+SDI session saved: 1

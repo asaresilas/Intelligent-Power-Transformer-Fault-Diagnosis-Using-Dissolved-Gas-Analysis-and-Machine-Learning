@@ -1,0 +1,15 @@
+{
+ "run": "2026-10-12_reducedgas_v1",
+ "model": "random_forest",
+ "feature_set": "F4 restricted to each subset (D22)",
+ "subsets": 31,
+ "data_version": "1.0",
+ "seed": 20261010,
+ "jobs": 7,
+ "python": "3.12.10",
+ "scikit_learn": "1.9.1",
+ "start": "2026-10-12T00:54:17",
+ "development_records": 439,
+ "test_sets_opened": false,
+ "end": "2026-10-12T09:32:07"
+}

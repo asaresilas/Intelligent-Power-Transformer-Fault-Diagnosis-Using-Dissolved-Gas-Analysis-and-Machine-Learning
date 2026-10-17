@@ -1,0 +1,111 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2024,
+    1,
+    16
+   ]
+  ],
+  "date-time": "2024-01-16T18:21:10Z",
+  "timestamp": 1705429270137
+ },
+ "reference-count": 0,
+ "publisher": "JSTOR",
+ "issue": "3",
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Biometrics"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    1987,
+    9
+   ]
+  ]
+ },
+ "DOI": "10.2307/2532027",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2006,
+    7,
+    5
+   ]
+  ],
+  "date-time": "2006-07-05T15:04:12Z",
+  "timestamp": 1152111852000
+ },
+ "page": "737",
+ "source": "Crossref",
+ "is-referenced-by-count": 2,
+ "title": [
+  "Correction: An Improved Sequentially Rejective Bonferroni Test Procedure"
+ ],
+ "prefix": "10.2307",
+ "volume": "43",
+ "member": "1121",
+ "container-title": [
+  "Biometrics"
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2018,
+    5,
+    9
+   ]
+  ],
+  "date-time": "2018-05-09T12:11:03Z",
+  "timestamp": 1525867863000
+ },
+ "score": 46.482845,
+ "resource": {
+  "primary": {
+   "URL": "https://www.jstor.org/stable/2532027?origin=crossref"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    1987,
+    9
+   ]
+  ]
+ },
+ "references-count": 0,
+ "journal-issue": {
+  "issue": "3",
+  "published-print": {
+   "date-parts": [
+    [
+     1987,
+     9
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.2307/2532027",
+ "ISSN": [
+  "0006-341X"
+ ],
+ "issn-type": [
+  {
+   "value": "0006-341X",
+   "type": "print"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    1987,
+    9
+   ]
+  ]
+ }
+}

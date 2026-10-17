@@ -1,0 +1,21 @@
+kind,item,label,colour_hex,marker_matplotlib,marker_matlab,order
+class,Normal,Normal,#898781,o,o,0
+class,PD,PD - partial discharge,#2A78D6,s,s,1
+class,D1,D1 - low-energy discharge,#EB6834,^,^,2
+class,D2,D2 - high-energy discharge,#1BAF7A,D,d,3
+class,T1,T1 - thermal below 300 C,#EDA100,v,v,4
+class,T2,T2 - thermal 300 to 700 C,#E87BA4,p,p,5
+class,T12,T1/T2 merged,#4A3AA7,X,x,6
+class,T3,T3 - thermal above 700 C,#008300,h,h,7
+method,ML,ML (selected model),#2A78D6,o,o,0
+method,Rogers,Rogers Ratio,#EB6834,s,s,1
+method,IEC60599,IEC 60599 ratio,#1BAF7A,D,d,2
+method,Duval,Duval Triangle 1,#EDA100,^,^,3
+scale,sequential_low,single-hue scale (low end),#CDE2FB,,,0
+scale,sequential_high,single-hue scale (high end),#0D366B,,,1
+scale,diverging_negative,two-colour scale (negative end),#E34948,,,0
+scale,diverging_mid,two-colour scale (zero),#F0EFEC,,,1
+scale,diverging_positive,two-colour scale (positive end),#2A78D6,,,2
+ink,text,text,#0B0B0B,,,0
+ink,muted,axis and labels,#898781,,,1
+ink,grid,gridlines,#E1E0D9,,,2

@@ -1,0 +1,126 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    8
+   ]
+  ],
+  "date-time": "2026-10-08T04:24:55Z",
+  "timestamp": 1791433495359,
+  "version": "4.3.3"
+ },
+ "reference-count": 0,
+ "publisher": "JSTOR",
+ "issue": "3/4",
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Biometrika"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    1950,
+    12
+   ]
+  ]
+ },
+ "DOI": "10.2307/2332378",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2006,
+    4,
+    23
+   ]
+  ],
+  "date-time": "2006-04-23T03:35:14Z",
+  "timestamp": 1145763314000
+ },
+ "page": "256",
+ "source": "Crossref",
+ "is-referenced-by-count": 188,
+ "title": [
+  "The Comparison of Percentages in Matched Samples"
+ ],
+ "prefix": "10.2307",
+ "volume": "37",
+ "author": [
+  {
+   "given": "W. G.",
+   "family": "Cochran",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1121",
+ "container-title": [
+  "Biometrika"
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2018,
+    4,
+    17
+   ]
+  ],
+  "date-time": "2018-04-17T21:36:06Z",
+  "timestamp": 1524000966000
+ },
+ "score": 72.93441,
+ "resource": {
+  "primary": {
+   "URL": "https://www.jstor.org/stable/2332378?origin=crossref"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    1950,
+    12
+   ]
+  ]
+ },
+ "references-count": 0,
+ "journal-issue": {
+  "issue": "3/4",
+  "published-print": {
+   "date-parts": [
+    [
+     1950,
+     12
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.2307/2332378",
+ "ISSN": [
+  "0006-3444"
+ ],
+ "issn-type": [
+  {
+   "value": "0006-3444",
+   "type": "print"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    1950,
+    12
+   ]
+  ]
+ }
+}

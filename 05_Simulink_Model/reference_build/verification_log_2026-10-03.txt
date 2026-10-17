@@ -1,0 +1,13 @@
+BUILD OK
+UPDATE OK
+SIM OK in 9.9 s (wall)
+K final 0.9839 (min 0.9839, max 0.9839)
+theta_oil final 78.638 C, theta_hs final 100.276 C, V final 1.3007
+Reference (K=0.9839): oil final 78.638 C, hs final 100.276 C
+Max |model-ref| after 10 min: oil 0.006 K, hot-spot 0.061 K
+Top-oil 63% rise time 75.0 min (expected k11*tau_o = 75.0 min)
+Derived: Pk=136000 W, R=7.556, X=0.16196 pu, Rm=2222.2 pu, Xm=4588.3 pu, R_th_oil=3.8961e-04 K/W, C_th_oil=1.1550e+07 J/K, I_LV_rated=1154.70 A
+TEST2 K before 0.5960 after 1.1733
+TEST2 Max |model-ref| after 10 min: oil 0.003 K, hot-spot 0.031 K
+TEST2 final: oil 95.50 C, hs 122.70 C; peak hs 122.70 C
+FIGURES OK

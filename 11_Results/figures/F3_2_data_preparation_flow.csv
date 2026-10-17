@@ -1,0 +1,19 @@
+stage,item,records
+raw,IECTC10,117
+raw,DISTRAIN,584
+raw,DISTEST,70
+raw,DISIEC,49
+raw,LI2019,201
+step9_removed,leakage,139
+step9_removed,exact copy,2
+step9_removed,label conflict,4
+master,all,827
+role,development,439
+role,development complete cases,262
+role,internal_test,70
+role,internal_test independent,61
+role,benchmark,117
+role,benchmark power transformers,58
+role,external_test,201
+role,external_test independent,86
+folds,5 folds x 10 repeats,439

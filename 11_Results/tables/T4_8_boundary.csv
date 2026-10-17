@@ -1,0 +1,4 @@
+method_label,n,n_excluded_no_distance,n_disagree,beta1,se,or,or_lo,or_hi,p,method_used,criterion3_met
+Rogers Ratio,204,1,133,-0.2221,0.1494,0.8008,0.5975,1.0733,0.1371,maximum likelihood,False
+IEC 60599 ratio,204,1,97,0.0098,0.1405,1.0098,0.7668,1.3298,0.9445,maximum likelihood,False
+Duval Triangle 1,205,0,103,-0.1973,0.1417,0.8209,0.6219,1.0836,0.1636,maximum likelihood,False

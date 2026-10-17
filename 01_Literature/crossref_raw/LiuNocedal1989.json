@@ -1,0 +1,527 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    13
+   ]
+  ],
+  "date-time": "2026-10-13T13:58:56Z",
+  "timestamp": 1791899936422,
+  "version": "4.3.4"
+ },
+ "reference-count": 36,
+ "publisher": "Springer Science and Business Media LLC",
+ "issue": "1-3",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      1989,
+      8,
+      1
+     ]
+    ],
+    "date-time": "1989-08-01T00:00:00Z",
+    "timestamp": 617932800000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "http://www.springer.com/tdm"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Mathematical Programming"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    1989,
+    8
+   ]
+  ]
+ },
+ "DOI": "10.1007/bf01589116",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2005,
+    4,
+    28
+   ]
+  ],
+  "date-time": "2005-04-28T08:22:34Z",
+  "timestamp": 1114676554000
+ },
+ "page": "503-528",
+ "source": "Crossref",
+ "is-referenced-by-count": 7079,
+ "title": [
+  "On the limited memory BFGS method for large scale optimization"
+ ],
+ "prefix": "10.1007",
+ "volume": "45",
+ "author": [
+  {
+   "given": "Dong C.",
+   "family": "Liu",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jorge",
+   "family": "Nocedal",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "297",
+ "reference": [
+  {
+   "key": "CR1",
+   "first-page": "281",
+   "volume-title": "Nonlinear Optimization 1981",
+   "author": "E.M.L. Beale",
+   "year": "1981",
+   "unstructured": "E.M.L. Beale, \u201cAlgorithms for very large nonlinear optimization problems,\u201d in: M.J.D. Powell, ed.,Nonlinear Optimization 1981 (Academic Press, London, 1981) pp. 281\u2013292."
+  },
+  {
+   "key": "CR2",
+   "doi-asserted-by": "crossref",
+   "first-page": "200",
+   "DOI": "10.1007/BF01609018",
+   "volume": "15",
+   "author": "A. Buckley",
+   "year": "1978",
+   "unstructured": "A. Buckley, \u201cA combined conjugate gradient quasi-Newton minimization algorithm,\u201dMathematical Programming 15 (1978) 200\u2013210.",
+   "journal-title": "Mathematical Programming"
+  },
+  {
+   "key": "CR3",
+   "volume-title": "\u201cUpdate to TOMS Algorithm 630,\u201d Rapports Techniques No. 91",
+   "author": "A. Buckley",
+   "year": "1987",
+   "unstructured": "A. Buckley, \u201cUpdate to TOMS Algorithm 630,\u201d Rapports Techniques No. 91, Institut National de Recherche en Informatique et en Automatique, Domaine Voluceau, Rocquencourt, B.P. 105 (Le Chesnay, 1987)."
+  },
+  {
+   "key": "CR4",
+   "doi-asserted-by": "crossref",
+   "first-page": "155",
+   "DOI": "10.1007/BF02591943",
+   "volume": "27",
+   "author": "A. Buckley",
+   "year": "1983",
+   "unstructured": "A. Buckley and A. LeNir, \u201cQN-like variable storage conjugate gradients,\u201dMathematical Programming 27 (1983) 155\u2013175.",
+   "journal-title": "Mathematical Programming"
+  },
+  {
+   "key": "CR5",
+   "doi-asserted-by": "crossref",
+   "first-page": "103",
+   "DOI": "10.1145/214392.214395",
+   "volume": "11/2",
+   "author": "A. Buckley",
+   "year": "1985",
+   "unstructured": "A. Buckley and A. LeNir, \u201cBBVSCG\u2014A variable storage algorithm for function minimization,\u201dACM Transactions on Mathematical Software 11/2 (1985) 103\u2013119.",
+   "journal-title": "ACM Transactions on Mathematical Software"
+  },
+  {
+   "key": "CR6",
+   "doi-asserted-by": "crossref",
+   "first-page": "727",
+   "DOI": "10.1137/0726042",
+   "volume": "26",
+   "author": "R.H. Byrd",
+   "year": "1989",
+   "unstructured": "R.H. Byrd and J. Nocedal, \u201cA tool for the analysis of quasi-Newton methods with application to unconstrained minimization,\u201dSIAM Journal on Numerical Analysis 26 (1989) 727\u2013739.",
+   "journal-title": "SIAM Journal on Numerical Analysis"
+  },
+  {
+   "key": "CR7",
+   "unstructured": "J.E. Dennis Jr. and R.B. Schnabel,Numerical methods for unconstrained optimization and nonlinear equations (Prentice-Hall, 1983)."
+  },
+  {
+   "key": "CR8",
+   "first-page": "1",
+   "volume-title": "Handbooks in Operations Research and Management Science, Vol. 1, Optimization",
+   "author": "J.E. Dennis Jr.",
+   "year": "1989",
+   "unstructured": "J.E. Dennis Jr. and R.B. Schnabel, \u201cA view of unconstrained optimization,\u201d in: G.L. Nemhauser, A.H.G. Rinnooy Kan and M.J. Todd, eds.,Handbooks in Operations Research and Management Science, Vol. 1, Optimization (North-Holland, Amsterdam, 1989) pp. 1\u201372."
+  },
+  {
+   "key": "CR9",
+   "volume-title": "Practical Methods of Optimization, Vol. 1, Unconstrained Optimization",
+   "author": "R. Fletcher",
+   "year": "1980",
+   "unstructured": "R. Fletcher,Practical Methods of Optimization, Vol. 1, Unconstrained Optimization (Wiley, New York, 1980)."
+  },
+  {
+   "key": "CR10",
+   "series-title": "IIASA Working Paper",
+   "volume-title": "Some numerical experiments with variable storage quasi-Newton algorithms",
+   "author": "J.C. Gilbert",
+   "year": "1988",
+   "unstructured": "J.C. Gilbert and C. Lemar\u00e9chal, \u201cSome numerical experiments with variable storage quasi-Newton algorithms,\u201d IIASA Working Paper WP-88, A-2361 (Laxenburg, 1988)."
+  },
+  {
+   "key": "CR11",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.21236/ADA078713",
+   "volume-title": "\u201cConjugate-gradient methods for large-scale nonlinear optimization,\u201d Technical Report SOL 79-15",
+   "author": "P.E. Gill",
+   "year": "1979",
+   "unstructured": "P.E. Gill and W. Murray, \u201cConjugate-gradient methods for large-scale nonlinear optimization,\u201d Technical Report SOL 79-15, Department of Operations Research, Stanford University (Stanford, CA, 1979)."
+  },
+  {
+   "key": "CR12",
+   "volume-title": "Practical Optimization",
+   "author": "P.E. Gill",
+   "year": "1981",
+   "unstructured": "P.E. Gill, W. Murray and M.H. Wright,Practical Optimization (Academic Press, London, 1981)."
+  },
+  {
+   "key": "CR13",
+   "volume-title": "\u201cThe global convergence of partitioned BFGS on semi-smooth problems with convex decompositions,\u201d ANL/MCS-TM-105",
+   "author": "A. Griewank",
+   "year": "1987",
+   "unstructured": "A. Griewank, \u201cThe global convergence of partitioned BFGS on semi-smooth problems with convex decompositions,\u201d ANL/MCS-TM-105, Mathematics and Computer Science Division, Argonne National Laboratory (Argonne, IL, 1987)."
+  },
+  {
+   "key": "CR14",
+   "doi-asserted-by": "crossref",
+   "first-page": "119",
+   "DOI": "10.1007/BF01399316",
+   "volume": "39",
+   "author": "A. Griewank",
+   "year": "1982",
+   "unstructured": "A. Griewank and Ph.L. Toint, \u201cPartitioned variable metric updates for large structured optimization problems,\u201dNumerische Mathematik 39 (1982a) 119\u2013137.",
+   "journal-title": "Numerische Mathematik"
+  },
+  {
+   "key": "CR15",
+   "doi-asserted-by": "crossref",
+   "first-page": "429",
+   "DOI": "10.1007/BF01407874",
+   "volume": "39",
+   "author": "A. Griewank",
+   "year": "1982",
+   "unstructured": "A. Griewank and Ph.L. Toint, \u201cLocal convergence analysis of partitioned quasi-Newton updates,\u201dNumerische Mathematik 39 (1982b) 429\u2013448.",
+   "journal-title": "Numerische Mathematik"
+  },
+  {
+   "key": "CR16",
+   "doi-asserted-by": "crossref",
+   "first-page": "203",
+   "DOI": "10.1007/BFb0099526",
+   "volume-title": "Numerical Analysis: Proceedings Dundee 1983, Lecture Notes in Mathematics, Vol. 1066",
+   "author": "A. Griewank",
+   "year": "1984",
+   "unstructured": "A. Griewank and Ph.L. Toint, \u201cNumerical experiments with partially separable optimization problems,\u201d in: D.F. Griffiths, ed.,Numerical Analysis: Proceedings Dundee 1983, Lecture Notes in Mathematics, Vol. 1066 (Springer, Berlin, 1984) pp. 203\u2013220."
+  },
+  {
+   "key": "CR17",
+   "volume-title": "\u201cTest results of two limited memory methods for large scale optimization,\u201d Technical Report NAM 04",
+   "author": "D.C. Liu",
+   "year": "1988",
+   "unstructured": "D.C. Liu and J. Nocedal, \u201cTest results of two limited memory methods for large scale optimization,\u201d Technical Report NAM 04, Department of Electrical Engineering and Computer Science, Northwestern University (Evanston, IL, 1988)."
+  },
+  {
+   "key": "CR18",
+   "doi-asserted-by": "crossref",
+   "first-page": "17",
+   "DOI": "10.1145/355934.355936",
+   "volume": "7",
+   "author": "J.J. Mor\u00e9",
+   "year": "1981",
+   "unstructured": "J.J. Mor\u00e9, B.S. Garbow and K.E. Hillstrom, \u201cTesting unconstrained optimization software,\u201dACM Transactions on Mathematical Software 7 (1981) 17\u201341.",
+   "journal-title": "ACM Transactions on Mathematical Software"
+  },
+  {
+   "key": "CR19",
+   "doi-asserted-by": "crossref",
+   "first-page": "599",
+   "DOI": "10.1137/0906042",
+   "volume": "6",
+   "author": "S.G. Nash",
+   "year": "1985",
+   "unstructured": "S.G. Nash, \u201cPreconditioning of truncated-Newton methods,\u201dSIAM Journal on Scientific and Statistical Computing 6 (1985) 599\u2013616.",
+   "journal-title": "SIAM Journal on Scientific and Statistical Computing"
+  },
+  {
+   "key": "CR20",
+   "doi-asserted-by": "crossref",
+   "first-page": "794",
+   "DOI": "10.1137/0716059",
+   "volume": "16",
+   "author": "L. Nazareth",
+   "year": "1979",
+   "unstructured": "L. Nazareth, \u201cA relationship between the BFGS and conjugate gradient algorithms and its implications for new algorithms,\u201dSIAM Journal on Numerical Analysis 16 (1979) 794\u2013800.",
+   "journal-title": "SIAM Journal on Numerical Analysis"
+  },
+  {
+   "key": "CR21",
+   "doi-asserted-by": "crossref",
+   "first-page": "773",
+   "DOI": "10.1090/S0025-5718-1980-0572855-7",
+   "volume": "35",
+   "author": "J. Nocedal",
+   "year": "1980",
+   "unstructured": "J. Nocedal, \u201cUpdating quasi-Newton matrices with limited storage,\u201dMathematics of Computation 35 (1980) 773\u2013782.",
+   "journal-title": "Mathematics of Computation"
+  },
+  {
+   "key": "CR22",
+   "doi-asserted-by": "crossref",
+   "first-page": "20",
+   "DOI": "10.1007/BF01583777",
+   "volume": "23",
+   "author": "D.P. O'Leary",
+   "year": "1982",
+   "unstructured": "D.P. O'Leary, \u201cA discrete Newton algorithm for minimizing a function of many variables,\u201dMathematical Programming 23 (1982) 20\u201333.",
+   "journal-title": "Mathematical Programming"
+  },
+  {
+   "key": "CR23",
+   "doi-asserted-by": "crossref",
+   "first-page": "171",
+   "DOI": "10.1093/comjnl/12.2.171",
+   "volume": "12",
+   "author": "J.D. Pearson",
+   "year": "1969",
+   "unstructured": "J.D. Pearson, \u201cVariable metric methods of minimization,\u201dComputer Journal 12 (1969) 171\u2013178.",
+   "journal-title": "Computer Journal"
+  },
+  {
+   "key": "CR24",
+   "series-title": "Discussion Paper",
+   "volume-title": "A class of conjugate gradient algorithms with a two-step variable-metric memory",
+   "author": "J.M. Perry",
+   "year": "1977",
+   "unstructured": "J.M. Perry, \u201cA class of conjugate gradient algorithms with a two-step variable-metric memory,\u201d Discussion Paper 269, Center for Mathematical Studies in Economics and Management Science, Northwestern University (Evanston, IL, 1977)."
+  },
+  {
+   "key": "CR25",
+   "volume-title": "Nonlinear Programing, SIAM-AMS Proceedings IX",
+   "author": "M.J.D. Powell",
+   "year": "1976",
+   "unstructured": "M.J.D. Powell, \u201cSome global convergence properties of a variable metric algorithm for minimization without exact line search,\u201d in: R.W. Cottle and C.E. Lemke, eds.,Nonlinear Programing, SIAM-AMS Proceedings IX (SIAM, Philadelphia, PA, 1976)."
+  },
+  {
+   "key": "CR26",
+   "doi-asserted-by": "crossref",
+   "first-page": "241",
+   "DOI": "10.1007/BF01593790",
+   "volume": "12",
+   "author": "M.J.D. Powell",
+   "year": "1977",
+   "unstructured": "M.J.D. Powell, \u201cRestart procedures for the conjugate gradient method,\u201dMathematical Programming 12 (1977) 241\u2013254.",
+   "journal-title": "Mathematical Programming"
+  },
+  {
+   "key": "CR27",
+   "doi-asserted-by": "crossref",
+   "first-page": "1247",
+   "DOI": "10.1137/0715085",
+   "volume": "15",
+   "author": "D.F. Shanno",
+   "year": "1978",
+   "unstructured": "D.F. Shanno, \u201cOn the convergence of a new conjugate gradient algorithm,\u201dSIAM Journal on Numerical Analysis 15 (1978a) 1247\u20131257.",
+   "journal-title": "SIAM Journal on Numerical Analysis"
+  },
+  {
+   "key": "CR28",
+   "doi-asserted-by": "crossref",
+   "first-page": "244",
+   "DOI": "10.1287/moor.3.3.244",
+   "volume": "3",
+   "author": "D.F. Shanno",
+   "year": "1978",
+   "unstructured": "D.F. Shanno, \u201cConjugate gradient methods with inexact searches,\u201dMathematics of Operations Research 3 (1978b) 244\u2013256.",
+   "journal-title": "Mathematics of Operations Research"
+  },
+  {
+   "key": "CR29",
+   "doi-asserted-by": "crossref",
+   "first-page": "149",
+   "DOI": "10.1007/BF01588962",
+   "volume": "14",
+   "author": "D.F. Shanno",
+   "year": "1978",
+   "unstructured": "D.F. Shanno and K.H. Phua, \u201cMatrix conditioning and nonlinear optimization,\u201dMathematical Programming 14 (1978) 149\u2013160.",
+   "journal-title": "Mathematical Programming"
+  },
+  {
+   "key": "CR30",
+   "doi-asserted-by": "crossref",
+   "first-page": "618",
+   "DOI": "10.1145/355921.355933",
+   "volume": "6",
+   "author": "D.F. Shanno",
+   "year": "1980",
+   "unstructured": "D.F. Shanno and K.H. Phua, \u201cRemark on algorithm 500: minimization of unconstrained multivariate functions,\u201dACM Transactions on Mathematical Software 6 (1980) 618\u2013622.",
+   "journal-title": "ACM Transactions on Mathematical Software"
+  },
+  {
+   "key": "CR31",
+   "doi-asserted-by": "crossref",
+   "first-page": "626",
+   "DOI": "10.1137/0720042",
+   "volume": "20",
+   "author": "T. Steihaug",
+   "year": "1983",
+   "unstructured": "T. Steihaug, \u201cThe conjugate gradient method and trust regions in large scale optimization,\u201dSIAM Journal on Numerical Analysis 20 (1983) 626\u2013637.",
+   "journal-title": "SIAM Journal on Numerical Analysis"
+  },
+  {
+   "key": "CR32",
+   "doi-asserted-by": "crossref",
+   "first-page": "839",
+   "DOI": "10.1090/S0025-5718-1978-0483452-7",
+   "volume": "32",
+   "author": "Ph.L. Toint",
+   "year": "1978",
+   "unstructured": "Ph.L. Toint, \u201cSome numerical results using a sparse matrix updating formula in unconstrained optimization,\u201dMathematics of Computation 32 (1978) 839\u2013851.",
+   "journal-title": "Mathematics of Computation"
+  },
+  {
+   "key": "CR33",
+   "first-page": "57",
+   "volume-title": "Sparse Matrices and their Uses",
+   "author": "Ph.L. Toint",
+   "year": "1981",
+   "unstructured": "Ph.L. Toint, \u201cTowards an efficient sparsity exploiting Newton method for minimization,\u201d in: I.S. Duff, ed.,Sparse Matrices and their Uses (Academic Press, New York, 1981) pp. 57\u201387."
+  },
+  {
+   "key": "CR34",
+   "volume-title": "\u201cTest problems for partially separable optimization and results for the routine PSPMIN,\u201d Report Nr 83/4",
+   "author": "Ph.L. Toint",
+   "year": "1983",
+   "unstructured": "Ph.L. Toint, \u201cTest problems for partially separable optimization and results for the routine PSPMIN,\u201d Report Nr 83/4, Department of Mathematics, Facult\u00e9s Universitaires de Namur (Namur, 1983a)."
+  },
+  {
+   "key": "CR35",
+   "volume-title": "VE08AD, a routine for partially separable optimization with bounded variables",
+   "author": "Ph.L. Toint",
+   "year": "1983",
+   "unstructured": "Ph.L. Toint, \u201cVE08AD, a routine for partially separable optimization with bounded variables,\u201d Harwell Subroutine Library, A.E.R.E. (UK, 1983b)."
+  },
+  {
+   "key": "CR36",
+   "volume-title": "\u201cA view of nonlinear optimization in a large number of variables,\u201d Report Nr 86/16",
+   "author": "Ph.L. Toint",
+   "year": "1986",
+   "unstructured": "Ph.L. Toint, \u201cA view of nonlinear optimization in a large number of variables,\u201d Report Nr 86/16, Department of Mathematics, Facult\u00e9s Universitaires de Namur (Namur, 1986)."
+  }
+ ],
+ "container-title": [
+  "Mathematical Programming"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "http://link.springer.com/content/pdf/10.1007/BF01589116.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "http://link.springer.com/article/10.1007/BF01589116/fulltext.html",
+   "content-type": "text/html",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "http://link.springer.com/content/pdf/10.1007/BF01589116",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2019,
+    5,
+    3
+   ]
+  ],
+  "date-time": "2019-05-03T11:36:31Z",
+  "timestamp": 1556883391000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "http://link.springer.com/10.1007/BF01589116"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    1989,
+    8
+   ]
+  ]
+ },
+ "references-count": 36,
+ "journal-issue": {
+  "issue": "1-3",
+  "published-print": {
+   "date-parts": [
+    [
+     1989,
+     8
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "BF01589116"
+ ],
+ "URL": "https://doi.org/10.1007/bf01589116",
+ "relation": {},
+ "ISSN": [
+  "0025-5610",
+  "1436-4646"
+ ],
+ "issn-type": [
+  {
+   "value": "0025-5610",
+   "type": "print"
+  },
+  {
+   "value": "1436-4646",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    1989,
+    8
+   ]
+  ]
+ }
+}

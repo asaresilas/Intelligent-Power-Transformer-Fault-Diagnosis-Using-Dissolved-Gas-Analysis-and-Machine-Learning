@@ -1,0 +1,11 @@
+name,ok,detail
+"verdict computed for all 388 records without error",1,0 errors
+"every record has a health state",1,
+"a fault verdict always has at least 2 votes and a known class",1,
+"healthy records have every gas at or below the typical value (gate)",1,by construction: see next check
+"health is healthy or watch for every gated record and never fault",1,78 gated records
+"mixed set: 7 records, one of each class in order, held-out only, reproducible with the same seed, different with another",1,DISTEST_0065 LI2019_0007 IECTC10_0010 IECTC10_0069 DISTEST_0035 DISTEST_0042 IECTC10_0112
+"first set: IECTC10_0001 to 0004 (the Step 40 demonstration)",1,IECTC10_0001 IECTC10_0002 IECTC10_0003 IECTC10_0004
+"class picker: one healthy record",1,DISTEST_0063
+"random set: 7 different held-out records",1,
+"sim_window: time restarts at 0, last day only (24 h), loss of life 24 h at ageing rate 1, event times 3 and 6 h",1,LoL 24.000 h

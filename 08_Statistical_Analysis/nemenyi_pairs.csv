@@ -1,0 +1,16 @@
+model_a,model_b,rank_a,rank_b,rank_difference,significant
+majority,logistic_regression,6.0,3.42,2.58,True
+majority,svm,6.0,3.5,2.5,True
+majority,random_forest,6.0,1.76,4.24,True
+majority,xgboost,6.0,2.28,3.72,True
+majority,mlp,6.0,4.04,1.96,True
+logistic_regression,svm,3.42,3.5,0.08,False
+logistic_regression,random_forest,3.42,1.76,1.66,True
+logistic_regression,xgboost,3.42,2.28,1.14,True
+logistic_regression,mlp,3.42,4.04,0.62,False
+svm,random_forest,3.5,1.76,1.74,True
+svm,xgboost,3.5,2.28,1.22,True
+svm,mlp,3.5,4.04,0.54,False
+random_forest,xgboost,1.76,2.28,0.52,False
+random_forest,mlp,1.76,4.04,2.28,True
+xgboost,mlp,2.28,4.04,1.76,True

@@ -1,0 +1,7 @@
+model,label,average_rank_F4,mean_macro_f1_F4
+majority,Majority baseline,6.0,0.0463
+logistic_regression,Logistic regression,3.42,0.8196
+svm,SVM (RBF),3.5,0.8189
+random_forest,Random Forest,1.76,0.85
+xgboost,XGBoost,2.28,0.8424
+mlp,Neural network (MLP),4.04,0.8049

@@ -1,0 +1,16 @@
+check,value,limit,passed
+"Test 1: top-oil e_max against reference A (K)",0.00141618120115439,0.1,1
+"Test 1: hot-spot e_max against reference A (K)",0.0128976086247334,0.1,1
+"Test 2: top-oil e_max against reference A (K)",0.00148895684300498,0.1,1
+"Test 2: hot-spot e_max against reference A (K)",0.0151621617011131,0.1,1
+"Test 1: top-oil e_max against closed form B (K)",0.00141618170227886,0.1,1
+"Test 1: hot-spot e_max against closed form B (K)",0.0128975897469132,0.1,1
+"reference A equals closed form B, top-oil (K)",4.99618124649714e-10,0.001,1
+"reference A equals closed form B, hot-spot (K)",7.42331138781083e-08,0.001,1
+"top-oil 63.2 % rise time equals k11*tau_o (difference, min)",0.00159836235121702,1,1
+"ageing rate V equals formula on reference hot-spot, Test 1 (relative)",0.00148888069144615,0.0116194403019225,1
+"ageing rate V equals formula on reference hot-spot, Test 2 (relative)",0.00175006844691894,0.0116194403019225,1
+"Test 1 final top-oil equals 3 Oct baseline (K)",0.000476664793808368,0.1,1
+"Test 1 final hot-spot equals 3 Oct baseline (K)",0.000216747660587657,0.1,1
+"Test 2 load factor before the step equals baseline (pu)",2.95785642171476e-05,0.0005,1
+"Test 2 load factor after the step equals baseline (pu)",1.92842438688778e-05,0.0005,1

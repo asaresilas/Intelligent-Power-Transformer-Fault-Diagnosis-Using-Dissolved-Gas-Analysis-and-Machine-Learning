@@ -1,0 +1,60 @@
+record_id,source_id,equipment_type,class_merged,reason,inspection
+IECTC10_0002,IECTC10,I,PD,instrument transformer (Table 1) - not a power transformer,Corona and x-wax formation
+IECTC10_0003,IECTC10,I,PD,instrument transformer (Table 1) - not a power transformer,X-wax deposition
+IECTC10_0004,IECTC10,B,PD,bushing (Table 1) - not a power transformer,Partial discharges inducing displacement of insulation and bolt
+IECTC10_0005,IECTC10,I,PD,instrument transformer (Table 1) - not a power transformer,Partial discharges
+IECTC10_0006,IECTC10,I,PD,instrument transformer (Table 1) - not a power transformer,X-wax deposits
+IECTC10_0007,IECTC10,I,PD,instrument transformer (Table 1) - not a power transformer,X-wax deposits
+IECTC10_0008,IECTC10,I,PD,instrument transformer (Table 1) - not a power transformer,X-wax deposits
+IECTC10_0009,IECTC10,I,PD,instrument transformer (Table 1) - not a power transformer,Heavy x-wax deposits
+IECTC10_0012,IECTC10,S,D1,selector / tap-changer compartment - code not defined in Table 1; not the main tank,Selector breaking current in selector tank
+IECTC10_0016,IECTC10,R,D1,reactor (Table 1) - not a power transformer,Tracking to the ground in glue of central beam
+IECTC10_0018,IECTC10,S,D1,selector / tap-changer compartment - code not defined in Table 1; not the main tank,500 OLTC normal operations
+IECTC10_0019,IECTC10,S,D1,selector / tap-changer compartment - code not defined in Table 1; not the main tank,3600 OLTC normal operations
+IECTC10_0020,IECTC10,(blank),D1,equipment type not given - cannot be confirmed as a power transformer,Poor shielding contact (electrical problem)
+IECTC10_0021,IECTC10,C,D1,cable (Table 1) - not a power transformer,Traces of discharges in paper of cone junction of HV cable
+IECTC10_0022,IECTC10,R,D1,reactor (Table 1) - not a power transformer,Sparking from bushing to tank
+IECTC10_0023,IECTC10,R,D1,reactor (Table 1) - not a power transformer,Sparking from bushing to tank
+IECTC10_0024,IECTC10,R,D1,reactor (Table 1) - not a power transformer,Tracking in paper
+IECTC10_0026,IECTC10,R,D1,reactor (Table 1) - not a power transformer,Low energy in core
+IECTC10_0027,IECTC10,S,D1,selector / tap-changer compartment - code not defined in Table 1; not the main tank,Contamination from OLTC
+IECTC10_0028,IECTC10,R,D1,reactor (Table 1) - not a power transformer,Tracking in insulation
+IECTC10_0029,IECTC10,R,D1,reactor (Table 1) - not a power transformer,Tracking from windings to beam
+IECTC10_0030,IECTC10,R,D1,reactor (Table 1) - not a power transformer,Sparking / Tracking in insulation
+IECTC10_0034,IECTC10,B,D1,bushing (Table 1) - not a power transformer,Low energy arcing in bushing
+IECTC10_0035,IECTC10,B,D1,bushing (Table 1) - not a power transformer,"Low energy discharge in oil, signs of tracking along inner porcelain"
+IECTC10_0037,IECTC10,S,D2,selector / tap-changer compartment - code not defined in Table 1; not the main tank,Arc in selector switch
+IECTC10_0043,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing in wet cellulose
+IECTC10_0045,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing from windings to ground (inadvertent piece leftover)
+IECTC10_0050,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing inside windings
+IECTC10_0053,IECTC10,S,D2,selector / tap-changer compartment - code not defined in Table 1; not the main tank,Arcing on selector switch ring
+IECTC10_0055,IECTC10,I,D2,instrument transformer (Table 1) - not a power transformer,Arcing in static shield connections
+IECTC10_0056,IECTC10,C,D2,cable (Table 1) - not a power transformer,"Very short HV high energy discharge, followed by tracking"
+IECTC10_0057,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing from bushing to tank
+IECTC10_0060,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing in windings
+IECTC10_0062,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing in wndings
+IECTC10_0063,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing in wndings
+IECTC10_0064,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing in wndings
+IECTC10_0066,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing from bushing to tank
+IECTC10_0067,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing in bushing
+IECTC10_0072,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing in windings (molten metal)
+IECTC10_0073,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing in windings
+IECTC10_0074,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing in windings
+IECTC10_0077,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing from bushing to tank
+IECTC10_0079,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing from bushing to tank
+IECTC10_0080,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing in bushing
+IECTC10_0081,IECTC10,R,D2,reactor (Table 1) - not a power transformer,Arcing in bushing insulation
+IECTC10_0086,IECTC10,I,T12,instrument transformer (Table 1) - not a power transformer,Thermal runaway inside thick insulation with puncture / carbonization of paper
+IECTC10_0087,IECTC10,I,T12,instrument transformer (Table 1) - not a power transformer,Thermal runaway in thick paper insulation
+IECTC10_0093,IECTC10,B,T12,bushing (Table 1) - not a power transformer,Hot spot with carbon formation
+IECTC10_0094,IECTC10,I,T12,instrument transformer (Table 1) - not a power transformer,Hot spot in paper
+IECTC10_0095,IECTC10,I,T12,instrument transformer (Table 1) - not a power transformer,Hot spot in paper
+IECTC10_0097,IECTC10,R,T12,reactor (Table 1) - not a power transformer,Low temperature overheating of clamping beams of yokes by stray flux
+IECTC10_0098,IECTC10,R,T12,reactor (Table 1) - not a power transformer,"Idem, with carbonization of beams"
+IECTC10_0099,IECTC10,B,T12,bushing (Table 1) - not a power transformer,Thermodielectric failure
+IECTC10_0102,IECTC10,S,T3,selector / tap-changer compartment - code not defined in Table 1; not the main tank,Pyrolitic carbon growth between selector contacts
+IECTC10_0112,IECTC10,R,T3,reactor (Table 1) - not a power transformer,Bad contact in defective weld in windings
+IECTC10_0113,IECTC10,R,T3,reactor (Table 1) - not a power transformer,Hot spots in laminations
+IECTC10_0114,IECTC10,R,T3,reactor (Table 1) - not a power transformer,Hot spot in laminations (molten steel)
+IECTC10_0115,IECTC10,R,T3,reactor (Table 1) - not a power transformer,Hot spot on bushing
+IECTC10_0116,IECTC10,R,T3,reactor (Table 1) - not a power transformer,High temperature in laminations

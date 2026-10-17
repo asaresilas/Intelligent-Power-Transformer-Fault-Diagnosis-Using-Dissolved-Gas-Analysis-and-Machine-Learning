@@ -1,0 +1,4 @@
+row,record_id,family,true_class,rogers_iec_duval,ml_class,agreement
+1,IECTC10_0001,partial discharge,PD,ND/PD/PD,PD,amber
+36,IECTC10_0036,electrical discharge,D2,D2/D1/D2/D2,D2,green
+100,IECTC10_0100,thermal fault,T3,T2/T2/T3,T2,amber

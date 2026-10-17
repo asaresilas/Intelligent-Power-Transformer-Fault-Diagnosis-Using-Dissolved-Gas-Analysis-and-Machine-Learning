@@ -1,0 +1,45 @@
+{
+ "step": 38,
+ "run_started": "2026-10-13T17:27:19",
+ "url": "http://127.0.0.1:8000",
+ "hardware": {
+  "cpu": "AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx",
+  "logical_processors": 8,
+  "ram_GB": 21.9,
+  "os": "Windows 11 (build 10.0.26300)",
+  "python": "3.12.10"
+ },
+ "packages": {
+  "fastapi": "0.143.0",
+  "uvicorn": "0.54.0",
+  "pydantic": "2.14.0",
+  "httpx": "0.28.1",
+  "sklearn": "1.9.1"
+ },
+ "health": {
+  "status": "ok",
+  "model_loaded": true,
+  "model_sha256": "1C46D10391429385D7A35DDD7C6B8AC560C7285980752AB938A1FA42B7809523",
+  "model_version": "1.0"
+ },
+ "api_version": "1.0.0",
+ "start_up_s": 4.86,
+ "warm_up_calls_not_counted": 5,
+ "n_records": 388,
+ "failed_calls": 0,
+ "class_matches": 388,
+ "class_identity_fraction": 1.0,
+ "probabilities_identical": 388,
+ "record_id_returned": 388,
+ "response_ms": {
+  "median": 55.26,
+  "p95": 62.12,
+  "mean": 55.52,
+  "min": 48.95,
+  "max": 66.79
+ },
+ "percentile_method": "numpy.percentile, linear interpolation",
+ "status": "preliminary - formal fidelity and response time in Steps 41-42 (Table 4.11, Figure 4.21)",
+ "labels_read": false,
+ "pass": true
+}

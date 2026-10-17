@@ -1,0 +1,753 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    3
+   ]
+  ],
+  "date-time": "2026-10-03T19:44:14Z",
+  "timestamp": 1791056654236,
+  "version": "4.1.0"
+ },
+ "reference-count": 51,
+ "publisher": "Elsevier BV",
+ "issue": "4",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2024-02-01T00:00:00Z",
+    "timestamp": 1706745600000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2024-02-01T00:00:00Z",
+    "timestamp": 1706745600000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      2,
+      6
+     ]
+    ],
+    "date-time": "2024-02-06T00:00:00Z",
+    "timestamp": 1707177600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 5,
+   "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "cell.com",
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Heliyon"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2024,
+    2
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.heliyon.2024.e25975",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2024,
+    2,
+    11
+   ]
+  ],
+  "date-time": "2024-02-11T17:42:56Z",
+  "timestamp": 1707673376000
+ },
+ "page": "e25975",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 71,
+ "title": [
+  "Machine learning based multi-method interpretation to enhance dissolved gas analysis for power transformer fault diagnosis"
+ ],
+ "prefix": "10.1016",
+ "volume": "10",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0002-3618-963X",
+   "authenticated-orcid": false,
+   "family": "Suwarno",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Heri",
+   "family": "Sutikno",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-3192-2449",
+   "authenticated-orcid": false,
+   "given": "Rahman Azis",
+   "family": "Prasojo",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-2094-3036",
+   "authenticated-orcid": false,
+   "given": "Ahmed",
+   "family": "Abu-Siada",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib1",
+   "series-title": "CIGRE 761, Condition Assessment of Power Transformers",
+   "year": "2019"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib2",
+   "series-title": "IEEE Guide for the Interpretation of Gases Generated in Mineral Oil-Immersed Transformers",
+   "year": "2019"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.heliyon.2024.e25975_bib3",
+   "doi-asserted-by": "crossref",
+   "first-page": "730",
+   "DOI": "10.3390/en12040730",
+   "article-title": "Improved consistent interpretation approach of Fault Type within power transformers using dissolved gas analysis and Gene expression programming",
+   "volume": "12",
+   "author": "Abu-Siada",
+   "year": "2019",
+   "journal-title": "Energies"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib4",
+   "doi-asserted-by": "crossref",
+   "first-page": "265",
+   "DOI": "10.1016/j.ijepes.2016.02.018",
+   "article-title": "A new approach of DGA interpretation technique for transformer fault diagnosis",
+   "volume": "81",
+   "author": "Ghoneim",
+   "year": "2016",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "issue": "12",
+   "key": "10.1016/j.heliyon.2024.e25975_bib5",
+   "doi-asserted-by": "crossref",
+   "first-page": "2299",
+   "DOI": "10.1049/iet-gtd.2018.6168",
+   "article-title": "Condition assessment of power transformers based on dissolved gas analysis",
+   "volume": "13",
+   "author": "Gouda",
+   "year": "2019",
+   "journal-title": "IET Gener., Transm. Distrib."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.heliyon.2024.e25975_bib6",
+   "doi-asserted-by": "crossref",
+   "first-page": "590",
+   "DOI": "10.1109/TDEI.2014.004478",
+   "article-title": "A comprehensive comparative study of DGA based transformer fault diagnosis using fuzzy logic and ANFIS models",
+   "volume": "22",
+   "author": "Khan",
+   "year": "2015",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "36",
+   "key": "10.1016/j.heliyon.2024.e25975_bib7",
+   "first-page": "1",
+   "article-title": "Fuzzy logic approach to dissolved gas analysis for power transformer failure index and Fault Identification",
+   "volume": "14",
+   "author": "Nitchamon",
+   "year": "2021",
+   "journal-title": "Energies"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.heliyon.2024.e25975_bib8",
+   "doi-asserted-by": "crossref",
+   "first-page": "73",
+   "DOI": "10.1016/j.epsr.2011.09.012",
+   "article-title": "Power transformer fault diagnosis based on dissolved gas analysis by support vector machine",
+   "volume": "83",
+   "author": "Bacha",
+   "year": "2012",
+   "journal-title": "Elec. Power Syst. Res."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.heliyon.2024.e25975_bib9",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/en13041009",
+   "article-title": "A fuzzy logic model for power transformer faults' severity determination based on gas level, gas rate, and dissolved gas analysis interpretation",
+   "volume": "13",
+   "author": "Prasojo",
+   "year": "2020",
+   "journal-title": "Energies"
+  },
+  {
+   "issue": "13",
+   "key": "10.1016/j.heliyon.2024.e25975_bib10",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.3390/app10134440",
+   "article-title": "Power transformer fault diagnosis based on dissolved gas analysis by correlation coefficient-DBSCAN",
+   "volume": "10",
+   "author": "Liu",
+   "year": "2020",
+   "journal-title": "Appl. Sci."
+  },
+  {
+   "issue": "13",
+   "key": "10.1016/j.heliyon.2024.e25975_bib11",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.3390/app10134440",
+   "article-title": "Power transformer fault diagnosis based on dissolved gas analysis by correlation coefficient-DBSCAN",
+   "volume": "10",
+   "author": "Liu",
+   "year": "2020",
+   "journal-title": "Appl. Sci."
+  },
+  {
+   "issue": "17",
+   "key": "10.1016/j.heliyon.2024.e25975_bib12",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/math10173144",
+   "article-title": "Feature selection and classification of transformer faults based on novel meta-heuristic algorithm",
+   "volume": "10",
+   "author": "El-kenawy",
+   "year": "2022",
+   "journal-title": "Mathematics"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib13",
+   "doi-asserted-by": "crossref",
+   "first-page": "25954",
+   "DOI": "10.1109/ACCESS.2022.3156102",
+   "article-title": "Reliable estimation for health index of transformer oil based on novel combined predictive maintenance techniques",
+   "volume": "10",
+   "author": "Badawi",
+   "year": "2022",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib14",
+   "series-title": "ICEMPE 2017 - 1st International Conference on Electrical Materials and Power Equipment",
+   "first-page": "502",
+   "article-title": "Improvement of DGA interpretation using scoring index method",
+   "author": "Bakar",
+   "year": "2017"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib15",
+   "doi-asserted-by": "crossref",
+   "first-page": "401",
+   "DOI": "10.1016/j.ijepes.2014.12.017",
+   "article-title": "A new fuzzy logic approach to identify power transformer criticality using dissolved gas-in-oil analysis",
+   "volume": "67",
+   "author": "Abu-Siada",
+   "year": "2015",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib16",
+   "series-title": "2021 IEEE International Conference on the Properties and Applications of Dielectric Materials (ICPADM), Johor Bahru",
+   "first-page": "298",
+   "article-title": "Integration of duval pentagon to the multi-method interpretation to improve the accuracy of dissolved gas analysis technique",
+   "author": "Sutikno",
+   "year": "2021"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib17",
+   "series-title": "CIGRE 323, Ageing Of Celluose In Mineral-Oil Insulated Transformers",
+   "year": "2007"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib18",
+   "volume": "vol. 1991",
+   "year": "1991"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib19",
+   "series-title": "IEEE and IEC codes to interpret incipient faults in transformers, using gas in oil alalysis",
+   "author": "Rogers",
+   "year": "1978"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib20",
+   "article-title": "IEEE guide for the interpretation of gases generated in oil-immersed transformers",
+   "year": "2008",
+   "journal-title": "February"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib21",
+   "unstructured": "IEC 60599, International Standard International Standard Mineral Oil-Filled Electrical Equipment in Service \u2013 Guidance On the Interpretation of Dissolved and Free Gases Analysis, vol. vol. 2003 2003."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib22",
+   "series-title": "Mineral Oil-Filled Electrical Equipment in Service - Guidance on the Interpretation of Dissolved and Free Gases Analysis",
+   "year": "2022"
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.heliyon.2024.e25975_bib23",
+   "doi-asserted-by": "crossref",
+   "first-page": "9",
+   "DOI": "10.1109/MEI.2014.6943428",
+   "article-title": "The duval pentagon \u2014 a new complementary tool for the",
+   "volume": "30",
+   "author": "Duval",
+   "year": "2014",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib24",
+   "series-title": "2019 5th International Conference on Engineering, Applied Sciences and Technology (ICEAST)",
+   "first-page": "1",
+   "article-title": "Application of duval pentagon compared with other DGA interpretation techniques: case studies for actual transformer inspections including experience from power plants in Thailand",
+   "author": "Pattanadech",
+   "year": "2019"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib25",
+   "series-title": "2019 5th International Conference on Engineering, Applied Sciences and Technology (ICEAST)",
+   "first-page": "1",
+   "article-title": "Application of duval pentagon compared with other DGA interpretation techniques: case studies for actual transformer inspections including experience from power plants in Thailand",
+   "author": "Pattanadech",
+   "year": "2019"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib26",
+   "series-title": "2019 IEEE 20th International Conference on Dielectric Liquids (ICDL)",
+   "first-page": "1",
+   "article-title": "Partial discharge defect recognition in power transformer using random forest",
+   "author": "Kartojo",
+   "year": "2019"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib27",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1007/s00202-022-01532-5",
+   "article-title": "Investigation on machine learning algorithms to support transformer dissolved gas analysis fault identification",
+   "author": "Ekojono",
+   "year": "2022",
+   "journal-title": "Electr. Eng."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.heliyon.2024.e25975_bib28",
+   "doi-asserted-by": "crossref",
+   "first-page": "1431",
+   "DOI": "10.1049/iet-gtd.2015.0955",
+   "article-title": "Fault discrimination scheme for power transformer using random forest technique",
+   "volume": "10",
+   "author": "Shah",
+   "year": "2016",
+   "journal-title": "IET Gener., Transm. Distrib."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib29",
+   "series-title": "Random Forests",
+   "first-page": "1",
+   "author": "Pavlov",
+   "year": "2019"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib30",
+   "series-title": "The 5th International Conference on Electric Utility Deregulation and Restructuring and Power Technologies November 26-29",
+   "first-page": "5",
+   "article-title": "Prediction of dissolved gas in power transformer oil based on random forests algorithm",
+   "author": "Ke",
+   "year": "2015"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib31",
+   "first-page": "1",
+   "article-title": "Typical concentration value and typical Fault Type based on DGA test of power transformers in PLN TJBT",
+   "author": "Gumilang",
+   "year": "2018",
+   "journal-title": "IEEE Conference on Power Engineering and Renewable Energy (ICPERE)"
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.heliyon.2024.e25975_bib32",
+   "doi-asserted-by": "crossref",
+   "first-page": "31",
+   "DOI": "10.1109/57.917529",
+   "article-title": "Interpretation of gas-in-oil analysis using new IEC publication 60599 and IEC TC 10 databases",
+   "volume": "17",
+   "author": "Duval",
+   "year": "2001",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib33",
+   "doi-asserted-by": "crossref",
+   "first-page": "401",
+   "DOI": "10.1016/j.ijepes.2014.12.017",
+   "article-title": "A new fuzzy logic approach to identify power transformer criticality using dissolved gas-in-oil analysis",
+   "volume": "67",
+   "author": "Abu-Siada",
+   "year": "2015",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "issue": "20",
+   "key": "10.1016/j.heliyon.2024.e25975_bib34",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/en12204017",
+   "article-title": "A novel fault diagnosis method for power transformer based on dissolved gas analysis using hypersphere multiclass support vector machine and improved D\u2013S evidence theory",
+   "volume": "12",
+   "author": "Shang",
+   "year": "2019",
+   "journal-title": "Energies"
+  },
+  {
+   "issue": "21",
+   "key": "10.1016/j.heliyon.2024.e25975_bib35",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/en12214170",
+   "article-title": "A transformer fault diagnosis model based on hybrid grey wolf optimizer and LS-SVM",
+   "volume": "12",
+   "author": "Zeng",
+   "year": "2019",
+   "journal-title": "Energies"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib36",
+   "doi-asserted-by": "crossref",
+   "first-page": "63",
+   "DOI": "10.1016/j.isatra.2020.03.022",
+   "article-title": "An intelligent system based on optimized ANFIS and association rules for power transformer fault diagnosis",
+   "volume": "103",
+   "author": "Tightiz",
+   "year": "2020",
+   "journal-title": "ISA (Instrum. Soc. Am.) Trans."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib37",
+   "doi-asserted-by": "crossref",
+   "first-page": "28791",
+   "DOI": "10.1109/ACCESS.2019.2902299",
+   "article-title": "Fault diagnosis of power transformers with membership degree",
+   "volume": "7",
+   "author": "Li",
+   "year": "2019",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib38",
+   "series-title": "Proceedings of 1999 IEEE 13th International Conference on Dielectric Liquids (ICDL\u201999)(Cat. No. 99CH36213)",
+   "first-page": "400",
+   "article-title": "Application of fuzzy equivalent matrix for fault diagnosis of oil-immersed insulation",
+   "author": "Zhang",
+   "year": "1999"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib39",
+   "series-title": "IEEE Region 10 Annual International Conference, Proceedings/TENCON",
+   "first-page": "444",
+   "article-title": "ANN approach for condition monitoring of power transformers using DGA",
+   "author": "Sarma",
+   "year": "2004"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib40",
+   "series-title": "2012 Students Conference on Engineering and Systems, SCES 2012",
+   "first-page": "12",
+   "article-title": "Transformer incipient fault diagnosis based on probabilistic neural network",
+   "author": "Agrawal",
+   "year": "2012"
+  },
+  {
+   "issue": "11",
+   "key": "10.1016/j.heliyon.2024.e25975_bib41",
+   "doi-asserted-by": "crossref",
+   "first-page": "2650",
+   "DOI": "10.1049/iet-gtd.2017.1927",
+   "article-title": "Proposed three ratios technique for the interpretation of mineral oil transformers based dissolved gas analysis",
+   "volume": "12",
+   "author": "Gouda",
+   "year": "2018",
+   "journal-title": "IET Gener., Transm. Distrib."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib42",
+   "series-title": "2012 First International Conference on Renewable Energies and Vehicular Technology",
+   "first-page": "230",
+   "article-title": "Power transformer fault diagnosis based on dissolved gas analysis by artificial neural network",
+   "author": "Seifeddine",
+   "year": "2012"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib43",
+   "series-title": "IEEE Region 10 Annual International Conference, Proceedings/TENCON",
+   "first-page": "1",
+   "article-title": "A hybrid algorithm based on neural-fuzzy system for interpretation of dissolved gas analysis in power transformers",
+   "author": "Rajabimendi",
+   "year": "2012"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib44",
+   "series-title": "4th International Conference on Computation of Power, Energy, Information and Communication",
+   "article-title": "A novel proposed model to diagnose incipient fault of power transformer using dissoved gas analysis by ratio methods",
+   "author": "Joshi",
+   "year": "2015"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.heliyon.2024.e25975_bib45",
+   "doi-asserted-by": "crossref",
+   "first-page": "222",
+   "DOI": "10.1109/TDEI.2019.008395",
+   "article-title": "Optimal ratio limits of rogers' four-ratios and IEC 60599 code methods using particle swarm optimization fuzzy-logic approach",
+   "volume": "27",
+   "author": "Taha",
+   "year": "2020",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib46",
+   "doi-asserted-by": "crossref",
+   "first-page": "28791",
+   "DOI": "10.1109/ACCESS.2019.2902299",
+   "article-title": "Fault diagnosis of power transformers with membership degree",
+   "volume": "7",
+   "author": "Li",
+   "year": "2019",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "issue": "20",
+   "key": "10.1016/j.heliyon.2024.e25975_bib47",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/en12204017",
+   "article-title": "A novel fault diagnosis method for power transformer based on dissolved gas analysis using hypersphere multiclass support vector machine and improved D\u2013S evidence theory",
+   "volume": "12",
+   "author": "Shang",
+   "year": "2019",
+   "journal-title": "Energies"
+  },
+  {
+   "issue": "21",
+   "key": "10.1016/j.heliyon.2024.e25975_bib48",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/en12214170",
+   "article-title": "A transformer fault diagnosis model based on hybrid grey wolf optimizer and LS-SVM",
+   "volume": "12",
+   "author": "Zeng",
+   "year": "2019",
+   "journal-title": "Energies"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib49",
+   "series-title": "2012 First International Conference on Renewable Energies and Vehicular Technology",
+   "first-page": "230",
+   "article-title": "Power transformer fault diagnosis based on dissolved gas analysis by artificial neural network",
+   "author": "Seifeddine",
+   "year": "2012"
+  },
+  {
+   "key": "10.1016/j.heliyon.2024.e25975_bib50",
+   "series-title": "IEEE Region 10 Annual International Conference, Proceedings/TENCON",
+   "first-page": "1",
+   "article-title": "A hybrid algorithm based on neural-fuzzy system for interpretation of dissolved gas analysis in power transformers",
+   "author": "Rajabimendi",
+   "year": "2012"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.heliyon.2024.e25975_bib51",
+   "doi-asserted-by": "crossref",
+   "first-page": "222",
+   "DOI": "10.1109/TDEI.2019.008395",
+   "article-title": "Optimal ratio limits of rogers' four-ratios and IEC 60599 code methods using particle swarm optimization fuzzy-logic approach",
+   "volume": "27",
+   "author": "Taha",
+   "year": "2020",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  }
+ ],
+ "container-title": [
+  "Heliyon"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S2405844024020061?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S2405844024020061?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    29
+   ]
+  ],
+  "date-time": "2026-09-29T20:19:13Z",
+  "timestamp": 1790713153000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2405844024020061"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2024,
+    2
+   ]
+  ]
+ },
+ "references-count": 51,
+ "journal-issue": {
+  "issue": "4",
+  "published-print": {
+   "date-parts": [
+    [
+     2024,
+     2
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "S2405844024020061"
+ ],
+ "URL": "https://doi.org/10.1016/j.heliyon.2024.e25975",
+ "relation": {},
+ "ISSN": [
+  "2405-8440"
+ ],
+ "issn-type": [
+  {
+   "value": "2405-8440",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2024,
+    2
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "Machine learning based multi-method interpretation to enhance dissolved gas analysis for power transformer fault diagnosis",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Heliyon",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.heliyon.2024.e25975",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "\u00a9 2024 The Authors. Published by Elsevier Ltd.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "e25975"
+}

@@ -1,0 +1,197 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2025,
+    9,
+    25
+   ]
+  ],
+  "date-time": "2025-09-25T15:43:04Z",
+  "timestamp": 1758814984587
+ },
+ "reference-count": 5,
+ "publisher": "Elsevier BV",
+ "issue": "2",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2009,
+      5,
+      1
+     ]
+    ],
+    "date-time": "2009-05-01T00:00:00Z",
+    "timestamp": 1241136000000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Physical Therapy in Sport"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2009,
+    5
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.ptsp.2009.03.002",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2009,
+    4,
+    8
+   ]
+  ],
+  "date-time": "2009-04-08T04:52:22Z",
+  "timestamp": 1239166342000
+ },
+ "page": "43-44",
+ "source": "Crossref",
+ "is-referenced-by-count": 8,
+ "title": [
+  "Sample size, power and effect size \u2013 What all researchers need to know"
+ ],
+ "prefix": "10.1016",
+ "volume": "10",
+ "author": [
+  {
+   "given": "Zoe",
+   "family": "Hudson",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.ptsp.2009.03.002_bib1",
+   "author": "CONSORT"
+  },
+  {
+   "key": "10.1016/j.ptsp.2009.03.002_bib2",
+   "author": "DSS Research"
+  },
+  {
+   "key": "10.1016/j.ptsp.2009.03.002_bib3",
+   "doi-asserted-by": "crossref",
+   "first-page": "147",
+   "DOI": "10.1016/j.math.2007.12.009",
+   "article-title": "Iliotibial band tightness and patellofemoral pain syndrome: a case\u2013control study",
+   "volume": "14",
+   "author": "Hudson",
+   "year": "2009",
+   "journal-title": "Manual Therapy"
+  },
+  {
+   "key": "10.1016/j.ptsp.2009.03.002_bib4",
+   "author": "John"
+  },
+  {
+   "key": "10.1016/j.ptsp.2009.03.002_bib6",
+   "doi-asserted-by": "crossref",
+   "first-page": "51",
+   "DOI": "10.1016/j.ptsp.2008.11.006",
+   "article-title": "Humeral torsion and passive shoulder range in elite volleyball players",
+   "volume": "10",
+   "author": "Scwab",
+   "year": "2009",
+   "journal-title": "Physical Therapy in Sport"
+  }
+ ],
+ "container-title": [
+  "Physical Therapy in Sport"
+ ],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S1466853X09000376?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S1466853X09000376?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2018,
+    12,
+    20
+   ]
+  ],
+  "date-time": "2018-12-20T10:51:24Z",
+  "timestamp": 1545303084000
+ },
+ "score": 28.839294,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1466853X09000376"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2009,
+    5
+   ]
+  ]
+ },
+ "references-count": 5,
+ "journal-issue": {
+  "issue": "2",
+  "published-print": {
+   "date-parts": [
+    [
+     2009,
+     5
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "S1466853X09000376"
+ ],
+ "URL": "https://doi.org/10.1016/j.ptsp.2009.03.002",
+ "ISSN": [
+  "1466-853X"
+ ],
+ "issn-type": [
+  {
+   "value": "1466-853X",
+   "type": "print"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2009,
+    5
+   ]
+  ]
+ }
+}

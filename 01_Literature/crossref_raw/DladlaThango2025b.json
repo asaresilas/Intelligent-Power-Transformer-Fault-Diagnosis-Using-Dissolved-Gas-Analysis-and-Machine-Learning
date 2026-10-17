@@ -1,0 +1,444 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    8
+   ]
+  ],
+  "date-time": "2026-09-08T14:25:19Z",
+  "timestamp": 1788877519092,
+  "version": "build-2803163510"
+ },
+ "reference-count": 37,
+ "publisher": "MDPI AG",
+ "issue": "8",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      8,
+      20
+     ]
+    ],
+    "date-time": "2025-08-20T00:00:00Z",
+    "timestamp": 1755648000000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Machines"
+ ],
+ "abstract": "<jats:p>Power transformers are critical assets in electrical power systems, yet their fault diagnosis often relies on conventional dissolved gas analysis (DGA) methods such as the Duval Pentagon and Triangle, Key Gas, and Rogers Ratio methods. Even though these methods are commonly used, they present limitations in classification accuracy, concurrent fault identification, and manual sample handling. In this study, a framework of optimized machine learning algorithms that integrates Chi-squared statistical feature selection with Random Search hyperparameter optimization algorithms was developed to enhance transformer fault classification accuracy using DGA data, thereby addressing the limitations of conventional methods and improving diagnostic precision. Utilizing the R2024b MATLAB Classification Learner App, five optimized machine learning algorithms were trained and tested using 282 transformer oil samples with varying DGA gas concentrations obtained from industrial transformers, the IEC TC10 database, and the literature. The optimized and assessed models are Linear Discriminant, Na\u00efve Bayes, Decision Trees, Support Vector Machine, Neural Networks, k-Nearest Neighbor, and the Ensemble Algorithm. From the proposed models, the best performing algorithm, Optimized k-Nearest Neighbor, achieved an overall performance accuracy of 92.478%, followed by the Optimized Neural Network at 89.823%. To assess their performance against the conventional methods, the same dataset used for the optimized machine learning algorithms was used to evaluate the performance of the Duval Triangle and Duval Pentagon methods using VAISALA DGA software version 1.1.0; the proposed models outperformed the conventional methods, which could only achieve a classification accuracy of 35.757% and 30.818%, respectively. This study concludes that the application of the proposed optimized machine learning algorithms can enhance the classification accuracy of DGA-based faults in power transformers, supporting more reliable diagnostics and proactive maintenance strategies.</jats:p>",
+ "DOI": "10.3390/machines13080742",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2025,
+    8,
+    21
+   ]
+  ],
+  "date-time": "2025-08-21T08:02:44Z",
+  "timestamp": 1755763364000
+ },
+ "page": "742",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 6,
+ "title": [
+  "Fault Classification in Power Transformers Using Dissolved Gas Analysis and Optimized Machine Learning Algorithms"
+ ],
+ "prefix": "10.3390",
+ "volume": "13",
+ "author": [
+  {
+   "given": "Vuyani M. N.",
+   "family": "Dladla",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Department of Electrical and Electronic Engineering Technology, University of Johannesburg, Johannesburg 2092, South Africa"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-3635-0988",
+   "authenticated-orcid": false,
+   "given": "Bonginkosi A.",
+   "family": "Thango",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical and Electronic Engineering Technology, University of Johannesburg, Johannesburg 2092, South Africa"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2025,
+    8,
+    20
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Saha, T.P., and Purkait, P. (2017). Transformer Ageing: Monitoring and Estimation Techniques, John Wiley & Sons. [1st ed.].",
+   "DOI": "10.1002/9781119239970"
+  },
+  {
+   "key": "ref_2",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Dladla, V.M.N., and Thango, B.A. (2025). Fault Classification in Power Transformers via Dissolved Gas Analysis and Machine Learning Algorithms: A Systematic Literature Review. Appl. Sci., 15.",
+   "DOI": "10.3390/app15052395"
+  },
+  {
+   "key": "ref_3",
+   "doi-asserted-by": "crossref",
+   "first-page": "9960743",
+   "DOI": "10.1155/2023/9960743",
+   "article-title": "Comparative Performance Study of Dissolved Gas Analysis (DGA) Methods for Identification of Faults in Power Transformer",
+   "volume": "2023",
+   "author": "Wajid",
+   "year": "2023",
+   "journal-title": "Int. J. Energy Res."
+  },
+  {
+   "key": "ref_4",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Taha, I.B., Ghoneim, S.S., and Zaini, H.G. (2015, January 4\u20136). Improvement of Rogers four ratios and IEC code methods for transformer fault diagnosis based on dissolved gas analysis. Proceedings of the North American Power Symposium (NAPS), Charlotte, NC, USA.",
+   "DOI": "10.1109/NAPS.2015.7335098"
+  },
+  {
+   "key": "ref_5",
+   "first-page": "40",
+   "article-title": "A review on real time fault detection and intelligent health monitoring techniques of transformer",
+   "volume": "11",
+   "author": "Sarma",
+   "year": "2021",
+   "journal-title": "Int. J. Eng. Res. Appl."
+  },
+  {
+   "key": "ref_6",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Piotrowski, T., Rozga, P., Kozak, R., and Szymanski, Z. (2020). Using the analysis of the gases dissolved in oil in diagnosis of transformer bushings with paper-oil insulation\u2014A case study. Energies, 13.",
+   "DOI": "10.3390/en13246713"
+  },
+  {
+   "key": "ref_7",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Dladla, V.M.N., and Thango, B.A. (2025, January 29\u201330). Transformer Faults Multiclassification using Regularized Neural Network and Dissolved Gas Analysis. Proceedings of the 2025 33rd Southern African Universities Power Engineering Conference (SAUPEC), Pretoria, South Africa.",
+   "DOI": "10.1109/SAUPEC65723.2025.10944387"
+  },
+  {
+   "key": "ref_8",
+   "unstructured": "IEEE (2019). IEEE Guide for the Interpretation of Gases Generated in Mineral Oil-Immersed Transformers. IEEE Std C57.104-2019 (Revision of IEEE Std C57.104-2008), IEEE."
+  },
+  {
+   "key": "ref_9",
+   "unstructured": "CIGRE (2015). Guide on Transformer Intelligent Condition Monitoring (TICM) Systems, CIGRE."
+  },
+  {
+   "key": "ref_10",
+   "doi-asserted-by": "crossref",
+   "first-page": "201",
+   "DOI": "10.1016/j.rser.2015.02.052",
+   "article-title": "A review of monitoring methods for predictive maintenance of electric power transformers based on dissolved gas analysis",
+   "volume": "46",
+   "author": "Costa",
+   "year": "2015",
+   "journal-title": "Renew. Sustain. Energy Rev."
+  },
+  {
+   "key": "ref_11",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Saad, M., and Tenyenhuis, E. (2017, January 22\u201325). On-line gas monitoring for increased transformer protection. Proceedings of the IEEE Electrical Power and Energy Conference (EPEC), Saskatoon, SK, Canada.",
+   "DOI": "10.1109/EPEC.2017.8286169"
+  },
+  {
+   "key": "ref_12",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Alqudsi, A.Y., and ElHag, A.H. (2017, January 16\u201318). A cost effective artificial intelligence based transformer insulation health index. Proceedings of the 3rd International Conference on Condition Assessment Techniques in Electrical Systems (CATCON), Punjab, India.",
+   "DOI": "10.1109/CATCON.2017.8280194"
+  },
+  {
+   "key": "ref_13",
+   "unstructured": "N\u00e9meth, B., V\u00f6r\u00f6s, C., and Cs\u00e9pes, G. (2014, January 24\u201329). Health index as one of the best practice for condition assessment of transformers and substation equipments\u2014Hungarian experience. Proceedings of the CIGR\u00c9 Biennial Session A2-103, Paris, France."
+  },
+  {
+   "key": "ref_14",
+   "doi-asserted-by": "crossref",
+   "first-page": "1220",
+   "DOI": "10.1016/j.egypro.2011.12.1079",
+   "article-title": "A Review of Dissolved Gas Analysis in Power Transformers",
+   "volume": "14",
+   "author": "Sun",
+   "year": "2012",
+   "journal-title": "Energy Procedia"
+  },
+  {
+   "key": "ref_15",
+   "doi-asserted-by": "crossref",
+   "first-page": "111347",
+   "DOI": "10.1016/j.rser.2021.111347",
+   "article-title": "Advances in DGA based condition monitoring of transformers: A review",
+   "volume": "149",
+   "author": "Wani",
+   "year": "2021",
+   "journal-title": "Renew. Sustain. Energy Rev."
+  },
+  {
+   "key": "ref_16",
+   "unstructured": "CIGRE (2001). New techniques for dissolved gas-in-oil analysis. Electra, 198, 20\u201327."
+  },
+  {
+   "key": "ref_17",
+   "unstructured": "CIGRE (2019). 771\u2014Advances in DGA Interpretation. Technical Brochure Joint Working Group A2/D1, CIGRE."
+  },
+  {
+   "key": "ref_18",
+   "doi-asserted-by": "crossref",
+   "first-page": "102803",
+   "DOI": "10.1109/ACCESS.2019.2927018",
+   "article-title": "A Fault Diagnosis Model of Power Transformers Based on Dissolved Gas Analysis Features Selection and Improved Krill Herd Algorithm Optimized Support Vector Machine",
+   "volume": "7",
+   "author": "Zhang",
+   "year": "2019",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_19",
+   "doi-asserted-by": "crossref",
+   "first-page": "27794",
+   "DOI": "10.1109/ACCESS.2024.3366905",
+   "article-title": "Deep Machine Learning-Based Asset Management Approach for Oil\u2014Immersed Power Transformers Using Dissolved Gas Analysis",
+   "volume": "12",
+   "author": "Jin",
+   "year": "2024",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_20",
+   "doi-asserted-by": "crossref",
+   "first-page": "30817",
+   "DOI": "10.1109/ACCESS.2021.3060288",
+   "article-title": "Enhancing Diagnostic Accuracy of Transformer Faults Using Teaching-Learning-Based Optimization",
+   "volume": "9",
+   "author": "Ghoneim",
+   "year": "2021",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_21",
+   "doi-asserted-by": "crossref",
+   "first-page": "1703",
+   "DOI": "10.1109/TDEI.2021.009470",
+   "article-title": "Gaussian Process Multi-Class Classification for Transformer Fault Diagnosis Using Dissolved Gas Analysis",
+   "volume": "28",
+   "author": "Wang",
+   "year": "2021",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "first-page": "1198",
+   "DOI": "10.1109/TDEI.2015.005277",
+   "article-title": "Optimal dissolved gas ratios selected by genetic algorithm for power transformer fault diagnosis based on support vector machine",
+   "volume": "23",
+   "author": "Li",
+   "year": "2016",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_23",
+   "doi-asserted-by": "crossref",
+   "first-page": "494",
+   "DOI": "10.1109/TDEI.2018.006766",
+   "article-title": "Power transformer dissolved gas analysis through Bayesian networks and hypothesis testing",
+   "volume": "25",
+   "author": "Aizpurua",
+   "year": "2018",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_24",
+   "doi-asserted-by": "crossref",
+   "first-page": "3443",
+   "DOI": "10.1109/TDEI.2017.006841",
+   "article-title": "Application of SVM and KNN to Duval Pentagon 1 for transformer oil diagnosis",
+   "volume": "24",
+   "author": "Benmahamed",
+   "year": "2017",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_25",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Prasojo, R.A., Gumilang, H., Maulidevi, N.U., and Soedjarno, B.A. (2020). A Fuzzy Logic Model for Power Transformer Faults\u2019 Severity Determination Based on Gas Level, Gas Rate, and Dissolved Gas Analysis Interpretation. Energies, 13.",
+   "DOI": "10.3390/en13041009"
+  },
+  {
+   "key": "ref_26",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zhang, Y., Wang, Y., Fan, X., Zhang, W., Zhuo, R., Hao, J., and Shi, Z. (2020). An Integrated Model for Transformer Fault Diagnosis to Improve Sample Classification near Decision Boundary of Support Vector Machine. Energies, 13.",
+   "DOI": "10.3390/en13246678"
+  },
+  {
+   "key": "ref_27",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ward, S.A., El-Faraskoury, A., Badawi, M., Ibrahim, S.A., Mahmoud, K., Lehtonen, M., and Darwish, M.M.F. (2021). Towards Precise Interpretation of Oil Transformers via Novel Combined Techniques Based on DGA and Partial Discharge Sensors. Sensors, 21.",
+   "DOI": "10.3390/s21062223"
+  },
+  {
+   "key": "ref_28",
+   "unstructured": "(2025, March 01). Available online: https://www.mathworks.com/help/stats/fitctree.html."
+  },
+  {
+   "key": "ref_29",
+   "unstructured": "(2025, March 01). Available online: https://www.mathworks.com/discovery/support-vector-machine.html?s_tid=srchtitle_support_results_1_Understanding+Support+Vector+Machine."
+  },
+  {
+   "key": "ref_30",
+   "unstructured": "(2025, March 01). Available online: https://www.mathworks.com/help/stats/referencelist.html?type=function&s_tid=CRUX_topnav&category=classification-ensembles."
+  },
+  {
+   "key": "ref_31",
+   "unstructured": "(2025, March 01). Available online: https://www.mathworks.com/help/stats/fitcnet.html."
+  },
+  {
+   "key": "ref_32",
+   "unstructured": "(2025, March 01). Available online: https://www.mathworks.com/help/stats/fitcknn.html."
+  },
+  {
+   "key": "ref_33",
+   "unstructured": "(2025, March 01). Available online: https://www.mathworks.com/help/stats/fitcensemble.html."
+  },
+  {
+   "key": "ref_34",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Markoulidakis, I., Rallis, I., Georgoulas, I., Kopsiaftis, G., Doulamis, A., and Doulamis, N. (2021). Multiclass Confusion Matrix Reduction Method and Its Application on Net Promoter Score Classification Problem. Technologies, 9.",
+   "DOI": "10.3390/technologies9040081"
+  },
+  {
+   "key": "ref_35",
+   "unstructured": "(2025, April 19). Available online: https://www.mathworks.com/help/stats/assess-classifier-performance.html#mw_7eb6ae10-bff9-47fb-b16a-007141f95641."
+  },
+  {
+   "key": "ref_36",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Samei, E., and Krupinski, E.A. (2018). Receiver Operating Characteristic Analysis: Basic Concepts and Practical Applications. The Handbook of Medical Image Perception and Techniques, Cambridge University Press.",
+   "DOI": "10.1017/9781108163781"
+  },
+  {
+   "key": "ref_37",
+   "unstructured": "(2025, April 19). Available online: https://www.blog.trainindata.com/auc-roc-analysis/."
+  }
+ ],
+ "container-title": [
+  "Machines"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/2075-1702/13/8/742/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    9
+   ]
+  ],
+  "date-time": "2025-10-09T18:31:41Z",
+  "timestamp": 1760034701000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/2075-1702/13/8/742"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2025,
+    8,
+    20
+   ]
+  ]
+ },
+ "references-count": 37,
+ "journal-issue": {
+  "issue": "8",
+  "published-online": {
+   "date-parts": [
+    [
+     2025,
+     8
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "machines13080742"
+ ],
+ "URL": "https://doi.org/10.3390/machines13080742",
+ "relation": {},
+ "ISSN": [
+  "2075-1702"
+ ],
+ "issn-type": [
+  {
+   "value": "2075-1702",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2025,
+    8,
+    20
+   ]
+  ]
+ }
+}

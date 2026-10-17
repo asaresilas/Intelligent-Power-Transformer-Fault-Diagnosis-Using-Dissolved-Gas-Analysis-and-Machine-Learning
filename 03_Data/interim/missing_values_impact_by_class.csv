@@ -1,0 +1,34 @@
+source_id,class,records,with_blank,with_placeholder,with_zero,kept_if_not_available_excluded,kept_if_not_available_and_zero_excluded
+IECTC10,D1,26,2,0,0,24,24
+IECTC10,D2,48,3,0,0,45,45
+IECTC10,PD,9,5,0,0,4,4
+IECTC10,T1/T2,16,6,0,0,10,10
+IECTC10,T3,18,2,0,0,16,16
+DISTRAIN,0,85,0,0,79,85,6
+DISTRAIN,1,59,0,35,0,24,24
+DISTRAIN,2,76,0,13,0,63,63
+DISTRAIN,3,134,0,14,0,120,120
+DISTRAIN,4,96,0,82,0,14,14
+DISTRAIN,5,45,0,23,0,22,22
+DISTRAIN,6,89,0,43,0,46,46
+DISTEST,0,10,0,0,5,10,5
+DISTEST,1,10,0,6,0,4,4
+DISTEST,2,10,0,0,0,10,10
+DISTEST,3,10,0,1,0,9,9
+DISTEST,4,10,0,10,0,0,0
+DISTEST,5,10,0,7,0,3,3
+DISTEST,6,10,0,2,0,8,8
+DISIEC,0,15,0,0,15,15,0
+DISIEC,1,1,0,0,0,1,1
+DISIEC,2,7,0,0,1,7,6
+DISIEC,3,15,0,0,0,15,15
+DISIEC,4,1,0,0,0,1,1
+DISIEC,5,2,0,0,0,2,2
+DISIEC,6,8,0,0,1,8,7
+LI2019,Arc discharge,54,0,0,3,54,51
+LI2019,High-temperature overheating,38,0,0,5,38,33
+LI2019,Low-temperature overheating,19,0,0,18,19,1
+LI2019,Low/Middle-temperature overheating,16,0,0,6,16,10
+LI2019,Middle-temperature overheating,9,0,0,5,9,4
+LI2019,Partial discharge,16,0,0,9,16,7
+LI2019,Spark discharge,49,0,0,4,49,45

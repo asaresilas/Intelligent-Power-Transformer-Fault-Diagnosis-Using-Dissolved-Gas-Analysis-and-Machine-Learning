@@ -1,0 +1,542 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    12
+   ]
+  ],
+  "date-time": "2026-10-12T17:08:55Z",
+  "timestamp": 1791824935633,
+  "version": "4.3.4"
+ },
+ "reference-count": 47,
+ "publisher": "Institution of Engineering and Technology (IET)",
+ "issue": "21",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2021,
+      6,
+      28
+     ]
+    ],
+    "date-time": "2021-06-28T00:00:00Z",
+    "timestamp": 1624838400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "http://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "ietresearch.onlinelibrary.wiley.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "IET Generation Trans &amp; Dist"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2021,
+    11
+   ]
+  ]
+ },
+ "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    In this contribution, a new dissolved gas analysis (DGA) method combining key gases and ratio approaches for power transformer fault diagnostic is presented. It is based on studying subsets and uses the five main hydrocarbon gases including hydrogen (H\n                    <jats:sub>2</jats:sub>\n                    ), methane (CH\n                    <jats:sub>4</jats:sub>\n                    ), ethane (C\n                    <jats:sub>2</jats:sub>\n                    H\n                    <jats:sub>6</jats:sub>\n                    ), ethylene (C\n                    <jats:sub>2</jats:sub>\n                    H\n                    <jats:sub>4</jats:sub>\n                    ), and acetylene (C\n                    <jats:sub>2</jats:sub>\n                    H\n                    <jats:sub>2</jats:sub>\n                    ). The proposed method uses 475 samples from the dataset divided into subsets formed from the maximum and minimum(s) concentrations of the whole dataset. It has been tested on 117 DGA sample data and validated on the International Electrotechnical Commission (IEC) TC10 database. The performance of the proposed diagnostic method was evaluated and compared with the following diagnostic methods: IEC ratios method, Duval's triangle (DT), three ratios technique (TRT), Gouda's triangle (GT), and self\u2010organizing map (SOM) clusters. The results found were analysed by computer simulations using MATLAB software. The proposed method has a diagnosis accuracy of 97.42% for fault types, as compared to 93.16% of TRT, 96.58% of GT method, 97.25% of SOM clusters method and 98.29% of DT method. However, in terms of fault severity, the proposed method has a diagnostic accuracy of 90.59% as compared to 78.90% of SOM clusters method, 83.76% of TRT, 88.03% of DT method, and 89.74% of GT method.\n                  </jats:p>",
+ "DOI": "10.1049/gtd2.12239",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2021,
+    6,
+    28
+   ]
+  ],
+  "date-time": "2021-06-28T04:00:24Z",
+  "timestamp": 1624852824000
+ },
+ "page": "3032-3047",
+ "update-policy": "https://doi.org/10.1002/crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 44,
+ "title": [
+  "Interpreting dissolved gases in transformer oil: A new method based on the analysis of labelled fault data"
+ ],
+ "prefix": "10.1049",
+ "volume": "15",
+ "author": [
+  {
+   "given": "Arnaud",
+   "family": "Nanfak",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Laboratory of Energy, Materials, Modelling and Methods, National Higher Polytechnic School of Douala University of Douala  Douala Cameroon"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Samuel",
+   "family": "Eke",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Laboratory of Energy, Materials, Modelling and Methods, National Higher Polytechnic School of Douala University of Douala  Douala Cameroon"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Charles Hubert",
+   "family": "Kom",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Laboratory of Energy, Materials, Modelling and Methods, National Higher Polytechnic School of Douala University of Douala  Douala Cameroon"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Ruben",
+   "family": "Mouangue",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Laboratory of Combustion and Green Technologies Department of Energetic Engineering UIT University of Ngaoundere  Ngaoundere Cameroon"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Issouf",
+   "family": "Fofana",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Research Chair on the Aging of Power Network Infrastructure (ViAHT) University of Quebec in Chicoutimi  Chicoutimi Canada"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "265",
+ "published-online": {
+  "date-parts": [
+   [
+    2021,
+    6,
+    28
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "e_1_2_7_2_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TSMCC.2009.2021989"
+  },
+  {
+   "key": "e_1_2_7_3_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.egypro.2011.12.1079"
+  },
+  {
+   "key": "e_1_2_7_4_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s13369-019-03739-4"
+  },
+  {
+   "key": "e_1_2_7_5_1",
+   "first-page": "1",
+   "article-title": "Power transformer fault diagnosis considering data imbalance and data set fusion",
+   "author": "Zhang Y.",
+   "year": "2020",
+   "journal-title": "High Voltage"
+  },
+  {
+   "key": "e_1_2_7_6_1",
+   "unstructured": "Senoussaoui M.E.A.:Contribution des techniques intelligentes au diagnostic industriel des transformateurs de puissance. Thesis Universit\u00e9 DJILLALI LIABBES DE SIDI BEL ABBES (2019)"
+  },
+  {
+   "key": "e_1_2_7_7_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/s19194057"
+  },
+  {
+   "key": "e_1_2_7_8_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/en11040913"
+  },
+  {
+   "key": "e_1_2_7_9_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Taecharoen P. Kunagonniyomrattana P. Chotigo S.:Development of dissolved gas analysis analyzing program using visual studio program. In:2019 IEEE PES GTD Grand International Conference and Exposition Asia (GTD Asia) pp.785\u2013790.IEEE(2019)",
+   "DOI": "10.1109/GTDAsia.2019.8715892"
+  },
+  {
+   "key": "e_1_2_7_10_1",
+   "unstructured": "IEEE Guide for the Interpretation of Gases Generated in Mineral Oil\u2010Immersed Transformers.IEEE(2019)"
+  },
+  {
+   "key": "e_1_2_7_11_1",
+   "first-page": "1",
+   "article-title": "Fault gases formed in oil\u2010filled breathing E.H.V. power transformers\u2014The interpretation of gas analysis data",
+   "author": "Duval M.",
+   "year": "1974",
+   "journal-title": "IEEE Pap"
+  },
+  {
+   "key": "e_1_2_7_12_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MEI.2014.6943428"
+  },
+  {
+   "key": "e_1_2_7_13_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2015.004999"
+  },
+  {
+   "key": "e_1_2_7_14_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2017.0826"
+  },
+  {
+   "key": "e_1_2_7_15_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2018.6168"
+  },
+  {
+   "key": "e_1_2_7_16_1",
+   "unstructured": "IEEE Guide for the Detection and Determination of Generated Gases in Oil\u2010Immersed Transformers and Their Relation to the Serviceability of the Equipment.ANSI/IEEE(1978))"
+  },
+  {
+   "key": "e_1_2_7_17_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TEI.1978.298141"
+  },
+  {
+   "key": "e_1_2_7_18_1",
+   "unstructured": "Interpretation of the analysis of gases in transformers and other Oil filled electrical equipment's in service. IEC Publication 60599 (1999)"
+  },
+  {
+   "key": "e_1_2_7_19_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2017.1927"
+  },
+  {
+   "key": "e_1_2_7_20_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1371/journal.pone.0191366"
+  },
+  {
+   "key": "e_1_2_7_21_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s00521-014-1677-y"
+  },
+  {
+   "key": "e_1_2_7_22_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2016.005301"
+  },
+  {
+   "key": "e_1_2_7_23_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.aei.2019.01.001"
+  },
+  {
+   "key": "e_1_2_7_24_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1155/2021/4862451"
+  },
+  {
+   "key": "e_1_2_7_25_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2018.5482"
+  },
+  {
+   "key": "e_1_2_7_26_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.ijepes.2014.12.017"
+  },
+  {
+   "key": "e_1_2_7_27_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2017.0028"
+  },
+  {
+   "key": "e_1_2_7_28_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/en14010036"
+  },
+  {
+   "key": "e_1_2_7_29_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.22266/ijies2012.0630.03"
+  },
+  {
+   "key": "e_1_2_7_30_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.4028/www.scientific.net/AMM.488-489.983"
+  },
+  {
+   "key": "e_1_2_7_31_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Mo W. et\u00a0al.:Power transformer fault diagnosis using support vector machine and particle swarm optimization. In:2017 10th International Symposium on Computational Intelligence and Design (ISCID) pp.511\u2013515.IEEE(2017)",
+   "DOI": "10.1109/ISCID.2017.165"
+  },
+  {
+   "key": "e_1_2_7_32_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1088/1742-6596/1624/4/042022"
+  },
+  {
+   "key": "e_1_2_7_33_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Liu C.\u2010H. et al.:Using data mining to dissolved gas analysis for power transformer fault diagnosis. In:2012 International Conference on Machine Learning and Cybernetics pp.1952\u20131957.IEEE(2012)",
+   "DOI": "10.1109/ICMLC.2012.6359675"
+  },
+  {
+   "key": "e_1_2_7_34_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACCESS.2020.2986726"
+  },
+  {
+   "key": "e_1_2_7_35_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2018.0059"
+  },
+  {
+   "key": "e_1_2_7_36_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MEI.2019.8636165"
+  },
+  {
+   "key": "e_1_2_7_37_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/en13246678"
+  },
+  {
+   "key": "e_1_2_7_38_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Dhini A. et\u00a0al.:Intelligent fault diagnosis for power transformer based on DGA data using support vector machine (SVM). In:2018 3rd International Conference on System Reliability and Safety (ICSRS) pp.294\u2013298.IEEE(2018)",
+   "DOI": "10.1109/ICSRS.2018.8688719"
+  },
+  {
+   "key": "e_1_2_7_39_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/57.917529"
+  },
+  {
+   "key": "e_1_2_7_40_1",
+   "unstructured": "N'Cho J.:D\u00e9veloppement de nouvelles m\u00e9thodes de diagnostic et de r\u00e9g\u00e9n\u00e9ration des huiles pour transformateurs de puissance. PhD thesis Ecole Centrale de Lyon (2011)"
+  },
+  {
+   "key": "e_1_2_7_41_1",
+   "unstructured": "Zainal Abidin M.S. et\u00a0al.: Design of a fault diagnostic engine for power transformer using data mining (2007)"
+  },
+  {
+   "key": "e_1_2_7_42_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/978-1-4471-5550-8"
+  },
+  {
+   "key": "e_1_2_7_43_1",
+   "unstructured": "IEEE Guide for the Interpretation of Gases Generated in Oil\u2010Immersed Transformers.IEEE(2008)"
+  },
+  {
+   "key": "e_1_2_7_44_1",
+   "unstructured": "IEEE Guide for the Interpretation of Gases Generated in Oil\u2010Immersed Transformers.IEEE(1991)"
+  },
+  {
+   "key": "e_1_2_7_45_1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Li E.: Dissolved Gas Data in Transformer Oil\u2014Fault Diagnosis of Power Transformers with Membership Degree.IEEE(2019)",
+   "DOI": "10.1109/ACCESS.2019.2902299"
+  },
+  {
+   "key": "e_1_2_7_46_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2018.5564"
+  },
+  {
+   "key": "e_1_2_7_47_1",
+   "doi-asserted-by": "crossref",
+   "first-page": "4170",
+   "DOI": "10.3390/en12214170",
+   "article-title": "A transformer fault diagnosis model based on hybrid grey wolf optimizer and LS\u2010SVM",
+   "volume": "12",
+   "author": "Bing Z.",
+   "year": "2019",
+   "journal-title": "Energies"
+  },
+  {
+   "key": "e_1_2_7_48_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.epsr.2004.07.013"
+  }
+ ],
+ "container-title": [
+  "IET Generation, Transmission &amp; Distribution"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1049/gtd2.12239",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1049/gtd2.12239",
+   "content-type": "application/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/gtd2.12239",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    28
+   ]
+  ],
+  "date-time": "2025-10-28T05:59:29Z",
+  "timestamp": 1761631169000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/gtd2.12239"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2021,
+    6,
+    28
+   ]
+  ]
+ },
+ "references-count": 47,
+ "journal-issue": {
+  "issue": "21",
+  "published-print": {
+   "date-parts": [
+    [
+     2021,
+     11
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "10.1049/gtd2.12239"
+ ],
+ "URL": "https://doi.org/10.1049/gtd2.12239",
+ "archive": [
+  "Portico"
+ ],
+ "relation": {},
+ "ISSN": [
+  "1751-8687",
+  "1751-8695"
+ ],
+ "issn-type": [
+  {
+   "value": "1751-8687",
+   "type": "print"
+  },
+  {
+   "value": "1751-8695",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2021,
+    6,
+    28
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "2020-12-03",
+   "order": 0,
+   "name": "received",
+   "label": "Received",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  },
+  {
+   "value": "2021-06-14",
+   "order": 2,
+   "name": "accepted",
+   "label": "Accepted",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  },
+  {
+   "value": "2021-06-28",
+   "order": 3,
+   "name": "published",
+   "label": "Published",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+item,value
+"records",388
+"with known class",356
+"known faulty",346
+"known Normal",10
+"verdict = fault",260
+"verdict = healthy",16
+"verdict = watch",62
+"verdict = undecided",50
+"faulty records called fault",242
+"faulty records called healthy",7
+"Normal records called healthy",7
+"fault verdict with known class",242
+"fault verdict with the right class",217
+"fault verdict, family right",240

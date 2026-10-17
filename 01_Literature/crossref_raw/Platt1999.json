@@ -1,0 +1,121 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    13
+   ]
+  ],
+  "date-time": "2026-10-13T13:46:58Z",
+  "timestamp": 1791899218042,
+  "version": "4.3.4"
+ },
+ "reference-count": 0,
+ "publisher": "The MIT Press",
+ "isbn-type": [
+  {
+   "value": "9780262283199",
+   "type": "electronic"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "published-print": {
+  "date-parts": [
+   [
+    1998,
+    12,
+    1
+   ]
+  ]
+ },
+ "DOI": "10.7551/mitpress/1130.003.0016",
+ "type": "book-chapter",
+ "created": {
+  "date-parts": [
+   [
+    2022,
+    10,
+    14
+   ]
+  ],
+  "date-time": "2022-10-14T15:15:14Z",
+  "timestamp": 1665760514000
+ },
+ "source": "Crossref",
+ "is-referenced-by-count": 1313,
+ "title": [
+  "Fast Training of Support Vector Machines Using Sequential Minimal Optimization"
+ ],
+ "prefix": "10.7551",
+ "author": [
+  {
+   "given": "John C.",
+   "family": "Platt",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "281",
+ "container-title": [
+  "Advances in Kernel Methods"
+ ],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://direct.mit.edu/books/edited-volume/chapter-pdf/2324305/c010032_9780262283199.pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2024,
+    1,
+    31
+   ]
+  ],
+  "date-time": "2024-01-31T11:22:57Z",
+  "timestamp": 1706700177000
+ },
+ "score": 42.76192,
+ "resource": {
+  "primary": {
+   "URL": "https://direct.mit.edu/books/book/5416/chapter/3957036/Fast-Training-of-Support-Vector-Machines-Using"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    1998,
+    12,
+    1
+   ]
+  ]
+ },
+ "ISBN": [
+  "9780262283199"
+ ],
+ "references-count": 0,
+ "URL": "https://doi.org/10.7551/mitpress/1130.003.0016",
+ "published": {
+  "date-parts": [
+   [
+    1998,
+    12,
+    1
+   ]
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+check,passed,detail
+rated: two fresh runs are identical,1,largest difference 0.00e+00
+rated: hot-spot >= top-oil >= ambient and V > 0 at all times,1,min(hot-spot - top-oil) 0.000 K; min(top-oil - ambient) 0.000 K; min V 0.000122
+daily: two fresh runs are identical,1,largest difference 0.00e+00
+daily: hot-spot >= top-oil >= ambient and V > 0 at all times,1,min(hot-spot - top-oil) 0.000 K; min(top-oil - ambient) 0.000 K; min V 0.000122
+overload: two fresh runs are identical,1,largest difference 0.00e+00
+overload: hot-spot >= top-oil >= ambient and V > 0 at all times,1,min(hot-spot - top-oil) 0.000 K; min(top-oil - ambient) 0.000 K; min V 0.000122
+rated: saved sim_rated.mat equals a new run,1,largest difference 0.00e+00
+daily: saved sim_daily.mat equals a new run,1,largest difference 0.00e+00
+overload: saved sim_overload.mat equals a new run,1,largest difference 0.00e+00
+model file unchanged by the runs (SHA-256),1,e45d475b8aeac325ef3bed40dcc77847d521d5cb696bb6c75d19d573d6bb81fc
+rated: equals run_transformer_simulation of the default profile,1,largest difference 0.00e+00; L 27.8817 h vs 27.8817 h
+rated: loss of life equals run_transformer_simulation (1e-9 h),1,27.881727 h
+daily: day 3 and day 2 differ by less than 1 K in hot-spot temperature (cycle has settled; information),1,largest difference 0.002 K

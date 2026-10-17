@@ -1,0 +1,141 @@
+evaluation_set,method,class,support,precision,recall,f1
+Internal test,ML,Normal,10,1.0,0.7,0.823529
+Internal test,ML,PD,7,0.714286,0.714286,0.714286
+Internal test,ML,D1,7,0.6,0.857143,0.705882
+Internal test,ML,D2,8,0.75,0.75,0.75
+Internal test,ML,T1,10,0.9,0.9,0.9
+Internal test,ML,T2,10,1.0,0.9,0.947368
+Internal test,ML,T3,9,0.8,0.888889,0.842105
+Internal test,Rogers,Normal,10,0.384615,1.0,0.555556
+Internal test,Rogers,PD,7,,0.0,0.0
+Internal test,Rogers,D1,7,,0.0,0.0
+Internal test,Rogers,D2,8,1.0,0.125,0.222222
+Internal test,Rogers,T1,10,,0.0,0.0
+Internal test,Rogers,T2,10,1.0,0.4,0.571429
+Internal test,Rogers,T3,9,0.714286,0.555556,0.625
+Internal test,IEC60599,Normal,10,0.416667,1.0,0.588235
+Internal test,IEC60599,PD,7,1.0,0.142857,0.25
+Internal test,IEC60599,D1,7,1.0,0.285714,0.444444
+Internal test,IEC60599,D2,8,1.0,0.125,0.222222
+Internal test,IEC60599,T1,10,1.0,0.5,0.666667
+Internal test,IEC60599,T2,10,1.0,0.5,0.666667
+Internal test,IEC60599,T3,9,0.833333,0.555556,0.666667
+Internal test,Duval,Normal,10,0.416667,1.0,0.588235
+Internal test,Duval,PD,7,,0.0,0.0
+Internal test,Duval,D1,7,0.714286,0.714286,0.714286
+Internal test,Duval,D2,8,0.8,0.5,0.615385
+Internal test,Duval,T1,10,1.0,0.6,0.75
+Internal test,Duval,T2,10,0.6,0.3,0.4
+Internal test,Duval,T3,9,0.6,0.666667,0.631579
+IEC TC 10 (power transformers),ML,PD,1,1.0,1.0,1.0
+IEC TC 10 (power transformers),ML,D1,10,0.7,0.7,0.7
+IEC TC 10 (power transformers),ML,D2,27,0.8,0.888889,0.842105
+IEC TC 10 (power transformers),ML,T12,8,0.5,0.625,0.555556
+IEC TC 10 (power transformers),ML,T3,12,0.833333,0.416667,0.555556
+IEC TC 10 (power transformers),Rogers,PD,1,,0.0,0.0
+IEC TC 10 (power transformers),Rogers,D1,10,,0.0,0.0
+IEC TC 10 (power transformers),Rogers,D2,27,0.869565,0.740741,0.8
+IEC TC 10 (power transformers),Rogers,T12,8,0.333333,0.125,0.181818
+IEC TC 10 (power transformers),Rogers,T3,12,0.777778,0.583333,0.666667
+IEC TC 10 (power transformers),IEC60599,PD,1,1.0,1.0,1.0
+IEC TC 10 (power transformers),IEC60599,D1,10,0.875,0.7,0.777778
+IEC TC 10 (power transformers),IEC60599,D2,27,1.0,0.740741,0.851064
+IEC TC 10 (power transformers),IEC60599,T12,8,0.444444,0.5,0.470588
+IEC TC 10 (power transformers),IEC60599,T3,12,0.833333,0.416667,0.555556
+IEC TC 10 (power transformers),Duval,PD,1,0.5,1.0,0.666667
+IEC TC 10 (power transformers),Duval,D1,10,1.0,0.8,0.888889
+IEC TC 10 (power transformers),Duval,D2,27,0.96,0.888889,0.923077
+IEC TC 10 (power transformers),Duval,T12,8,0.6,0.375,0.461538
+IEC TC 10 (power transformers),Duval,T3,12,0.9,0.75,0.818182
+Li 2019,ML,PD,8,0.5,0.5,0.5
+Li 2019,ML,D1,23,0.85,0.73913,0.790698
+Li 2019,ML,D2,7,0.363636,0.571429,0.444444
+Li 2019,ML,T1,19,0.636364,0.368421,0.466667
+Li 2019,ML,T2,9,0.666667,0.444444,0.533333
+Li 2019,ML,T3,20,0.782609,0.9,0.837209
+Li 2019,Rogers,PD,8,,0.0,0.0
+Li 2019,Rogers,D1,23,,0.0,0.0
+Li 2019,Rogers,D2,7,0.571429,0.571429,0.571429
+Li 2019,Rogers,T1,19,0.5,0.052632,0.095238
+Li 2019,Rogers,T2,9,0.666667,0.222222,0.333333
+Li 2019,Rogers,T3,20,0.8,0.4,0.533333
+Li 2019,IEC60599,PD,8,0.666667,0.25,0.363636
+Li 2019,IEC60599,D1,23,1.0,0.391304,0.5625
+Li 2019,IEC60599,D2,7,1.0,0.571429,0.727273
+Li 2019,IEC60599,T1,19,0.5,0.052632,0.095238
+Li 2019,IEC60599,T2,9,0.666667,0.222222,0.333333
+Li 2019,IEC60599,T3,20,0.8,0.4,0.533333
+Li 2019,Duval,PD,8,0.8,0.5,0.615385
+Li 2019,Duval,D1,23,0.933333,0.608696,0.736842
+Li 2019,Duval,D2,7,0.75,0.857143,0.8
+Li 2019,Duval,T1,19,0.666667,0.210526,0.32
+Li 2019,Duval,T2,9,0.666667,0.222222,0.333333
+Li 2019,Duval,T3,20,0.818182,0.45,0.580645
+Internal test - all records,ML,Normal,10,1.0,0.7,0.823529
+Internal test - all records,ML,PD,10,0.8,0.8,0.8
+Internal test - all records,ML,D1,10,0.666667,0.8,0.727273
+Internal test - all records,ML,D2,10,0.727273,0.8,0.761905
+Internal test - all records,ML,T1,10,0.9,0.9,0.9
+Internal test - all records,ML,T2,10,1.0,0.9,0.947368
+Internal test - all records,ML,T3,10,0.818182,0.9,0.857143
+Internal test - all records,Rogers,Normal,10,0.384615,1.0,0.555556
+Internal test - all records,Rogers,PD,10,1.0,0.1,0.181818
+Internal test - all records,Rogers,D1,10,,0.0,0.0
+Internal test - all records,Rogers,D2,10,1.0,0.3,0.461538
+Internal test - all records,Rogers,T1,10,,0.0,0.0
+Internal test - all records,Rogers,T2,10,1.0,0.4,0.571429
+Internal test - all records,Rogers,T3,10,0.75,0.6,0.666667
+Internal test - all records,IEC60599,Normal,10,0.416667,1.0,0.588235
+Internal test - all records,IEC60599,PD,10,1.0,0.2,0.333333
+Internal test - all records,IEC60599,D1,10,1.0,0.5,0.666667
+Internal test - all records,IEC60599,D2,10,1.0,0.3,0.461538
+Internal test - all records,IEC60599,T1,10,1.0,0.5,0.666667
+Internal test - all records,IEC60599,T2,10,1.0,0.5,0.666667
+Internal test - all records,IEC60599,T3,10,0.857143,0.6,0.705882
+Internal test - all records,Duval,Normal,10,0.416667,1.0,0.588235
+Internal test - all records,Duval,PD,10,1.0,0.3,0.461538
+Internal test - all records,Duval,D1,10,0.777778,0.7,0.736842
+Internal test - all records,Duval,D2,10,0.75,0.6,0.666667
+Internal test - all records,Duval,T1,10,1.0,0.6,0.75
+Internal test - all records,Duval,T2,10,0.6,0.3,0.4
+Internal test - all records,Duval,T3,10,0.636364,0.7,0.666667
+IEC TC 10 - all records,ML,PD,9,0.8,0.888889,0.842105
+IEC TC 10 - all records,ML,D1,26,0.8,0.615385,0.695652
+IEC TC 10 - all records,ML,D2,48,0.758621,0.916667,0.830189
+IEC TC 10 - all records,ML,T12,16,0.647059,0.6875,0.666667
+IEC TC 10 - all records,ML,T3,18,0.909091,0.555556,0.689655
+IEC TC 10 - all records,Rogers,PD,9,0.5,0.111111,0.181818
+IEC TC 10 - all records,Rogers,D1,26,,0.0,0.0
+IEC TC 10 - all records,Rogers,D2,48,0.837209,0.75,0.791209
+IEC TC 10 - all records,Rogers,T12,16,0.666667,0.25,0.363636
+IEC TC 10 - all records,Rogers,T3,18,0.769231,0.555556,0.645161
+IEC TC 10 - all records,IEC60599,PD,9,0.8,0.444444,0.571429
+IEC TC 10 - all records,IEC60599,D1,26,0.9,0.692308,0.782609
+IEC TC 10 - all records,IEC60599,D2,48,1.0,0.729167,0.843373
+IEC TC 10 - all records,IEC60599,T12,16,0.615385,0.5,0.551724
+IEC TC 10 - all records,IEC60599,T3,18,0.9,0.5,0.642857
+IEC TC 10 - all records,Duval,PD,9,0.818182,1.0,0.9
+IEC TC 10 - all records,Duval,D1,26,0.95,0.730769,0.826087
+IEC TC 10 - all records,Duval,D2,48,0.897959,0.916667,0.907216
+IEC TC 10 - all records,Duval,T12,16,0.777778,0.4375,0.56
+IEC TC 10 - all records,Duval,T3,18,0.823529,0.777778,0.8
+Li 2019 - all records,ML,PD,16,0.647059,0.6875,0.666667
+Li 2019 - all records,ML,D1,49,0.825,0.673469,0.741573
+Li 2019 - all records,ML,D2,54,0.691176,0.87037,0.770492
+Li 2019 - all records,ML,T12,44,0.705882,0.545455,0.615385
+Li 2019 - all records,ML,T3,38,0.823529,0.736842,0.777778
+Li 2019 - all records,Rogers,PD,16,0.5,0.0625,0.111111
+Li 2019 - all records,Rogers,D1,49,,0.0,0.0
+Li 2019 - all records,Rogers,D2,54,0.803922,0.759259,0.780952
+Li 2019 - all records,Rogers,T12,44,0.727273,0.181818,0.290909
+Li 2019 - all records,Rogers,T3,38,0.782609,0.473684,0.590164
+Li 2019 - all records,IEC60599,PD,16,0.714286,0.3125,0.434783
+Li 2019 - all records,IEC60599,D1,49,0.933333,0.571429,0.708861
+Li 2019 - all records,IEC60599,D2,54,1.0,0.740741,0.851064
+Li 2019 - all records,IEC60599,T12,44,0.611111,0.25,0.354839
+Li 2019 - all records,IEC60599,T3,38,0.85,0.447368,0.586207
+Li 2019 - all records,Duval,PD,16,0.8,0.75,0.774194
+Li 2019 - all records,Duval,D1,49,0.944444,0.693878,0.8
+Li 2019 - all records,Duval,D2,54,0.87931,0.944444,0.910714
+Li 2019 - all records,Duval,T12,44,0.777778,0.318182,0.451613
+Li 2019 - all records,Duval,T3,38,0.821429,0.605263,0.69697

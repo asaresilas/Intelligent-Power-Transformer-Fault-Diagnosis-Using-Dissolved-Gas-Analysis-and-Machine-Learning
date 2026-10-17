@@ -1,0 +1,237 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    8
+   ]
+  ],
+  "date-time": "2026-10-08T18:12:34Z",
+  "timestamp": 1791483154086,
+  "version": "4.3.4"
+ },
+ "reference-count": 11,
+ "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+ "issue": "1",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2005,
+      1,
+      1
+     ]
+    ],
+    "date-time": "2005-01-01T00:00:00Z",
+    "timestamp": 1104537600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "IEEE Trans. Power Delivery"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2005,
+    1
+   ]
+  ]
+ },
+ "DOI": "10.1109/tpwrd.2004.835255",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2005,
+    1,
+    4
+   ]
+  ],
+  "date-time": "2005-01-04T17:04:19Z",
+  "timestamp": 1104858259000
+ },
+ "page": "197-204",
+ "source": "Crossref",
+ "is-referenced-by-count": 295,
+ "title": [
+  "Dynamic Thermal Modelling of Power Transformers"
+ ],
+ "prefix": "10.1109",
+ "volume": "20",
+ "author": [
+  {
+   "given": "D.",
+   "family": "Susa",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "M.",
+   "family": "Lehtonen",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "H.",
+   "family": "Nordman",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "ref1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3403/00325978u"
+  },
+  {
+   "key": "ref2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ieeestd.2003.94283"
+  },
+  {
+   "key": "ref3",
+   "volume-title": "Fundamentals of Heat and Mass Transfer",
+   "author": "Incropera",
+   "year": "1996"
+  },
+  {
+   "key": "ref4",
+   "volume-title": "Large Power Transformers",
+   "author": "Karsai",
+   "year": "1987"
+  },
+  {
+   "key": "ref5",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRD.2002.807747"
+  },
+  {
+   "key": "ref6",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRD.2003.817516"
+  },
+  {
+   "key": "ref7",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/61.141852"
+  },
+  {
+   "key": "ref8",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/28.273636"
+  },
+  {
+   "key": "ref9",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/61.915478"
+  },
+  {
+   "key": "ref10",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/61.915479"
+  },
+  {
+   "key": "ref11",
+   "article-title": "Hot-spot measurements in power transformers",
+   "volume-title": "Proc. Cigre, Rep. 12-02, Int. Conf. Large High Voltage Electric Systems",
+   "author": "Lampe"
+  }
+ ],
+ "container-title": [
+  "IEEE Transactions on Power Delivery"
+ ],
+ "language": "en",
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx5/61/30033/01375095.pdf?arnumber=1375095",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    4,
+    15
+   ]
+  ],
+  "date-time": "2025-04-15T05:49:59Z",
+  "timestamp": 1744696199000
+ },
+ "score": 100.05153,
+ "resource": {
+  "primary": {
+   "URL": "http://ieeexplore.ieee.org/document/1375095/"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2005,
+    1
+   ]
+  ]
+ },
+ "references-count": 11,
+ "journal-issue": {
+  "issue": "1",
+  "published-print": {
+   "date-parts": [
+    [
+     2005,
+     1
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.1109/tpwrd.2004.835255",
+ "ISSN": [
+  "0885-8977"
+ ],
+ "issn-type": [
+  {
+   "value": "0885-8977",
+   "type": "print"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2005,
+    1
+   ]
+  ]
+ }
+}

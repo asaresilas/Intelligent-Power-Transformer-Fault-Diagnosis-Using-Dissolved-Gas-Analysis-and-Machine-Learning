@@ -1,0 +1,287 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    13
+   ]
+  ],
+  "date-time": "2026-10-13T17:32:18Z",
+  "timestamp": 1791912738389,
+  "version": "4.3.4"
+ },
+ "reference-count": 14,
+ "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+ "issue": "5",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      1978,
+      10,
+      1
+     ]
+    ],
+    "date-time": "1978-10-01T00:00:00Z",
+    "timestamp": 276048000000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      1978,
+      10,
+      1
+     ]
+    ],
+    "date-time": "1978-10-01T00:00:00Z",
+    "timestamp": 276048000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-029"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      1978,
+      10,
+      1
+     ]
+    ],
+    "date-time": "1978-10-01T00:00:00Z",
+    "timestamp": 276048000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-037"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "IEEE Trans. Elect. Insul."
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    1978,
+    10
+   ]
+  ]
+ },
+ "DOI": "10.1109/tei.1978.298141",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2007,
+    2,
+    28
+   ]
+  ],
+  "date-time": "2007-02-28T14:59:25Z",
+  "timestamp": 1172674765000
+ },
+ "page": "349-354",
+ "source": "Crossref",
+ "is-referenced-by-count": 482,
+ "title": [
+  "IEEE and IEC Codes to Interpret Incipient Faults in Transformers, Using Gas in Oil Analysis"
+ ],
+ "prefix": "10.1109",
+ "volume": "EI-13",
+ "author": [
+  {
+   "given": "R. R.",
+   "family": "Rogers",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "C. E. G. B. Transmission Division Guildford, England"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "ref10",
+   "author": "rogers",
+   "year": "1977",
+   "journal-title": "Doble Client Conference"
+  },
+  {
+   "key": "ref11",
+   "first-page": "81",
+   "article-title": "application of dissolved gas analyses to the maintenance of transformers\".",
+   "volume": "84",
+   "author": "thibault",
+   "year": "1975",
+   "journal-title": "Rev Gen Elec"
+  },
+  {
+   "key": "ref12",
+   "first-page": "345",
+   "article-title": "assessment of working condition of transformers by gas analysis.",
+   "volume": "76",
+   "author": "muller",
+   "year": "1977",
+   "journal-title": "Elektrizitaetswirtschaft"
+  },
+  {
+   "key": "ref13",
+   "first-page": "12",
+   "author": "andersson",
+   "year": "1976",
+   "journal-title": "\"The transfer of fault gases in transformers and its effect upon the interpretation of gas analysis data \""
+  },
+  {
+   "key": "ref14",
+   "article-title": "fault gases in oil-filled breathing ehv power transformers. the interpretation of gas analysis data",
+   "author": "duval",
+   "year": "1974",
+   "journal-title": "IEEE PES Conference"
+  },
+  {
+   "key": "ref4",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPAS.1965.4766168"
+  },
+  {
+   "key": "ref3",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/AIEEPAS.1961.4501008"
+  },
+  {
+   "key": "ref6",
+   "first-page": "239",
+   "article-title": "a thermodynamic assessment of the formation of gaseous hydrocarbons in faulty transformers.",
+   "volume": "59",
+   "author": "halstead",
+   "year": "1973",
+   "journal-title": "J Inst Petroleum"
+  },
+  {
+   "key": "ref5",
+   "first-page": "15",
+   "author": "fallou",
+   "year": "1970",
+   "journal-title": "\"Application of Physico-Chemical Methods of analysis to the study of deterioration in the insulation of electrical apparatus \""
+  },
+  {
+   "key": "ref8",
+   "article-title": "uk experience in the interpretation of incipient faults in power transformers by dissolved gas-in-oil chromatographic analysis.",
+   "author": "rogers",
+   "year": "1975",
+   "journal-title": "Double Client Conference"
+  },
+  {
+   "key": "ref7",
+   "article-title": "cegb experience of the analysis of dissolved gas in transformer oil for the detection of incipient faults.",
+   "author": "barraclough",
+   "year": "1973",
+   "journal-title": "IEE Conference on Diagnostic Testing of High Voltage Power Apparatus in Service"
+  },
+  {
+   "key": "ref2",
+   "author": "howe",
+   "year": "1956",
+   "journal-title": "\"Identity and significance of gases collected in Buchholz protectors \""
+  },
+  {
+   "key": "ref1",
+   "first-page": "1257",
+   "article-title": "the buchholz protection system and its application in practice",
+   "volume": "49",
+   "author": "buchholz",
+   "year": "1928",
+   "journal-title": "E T Z"
+  },
+  {
+   "key": "ref9",
+   "article-title": "detection of and research for the characteristics of an incipient fault from analysis of dissolved gases in the oil of an insulation.",
+   "volume": "42",
+   "year": "1975",
+   "journal-title": "Electra"
+  }
+ ],
+ "container-title": [
+  "IEEE Transactions on Electrical Insulation"
+ ],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx5/14/4080554/04080560.pdf?arnumber=4080560",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    7,
+    9
+   ]
+  ],
+  "date-time": "2025-07-09T23:10:33Z",
+  "timestamp": 1752102633000
+ },
+ "score": 109.709816,
+ "resource": {
+  "primary": {
+   "URL": "https://ieeexplore.ieee.org/document/4080560/"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    1978,
+    10
+   ]
+  ]
+ },
+ "references-count": 14,
+ "journal-issue": {
+  "issue": "5"
+ },
+ "URL": "https://doi.org/10.1109/tei.1978.298141",
+ "ISSN": [
+  "0018-9367",
+  "1557-962X"
+ ],
+ "issn-type": [
+  {
+   "value": "0018-9367",
+   "type": "print"
+  },
+  {
+   "value": "1557-962X",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    1978,
+    10
+   ]
+  ]
+ }
+}

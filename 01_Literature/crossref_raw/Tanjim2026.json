@@ -1,0 +1,737 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    29
+   ]
+  ],
+  "date-time": "2026-09-29T17:19:35Z",
+  "timestamp": 1790702375946,
+  "version": "4.1.0"
+ },
+ "reference-count": 44,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2026-06-01T00:00:00Z",
+    "timestamp": 1780272000000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2026-06-01T00:00:00Z",
+    "timestamp": 1780272000000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2026,
+      3,
+      7
+     ]
+    ],
+    "date-time": "2026-03-07T00:00:00Z",
+    "timestamp": 1772841600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Results in Engineering"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2026,
+    6
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.rineng.2026.109972",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    3,
+    7
+   ]
+  ],
+  "date-time": "2026-03-07T23:33:02Z",
+  "timestamp": 1772926382000
+ },
+ "page": "109972",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 5,
+ "special_numbering": "C",
+ "title": [
+  "A CatBoost-based framework for data-driven fault diagnosis in power transformers using dissolved gas analysis"
+ ],
+ "prefix": "10.1016",
+ "volume": "30",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0009-0009-1386-5453",
+   "authenticated-orcid": false,
+   "given": "Raif",
+   "family": "Tanjim",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0009-0009-7384-6094",
+   "authenticated-orcid": false,
+   "given": "Tanvir",
+   "family": "Ahmed",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0009-0001-2145-3274",
+   "authenticated-orcid": false,
+   "given": "Mobashwar",
+   "family": "Mostafa",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0009-0009-8911-2749",
+   "authenticated-orcid": false,
+   "given": "Nasif",
+   "family": "Hannan",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-6914-0966",
+   "authenticated-orcid": false,
+   "given": "Abu",
+   "family": "Shufian",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-0437-8778",
+   "authenticated-orcid": false,
+   "given": "Bishwajit Banik",
+   "family": "Pathik",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0001",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.egyr.2023.09.183",
+   "article-title": "Transformer fault classification for diagnosis based on DGA and deep belief network",
+   "volume": "9",
+   "author": "Zou",
+   "year": "2023",
+   "journal-title": "Energy Reports"
+  },
+  {
+   "issue": "21",
+   "key": "10.1016/j.rineng.2026.109972_bib0002",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1049/iet-gtd.2018.5482",
+   "article-title": "Hybrid feature selection approach for power transformer fault diagnosis based on support vector machine and genetic algorithm",
+   "volume": "12",
+   "author": "Kari",
+   "year": "2018",
+   "journal-title": "IET Gener., Transm. Distrib."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0003",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/ACCESS.2021.3102415",
+   "article-title": "Power transformer fault diagnosis based on DGA using a convolutional neural network with noise in measurements",
+   "volume": "9",
+   "author": "Taha",
+   "year": "2021",
+   "journal-title": "IEEe Access."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.rineng.2026.109972_bib0004",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/a14040128",
+   "article-title": "A multinomial dga classifier for incipient fault detection in oil-impregnated power transformers",
+   "volume": "14",
+   "author": "Odongo",
+   "year": "2021",
+   "journal-title": "Algorithms."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.rineng.2026.109972_bib0005",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.14716/ijtech.v11i2.3625",
+   "article-title": "Data-driven fault diagnosis of power transformers using dissolved gas analysis (DGA)",
+   "volume": "11",
+   "author": "Dhini",
+   "year": "2020",
+   "journal-title": "Int. J. Technol."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0006",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.epsr.2024.111142",
+   "article-title": "Transformer fault diagnosis method based on the three-stage lightweight residual neural network",
+   "volume": "238",
+   "author": "Liu",
+   "year": "2025",
+   "journal-title": "Electric Power Syst. Res."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.rineng.2026.109972_bib0007",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/TPWRD.2021.3123957",
+   "article-title": "Data driven transformer thermal model for condition monitoring",
+   "volume": "37",
+   "author": "Doolgindachbaporn",
+   "year": "2022",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.rineng.2026.109972_bib0008",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/TDEI.2023.3275119",
+   "article-title": "Hybrid DGA method for power transformer faults diagnosis based on evolutionary k-means clustering and dissolved gas subsets analysis",
+   "volume": "30",
+   "author": "Nanfak",
+   "year": "2023",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.rineng.2026.109972_bib0009",
+   "doi-asserted-by": "crossref",
+   "first-page": "3011",
+   "DOI": "10.1109/TDEI.2024.3469913",
+   "article-title": "Dissolved gas analysis for power transformer fault diagnosis based on deep zero-shot learning",
+   "volume": "31",
+   "author": "Lei",
+   "year": "2024",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0010",
+   "article-title": "Adaptive fault diagnosis in power transmission lines using deep learning and LSTM autoencoders for enhancing grid reliability",
+   "volume": "174",
+   "author": "Hossain",
+   "year": "2026",
+   "journal-title": "Int. J. Electr. Power Energy Systems"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.rineng.2026.109972_bib0011",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1038/s41598-025-18767-4",
+   "article-title": "Enhancing microgrid resilience through integrated grid-forming and grid-following inverter strategies for solar PV battery control and fault ride-through",
+   "volume": "15",
+   "author": "Hossain",
+   "year": "2025",
+   "journal-title": "Sci. Rep."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0012",
+   "article-title": "Incipient fault diagnosis in power transformers by data-driven models with over-sampled dataset",
+   "volume": "201",
+   "author": "de",
+   "year": "2021",
+   "journal-title": "Electric Power Syst. Res."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.rineng.2026.109972_bib0013",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1038/s41598-025-10046-6",
+   "article-title": "Enhancing stability in renewable energy transmission using multi-terminal HVDC systems with grid-forming controls for offshore and onshore wind integration",
+   "volume": "15",
+   "author": "Shufian",
+   "year": "2025",
+   "journal-title": "Sci. Rep."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0014",
+   "doi-asserted-by": "crossref",
+   "unstructured": "M.S. Ali, A.H. Abu Bakar, A. Omar, A.S. Abdul Jaafar, and S.H. Mohamed, \u201cConventional methods of dissolved gas analysis using oil-immersed power transformer for fault diagnosis: a review,\u201d 2023. doi: 10.1016/j.epsr.2022.109064.",
+   "DOI": "10.1016/j.epsr.2022.109064"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.rineng.2026.109972_bib0015",
+   "article-title": "Transformer faults in tanzanian electrical distribution networks: indicators, types, and causes",
+   "volume": "10",
+   "author": "Mbembati",
+   "year": "2023",
+   "journal-title": "J. Electr. Syst. Inform. Technol."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.rineng.2026.109972_bib0016",
+   "article-title": "Intelligent approach to interpret incipient faults of power transformer from DGA database",
+   "volume": "104",
+   "author": "Modi",
+   "year": "2023",
+   "journal-title": "J. Inst. Eng. (India): Series B"
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.rineng.2026.109972_bib0017",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/TPWRD.2025.3612218",
+   "article-title": "Intelligent transformer fault identification using GALO-FIS and refined ratio techniques",
+   "volume": "40",
+   "author": "Bargate",
+   "year": "2025",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0018",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.epsr.2023.109256",
+   "article-title": "Diagnosis and prognosis of incipient faults and insulation status for asset management of power transformer using fuzzy logic controller & fuzzy clustering means",
+   "volume": "220",
+   "author": "Soni",
+   "year": "2023",
+   "journal-title": "Electric Power Syst. Res."
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.rineng.2026.109972_bib0019",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/TDEI.2023.3286795",
+   "article-title": "A comprehensive and practical method for transformer fault analysis with historical data trend using fuzzy logic",
+   "volume": "30",
+   "author": "Malik",
+   "year": "2023",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.rineng.2026.109972_bib0020",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/TPWRD.2024.3454230",
+   "article-title": "A novel graphical method for interpretating dissolved gases and fault diagnosis in power transformer based on dynamique axes in circular form",
+   "volume": "39",
+   "author": "Hechifa",
+   "year": "2024",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.rineng.2026.109972_bib0021",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/TDEI.2025.3526080",
+   "article-title": "Rethinking shallow and deep learnings for transformer dissolved gas analysis: a review",
+   "volume": "32",
+   "author": "Chen",
+   "year": "2025",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.rineng.2026.109972_bib0022",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/TDEI.2024.3379954",
+   "article-title": "Hybrid algorithm for dynamic fault prediction of HVDC converter transformer using DGA data",
+   "volume": "31",
+   "author": "Patil",
+   "year": "2024",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.rineng.2026.109972_bib0023",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/TDEI.2024.3395235",
+   "article-title": "Enhancing DGA transformer fault diagnosis using data reconstruction and GD-AHBA-SVM model",
+   "volume": "31",
+   "author": "Liu",
+   "year": "2024",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.rineng.2026.109972_bib0024",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/LSENS.2022.3233135",
+   "article-title": "Sensing incipient faults in power transformers using Bi-directional long short-term memory network",
+   "volume": "7",
+   "author": "Das",
+   "year": "2023",
+   "journal-title": "IEEe Sens. Lett."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0025",
+   "article-title": "Deep machine learning-based asset management approach for oil- immersed power transformers using dissolved gas analysis",
+   "volume": "12",
+   "author": "Jin",
+   "year": "2024",
+   "journal-title": "IEEe Access."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0026",
+   "article-title": "Physics-informed guided transformer fault diagnosis via DGA data",
+   "author": "Lei",
+   "year": "2025",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.rineng.2026.109972_bib0027",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/TPWRD.2024.3449389",
+   "article-title": "Optimizing transformer fault detection performance through the synergy of AI and statistical analysis for multi-fault classification",
+   "volume": "39",
+   "author": "Kumar",
+   "year": "2024",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.rineng.2026.109972_bib0028",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/TDEI.2025.3563316",
+   "article-title": "Twin network approach for multifault classification in power transformers using enriched features and zero synthetic data",
+   "volume": "32",
+   "author": "Kumar",
+   "year": "2025",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.rineng.2026.109972_bib0029",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1109/TDEI.2024.3421915",
+   "article-title": "Optimized synthetic data integration with Transformer\u2019s DGA data for improved ML-based fault identification",
+   "volume": "32",
+   "author": "Jaysing Patil",
+   "year": "2025",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0030",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.rineng.2025.106970",
+   "article-title": "Optimizing power distribution and stability in islanded microgrids with wind energy integration using enhanced droop and virtual impedance control",
+   "volume": "27",
+   "author": "Hossain",
+   "year": "2025",
+   "journal-title": "Results. Eng."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0031",
+   "article-title": "FALCON: a semi-supervised framework for addressing physical and cyber anomalies in DGA-based transformer fault diagnosis",
+   "author": "Tusher",
+   "year": "2025",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0032",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.engappai.2025.112639",
+   "article-title": "Graph-enhanced fault hierarchical perception for Dissolved Gas Analysis in power transformer",
+   "volume": "162",
+   "author": "Zhang",
+   "year": "2025",
+   "journal-title": "Eng. Appl. Artif. Intell."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0033",
+   "article-title": "PS-DFL: a parallel sEq.uential decentralized federated learning framework to facilitate DGA interpretation related to transformer fault diagnosis",
+   "author": "Dong",
+   "year": "2025",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0034",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.rineng.2025.104166",
+   "article-title": "Enhanced fault detection in zig-zag transformers: insights from dissolved gas analysis and transient current analysis",
+   "volume": "25",
+   "author": "Arias Vel\u00e1squez",
+   "year": "2025",
+   "journal-title": "Results. Eng."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0035",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.rineng.2025.106539",
+   "article-title": "Intelligent energy management of microgrids using machine learning: leveraging random forest models for solar and wind power",
+   "volume": "27",
+   "author": "Anonto",
+   "year": "2025",
+   "journal-title": "Results. Eng."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0036",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.array.2025.100441",
+   "article-title": "Proactive detection of cyber-physical grid attacks: a pre-attack phase identification and analysis using anomaly-based machine learning models",
+   "volume": "27",
+   "author": "Kabir",
+   "year": "2025",
+   "journal-title": "Array"
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0037",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.ijepes.2025.110517",
+   "article-title": "Fuzzy logic-controlled three-phase dynamic voltage restorer for enhancing voltage stabilization and power quality",
+   "volume": "166",
+   "author": "Shufian",
+   "year": "2025",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.rineng.2026.109972_bib0038",
+   "doi-asserted-by": "crossref",
+   "first-page": "41",
+   "DOI": "10.1007/s40866-024-00226-0",
+   "article-title": "Investigation and Performance optimization of modular multilevel converter-based HVDC systems for smart grids: control, harmonic analysis and power quality enhancement",
+   "volume": "9",
+   "author": "Shufian",
+   "year": "2024",
+   "journal-title": "Smart Grids Sustain. Energy"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.rineng.2026.109972_bib0039",
+   "article-title": "Power transformer faults diagnosis using undestructive methods (Roger and iec) and artificial neural network for dissolved gas analysis applied on the functional transformer in the algerian north-eastern: a comparative study",
+   "author": "Bouchaoui",
+   "year": "2021",
+   "journal-title": "Electr. Eng. Electromech."
+  },
+  {
+   "key": "10.1016/j.rineng.2026.109972_bib0040",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1155/2023/9960743",
+   "article-title": "Comparative performance study of dissolved gas analysis (DGA) methods for identification of faults in power transformer",
+   "volume": "2023",
+   "author": "Wajid",
+   "year": "2023",
+   "journal-title": "Int. J. Energy Res."
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.rineng.2026.109972_bib0041",
+   "article-title": "Dissolved gas analysis principle-based intelligent approaches to fault diagnosis and decision making for large oil-immersed power transformers: a survey",
+   "volume": "11",
+   "author": "Cheng",
+   "year": "2018",
+   "journal-title": "Energies. (Basel)"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.rineng.2026.109972_bib0042",
+   "article-title": "Dissolved gas analysis for fault prediction in power transformers using machine learning techniques",
+   "volume": "15",
+   "author": "Al-Sakini",
+   "year": "2025",
+   "journal-title": "Appl. Sci. (Switzerland)"
+  },
+  {
+   "issue": "8",
+   "key": "10.1016/j.rineng.2026.109972_bib0043",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/machines13080742",
+   "article-title": "Fault classification in power transformers using dissolved gas analysis and optimized machine learning algorithms",
+   "volume": "13",
+   "author": "Dladla",
+   "year": "2025",
+   "journal-title": "Machines"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.rineng.2026.109972_bib0044",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1007/s42835-022-01000-x",
+   "article-title": "A novel power transformer fault diagnosis model based on Harris-Hawks-optimization algorithm optimized kernel extreme learning machine",
+   "volume": "17",
+   "author": "Han",
+   "year": "2022",
+   "journal-title": "J. Electr. Eng. Technol."
+  }
+ ],
+ "container-title": [
+  "Results in Engineering"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S2590123026010091?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S2590123026010091?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    25
+   ]
+  ],
+  "date-time": "2026-09-25T09:24:40Z",
+  "timestamp": 1790328280000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2590123026010091"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    6
+   ]
+  ]
+ },
+ "references-count": 44,
+ "alternative-id": [
+  "S2590123026010091"
+ ],
+ "URL": "https://doi.org/10.1016/j.rineng.2026.109972",
+ "relation": {},
+ "ISSN": [
+  "2590-1230"
+ ],
+ "issn-type": [
+  {
+   "value": "2590-1230",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    6
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "A CatBoost-based framework for data-driven fault diagnosis in power transformers using dissolved gas analysis",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Results in Engineering",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.rineng.2026.109972",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "\u00a9 2026 The Authors. Published by Elsevier B.V.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "109972"
+}

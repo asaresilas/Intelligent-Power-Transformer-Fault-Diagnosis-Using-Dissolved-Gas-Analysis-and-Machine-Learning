@@ -1,0 +1,14 @@
+block,kind
+Event_AND,Logic
+Index_to_Boolean,DataTypeConversion
+Last_Sample_Time,MinMax
+Log_record_index,ToWorkspace
+Log_sampling_event,ToWorkspace
+Pick_Times,Product
+Record_Index_Sum,Sum
+Sample_Times,Constant
+Time,Clock
+Time_Passed,RelationalOperator
+Time_Since_Sample,Sum
+To_Double,DataTypeConversion
+Within_Pulse,Compare To Constant

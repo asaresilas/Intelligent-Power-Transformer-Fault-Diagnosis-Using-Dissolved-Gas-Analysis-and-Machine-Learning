@@ -1,0 +1,20 @@
+{
+ "test_records_in_master": 388,
+ "rows_merged": 388,
+ "unique_record_ids": 388,
+ "no_record_lost": true,
+ "no_record_duplicated": true,
+ "no_development_record": true,
+ "ml_records_all_used": true,
+ "conventional_rows_per_test_record": 3,
+ "gate_same_for_all_methods": true,
+ "no_missing_prediction": true,
+ "per_role": {
+  "external_test": 201,
+  "benchmark": 117,
+  "internal_test": 70
+ },
+ "ml_predictions_sha256": "D103E8CA1B21C49A78E2F5A8795D0C423D46E6303856DAD1081928BAFACCF142",
+ "conventional_predictions_sha256": "30DDD34EEF12AEF67F695C2FCE387E759DD7AFEC03CF71E2635660875D063A1A",
+ "merged_sha256": "EDB799A2CDA41A69CFD3A90320DC2EFDD683E9BF99495E6D65C8474BBB67BB14"
+}

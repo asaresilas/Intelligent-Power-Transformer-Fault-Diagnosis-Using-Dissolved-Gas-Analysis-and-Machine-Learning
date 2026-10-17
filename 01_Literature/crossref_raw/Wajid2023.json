@@ -1,0 +1,465 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    13
+   ]
+  ],
+  "date-time": "2026-10-13T17:44:28Z",
+  "timestamp": 1791913468385,
+  "version": "4.3.4"
+ },
+ "reference-count": 23,
+ "publisher": "Wiley",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      9,
+      25
+     ]
+    ],
+    "date-time": "2023-09-25T00:00:00Z",
+    "timestamp": 1695600000000
+   },
+   "content-version": "unspecified",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100002383",
+   "name": "King Saud University",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "RSP2023R467"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "RSP2023R467"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100002383",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "International Journal of Energy Research"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2023,
+    9,
+    25
+   ]
+  ]
+ },
+ "abstract": "<jats:p>The power transformer is an essential component of the electrical network that can be used to step up and step down voltage. Dissolved gas analysis (DGA) is the most reliable method for the identification of incipient faults in power transformers. Various DGA methods are used to observe the generated key gases after oil decomposition. The main gases included are hydrogen (H2), ethylene (C2H4), acetylene (C2H2), methane (CH4), and ethane (C2H6). There is a lack of research that can compare the performance of various DGA methods in identification of faults in power transformer. In addition, it is also not clear which DGA method is optimal for identification of faults in power transformer. In this paper, the comparative performance study of seven DGA methods such as Roger\u2019s ratio, key gas, IEC ratio, the Doernenburg ratio, the Duval triangle, three-ratio method, and the relative percentage of four gases is carried out in order to identify the optimal technique for fault identification in transformer. The data of various power transformers installed in \u201cRAWAT\u201d NTDC grid station, Islamabad, and \u201cUCH-II\u201d power station, Balochistan, are considered for the comparative analysis. This analysis shows that the three-ratio method provides better performance than other DGA methods in accurately identifying the faults in power transformers. The three-ratio method has 90% accuracy in identifying the faults in power transformer.</jats:p>",
+ "DOI": "10.1155/2023/9960743",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2023,
+    9,
+    25
+   ]
+  ],
+  "date-time": "2023-09-25T15:50:06Z",
+  "timestamp": 1695657006000
+ },
+ "page": "1-14",
+ "source": "Crossref",
+ "is-referenced-by-count": 37,
+ "title": [
+  "Comparative Performance Study of Dissolved Gas Analysis (DGA) Methods for Identification of Faults in Power Transformer"
+ ],
+ "prefix": "10.1155",
+ "volume": "2023",
+ "author": [
+  {
+   "given": "Abdul",
+   "family": "Wajid",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering, Balochistan University of Information Technology, Engineering and Management Sciences (BUITEMS), Quetta 87300, Pakistan"
+    },
+    {
+     "name": "Department of Electrical Engineering, Balochistan University of Engineering and Technology, Khuzdar, Uthal Campus, Lasbela, Pakistan"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Atiq Ur",
+   "family": "Rehman",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering, Balochistan University of Information Technology, Engineering and Management Sciences (BUITEMS), Quetta 87300, Pakistan"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Sheeraz",
+   "family": "Iqbal",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering, University of Azad Jammu and Kashmir, Muzaffarabad, Pakistan"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Mukesh",
+   "family": "Pushkarna",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering, GLA University, Mathura 281406, India"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Syed Mudassir",
+   "family": "Hussain",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "School of Physics, Engineering and Computer Science, University of Hertfordshire, Hatfield AL10 9AB, UK"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-6763-8189",
+   "authenticated-orcid": true,
+   "given": "Hossam",
+   "family": "Kotb",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Power and Machines, Faculty of Engineering, Alexandria University, Alexandria 21544, Egypt"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Mohammed",
+   "family": "Alharbi",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering, College of Engineering, King Saud University, Riyadh 11421, Saudi Arabia"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-3303-471X",
+   "authenticated-orcid": true,
+   "given": "Ievgen",
+   "family": "Zaitsev",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Theoretical Electrical Engineering and Diagnostics of Electrical Equipment, Institute of Electrodynamics, National Academy of Sciences of Ukraine, Peremogy, 56, Kyiv-57 03680, Ukraine"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "311",
+ "reference": [
+  {
+   "key": "1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2022.3193652"
+  },
+  {
+   "key": "2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3389/fenrg.2022.1020040"
+  },
+  {
+   "key": "3",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TTE.2023.3283668"
+  },
+  {
+   "key": "4",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1088/1361-6463/acd64e"
+  },
+  {
+   "key": "5",
+   "first-page": "20",
+   "article-title": "A review of dissolved gas analysis in power transformers",
+   "volume": "9",
+   "author": "H. C. Sun",
+   "year": "2012",
+   "journal-title": "Energy Procedia"
+  },
+  {
+   "key": "6",
+   "first-page": "1301",
+   "article-title": "Comparative study and analysis of DGA methods for mineral oil using fuzzy logic",
+   "author": "N. A. Muhamad"
+  },
+  {
+   "key": "7",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/paep49887.2020.9240911"
+  },
+  {
+   "key": "8",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tim.2020.3025396"
+  },
+  {
+   "key": "9",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/naps.2015.7335098"
+  },
+  {
+   "key": "10",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3389/fnbot.2022.928863"
+  },
+  {
+   "key": "11",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/cencon.2015.7409570"
+  },
+  {
+   "key": "12",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/app12199529"
+  },
+  {
+   "key": "13",
+   "first-page": "152",
+   "article-title": "Diagnostic tool for transformer fault detection based on dissolved gas analysis",
+   "volume": "3",
+   "author": "S. Ghoneim",
+   "year": "2014",
+   "journal-title": "Advances in Electrical Engineering Systems"
+  },
+  {
+   "key": "14",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1145/3529509"
+  },
+  {
+   "key": "15",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/icempe.2017.7982139"
+  },
+  {
+   "key": "16",
+   "first-page": "40",
+   "article-title": "A review on real time fault detection and intelligent health monitoring techniques of transformer",
+   "volume-title": "International Journal of Engineering Research and Applications",
+   "author": "G. S. Sarma",
+   "year": "2021"
+  },
+  {
+   "key": "17",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/en13246713"
+  },
+  {
+   "key": "18",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TII.2023.3248110"
+  },
+  {
+   "key": "19",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/elticom50775.2020.9230491"
+  },
+  {
+   "key": "20",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TIM.2023.3241994"
+  },
+  {
+   "key": "21",
+   "first-page": "10",
+   "article-title": "Power transformer incipient faults diagnosis based on dissolved gas analysis",
+   "volume": "16",
+   "author": "O. E. Gouda",
+   "year": "2015",
+   "journal-title": "ELKOMNIKA Indonesian Journal of Electrical Engineering"
+  },
+  {
+   "key": "22",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/s00202-016-0481-3"
+  },
+  {
+   "key": "23",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPEL.2023.3245052"
+  }
+ ],
+ "container-title": [
+  "International Journal of Energy Research"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "http://downloads.hindawi.com/journals/ijer/2023/9960743.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "http://downloads.hindawi.com/journals/ijer/2023/9960743.xml",
+   "content-type": "application/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "http://downloads.hindawi.com/journals/ijer/2023/9960743.pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2023,
+    9,
+    25
+   ]
+  ],
+  "date-time": "2023-09-25T15:50:15Z",
+  "timestamp": 1695657015000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://www.hindawi.com/journals/ijer/2023/9960743/"
+  }
+ },
+ "subtitle": [],
+ "editor": [
+  {
+   "given": "Adrian Loy Chun",
+   "family": "Minh",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "editor"
+    }
+   ]
+  }
+ ],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2023,
+    9,
+    25
+   ]
+  ]
+ },
+ "references-count": 23,
+ "alternative-id": [
+  "9960743",
+  "9960743"
+ ],
+ "URL": "https://doi.org/10.1155/2023/9960743",
+ "relation": {},
+ "ISSN": [
+  "1099-114X",
+  "0363-907X"
+ ],
+ "issn-type": [
+  {
+   "value": "1099-114X",
+   "type": "electronic"
+  },
+  {
+   "value": "0363-907X",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2023,
+    9,
+    25
+   ]
+  ]
+ }
+}

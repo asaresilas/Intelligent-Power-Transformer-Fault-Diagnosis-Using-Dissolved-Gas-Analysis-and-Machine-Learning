@@ -1,0 +1,563 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    8
+   ]
+  ],
+  "date-time": "2026-08-08T12:00:42Z",
+  "timestamp": 1786190442171,
+  "version": "build-2736575974"
+ },
+ "reference-count": 30,
+ "publisher": "MDPI AG",
+ "issue": "13",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      6,
+      26
+     ]
+    ],
+    "date-time": "2023-06-26T00:00:00Z",
+    "timestamp": 1687737600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "name": "Jiangsu Electric Power Test and Research Institute Co., Ltd.",
+   "award": [
+    "DSY202202"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "DSY202202"
+     ]
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Applied Sciences"
+ ],
+ "abstract": "<jats:p>Dissolved gas analysis is an important method for diagnosing the operating condition of power transformers. Traditional methods such as IEC Ratios and Duval Triangles and Pentagon methods are not applicable in the case of abnormal or missing values of DGA data. A novel transformer fault diagnosis method based on an extreme gradient boosting algorithm is proposed in this paper. First, the traditional statistical method is replaced by the random forest regression algorithm for filling in missing values of dissolved gas data. Normalization and feature derivation of the outlier data is adopted based on the gas content. Then, hyperparameter optimization of the transformer fault diagnosis model based on an extreme gradient boosting algorithm is carried out using the tree-structured probability density estimator algorithm. Finally, the influence of missing data and optimization algorithms on transformer fault diagnosis models is analyzed. The effects of different algorithms based on incomplete datasets are also discussed. The results show that the performance of the random forest regression algorithm on missing data filling is better than classification and regression trees and traditional statistical methods. The average accuracy of the fault diagnosis method proposed in the paper is 89.5%, even when the missing data rate reaches 20%. The accuracy and robustness of the TPE-XGBoost model are superior to other machine learning algorithms described in this paper, such as k-nearest neighbor, deep neural networks, random forest, etc.</jats:p>",
+ "DOI": "10.3390/app13137539",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2023,
+    6,
+    27
+   ]
+  ],
+  "date-time": "2023-06-27T02:11:22Z",
+  "timestamp": 1687831882000
+ },
+ "page": "7539",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 25,
+ "title": [
+  "Transformer Fault Diagnosis Method Based on Incomplete Data and TPE-XGBoost"
+ ],
+ "prefix": "10.3390",
+ "volume": "13",
+ "author": [
+  {
+   "given": "Tonglei",
+   "family": "Wang",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "State Grid Jiangsu Electric Power Research Institute, Nanjing 211103, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Qun",
+   "family": "Li",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "State Grid Jiangsu Electric Power Research Institute, Nanjing 211103, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jinggang",
+   "family": "Yang",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "State Grid Jiangsu Electric Power Research Institute, Nanjing 211103, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Tianxi",
+   "family": "Xie",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "State Grid Jiangsu Electric Power Co., Ltd., Nanjing 211103, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Peng",
+   "family": "Wu",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "State Grid Jiangsu Electric Power Research Institute, Nanjing 211103, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jiabi",
+   "family": "Liang",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "State Grid Jiangsu Electric Power Research Institute, Nanjing 211103, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2023,
+    6,
+    26
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "doi-asserted-by": "crossref",
+   "first-page": "30817",
+   "DOI": "10.1109/ACCESS.2021.3060288",
+   "article-title": "Enhancing diagnostic accuracy of transformer faults using teaching-learning-based optimization",
+   "volume": "9",
+   "author": "Ghoneim",
+   "year": "2021",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_2",
+   "doi-asserted-by": "crossref",
+   "first-page": "1828",
+   "DOI": "10.1109/TDEI.2021.009770",
+   "article-title": "Identification and application of machine learning algorithms for transformer dissolved gas analysis",
+   "volume": "28",
+   "author": "Rao",
+   "year": "2021",
+   "journal-title": "IEEE Trans. Dielect. Electr. Insul."
+  },
+  {
+   "key": "ref_3",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Kahlen, J.N., Andres, M., and Moser, A. (2021). Improving machine-learning diagnostics with model-based data augmentation showcased for a transformer fault. Energies, 14.",
+   "DOI": "10.3390/en14206816"
+  },
+  {
+   "key": "ref_4",
+   "first-page": "25",
+   "article-title": "Missing data filling algorithm for uniform data model in panoramic dispatching and control system",
+   "volume": "41",
+   "author": "Tang",
+   "year": "2017",
+   "journal-title": "Autom. Electr. Power Syst."
+  },
+  {
+   "key": "ref_5",
+   "doi-asserted-by": "crossref",
+   "first-page": "11651",
+   "DOI": "10.1109/ACCESS.2019.2891360",
+   "article-title": "Generating synthetic missing data: A review by missing mechanism",
+   "volume": "7",
+   "author": "Santos",
+   "year": "2019",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_6",
+   "first-page": "100",
+   "article-title": "Transformer operating state monitoring method based on Bayesian probability matrix decomposition of measurement data",
+   "volume": "34",
+   "author": "Cheng",
+   "year": "2022",
+   "journal-title": "Proc. CSU-EPSA"
+  },
+  {
+   "key": "ref_7",
+   "first-page": "45",
+   "article-title": "Novel method for transformer faults integrated diagnosis based on Bayesian network classifier",
+   "volume": "20",
+   "author": "Wu",
+   "year": "2005",
+   "journal-title": "Trans. China Electrotech. Soc."
+  },
+  {
+   "key": "ref_8",
+   "doi-asserted-by": "crossref",
+   "first-page": "349",
+   "DOI": "10.1109/TEI.1978.298141",
+   "article-title": "IEEE and IEC Codes to interpret incipient faults in transformers, using gas in oil analysis",
+   "volume": "13",
+   "author": "Roger",
+   "year": "1978",
+   "journal-title": "IEEE Trans. Dielect. Electr. Insul."
+  },
+  {
+   "key": "ref_9",
+   "doi-asserted-by": "crossref",
+   "first-page": "22",
+   "DOI": "10.1109/57.44605",
+   "article-title": "Dissolved Gas Analysis: It Can Save Your Transformer",
+   "volume": "5",
+   "author": "Duval",
+   "year": "1989",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_10",
+   "first-page": "238",
+   "article-title": "Monitoring oil-cooled transformers by gas analysis",
+   "volume": "61",
+   "author": "Dornenburg",
+   "year": "1974",
+   "journal-title": "Brown Boveri Rev."
+  },
+  {
+   "key": "ref_11",
+   "doi-asserted-by": "crossref",
+   "first-page": "31",
+   "DOI": "10.1109/57.917529",
+   "article-title": "Interpretation of gas-in-oil analysis using new IEC publication 60599 and IEC TC 10 databases",
+   "volume": "17",
+   "author": "Duval",
+   "year": "2001",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_12",
+   "doi-asserted-by": "crossref",
+   "first-page": "9",
+   "DOI": "10.1109/MEI.2014.6943428",
+   "article-title": "The Duval Pentagon\u2014A new complementary tool for the interpretation of dissolved gas analysis in transformers",
+   "volume": "30",
+   "author": "Duval",
+   "year": "2014",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_13",
+   "first-page": "7741157",
+   "article-title": "Refining DGA methods of IEC code and rogers four ratios for transformer fault diagnosis",
+   "volume": "2016",
+   "author": "Taha",
+   "year": "2016",
+   "journal-title": "IEEE Power Energy Soc. Gen. Meet."
+  },
+  {
+   "key": "ref_14",
+   "doi-asserted-by": "crossref",
+   "first-page": "63",
+   "DOI": "10.1016/j.isatra.2020.03.022",
+   "article-title": "An intelligent system based on optimized ANFIS and association rules for power transformer fault diagnosis",
+   "volume": "103",
+   "author": "Tightiz",
+   "year": "2020",
+   "journal-title": "ISA Trans."
+  },
+  {
+   "key": "ref_15",
+   "doi-asserted-by": "crossref",
+   "first-page": "73",
+   "DOI": "10.1016/j.epsr.2011.09.012",
+   "article-title": "Power transformer fault diagnosis based on dissolved gas analysis by support vector machine",
+   "volume": "83",
+   "author": "Bacha",
+   "year": "2012",
+   "journal-title": "Electr. Power Syst. Res."
+  },
+  {
+   "key": "ref_16",
+   "doi-asserted-by": "crossref",
+   "first-page": "2515611",
+   "DOI": "10.1109/TIM.2021.3119137",
+   "article-title": "Rotating Machinery Fault Diagnosis Through a Transformer Convolution Network Subjected to Transfer Learning",
+   "volume": "70",
+   "author": "Pei",
+   "year": "2021",
+   "journal-title": "IEEE Trans. Instrum. Meas."
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "first-page": "5902",
+   "DOI": "10.1109/JSEN.2022.3149409",
+   "article-title": "Accurate Sensing of Power Transformer Faults from Dissolved Gas Data Using Random Forest Classifier Aided by Data Clustering Method",
+   "volume": "22",
+   "author": "Haque",
+   "year": "2022",
+   "journal-title": "IEEE Sens. J."
+  },
+  {
+   "key": "ref_18",
+   "doi-asserted-by": "crossref",
+   "first-page": "466",
+   "DOI": "10.1109/TDEI.2022.3215936",
+   "article-title": "Accurate Identification of Transformer Faults from Dissolved Gas Data Using Recursive Feature Elimination Method",
+   "volume": "30",
+   "author": "Das",
+   "year": "2023",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_19",
+   "doi-asserted-by": "crossref",
+   "first-page": "5",
+   "DOI": "10.1023/A:1010933404324",
+   "article-title": "Random forests",
+   "volume": "45",
+   "author": "Breiman",
+   "year": "2001",
+   "journal-title": "Mach. Learn."
+  },
+  {
+   "key": "ref_20",
+   "unstructured": "Breiman, L. (1984). Classification and Regression Trees, Wadsworth International Group."
+  },
+  {
+   "key": "ref_21",
+   "doi-asserted-by": "crossref",
+   "first-page": "118416",
+   "DOI": "10.1016/j.powtec.2023.118416",
+   "article-title": "Modeling industrial hydrocyclone operational variables by SHAP-CatBoost\u2014A \u201cconscious lab\u201d approach",
+   "volume": "420",
+   "author": "Chehreh",
+   "year": "2023",
+   "journal-title": "Powder Technol."
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Chen, T., and Guestrin, C. (2016, January 13\u201317). XGBoost: A scalable tree boosting system. Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), San Francisco, CA, USA.",
+   "DOI": "10.1145/2939672.2939785"
+  },
+  {
+   "key": "ref_23",
+   "doi-asserted-by": "crossref",
+   "first-page": "715",
+   "DOI": "10.1080/02726351.2022.2135470",
+   "article-title": "Modeling operational cement rotary kiln variables with explainable artificial intelligence methods\u2014A \u201cconscious lab\u201d development",
+   "volume": "40",
+   "author": "Fatahi",
+   "year": "2023",
+   "journal-title": "Part. Sci. Technol."
+  },
+  {
+   "key": "ref_24",
+   "doi-asserted-by": "crossref",
+   "first-page": "148",
+   "DOI": "10.1109/JPROC.2015.2494218",
+   "article-title": "Taking the human out of the loop: A review of Bayesian optimization",
+   "volume": "104",
+   "author": "Shahriari",
+   "year": "2016",
+   "journal-title": "Proc. IEEE"
+  },
+  {
+   "key": "ref_25",
+   "first-page": "1",
+   "article-title": "Algorithms for hyperparameter optimization",
+   "volume": "24",
+   "author": "Bardenet",
+   "year": "2011",
+   "journal-title": "Proc. Adv. Neural Inf. Process. Syst."
+  },
+  {
+   "key": "ref_26",
+   "doi-asserted-by": "crossref",
+   "first-page": "139176",
+   "DOI": "10.1109/ACCESS.2020.3012633",
+   "article-title": "Hybrid Grey Wolf Optimizer for Transformer Fault Diagnosis Using Dissolved Gases Considering Uncertainty in Measurements",
+   "volume": "8",
+   "author": "Hoballah",
+   "year": "2020",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_27",
+   "doi-asserted-by": "crossref",
+   "first-page": "21",
+   "DOI": "10.1109/TIT.1967.1053964",
+   "article-title": "Nearest neighbor pattern classification",
+   "volume": "13",
+   "author": "Cover",
+   "year": "1967",
+   "journal-title": "IEEE Trans. Inf. Theory"
+  },
+  {
+   "key": "ref_28",
+   "doi-asserted-by": "crossref",
+   "first-page": "563",
+   "DOI": "10.1007/s00180-017-0755-x",
+   "article-title": "Logistic regression diagnostics in ridge regression",
+   "volume": "33",
+   "author": "Ozkale",
+   "year": "2018",
+   "journal-title": "Comput. Stat."
+  },
+  {
+   "key": "ref_29",
+   "doi-asserted-by": "crossref",
+   "first-page": "102065",
+   "DOI": "10.1109/ACCESS.2020.2998784",
+   "article-title": "Identity bracelets for feep neural networks",
+   "volume": "8",
+   "author": "Xu",
+   "year": "2020",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "ref_30",
+   "doi-asserted-by": "crossref",
+   "first-page": "292",
+   "DOI": "10.1016/j.neucom.2022.08.032",
+   "article-title": "MFRFNN: Multi-functional recurrent fuzzy neural network for chaotic time series prediction",
+   "volume": "507",
+   "author": "Nasiri",
+   "year": "2022",
+   "journal-title": "Neurocomputing"
+  }
+ ],
+ "container-title": [
+  "Applied Sciences"
+ ],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/2076-3417/13/13/7539/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    10
+   ]
+  ],
+  "date-time": "2025-10-10T20:01:13Z",
+  "timestamp": 1760126473000
+ },
+ "score": 77.79089,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/2076-3417/13/13/7539"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2023,
+    6,
+    26
+   ]
+  ]
+ },
+ "references-count": 30,
+ "journal-issue": {
+  "issue": "13",
+  "published-online": {
+   "date-parts": [
+    [
+     2023,
+     7
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "app13137539"
+ ],
+ "URL": "https://doi.org/10.3390/app13137539",
+ "ISSN": [
+  "2076-3417"
+ ],
+ "issn-type": [
+  {
+   "value": "2076-3417",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2023,
+    6,
+    26
+   ]
+  ]
+ }
+}

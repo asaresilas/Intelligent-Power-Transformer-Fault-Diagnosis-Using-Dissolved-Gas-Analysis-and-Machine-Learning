@@ -1,0 +1,506 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    3,
+    28
+   ]
+  ],
+  "date-time": "2026-03-28T17:50:27Z",
+  "timestamp": 1774720227248,
+  "version": "3.50.1"
+ },
+ "reference-count": 34,
+ "publisher": "Frontiers Media SA",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      6,
+      14
+     ]
+    ],
+    "date-time": "2024-06-14T00:00:00Z",
+    "timestamp": 1718323200000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "frontiersin.org"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Front. Energy Res."
+ ],
+ "abstract": "<jats:p>Extensive research validates the effectiveness of employing Dissolved Gas Analysis (DGA) for diagnosing electric power transformer failures. However, a significant portion of existing research focuses on static data for classifying failure types, lacking a thorough exploration of causality. This study proposes an approach integrating causality and the DGA framework to infer power transformer failures. Validation through 96 historical samples from diverse transformers demonstrates the capability of this method to identify probable abnormal failures of the power transformer accurately. The proposed causal reasoning method is able to diagnose all common transformer states, accounting for the level of severity in both electrical and thermal failures, and with an accuracy of 95.8%.</jats:p>",
+ "DOI": "10.3389/fenrg.2024.1340421",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2024,
+    6,
+    14
+   ]
+  ],
+  "date-time": "2024-06-14T13:07:01Z",
+  "timestamp": 1718370421000
+ },
+ "update-policy": "https://doi.org/10.3389/crossmark-policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 5,
+ "title": [
+  "A causal reasoning approach for power transformer failure diagnosis"
+ ],
+ "prefix": "10.3389",
+ "volume": "12",
+ "author": [
+  {
+   "given": "Fei",
+   "family": "Jiao",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  },
+  {
+   "given": "Zhenyuan",
+   "family": "Ma",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  },
+  {
+   "given": "Qikun",
+   "family": "Chen",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  },
+  {
+   "given": "Fengda",
+   "family": "Zhang",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  },
+  {
+   "given": "Dezong",
+   "family": "Zhao",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "role": "author",
+     "vocabulary": "crossref"
+    }
+   ]
+  }
+ ],
+ "member": "1965",
+ "published-online": {
+  "date-parts": [
+   [
+    2024,
+    6,
+    14
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "B1",
+   "doi-asserted-by": "publisher",
+   "first-page": "494",
+   "DOI": "10.1109/tdei.2018.006766",
+   "article-title": "Power transformer dissolved gas analysis through bayesian networks and hypothesis testing",
+   "volume": "25",
+   "author": "Aizpurua",
+   "year": "2018",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insulation"
+  },
+  {
+   "key": "B2",
+   "doi-asserted-by": "publisher",
+   "first-page": "109064",
+   "DOI": "10.1016/j.epsr.2022.109064",
+   "article-title": "Conventional methods of dissolved gas analysis using oil-immersed power transformer for fault diagnosis: a review",
+   "volume": "216",
+   "author": "Ali",
+   "year": "2023",
+   "journal-title": "Electr. Power Syst. Res."
+  },
+  {
+   "key": "B3",
+   "doi-asserted-by": "publisher",
+   "first-page": "39",
+   "DOI": "10.1109/mei.2014.6804740",
+   "article-title": "A review of dissolved gas analysis measurement and interpretation techniques",
+   "volume": "30",
+   "author": "Bakar",
+   "year": "2014",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "B4",
+   "first-page": "6732",
+   "article-title": "Automated generation of robotic planning domains from observations",
+   "author": "Diehl",
+   "year": "2021"
+  },
+  {
+   "key": "B5",
+   "doi-asserted-by": "publisher",
+   "first-page": "8925",
+   "DOI": "10.1109/lra.2022.3188889",
+   "article-title": "Why did i fail? a causal-based method to find explanations for robot failures",
+   "volume": "7",
+   "author": "Diehl",
+   "year": "2022",
+   "journal-title": "IEEE Robotics Automation Lett."
+  },
+  {
+   "key": "B6",
+   "doi-asserted-by": "publisher",
+   "first-page": "22",
+   "DOI": "10.1109/mei.2008.4665347",
+   "article-title": "The duval triangle for load tap changers, non-mineral oils and low temperature faults in transformers",
+   "volume": "24",
+   "author": "Duval",
+   "year": "2008",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "B7",
+   "first-page": "342",
+   "article-title": "Dga-based early transformer fault detection using ga-optimized ann",
+   "author": "Dwiputranto",
+   "year": "2021"
+  },
+  {
+   "key": "B8",
+   "doi-asserted-by": "publisher",
+   "first-page": "748",
+   "DOI": "10.1038/s41467-021-21007-8",
+   "article-title": "Intelligent driving intelligence test for autonomous vehicles with naturalistic and adversarial environment",
+   "volume": "12",
+   "author": "Feng",
+   "year": "2021",
+   "journal-title": "Nat. Commun."
+  },
+  {
+   "key": "B9",
+   "doi-asserted-by": "publisher",
+   "first-page": "10",
+   "DOI": "10.11591/ijeecs.v16.i3",
+   "article-title": "Power transformer incipient faults diagnosis based on dissolved gas analysis",
+   "volume": "17",
+   "author": "Gouda",
+   "year": "2016",
+   "journal-title": "TELKOMNIKA Indones. J. Electr. Eng."
+  },
+  {
+   "key": "B10",
+   "first-page": "1",
+   "article-title": "Fault diagnosis of power transformers based on comprehensive machine learning of dissolved gas analysis",
+   "author": "Guo",
+   "year": "2019"
+  },
+  {
+   "key": "B11",
+   "first-page": "3",
+   "article-title": "A review of parameter learning methods in bayesian network",
+   "author": "Ji",
+   "year": "2015"
+  },
+  {
+   "key": "B12",
+   "doi-asserted-by": "publisher",
+   "first-page": "224",
+   "DOI": "10.15676/ijeei.2022.14.1.14",
+   "article-title": "The comparison of dga interpretation techniques application for actual failure transformer inspections including experience from power plants in Thailand",
+   "volume": "14",
+   "author": "Jongvilaikasem",
+   "year": "2022",
+   "journal-title": "Int. J. Electr. Eng. Inf."
+  },
+  {
+   "key": "B13",
+   "doi-asserted-by": "publisher",
+   "first-page": "360",
+   "DOI": "10.1109/tdei.2018.006746",
+   "article-title": "An integrated method of anfis and dempster-shafer theory for fault diagnosis of power transformer",
+   "volume": "25",
+   "author": "Kari",
+   "year": "2018",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insulation"
+  },
+  {
+   "key": "B14",
+   "doi-asserted-by": "publisher",
+   "first-page": "1251",
+   "DOI": "10.1007/s40313-020-00625-5",
+   "article-title": "Detection and classification of incipient faults in three-phase power transformer using dga information and rule-based machine learning method",
+   "volume": "31",
+   "author": "Katooli",
+   "year": "2020",
+   "journal-title": "J. Control, Automation Electr. Syst."
+  },
+  {
+   "key": "B15",
+   "first-page": "194",
+   "article-title": "Transformer fault diagnosis using dissolved gas analysis technology and bayesian networks",
+   "author": "Lakehal",
+   "year": "2015"
+  },
+  {
+   "key": "B16",
+   "first-page": "214",
+   "article-title": "Causal explanation",
+   "volume-title": "Philosophical papers vol. 2",
+   "author": "Lewis",
+   "year": "1986"
+  },
+  {
+   "key": "B17",
+   "doi-asserted-by": "publisher",
+   "first-page": "1198",
+   "DOI": "10.1109/tdei.2015.005277",
+   "article-title": "Optimal dissolved gas ratios selected by genetic algorithm for power transformer fault diagnosis based on support vector machine",
+   "volume": "23",
+   "author": "Li",
+   "year": "2016",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insulation"
+  },
+  {
+   "key": "B18",
+   "first-page": "37",
+   "article-title": "Combining conventional and artificial intelligence dga interpretation methods using optimized weighting factor",
+   "author": "Li",
+   "year": "2016"
+  },
+  {
+   "key": "B19",
+   "doi-asserted-by": "publisher",
+   "first-page": "3",
+   "DOI": "10.1080/26939169.2022.2128118",
+   "article-title": "Introducing causal inference using bayesian networks and do-calculus",
+   "volume": "31",
+   "author": "Lu",
+   "year": "2023",
+   "journal-title": "J. Statistics Data Sci. Educ."
+  },
+  {
+   "key": "B20",
+   "article-title": "Application of dempster-shafer\u2019s theory of evidence for transformer incipient fault diagnosis",
+   "author": "Min",
+   "year": "2009"
+  },
+  {
+   "key": "B21",
+   "doi-asserted-by": "publisher",
+   "first-page": "e1449",
+   "DOI": "10.1002/widm.1449",
+   "article-title": "Methods and tools for causal discovery and causal inference",
+   "volume": "12",
+   "author": "Nogueira",
+   "year": "2022",
+   "journal-title": "Wiley Interdiscip. Rev. data Min. Knowl. Discov."
+  },
+  {
+   "key": "B22",
+   "volume-title": "Transformer oil chromatographic analysis and fault diagnosis case",
+   "year": "2021"
+  },
+  {
+   "key": "B23",
+   "doi-asserted-by": "publisher",
+   "first-page": "107092",
+   "DOI": "10.1016/j.asoc.2021.107092",
+   "article-title": "Cost-effective fault diagnosis of a multi-component dynamic system under corrective maintenance",
+   "volume": "102",
+   "author": "\u00d6zg\u00fcr-\u00dcnl\u00fcak\u0131n",
+   "year": "2021",
+   "journal-title": "Appl. Soft Comput."
+  },
+  {
+   "key": "B24",
+   "volume-title": "The book of why: the new science of cause and effect",
+   "author": "Pearl",
+   "year": "2018"
+  },
+  {
+   "key": "B25",
+   "volume-title": "Elements of causal inference: foundations and learning algorithms",
+   "author": "Peters",
+   "year": "2017"
+  },
+  {
+   "key": "B26",
+   "doi-asserted-by": "publisher",
+   "first-page": "349",
+   "DOI": "10.1109/TEI.1978.298141",
+   "article-title": "Ieee and iec codes to interpret incipient faults in transformers, using gas in oil analysis",
+   "volume": "13",
+   "author": "Rogers",
+   "year": "1978",
+   "journal-title": "IEEE Trans. Electr. insulation"
+  },
+  {
+   "key": "B27",
+   "first-page": "1",
+   "article-title": "Fault prediction of transformer using machine learning and dga",
+   "author": "Saravanan",
+   "year": "2020"
+  },
+  {
+   "key": "B28",
+   "article-title": "Dowhy: addressing challenges in expressing and validating causal assumptions",
+   "author": "Sharma",
+   "year": "2021"
+  },
+  {
+   "key": "B29",
+   "doi-asserted-by": "publisher",
+   "first-page": "2975",
+   "DOI": "10.1038/s41598-020-59669-x",
+   "article-title": "Challenges and opportunities with causal discovery algorithms: application to alzheimer\u2019s pathophysiology",
+   "volume": "10",
+   "author": "Shen",
+   "year": "2020",
+   "journal-title": "Sci. Rep."
+  },
+  {
+   "key": "B30",
+   "first-page": "1",
+   "volume-title": "Methods of analysis of dissolved gasses in transformer oil",
+   "author": "Stenkovski",
+   "year": "2022"
+  },
+  {
+   "key": "B31",
+   "doi-asserted-by": "publisher",
+   "first-page": "1",
+   "DOI": "10.1214/09-sts313",
+   "article-title": "Matching methods for causal inference: a review and a look forward",
+   "volume": "25",
+   "author": "Stuart",
+   "year": "2010",
+   "journal-title": "Stat. Sci. a Rev. J. Inst. Math. Statistics"
+  },
+  {
+   "key": "B32",
+   "first-page": "57",
+   "article-title": "Dissolved gas analysis (dga) for diagnosis of fault in oil-immersed power transformers: a case study",
+   "author": "Syafruddin",
+   "year": "2020"
+  },
+  {
+   "key": "B33",
+   "doi-asserted-by": "publisher",
+   "first-page": "1638",
+   "DOI": "10.1109/61.252690",
+   "article-title": "A fuzzy information approach to integrating different transformer diagnostic methods",
+   "volume": "8",
+   "author": "Tomsovic",
+   "year": "1993",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "B34",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1093/oxfordhb/9780199399550.001.0001",
+   "volume-title": "The Oxford handbook of causal reasoning",
+   "author": "Waldmann",
+   "year": "2017"
+  }
+ ],
+ "container-title": [
+  "Frontiers in Energy Research"
+ ],
+ "link": [
+  {
+   "URL": "https://www.frontiersin.org/articles/10.3389/fenrg.2024.1340421/full",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2024,
+    6,
+    14
+   ]
+  ],
+  "date-time": "2024-06-14T13:07:08Z",
+  "timestamp": 1718370428000
+ },
+ "score": 69.659546,
+ "resource": {
+  "primary": {
+   "URL": "https://www.frontiersin.org/articles/10.3389/fenrg.2024.1340421/full"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2024,
+    6,
+    14
+   ]
+  ]
+ },
+ "references-count": 34,
+ "alternative-id": [
+  "10.3389/fenrg.2024.1340421"
+ ],
+ "URL": "https://doi.org/10.3389/fenrg.2024.1340421",
+ "ISSN": [
+  "2296-598X"
+ ],
+ "issn-type": [
+  {
+   "value": "2296-598X",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2024,
+    6,
+    14
+   ]
+  ]
+ },
+ "article-number": "1340421"
+}

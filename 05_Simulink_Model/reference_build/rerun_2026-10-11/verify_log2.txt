@@ -1,0 +1,3 @@
+TEST2 K before 0.5960 after 1.1733
+TEST2 Max |model-ref| after 10 min: oil 0.003 K, hot-spot 0.031 K
+TEST2 final: oil 95.50 C, hs 122.70 C; peak hs 122.70 C

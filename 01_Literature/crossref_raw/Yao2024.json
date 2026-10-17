@@ -1,0 +1,708 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    9,
+    21
+   ]
+  ],
+  "date-time": "2026-09-21T21:34:01Z",
+  "timestamp": 1790026441306,
+  "version": "4.0.1"
+ },
+ "reference-count": 40,
+ "publisher": "Springer Science and Business Media LLC",
+ "issue": "1",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      9,
+      2
+     ]
+    ],
+    "date-time": "2024-09-02T00:00:00Z",
+    "timestamp": 1725235200000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2024,
+      9,
+      2
+     ]
+    ],
+    "date-time": "2024-09-02T00:00:00Z",
+    "timestamp": 1725235200000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+  }
+ ],
+ "funder": [
+  {
+   "name": "Jilin Provincial Development and Reform Commission innovation capacity construction fund",
+   "award": [
+    "2020C022-6"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "2020C022-6"
+     ]
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "link.springer.com"
+  ],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Sci Rep"
+ ],
+ "DOI": "10.1038/s41598-024-71107-w",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2024,
+    9,
+    2
+   ]
+  ],
+  "date-time": "2024-09-02T13:05:37Z",
+  "timestamp": 1725282337000
+ },
+ "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 29,
+ "title": [
+  "Fault diagnosis method for oil-immersed transformers integrated digital twin model"
+ ],
+ "prefix": "10.1038",
+ "volume": "14",
+ "author": [
+  {
+   "given": "Haiyan",
+   "family": "Yao",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Xin",
+   "family": "Zhang",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Qiang",
+   "family": "Guo",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Yufeng",
+   "family": "Miao",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Shan",
+   "family": "Guan",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "297",
+ "published-online": {
+  "date-parts": [
+   [
+    2024,
+    9,
+    2
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "71107_CR1",
+   "doi-asserted-by": "publisher",
+   "first-page": "63",
+   "DOI": "10.1016/j.isatra.2020.03.022",
+   "volume": "103",
+   "author": "L Tightiz",
+   "year": "2020",
+   "unstructured": "Tightiz, L. et al. An intelligent system based on optimized ANFIS and association rules for power transformer fault diagnosis. ISA Trans. 103, 63\u201374 (2020).",
+   "journal-title": "ISA Trans."
+  },
+  {
+   "key": "71107_CR2",
+   "doi-asserted-by": "publisher",
+   "first-page": "1006474",
+   "DOI": "10.3389/fenrg.2022.1006474",
+   "volume": "10",
+   "author": "Y Zhang",
+   "year": "2022",
+   "unstructured": "Zhang, Y. et al. Fault diagnosis of transformer using artificial intelligence: A review. Front. Energy Res. 10, 1006474 (2022).",
+   "journal-title": "Front. Energy Res."
+  },
+  {
+   "key": "71107_CR3",
+   "doi-asserted-by": "publisher",
+   "first-page": "111347",
+   "DOI": "10.1016/j.rser.2021.111347",
+   "volume": "149",
+   "author": "SA Wani",
+   "year": "2021",
+   "unstructured": "Wani, S. A. et al. Advances in DGA based condition monitoring of transformers: A review. Renew. Sustain. Energy Rev. 149, 111347 (2021).",
+   "journal-title": "Renew. Sustain. Energy Rev."
+  },
+  {
+   "issue": "6",
+   "key": "71107_CR4",
+   "doi-asserted-by": "publisher",
+   "first-page": "4556",
+   "DOI": "10.1109/TIA.2016.2598677",
+   "volume": "52",
+   "author": "H Malik",
+   "year": "2016",
+   "unstructured": "Malik, H. & Mishra, S. Application of gene expression programming (GEP) in power transformers fault diagnosis using DGA. IEEE Trans. Ind. Appl. 52(6), 4556\u20134565 (2016).",
+   "journal-title": "IEEE Trans. Ind. Appl."
+  },
+  {
+   "key": "71107_CR5",
+   "first-page": "1",
+   "volume": "71",
+   "author": "J Lin",
+   "year": "2022",
+   "unstructured": "Lin, J., Ma, J. & Zhu, J. Hierarchical federated learning for power transformer fault diagnosis. IEEE Trans. Instrum. Meas. 71, 1\u201311 (2022).",
+   "journal-title": "IEEE Trans. Instrum. Meas."
+  },
+  {
+   "issue": "3",
+   "key": "71107_CR6",
+   "doi-asserted-by": "publisher",
+   "first-page": "8",
+   "DOI": "10.1109/MEI.2002.1014963",
+   "volume": "18",
+   "author": "M Duval",
+   "year": "2002",
+   "unstructured": "Duval, M. A review of faults detectable by gas-in-oil analysis in transformers. IEEE Electr. Insul. Mag. 18(3), 8\u201317 (2002).",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "issue": "07",
+   "key": "71107_CR7",
+   "first-page": "2957",
+   "volume": "47",
+   "author": "P Li",
+   "year": "2023",
+   "unstructured": "Li, P. & Hu, G. M. Transformer fault diagnosis based on data enhanced one-dimensional improved convolutional neural network. Power Syst. Technol. 47(07), 2957\u20132967 (2023).",
+   "journal-title": "Power Syst. Technol."
+  },
+  {
+   "issue": "08",
+   "key": "71107_CR8",
+   "first-page": "118",
+   "volume": "51",
+   "author": "XH Zhou",
+   "year": "2023",
+   "unstructured": "Zhou, X. H. et al. Transformer fault diagnosis based on SVM optimized by the improved bald eagle search algorithm. Power Syst. Prot. Control 51(08), 118\u2013126 (2023).",
+   "journal-title": "Power Syst. Prot. Control"
+  },
+  {
+   "key": "71107_CR9",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2023.3280436",
+   "author": "HC Chen",
+   "year": "2023",
+   "unstructured": "Chen, H. C., Zhang, Y. & Chen, M. Transformer dissolved gas analysis for highly-imbalanced dataset using multi-class sequential ensembled ELM. IEEE Trans. Dielectr. Electr. Insulat. https://doi.org/10.1109/TDEI.2023.3280436 (2023).",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insulat."
+  },
+  {
+   "issue": "08",
+   "key": "71107_CR10",
+   "first-page": "61",
+   "volume": "59",
+   "author": "ZWY Gong",
+   "year": "2023",
+   "unstructured": "Gong, Z. W. Y. et al. Fault diagnosis method of transformer based on improved particle swarm optimization XGBoost. High Volt. Appar. 59(08), 61\u201369 (2023).",
+   "journal-title": "High Volt. Appar."
+  },
+  {
+   "issue": "3",
+   "key": "71107_CR11",
+   "first-page": "8",
+   "volume": "6",
+   "author": "HR Xu",
+   "year": "2023",
+   "unstructured": "Xu, H. R. & Wang, Z. Y. Condition evaluation and fault diagnosis of power transformer based on GAN-CNN. J. Electrotechnol. Electr. Eng. Manag. 6(3), 8\u201316 (2023).",
+   "journal-title": "J. Electrotechnol. Electr. Eng. Manag."
+  },
+  {
+   "issue": "6",
+   "key": "71107_CR12",
+   "first-page": "100",
+   "volume": "6",
+   "author": "Z Wang",
+   "year": "2023",
+   "unstructured": "Wang, Z. & Xu, H. GCA-CNN based transformer digital twin model construction and fault diagnosis and condition evaluation analysis. Acad. J. Comput. Inf. Sci. 6(6), 100\u2013107 (2023).",
+   "journal-title": "Acad. J. Comput. Inf. Sci."
+  },
+  {
+   "key": "71107_CR13",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2023.3253463",
+   "author": "L Wang",
+   "year": "2023",
+   "unstructured": "Wang, L., Littler, T. & Liu, X. Dynamic incipient fault forecasting for power transformers using an LSTM model. IEEE Trans. Dielectr. Electr. Insulat. https://doi.org/10.1109/TDEI.2023.3253463 (2023).",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insulat."
+  },
+  {
+   "key": "71107_CR14",
+   "doi-asserted-by": "publisher",
+   "first-page": "108616",
+   "DOI": "10.1016/j.ymssp.2021.108616",
+   "volume": "168",
+   "author": "Y Ding",
+   "year": "2022",
+   "unstructured": "Ding, Y. et al. A novel time\u2013frequency Transformer based on self-attention mechanism and its application in fault diagnosis of rolling bearings. Mech. Syst. Signal Process. 168, 108616 (2022).",
+   "journal-title": "Mech. Syst. Signal Process."
+  },
+  {
+   "key": "71107_CR15",
+   "doi-asserted-by": "publisher",
+   "first-page": "109241",
+   "DOI": "10.1016/j.epsr.2023.109241",
+   "volume": "219",
+   "author": "Q Zheng",
+   "year": "2023",
+   "unstructured": "Zheng, Q. et al. A real-time transformer discharge pattern recognition method based on CNN-LSTM driven by few-shot learning. Electr. Power Syst. Res. 219, 109241 (2023).",
+   "journal-title": "Electr. Power Syst. Res."
+  },
+  {
+   "issue": "3",
+   "key": "71107_CR16",
+   "doi-asserted-by": "publisher",
+   "first-page": "261",
+   "DOI": "10.1039/D2AY01745H",
+   "volume": "15",
+   "author": "P Yan",
+   "year": "2023",
+   "unstructured": "Yan, P. et al. Transformer fault diagnosis research based on LIF technology and IAO optimization of LightGBM. Anal. Methods 15(3), 261\u2013274 (2023).",
+   "journal-title": "Anal. Methods"
+  },
+  {
+   "issue": "02",
+   "key": "71107_CR17",
+   "first-page": "415",
+   "volume": "47",
+   "author": "DC Yang",
+   "year": "2021",
+   "unstructured": "Yang, D. C. et al. Fault diagnosis of transformer based on capsule network. High Volt. Eng. 47(02), 415\u2013425 (2021).",
+   "journal-title": "High Volt. Eng."
+  },
+  {
+   "key": "71107_CR18",
+   "doi-asserted-by": "publisher",
+   "first-page": "85",
+   "DOI": "10.1007/978-3-319-38756-7_4",
+   "volume-title": "Transdisciplinary Prespectives on Complex Systems",
+   "author": "M Grieves",
+   "year": "2017",
+   "unstructured": "Grieves, M. & Vickers, J. Digital twin: Mitigating unpredictable, undesirable emergent behavior in complex systems. In Transdisciplinary Prespectives on Complex Systems (eds Kahlen, F.-J. et al.) 85\u2013113 (Springer International Publishing, 2017)."
+  },
+  {
+   "issue": "09",
+   "key": "71107_CR19",
+   "first-page": "3873",
+   "volume": "49",
+   "author": "XZ Bai",
+   "year": "2023",
+   "unstructured": "Bai, X. Z. et al. Selection method of feature derived from dissolved gas in oil for transformers fault diagnosis. High Volt. Eng. 49(09), 3873\u20133886 (2023).",
+   "journal-title": "High Volt. Eng."
+  },
+  {
+   "issue": "05",
+   "key": "71107_CR20",
+   "first-page": "1621",
+   "volume": "48",
+   "author": "YP Liu",
+   "year": "2022",
+   "unstructured": "Liu, Y. P. et al. Application prospect and key technology of digital twin in power transmission and transformation equipment. High Volt. Eng. 48(05), 1621\u20131633 (2022).",
+   "journal-title": "High Volt. Eng."
+  },
+  {
+   "issue": "05",
+   "key": "71107_CR21",
+   "first-page": "1505",
+   "volume": "47",
+   "author": "F Yang",
+   "year": "2021",
+   "unstructured": "Yang, F. et al. Application and implementation method of digital twin in electric equipment. High Volt. Eng. 47(05), 1505\u20131521 (2021).",
+   "journal-title": "High Volt. Eng."
+  },
+  {
+   "key": "71107_CR22",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.16182/j.issn1004731x.joss.23-1402",
+   "author": "L Jiang",
+   "year": "2024",
+   "unstructured": "Jiang, L. et al. Research on transformer fault diagnosis method based on digital twin. J. Syst. Simulat. https://doi.org/10.16182/j.issn1004731x.joss.23-1402 (2024).",
+   "journal-title": "J. Syst. Simulat."
+  },
+  {
+   "issue": "11",
+   "key": "71107_CR23",
+   "first-page": "2758",
+   "volume": "51",
+   "author": "ZJ Yan",
+   "year": "2023",
+   "unstructured": "Yan, Z. J. & Yang, Y. F. Fault diagnosis of transformers based on CNN and digital twin. Comput. Digit. Eng. 51(11), 2758\u20132762 (2023).",
+   "journal-title": "Comput. Digit. Eng."
+  },
+  {
+   "key": "71107_CR24",
+   "first-page": "20",
+   "volume": "11",
+   "author": "Y Wang",
+   "year": "2020",
+   "unstructured": "Wang, Y. & Zhang, T. H. Fault diagnosis of transformers based on optimal probabilistic neural network based on digital twin. Mod. Mach. Tool Autom. Manuf. Techn. 11, 20\u201323 (2020).",
+   "journal-title": "Mod. Mach. Tool Autom. Manuf. Techn."
+  },
+  {
+   "issue": "4",
+   "key": "71107_CR25",
+   "doi-asserted-by": "publisher",
+   "first-page": "1952",
+   "DOI": "10.1109/TPWRD.2020.3017355",
+   "volume": "36",
+   "author": "P Moutis",
+   "year": "2020",
+   "unstructured": "Moutis, P. & Alizadeh-Mousavi, O. Digital twin of distribution power transformer for real-time monitoring of medium voltage from low voltage measurements. IEEE Trans. Power Deliv. 36(4), 1952\u20131963 (2020).",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "issue": "15",
+   "key": "71107_CR26",
+   "first-page": "6124",
+   "volume": "43",
+   "author": "LJ Zhang",
+   "year": "2023",
+   "unstructured": "Zhang, L. J. et al. Study on electrothermal characteristics of oil-immersed power transformers in early stage of interturn faults. Proc. CSEE 43(15), 6124\u20136136 (2023).",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "issue": "01",
+   "key": "71107_CR27",
+   "first-page": "1",
+   "volume": "25",
+   "author": "F Tao",
+   "year": "2019",
+   "unstructured": "Tao, F. et al. Five-dimension digital twin model and its ten applications. Comput. Integr. Manuf. Syst. 25(01), 1\u201318 (2019).",
+   "journal-title": "Comput. Integr. Manuf. Syst."
+  },
+  {
+   "issue": "02",
+   "key": "71107_CR28",
+   "first-page": "218",
+   "volume": "39",
+   "author": "SW Li",
+   "year": "2020",
+   "unstructured": "Li, S. W. et al. Application of data feature selection and classification in mechanical fault diagnosis. J. Vibrat. Shock 39(02), 218\u2013222 (2020).",
+   "journal-title": "J. Vibrat. Shock"
+  },
+  {
+   "issue": "3",
+   "key": "71107_CR29",
+   "doi-asserted-by": "publisher",
+   "first-page": "1993",
+   "DOI": "10.1007/s42835-022-01000-x",
+   "volume": "17",
+   "author": "X Han",
+   "year": "2022",
+   "unstructured": "Han, X. et al. A novel power transformer fault diagnosis model based on Harris-Hawks-optimization algorithm optimized kernel extreme learning machine. J. Electr. Eng. Technol. 17(3), 1993\u20132001 (2022).",
+   "journal-title": "J. Electr. Eng. Technol."
+  },
+  {
+   "issue": "11",
+   "key": "71107_CR30",
+   "first-page": "3474",
+   "volume": "41",
+   "author": "DM Kong",
+   "year": "2021",
+   "unstructured": "Kong, D. M. et al. Research on oil identification method based on three-dimensional fluorescence spectroscopy combined with sparse principal component analysis and support vector machine. Spectroscopy Spectral Anal. 41(11), 3474\u20133479 (2021).",
+   "journal-title": "Spectroscopy Spectral Anal."
+  },
+  {
+   "issue": "2",
+   "key": "71107_CR31",
+   "doi-asserted-by": "publisher",
+   "first-page": "685",
+   "DOI": "10.1109/TDEI.2013.6508773",
+   "volume": "20",
+   "author": "SW Kim",
+   "year": "2013",
+   "unstructured": "Kim, S. W. et al. New methods of DGA diagnosis using IEC TC 10 and related databases part l: Application of gas-ratio combinations. IEEE Trans. Dielectr. Electr. Insulat. 20(2), 685\u2013690 (2013).",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insulat."
+  },
+  {
+   "issue": "01",
+   "key": "71107_CR32",
+   "first-page": "61",
+   "volume": "40",
+   "author": "RY Guo",
+   "year": "2021",
+   "unstructured": "Guo, R. Y., Peng, M. M. & Cao, Z. Q. Fault diagnosis of power transformer based on SE-DenseNet. Adv. Technol. Electr. Eng. Energy 40(01), 61\u201369 (2021).",
+   "journal-title": "Adv. Technol. Electr. Eng. Energy"
+  },
+  {
+   "issue": "23",
+   "key": "71107_CR33",
+   "first-page": "6570",
+   "volume": "36",
+   "author": "K Wang",
+   "year": "2016",
+   "unstructured": "Wang, K. et al. New features derived from dissolved gas Analysis for fault diagnosis of power transformers. Proc. CSEE 36(23), 6570\u20136578+6625 (2016).",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "issue": "08",
+   "key": "71107_CR34",
+   "first-page": "51",
+   "volume": "56",
+   "author": "GL Li",
+   "year": "2022",
+   "unstructured": "Li, G. L. et al. Thermal error model of spindle for precision CNC machine tool based on AO-CNN. J. Xi\u2019an Jiaotong Univ. 56(08), 51\u201361 (2022).",
+   "journal-title": "J. Xi'an Jiaotong Univ."
+  },
+  {
+   "issue": "05",
+   "key": "71107_CR35",
+   "first-page": "1245",
+   "volume": "51",
+   "author": "CS Zhang",
+   "year": "2023",
+   "unstructured": "Zhang, C. S. et al. improved aquila optimization based on multi-strategy integration. Acta Electron. Sin. 51(05), 1245\u20131255 (2023).",
+   "journal-title": "Acta Electron. Sin."
+  },
+  {
+   "issue": "09",
+   "key": "71107_CR36",
+   "first-page": "3799",
+   "volume": "47",
+   "author": "Y Wang",
+   "year": "2023",
+   "unstructured": "Wang, Y. et al. Transformer fault diagnosis fused with synthetic minority over-sampling balanced multi-classification data based on improved extreme learning machine. Power Syst. Technol. 47(09), 3799\u20133807 (2023).",
+   "journal-title": "Power Syst. Technol."
+  },
+  {
+   "issue": "06",
+   "key": "71107_CR37",
+   "first-page": "93",
+   "volume": "59",
+   "author": "J Tang",
+   "year": "2023",
+   "unstructured": "Tang, J. et al. Oversampling and cost\u2043sensitive algorithm for transformer fault diagnosis with unbalanced samples. High Volt. Apparatus 59(06), 93\u2013102 (2023).",
+   "journal-title": "High Volt. Apparatus"
+  },
+  {
+   "issue": "08",
+   "key": "71107_CR38",
+   "first-page": "36",
+   "volume": "39",
+   "author": "DD Liu",
+   "year": "2023",
+   "unstructured": "Liu, D. D. et al. POA-SVM transformer fault diagnosis based on ADASYN balanced data set. Power Syst. Clean Energy 39(08), 36\u201344 (2023).",
+   "journal-title": "Power Syst. Clean Energy"
+  },
+  {
+   "issue": "04",
+   "key": "71107_CR39",
+   "first-page": "32",
+   "volume": "51",
+   "author": "Y Wang",
+   "year": "2023",
+   "unstructured": "Wang, Y. et al. Transformer DGA fault diagnosis method based on DBN-SSAELM. Power Syst. Prot. Control 51(04), 32\u201342 (2023).",
+   "journal-title": "Power Syst. Prot. Control"
+  },
+  {
+   "issue": "11",
+   "key": "71107_CR40",
+   "first-page": "136",
+   "volume": "39",
+   "author": "QC Fan",
+   "year": "2022",
+   "unstructured": "Fan, Q. C., Yu, F. & Xuan, M. Power transformer fault diagnosis based on optimized Bi-LSTM model. Comput. Simul. 39(11), 136\u2013140 (2022).",
+   "journal-title": "Comput. Simul."
+  }
+ ],
+ "container-title": [
+  "Scientific Reports"
+ ],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.nature.com/articles/s41598-024-71107-w.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://www.nature.com/articles/s41598-024-71107-w",
+   "content-type": "text/html",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://www.nature.com/articles/s41598-024-71107-w.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2024,
+    9,
+    2
+   ]
+  ],
+  "date-time": "2024-09-02T13:29:04Z",
+  "timestamp": 1725283744000
+ },
+ "score": 84.33964,
+ "resource": {
+  "primary": {
+   "URL": "https://www.nature.com/articles/s41598-024-71107-w"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2024,
+    9,
+    2
+   ]
+  ]
+ },
+ "references-count": 40,
+ "journal-issue": {
+  "issue": "1",
+  "published-online": {
+   "date-parts": [
+    [
+     2024,
+     12
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "71107"
+ ],
+ "URL": "https://doi.org/10.1038/s41598-024-71107-w",
+ "ISSN": [
+  "2045-2322"
+ ],
+ "issn-type": [
+  {
+   "value": "2045-2322",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2024,
+    9,
+    2
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "20 May 2024",
+   "order": 1,
+   "name": "received",
+   "label": "Received",
+   "group": {
+    "name": "ArticleHistory",
+    "label": "Article History"
+   }
+  },
+  {
+   "value": "26 August 2024",
+   "order": 2,
+   "name": "accepted",
+   "label": "Accepted",
+   "group": {
+    "name": "ArticleHistory",
+    "label": "Article History"
+   }
+  },
+  {
+   "value": "2 September 2024",
+   "order": 3,
+   "name": "first_online",
+   "label": "First Online",
+   "group": {
+    "name": "ArticleHistory",
+    "label": "Article History"
+   }
+  },
+  {
+   "value": "The authors declare no competing interests.",
+   "order": 1,
+   "name": "Ethics",
+   "group": {
+    "name": "EthicsHeading",
+    "label": "Competing interests"
+   }
+  }
+ ],
+ "article-number": "20355"
+}

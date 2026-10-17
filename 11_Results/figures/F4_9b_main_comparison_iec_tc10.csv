@@ -1,0 +1,5 @@
+evaluation_set,method,n,strict_accuracy,strict_accuracy_lo,strict_accuracy_hi,conditional_accuracy,conditional_accuracy_lo,conditional_accuracy_hi,macro_f1,macro_f1_lo,macro_f1_hi,coverage
+IEC TC 10 (power transformers),ML,58,0.724138,0.597953,0.822476,0.724138,0.597953,0.822476,0.730643,0.610924,0.826659,1.0
+IEC TC 10 (power transformers),Rogers,58,0.482759,0.359282,0.608377,0.666667,0.515525,0.789875,0.329697,0.248042,0.411055,0.724138
+IEC TC 10 (power transformers),IEC60599,58,0.637931,0.509275,0.749451,0.72549,0.590533,0.828857,0.730997,0.616376,0.819777,0.87931
+IEC TC 10 (power transformers),Duval,58,0.775862,0.653389,0.864063,0.775862,0.653389,0.864063,0.751671,0.626113,0.891013,1.0

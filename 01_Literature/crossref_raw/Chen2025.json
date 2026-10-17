@@ -1,0 +1,461 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    6
+   ]
+  ],
+  "date-time": "2026-10-06T04:35:48Z",
+  "timestamp": 1791261348484,
+  "version": "4.1.0"
+ },
+ "reference-count": 34,
+ "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+ "issue": "1",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2025-02-01T00:00:00Z",
+    "timestamp": 1738368000000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2025-02-01T00:00:00Z",
+    "timestamp": 1738368000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-029"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      2,
+      1
+     ]
+    ],
+    "date-time": "2025-02-01T00:00:00Z",
+    "timestamp": 1738368000000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-037"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100001809",
+   "name": "National Natural Science Foundation of China",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "62203107"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "62203107"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100001809",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100012226",
+   "name": "Fundamental Research Funds for the Central Universities",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "3208002309A2"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "3208002309A2"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100012226",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100002858",
+   "name": "China Postdoctoral Science Foundation",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "2022M723913"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "2022M723913"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100002858",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100001809",
+   "name": "Big Data Computing Center, Southeast University",
+   "doi-asserted-by": "publisher",
+   "id": [
+    {
+     "id": "10.13039/501100001809",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "IEEE Trans. Dielect. Electr. Insul."
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2025,
+    2
+   ]
+  ]
+ },
+ "DOI": "10.1109/tdei.2025.3526080",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2025,
+    1,
+    6
+   ]
+  ],
+  "date-time": "2025-01-06T15:02:16Z",
+  "timestamp": 1736175736000
+ },
+ "page": "3-10",
+ "source": "Crossref",
+ "is-referenced-by-count": 23,
+ "title": [
+  "Rethinking Shallow and Deep Learnings for Transformer Dissolved Gas Analysis: A Review"
+ ],
+ "prefix": "10.1109",
+ "volume": "32",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0001-5418-4122",
+   "authenticated-orcid": false,
+   "given": "Hong Cai",
+   "family": "Chen",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "School of Automation and the Key Laboratory of Measurement and Control of Complex Systems of Engineering, Ministry of Education, Southeast University, Nanjing, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-0156-8952",
+   "authenticated-orcid": false,
+   "given": "Yang",
+   "family": "Zhang",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "College of Advanced Interdisciplinary Studies, National University of Defense Technology, Changsha, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "ref1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tpwrd.2019.2900543"
+  },
+  {
+   "key": "ref2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tpwrd.2021.3103455"
+  },
+  {
+   "key": "ref3",
+   "volume-title": "Mineral Oil-Filled Electrical Equipment In Service\u2014Guidance On The Interpretation Of Dissolved and Free Gases Analysis",
+   "year": "2015"
+  },
+  {
+   "key": "ref4",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tpwrd.2019.2907006"
+  },
+  {
+   "key": "ref5",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.asoc.2021.108129"
+  },
+  {
+   "key": "ref6",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tpwrd.2012.2197868"
+  },
+  {
+   "key": "ref7",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.aei.2019.01.001"
+  },
+  {
+   "key": "ref8",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2015.005277"
+  },
+  {
+   "key": "ref9",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2018.5482"
+  },
+  {
+   "key": "ref10",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2022.3148453"
+  },
+  {
+   "key": "ref11",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2017.006727"
+  },
+  {
+   "key": "ref12",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.ijepes.2014.12.017"
+  },
+  {
+   "key": "ref13",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2018.006746"
+  },
+  {
+   "key": "ref14",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2024.3374246"
+  },
+  {
+   "key": "ref15",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2023.3280436"
+  },
+  {
+   "key": "ref16",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TSMC.2018.2880930"
+  },
+  {
+   "key": "ref17",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/hve2.12059"
+  },
+  {
+   "key": "ref18",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TIM.2025.3529050"
+  },
+  {
+   "key": "ref19",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.epsr.2021.107519"
+  },
+  {
+   "key": "ref20",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.ijepes.2021.107619"
+  },
+  {
+   "key": "ref21",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.3390/en12060995"
+  },
+  {
+   "key": "ref22",
+   "article-title": "Transformer condition assessment based on combined deep neural network",
+   "author": "Zhang",
+   "year": "2022",
+   "journal-title": "CSEE J. Power Energy Syst."
+  },
+  {
+   "key": "ref23",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.17775/CSEEJPES.2020.04120"
+  },
+  {
+   "key": "ref24",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TIE.2021.3059543"
+  },
+  {
+   "key": "ref25",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.measurement.2021.110686"
+  },
+  {
+   "key": "ref26",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACCESS.2024.3366905"
+  },
+  {
+   "key": "ref27",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.engappai.2023.106606"
+  },
+  {
+   "key": "ref28",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.epsr.2022.107969"
+  },
+  {
+   "key": "ref29",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/57.917529"
+  },
+  {
+   "key": "ref30",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2012.6396956"
+  },
+  {
+   "key": "ref31",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2019.008034"
+  },
+  {
+   "key": "ref32",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICDM.2006.29"
+  },
+  {
+   "key": "ref33",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRD.2021.3074545"
+  },
+  {
+   "key": "ref34",
+   "article-title": "Metrics for multi-class classification: An overview",
+   "author": "Grandini",
+   "year": "2020",
+   "journal-title": "arXiv:2008.05756"
+  }
+ ],
+ "container-title": [
+  "IEEE Transactions on Dielectrics and Electrical Insulation"
+ ],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx8/94/10858322/10824886.pdf?arnumber=10824886",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    1,
+    1
+   ]
+  ],
+  "date-time": "2026-01-01T18:39:58Z",
+  "timestamp": 1767292798000
+ },
+ "score": 88.80865,
+ "resource": {
+  "primary": {
+   "URL": "https://ieeexplore.ieee.org/document/10824886/"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2025,
+    2
+   ]
+  ]
+ },
+ "references-count": 34,
+ "journal-issue": {
+  "issue": "1"
+ },
+ "URL": "https://doi.org/10.1109/tdei.2025.3526080",
+ "ISSN": [
+  "1070-9878",
+  "1558-4135"
+ ],
+ "issn-type": [
+  {
+   "value": "1070-9878",
+   "type": "print"
+  },
+  {
+   "value": "1558-4135",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2025,
+    2
+   ]
+  ]
+ }
+}

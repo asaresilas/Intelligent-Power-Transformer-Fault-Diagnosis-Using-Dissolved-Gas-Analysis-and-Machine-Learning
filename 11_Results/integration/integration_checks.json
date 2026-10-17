@@ -1,0 +1,62 @@
+{
+ "step": 42,
+ "decision": "D40",
+ "records_offline": 388,
+ "rows_in_log": 388,
+ "log_rows_not_in_offline_file": [],
+ "duplicate_log_records": 0,
+ "fidelity_ml_class": {
+  "matches": 388,
+  "N": 388,
+  "F": 1.0
+ },
+ "probabilities_identical": 388,
+ "largest_probability_difference": 0.0,
+ "conventional_identical": {
+  "Rogers": 388,
+  "IEC60599": 388,
+  "Duval": 388
+ },
+ "role_identical": 388,
+ "model_hash_identical": 388,
+ "failed_calls": 0,
+ "mismatched_records": 0,
+ "response_ms_all": {
+  "n": 388,
+  "median": 78.64225,
+  "p95": 95.389525,
+  "mean": 78.067923,
+  "min": 62.0695,
+  "max": 157.7174
+ },
+ "response_ms_without_warmup": {
+  "n": 383,
+  "median": 78.4799,
+  "p95": 95.08732,
+  "mean": 77.949516,
+  "min": 62.0695,
+  "max": 157.7174
+ },
+ "conventional_ms_all": {
+  "n": 388,
+  "median": 277.4985,
+  "p95": 331.789625,
+  "mean": 286.8517,
+  "min": 239.1995,
+  "max": 1188.619
+ },
+ "total_ms_all": {
+  "n": 388,
+  "median": 468.74455,
+  "p95": 548.401555,
+  "mean": 503.270191,
+  "min": 413.0528,
+  "max": 1964.1178
+ },
+ "requirements": {
+  "fidelity_is_1": true,
+  "p95_below_1000_ms": true
+ },
+ "labels_read": false,
+ "pass": true
+}

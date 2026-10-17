@@ -1,0 +1,1341 @@
+evaluation_set,method,true,answer,count
+Internal test,ML,Normal,Normal,7
+Internal test,ML,Normal,PD,1
+Internal test,ML,Normal,D1,0
+Internal test,ML,Normal,D2,0
+Internal test,ML,Normal,T1,1
+Internal test,ML,Normal,T2,0
+Internal test,ML,Normal,T3,1
+Internal test,ML,Normal,D1/D2,0
+Internal test,ML,Normal,DT,0
+Internal test,ML,Normal,ND,0
+Internal test,ML,PD,Normal,0
+Internal test,ML,PD,PD,5
+Internal test,ML,PD,D1,2
+Internal test,ML,PD,D2,0
+Internal test,ML,PD,T1,0
+Internal test,ML,PD,T2,0
+Internal test,ML,PD,T3,0
+Internal test,ML,PD,D1/D2,0
+Internal test,ML,PD,DT,0
+Internal test,ML,PD,ND,0
+Internal test,ML,D1,Normal,0
+Internal test,ML,D1,PD,0
+Internal test,ML,D1,D1,6
+Internal test,ML,D1,D2,1
+Internal test,ML,D1,T1,0
+Internal test,ML,D1,T2,0
+Internal test,ML,D1,T3,0
+Internal test,ML,D1,D1/D2,0
+Internal test,ML,D1,DT,0
+Internal test,ML,D1,ND,0
+Internal test,ML,D2,Normal,0
+Internal test,ML,D2,PD,0
+Internal test,ML,D2,D1,2
+Internal test,ML,D2,D2,6
+Internal test,ML,D2,T1,0
+Internal test,ML,D2,T2,0
+Internal test,ML,D2,T3,0
+Internal test,ML,D2,D1/D2,0
+Internal test,ML,D2,DT,0
+Internal test,ML,D2,ND,0
+Internal test,ML,T1,Normal,0
+Internal test,ML,T1,PD,1
+Internal test,ML,T1,D1,0
+Internal test,ML,T1,D2,0
+Internal test,ML,T1,T1,9
+Internal test,ML,T1,T2,0
+Internal test,ML,T1,T3,0
+Internal test,ML,T1,D1/D2,0
+Internal test,ML,T1,DT,0
+Internal test,ML,T1,ND,0
+Internal test,ML,T2,Normal,0
+Internal test,ML,T2,PD,0
+Internal test,ML,T2,D1,0
+Internal test,ML,T2,D2,0
+Internal test,ML,T2,T1,0
+Internal test,ML,T2,T2,9
+Internal test,ML,T2,T3,1
+Internal test,ML,T2,D1/D2,0
+Internal test,ML,T2,DT,0
+Internal test,ML,T2,ND,0
+Internal test,ML,T3,Normal,0
+Internal test,ML,T3,PD,0
+Internal test,ML,T3,D1,0
+Internal test,ML,T3,D2,1
+Internal test,ML,T3,T1,0
+Internal test,ML,T3,T2,0
+Internal test,ML,T3,T3,8
+Internal test,ML,T3,D1/D2,0
+Internal test,ML,T3,DT,0
+Internal test,ML,T3,ND,0
+Internal test,Rogers,Normal,Normal,10
+Internal test,Rogers,Normal,PD,0
+Internal test,Rogers,Normal,D1,0
+Internal test,Rogers,Normal,D2,0
+Internal test,Rogers,Normal,T1,0
+Internal test,Rogers,Normal,T2,0
+Internal test,Rogers,Normal,T3,0
+Internal test,Rogers,Normal,D1/D2,0
+Internal test,Rogers,Normal,DT,0
+Internal test,Rogers,Normal,ND,0
+Internal test,Rogers,PD,Normal,4
+Internal test,Rogers,PD,PD,0
+Internal test,Rogers,PD,D1,0
+Internal test,Rogers,PD,D2,0
+Internal test,Rogers,PD,T1,0
+Internal test,Rogers,PD,T2,0
+Internal test,Rogers,PD,T3,0
+Internal test,Rogers,PD,D1/D2,0
+Internal test,Rogers,PD,DT,0
+Internal test,Rogers,PD,ND,3
+Internal test,Rogers,D1,Normal,0
+Internal test,Rogers,D1,PD,0
+Internal test,Rogers,D1,D1,0
+Internal test,Rogers,D1,D2,0
+Internal test,Rogers,D1,T1,0
+Internal test,Rogers,D1,T2,0
+Internal test,Rogers,D1,T3,0
+Internal test,Rogers,D1,D1/D2,0
+Internal test,Rogers,D1,DT,0
+Internal test,Rogers,D1,ND,7
+Internal test,Rogers,D2,Normal,1
+Internal test,Rogers,D2,PD,0
+Internal test,Rogers,D2,D1,0
+Internal test,Rogers,D2,D2,1
+Internal test,Rogers,D2,T1,0
+Internal test,Rogers,D2,T2,0
+Internal test,Rogers,D2,T3,0
+Internal test,Rogers,D2,D1/D2,0
+Internal test,Rogers,D2,DT,0
+Internal test,Rogers,D2,ND,6
+Internal test,Rogers,T1,Normal,4
+Internal test,Rogers,T1,PD,0
+Internal test,Rogers,T1,D1,0
+Internal test,Rogers,T1,D2,0
+Internal test,Rogers,T1,T1,0
+Internal test,Rogers,T1,T2,0
+Internal test,Rogers,T1,T3,0
+Internal test,Rogers,T1,D1/D2,0
+Internal test,Rogers,T1,DT,0
+Internal test,Rogers,T1,ND,6
+Internal test,Rogers,T2,Normal,4
+Internal test,Rogers,T2,PD,0
+Internal test,Rogers,T2,D1,0
+Internal test,Rogers,T2,D2,0
+Internal test,Rogers,T2,T1,0
+Internal test,Rogers,T2,T2,4
+Internal test,Rogers,T2,T3,2
+Internal test,Rogers,T2,D1/D2,0
+Internal test,Rogers,T2,DT,0
+Internal test,Rogers,T2,ND,0
+Internal test,Rogers,T3,Normal,3
+Internal test,Rogers,T3,PD,0
+Internal test,Rogers,T3,D1,0
+Internal test,Rogers,T3,D2,0
+Internal test,Rogers,T3,T1,0
+Internal test,Rogers,T3,T2,0
+Internal test,Rogers,T3,T3,5
+Internal test,Rogers,T3,D1/D2,0
+Internal test,Rogers,T3,DT,0
+Internal test,Rogers,T3,ND,1
+Internal test,IEC60599,Normal,Normal,10
+Internal test,IEC60599,Normal,PD,0
+Internal test,IEC60599,Normal,D1,0
+Internal test,IEC60599,Normal,D2,0
+Internal test,IEC60599,Normal,T1,0
+Internal test,IEC60599,Normal,T2,0
+Internal test,IEC60599,Normal,T3,0
+Internal test,IEC60599,Normal,D1/D2,0
+Internal test,IEC60599,Normal,DT,0
+Internal test,IEC60599,Normal,ND,0
+Internal test,IEC60599,PD,Normal,4
+Internal test,IEC60599,PD,PD,1
+Internal test,IEC60599,PD,D1,0
+Internal test,IEC60599,PD,D2,0
+Internal test,IEC60599,PD,T1,0
+Internal test,IEC60599,PD,T2,0
+Internal test,IEC60599,PD,T3,0
+Internal test,IEC60599,PD,D1/D2,0
+Internal test,IEC60599,PD,DT,0
+Internal test,IEC60599,PD,ND,2
+Internal test,IEC60599,D1,Normal,0
+Internal test,IEC60599,D1,PD,0
+Internal test,IEC60599,D1,D1,2
+Internal test,IEC60599,D1,D2,0
+Internal test,IEC60599,D1,T1,0
+Internal test,IEC60599,D1,T2,0
+Internal test,IEC60599,D1,T3,0
+Internal test,IEC60599,D1,D1/D2,0
+Internal test,IEC60599,D1,DT,0
+Internal test,IEC60599,D1,ND,5
+Internal test,IEC60599,D2,Normal,1
+Internal test,IEC60599,D2,PD,0
+Internal test,IEC60599,D2,D1,0
+Internal test,IEC60599,D2,D2,0
+Internal test,IEC60599,D2,T1,0
+Internal test,IEC60599,D2,T2,0
+Internal test,IEC60599,D2,T3,0
+Internal test,IEC60599,D2,D1/D2,1
+Internal test,IEC60599,D2,DT,0
+Internal test,IEC60599,D2,ND,6
+Internal test,IEC60599,T1,Normal,2
+Internal test,IEC60599,T1,PD,0
+Internal test,IEC60599,T1,D1,0
+Internal test,IEC60599,T1,D2,0
+Internal test,IEC60599,T1,T1,5
+Internal test,IEC60599,T1,T2,0
+Internal test,IEC60599,T1,T3,0
+Internal test,IEC60599,T1,D1/D2,0
+Internal test,IEC60599,T1,DT,0
+Internal test,IEC60599,T1,ND,3
+Internal test,IEC60599,T2,Normal,4
+Internal test,IEC60599,T2,PD,0
+Internal test,IEC60599,T2,D1,0
+Internal test,IEC60599,T2,D2,0
+Internal test,IEC60599,T2,T1,0
+Internal test,IEC60599,T2,T2,5
+Internal test,IEC60599,T2,T3,1
+Internal test,IEC60599,T2,D1/D2,0
+Internal test,IEC60599,T2,DT,0
+Internal test,IEC60599,T2,ND,0
+Internal test,IEC60599,T3,Normal,3
+Internal test,IEC60599,T3,PD,0
+Internal test,IEC60599,T3,D1,0
+Internal test,IEC60599,T3,D2,0
+Internal test,IEC60599,T3,T1,0
+Internal test,IEC60599,T3,T2,0
+Internal test,IEC60599,T3,T3,5
+Internal test,IEC60599,T3,D1/D2,0
+Internal test,IEC60599,T3,DT,0
+Internal test,IEC60599,T3,ND,1
+Internal test,Duval,Normal,Normal,10
+Internal test,Duval,Normal,PD,0
+Internal test,Duval,Normal,D1,0
+Internal test,Duval,Normal,D2,0
+Internal test,Duval,Normal,T1,0
+Internal test,Duval,Normal,T2,0
+Internal test,Duval,Normal,T3,0
+Internal test,Duval,Normal,D1/D2,0
+Internal test,Duval,Normal,DT,0
+Internal test,Duval,Normal,ND,0
+Internal test,Duval,PD,Normal,4
+Internal test,Duval,PD,PD,0
+Internal test,Duval,PD,D1,0
+Internal test,Duval,PD,D2,0
+Internal test,Duval,PD,T1,0
+Internal test,Duval,PD,T2,0
+Internal test,Duval,PD,T3,1
+Internal test,Duval,PD,D1/D2,0
+Internal test,Duval,PD,DT,2
+Internal test,Duval,PD,ND,0
+Internal test,Duval,D1,Normal,0
+Internal test,Duval,D1,PD,0
+Internal test,Duval,D1,D1,5
+Internal test,Duval,D1,D2,1
+Internal test,Duval,D1,T1,0
+Internal test,Duval,D1,T2,0
+Internal test,Duval,D1,T3,0
+Internal test,Duval,D1,D1/D2,0
+Internal test,Duval,D1,DT,1
+Internal test,Duval,D1,ND,0
+Internal test,Duval,D2,Normal,1
+Internal test,Duval,D2,PD,0
+Internal test,Duval,D2,D1,2
+Internal test,Duval,D2,D2,4
+Internal test,Duval,D2,T1,0
+Internal test,Duval,D2,T2,0
+Internal test,Duval,D2,T3,0
+Internal test,Duval,D2,D1/D2,0
+Internal test,Duval,D2,DT,1
+Internal test,Duval,D2,ND,0
+Internal test,Duval,T1,Normal,2
+Internal test,Duval,T1,PD,0
+Internal test,Duval,T1,D1,0
+Internal test,Duval,T1,D2,0
+Internal test,Duval,T1,T1,6
+Internal test,Duval,T1,T2,2
+Internal test,Duval,T1,T3,0
+Internal test,Duval,T1,D1/D2,0
+Internal test,Duval,T1,DT,0
+Internal test,Duval,T1,ND,0
+Internal test,Duval,T2,Normal,4
+Internal test,Duval,T2,PD,0
+Internal test,Duval,T2,D1,0
+Internal test,Duval,T2,D2,0
+Internal test,Duval,T2,T1,0
+Internal test,Duval,T2,T2,3
+Internal test,Duval,T2,T3,3
+Internal test,Duval,T2,D1/D2,0
+Internal test,Duval,T2,DT,0
+Internal test,Duval,T2,ND,0
+Internal test,Duval,T3,Normal,3
+Internal test,Duval,T3,PD,0
+Internal test,Duval,T3,D1,0
+Internal test,Duval,T3,D2,0
+Internal test,Duval,T3,T1,0
+Internal test,Duval,T3,T2,0
+Internal test,Duval,T3,T3,6
+Internal test,Duval,T3,D1/D2,0
+Internal test,Duval,T3,DT,0
+Internal test,Duval,T3,ND,0
+IEC TC 10 (power transformers),ML,PD,PD,1
+IEC TC 10 (power transformers),ML,PD,D1,0
+IEC TC 10 (power transformers),ML,PD,D2,0
+IEC TC 10 (power transformers),ML,PD,T12,0
+IEC TC 10 (power transformers),ML,PD,T3,0
+IEC TC 10 (power transformers),ML,PD,Normal,0
+IEC TC 10 (power transformers),ML,PD,D1/D2,0
+IEC TC 10 (power transformers),ML,PD,DT,0
+IEC TC 10 (power transformers),ML,PD,ND,0
+IEC TC 10 (power transformers),ML,D1,PD,0
+IEC TC 10 (power transformers),ML,D1,D1,7
+IEC TC 10 (power transformers),ML,D1,D2,3
+IEC TC 10 (power transformers),ML,D1,T12,0
+IEC TC 10 (power transformers),ML,D1,T3,0
+IEC TC 10 (power transformers),ML,D1,Normal,0
+IEC TC 10 (power transformers),ML,D1,D1/D2,0
+IEC TC 10 (power transformers),ML,D1,DT,0
+IEC TC 10 (power transformers),ML,D1,ND,0
+IEC TC 10 (power transformers),ML,D2,PD,0
+IEC TC 10 (power transformers),ML,D2,D1,3
+IEC TC 10 (power transformers),ML,D2,D2,24
+IEC TC 10 (power transformers),ML,D2,T12,0
+IEC TC 10 (power transformers),ML,D2,T3,0
+IEC TC 10 (power transformers),ML,D2,Normal,0
+IEC TC 10 (power transformers),ML,D2,D1/D2,0
+IEC TC 10 (power transformers),ML,D2,DT,0
+IEC TC 10 (power transformers),ML,D2,ND,0
+IEC TC 10 (power transformers),ML,T12,PD,0
+IEC TC 10 (power transformers),ML,T12,D1,0
+IEC TC 10 (power transformers),ML,T12,D2,1
+IEC TC 10 (power transformers),ML,T12,T12,5
+IEC TC 10 (power transformers),ML,T12,T3,1
+IEC TC 10 (power transformers),ML,T12,Normal,1
+IEC TC 10 (power transformers),ML,T12,D1/D2,0
+IEC TC 10 (power transformers),ML,T12,DT,0
+IEC TC 10 (power transformers),ML,T12,ND,0
+IEC TC 10 (power transformers),ML,T3,PD,0
+IEC TC 10 (power transformers),ML,T3,D1,0
+IEC TC 10 (power transformers),ML,T3,D2,2
+IEC TC 10 (power transformers),ML,T3,T12,5
+IEC TC 10 (power transformers),ML,T3,T3,5
+IEC TC 10 (power transformers),ML,T3,Normal,0
+IEC TC 10 (power transformers),ML,T3,D1/D2,0
+IEC TC 10 (power transformers),ML,T3,DT,0
+IEC TC 10 (power transformers),ML,T3,ND,0
+IEC TC 10 (power transformers),Rogers,PD,PD,0
+IEC TC 10 (power transformers),Rogers,PD,D1,0
+IEC TC 10 (power transformers),Rogers,PD,D2,0
+IEC TC 10 (power transformers),Rogers,PD,T12,0
+IEC TC 10 (power transformers),Rogers,PD,T3,0
+IEC TC 10 (power transformers),Rogers,PD,Normal,0
+IEC TC 10 (power transformers),Rogers,PD,D1/D2,0
+IEC TC 10 (power transformers),Rogers,PD,DT,0
+IEC TC 10 (power transformers),Rogers,PD,ND,1
+IEC TC 10 (power transformers),Rogers,D1,PD,0
+IEC TC 10 (power transformers),Rogers,D1,D1,0
+IEC TC 10 (power transformers),Rogers,D1,D2,3
+IEC TC 10 (power transformers),Rogers,D1,T12,0
+IEC TC 10 (power transformers),Rogers,D1,T3,0
+IEC TC 10 (power transformers),Rogers,D1,Normal,1
+IEC TC 10 (power transformers),Rogers,D1,D1/D2,0
+IEC TC 10 (power transformers),Rogers,D1,DT,0
+IEC TC 10 (power transformers),Rogers,D1,ND,6
+IEC TC 10 (power transformers),Rogers,D2,PD,0
+IEC TC 10 (power transformers),Rogers,D2,D1,0
+IEC TC 10 (power transformers),Rogers,D2,D2,20
+IEC TC 10 (power transformers),Rogers,D2,T12,0
+IEC TC 10 (power transformers),Rogers,D2,T3,0
+IEC TC 10 (power transformers),Rogers,D2,Normal,3
+IEC TC 10 (power transformers),Rogers,D2,D1/D2,0
+IEC TC 10 (power transformers),Rogers,D2,DT,0
+IEC TC 10 (power transformers),Rogers,D2,ND,4
+IEC TC 10 (power transformers),Rogers,T12,PD,0
+IEC TC 10 (power transformers),Rogers,T12,D1,0
+IEC TC 10 (power transformers),Rogers,T12,D2,0
+IEC TC 10 (power transformers),Rogers,T12,T12,1
+IEC TC 10 (power transformers),Rogers,T12,T3,2
+IEC TC 10 (power transformers),Rogers,T12,Normal,2
+IEC TC 10 (power transformers),Rogers,T12,D1/D2,0
+IEC TC 10 (power transformers),Rogers,T12,DT,0
+IEC TC 10 (power transformers),Rogers,T12,ND,3
+IEC TC 10 (power transformers),Rogers,T3,PD,0
+IEC TC 10 (power transformers),Rogers,T3,D1,0
+IEC TC 10 (power transformers),Rogers,T3,D2,0
+IEC TC 10 (power transformers),Rogers,T3,T12,2
+IEC TC 10 (power transformers),Rogers,T3,T3,7
+IEC TC 10 (power transformers),Rogers,T3,Normal,1
+IEC TC 10 (power transformers),Rogers,T3,D1/D2,0
+IEC TC 10 (power transformers),Rogers,T3,DT,0
+IEC TC 10 (power transformers),Rogers,T3,ND,2
+IEC TC 10 (power transformers),IEC60599,PD,PD,1
+IEC TC 10 (power transformers),IEC60599,PD,D1,0
+IEC TC 10 (power transformers),IEC60599,PD,D2,0
+IEC TC 10 (power transformers),IEC60599,PD,T12,0
+IEC TC 10 (power transformers),IEC60599,PD,T3,0
+IEC TC 10 (power transformers),IEC60599,PD,Normal,0
+IEC TC 10 (power transformers),IEC60599,PD,D1/D2,0
+IEC TC 10 (power transformers),IEC60599,PD,DT,0
+IEC TC 10 (power transformers),IEC60599,PD,ND,0
+IEC TC 10 (power transformers),IEC60599,D1,PD,0
+IEC TC 10 (power transformers),IEC60599,D1,D1,7
+IEC TC 10 (power transformers),IEC60599,D1,D2,0
+IEC TC 10 (power transformers),IEC60599,D1,T12,0
+IEC TC 10 (power transformers),IEC60599,D1,T3,0
+IEC TC 10 (power transformers),IEC60599,D1,Normal,1
+IEC TC 10 (power transformers),IEC60599,D1,D1/D2,0
+IEC TC 10 (power transformers),IEC60599,D1,DT,0
+IEC TC 10 (power transformers),IEC60599,D1,ND,2
+IEC TC 10 (power transformers),IEC60599,D2,PD,0
+IEC TC 10 (power transformers),IEC60599,D2,D1,1
+IEC TC 10 (power transformers),IEC60599,D2,D2,9
+IEC TC 10 (power transformers),IEC60599,D2,T12,0
+IEC TC 10 (power transformers),IEC60599,D2,T3,0
+IEC TC 10 (power transformers),IEC60599,D2,Normal,3
+IEC TC 10 (power transformers),IEC60599,D2,D1/D2,11
+IEC TC 10 (power transformers),IEC60599,D2,DT,0
+IEC TC 10 (power transformers),IEC60599,D2,ND,3
+IEC TC 10 (power transformers),IEC60599,T12,PD,0
+IEC TC 10 (power transformers),IEC60599,T12,D1,0
+IEC TC 10 (power transformers),IEC60599,T12,D2,0
+IEC TC 10 (power transformers),IEC60599,T12,T12,4
+IEC TC 10 (power transformers),IEC60599,T12,T3,1
+IEC TC 10 (power transformers),IEC60599,T12,Normal,2
+IEC TC 10 (power transformers),IEC60599,T12,D1/D2,0
+IEC TC 10 (power transformers),IEC60599,T12,DT,0
+IEC TC 10 (power transformers),IEC60599,T12,ND,1
+IEC TC 10 (power transformers),IEC60599,T3,PD,0
+IEC TC 10 (power transformers),IEC60599,T3,D1,0
+IEC TC 10 (power transformers),IEC60599,T3,D2,0
+IEC TC 10 (power transformers),IEC60599,T3,T12,5
+IEC TC 10 (power transformers),IEC60599,T3,T3,5
+IEC TC 10 (power transformers),IEC60599,T3,Normal,1
+IEC TC 10 (power transformers),IEC60599,T3,D1/D2,0
+IEC TC 10 (power transformers),IEC60599,T3,DT,0
+IEC TC 10 (power transformers),IEC60599,T3,ND,1
+IEC TC 10 (power transformers),Duval,PD,PD,1
+IEC TC 10 (power transformers),Duval,PD,D1,0
+IEC TC 10 (power transformers),Duval,PD,D2,0
+IEC TC 10 (power transformers),Duval,PD,T12,0
+IEC TC 10 (power transformers),Duval,PD,T3,0
+IEC TC 10 (power transformers),Duval,PD,Normal,0
+IEC TC 10 (power transformers),Duval,PD,D1/D2,0
+IEC TC 10 (power transformers),Duval,PD,DT,0
+IEC TC 10 (power transformers),Duval,PD,ND,0
+IEC TC 10 (power transformers),Duval,D1,PD,0
+IEC TC 10 (power transformers),Duval,D1,D1,8
+IEC TC 10 (power transformers),Duval,D1,D2,1
+IEC TC 10 (power transformers),Duval,D1,T12,0
+IEC TC 10 (power transformers),Duval,D1,T3,0
+IEC TC 10 (power transformers),Duval,D1,Normal,1
+IEC TC 10 (power transformers),Duval,D1,D1/D2,0
+IEC TC 10 (power transformers),Duval,D1,DT,0
+IEC TC 10 (power transformers),Duval,D1,ND,0
+IEC TC 10 (power transformers),Duval,D2,PD,0
+IEC TC 10 (power transformers),Duval,D2,D1,0
+IEC TC 10 (power transformers),Duval,D2,D2,24
+IEC TC 10 (power transformers),Duval,D2,T12,0
+IEC TC 10 (power transformers),Duval,D2,T3,0
+IEC TC 10 (power transformers),Duval,D2,Normal,3
+IEC TC 10 (power transformers),Duval,D2,D1/D2,0
+IEC TC 10 (power transformers),Duval,D2,DT,0
+IEC TC 10 (power transformers),Duval,D2,ND,0
+IEC TC 10 (power transformers),Duval,T12,PD,1
+IEC TC 10 (power transformers),Duval,T12,D1,0
+IEC TC 10 (power transformers),Duval,T12,D2,0
+IEC TC 10 (power transformers),Duval,T12,T12,3
+IEC TC 10 (power transformers),Duval,T12,T3,1
+IEC TC 10 (power transformers),Duval,T12,Normal,2
+IEC TC 10 (power transformers),Duval,T12,D1/D2,0
+IEC TC 10 (power transformers),Duval,T12,DT,1
+IEC TC 10 (power transformers),Duval,T12,ND,0
+IEC TC 10 (power transformers),Duval,T3,PD,0
+IEC TC 10 (power transformers),Duval,T3,D1,0
+IEC TC 10 (power transformers),Duval,T3,D2,0
+IEC TC 10 (power transformers),Duval,T3,T12,2
+IEC TC 10 (power transformers),Duval,T3,T3,9
+IEC TC 10 (power transformers),Duval,T3,Normal,1
+IEC TC 10 (power transformers),Duval,T3,D1/D2,0
+IEC TC 10 (power transformers),Duval,T3,DT,0
+IEC TC 10 (power transformers),Duval,T3,ND,0
+Li 2019,ML,PD,PD,4
+Li 2019,ML,PD,D1,1
+Li 2019,ML,PD,D2,0
+Li 2019,ML,PD,T1,3
+Li 2019,ML,PD,T2,0
+Li 2019,ML,PD,T3,0
+Li 2019,ML,PD,Normal,0
+Li 2019,ML,PD,D1/D2,0
+Li 2019,ML,PD,DT,0
+Li 2019,ML,PD,ND,0
+Li 2019,ML,D1,PD,0
+Li 2019,ML,D1,D1,17
+Li 2019,ML,D1,D2,6
+Li 2019,ML,D1,T1,0
+Li 2019,ML,D1,T2,0
+Li 2019,ML,D1,T3,0
+Li 2019,ML,D1,Normal,0
+Li 2019,ML,D1,D1/D2,0
+Li 2019,ML,D1,DT,0
+Li 2019,ML,D1,ND,0
+Li 2019,ML,D2,PD,0
+Li 2019,ML,D2,D1,2
+Li 2019,ML,D2,D2,4
+Li 2019,ML,D2,T1,0
+Li 2019,ML,D2,T2,0
+Li 2019,ML,D2,T3,1
+Li 2019,ML,D2,Normal,0
+Li 2019,ML,D2,D1/D2,0
+Li 2019,ML,D2,DT,0
+Li 2019,ML,D2,ND,0
+Li 2019,ML,T1,PD,4
+Li 2019,ML,T1,D1,0
+Li 2019,ML,T1,D2,0
+Li 2019,ML,T1,T1,7
+Li 2019,ML,T1,T2,1
+Li 2019,ML,T1,T3,2
+Li 2019,ML,T1,Normal,5
+Li 2019,ML,T1,D1/D2,0
+Li 2019,ML,T1,DT,0
+Li 2019,ML,T1,ND,0
+Li 2019,ML,T2,PD,0
+Li 2019,ML,T2,D1,0
+Li 2019,ML,T2,D2,0
+Li 2019,ML,T2,T1,1
+Li 2019,ML,T2,T2,4
+Li 2019,ML,T2,T3,2
+Li 2019,ML,T2,Normal,2
+Li 2019,ML,T2,D1/D2,0
+Li 2019,ML,T2,DT,0
+Li 2019,ML,T2,ND,0
+Li 2019,ML,T3,PD,0
+Li 2019,ML,T3,D1,0
+Li 2019,ML,T3,D2,1
+Li 2019,ML,T3,T1,0
+Li 2019,ML,T3,T2,1
+Li 2019,ML,T3,T3,18
+Li 2019,ML,T3,Normal,0
+Li 2019,ML,T3,D1/D2,0
+Li 2019,ML,T3,DT,0
+Li 2019,ML,T3,ND,0
+Li 2019,Rogers,PD,PD,0
+Li 2019,Rogers,PD,D1,0
+Li 2019,Rogers,PD,D2,0
+Li 2019,Rogers,PD,T1,0
+Li 2019,Rogers,PD,T2,0
+Li 2019,Rogers,PD,T3,0
+Li 2019,Rogers,PD,Normal,1
+Li 2019,Rogers,PD,D1/D2,0
+Li 2019,Rogers,PD,DT,0
+Li 2019,Rogers,PD,ND,7
+Li 2019,Rogers,D1,PD,0
+Li 2019,Rogers,D1,D1,0
+Li 2019,Rogers,D1,D2,2
+Li 2019,Rogers,D1,T1,0
+Li 2019,Rogers,D1,T2,0
+Li 2019,Rogers,D1,T3,0
+Li 2019,Rogers,D1,Normal,7
+Li 2019,Rogers,D1,D1/D2,0
+Li 2019,Rogers,D1,DT,0
+Li 2019,Rogers,D1,ND,14
+Li 2019,Rogers,D2,PD,0
+Li 2019,Rogers,D2,D1,0
+Li 2019,Rogers,D2,D2,4
+Li 2019,Rogers,D2,T1,0
+Li 2019,Rogers,D2,T2,0
+Li 2019,Rogers,D2,T3,0
+Li 2019,Rogers,D2,Normal,1
+Li 2019,Rogers,D2,D1/D2,0
+Li 2019,Rogers,D2,DT,0
+Li 2019,Rogers,D2,ND,2
+Li 2019,Rogers,T1,PD,0
+Li 2019,Rogers,T1,D1,0
+Li 2019,Rogers,T1,D2,0
+Li 2019,Rogers,T1,T1,1
+Li 2019,Rogers,T1,T2,0
+Li 2019,Rogers,T1,T3,1
+Li 2019,Rogers,T1,Normal,13
+Li 2019,Rogers,T1,D1/D2,0
+Li 2019,Rogers,T1,DT,0
+Li 2019,Rogers,T1,ND,4
+Li 2019,Rogers,T2,PD,0
+Li 2019,Rogers,T2,D1,0
+Li 2019,Rogers,T2,D2,0
+Li 2019,Rogers,T2,T1,1
+Li 2019,Rogers,T2,T2,2
+Li 2019,Rogers,T2,T3,1
+Li 2019,Rogers,T2,Normal,5
+Li 2019,Rogers,T2,D1/D2,0
+Li 2019,Rogers,T2,DT,0
+Li 2019,Rogers,T2,ND,0
+Li 2019,Rogers,T3,PD,0
+Li 2019,Rogers,T3,D1,0
+Li 2019,Rogers,T3,D2,1
+Li 2019,Rogers,T3,T1,0
+Li 2019,Rogers,T3,T2,1
+Li 2019,Rogers,T3,T3,8
+Li 2019,Rogers,T3,Normal,10
+Li 2019,Rogers,T3,D1/D2,0
+Li 2019,Rogers,T3,DT,0
+Li 2019,Rogers,T3,ND,0
+Li 2019,IEC60599,PD,PD,2
+Li 2019,IEC60599,PD,D1,0
+Li 2019,IEC60599,PD,D2,0
+Li 2019,IEC60599,PD,T1,1
+Li 2019,IEC60599,PD,T2,0
+Li 2019,IEC60599,PD,T3,0
+Li 2019,IEC60599,PD,Normal,1
+Li 2019,IEC60599,PD,D1/D2,0
+Li 2019,IEC60599,PD,DT,0
+Li 2019,IEC60599,PD,ND,4
+Li 2019,IEC60599,D1,PD,0
+Li 2019,IEC60599,D1,D1,7
+Li 2019,IEC60599,D1,D2,0
+Li 2019,IEC60599,D1,T1,0
+Li 2019,IEC60599,D1,T2,0
+Li 2019,IEC60599,D1,T3,0
+Li 2019,IEC60599,D1,Normal,7
+Li 2019,IEC60599,D1,D1/D2,2
+Li 2019,IEC60599,D1,DT,0
+Li 2019,IEC60599,D1,ND,7
+Li 2019,IEC60599,D2,PD,0
+Li 2019,IEC60599,D2,D1,0
+Li 2019,IEC60599,D2,D2,2
+Li 2019,IEC60599,D2,T1,0
+Li 2019,IEC60599,D2,T2,0
+Li 2019,IEC60599,D2,T3,0
+Li 2019,IEC60599,D2,Normal,1
+Li 2019,IEC60599,D2,D1/D2,2
+Li 2019,IEC60599,D2,DT,0
+Li 2019,IEC60599,D2,ND,2
+Li 2019,IEC60599,T1,PD,1
+Li 2019,IEC60599,T1,D1,0
+Li 2019,IEC60599,T1,D2,0
+Li 2019,IEC60599,T1,T1,1
+Li 2019,IEC60599,T1,T2,0
+Li 2019,IEC60599,T1,T3,1
+Li 2019,IEC60599,T1,Normal,13
+Li 2019,IEC60599,T1,D1/D2,0
+Li 2019,IEC60599,T1,DT,0
+Li 2019,IEC60599,T1,ND,3
+Li 2019,IEC60599,T2,PD,0
+Li 2019,IEC60599,T2,D1,0
+Li 2019,IEC60599,T2,D2,0
+Li 2019,IEC60599,T2,T1,0
+Li 2019,IEC60599,T2,T2,2
+Li 2019,IEC60599,T2,T3,1
+Li 2019,IEC60599,T2,Normal,5
+Li 2019,IEC60599,T2,D1/D2,0
+Li 2019,IEC60599,T2,DT,0
+Li 2019,IEC60599,T2,ND,1
+Li 2019,IEC60599,T3,PD,0
+Li 2019,IEC60599,T3,D1,0
+Li 2019,IEC60599,T3,D2,0
+Li 2019,IEC60599,T3,T1,0
+Li 2019,IEC60599,T3,T2,1
+Li 2019,IEC60599,T3,T3,8
+Li 2019,IEC60599,T3,Normal,10
+Li 2019,IEC60599,T3,D1/D2,0
+Li 2019,IEC60599,T3,DT,0
+Li 2019,IEC60599,T3,ND,1
+Li 2019,Duval,PD,PD,4
+Li 2019,Duval,PD,D1,1
+Li 2019,Duval,PD,D2,0
+Li 2019,Duval,PD,T1,2
+Li 2019,Duval,PD,T2,0
+Li 2019,Duval,PD,T3,0
+Li 2019,Duval,PD,Normal,1
+Li 2019,Duval,PD,D1/D2,0
+Li 2019,Duval,PD,DT,0
+Li 2019,Duval,PD,ND,0
+Li 2019,Duval,D1,PD,0
+Li 2019,Duval,D1,D1,14
+Li 2019,Duval,D1,D2,2
+Li 2019,Duval,D1,T1,0
+Li 2019,Duval,D1,T2,0
+Li 2019,Duval,D1,T3,0
+Li 2019,Duval,D1,Normal,7
+Li 2019,Duval,D1,D1/D2,0
+Li 2019,Duval,D1,DT,0
+Li 2019,Duval,D1,ND,0
+Li 2019,Duval,D2,PD,0
+Li 2019,Duval,D2,D1,0
+Li 2019,Duval,D2,D2,6
+Li 2019,Duval,D2,T1,0
+Li 2019,Duval,D2,T2,0
+Li 2019,Duval,D2,T3,0
+Li 2019,Duval,D2,Normal,1
+Li 2019,Duval,D2,D1/D2,0
+Li 2019,Duval,D2,DT,0
+Li 2019,Duval,D2,ND,0
+Li 2019,Duval,T1,PD,1
+Li 2019,Duval,T1,D1,0
+Li 2019,Duval,T1,D2,0
+Li 2019,Duval,T1,T1,4
+Li 2019,Duval,T1,T2,1
+Li 2019,Duval,T1,T3,0
+Li 2019,Duval,T1,Normal,13
+Li 2019,Duval,T1,D1/D2,0
+Li 2019,Duval,T1,DT,0
+Li 2019,Duval,T1,ND,0
+Li 2019,Duval,T2,PD,0
+Li 2019,Duval,T2,D1,0
+Li 2019,Duval,T2,D2,0
+Li 2019,Duval,T2,T1,0
+Li 2019,Duval,T2,T2,2
+Li 2019,Duval,T2,T3,2
+Li 2019,Duval,T2,Normal,5
+Li 2019,Duval,T2,D1/D2,0
+Li 2019,Duval,T2,DT,0
+Li 2019,Duval,T2,ND,0
+Li 2019,Duval,T3,PD,0
+Li 2019,Duval,T3,D1,0
+Li 2019,Duval,T3,D2,0
+Li 2019,Duval,T3,T1,0
+Li 2019,Duval,T3,T2,0
+Li 2019,Duval,T3,T3,9
+Li 2019,Duval,T3,Normal,10
+Li 2019,Duval,T3,D1/D2,0
+Li 2019,Duval,T3,DT,1
+Li 2019,Duval,T3,ND,0
+Internal test - all records,ML,Normal,Normal,7
+Internal test - all records,ML,Normal,PD,1
+Internal test - all records,ML,Normal,D1,0
+Internal test - all records,ML,Normal,D2,0
+Internal test - all records,ML,Normal,T1,1
+Internal test - all records,ML,Normal,T2,0
+Internal test - all records,ML,Normal,T3,1
+Internal test - all records,ML,Normal,D1/D2,0
+Internal test - all records,ML,Normal,DT,0
+Internal test - all records,ML,Normal,ND,0
+Internal test - all records,ML,PD,Normal,0
+Internal test - all records,ML,PD,PD,8
+Internal test - all records,ML,PD,D1,2
+Internal test - all records,ML,PD,D2,0
+Internal test - all records,ML,PD,T1,0
+Internal test - all records,ML,PD,T2,0
+Internal test - all records,ML,PD,T3,0
+Internal test - all records,ML,PD,D1/D2,0
+Internal test - all records,ML,PD,DT,0
+Internal test - all records,ML,PD,ND,0
+Internal test - all records,ML,D1,Normal,0
+Internal test - all records,ML,D1,PD,0
+Internal test - all records,ML,D1,D1,8
+Internal test - all records,ML,D1,D2,2
+Internal test - all records,ML,D1,T1,0
+Internal test - all records,ML,D1,T2,0
+Internal test - all records,ML,D1,T3,0
+Internal test - all records,ML,D1,D1/D2,0
+Internal test - all records,ML,D1,DT,0
+Internal test - all records,ML,D1,ND,0
+Internal test - all records,ML,D2,Normal,0
+Internal test - all records,ML,D2,PD,0
+Internal test - all records,ML,D2,D1,2
+Internal test - all records,ML,D2,D2,8
+Internal test - all records,ML,D2,T1,0
+Internal test - all records,ML,D2,T2,0
+Internal test - all records,ML,D2,T3,0
+Internal test - all records,ML,D2,D1/D2,0
+Internal test - all records,ML,D2,DT,0
+Internal test - all records,ML,D2,ND,0
+Internal test - all records,ML,T1,Normal,0
+Internal test - all records,ML,T1,PD,1
+Internal test - all records,ML,T1,D1,0
+Internal test - all records,ML,T1,D2,0
+Internal test - all records,ML,T1,T1,9
+Internal test - all records,ML,T1,T2,0
+Internal test - all records,ML,T1,T3,0
+Internal test - all records,ML,T1,D1/D2,0
+Internal test - all records,ML,T1,DT,0
+Internal test - all records,ML,T1,ND,0
+Internal test - all records,ML,T2,Normal,0
+Internal test - all records,ML,T2,PD,0
+Internal test - all records,ML,T2,D1,0
+Internal test - all records,ML,T2,D2,0
+Internal test - all records,ML,T2,T1,0
+Internal test - all records,ML,T2,T2,9
+Internal test - all records,ML,T2,T3,1
+Internal test - all records,ML,T2,D1/D2,0
+Internal test - all records,ML,T2,DT,0
+Internal test - all records,ML,T2,ND,0
+Internal test - all records,ML,T3,Normal,0
+Internal test - all records,ML,T3,PD,0
+Internal test - all records,ML,T3,D1,0
+Internal test - all records,ML,T3,D2,1
+Internal test - all records,ML,T3,T1,0
+Internal test - all records,ML,T3,T2,0
+Internal test - all records,ML,T3,T3,9
+Internal test - all records,ML,T3,D1/D2,0
+Internal test - all records,ML,T3,DT,0
+Internal test - all records,ML,T3,ND,0
+Internal test - all records,Rogers,Normal,Normal,10
+Internal test - all records,Rogers,Normal,PD,0
+Internal test - all records,Rogers,Normal,D1,0
+Internal test - all records,Rogers,Normal,D2,0
+Internal test - all records,Rogers,Normal,T1,0
+Internal test - all records,Rogers,Normal,T2,0
+Internal test - all records,Rogers,Normal,T3,0
+Internal test - all records,Rogers,Normal,D1/D2,0
+Internal test - all records,Rogers,Normal,DT,0
+Internal test - all records,Rogers,Normal,ND,0
+Internal test - all records,Rogers,PD,Normal,4
+Internal test - all records,Rogers,PD,PD,1
+Internal test - all records,Rogers,PD,D1,0
+Internal test - all records,Rogers,PD,D2,0
+Internal test - all records,Rogers,PD,T1,0
+Internal test - all records,Rogers,PD,T2,0
+Internal test - all records,Rogers,PD,T3,0
+Internal test - all records,Rogers,PD,D1/D2,0
+Internal test - all records,Rogers,PD,DT,0
+Internal test - all records,Rogers,PD,ND,5
+Internal test - all records,Rogers,D1,Normal,0
+Internal test - all records,Rogers,D1,PD,0
+Internal test - all records,Rogers,D1,D1,0
+Internal test - all records,Rogers,D1,D2,0
+Internal test - all records,Rogers,D1,T1,0
+Internal test - all records,Rogers,D1,T2,0
+Internal test - all records,Rogers,D1,T3,0
+Internal test - all records,Rogers,D1,D1/D2,0
+Internal test - all records,Rogers,D1,DT,0
+Internal test - all records,Rogers,D1,ND,10
+Internal test - all records,Rogers,D2,Normal,1
+Internal test - all records,Rogers,D2,PD,0
+Internal test - all records,Rogers,D2,D1,0
+Internal test - all records,Rogers,D2,D2,3
+Internal test - all records,Rogers,D2,T1,0
+Internal test - all records,Rogers,D2,T2,0
+Internal test - all records,Rogers,D2,T3,0
+Internal test - all records,Rogers,D2,D1/D2,0
+Internal test - all records,Rogers,D2,DT,0
+Internal test - all records,Rogers,D2,ND,6
+Internal test - all records,Rogers,T1,Normal,4
+Internal test - all records,Rogers,T1,PD,0
+Internal test - all records,Rogers,T1,D1,0
+Internal test - all records,Rogers,T1,D2,0
+Internal test - all records,Rogers,T1,T1,0
+Internal test - all records,Rogers,T1,T2,0
+Internal test - all records,Rogers,T1,T3,0
+Internal test - all records,Rogers,T1,D1/D2,0
+Internal test - all records,Rogers,T1,DT,0
+Internal test - all records,Rogers,T1,ND,6
+Internal test - all records,Rogers,T2,Normal,4
+Internal test - all records,Rogers,T2,PD,0
+Internal test - all records,Rogers,T2,D1,0
+Internal test - all records,Rogers,T2,D2,0
+Internal test - all records,Rogers,T2,T1,0
+Internal test - all records,Rogers,T2,T2,4
+Internal test - all records,Rogers,T2,T3,2
+Internal test - all records,Rogers,T2,D1/D2,0
+Internal test - all records,Rogers,T2,DT,0
+Internal test - all records,Rogers,T2,ND,0
+Internal test - all records,Rogers,T3,Normal,3
+Internal test - all records,Rogers,T3,PD,0
+Internal test - all records,Rogers,T3,D1,0
+Internal test - all records,Rogers,T3,D2,0
+Internal test - all records,Rogers,T3,T1,0
+Internal test - all records,Rogers,T3,T2,0
+Internal test - all records,Rogers,T3,T3,6
+Internal test - all records,Rogers,T3,D1/D2,0
+Internal test - all records,Rogers,T3,DT,0
+Internal test - all records,Rogers,T3,ND,1
+Internal test - all records,IEC60599,Normal,Normal,10
+Internal test - all records,IEC60599,Normal,PD,0
+Internal test - all records,IEC60599,Normal,D1,0
+Internal test - all records,IEC60599,Normal,D2,0
+Internal test - all records,IEC60599,Normal,T1,0
+Internal test - all records,IEC60599,Normal,T2,0
+Internal test - all records,IEC60599,Normal,T3,0
+Internal test - all records,IEC60599,Normal,D1/D2,0
+Internal test - all records,IEC60599,Normal,DT,0
+Internal test - all records,IEC60599,Normal,ND,0
+Internal test - all records,IEC60599,PD,Normal,4
+Internal test - all records,IEC60599,PD,PD,2
+Internal test - all records,IEC60599,PD,D1,0
+Internal test - all records,IEC60599,PD,D2,0
+Internal test - all records,IEC60599,PD,T1,0
+Internal test - all records,IEC60599,PD,T2,0
+Internal test - all records,IEC60599,PD,T3,0
+Internal test - all records,IEC60599,PD,D1/D2,0
+Internal test - all records,IEC60599,PD,DT,0
+Internal test - all records,IEC60599,PD,ND,4
+Internal test - all records,IEC60599,D1,Normal,0
+Internal test - all records,IEC60599,D1,PD,0
+Internal test - all records,IEC60599,D1,D1,3
+Internal test - all records,IEC60599,D1,D2,0
+Internal test - all records,IEC60599,D1,T1,0
+Internal test - all records,IEC60599,D1,T2,0
+Internal test - all records,IEC60599,D1,T3,0
+Internal test - all records,IEC60599,D1,D1/D2,2
+Internal test - all records,IEC60599,D1,DT,0
+Internal test - all records,IEC60599,D1,ND,5
+Internal test - all records,IEC60599,D2,Normal,1
+Internal test - all records,IEC60599,D2,PD,0
+Internal test - all records,IEC60599,D2,D1,0
+Internal test - all records,IEC60599,D2,D2,0
+Internal test - all records,IEC60599,D2,T1,0
+Internal test - all records,IEC60599,D2,T2,0
+Internal test - all records,IEC60599,D2,T3,0
+Internal test - all records,IEC60599,D2,D1/D2,3
+Internal test - all records,IEC60599,D2,DT,0
+Internal test - all records,IEC60599,D2,ND,6
+Internal test - all records,IEC60599,T1,Normal,2
+Internal test - all records,IEC60599,T1,PD,0
+Internal test - all records,IEC60599,T1,D1,0
+Internal test - all records,IEC60599,T1,D2,0
+Internal test - all records,IEC60599,T1,T1,5
+Internal test - all records,IEC60599,T1,T2,0
+Internal test - all records,IEC60599,T1,T3,0
+Internal test - all records,IEC60599,T1,D1/D2,0
+Internal test - all records,IEC60599,T1,DT,0
+Internal test - all records,IEC60599,T1,ND,3
+Internal test - all records,IEC60599,T2,Normal,4
+Internal test - all records,IEC60599,T2,PD,0
+Internal test - all records,IEC60599,T2,D1,0
+Internal test - all records,IEC60599,T2,D2,0
+Internal test - all records,IEC60599,T2,T1,0
+Internal test - all records,IEC60599,T2,T2,5
+Internal test - all records,IEC60599,T2,T3,1
+Internal test - all records,IEC60599,T2,D1/D2,0
+Internal test - all records,IEC60599,T2,DT,0
+Internal test - all records,IEC60599,T2,ND,0
+Internal test - all records,IEC60599,T3,Normal,3
+Internal test - all records,IEC60599,T3,PD,0
+Internal test - all records,IEC60599,T3,D1,0
+Internal test - all records,IEC60599,T3,D2,0
+Internal test - all records,IEC60599,T3,T1,0
+Internal test - all records,IEC60599,T3,T2,0
+Internal test - all records,IEC60599,T3,T3,6
+Internal test - all records,IEC60599,T3,D1/D2,0
+Internal test - all records,IEC60599,T3,DT,0
+Internal test - all records,IEC60599,T3,ND,1
+Internal test - all records,Duval,Normal,Normal,10
+Internal test - all records,Duval,Normal,PD,0
+Internal test - all records,Duval,Normal,D1,0
+Internal test - all records,Duval,Normal,D2,0
+Internal test - all records,Duval,Normal,T1,0
+Internal test - all records,Duval,Normal,T2,0
+Internal test - all records,Duval,Normal,T3,0
+Internal test - all records,Duval,Normal,D1/D2,0
+Internal test - all records,Duval,Normal,DT,0
+Internal test - all records,Duval,Normal,ND,0
+Internal test - all records,Duval,PD,Normal,4
+Internal test - all records,Duval,PD,PD,3
+Internal test - all records,Duval,PD,D1,0
+Internal test - all records,Duval,PD,D2,0
+Internal test - all records,Duval,PD,T1,0
+Internal test - all records,Duval,PD,T2,0
+Internal test - all records,Duval,PD,T3,1
+Internal test - all records,Duval,PD,D1/D2,0
+Internal test - all records,Duval,PD,DT,2
+Internal test - all records,Duval,PD,ND,0
+Internal test - all records,Duval,D1,Normal,0
+Internal test - all records,Duval,D1,PD,0
+Internal test - all records,Duval,D1,D1,7
+Internal test - all records,Duval,D1,D2,2
+Internal test - all records,Duval,D1,T1,0
+Internal test - all records,Duval,D1,T2,0
+Internal test - all records,Duval,D1,T3,0
+Internal test - all records,Duval,D1,D1/D2,0
+Internal test - all records,Duval,D1,DT,1
+Internal test - all records,Duval,D1,ND,0
+Internal test - all records,Duval,D2,Normal,1
+Internal test - all records,Duval,D2,PD,0
+Internal test - all records,Duval,D2,D1,2
+Internal test - all records,Duval,D2,D2,6
+Internal test - all records,Duval,D2,T1,0
+Internal test - all records,Duval,D2,T2,0
+Internal test - all records,Duval,D2,T3,0
+Internal test - all records,Duval,D2,D1/D2,0
+Internal test - all records,Duval,D2,DT,1
+Internal test - all records,Duval,D2,ND,0
+Internal test - all records,Duval,T1,Normal,2
+Internal test - all records,Duval,T1,PD,0
+Internal test - all records,Duval,T1,D1,0
+Internal test - all records,Duval,T1,D2,0
+Internal test - all records,Duval,T1,T1,6
+Internal test - all records,Duval,T1,T2,2
+Internal test - all records,Duval,T1,T3,0
+Internal test - all records,Duval,T1,D1/D2,0
+Internal test - all records,Duval,T1,DT,0
+Internal test - all records,Duval,T1,ND,0
+Internal test - all records,Duval,T2,Normal,4
+Internal test - all records,Duval,T2,PD,0
+Internal test - all records,Duval,T2,D1,0
+Internal test - all records,Duval,T2,D2,0
+Internal test - all records,Duval,T2,T1,0
+Internal test - all records,Duval,T2,T2,3
+Internal test - all records,Duval,T2,T3,3
+Internal test - all records,Duval,T2,D1/D2,0
+Internal test - all records,Duval,T2,DT,0
+Internal test - all records,Duval,T2,ND,0
+Internal test - all records,Duval,T3,Normal,3
+Internal test - all records,Duval,T3,PD,0
+Internal test - all records,Duval,T3,D1,0
+Internal test - all records,Duval,T3,D2,0
+Internal test - all records,Duval,T3,T1,0
+Internal test - all records,Duval,T3,T2,0
+Internal test - all records,Duval,T3,T3,7
+Internal test - all records,Duval,T3,D1/D2,0
+Internal test - all records,Duval,T3,DT,0
+Internal test - all records,Duval,T3,ND,0
+IEC TC 10 - all records,ML,PD,PD,8
+IEC TC 10 - all records,ML,PD,D1,0
+IEC TC 10 - all records,ML,PD,D2,0
+IEC TC 10 - all records,ML,PD,T12,1
+IEC TC 10 - all records,ML,PD,T3,0
+IEC TC 10 - all records,ML,PD,Normal,0
+IEC TC 10 - all records,ML,PD,D1/D2,0
+IEC TC 10 - all records,ML,PD,DT,0
+IEC TC 10 - all records,ML,PD,ND,0
+IEC TC 10 - all records,ML,D1,PD,0
+IEC TC 10 - all records,ML,D1,D1,16
+IEC TC 10 - all records,ML,D1,D2,10
+IEC TC 10 - all records,ML,D1,T12,0
+IEC TC 10 - all records,ML,D1,T3,0
+IEC TC 10 - all records,ML,D1,Normal,0
+IEC TC 10 - all records,ML,D1,D1/D2,0
+IEC TC 10 - all records,ML,D1,DT,0
+IEC TC 10 - all records,ML,D1,ND,0
+IEC TC 10 - all records,ML,D2,PD,0
+IEC TC 10 - all records,ML,D2,D1,4
+IEC TC 10 - all records,ML,D2,D2,44
+IEC TC 10 - all records,ML,D2,T12,0
+IEC TC 10 - all records,ML,D2,T3,0
+IEC TC 10 - all records,ML,D2,Normal,0
+IEC TC 10 - all records,ML,D2,D1/D2,0
+IEC TC 10 - all records,ML,D2,DT,0
+IEC TC 10 - all records,ML,D2,ND,0
+IEC TC 10 - all records,ML,T12,PD,2
+IEC TC 10 - all records,ML,T12,D1,0
+IEC TC 10 - all records,ML,T12,D2,1
+IEC TC 10 - all records,ML,T12,T12,11
+IEC TC 10 - all records,ML,T12,T3,1
+IEC TC 10 - all records,ML,T12,Normal,1
+IEC TC 10 - all records,ML,T12,D1/D2,0
+IEC TC 10 - all records,ML,T12,DT,0
+IEC TC 10 - all records,ML,T12,ND,0
+IEC TC 10 - all records,ML,T3,PD,0
+IEC TC 10 - all records,ML,T3,D1,0
+IEC TC 10 - all records,ML,T3,D2,3
+IEC TC 10 - all records,ML,T3,T12,5
+IEC TC 10 - all records,ML,T3,T3,10
+IEC TC 10 - all records,ML,T3,Normal,0
+IEC TC 10 - all records,ML,T3,D1/D2,0
+IEC TC 10 - all records,ML,T3,DT,0
+IEC TC 10 - all records,ML,T3,ND,0
+IEC TC 10 - all records,Rogers,PD,PD,1
+IEC TC 10 - all records,Rogers,PD,D1,0
+IEC TC 10 - all records,Rogers,PD,D2,0
+IEC TC 10 - all records,Rogers,PD,T12,0
+IEC TC 10 - all records,Rogers,PD,T3,0
+IEC TC 10 - all records,Rogers,PD,Normal,1
+IEC TC 10 - all records,Rogers,PD,D1/D2,0
+IEC TC 10 - all records,Rogers,PD,DT,0
+IEC TC 10 - all records,Rogers,PD,ND,7
+IEC TC 10 - all records,Rogers,D1,PD,0
+IEC TC 10 - all records,Rogers,D1,D1,0
+IEC TC 10 - all records,Rogers,D1,D2,7
+IEC TC 10 - all records,Rogers,D1,T12,0
+IEC TC 10 - all records,Rogers,D1,T3,0
+IEC TC 10 - all records,Rogers,D1,Normal,2
+IEC TC 10 - all records,Rogers,D1,D1/D2,0
+IEC TC 10 - all records,Rogers,D1,DT,0
+IEC TC 10 - all records,Rogers,D1,ND,17
+IEC TC 10 - all records,Rogers,D2,PD,0
+IEC TC 10 - all records,Rogers,D2,D1,0
+IEC TC 10 - all records,Rogers,D2,D2,36
+IEC TC 10 - all records,Rogers,D2,T12,0
+IEC TC 10 - all records,Rogers,D2,T3,0
+IEC TC 10 - all records,Rogers,D2,Normal,3
+IEC TC 10 - all records,Rogers,D2,D1/D2,0
+IEC TC 10 - all records,Rogers,D2,DT,0
+IEC TC 10 - all records,Rogers,D2,ND,9
+IEC TC 10 - all records,Rogers,T12,PD,1
+IEC TC 10 - all records,Rogers,T12,D1,0
+IEC TC 10 - all records,Rogers,T12,D2,0
+IEC TC 10 - all records,Rogers,T12,T12,4
+IEC TC 10 - all records,Rogers,T12,T3,3
+IEC TC 10 - all records,Rogers,T12,Normal,3
+IEC TC 10 - all records,Rogers,T12,D1/D2,0
+IEC TC 10 - all records,Rogers,T12,DT,0
+IEC TC 10 - all records,Rogers,T12,ND,5
+IEC TC 10 - all records,Rogers,T3,PD,0
+IEC TC 10 - all records,Rogers,T3,D1,0
+IEC TC 10 - all records,Rogers,T3,D2,0
+IEC TC 10 - all records,Rogers,T3,T12,2
+IEC TC 10 - all records,Rogers,T3,T3,10
+IEC TC 10 - all records,Rogers,T3,Normal,2
+IEC TC 10 - all records,Rogers,T3,D1/D2,0
+IEC TC 10 - all records,Rogers,T3,DT,0
+IEC TC 10 - all records,Rogers,T3,ND,4
+IEC TC 10 - all records,IEC60599,PD,PD,4
+IEC TC 10 - all records,IEC60599,PD,D1,0
+IEC TC 10 - all records,IEC60599,PD,D2,0
+IEC TC 10 - all records,IEC60599,PD,T12,0
+IEC TC 10 - all records,IEC60599,PD,T3,0
+IEC TC 10 - all records,IEC60599,PD,Normal,0
+IEC TC 10 - all records,IEC60599,PD,D1/D2,0
+IEC TC 10 - all records,IEC60599,PD,DT,0
+IEC TC 10 - all records,IEC60599,PD,ND,5
+IEC TC 10 - all records,IEC60599,D1,PD,0
+IEC TC 10 - all records,IEC60599,D1,D1,14
+IEC TC 10 - all records,IEC60599,D1,D2,0
+IEC TC 10 - all records,IEC60599,D1,T12,0
+IEC TC 10 - all records,IEC60599,D1,T3,0
+IEC TC 10 - all records,IEC60599,D1,Normal,2
+IEC TC 10 - all records,IEC60599,D1,D1/D2,4
+IEC TC 10 - all records,IEC60599,D1,DT,0
+IEC TC 10 - all records,IEC60599,D1,ND,6
+IEC TC 10 - all records,IEC60599,D2,PD,0
+IEC TC 10 - all records,IEC60599,D2,D1,2
+IEC TC 10 - all records,IEC60599,D2,D2,14
+IEC TC 10 - all records,IEC60599,D2,T12,0
+IEC TC 10 - all records,IEC60599,D2,T3,0
+IEC TC 10 - all records,IEC60599,D2,Normal,3
+IEC TC 10 - all records,IEC60599,D2,D1/D2,21
+IEC TC 10 - all records,IEC60599,D2,DT,0
+IEC TC 10 - all records,IEC60599,D2,ND,8
+IEC TC 10 - all records,IEC60599,T12,PD,1
+IEC TC 10 - all records,IEC60599,T12,D1,0
+IEC TC 10 - all records,IEC60599,T12,D2,0
+IEC TC 10 - all records,IEC60599,T12,T12,8
+IEC TC 10 - all records,IEC60599,T12,T3,1
+IEC TC 10 - all records,IEC60599,T12,Normal,3
+IEC TC 10 - all records,IEC60599,T12,D1/D2,0
+IEC TC 10 - all records,IEC60599,T12,DT,0
+IEC TC 10 - all records,IEC60599,T12,ND,3
+IEC TC 10 - all records,IEC60599,T3,PD,0
+IEC TC 10 - all records,IEC60599,T3,D1,0
+IEC TC 10 - all records,IEC60599,T3,D2,0
+IEC TC 10 - all records,IEC60599,T3,T12,5
+IEC TC 10 - all records,IEC60599,T3,T3,9
+IEC TC 10 - all records,IEC60599,T3,Normal,2
+IEC TC 10 - all records,IEC60599,T3,D1/D2,0
+IEC TC 10 - all records,IEC60599,T3,DT,0
+IEC TC 10 - all records,IEC60599,T3,ND,2
+IEC TC 10 - all records,Duval,PD,PD,9
+IEC TC 10 - all records,Duval,PD,D1,0
+IEC TC 10 - all records,Duval,PD,D2,0
+IEC TC 10 - all records,Duval,PD,T12,0
+IEC TC 10 - all records,Duval,PD,T3,0
+IEC TC 10 - all records,Duval,PD,Normal,0
+IEC TC 10 - all records,Duval,PD,D1/D2,0
+IEC TC 10 - all records,Duval,PD,DT,0
+IEC TC 10 - all records,Duval,PD,ND,0
+IEC TC 10 - all records,Duval,D1,PD,0
+IEC TC 10 - all records,Duval,D1,D1,19
+IEC TC 10 - all records,Duval,D1,D2,5
+IEC TC 10 - all records,Duval,D1,T12,0
+IEC TC 10 - all records,Duval,D1,T3,0
+IEC TC 10 - all records,Duval,D1,Normal,2
+IEC TC 10 - all records,Duval,D1,D1/D2,0
+IEC TC 10 - all records,Duval,D1,DT,0
+IEC TC 10 - all records,Duval,D1,ND,0
+IEC TC 10 - all records,Duval,D2,PD,0
+IEC TC 10 - all records,Duval,D2,D1,1
+IEC TC 10 - all records,Duval,D2,D2,44
+IEC TC 10 - all records,Duval,D2,T12,0
+IEC TC 10 - all records,Duval,D2,T3,0
+IEC TC 10 - all records,Duval,D2,Normal,3
+IEC TC 10 - all records,Duval,D2,D1/D2,0
+IEC TC 10 - all records,Duval,D2,DT,0
+IEC TC 10 - all records,Duval,D2,ND,0
+IEC TC 10 - all records,Duval,T12,PD,2
+IEC TC 10 - all records,Duval,T12,D1,0
+IEC TC 10 - all records,Duval,T12,D2,0
+IEC TC 10 - all records,Duval,T12,T12,7
+IEC TC 10 - all records,Duval,T12,T3,3
+IEC TC 10 - all records,Duval,T12,Normal,3
+IEC TC 10 - all records,Duval,T12,D1/D2,0
+IEC TC 10 - all records,Duval,T12,DT,1
+IEC TC 10 - all records,Duval,T12,ND,0
+IEC TC 10 - all records,Duval,T3,PD,0
+IEC TC 10 - all records,Duval,T3,D1,0
+IEC TC 10 - all records,Duval,T3,D2,0
+IEC TC 10 - all records,Duval,T3,T12,2
+IEC TC 10 - all records,Duval,T3,T3,14
+IEC TC 10 - all records,Duval,T3,Normal,2
+IEC TC 10 - all records,Duval,T3,D1/D2,0
+IEC TC 10 - all records,Duval,T3,DT,0
+IEC TC 10 - all records,Duval,T3,ND,0
+Li 2019 - all records,ML,PD,PD,11
+Li 2019 - all records,ML,PD,D1,1
+Li 2019 - all records,ML,PD,D2,0
+Li 2019 - all records,ML,PD,T12,4
+Li 2019 - all records,ML,PD,T3,0
+Li 2019 - all records,ML,PD,Normal,0
+Li 2019 - all records,ML,PD,D1/D2,0
+Li 2019 - all records,ML,PD,DT,0
+Li 2019 - all records,ML,PD,ND,0
+Li 2019 - all records,ML,D1,PD,0
+Li 2019 - all records,ML,D1,D1,33
+Li 2019 - all records,ML,D1,D2,16
+Li 2019 - all records,ML,D1,T12,0
+Li 2019 - all records,ML,D1,T3,0
+Li 2019 - all records,ML,D1,Normal,0
+Li 2019 - all records,ML,D1,D1/D2,0
+Li 2019 - all records,ML,D1,DT,0
+Li 2019 - all records,ML,D1,ND,0
+Li 2019 - all records,ML,D2,PD,0
+Li 2019 - all records,ML,D2,D1,6
+Li 2019 - all records,ML,D2,D2,47
+Li 2019 - all records,ML,D2,T12,0
+Li 2019 - all records,ML,D2,T3,1
+Li 2019 - all records,ML,D2,Normal,0
+Li 2019 - all records,ML,D2,D1/D2,0
+Li 2019 - all records,ML,D2,DT,0
+Li 2019 - all records,ML,D2,ND,0
+Li 2019 - all records,ML,T12,PD,6
+Li 2019 - all records,ML,T12,D1,0
+Li 2019 - all records,ML,T12,D2,1
+Li 2019 - all records,ML,T12,T12,24
+Li 2019 - all records,ML,T12,T3,5
+Li 2019 - all records,ML,T12,Normal,8
+Li 2019 - all records,ML,T12,D1/D2,0
+Li 2019 - all records,ML,T12,DT,0
+Li 2019 - all records,ML,T12,ND,0
+Li 2019 - all records,ML,T3,PD,0
+Li 2019 - all records,ML,T3,D1,0
+Li 2019 - all records,ML,T3,D2,4
+Li 2019 - all records,ML,T3,T12,6
+Li 2019 - all records,ML,T3,T3,28
+Li 2019 - all records,ML,T3,Normal,0
+Li 2019 - all records,ML,T3,D1/D2,0
+Li 2019 - all records,ML,T3,DT,0
+Li 2019 - all records,ML,T3,ND,0
+Li 2019 - all records,Rogers,PD,PD,1
+Li 2019 - all records,Rogers,PD,D1,0
+Li 2019 - all records,Rogers,PD,D2,0
+Li 2019 - all records,Rogers,PD,T12,0
+Li 2019 - all records,Rogers,PD,T3,0
+Li 2019 - all records,Rogers,PD,Normal,2
+Li 2019 - all records,Rogers,PD,D1/D2,0
+Li 2019 - all records,Rogers,PD,DT,0
+Li 2019 - all records,Rogers,PD,ND,13
+Li 2019 - all records,Rogers,D1,PD,0
+Li 2019 - all records,Rogers,D1,D1,0
+Li 2019 - all records,Rogers,D1,D2,9
+Li 2019 - all records,Rogers,D1,T12,0
+Li 2019 - all records,Rogers,D1,T3,0
+Li 2019 - all records,Rogers,D1,Normal,8
+Li 2019 - all records,Rogers,D1,D1/D2,0
+Li 2019 - all records,Rogers,D1,DT,0
+Li 2019 - all records,Rogers,D1,ND,32
+Li 2019 - all records,Rogers,D2,PD,0
+Li 2019 - all records,Rogers,D2,D1,0
+Li 2019 - all records,Rogers,D2,D2,41
+Li 2019 - all records,Rogers,D2,T12,0
+Li 2019 - all records,Rogers,D2,T3,0
+Li 2019 - all records,Rogers,D2,Normal,2
+Li 2019 - all records,Rogers,D2,D1/D2,0
+Li 2019 - all records,Rogers,D2,DT,0
+Li 2019 - all records,Rogers,D2,ND,11
+Li 2019 - all records,Rogers,T12,PD,1
+Li 2019 - all records,Rogers,T12,D1,0
+Li 2019 - all records,Rogers,T12,D2,0
+Li 2019 - all records,Rogers,T12,T12,8
+Li 2019 - all records,Rogers,T12,T3,5
+Li 2019 - all records,Rogers,T12,Normal,21
+Li 2019 - all records,Rogers,T12,D1/D2,0
+Li 2019 - all records,Rogers,T12,DT,0
+Li 2019 - all records,Rogers,T12,ND,9
+Li 2019 - all records,Rogers,T3,PD,0
+Li 2019 - all records,Rogers,T3,D1,0
+Li 2019 - all records,Rogers,T3,D2,1
+Li 2019 - all records,Rogers,T3,T12,3
+Li 2019 - all records,Rogers,T3,T3,18
+Li 2019 - all records,Rogers,T3,Normal,12
+Li 2019 - all records,Rogers,T3,D1/D2,0
+Li 2019 - all records,Rogers,T3,DT,0
+Li 2019 - all records,Rogers,T3,ND,4
+Li 2019 - all records,IEC60599,PD,PD,5
+Li 2019 - all records,IEC60599,PD,D1,0
+Li 2019 - all records,IEC60599,PD,D2,0
+Li 2019 - all records,IEC60599,PD,T12,1
+Li 2019 - all records,IEC60599,PD,T3,0
+Li 2019 - all records,IEC60599,PD,Normal,1
+Li 2019 - all records,IEC60599,PD,D1/D2,0
+Li 2019 - all records,IEC60599,PD,DT,0
+Li 2019 - all records,IEC60599,PD,ND,9
+Li 2019 - all records,IEC60599,D1,PD,0
+Li 2019 - all records,IEC60599,D1,D1,22
+Li 2019 - all records,IEC60599,D1,D2,0
+Li 2019 - all records,IEC60599,D1,T12,0
+Li 2019 - all records,IEC60599,D1,T3,0
+Li 2019 - all records,IEC60599,D1,Normal,8
+Li 2019 - all records,IEC60599,D1,D1/D2,6
+Li 2019 - all records,IEC60599,D1,DT,0
+Li 2019 - all records,IEC60599,D1,ND,13
+Li 2019 - all records,IEC60599,D2,PD,0
+Li 2019 - all records,IEC60599,D2,D1,2
+Li 2019 - all records,IEC60599,D2,D2,16
+Li 2019 - all records,IEC60599,D2,T12,0
+Li 2019 - all records,IEC60599,D2,T3,0
+Li 2019 - all records,IEC60599,D2,Normal,2
+Li 2019 - all records,IEC60599,D2,D1/D2,24
+Li 2019 - all records,IEC60599,D2,DT,0
+Li 2019 - all records,IEC60599,D2,ND,10
+Li 2019 - all records,IEC60599,T12,PD,2
+Li 2019 - all records,IEC60599,T12,D1,0
+Li 2019 - all records,IEC60599,T12,D2,0
+Li 2019 - all records,IEC60599,T12,T12,11
+Li 2019 - all records,IEC60599,T12,T3,3
+Li 2019 - all records,IEC60599,T12,Normal,21
+Li 2019 - all records,IEC60599,T12,D1/D2,0
+Li 2019 - all records,IEC60599,T12,DT,0
+Li 2019 - all records,IEC60599,T12,ND,7
+Li 2019 - all records,IEC60599,T3,PD,0
+Li 2019 - all records,IEC60599,T3,D1,0
+Li 2019 - all records,IEC60599,T3,D2,0
+Li 2019 - all records,IEC60599,T3,T12,6
+Li 2019 - all records,IEC60599,T3,T3,17
+Li 2019 - all records,IEC60599,T3,Normal,12
+Li 2019 - all records,IEC60599,T3,D1/D2,0
+Li 2019 - all records,IEC60599,T3,DT,0
+Li 2019 - all records,IEC60599,T3,ND,3
+Li 2019 - all records,Duval,PD,PD,12
+Li 2019 - all records,Duval,PD,D1,1
+Li 2019 - all records,Duval,PD,D2,0
+Li 2019 - all records,Duval,PD,T12,2
+Li 2019 - all records,Duval,PD,T3,0
+Li 2019 - all records,Duval,PD,Normal,1
+Li 2019 - all records,Duval,PD,D1/D2,0
+Li 2019 - all records,Duval,PD,DT,0
+Li 2019 - all records,Duval,PD,ND,0
+Li 2019 - all records,Duval,D1,PD,0
+Li 2019 - all records,Duval,D1,D1,34
+Li 2019 - all records,Duval,D1,D2,7
+Li 2019 - all records,Duval,D1,T12,0
+Li 2019 - all records,Duval,D1,T3,0
+Li 2019 - all records,Duval,D1,Normal,8
+Li 2019 - all records,Duval,D1,D1/D2,0
+Li 2019 - all records,Duval,D1,DT,0
+Li 2019 - all records,Duval,D1,ND,0
+Li 2019 - all records,Duval,D2,PD,0
+Li 2019 - all records,Duval,D2,D1,1
+Li 2019 - all records,Duval,D2,D2,51
+Li 2019 - all records,Duval,D2,T12,0
+Li 2019 - all records,Duval,D2,T3,0
+Li 2019 - all records,Duval,D2,Normal,2
+Li 2019 - all records,Duval,D2,D1/D2,0
+Li 2019 - all records,Duval,D2,DT,0
+Li 2019 - all records,Duval,D2,ND,0
+Li 2019 - all records,Duval,T12,PD,3
+Li 2019 - all records,Duval,T12,D1,0
+Li 2019 - all records,Duval,T12,D2,0
+Li 2019 - all records,Duval,T12,T12,14
+Li 2019 - all records,Duval,T12,T3,5
+Li 2019 - all records,Duval,T12,Normal,21
+Li 2019 - all records,Duval,T12,D1/D2,0
+Li 2019 - all records,Duval,T12,DT,1
+Li 2019 - all records,Duval,T12,ND,0
+Li 2019 - all records,Duval,T3,PD,0
+Li 2019 - all records,Duval,T3,D1,0
+Li 2019 - all records,Duval,T3,D2,0
+Li 2019 - all records,Duval,T3,T12,2
+Li 2019 - all records,Duval,T3,T3,23
+Li 2019 - all records,Duval,T3,Normal,12
+Li 2019 - all records,Duval,T3,D1/D2,0
+Li 2019 - all records,Duval,T3,DT,1
+Li 2019 - all records,Duval,T3,ND,0

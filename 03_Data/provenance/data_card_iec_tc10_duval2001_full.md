@@ -1,0 +1,20 @@
+# Data Card — IEC TC 10 Database of Faulty Equipment (full, transcribed from Duval & dePablo 2001)
+
+- **Source / citation:** M. Duval & A. dePablo, "Interpretation of gas-in-oil analysis using new IEC publication 60599 and IEC TC 10 databases," IEEE Electrical Insulation Magazine, vol. 17, no. 2, pp. 31–41, Mar/Apr 2001. DOI 10.1109/57.917529 (confirmed on IEEE Xplore 2026-10-10): https://doi.org/10.1109/57.917529 ; IEEE Xplore document 917529. Register entry: `data_and_source_register.csv` (DS1).
+- **How obtained:** Transcribed by Claude on 2026-10-08 from the user's PDF (`C:\Users\Silas Asare\Downloads\DGA.pdf`), Annex 1, Tables 2–6 (pages 34–37 of the journal / PDF pages 4–7). NOT an automated export — MANUAL transcription of printed tables.
+- **File:** `03_Data/raw/iec_tc10_duval2001_full/iec_tc10_faulty_equipment.csv` — SHA-256 `EF9F6B542821264AD89F1DA1D11DA9D6DBD5B79D66BE5159C263E8361EF77A6B` (recorded in Step 5, 2026-10-10). Step 5: 117 records; 99 have all five gases; missing (dash) cells: H2 1, CH4 1, C2H6 7, C2H4 3, C2H2 11; all values are integers; no zeros.
+- **Columns:** fault_class, equipment_type, inspection, H2, CH4, C2H2, C2H4, C2H6, CO, CO2, ref (gas order as printed in the paper).
+- **Records:** 117 faulty-equipment cases. Distribution: PD 9, D1 26, D2 48, T1/T2 16, T3 18.
+- **Gases and units:** 7 gases (H2, CH4, C2H2, C2H4, C2H6, CO, CO2). Units: ppm (Annex 1 does not restate units; Annex 2 of the same paper states "in ppm" — treated as ppm, TO VERIFY). Blank cell = value shown as "–" (not available / not detected) in the paper.
+- **How fault labels were established:** Visual inspection of equipment removed from service by experienced engineers; fault clearly identified; DGA available for correlation (per paper, Annex 1 intro). This is METHOD-INDEPENDENT labelling (inspection, not a ratio method) → strong candidate for the ML-vs-conventional benchmark.
+- **Fault class mapping to project scheme:** PD→1, D1→2, D2→3, T3→6. CAUTION: the paper's Table 5 combines T1 (<300 °C) and T2 (300–700 °C) and does NOT state which row is which, so these 16 cases cannot be split into classes 4 vs 5 without extra judgement — kept as "T1/T2". No "Normal" class in Annex 1 (normal values are in Annex 2, a different kind of table).
+- **Equipment-type codes:** P = power transformer w/o communicating OLTC; U = power transformer w/ communicating OLTC; R = reactor; I = instrument transformer; B = bushing; C = cable (Table 1). NOTE: code "S" (selector/OLTC) appears in the data but is NOT defined in Table 1 — kept verbatim, meaning inferred, TO VERIFY. For a power-transformer-only study, filter to P and U (and decide on U/OLTC contamination cases).
+- **Known overlap with other datasets:** The Dissanayake `IEC_TC_10_data.xlsx` (49 records, 5 gases, classes 0–6) is very likely a reduced/derived subset of THIS database. TO VERIFY row-level overlap and whether Dissanayake split T1/T2.
+- **Eligible for benchmark set?** LIKELY YES (inspection-confirmed labels), subject to: (a) verifying transcription, (b) deciding equipment-type filtering, (c) handling the T1/T2 split and CO/CO2 availability vs the 5-gas pipeline.
+- **Transcription verification (2026-10-08): FULLY VERIFIED.** Cell-by-cell cross-check of all 117 rows against the PDF source (Annex 1, Tables 2–6) completed; all numeric values, fault classes, equipment types, and blanks confirmed to match. The one implicit (undashed) empty cell — first D1 row, "Loosening of potential ring on bushing" — was confirmed by the user on 2026-10-08: value 784 is under CO2, with CO blank (as recorded). No discrepancies remain.
+- **Problems found / TO VERIFY:**
+  - Manual transcription — cross-checked and confirmed accurate (see verification note above).
+  - T1 vs T2 not separable from Annex 1 alone.
+  - Mixed equipment types (not only power transformers).
+  - Units assumed ppm.
+  - Annex 2 (typical/normal values, Tables 1–7) NOT transcribed here — available in the same PDF if "Normal"-class reference values are wanted later.

@@ -1,0 +1,826 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    19
+   ]
+  ],
+  "date-time": "2026-08-19T18:36:38Z",
+  "timestamp": 1787164598471,
+  "version": "build-2736575974"
+ },
+ "reference-count": 58,
+ "publisher": "PeerJ",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2025,
+      4,
+      23
+     ]
+    ],
+    "date-time": "2025-04-23T00:00:00Z",
+    "timestamp": 1745366400000
+   },
+   "content-version": "unspecified",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "name": "Directorate of Research and Community Service, Telkom University American International University-Bangladesh"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "abstract": "<jats:p>Integrating renewable energy sources into the power grid is becoming increasingly important as the world moves towards a more sustainable energy future in line with the United Nations (UN) Sustainable Development Goal (SDG) 7 (Affordable and Clean Energy). However, the intermittent nature of renewable energy sources can make it challenging to manage the power grid and ensure a stable supply of electricity, which is crucial for achieving SDG 9 (Industry, Innovation and Infrastructure). In this article, we propose a deep learning model for predicting energy demand in a smart power grid, which can improve the integration of renewable energy sources by providing accurate predictions of energy demand. Our approach aligns with SDG 13 (Climate Action) on climate action, enabling more efficient management of renewable energy resources. We use long short-term memory networks, well-suited for time series data, to capture complex patterns and dependencies in energy demand data. The proposed approach is evaluated using four historical short-term energy demand data datasets from different energy distribution companies, including American Electric Power, Commonwealth Edison, Dayton Power and Light, and Pennsylvania-New Jersey-Maryland Interconnection. The proposed model is compared with three other state-of-the-art forecasting algorithms: Facebook Prophet, support vector regression, and random forest regression. The experimental results show that the proposed REDf model can accurately predict energy demand with a mean absolute error of 1.4%, indicating its potential to enhance the stability and efficiency of the power grid and contribute to achieving SDGs 7, 9, and 13. The proposed model also has the potential to manage the integration of renewable energy sources effectively.</jats:p>",
+ "DOI": "10.7717/peerj-cs.2819",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2025,
+    4,
+    23
+   ]
+  ],
+  "date-time": "2025-04-23T04:20:38Z",
+  "timestamp": 1745382038000
+ },
+ "page": "e2819",
+ "source": "Crossref",
+ "is-referenced-by-count": 5,
+ "title": [
+  "REDf: a deep learning model for short-term load forecasting to facilitate renewable integration and attaining the SDGs 7, 9, and 13"
+ ],
+ "prefix": "10.7717",
+ "volume": "11",
+ "author": [
+  {
+   "given": "Md Saef Ullah",
+   "family": "Miah",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Department of Computer Science, American International University\u2014Bangladesh, Dhaka, Dhaka, Bangladesh"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Junaida",
+   "family": "Sulaiman",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Faculty of Computing, Universiti Malaysia Pahang Al-Sultan Abdullah, Pekan, Pahang, Malaysia"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Md Imamul",
+   "family": "Islam",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Faculty of Electrical and Electronics Engineering Technology, Universiti Malaysia Pahang Al-Sultan Abdullah, Pekan, Pahang, Malaysia"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-8039-3673",
+   "authenticated-orcid": true,
+   "given": "Md",
+   "family": "Masuduzzaman",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Degroote School of Business, McMaster University, Hamilton, Canada"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Molla Shahadat Hossain",
+   "family": "Lipu",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical and Electronic Engineering, Green University of Bangladesh, Dhaka, Dhaka, Bangladesh"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Ramdhan",
+   "family": "Nugraha",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Faculty of Electrical Engineering, Telkom University, Bandung, Indonesia"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "4443",
+ "published-online": {
+  "date-parts": [
+   [
+    2025,
+    4,
+    23
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "10.7717/peerj-cs.2819/ref-1",
+   "article-title": "TensorFlow: large-scale machine learning on heterogeneous distributed systems",
+   "author": "Abadi",
+   "year": "2015"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-2",
+   "article-title": "American electric power",
+   "author": "AEP",
+   "year": "2023"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-3",
+   "doi-asserted-by": "publisher",
+   "first-page": "588",
+   "DOI": "10.1134/S1019331620050111",
+   "article-title": "The Paris agreement on climate is coming into force: will the great energy transition take place?",
+   "volume": "90",
+   "author": "Akaev",
+   "year": "2020",
+   "journal-title": "Herald of the Russian Academy of Sciences"
+  },
+  {
+   "issue": "3",
+   "key": "10.7717/peerj-cs.2819/ref-4",
+   "doi-asserted-by": "publisher",
+   "first-page": "471",
+   "DOI": "10.3390/pr9030471",
+   "article-title": "An effective bi-stage method for renewable energy sources integration into unbalanced distribution systems considering uncertainty",
+   "volume": "9",
+   "author": "Ali",
+   "year": "2021",
+   "journal-title": "Processes"
+  },
+  {
+   "issue": "15",
+   "key": "10.7717/peerj-cs.2819/ref-5",
+   "doi-asserted-by": "publisher",
+   "first-page": "2666",
+   "DOI": "10.3390/math10152666",
+   "article-title": "Hybrid deep learning applied on Saudi smart grids for short-term load forecasting",
+   "volume": "10",
+   "author": "Alrasheedi",
+   "year": "2022",
+   "journal-title": "Mathematics"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-6",
+   "doi-asserted-by": "publisher",
+   "first-page": "153645",
+   "DOI": "10.1016/j.scitotenv.2022.153645",
+   "article-title": "Sustainable development of renewable energy integrated power sector: trends, environmental impacts, and recent challenges",
+   "volume": "822",
+   "author": "Al-Shetwi",
+   "year": "2022",
+   "journal-title": "Science of the Total Environment"
+  },
+  {
+   "issue": "Supplement 9",
+   "key": "10.7717/peerj-cs.2819/ref-7",
+   "doi-asserted-by": "publisher",
+   "first-page": "1084",
+   "DOI": "10.1016/j.egyr.2022.07.139",
+   "article-title": "Multivariate time series prediction by rnn architectures for energy consumption forecasting",
+   "volume": "8",
+   "author": "Amalou",
+   "year": "2022",
+   "journal-title": "Energy Reports"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-8",
+   "article-title": "Apache Kafka",
+   "author": "Apache Software Foundation",
+   "year": "2021"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-9",
+   "doi-asserted-by": "publisher",
+   "first-page": "39751",
+   "DOI": "10.1109/ACCESS.2023.3250110",
+   "article-title": "Energy demand forecasting and optimizing electric systems for developing countries",
+   "volume": "11",
+   "author": "Arnob",
+   "year": "2023",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-10",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.2139/ssrn.4309067",
+   "article-title": "Scaling investment in renewable energy generation to achieve sustainable development goals 7 (affordable and clean energy) and 13 (climate action) and the Paris agreement: roadblocks and drivers",
+   "author": "Aydos",
+   "year": "2022"
+  },
+  {
+   "issue": "4",
+   "key": "10.7717/peerj-cs.2819/ref-11",
+   "doi-asserted-by": "publisher",
+   "first-page": "43501",
+   "DOI": "10.1063/5.0156779",
+   "article-title": "Life cycle assessment of an agrivoltaic system with conventional potato production",
+   "volume": "15",
+   "author": "Busch",
+   "year": "2023",
+   "journal-title": "Journal of Renewable and Sustainable Energy"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-12",
+   "article-title": "Keras",
+   "author": "Chollet",
+   "year": "2015"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-13",
+   "article-title": "Secure sockets layer (SSL) protocol version 3.0",
+   "author": "Corporation Netscape Communications",
+   "year": "1996"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-14",
+   "first-page": "1597",
+   "article-title": "Gate-variants of gated recurrent unit (GRU) neural networks",
+   "author": "Dey",
+   "year": "2017"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-15",
+   "article-title": "UCI machine learning repository",
+   "author": "Dua",
+   "year": "2017"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-16",
+   "first-page": "235",
+   "article-title": "Access to solar energy for livelihood security in Odisha, India",
+   "author": "Giri",
+   "year": "2022"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-17",
+   "doi-asserted-by": "publisher",
+   "first-page": "100915",
+   "DOI": "10.1016/j.suscom.2023.100915",
+   "article-title": "Agrivoltaic system for energy-food production: a symbiotic approach on strategy, modelling, and optimization",
+   "volume": "40",
+   "author": "Giri",
+   "year": "2023",
+   "journal-title": "Sustainable Computing: Informatics and Systems"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-18",
+   "doi-asserted-by": "publisher",
+   "first-page": "84415",
+   "DOI": "10.1109/ACCESS.2020.2989316",
+   "article-title": "An innovative optimization strategy for efficient energy management with day-ahead demand response signal and energy consumption forecasting in smart grid using artificial neural network",
+   "volume": "8",
+   "author": "Hafeez",
+   "year": "2020",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-19",
+   "doi-asserted-by": "publisher",
+   "first-page": "119167",
+   "DOI": "10.1016/j.apenergy.2022.119167",
+   "article-title": "Linking SDG 7 to assess the renewable energy footprint of nations by 2030",
+   "volume": "317",
+   "author": "He",
+   "year": "2022",
+   "journal-title": "Applied Energy"
+  },
+  {
+   "issue": "8",
+   "key": "10.7717/peerj-cs.2819/ref-20",
+   "doi-asserted-by": "publisher",
+   "first-page": "1735",
+   "DOI": "10.1162/neco.1997.9.8.1735",
+   "article-title": "Long short-term memory",
+   "volume": "9",
+   "author": "Hochreiter",
+   "year": "1997",
+   "journal-title": "Neural Computation"
+  },
+  {
+   "issue": "8",
+   "key": "10.7717/peerj-cs.2819/ref-21",
+   "doi-asserted-by": "publisher",
+   "first-page": "2554",
+   "DOI": "10.1073/pnas.79.8.2554",
+   "article-title": "Neural networks and physical systems with emergent collective computational abilities",
+   "volume": "79",
+   "author": "Hopfield",
+   "year": "1982",
+   "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-22",
+   "first-page": "378",
+   "article-title": "Predicting the success of suicide terrorist attacks using different machine learning algorithms",
+   "author": "Hossain",
+   "year": "2022"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-23",
+   "article-title": "What are the latest trends in renewable energy?",
+   "author": "IRE Agency",
+   "year": "2023"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-24",
+   "article-title": "World energy transitions Outlook 2022: 1.5\u00b0c pathway",
+   "author": "IRENA",
+   "year": "2022"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-25",
+   "doi-asserted-by": "publisher",
+   "first-page": "e898",
+   "DOI": "10.7717/peerj-cs.898",
+   "article-title": "Application of machine learning algorithms to predict the thyroid disease risk: an experimental comparative study",
+   "volume": "8",
+   "author": "Islam",
+   "year": "2022",
+   "journal-title": "PeerJ Computer Science"
+  },
+  {
+   "issue": "10",
+   "key": "10.7717/peerj-cs.2819/ref-26",
+   "doi-asserted-by": "publisher",
+   "first-page": "4034",
+   "DOI": "10.3390/en16104034",
+   "article-title": "Techno-economic and carbon emission assessment of a large-scale floating solar PV system for sustainable energy generation in support of Malaysia\u2019s renewable energy roadmap",
+   "volume": "16",
+   "author": "Islam",
+   "year": "2023a",
+   "journal-title": "Energies"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-27",
+   "doi-asserted-by": "publisher",
+   "first-page": "102994",
+   "DOI": "10.1016/j.seta.2022.102994",
+   "article-title": "Feasibility analysis of floating photovoltaic power plant in Bangladesh: a case study in Hatirjheel Lake, Dhaka",
+   "volume": "55",
+   "author": "Islam",
+   "year": "2023b",
+   "journal-title": "Sustainable Energy Technologies and Assessments"
+  },
+  {
+   "issue": "4",
+   "key": "10.7717/peerj-cs.2819/ref-28",
+   "doi-asserted-by": "publisher",
+   "first-page": "917",
+   "DOI": "10.1007/s10618-019-00619-1",
+   "article-title": "Deep learning for time series classification: a review",
+   "volume": "33",
+   "author": "Ismail Fawaz",
+   "year": "2019",
+   "journal-title": "Data Mining and Knowledge Discovery"
+  },
+  {
+   "issue": "4",
+   "key": "10.7717/peerj-cs.2819/ref-29",
+   "doi-asserted-by": "publisher",
+   "first-page": "413",
+   "DOI": "10.15302/J-ENG-2015112",
+   "article-title": "An overview of the smart grid in great britain",
+   "volume": "1",
+   "author": "Jenkins",
+   "year": "2015",
+   "journal-title": "Engineering"
+  },
+  {
+   "issue": "11",
+   "key": "10.7717/peerj-cs.2819/ref-30",
+   "doi-asserted-by": "publisher",
+   "first-page": "3080",
+   "DOI": "10.37624/IJERT/13.11.2020.3080-3098",
+   "article-title": "Sustainability: the big challenge",
+   "volume": "13",
+   "author": "Joseph",
+   "year": "2020",
+   "journal-title": "International Journal of Engineering Research and Technology"
+  },
+  {
+   "issue": "1",
+   "key": "10.7717/peerj-cs.2819/ref-31",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1155/2022/8306473",
+   "article-title": "Predicting young imposter syndrome using ensemble learning",
+   "volume": "2022",
+   "author": "Khan",
+   "year": "2022",
+   "journal-title": "Complexity"
+  },
+  {
+   "issue": "11",
+   "key": "10.7717/peerj-cs.2819/ref-32",
+   "doi-asserted-by": "publisher",
+   "first-page": "2278",
+   "DOI": "10.1109/5.726791",
+   "article-title": "Gradient-based learning applied to document recognition",
+   "volume": "86",
+   "author": "LeCun",
+   "year": "1998",
+   "journal-title": "Proceedings of the IEEE"
+  },
+  {
+   "issue": "5",
+   "key": "10.7717/peerj-cs.2819/ref-33",
+   "doi-asserted-by": "publisher",
+   "first-page": "120291",
+   "DOI": "10.1016/j.apenergy.2022.120291",
+   "article-title": "Wind power forecasting considering data privacy protection: a federated deep reinforcement learning approach",
+   "volume": "329",
+   "author": "Li",
+   "year": "2023",
+   "journal-title": "Applied Energy"
+  },
+  {
+   "issue": "1",
+   "key": "10.7717/peerj-cs.2819/ref-34",
+   "doi-asserted-by": "publisher",
+   "first-page": "159",
+   "DOI": "10.1109/TSTE.2021.3105529",
+   "article-title": "Optimal scheduling of isolated microgrids using automated reinforcement learning-based multi-period forecasting",
+   "volume": "13",
+   "author": "Li",
+   "year": "2021",
+   "journal-title": "IEEE Transactions on Sustainable Energy"
+  },
+  {
+   "issue": "18",
+   "key": "10.7717/peerj-cs.2819/ref-35",
+   "doi-asserted-by": "publisher",
+   "first-page": "10570",
+   "DOI": "10.1016/j.egyr.2022.08.195",
+   "article-title": "Short-mid term electricity consumption prediction using non-intrusive attention-augmented deep learning model",
+   "volume": "8",
+   "author": "Li",
+   "year": "2022",
+   "journal-title": "Energy Reports"
+  },
+  {
+   "issue": "1",
+   "key": "10.7717/peerj-cs.2819/ref-36",
+   "doi-asserted-by": "publisher",
+   "first-page": "1",
+   "DOI": "10.1186/2192-0567-4-9",
+   "article-title": "Optimal renewable energy systems for industries in rural regions",
+   "volume": "4",
+   "author": "Maier",
+   "year": "2014",
+   "journal-title": "Energy, Sustainability and Society"
+  },
+  {
+   "issue": "3",
+   "key": "10.7717/peerj-cs.2819/ref-37",
+   "doi-asserted-by": "publisher",
+   "first-page": "205",
+   "DOI": "10.1504/IJCAT.2022.124940",
+   "article-title": "Efficient residential load forecasting using deep learning approach",
+   "volume": "68",
+   "author": "Mubashar",
+   "year": "2022",
+   "journal-title": "International Journal of Computer Applications in Technology"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-38",
+   "first-page": "353",
+   "article-title": "Electricity demand forecasting for smart grid based on deep learning approach",
+   "author": "Nguyen",
+   "year": "2020"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-39",
+   "article-title": "Hourly_energy_consumption/data at master",
+   "author": "Pereira",
+   "year": "2023"
+  },
+  {
+   "issue": "1",
+   "key": "10.7717/peerj-cs.2819/ref-40",
+   "doi-asserted-by": "publisher",
+   "first-page": "17756",
+   "DOI": "10.1038/s41598-019-53653-w",
+   "article-title": "The influence of urban form on the grid integration of renewable energy technologies and distributed energy systems",
+   "volume": "9",
+   "author": "Perera",
+   "year": "2019",
+   "journal-title": "Scientific Reports"
+  },
+  {
+   "issue": "17",
+   "key": "10.7717/peerj-cs.2819/ref-41",
+   "doi-asserted-by": "publisher",
+   "first-page": "3359",
+   "DOI": "10.3390/en12173359",
+   "article-title": "Deep learning-based short-term load forecasting for supporting demand response program in hybrid energy system",
+   "volume": "12",
+   "author": "Pramono",
+   "year": "2019",
+   "journal-title": "Energies"
+  },
+  {
+   "issue": "8",
+   "key": "10.7717/peerj-cs.2819/ref-42",
+   "doi-asserted-by": "publisher",
+   "first-page": "8465",
+   "DOI": "10.1016/j.egyr.2021.01.018",
+   "article-title": "Predicting the energy output of hybrid PV-wind renewable energy system using feature selection technique for smart grids",
+   "volume": "7",
+   "author": "Qadir",
+   "year": "2021",
+   "journal-title": "Energy Reports"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-43",
+   "first-page": "1",
+   "article-title": "2-D convolutional deep neural network for multivariate energy time series prediction",
+   "author": "Rosato",
+   "year": "2019"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-44",
+   "doi-asserted-by": "publisher",
+   "first-page": "69003",
+   "DOI": "10.1109/ACCESS.2020.2986317",
+   "article-title": "A qualitative study on the united states internet of energy: a step towards computational sustainability",
+   "volume": "8",
+   "author": "Sakib",
+   "year": "2020",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-45",
+   "first-page": "365",
+   "article-title": "Electrical energy consumption prediction using LSTM-RNN",
+   "author": "Shachee",
+   "year": "2022"
+  },
+  {
+   "issue": "8",
+   "key": "10.7717/peerj-cs.2819/ref-46",
+   "doi-asserted-by": "publisher",
+   "first-page": "132306",
+   "DOI": "10.1016/j.physd.2019.132306",
+   "article-title": "Fundamentals of recurrent neural network (RNN) and long short-term memory (LSTM) network",
+   "volume": "404",
+   "author": "Sherstinsky",
+   "year": "2020",
+   "journal-title": "Physica D: Nonlinear Phenomena"
+  },
+  {
+   "issue": "11",
+   "key": "10.7717/peerj-cs.2819/ref-47",
+   "doi-asserted-by": "publisher",
+   "first-page": "3926",
+   "DOI": "10.3390/en15113926",
+   "article-title": "A flexible deep learning method for energy forecasting",
+   "volume": "15",
+   "author": "Taleb",
+   "year": "2022",
+   "journal-title": "Energies"
+  },
+  {
+   "issue": "1",
+   "key": "10.7717/peerj-cs.2819/ref-48",
+   "doi-asserted-by": "publisher",
+   "first-page": "37",
+   "DOI": "10.1080/00031305.2017.1380080",
+   "article-title": "Forecasting at scale",
+   "volume": "72",
+   "author": "Taylor",
+   "year": "2018",
+   "journal-title": "The American Statistician"
+  },
+  {
+   "issue": "7",
+   "key": "10.7717/peerj-cs.2819/ref-49",
+   "doi-asserted-by": "publisher",
+   "first-page": "3833",
+   "DOI": "10.1177/0958305X241256293",
+   "article-title": "Optimizing renewable energy systems through artificial intelligence: review and future prospects",
+   "volume": "35",
+   "author": "Ukoba",
+   "year": "2024",
+   "journal-title": "Energy & Environment"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-50",
+   "author": "United Nations",
+   "year": "2023",
+   "journal-title": "Sustainable development goals 7: affordable and clean energy"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-51",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.18356/4d038e1e-en",
+   "article-title": "Affordable and clean energy",
+   "volume-title": "The Sustainable Development Goals Report 2017",
+   "author": "United Nations Department of Economic and Social Affairs",
+   "year": "2017"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-52",
+   "volume-title": "Python 3 reference manual",
+   "author": "Van Rossum",
+   "year": "2009"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-53",
+   "article-title": "Resilience (power system)",
+   "author": "Wikipedia collaborators",
+   "year": "2023a"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-54",
+   "article-title": "Smart grid",
+   "author": "Wikipedia collaborators",
+   "year": "2023b"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-55",
+   "article-title": "Wind power forecasting",
+   "author": "Wikipedia collaborators",
+   "year": "2023c"
+  },
+  {
+   "key": "10.7717/peerj-cs.2819/ref-56",
+   "doi-asserted-by": "publisher",
+   "first-page": "157633\u2013157642",
+   "DOI": "10.1109/ACCESS.2019.2949065",
+   "article-title": "A hybrid LSTM neural network for energy consumption forecasting of individual households",
+   "volume": "7",
+   "author": "Yan",
+   "year": "2019",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "issue": "4",
+   "key": "10.7717/peerj-cs.2819/ref-57",
+   "doi-asserted-by": "publisher",
+   "first-page": "128408",
+   "DOI": "10.1063/5.0159574",
+   "article-title": "A design of ultra-short-term power prediction algorithm driven by wind turbine operation and maintenance data for LSTM-SA neural network",
+   "volume": "15",
+   "author": "You",
+   "year": "2023",
+   "journal-title": "Journal of Renewable and Sustainable Energy"
+  },
+  {
+   "issue": "1",
+   "key": "10.7717/peerj-cs.2819/ref-58",
+   "doi-asserted-by": "publisher",
+   "first-page": "1",
+   "DOI": "10.1007/s12053-021-10010-z",
+   "article-title": "Revisiting SDG-7 under energy efficiency vision 2050: the role of new economic models and mass digitalization in OECD",
+   "volume": "15",
+   "author": "Yu",
+   "year": "2022",
+   "journal-title": "Energy Efficiency"
+  }
+ ],
+ "container-title": [
+  "PeerJ Computer Science"
+ ],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://peerj.com/articles/cs-2819.pdf",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://peerj.com/articles/cs-2819.xml",
+   "content-type": "application/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://peerj.com/articles/cs-2819.html",
+   "content-type": "text/html",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://peerj.com/articles/cs-2819.pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    4,
+    23
+   ]
+  ],
+  "date-time": "2025-04-23T04:20:46Z",
+  "timestamp": 1745382046000
+ },
+ "score": 106.31746,
+ "resource": {
+  "primary": {
+   "URL": "https://peerj.com/articles/cs-2819"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2025,
+    4,
+    23
+   ]
+  ]
+ },
+ "references-count": 58,
+ "alternative-id": [
+  "10.7717/peerj-cs.2819"
+ ],
+ "URL": "https://doi.org/10.7717/peerj-cs.2819",
+ "archive": [
+  "CLOCKSS",
+  "LOCKSS",
+  "Portico"
+ ],
+ "ISSN": [
+  "2376-5992"
+ ],
+ "issn-type": [
+  {
+   "value": "2376-5992",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2025,
+    4,
+    23
+   ]
+  ]
+ },
+ "article-number": "e2819"
+}

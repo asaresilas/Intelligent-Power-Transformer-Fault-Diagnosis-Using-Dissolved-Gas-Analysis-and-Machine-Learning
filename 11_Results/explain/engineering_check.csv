@@ -1,0 +1,7 @@
+class,expected_gases,top3_features,matching_features,consistent
+PD,H2,log_R1; log_H2; pct_H2,log_R1; log_H2; pct_H2,True
+D1,C2H2,duval_pct_C2H2; pct_C2H2; log_R1,duval_pct_C2H2; pct_C2H2,True
+D2,C2H2,duval_pct_C2H2; pct_C2H2; log_C2H2,duval_pct_C2H2; pct_C2H2; log_C2H2,True
+T1,C2H6/CH4,log_R1; log_R5; log_R4,log_R1; log_R5; log_R4,True
+T2,C2H4/CH4,log_R5; pct_C2H4; log_C2H4,log_R5; pct_C2H4; log_C2H4,True
+T3,C2H4,log_R5; pct_C2H4; log_R2,log_R5; pct_C2H4; log_R2,True

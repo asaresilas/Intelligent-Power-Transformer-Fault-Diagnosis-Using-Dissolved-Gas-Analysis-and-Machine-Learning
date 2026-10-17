@@ -1,0 +1,519 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    13
+   ]
+  ],
+  "date-time": "2026-10-13T05:31:30Z",
+  "timestamp": 1791869490354,
+  "version": "4.3.4"
+ },
+ "reference-count": 37,
+ "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+ "issue": "6",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2018,
+      11,
+      1
+     ]
+    ],
+    "date-time": "2018-11-01T00:00:00Z",
+    "timestamp": 1541030400000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+  }
+ ],
+ "funder": [
+  {
+   "name": "German Federal Ministry for Economic Affairs and Energy"
+  },
+  {
+   "name": "Projekttr&#x00E4;ger J&#x00FC;lich GmbH"
+  },
+  {
+   "name": "Smart Grid Models",
+   "award": [
+    "FKZ: 0325616"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "FKZ: 0325616"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "OpSimEval",
+   "award": [
+    "FKZ: 0325782A"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "FKZ: 0325782A"
+     ]
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "IEEE Trans. Power Syst."
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2018,
+    11
+   ]
+  ]
+ },
+ "DOI": "10.1109/tpwrs.2018.2829021",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2018,
+    4,
+    20
+   ]
+  ],
+  "date-time": "2018-04-20T14:08:06Z",
+  "timestamp": 1524233286000
+ },
+ "page": "6510-6521",
+ "source": "Crossref",
+ "is-referenced-by-count": 1122,
+ "title": [
+  "Pandapower\u2014An Open-Source Python Tool for Convenient Modeling, Analysis, and Optimization of Electric Power Systems"
+ ],
+ "prefix": "10.1109",
+ "volume": "33",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0003-2452-9323",
+   "authenticated-orcid": false,
+   "given": "Leon",
+   "family": "Thurner",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Department of Energy Management and Power System Operation, University of Kassel, Kassel, Germany"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Alexander",
+   "family": "Scheidler",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Distribution Systems Operation, Fraunhofer Institute for Energy Economics and Energy System Technology, Kassel, Germany"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Florian",
+   "family": "Schafer",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Energy Management and Power System Operation, University of Kassel, Kassel, Germany"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0001-6293-5061",
+   "authenticated-orcid": false,
+   "given": "Jan-Hendrik",
+   "family": "Menke",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Energy Management and Power System Operation, University of Kassel, Kassel, Germany"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Julian",
+   "family": "Dollichon",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Distribution Systems Operation, Fraunhofer Institute for Energy Economics and Energy System Technology, Kassel, Germany"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Friederike",
+   "family": "Meier",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Distribution Systems Operation, Fraunhofer Institute for Energy Economics and Energy System Technology, Kassel, Germany"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Steffen",
+   "family": "Meinecke",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Energy Management and Power System Operation, University of Kassel, Kassel, Germany"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-0857-6760",
+   "authenticated-orcid": false,
+   "given": "Martin",
+   "family": "Braun",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Energy Management and Power System Operation, University of Kassel, Kassel, Germany"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "ref33",
+   "article-title": "Benchmark systems for network integration of renewable and distributed energy resources",
+   "volume": "6",
+   "author": "strunz",
+   "year": "2009",
+   "journal-title": "Cigre? - Task Force"
+  },
+  {
+   "key": "ref32",
+   "first-page": "11",
+   "article-title": "Exploring\n network structure, dynamics, and function using NetworkX",
+   "author": "hagberg",
+   "year": "0",
+   "journal-title": "Proc 7th Python Sci Conf"
+  },
+  {
+   "key": "ref31",
+   "year": "2016"
+  },
+  {
+   "key": "ref30",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1201/9780203913673",
+   "author": "abur",
+   "year": "2004",
+   "journal-title": "Power System State Estimation Theory and Implementation"
+  },
+  {
+   "key": "ref37",
+   "year": "2018",
+   "journal-title": "pandapower github repository"
+  },
+  {
+   "key": "ref36",
+   "year": "2018"
+  },
+  {
+   "key": "ref35",
+   "article-title": "Collaborative data science",
+   "year": "2015",
+   "journal-title": "Plotly Technologies Inc"
+  },
+  {
+   "key": "ref34",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MCSE.2007.55"
+  },
+  {
+   "key": "ref10",
+   "article-title": "Gridcal&#x2014;Research oriented power systems software",
+   "author": "vera",
+   "year": "2018"
+  },
+  {
+   "key": "ref11",
+   "article-title": "PyPSA&#x2014;Python for power system analysis",
+   "volume": "6",
+   "author": "brown",
+   "year": "2018"
+  },
+  {
+   "key": "ref12",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1063/1.4962415"
+  },
+  {
+   "key": "ref13",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/NAPS.2016.7747925"
+  },
+  {
+   "key": "ref14",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/PES.2011.6039829"
+  },
+  {
+   "key": "ref15",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDC.2008.4517260"
+  },
+  {
+   "key": "ref16",
+   "article-title": "SciPy: Open source scientific tools for Python",
+   "author": "jones",
+   "year": "2001"
+  },
+  {
+   "key": "ref17",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2017.0729"
+  },
+  {
+   "key": "ref18",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-rpg.2017.0394"
+  },
+  {
+   "key": "ref19",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.ijepes.2017.08.023"
+  },
+  {
+   "key": "ref28",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRS.2007.901301"
+  },
+  {
+   "key": "ref4",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TSG.2013.2281001"
+  },
+  {
+   "key": "ref27",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRD.2003.813818"
+  },
+  {
+   "key": "ref3",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRS.2010.2051168"
+  },
+  {
+   "key": "ref6",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRS.2010.2071888"
+  },
+  {
+   "key": "ref29",
+   "article-title": "On the computation and application of multi-period\n security-constrained optimal power flow for real-time electricity market operations",
+   "author": "wang",
+   "year": "2007"
+  },
+  {
+   "key": "ref5",
+   "article-title": "Learning to trade power",
+   "author": "lincoln",
+   "year": "2011"
+  },
+  {
+   "key": "ref8",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TPWRS.2005.851911"
+  },
+  {
+   "key": "ref7",
+   "article-title": "pypower-dynamics",
+   "author": "susanto",
+   "year": "2018"
+  },
+  {
+   "key": "ref2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/PES.2009.5275920"
+  },
+  {
+   "key": "ref9",
+   "first-page": "1",
+   "article-title": "A python-based software tool for power system analysis",
+   "author": "milano",
+   "year": "0",
+   "journal-title": "Proc IEEE Power Energy Soc Gen Meeting"
+  },
+  {
+   "key": "ref1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.esr.2017.12.002"
+  },
+  {
+   "key": "ref20",
+   "first-page": "1",
+   "article-title": "Reactive power coordination on strategies with\n distributed generators in distribution networks",
+   "author": "wang",
+   "year": "0",
+   "journal-title": "Proc 1st Int Conf Large-Scale Grid Integr Renew Energy India"
+  },
+  {
+   "key": "ref22",
+   "year": "0",
+   "journal-title": "pandapower documentation"
+  },
+  {
+   "key": "ref21",
+   "first-page": "1",
+   "article-title": "pandas: A foundational python library for data analysis and\n statistics",
+   "author": "mckinney",
+   "year": "0",
+   "journal-title": "Proc Workshop Python High Perform Sci Comput"
+  },
+  {
+   "key": "ref24",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/T-AIEE.1949.5059947"
+  },
+  {
+   "key": "ref23",
+   "volume": "71",
+   "year": "0"
+  },
+  {
+   "key": "ref26",
+   "article-title": "Numba: A\n LLVM-based Python JIT compiler",
+   "author": "lam",
+   "year": "0",
+   "journal-title": "Proc 2nd Workshop LLVM Compiler Infrastructure HPC"
+  },
+  {
+   "key": "ref25",
+   "author": "grainger",
+   "year": "1994",
+   "journal-title": "Power System Analysis"
+  }
+ ],
+ "container-title": [
+  "IEEE Transactions on Power Systems"
+ ],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx7/59/8496918/08344496.pdf?arnumber=8344496",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2022,
+    1,
+    26
+   ]
+  ],
+  "date-time": "2022-01-26T12:22:17Z",
+  "timestamp": 1643199737000
+ },
+ "score": 98.43238,
+ "resource": {
+  "primary": {
+   "URL": "https://ieeexplore.ieee.org/document/8344496/"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2018,
+    11
+   ]
+  ]
+ },
+ "references-count": 37,
+ "journal-issue": {
+  "issue": "6"
+ },
+ "URL": "https://doi.org/10.1109/tpwrs.2018.2829021",
+ "ISSN": [
+  "0885-8950",
+  "1558-0679"
+ ],
+ "issn-type": [
+  {
+   "value": "0885-8950",
+   "type": "print"
+  },
+  {
+   "value": "1558-0679",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2018,
+    11
+   ]
+  ]
+ }
+}

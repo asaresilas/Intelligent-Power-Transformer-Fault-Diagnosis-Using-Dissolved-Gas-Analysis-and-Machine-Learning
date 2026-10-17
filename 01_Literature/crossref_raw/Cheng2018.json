@@ -1,0 +1,2489 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    3
+   ]
+  ],
+  "date-time": "2026-08-03T09:41:47Z",
+  "timestamp": 1785750107019,
+  "version": "3.56.0"
+ },
+ "reference-count": 278,
+ "publisher": "MDPI AG",
+ "issue": "4",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2018,
+      4,
+      12
+     ]
+    ],
+    "date-time": "2018-04-12T00:00:00Z",
+    "timestamp": 1523491200000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "Energies"
+ ],
+ "abstract": "<jats:p>Compared with conventional methods of fault diagnosis for power transformers, which have defects such as imperfect encoding and too absolute encoding boundaries, this paper systematically discusses various intelligent approaches applied in fault diagnosis and decision making for large oil-immersed power transformers based on dissolved gas analysis (DGA), including expert system (EPS), artificial neural network (ANN), fuzzy theory, rough sets theory (RST), grey system theory (GST), swarm intelligence (SI) algorithms, data mining technology, machine learning (ML), and other intelligent diagnosis tools, and summarizes existing problems and solutions. From this survey, it is found that a single intelligent approach for fault diagnosis can only reflect operation status of the transformer in one particular aspect, causing various degrees of shortcomings that cannot be resolved effectively. Combined with the current research status in this field, the problems that must be addressed in DGA-based transformer fault diagnosis are identified, and the prospects for future development trends and research directions are outlined. This contribution presents a detailed and systematic survey on various intelligent approaches to faults diagnosing and decisions making of the power transformer, in which their merits and demerits are thoroughly investigated, as well as their improvement schemes and future development trends are proposed. Moreover, this paper concludes that a variety of intelligent algorithms should be combined for mutual complementation to form a hybrid fault diagnosis network, such that avoiding these algorithms falling into a local optimum. Moreover, it is necessary to improve the detection instruments so as to acquire reasonable characteristic gas data samples. The research summary, empirical generalization and analysis of predicament in this paper provide some thoughts and suggestions for the research of complex power grid in the new environment, as well as references and guidance for researchers to choose optimal approach to achieve DGA-based fault diagnosis and decision of the large oil-immersed power transformers in preventive electrical tests.</jats:p>",
+ "DOI": "10.3390/en11040913",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2018,
+    4,
+    12
+   ]
+  ],
+  "date-time": "2018-04-12T12:19:27Z",
+  "timestamp": 1523535567000
+ },
+ "page": "913",
+ "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 56,
+ "title": [
+  "Dissolved Gas Analysis Principle-Based Intelligent Approaches to Fault Diagnosis and Decision Making for Large Oil-Immersed Power Transformers: A Survey"
+ ],
+ "prefix": "10.3390",
+ "volume": "11",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0002-7007-7535",
+   "authenticated-orcid": false,
+   "given": "Lefeng",
+   "family": "Cheng",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "School of Electric Power, South China University of Technology, Guangzhou 510640, China"
+    },
+    {
+     "name": "Guangdong Key Laboratory of Clean Energy Technology, Guangzhou 510640, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-0143-261X",
+   "authenticated-orcid": false,
+   "given": "Tao",
+   "family": "Yu",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "School of Electric Power, South China University of Technology, Guangzhou 510640, China"
+    },
+    {
+     "name": "Guangdong Key Laboratory of Clean Energy Technology, Guangzhou 510640, China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "1968",
+ "published-online": {
+  "date-parts": [
+   [
+    2018,
+    4,
+    12
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref_1",
+   "doi-asserted-by": "crossref",
+   "first-page": "1362",
+   "DOI": "10.3390/en4091362",
+   "article-title": "Reliability evaluation method for oil-paper insulation in power transformers",
+   "volume": "4",
+   "author": "Wang",
+   "year": "2011",
+   "journal-title": "Energies"
+  },
+  {
+   "key": "ref_2",
+   "doi-asserted-by": "crossref",
+   "first-page": "4246",
+   "DOI": "10.3390/en6084246",
+   "article-title": "Analysis and simulation of fault characteristics of power switch failures in distribution electronic power transformers",
+   "volume": "6",
+   "author": "Sang",
+   "year": "2013",
+   "journal-title": "Energies"
+  },
+  {
+   "key": "ref_3",
+   "unstructured": "Sun, C.X., Chen, W.G., Li, J., and Liao, R.J. (2003). Online Monitoring and Fault Diagnosis of Dissolved Gas in Electrical Equipment Oil, Science Press."
+  },
+  {
+   "key": "ref_4",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Tenbohlen, S., Coenen, S., Djamali, M., M\u00fcller, A., Samimi, M.H., and Siegel, M. (2016). Diagnostic measurements for power transformers. Energies, 9.",
+   "DOI": "10.3390/en9050347"
+  },
+  {
+   "key": "ref_5",
+   "doi-asserted-by": "crossref",
+   "first-page": "73",
+   "DOI": "10.1016/j.epsr.2011.09.012",
+   "article-title": "Power transformer fault diagnosis based on dissolved gas analysis by support vector machine",
+   "volume": "83",
+   "author": "Bacha",
+   "year": "2012",
+   "journal-title": "Electr. Power Syst. Res."
+  },
+  {
+   "key": "ref_6",
+   "doi-asserted-by": "crossref",
+   "first-page": "1081",
+   "DOI": "10.3390/en5041081",
+   "article-title": "Canonical correlation between partial discharges and gas formation in transformer oil paper insulation",
+   "volume": "5",
+   "author": "Chen",
+   "year": "2012",
+   "journal-title": "Energies"
+  },
+  {
+   "key": "ref_7",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Xiang, C.M., Zhou, Q., Li, J., Huang, Q.D., Song, H.Y., and Zhang, Z.T. (2016). Comparison of dissolved gases in mineral and vegetable insulating oils under typical electrical and thermal faults. Energies, 9.",
+   "DOI": "10.3390/en9050312"
+  },
+  {
+   "key": "ref_8",
+   "doi-asserted-by": "crossref",
+   "first-page": "201",
+   "DOI": "10.1016/j.rser.2015.02.052",
+   "article-title": "A review of monitoring methods for predictive maintenance of electric power transformers based on dissolved gas analysis",
+   "volume": "46",
+   "author": "Haroldo",
+   "year": "2015",
+   "journal-title": "Renew. Sustain. Energy Rev."
+  },
+  {
+   "key": "ref_9",
+   "doi-asserted-by": "crossref",
+   "first-page": "1239",
+   "DOI": "10.1109/TDEI.2017.005959",
+   "article-title": "Dissolved gas analysis evaluation in electric power transformers using conventional methods a review",
+   "volume": "24",
+   "author": "Faiz",
+   "year": "2017",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_10",
+   "unstructured": "Ministry of Electric Power, People\u2019s Republic of China (2000). DL/T722-2000 Guides for Analysis and Judgement of Dissolved Gases in Transformer Oil."
+  },
+  {
+   "key": "ref_11",
+   "first-page": "64",
+   "article-title": "Analysis and treatment of abnormality of characteristic gas contents caused by bad breath in electric locomotive main transformer",
+   "volume": "50",
+   "author": "Liu",
+   "year": "2013",
+   "journal-title": "Transformer"
+  },
+  {
+   "key": "ref_12",
+   "first-page": "2527",
+   "article-title": "Pd-Doped SnO2-based sensor detecting characteristic fault hydrocarbon gases in transformer oil",
+   "volume": "1",
+   "author": "Chen",
+   "year": "2013",
+   "journal-title": "J. Nanomater."
+  },
+  {
+   "key": "ref_13",
+   "unstructured": "Wan, F., Chen, W.G., Peng, X.J., and Shi, J. (2012, January 17\u201320). Study on the gas pressure characteristics of photoacoustic spectroscopy detection for dissolved gases in transformer oil. Proceedings of the 2012 IEEE International Conference on High Voltage Engineering and Application, Shanghai, China."
+  },
+  {
+   "key": "ref_14",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Chen, X., Chen, W.G., and Gan, D.G. (2010, January 17\u201320). Properties and gas production law of surface discharge in transformer oil-paper insulation. Proceedings of the IEEE 2010 Annual Report Conference on Electrical Insulation and Dielectric Phenomena, West Lafayette, IN, USA.",
+   "DOI": "10.1109/CEIDP.2010.5724049"
+  },
+  {
+   "key": "ref_15",
+   "first-page": "1446",
+   "article-title": "Research on the dynamic monitoring cycle adjustment strategy of transformer chromatography on-line monitoring devices",
+   "volume": "34",
+   "author": "Liang",
+   "year": "2014",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_16",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zeng, W.L., Yang, Y.F., Gan, C.Y., and Liu, G. (2011, January 25\u201328). Study on intelligent development of power transformer on-line monitoring based on the data of DGA. Proceedings of the IEEE Computer Society Asia-Pacific Power and Energy Engineering Conference, Wuhan, China.",
+   "DOI": "10.1109/APPEEC.2011.5749107"
+  },
+  {
+   "key": "ref_17",
+   "doi-asserted-by": "crossref",
+   "first-page": "93",
+   "DOI": "10.1002/eej.4391150109",
+   "article-title": "Gas discrimination method for detecting transformer faults by neural network",
+   "volume": "115",
+   "author": "Nogami",
+   "year": "1995",
+   "journal-title": "Electr. Eng. Jpn."
+  },
+  {
+   "key": "ref_18",
+   "doi-asserted-by": "crossref",
+   "first-page": "29",
+   "DOI": "10.4028/www.scientific.net/AMR.1030-1032.29",
+   "article-title": "Application of the improved three-ratio method in chromatographic analysis of locomotive transformer oil",
+   "volume": "1030\u20131032",
+   "author": "Jiang",
+   "year": "2014",
+   "journal-title": "Adv. Mater. Res."
+  },
+  {
+   "key": "ref_19",
+   "first-page": "66",
+   "article-title": "New fault diagnosis method of power transformer by combination of FCM and IEC three-ratio method",
+   "volume": "33",
+   "author": "Yang",
+   "year": "2007",
+   "journal-title": "High Volt. Eng."
+  },
+  {
+   "key": "ref_20",
+   "first-page": "114",
+   "article-title": "Diagnosis of power transformer faults based on five fuzzy ratio method",
+   "volume": "7",
+   "author": "Dhote",
+   "year": "2012",
+   "journal-title": "Wseas Trans. Power Syst."
+  },
+  {
+   "key": "ref_21",
+   "first-page": "129",
+   "article-title": "Application of grey correlation analysis method in transformer fault diagnosis with missing code in three-ratio method",
+   "volume": "33",
+   "author": "Xu",
+   "year": "2017",
+   "journal-title": "Bull. Sci. Technol."
+  },
+  {
+   "key": "ref_22",
+   "doi-asserted-by": "crossref",
+   "first-page": "6",
+   "DOI": "10.1109/MEI.2015.7303257",
+   "article-title": "Study of code absence in the IEC three-ratio method of dissolved gas analysis",
+   "volume": "31",
+   "author": "Liu",
+   "year": "2015",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_23",
+   "first-page": "115",
+   "article-title": "A calculation method for transformer fault basic probability assignment based on improved three-ratio method",
+   "volume": "43",
+   "author": "Zhang",
+   "year": "2015",
+   "journal-title": "Power Syst. Prot. Control"
+  },
+  {
+   "key": "ref_24",
+   "first-page": "4129",
+   "article-title": "An improved three-ratio method for transformer fault diagnosis using B-spline theory",
+   "volume": "34",
+   "author": "Zhang",
+   "year": "2014",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_25",
+   "first-page": "75",
+   "article-title": "The problem when using three-ratio method to judge the fault in dissolved gas analysis of transformer",
+   "volume": "47",
+   "author": "Xu",
+   "year": "2010",
+   "journal-title": "Transformer"
+  },
+  {
+   "key": "ref_26",
+   "unstructured": "Cao, D.K. (2005). Gas Analysis Diagnosis and Fault Inspection in Transformer Oil, China Electric Power Press."
+  },
+  {
+   "key": "ref_27",
+   "unstructured": "Electric Power Industry Standard of the People\u2019s Republic of China (2003). Guide for Analysis and Judgment of Gas in Transformer Oil."
+  },
+  {
+   "key": "ref_28",
+   "unstructured": "BOI Standard (2006). IEC 60599-1999-Mineral Oil-Impregnated Electrical Equipment in Service\u2014Guide to the Interpretation of Dissolved and Free Gases Analysis, International Electrotechnical Commission."
+  },
+  {
+   "key": "ref_29",
+   "unstructured": "Transformers Committee of the IEEE Power Engineering Society (1993). IEEE C57.104-1991-IEEE Guide for the Interpretation of Gases Generated in Oil-Immersed Transformers, IEEE."
+  },
+  {
+   "key": "ref_30",
+   "doi-asserted-by": "crossref",
+   "first-page": "41",
+   "DOI": "10.1109/MEI.2010.5599978",
+   "article-title": "Dissolved gas analysis technique for incipient fault diagnosis in power transformers: A bibliographic survey",
+   "volume": "26",
+   "author": "Singh",
+   "year": "2010",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "ref_31",
+   "first-page": "301",
+   "article-title": "Fault diagnosis method for power transformers based on patterns of dissolved gases in the oil",
+   "volume": "43",
+   "author": "Liu",
+   "year": "2003",
+   "journal-title": "J. Tsinghua Univ."
+  },
+  {
+   "key": "ref_32",
+   "first-page": "117",
+   "article-title": "Transformer fault diagnosis and application based on oil chromatography analysis",
+   "volume": "8",
+   "author": "Xie",
+   "year": "2017",
+   "journal-title": "Guangdong Electr. Power"
+  },
+  {
+   "key": "ref_33",
+   "first-page": "18",
+   "article-title": "Fault diagnosis for power transformer based on IEC three-ratio and extension association with combined weights",
+   "volume": "29",
+   "author": "Zhao",
+   "year": "2013",
+   "journal-title": "Power Syst. Clean Energy"
+  },
+  {
+   "key": "ref_34",
+   "first-page": "1149",
+   "article-title": "Modeling of transformer DGA using IEC & fuzzy based three gas ratio method",
+   "volume": "3",
+   "author": "Waghmare",
+   "year": "2014",
+   "journal-title": "Int. J. Eng. Res. Technol."
+  },
+  {
+   "key": "ref_35",
+   "first-page": "8",
+   "article-title": "An improved three-ratio fault diagnosis based on rough set theory for power transformer",
+   "volume": "23",
+   "author": "Cai",
+   "year": "2004",
+   "journal-title": "Adv. Technol. Electr. Eng. Energy"
+  },
+  {
+   "key": "ref_36",
+   "first-page": "134",
+   "article-title": "Application of decision rules for IEC-60599 three-ratio fault diagnosis based on rough set theory",
+   "volume": "25",
+   "author": "Cai",
+   "year": "2015",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_37",
+   "doi-asserted-by": "crossref",
+   "first-page": "1836",
+   "DOI": "10.1109/61.544265",
+   "article-title": "An artificial neural network approach to transformer fault diagnosis",
+   "volume": "11",
+   "author": "Zhang",
+   "year": "1996",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_38",
+   "doi-asserted-by": "crossref",
+   "first-page": "1281",
+   "DOI": "10.1016/j.apenergy.2010.10.006",
+   "article-title": "Optimal operation conditions for a single-stage heat transformer by means of an artificial neural network inverse",
+   "volume": "88",
+   "author": "Colorado",
+   "year": "2011",
+   "journal-title": "Appl. Energy"
+  },
+  {
+   "key": "ref_39",
+   "doi-asserted-by": "crossref",
+   "first-page": "1196",
+   "DOI": "10.1016/j.ijepes.2012.06.042",
+   "article-title": "Function analysis based rule extraction from artificial neural networks for transformer incipient fault diagnosis",
+   "volume": "43",
+   "author": "Bhalla",
+   "year": "2012",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "key": "ref_40",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Lin, J., Sheng, G.H., Yan, Y.J., Dai, J.J., and Jiang, X.C. (2018). Prediction of dissolved gas concentrations in transformer oil based on the KPCA-FFOA-GRNN model. Energies, 11.",
+   "DOI": "10.3390/en11010225"
+  },
+  {
+   "key": "ref_41",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.1177/1687814015624832",
+   "article-title": "Improved probabilistic neural networks with self-adaptive strategies for transformer fault diagnosis problem",
+   "volume": "8",
+   "author": "Yi",
+   "year": "2016",
+   "journal-title": "Adv. Mech. Eng."
+  },
+  {
+   "key": "ref_42",
+   "doi-asserted-by": "crossref",
+   "first-page": "1350",
+   "DOI": "10.1109/TPWRS.2010.2040491",
+   "article-title": "A self-adaptive RBF neural network classifier for transformer fault analysis",
+   "volume": "25",
+   "author": "Meng",
+   "year": "2010",
+   "journal-title": "IEEE Trans. Power Syst."
+  },
+  {
+   "key": "ref_43",
+   "doi-asserted-by": "crossref",
+   "first-page": "717",
+   "DOI": "10.1109/TPWRS.2005.846074",
+   "article-title": "Knowledge discovery in neural networks with application to transformer failure diagnosis",
+   "volume": "20",
+   "author": "Castro",
+   "year": "2005",
+   "journal-title": "IEEE Trans. Power Syst."
+  },
+  {
+   "key": "ref_44",
+   "doi-asserted-by": "crossref",
+   "first-page": "2509",
+   "DOI": "10.1109/TPWRD.2005.855423",
+   "article-title": "Improving the IEC table for transformer failure diagnosis with knowledge extraction from neural networks",
+   "volume": "20",
+   "author": "Miranda",
+   "year": "2005",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_45",
+   "doi-asserted-by": "crossref",
+   "first-page": "106",
+   "DOI": "10.1016/j.ins.2012.07.015",
+   "article-title": "Fuzzy reasoning spiking neural P system for fault diagnosis",
+   "volume": "235",
+   "author": "Peng",
+   "year": "2013",
+   "journal-title": "Inf. Sci."
+  },
+  {
+   "key": "ref_46",
+   "doi-asserted-by": "crossref",
+   "first-page": "1346",
+   "DOI": "10.1016/j.ijepes.2012.05.067",
+   "article-title": "MLP neural network-based decision for power transformers fault diagnosis using an improved combination of Rogers and Doernenburg ratios DGA",
+   "volume": "43",
+   "author": "Souahlia",
+   "year": "2012",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "key": "ref_47",
+   "doi-asserted-by": "crossref",
+   "first-page": "231",
+   "DOI": "10.1109/61.180341",
+   "article-title": "An expert system for transformer fault diagnosis using dissolved gas analysis",
+   "volume": "8",
+   "author": "Lin",
+   "year": "1993",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_48",
+   "doi-asserted-by": "crossref",
+   "first-page": "1224",
+   "DOI": "10.1109/61.714488",
+   "article-title": "A combined ANN and expert system tool for transformer fault diagnosis",
+   "volume": "13",
+   "author": "Wang",
+   "year": "2000",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_49",
+   "doi-asserted-by": "crossref",
+   "first-page": "1127",
+   "DOI": "10.1109/TPWRD.2004.829100",
+   "article-title": "Investigation of an expert system for the condition assessment of transformer insulation based on dielectric response measurements",
+   "volume": "19",
+   "author": "Saha",
+   "year": "2004",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_50",
+   "doi-asserted-by": "crossref",
+   "first-page": "2058",
+   "DOI": "10.5370/JEET.2014.9.6.2058",
+   "article-title": "Intuitionistic fuzzy expert system based fault diagnosis using dissolved gas analysis for power transformer",
+   "volume": "9",
+   "author": "Mani",
+   "year": "2014",
+   "journal-title": "J. Electr. Eng. Technol."
+  },
+  {
+   "key": "ref_51",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Li, J.P., Chen, X.J., and Wu, C.M. (2009, January 23\u201324). Application of comprehensive relational grade theory in expert system of transformer fault diagnosis. Proceedings of the IEEE International Workshop on Intelligent Systems and Applications, Wuhan, China.",
+   "DOI": "10.1109/IWISA.2009.5072742"
+  },
+  {
+   "key": "ref_52",
+   "doi-asserted-by": "crossref",
+   "first-page": "761",
+   "DOI": "10.1109/61.584363",
+   "article-title": "Developing a new transformer fault diagnosis system through evolutionary fuzzy logic",
+   "volume": "12",
+   "author": "Huang",
+   "year": "1997",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_53",
+   "doi-asserted-by": "crossref",
+   "first-page": "177",
+   "DOI": "10.1109/94.841806",
+   "article-title": "A novel fuzzy logic approach to transformer fault diagnosis",
+   "volume": "7",
+   "author": "Islam",
+   "year": "2000",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_54",
+   "first-page": "39",
+   "article-title": "Fault diagnosis of power transformers: Application of fuzzy set theory, expert systems and artificial neural networks",
+   "volume": "144",
+   "author": "Xu",
+   "year": "1997",
+   "journal-title": "IEE Proc."
+  },
+  {
+   "key": "ref_55",
+   "doi-asserted-by": "crossref",
+   "first-page": "3637",
+   "DOI": "10.1049/iet-gtd.2017.0547",
+   "article-title": "Hybrid RVM-ANFIS algorithm for transformer fault diagnosis",
+   "volume": "11",
+   "author": "Fan",
+   "year": "2017",
+   "journal-title": "IET Gener. Transm. Distrib."
+  },
+  {
+   "key": "ref_56",
+   "first-page": "243",
+   "article-title": "Transformer fault diagnosis based on neural network and fuzzy theory",
+   "volume": "44",
+   "author": "Yu",
+   "year": "2013",
+   "journal-title": "J. Cent. South Univ."
+  },
+  {
+   "key": "ref_57",
+   "doi-asserted-by": "crossref",
+   "first-page": "2017",
+   "DOI": "10.1109/TPWRD.2008.2002652",
+   "article-title": "An integrated neural fuzzy approach for fault diagnosis of transformers",
+   "volume": "23",
+   "author": "Naresh",
+   "year": "2008",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_58",
+   "unstructured": "Youssef, O.A.S. (2004, January 10\u201313). Applications of fuzzy-logic-wavelet-based techniques for transformers inrush currents identification and power systems faults classification. Proceedings of the IEEE PES Power Systems Conference and Exposition."
+  },
+  {
+   "key": "ref_59",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cheng, L., Yu, T., Wang, G., Yang, B., and Zhou, L. (2018). Hot spot temperature and grey target theory-based dynamic modelling for reliability assessment of transformer oil-paper insulation systems: A practical case study. Energies, 11.",
+   "DOI": "10.20944/preprints201801.0122.v1"
+  },
+  {
+   "key": "ref_60",
+   "unstructured": "Dong, M., Yan, Z., and Taniguchi, Y. (2003, January 1\u20135). Fault diagnosis of power transformer based on model-diagnosis with grey relation. Proceedings of the 7th IEEE International Conference on Properties and Applications of Dielectric Materials, Nagoya, Japan."
+  },
+  {
+   "key": "ref_61",
+   "first-page": "76",
+   "article-title": "Fault diagnosis for power transformer based on grey relation entropy",
+   "volume": "29",
+   "author": "Song",
+   "year": "2005",
+   "journal-title": "Autom. Electr. Power Syst."
+  },
+  {
+   "key": "ref_62",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Chang, W.P., Zhao, B., and Li, J.H. (2011, January 25\u201328). Application of grey relational theory in transformer fault diagnosis. Proceedings of the 2011 IEEE Asia-Pacific Power and Energy Engineering Conference, Wuhan, China.",
+   "DOI": "10.1109/APPEEC.2011.5748342"
+  },
+  {
+   "key": "ref_63",
+   "doi-asserted-by": "crossref",
+   "first-page": "123",
+   "DOI": "10.1111/j.1468-0394.2010.00542.x",
+   "article-title": "Dissolved gases forecast to enhance oil-immersed transformer fault diagnosis with grey prediction-clustering analysis",
+   "volume": "28",
+   "author": "Lin",
+   "year": "2011",
+   "journal-title": "Expert Syst."
+  },
+  {
+   "key": "ref_64",
+   "unstructured": "Song, B., Ping, Y., and Luo, Y. (2002, January 13\u201317). Study on the fault diagnosis of transformer based on the grey relational analysis. Proceedings of the IEEE International Conference on Power System Technology, Kunming, China."
+  },
+  {
+   "key": "ref_65",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zeng, F., Cheng, X., Guo, J.C., Tao, L., and Chen, Z.X. (2017). Hybridising human judgment, AHP, grey theory, and fuzzy expert systems for candidate well selection in fractured reservoirs. Energies, 10.",
+   "DOI": "10.3390/en10040447"
+  },
+  {
+   "key": "ref_66",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Dinmohammadi, A., and Shafiee, M. (2017). Determination of the most suitable technology transfer strategy for wind turbines using an integrated AHP-TOPSIS decision model. Energies, 10.",
+   "DOI": "10.3390/en10050642"
+  },
+  {
+   "key": "ref_67",
+   "doi-asserted-by": "crossref",
+   "first-page": "71",
+   "DOI": "10.1049/iet-epa:20070302",
+   "article-title": "Fault diagnostic method of power transformers based on hybrid genetic algorithm evolving wavelet neural network",
+   "volume": "2",
+   "author": "Pan",
+   "year": "2008",
+   "journal-title": "IET Electr. Power Appl."
+  },
+  {
+   "key": "ref_68",
+   "doi-asserted-by": "crossref",
+   "first-page": "11352",
+   "DOI": "10.1016/j.eswa.2009.03.022",
+   "article-title": "Fault diagnosis of power transformer based on support vector machine with genetic algorithm",
+   "volume": "36",
+   "author": "Fei",
+   "year": "2009",
+   "journal-title": "Expert Syst. Appl."
+  },
+  {
+   "key": "ref_69",
+   "doi-asserted-by": "crossref",
+   "first-page": "751",
+   "DOI": "10.1109/TPWRD.2008.915812",
+   "article-title": "A probabilistic classifier for transformer dissolved gas analysis with a particle swarm optimizer",
+   "volume": "23",
+   "author": "Tang",
+   "year": "2008",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_70",
+   "first-page": "98",
+   "article-title": "Deep learning method and infrared imaging as a tool for transformer faults detection",
+   "volume": "6",
+   "author": "Nikolovski",
+   "year": "2018",
+   "journal-title": "J. Electr. Eng."
+  },
+  {
+   "key": "ref_71",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Cui, Q.M., Liang, K., Gao, H.Y., Chen, G.D., Wang, N.Y., Jin, S.Y., Zhong, C.Q., Cui, S.T., Sun, D.J., and Fang, J. (2016, January 27\u201329). Research of the transformer fault diagnosis expert system based on ESTA and deep learning neural network programmed in Matlab. Proceedings of the International Conference on Civil, Transportation and Environment, Hsinchu, Taiwan.",
+   "DOI": "10.2991/iccte-16.2016.132"
+  },
+  {
+   "key": "ref_72",
+   "first-page": "56",
+   "article-title": "Power transformer fault diagnosis based on genetic support vector machine and gray artificial immune algorithm",
+   "volume": "31",
+   "author": "Zheng",
+   "year": "2011",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_73",
+   "doi-asserted-by": "crossref",
+   "first-page": "6031",
+   "DOI": "10.3390/en7096031",
+   "article-title": "Induced voltages ratio-based algorithm for fault detection, and faulted phase and winding identification of a three-winding power transformer",
+   "volume": "7",
+   "author": "Lee",
+   "year": "2014",
+   "journal-title": "Energies"
+  },
+  {
+   "key": "ref_74",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Yang, Q., Su, P.Y., and Chen, Y. (2017). Comparison of impulse wave and sweep frequency response analysis methods for diagnosis of transformer winding faults. Energies, 10.",
+   "DOI": "10.3390/en10040431"
+  },
+  {
+   "key": "ref_75",
+   "doi-asserted-by": "crossref",
+   "first-page": "518",
+   "DOI": "10.1002/etep.240",
+   "article-title": "A case-based reasoning approach to power transformer fault diagnosis using dissolved gas analysis data",
+   "volume": "19",
+   "author": "Qian",
+   "year": "2009",
+   "journal-title": "Int. Trans. Electr. Energy Syst."
+  },
+  {
+   "key": "ref_76",
+   "unstructured": "Xia, F.R., Zhu, Y.L., and Gao, Y. (2017, January 15\u201318). Shape-space based negative selection algorithm and its application on power transformer fault diagnosis. Proceedings of the IEEE International Conference on Robotics and Biomimetics, Sanya, China."
+  },
+  {
+   "key": "ref_77",
+   "doi-asserted-by": "crossref",
+   "first-page": "1604",
+   "DOI": "10.1016/j.enconman.2009.02.004",
+   "article-title": "Particle swarm optimization-based support vector machine for forecasting dissolved gases content in power transformer oil",
+   "volume": "50",
+   "author": "Fei",
+   "year": "2009",
+   "journal-title": "Energy Convers. Manag."
+  },
+  {
+   "key": "ref_78",
+   "doi-asserted-by": "crossref",
+   "first-page": "265",
+   "DOI": "10.1016/j.ijepes.2016.02.018",
+   "article-title": "A new approach of DGA interpretation technique for transformer fault diagnosis",
+   "volume": "81",
+   "author": "Ghoneim",
+   "year": "2016",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "key": "ref_79",
+   "first-page": "710",
+   "article-title": "Fault diagnosis of power transformer using dynamic clustering algorithm",
+   "volume": "28",
+   "author": "Xiong",
+   "year": "2007",
+   "journal-title": "Chin. J. Sci. Instrum."
+  },
+  {
+   "key": "ref_80",
+   "doi-asserted-by": "crossref",
+   "first-page": "2074",
+   "DOI": "10.1016/j.epsr.2011.07.020",
+   "article-title": "Particle swarm optimization-least squares support vector regression based forecasting model on dissolved gases in oil-filled power transformers",
+   "volume": "81",
+   "author": "Liao",
+   "year": "2011",
+   "journal-title": "Electr. Power Syst. Res."
+  },
+  {
+   "key": "ref_81",
+   "unstructured": "Zheng, X.L., Wang, S.Q., and Cao, Y.Z. (2014, January 20\u201322). Transformer fault diagnosis based on improved fuzzy ISODATA algorithm. Proceedings of the 2014 IEEE International Conference on Power System Technology, Chengdu, China."
+  },
+  {
+   "key": "ref_82",
+   "doi-asserted-by": "crossref",
+   "first-page": "150",
+   "DOI": "10.1016/j.ijepes.2016.01.019",
+   "article-title": "Power transformers\u2019 condition monitoring using neural modelling and the local statistical approach to fault diagnosis",
+   "volume": "80",
+   "author": "Rigatos",
+   "year": "2016",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "key": "ref_83",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Prasanth Babu, B., Surya Kalavathi, M., and Singh, B.P. (2006, January 15\u201318). Use of wavelet and neural network (BPFN) for transformer fault diagnosis. Proceedings of the 2006 IEEE Conference on Electrical Insulation and Dielectric Phenomena, Kansas City, MO, USA.",
+   "DOI": "10.1109/CEIDP.2006.312069"
+  },
+  {
+   "key": "ref_84",
+   "doi-asserted-by": "crossref",
+   "first-page": "1431",
+   "DOI": "10.1049/iet-gtd.2015.0955",
+   "article-title": "Fault discrimination scheme for power transformer using random forest technique",
+   "volume": "10",
+   "author": "Shah",
+   "year": "2015",
+   "journal-title": "IET Gener. Transm. Distrib."
+  },
+  {
+   "key": "ref_85",
+   "doi-asserted-by": "crossref",
+   "first-page": "1508",
+   "DOI": "10.1109/TPWRD.2012.2227979",
+   "article-title": "Discrimination between internal faults and other disturbances in transformer using the support vector machine-based protection scheme",
+   "volume": "28",
+   "author": "Shah",
+   "year": "2013",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_86",
+   "doi-asserted-by": "crossref",
+   "first-page": "1735",
+   "DOI": "10.1109/TPWRD.2014.2376033",
+   "article-title": "Winding condition assessment of power transformers based on vibration correlation",
+   "volume": "30",
+   "author": "Hong",
+   "year": "2015",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_87",
+   "first-page": "45",
+   "article-title": "Novel method for transformer faults integrated diagnosis based on Bayesian network classifier",
+   "volume": "20",
+   "author": "Wu",
+   "year": "2005",
+   "journal-title": "Trans. China Electrotech. Soc."
+  },
+  {
+   "key": "ref_88",
+   "doi-asserted-by": "crossref",
+   "first-page": "401",
+   "DOI": "10.1016/j.ijepes.2014.12.017",
+   "article-title": "A new fuzzy logic approach to identify power transformer criticality using dissolved gas-in-oil analysis",
+   "volume": "67",
+   "author": "Hmood",
+   "year": "2015",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "key": "ref_89",
+   "doi-asserted-by": "crossref",
+   "first-page": "94",
+   "DOI": "10.1016/j.measurement.2016.04.052",
+   "article-title": "Hybrid modified evolutionary particle swarm optimisation-time varying acceleration coefficient-artificial neural network for power transformer fault diagnosis",
+   "volume": "90",
+   "author": "Illias",
+   "year": "2016",
+   "journal-title": "Measurement"
+  },
+  {
+   "key": "ref_90",
+   "doi-asserted-by": "crossref",
+   "first-page": "890",
+   "DOI": "10.1016/j.ijepes.2014.05.011",
+   "article-title": "Interpretation of sweep frequency response analysis (SFRA) traces for the open circuit and short circuit winding fault damages of the power transformer",
+   "volume": "62",
+   "author": "Pandya",
+   "year": "2014",
+   "journal-title": "Int. J. Electr. Power Energy Syst."
+  },
+  {
+   "key": "ref_91",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zhang, Y.Y., Liu, J.F., Zheng, H.B., Wei, H., and Liao, R.J. (2017). Study on quantitative correlations between the ageing condition of transformer cellulose insulation and the large time constant obtained from the extended Debye model. Energies, 10.",
+   "DOI": "10.3390/en10111842"
+  },
+  {
+   "key": "ref_92",
+   "doi-asserted-by": "crossref",
+   "first-page": "354",
+   "DOI": "10.1016/j.epsr.2016.08.015",
+   "article-title": "Individual failure rates for transformers within a population based on diagnostic measures",
+   "volume": "141",
+   "author": "Hilber",
+   "year": "2016",
+   "journal-title": "Electr. Power Syst. Res."
+  },
+  {
+   "key": "ref_93",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Babita Jain, B., Srinivas, M.B., and Jain, A. (2008, January 12\u201315). A novel web based expert system architecture for on-line and off-line fault diagnosis and control (FDC) of transformers. Proceedings of the Joint International Conference on Power System Technology and IEEE Power India Conference, New Delhi, India.",
+   "DOI": "10.1109/ICPST.2008.4745378"
+  },
+  {
+   "key": "ref_94",
+   "first-page": "35",
+   "article-title": "Application of expert system in transformer fault diagnosis",
+   "volume": "2",
+   "author": "Yang",
+   "year": "1996",
+   "journal-title": "Transformer"
+  },
+  {
+   "key": "ref_95",
+   "first-page": "61",
+   "article-title": "Object oriented knowledge base for transformer fault diagnosis",
+   "volume": "20",
+   "author": "Yao",
+   "year": "2001",
+   "journal-title": "Adv. Technol. Electr. Eng. Energy"
+  },
+  {
+   "key": "ref_96",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ma, D.L., Zhang, W.J., and Yao, W. (2013, January 7\u20138). Establish expert system of transformer fault diagnosis based on dissolved gas in oil. Proceedings of the 2013 IEEE International Conference on Information Science and Cloud Computing Companion, Guangzhou, China.",
+   "DOI": "10.1109/ISCC-C.2013.71"
+  },
+  {
+   "key": "ref_97",
+   "first-page": "32",
+   "article-title": "A RS approach to founding and maintaining ES knowledge base for fault diagnosis of power transformer",
+   "volume": "22",
+   "author": "Su",
+   "year": "2002",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_98",
+   "first-page": "125",
+   "article-title": "Transformer DGA diagnosis expert system based on neural network and fuzzy theory",
+   "volume": "30",
+   "author": "Li",
+   "year": "2006",
+   "journal-title": "Power Syst. Technol."
+  },
+  {
+   "key": "ref_99",
+   "unstructured": "Du, J.G. (2003). Transformer Fault Diagnosis Expert System. [Master\u2019s Thesis, North China Electric Power University]."
+  },
+  {
+   "key": "ref_100",
+   "doi-asserted-by": "crossref",
+   "first-page": "8119",
+   "DOI": "10.1016/j.eswa.2010.12.153",
+   "article-title": "Expert system for the assessment of power transformer insulation condition based on type-2 fuzzy logic systems",
+   "volume": "38",
+   "author": "Flores",
+   "year": "2011",
+   "journal-title": "Expert Syst. Appl."
+  },
+  {
+   "key": "ref_101",
+   "doi-asserted-by": "crossref",
+   "first-page": "3199",
+   "DOI": "10.1063/1.4995648",
+   "article-title": "Expert system for condition monitoring of power transformer using fuzzy logic",
+   "volume": "9",
+   "author": "Ranga",
+   "year": "2017",
+   "journal-title": "J. Renew. Sustain. Energy"
+  },
+  {
+   "key": "ref_102",
+   "doi-asserted-by": "crossref",
+   "first-page": "125",
+   "DOI": "10.1016/j.epsr.2017.04.025",
+   "article-title": "Analysis of artificial intelligence expert systems for power transformer condition monitoring and diagnostics",
+   "volume": "149",
+   "year": "2017",
+   "journal-title": "Electr. Power Syst. Res."
+  },
+  {
+   "key": "ref_103",
+   "unstructured": "Tu, Y., and Zheng, Q. (2000, January 21\u201326). DGA based insulation diagnosis of power transformer via ANN. Proceedings of the 6th International Conference on Properties and Applications of Dielectric Materials, Xi\u2019an, China."
+  },
+  {
+   "key": "ref_104",
+   "unstructured": "Segatto, E.C., and Coury, D.V. (2005, January 12\u201316). A power transformer protection with recurrent ANN saturation correction. Proceedings of the IEEE Power Engineering Society General Meeting, San Francisco, CA, USA."
+  },
+  {
+   "key": "ref_105",
+   "first-page": "122",
+   "article-title": "Transformer fault diagnosis based on deep auto-encoder network",
+   "volume": "36",
+   "author": "Shi",
+   "year": "2016",
+   "journal-title": "Electr. Power Autom. Equip."
+  },
+  {
+   "key": "ref_106",
+   "first-page": "138",
+   "article-title": "Improved BP neural network for transformer fault diagnosis",
+   "volume": "17",
+   "author": "Sun",
+   "year": "2007",
+   "journal-title": "Int. J. Min. Sci. Technol."
+  },
+  {
+   "key": "ref_107",
+   "first-page": "142",
+   "article-title": "Study of transformer fault diagnosis based on GRNN and DGA",
+   "volume": "37",
+   "author": "Ding",
+   "year": "2014",
+   "journal-title": "Electr. Meas. Technol."
+  },
+  {
+   "key": "ref_108",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Shi, D.Y., Buse, J., Wu, Q.H., Jiang, J., and Xue, Y.S. (2011, January 24\u201329). Fast identification of power transformer magnetizing inrush currents based on mathematical morphology and ANN. Proceedings of the IEEE Power and Energy Society General Meeting, Detroit, MI, USA.",
+   "DOI": "10.1109/PES.2011.6039555"
+  },
+  {
+   "key": "ref_109",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ghunem, R.A., El-Hag, A., and Assaleh, K. (2010, January 6\u20139). Prediction of furan content in transformer oil using artificial neural networks (ANN). Proceedings of the 2010 IEEE International Symposium on Electrical Insulation, San Diego, CA, USA.",
+   "DOI": "10.1109/ELINSL.2010.5549731"
+  },
+  {
+   "key": "ref_110",
+   "first-page": "43",
+   "article-title": "Application of physical-chemical data in estimation of dissolved gases in insulating mineral oil for power transformer incipient fault diagnosis with ANN",
+   "volume": "41",
+   "author": "Malik",
+   "year": "2012",
+   "journal-title": "Int. J. Comput. Appl."
+  },
+  {
+   "key": "ref_111",
+   "unstructured": "Wang, H.X., Yang, Q.P., and Zheng, Q.M. (2008, January 6\u20139). Artificial neural network for transformer insulation aging diagnosis. Proceedings of the IEEE Third International Conference on Electric Utility Deregulation and Restructuring and Power Technologies, Nanjing, China."
+  },
+  {
+   "key": "ref_112",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zakaria, F., Johari, D., and Musirin, I. (2013, January 3\u20134). The Taguchi-artificial neural network approach for the detection of incipient faults in oil-filled power transformer. Proceedings of the 2013 IEEE 7th International Power Engineering and Optimization Conference, Langkawi, Malaysia.",
+   "DOI": "10.1109/PEOCO.2013.6564603"
+  },
+  {
+   "key": "ref_113",
+   "unstructured": "Chen, M.J., Zeng, X., and Li, G.H. (October, January 28). A new transformer protection based on the artificial neural network model. Proceedings of the World Automation Congress, Hawaii, HI, USA."
+  },
+  {
+   "key": "ref_114",
+   "first-page": "1",
+   "article-title": "A neural network approach to power transformer fault diagnosis",
+   "volume": "14",
+   "author": "Fu",
+   "year": "1998",
+   "journal-title": "J. Shanghai Inst. Electr. Power"
+  },
+  {
+   "key": "ref_115",
+   "first-page": "12",
+   "article-title": "Study on fault diagnosis for power transformer based on BP neural network",
+   "volume": "31",
+   "author": "Wang",
+   "year": "2005",
+   "journal-title": "High Volt. Technol."
+  },
+  {
+   "key": "ref_116",
+   "unstructured": "Liu, C.P. (2007). Expert System Research of Power Transformer Fault Diagnosis Based on DGA. [Master\u2019s Thesis, Guangxi University]."
+  },
+  {
+   "key": "ref_117",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zhao, J.Y., Zheng, R.R., and Li, J.P. (2009, January 16\u201319). Transformer fault diagnosis based on homotopy BP algorithm. Proceedings of the IEEE 9th International Conference on Electronic Measurement & Instruments, Beijing, China.",
+   "DOI": "10.1109/ICEMI.2009.5274664"
+  },
+  {
+   "key": "ref_118",
+   "doi-asserted-by": "crossref",
+   "first-page": "3090",
+   "DOI": "10.1016/j.eswa.2007.06.029",
+   "article-title": "Fault diagnosis of roller bearing using kernel based neighborhood score multi-class support vector machine",
+   "volume": "34",
+   "author": "Sugumaran",
+   "year": "2008",
+   "journal-title": "Expert Syst. Appl."
+  },
+  {
+   "key": "ref_119",
+   "doi-asserted-by": "crossref",
+   "first-page": "102",
+   "DOI": "10.1109/TPWRD.2009.2028800",
+   "article-title": "Power transformer differential protection based on optimal probabilistic neural network",
+   "volume": "25",
+   "author": "Tripathy",
+   "year": "2010",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_120",
+   "first-page": "3",
+   "article-title": "Application of hybrid algorithm based on GA-BP in transformer diagnosis using GAS chromatographic method",
+   "volume": "29",
+   "author": "Wang",
+   "year": "2003",
+   "journal-title": "High Volt. Eng."
+  },
+  {
+   "key": "ref_121",
+   "doi-asserted-by": "crossref",
+   "first-page": "489",
+   "DOI": "10.1109/61.997923",
+   "article-title": "Recognition of impulse fault patterns in transformers using Kohonen\u2019s self-organizing feature map",
+   "volume": "17",
+   "author": "De",
+   "year": "2002",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_122",
+   "first-page": "263",
+   "article-title": "Rough set and radial basis function neural network based insulation data mining fault diagnosis for power transformer",
+   "volume": "14",
+   "author": "Dong",
+   "year": "2007",
+   "journal-title": "J. Harbin Inst. Technol."
+  },
+  {
+   "key": "ref_123",
+   "unstructured": "Zhang, J., Pan, H., and Huang, H. (2008, January 21\u201324). Electric power transformer fault diagnosis using OLS based radial basis function neural network. Proceedings of the IEEE International Conference on Industrial Technology, Chengdu, China."
+  },
+  {
+   "key": "ref_124",
+   "doi-asserted-by": "crossref",
+   "first-page": "129",
+   "DOI": "10.1016/j.epsr.2006.12.013",
+   "article-title": "Rough set and fuzzy wavelet neural network integrated with least square weighted fusion algorithm based fault diagnosis research for power transformers",
+   "volume": "78",
+   "author": "Dong",
+   "year": "2008",
+   "journal-title": "Electr. Power Syst. Res."
+  },
+  {
+   "key": "ref_125",
+   "doi-asserted-by": "crossref",
+   "first-page": "654",
+   "DOI": "10.1109/61.956753",
+   "article-title": "A novel approach to the classification of the transient phenomena in power transformers using combined wavelet transform and neural network",
+   "volume": "16",
+   "author": "Mao",
+   "year": "2001",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_126",
+   "first-page": "144",
+   "article-title": "Distinguish between inrush and internal fault of transformer based on adaptive wavelet neural network",
+   "volume": "25",
+   "author": "Li",
+   "year": "2005",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_127",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Gong, M., Zhang, X., and Gong, Z. (2011, January 16\u201318). Study on a new method to identify inrush current of transformer based on wavelet neural network. Proceedings of the IEEE 2011 International Conference on Electrical and Control Engineering, Yichang, China.",
+   "DOI": "10.1109/ICECENG.2011.6057753"
+  },
+  {
+   "key": "ref_128",
+   "first-page": "1249",
+   "article-title": "Research for transformer fault diagnosis and MATLAB simulation based on RBF neural networks",
+   "volume": "10",
+   "author": "Wu",
+   "year": "2010",
+   "journal-title": "Sci. Technol. Eng."
+  },
+  {
+   "key": "ref_129",
+   "doi-asserted-by": "crossref",
+   "first-page": "1034",
+   "DOI": "10.1109/TPWRD.2004.829911",
+   "article-title": "Application of neural-network modules to electric power system fault section estimation",
+   "volume": "19",
+   "author": "Cardoso",
+   "year": "2004",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_130",
+   "doi-asserted-by": "crossref",
+   "first-page": "2374",
+   "DOI": "10.1109/TDEI.2014.004364",
+   "article-title": "ANN and cross-correlation based features for discrimination between electrical and mechanical defects and their localization in transformer winding",
+   "volume": "21",
+   "author": "Ghanizadeh",
+   "year": "2014",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "ref_131",
+   "unstructured": "Zou, K.X., Zhao, W., Xu, W.D., and Yin, W.J. (2013, January 10\u201313). EDA-ANN based transformer fault recognition with dissolved gas. Proceedings of the 2013 IEEE Conference on Innovative Smart Grid Technologies-Asia, Bangalore, India."
+  },
+  {
+   "key": "ref_132",
+   "first-page": "60",
+   "article-title": "ANN based power transformer fault diagnosis",
+   "volume": "85",
+   "author": "Patel",
+   "year": "2004",
+   "journal-title": "J. Inst. Eng."
+  },
+  {
+   "key": "ref_133",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Vanamadevi, N., Arivamudhan, M., and Santhi, S. (2008, January 24\u201327). Detection and classification of impulse faults in transformer using wavelet transform and artificial neural network. Proceedings of the IEEE International Conference on Sustainable Energy Technologies, Singapore.",
+   "DOI": "10.1109/ICSET.2008.4746975"
+  },
+  {
+   "key": "ref_134",
+   "first-page": "982",
+   "article-title": "FAHP and ANN in power transformer risk assessment",
+   "volume": "19",
+   "author": "Wu",
+   "year": "2012",
+   "journal-title": "J. Changsha Univ. Sci. Technol."
+  },
+  {
+   "key": "ref_135",
+   "unstructured": "Nashruladin, K.N. (2007). Application of ANN and GA for Transformer Winding/Insulation Faults, University Teknologi Petronas."
+  },
+  {
+   "key": "ref_136",
+   "first-page": "49",
+   "article-title": "Application of super SAB ANN model for transformer fault diagnosis",
+   "volume": "19",
+   "author": "Zhang",
+   "year": "2004",
+   "journal-title": "Trans. China Electrotech. Soc."
+  },
+  {
+   "key": "ref_137",
+   "unstructured": "Leondes, C.T. (1999). Fuzzy Theory Systems: Techniques and Applications, Academic Press."
+  },
+  {
+   "key": "ref_138",
+   "first-page": "61",
+   "article-title": "Transformer fault diagnosis based on fuzzy theory and support vector machine",
+   "volume": "26",
+   "author": "Zhang",
+   "year": "2011",
+   "journal-title": "J. Electr. Power Sci. Technol."
+  },
+  {
+   "key": "ref_139",
+   "first-page": "27",
+   "article-title": "On the method for transformer fault diagnosis based on fuzzy neural network",
+   "volume": "25",
+   "author": "Zeng",
+   "year": "2004",
+   "journal-title": "J. Fujian Comput."
+  },
+  {
+   "key": "ref_140",
+   "doi-asserted-by": "crossref",
+   "first-page": "593",
+   "DOI": "10.1109/59.867146",
+   "article-title": "A fuzzy dissolved gas analysis method for the diagnosis of multiple incipient faults in a transformer",
+   "volume": "15",
+   "author": "Su",
+   "year": "2000",
+   "journal-title": "IEEE Trans. Power Syst."
+  },
+  {
+   "key": "ref_141",
+   "first-page": "587",
+   "article-title": "Study on analysis method about fault diagnosis of transformer and degree of grey incidence based on fuzzy clustering",
+   "volume": "25",
+   "author": "Li",
+   "year": "2004",
+   "journal-title": "Chin. J. Sci. Instrum."
+  },
+  {
+   "key": "ref_142",
+   "unstructured": "Ma, H.Z., Li, Z., Ju, P., Han, J.D., and Zhang, L.M. (December, January 29). Diagnosis of power transformer faults based on fuzzy three-ratio method. Proceedings of the IEEE 7th International Power Engineering Conference, Singapore."
+  },
+  {
+   "key": "ref_143",
+   "first-page": "121",
+   "article-title": "Application of fuzzy Petri nets knowledge representation in electric power transformer fault diagnosis",
+   "volume": "23",
+   "author": "Wang",
+   "year": "2003",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_144",
+   "first-page": "14",
+   "article-title": "Review of fault diagnosis method for power transformer based on rough set theory",
+   "volume": "23",
+   "author": "Sun",
+   "year": "2010",
+   "journal-title": "Guangdong Electr. Power"
+  },
+  {
+   "key": "ref_145",
+   "first-page": "112",
+   "article-title": "A method of synthesis based on the grey cluster and fuzzy cluster about internal fault diagnosis of transformer",
+   "volume": "23",
+   "author": "Li",
+   "year": "2003",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_146",
+   "first-page": "182",
+   "article-title": "A weighted fuzzy clustering algorithm and its application to fault diagnosis of power transformer",
+   "volume": "24",
+   "author": "Chen",
+   "year": "2008",
+   "journal-title": "J. Xian Univ. Technol."
+  },
+  {
+   "key": "ref_147",
+   "doi-asserted-by": "crossref",
+   "first-page": "157",
+   "DOI": "10.5370/JEET.2007.2.2.157",
+   "article-title": "Dissolved gas analysis of power transformer using fuzzy clustering and radial basis function neural network",
+   "volume": "2",
+   "author": "Lee",
+   "year": "2007",
+   "journal-title": "J. Electr. Eng. Technol."
+  },
+  {
+   "key": "ref_148",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Tang, S.P., Peng, G., and Zhong, Z.X. (2016, January 10\u201313). An improved fuzzy C-means clustering algorithm for transformer fault. Proceedings of the 2016 China International Conference on Electricity Distribution, Xi\u2019an, China.",
+   "DOI": "10.1109/CICED.2016.7576369"
+  },
+  {
+   "key": "ref_149",
+   "doi-asserted-by": "crossref",
+   "first-page": "1513",
+   "DOI": "10.1080/15325008.2010.482091",
+   "article-title": "Cross-correlation-aided fuzzy C-means for classification of dynamic faults in transformer winding during impulse testing",
+   "volume": "38",
+   "author": "Rajamani",
+   "year": "2010",
+   "journal-title": "Electr. Mach. Power Syst."
+  },
+  {
+   "key": "ref_150",
+   "first-page": "190",
+   "article-title": "Probabilistic neural network for fault diagnosis of power transformer based application on fuzzy input",
+   "volume": "28",
+   "author": "Duan",
+   "year": "2007",
+   "journal-title": "Coal Min. Mach."
+  },
+  {
+   "key": "ref_151",
+   "first-page": "19",
+   "article-title": "Probability reasoning and fuzzy technique applied for identifying power transformer malfunction",
+   "volume": "20",
+   "author": "Yang",
+   "year": "2000",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_152",
+   "first-page": "1040",
+   "article-title": "Fuzzy theory and probability reasoning applied for identifying power transformer fault",
+   "volume": "34",
+   "author": "Fu",
+   "year": "2008",
+   "journal-title": "High Volt. Eng."
+  },
+  {
+   "key": "ref_153",
+   "first-page": "630",
+   "article-title": "Dissolved gas analysis of transformers using fuzzy logic approach",
+   "volume": "20",
+   "author": "Aghaei",
+   "year": "2010",
+   "journal-title": "Int. Trans. Electr. Power Syst."
+  },
+  {
+   "key": "ref_154",
+   "first-page": "381",
+   "article-title": "Concentration prediction of dissolved gases in transformer oil based on grey relational analysis and fuzzy support vector machines",
+   "volume": "76",
+   "author": "Sima",
+   "year": "2012",
+   "journal-title": "Power Syst. Prot. Control"
+  },
+  {
+   "key": "ref_155",
+   "first-page": "371",
+   "article-title": "Power transformer fault diagnosis using weighted fuzzy Kernel clustering",
+   "volume": "36",
+   "author": "Fu",
+   "year": "2010",
+   "journal-title": "High Volt. Eng."
+  },
+  {
+   "key": "ref_156",
+   "first-page": "162",
+   "article-title": "Diagnostic model of insulation faults in power equipment based on rough set theory",
+   "volume": "24",
+   "author": "Mo",
+   "year": "2004",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_157",
+   "first-page": "56",
+   "article-title": "Diagnosis method of transformer faults based on rough set theory",
+   "volume": "24",
+   "author": "Su",
+   "year": "2008",
+   "journal-title": "Electr. Power Sci. Eng."
+  },
+  {
+   "key": "ref_158",
+   "first-page": "12",
+   "article-title": "Diagnosis model of transformer faults based on a new heuristic reduction algorithm",
+   "volume": "35",
+   "author": "Yuan",
+   "year": "2008",
+   "journal-title": "J. North China Electr. Power Univ."
+  },
+  {
+   "key": "ref_159",
+   "first-page": "288",
+   "article-title": "The study of rough set theory in fault diagnosis expert system of transformer",
+   "volume": "19",
+   "author": "Xiang",
+   "year": "2003",
+   "journal-title": "Bull. Sci. Technol."
+  },
+  {
+   "key": "ref_160",
+   "unstructured": "Zuo, Y.G. (2009, January 8\u20139). Fault diagnosis model based on rough set theory and expert system. Proceedings of the IEEE International Colloquium on Computing, Communication, Control, and Management, Sanya, China."
+  },
+  {
+   "key": "ref_161",
+   "first-page": "10",
+   "article-title": "Rough sets theory and artificial neural networks applied in the transformer fault diagnosis",
+   "volume": "34",
+   "author": "Yu",
+   "year": "2006",
+   "journal-title": "Relay"
+  },
+  {
+   "key": "ref_162",
+   "first-page": "122",
+   "article-title": "Transformer fault diagnosis by combination of rough set and neural network",
+   "volume": "33",
+   "author": "Zhang",
+   "year": "2007",
+   "journal-title": "High Volt. Eng."
+  },
+  {
+   "key": "ref_163",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Li, W.W., Huang, H.X., Wang, C.H., and Tang, H.Z. (2008, January 18\u201320). synthetic fault diagnosis method of power transformer based on rough set theory and improved artificial immune network classification algorithm. Proceedings of the IEEE Computer Society Fourth International Conference on Natural Computation, Jinan, China.",
+   "DOI": "10.1109/ICNC.2008.214"
+  },
+  {
+   "key": "ref_164",
+   "first-page": "141",
+   "article-title": "Application of fuzzy rough set theory to power transformer faults diagnosis",
+   "volume": "28",
+   "author": "Xiong",
+   "year": "2008",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_165",
+   "first-page": "37",
+   "article-title": "A fault diagnosis method for power transformer based on rough set and fuzzy rules",
+   "volume": "34",
+   "author": "Wang",
+   "year": "2006",
+   "journal-title": "Relay"
+  },
+  {
+   "key": "ref_166",
+   "first-page": "137",
+   "article-title": "Synthetic fault diagnosis method of power transformer based on rough set theory and Bayesian network",
+   "volume": "26",
+   "author": "Wang",
+   "year": "2006",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_167",
+   "unstructured": "Wang, Y.Q., Lu, F.C., and Li, H.M. (2008, January 24\u201328). Synthetic fault diagnosis method of power transformer based on rough set theory and Bayesian network. Proceedings of the International Symposium on Neural Networks: Advances in Neural Networks, Part II, Beijing, China."
+  },
+  {
+   "key": "ref_168",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Xie, Q.J., Zeng, H.X., Ruan, L., Chen, X.M., and Zhang, H.L. (2013, January 17\u201319). Transformer fault diagnosis based on Bayesian network and rough set reduction theory. Proceedings of the IEEE Tencon Spring Conference, Sydney, Australia.",
+   "DOI": "10.1109/TENCONSpring.2013.6584452"
+  },
+  {
+   "key": "ref_169",
+   "first-page": "1755",
+   "article-title": "Fault diagnosis method of transformer based on rough set and support vector machine",
+   "volume": "34",
+   "author": "Jiang",
+   "year": "2008",
+   "journal-title": "High Volt. Eng."
+  },
+  {
+   "key": "ref_170",
+   "first-page": "80",
+   "article-title": "Power transformer fault diagnosis based on rough set theory and support vector machines",
+   "volume": "38",
+   "author": "Wu",
+   "year": "2010",
+   "journal-title": "Power Syst. Prot. Control"
+  },
+  {
+   "key": "ref_171",
+   "first-page": "88",
+   "article-title": "Study on application of Petri nets model of transformer fault diagnosis based on decision table reduction",
+   "volume": "18",
+   "author": "Wang",
+   "year": "2003",
+   "journal-title": "Trans. China Electr. Soc."
+  },
+  {
+   "key": "ref_172",
+   "first-page": "127",
+   "article-title": "Synthetic fault diagnosis of oil-immersed power transformer based on rough set theory and fuzzy Petri nets",
+   "volume": "23",
+   "author": "Wang",
+   "year": "2003",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_173",
+   "unstructured": "Zhou, A.H., Yao, Y., Song, H., and Zeng, X.H. (2013, January 16\u201318). Power transformer fault diagnosis based on integrated of rough set theory and evidence theory. Proceedings of the IEEE Computer Society 2013 Third International Conference on Intelligent System Design and Engineering Applications, Hong Kong, China."
+  },
+  {
+   "key": "ref_174",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Shu, H.C., Hu, Z.J., Sun, S.Y., and Yang, Q. (2008, January 6\u20139). The fault diagnosis algorithm for transformer based on Extenics and rough set theory. Proceedings of the IEEE Third International Conference on Electric Utility Deregulation and Restructuring and Power Technologies, Nanjing, China.",
+   "DOI": "10.1109/DRPT.2008.4523602"
+  },
+  {
+   "key": "ref_175",
+   "first-page": "154",
+   "article-title": "Fault prediction of power transformer by combination of rough sets and grey theory",
+   "volume": "28",
+   "author": "Fei",
+   "year": "2008",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_176",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Song, S.M., Wang, Y.N., Yao, S.X., and Wang, M. (2008, January 22\u201324). An approach to the transformer faults diagnosing based on rough set and artificial immune system. Proceedings of the IEEE Chinese Conference on Pattern Recognition, Beijing, China.",
+   "DOI": "10.1109/CCPR.2008.94"
+  },
+  {
+   "key": "ref_177",
+   "doi-asserted-by": "crossref",
+   "first-page": "288",
+   "DOI": "10.1016/S0167-6911(82)80025-X",
+   "article-title": "Control problems of grey systems",
+   "volume": "1",
+   "author": "Deng",
+   "year": "1982",
+   "journal-title": "Syst. Control Lett."
+  },
+  {
+   "key": "ref_178",
+   "first-page": "11",
+   "article-title": "The grey control system",
+   "volume": "10",
+   "author": "Deng",
+   "year": "1982",
+   "journal-title": "J. Huazhong Univ. Sci. Technol."
+  },
+  {
+   "key": "ref_179",
+   "first-page": "1",
+   "article-title": "Grey system review",
+   "volume": "5",
+   "author": "Deng",
+   "year": "1983",
+   "journal-title": "World Sci."
+  },
+  {
+   "key": "ref_180",
+   "unstructured": "Deng, J.L. (1985). Grey Control System, Huazhong University of Science and Technology Press. [2nd ed.]."
+  },
+  {
+   "key": "ref_181",
+   "first-page": "3",
+   "article-title": "Properties of grey forecasting models GM (1, 1)",
+   "volume": "15",
+   "author": "Deng",
+   "year": "1987",
+   "journal-title": "J. Huazhong Univ. Sci. Technol."
+  },
+  {
+   "key": "ref_182",
+   "first-page": "59",
+   "article-title": "Grey relational analysis: A new statistical method of multifactorial analysis in medicine",
+   "volume": "9",
+   "author": "Tan",
+   "year": "1997",
+   "journal-title": "J. Pharm. Anal."
+  },
+  {
+   "key": "ref_183",
+   "unstructured": "Tan, X.R., Deng, J.L., Liu, S.F., and Pan, H.X. (2007, January 7\u201310). Multi-stratum medical grey relational theory and its application research. Proceedings of the IEEE International Conference on Systems, Man and Cybernetics, Montreal, QC, Canada."
+  },
+  {
+   "key": "ref_184",
+   "first-page": "14",
+   "article-title": "Emergence and development of grey system theory and its forward trends",
+   "volume": "16",
+   "author": "Liu",
+   "year": "2003",
+   "journal-title": "J. Zhejiang Wanli Univ."
+  },
+  {
+   "key": "ref_185",
+   "first-page": "24",
+   "article-title": "Study on fault diagnosis of insulation of oil-immersed transformer based on grey cluster theory",
+   "volume": "17",
+   "author": "Li",
+   "year": "2002",
+   "journal-title": "Trans. China Electr. Technol. Soc."
+  },
+  {
+   "key": "ref_186",
+   "first-page": "56",
+   "article-title": "Research on fault diagnosis of power transformer based on grey entropy relational algorithm",
+   "volume": "47",
+   "author": "Song",
+   "year": "2010",
+   "journal-title": "Transformer"
+  },
+  {
+   "key": "ref_187",
+   "first-page": "48",
+   "article-title": "Transformer fault diagnosis method based on weighted degree of Grey incidence of optimized entropy",
+   "volume": "50",
+   "author": "Li",
+   "year": "2013",
+   "journal-title": "Transformer"
+  },
+  {
+   "key": "ref_188",
+   "doi-asserted-by": "crossref",
+   "first-page": "830",
+   "DOI": "10.5370/JEET.2017.12.2.830",
+   "article-title": "A new support vector machine model based on improved imperialist competitive algorithm for fault diagnosis of oil-immersed transformers",
+   "volume": "12",
+   "author": "Zhang",
+   "year": "2017",
+   "journal-title": "J. Electr. Eng. Technol."
+  },
+  {
+   "key": "ref_189",
+   "first-page": "45",
+   "article-title": "Vibration detection method of transformer winding looseness based on entropy weight correlation theory",
+   "volume": "10",
+   "author": "Qian",
+   "year": "2016",
+   "journal-title": "Southern Power Syst. Technol."
+  },
+  {
+   "key": "ref_190",
+   "unstructured": "Li, J.P. (2008). Study on Power Transformer Fault Diagnosis Technology Based on Dissolved Gases Analysis. [Master\u2019s Thesis, Jilin University]."
+  },
+  {
+   "key": "ref_191",
+   "first-page": "41",
+   "article-title": "Fault diagnosis for traction transformer based on DGA and improved grey correlation",
+   "volume": "51",
+   "author": "Zhao",
+   "year": "2015",
+   "journal-title": "High Volt. Appar."
+  },
+  {
+   "key": "ref_192",
+   "first-page": "115",
+   "article-title": "Dissolved gas analysis based feedback cloud entropy model for power transformer fault diagnosis",
+   "volume": "41",
+   "author": "Xu",
+   "year": "2013",
+   "journal-title": "Power Syst. Prot. Control"
+  },
+  {
+   "key": "ref_193",
+   "doi-asserted-by": "crossref",
+   "first-page": "129",
+   "DOI": "10.3901/JME.2014.13.129",
+   "article-title": "Unified grey relational analysis on transformer DGA fault diagnosis",
+   "volume": "8",
+   "author": "Wang",
+   "year": "2014",
+   "journal-title": "Open Mech. Eng. J."
+  },
+  {
+   "key": "ref_194",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Liu, J.F., Zheng, H.B., Zhang, Y.Y., Wei, H., and Liao, R.J. (2017). Grey relational analysis for insulation condition assessment of power transformers based upon conventional dielectric response measurement. Energies, 10.",
+   "DOI": "10.3390/en10101526"
+  },
+  {
+   "key": "ref_195",
+   "unstructured": "Zhou, L.W., Wang, Y.Y., Wang, F., Yan, C.Y., and Bi, J.G. (2017, January 11\u201314). A transformer fault diagnosis method based on grey relational analysis and integrated weight determination. Proceedings of the 2017 IEEE Electrical Insulation Conference, Baltimore, MD, USA."
+  },
+  {
+   "key": "ref_196",
+   "doi-asserted-by": "crossref",
+   "first-page": "3451",
+   "DOI": "10.1007/s13369-015-2001-6",
+   "article-title": "A novel neural network approach to transformer fault diagnosis based on momentum-embedded BP neural network optimized by genetic algorithm and fuzzy C-means",
+   "volume": "41",
+   "author": "Zhang",
+   "year": "2016",
+   "journal-title": "Arab. J. Sci. Eng."
+  },
+  {
+   "key": "ref_197",
+   "unstructured": "Yu, H., Wei, J., and Li, J. (2010, January 30\u201331). Transformer fault diagnosis based on improved artificial fish swarm optimization algorithm and BP network. Proceedings of the 2010 2nd IEEE International Conference on Industrial Mechatronics and Automation, Wuhan, China."
+  },
+  {
+   "key": "ref_198",
+   "first-page": "4799",
+   "article-title": "Parameter identification of Jiles-Atherton model for transformer based on hybrid artificial fish swarm and shuffled frog leaping algorithm",
+   "volume": "35",
+   "author": "Geng",
+   "year": "2015",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_199",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Yu, H., Wei, J., Wang, D.D., and Sun, P. (2012). The Application of Improved Artificial Fish Swarm and Support Vector Machine in Transformer Fault Diagnosis: Advances in Technology and Management, Springer.",
+   "DOI": "10.1007/978-3-642-29637-6_38"
+  },
+  {
+   "key": "ref_200",
+   "unstructured": "Hu, H.S., Qian, S.X., Wang, J., and Shi, Z.J. (2007, January 16\u201318). Application of information fusion technology in the remote state on-line monitoring and fault diagnosing system for power transformer. Proceedings of the 8th IEEE International Conference on Electronic Measurement and Instruments, Xi\u2019an, China."
+  },
+  {
+   "key": "ref_201",
+   "unstructured": "Li, Y.W., Li, W., Han, X.D., and Li, J. (2009, January 12\u201315). Application of multi-sensor information fusion technology in the power transformer fault diagnosis. Proceedings of the 2009 International Conference on Machine Learning and Cybernetics, Hebei, China."
+  },
+  {
+   "key": "ref_202",
+   "unstructured": "Gong, Y.S., and Zhang, B. (2009, January 12\u201314). The fault diagnosis model of transformer which based on the technology of information fusion. Proceedings of the Ninth IEEE International Conference on Hybrid Intelligent Systems, Shenyang, China."
+  },
+  {
+   "key": "ref_203",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Malik, H., and Mishra, S. (2015, January 17\u201320). Extreme learning machine based fault diagnosis of power transformer using IEC TC10 and its related data. Proceedings of the IEEE India Conference, New Delhi, India.",
+   "DOI": "10.1109/INDICON.2015.7443245"
+  },
+  {
+   "key": "ref_204",
+   "doi-asserted-by": "crossref",
+   "first-page": "360",
+   "DOI": "10.4028/www.scientific.net/AMM.721.360",
+   "article-title": "Transformer fault diagnosis based on online sequential extreme learning machine",
+   "volume": "721",
+   "author": "Wang",
+   "year": "2015",
+   "journal-title": "Appl. Mech. Mater."
+  },
+  {
+   "key": "ref_205",
+   "first-page": "29",
+   "article-title": "Fault diagnosis of power transformer based on extreme learning machine",
+   "volume": "36",
+   "author": "Du",
+   "year": "2017",
+   "journal-title": "J. Shandong Univ. Sci. Technol."
+  },
+  {
+   "key": "ref_206",
+   "first-page": "116",
+   "article-title": "Application of deep learning neural network in fault diagnosis of power transformer",
+   "volume": "36",
+   "author": "Shi",
+   "year": "2015",
+   "journal-title": "Electr. Power Constr."
+  },
+  {
+   "key": "ref_207",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ali, M., Son, D.H., Kang, S.H., Nam, S.R., and Sciubba, E. (2017). An accurate CT saturation classification using a deep learning approach based on unsupervised feature extraction and supervised fine-tuning strategy. Energies, 10.",
+   "DOI": "10.3390/en10111830"
+  },
+  {
+   "key": "ref_208",
+   "first-page": "2362",
+   "article-title": "Power transformer fault diagnosis based on neural network evolved by particle swarm optimization",
+   "volume": "34",
+   "author": "Wang",
+   "year": "2008",
+   "journal-title": "High Volt. Eng."
+  },
+  {
+   "key": "ref_209",
+   "first-page": "8",
+   "article-title": "Power transformer fault diagnosis via neural network based on particle swarm optimization with neighborhood operator",
+   "volume": "51",
+   "author": "Jia",
+   "year": "2008",
+   "journal-title": "High Volt. Appar."
+  },
+  {
+   "key": "ref_210",
+   "first-page": "106",
+   "article-title": "An evidential reasoning approach to transformer fault diagnosis",
+   "volume": "26",
+   "author": "Dong",
+   "year": "2006",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_211",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Irungu, G.K., Akumu, A.O., and Munda, J.L. (2015, January 7\u201310). Transformer condition assessment using dissolved gas analysis, oil testing and evidential reasoning approach. Proceedings of the 2015 Electrical Insulation Conference, Seattle, WA, USA.",
+   "DOI": "10.1109/ICACACT.2014.7223490"
+  },
+  {
+   "key": "ref_212",
+   "unstructured": "Shi, J.P., Tong, W.G., and Wang, D.L. (2009, January 25\u201327). Design of the transformer fault diagnosis expert system based on fuzzy reasoning. Proceedings of the IEEE International Forum on Computer Science-Technology and Applications, Chongqing, China."
+  },
+  {
+   "key": "ref_213",
+   "first-page": "136",
+   "article-title": "Transformer fault diagnosis based on reasoning integration of rough set and fuzzy set and Bayesian optimal classifier",
+   "volume": "8",
+   "author": "Su",
+   "year": "2009",
+   "journal-title": "WSEAS Trans. Circuits Syst."
+  },
+  {
+   "key": "ref_214",
+   "first-page": "1",
+   "article-title": "Fault diagnosis method of power transformer by integrating case-based reasoning with fuzzy theory and neural network",
+   "volume": "27",
+   "author": "Qian",
+   "year": "2001",
+   "journal-title": "High Volt. Eng."
+  },
+  {
+   "key": "ref_215",
+   "doi-asserted-by": "crossref",
+   "first-page": "1111",
+   "DOI": "10.1109/TPWRD.2010.2096482",
+   "article-title": "An integrated decision-making model for condition assessment of power transformers using fuzzy approach and evidential reasoning",
+   "volume": "26",
+   "author": "Liao",
+   "year": "2011",
+   "journal-title": "IEEE Trans. Power Deliv."
+  },
+  {
+   "key": "ref_216",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Irungu, G.K., Akumu, A.O., and Munda, J.L. (2016, January 6\u20139). Comparison of IEC 60599 gas ratios and an integrated fuzzy-evidential reasoning approach in fault identification using dissolved gas analysis. Proceedings of the 51st International Universities\u2019 Power Engineering Conference (UPEC), Coimbra, Portugal.",
+   "DOI": "10.1109/UPEC.2016.8114055"
+  },
+  {
+   "key": "ref_217",
+   "unstructured": "Xie, L., Zhou, L., Tong, X.J., and Chen, M.Y. (2007, January 19\u201322). Fault diagnosis of power transformer insulation based on fuzzy normal partition and logic reasoning. Proceedings of the IEEE International Conference on Machine Learning and Cybernetics, Hong Kong, China."
+  },
+  {
+   "key": "ref_218",
+   "first-page": "31",
+   "article-title": "Survey on theories and applications of swarm intelligence algorithms",
+   "volume": "14",
+   "author": "Wang",
+   "year": "2014",
+   "journal-title": "J. Nanjing Norm. Univ."
+  },
+  {
+   "key": "ref_219",
+   "first-page": "70",
+   "article-title": "Optimization of support vector machine parameters based on group intelligence algorithm",
+   "volume": "13",
+   "author": "Li",
+   "year": "2018",
+   "journal-title": "CAAI Trans. Intell. Syst."
+  },
+  {
+   "key": "ref_220",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Holland, J.H. (1992). Adaptation in Natural and Artificial Systems, MIT Press. [2nd ed.].",
+   "DOI": "10.7551/mitpress/1090.001.0001"
+  },
+  {
+   "key": "ref_221",
+   "doi-asserted-by": "crossref",
+   "first-page": "727",
+   "DOI": "10.1006/jmbi.1996.0897",
+   "article-title": "Development and validation of a genetic algorithm for flexible docking",
+   "volume": "267",
+   "author": "Jones",
+   "year": "1997",
+   "journal-title": "J. Mol. Biol."
+  },
+  {
+   "key": "ref_222",
+   "first-page": "88",
+   "article-title": "Fault Diagnosis of power transformers based on genetic algorithm evolving wavelet neural network",
+   "volume": "31",
+   "author": "Chen",
+   "year": "2007",
+   "journal-title": "Power Syst. Autom."
+  },
+  {
+   "key": "ref_223",
+   "doi-asserted-by": "crossref",
+   "first-page": "533",
+   "DOI": "10.1049/iet-epa.2014.0182",
+   "article-title": "Localizing low-level short-circuit faults on the windings of power transformers based on low-frequency response measurement of the transformer windings",
+   "volume": "9",
+   "author": "Mahvi",
+   "year": "2015",
+   "journal-title": "IET Electr. Power Appl."
+  },
+  {
+   "key": "ref_224",
+   "first-page": "68",
+   "article-title": "Survey on artificial immune algorithm",
+   "volume": "7",
+   "author": "Shi",
+   "year": "2008",
+   "journal-title": "Softw. Guide"
+  },
+  {
+   "key": "ref_225",
+   "unstructured": "Yuan, J.S., Lu, W., and Li, Z. (2008, January 21\u201322). Artificial immune algorithm for fault diagnosis of power transformer. Proceedings of the IEEE International Symposium on Knowledge Acquisition and Modeling Workshop, Wuhan, China."
+  },
+  {
+   "key": "ref_226",
+   "doi-asserted-by": "crossref",
+   "first-page": "53",
+   "DOI": "10.1109/4235.585892",
+   "article-title": "Ant colony system: A cooperative learning approach to the traveling salesman problem",
+   "volume": "1",
+   "author": "Dorigo",
+   "year": "1997",
+   "journal-title": "IEEE Trans. Evol. Comput."
+  },
+  {
+   "key": "ref_227",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Dorigo, M. (2004). St\u00fctzle, T. Ant Colony Optimization, MIT Press.",
+   "DOI": "10.7551/mitpress/1290.001.0001"
+  },
+  {
+   "key": "ref_228",
+   "doi-asserted-by": "crossref",
+   "first-page": "54",
+   "DOI": "10.4028/www.scientific.net/AMR.659.54",
+   "article-title": "Transformer fault diagnosis method based on support vector machine and ant colony",
+   "volume": "659",
+   "author": "Mo",
+   "year": "2013",
+   "journal-title": "Adv. Mater. Res."
+  },
+  {
+   "key": "ref_229",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Liu, Q., Huang, G.Q., Mao, C., Shang, Y., and Wang, F. (2016, January 19\u201322). Recognition of dissolved gas in transformer oil by ant colony optimization support vector machine. Proceedings of the IEEE International Conference on High Voltage Engineering and Application, Chengdu, China.",
+   "DOI": "10.1109/ICHVE.2016.7800837"
+  },
+  {
+   "key": "ref_230",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Niu, W., Xu, L.F., and Hu, S.G. (2010, January 26\u201328). Fault diagnosis method for power transformer based on ant colony-SVM classifier. Proceedings of the 2nd IEEE International Conference on Computer and Automation Engineering, Singapore.",
+   "DOI": "10.1109/ICCAE.2010.5451326"
+  },
+  {
+   "key": "ref_231",
+   "first-page": "96",
+   "article-title": "The transformer diagnosis data reduction based on improved ant colony algorithm",
+   "volume": "39",
+   "author": "Tian",
+   "year": "2011",
+   "journal-title": "Power Syst. Prot. Control"
+  },
+  {
+   "key": "ref_232",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Li, A.H., Sun, X.Y., and Liu, D.H. (2011, January 26\u201328). Application of RBF network with ant colony and fisher ratio to fault diagnosis of oil-immersed transformer. Proceedings of the IEEE Seventh International Conference on Natural Computation, Shanghai, China.",
+   "DOI": "10.1109/ICNC.2011.6022105"
+  },
+  {
+   "key": "ref_233",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Wei, L.Y., and Cui, X. (2011, January 26\u201327). Study on power transformer fault test sequence optimization based on multi-colony ant colony algorithm. Proceedings of the IEEE Computer Society Third International Conference on Intelligent Human-Machine Systems and Cybernetics, Zhejiang, China.",
+   "DOI": "10.1109/IHMSC.2011.101"
+  },
+  {
+   "key": "ref_234",
+   "first-page": "34",
+   "article-title": "Transformer intelligent breakdown diagnosis system based on ant colony algorithm",
+   "volume": "14",
+   "author": "Qiao",
+   "year": "2007",
+   "journal-title": "Jiangsu Electr. Appar."
+  },
+  {
+   "key": "ref_235",
+   "unstructured": "Kennedy, J., and Eberhart, R. (December, January 27). Particle swarm optimization. Proceedings of the IEEE International Conference on Neural Networks, the University of Western Australia, Perth, Australia."
+  },
+  {
+   "key": "ref_236",
+   "unstructured": "Lee, T.F., Cho, M.Y., Shieh, C.S., and Fang, F.M. (2006, January 9\u201311). Particle swarm optimization-based SVM application: Power transformers incipient fault syndrome diagnosis. Proceedings of the IEEE Computer Society International Conference on Hybrid Information Technology, Cheju, Korea."
+  },
+  {
+   "key": "ref_237",
+   "first-page": "37",
+   "article-title": "Application of wavelet neural network with improved particle swarm optimization algorithm in power transformer fault diagnosis",
+   "volume": "42",
+   "author": "Cheng",
+   "year": "2014",
+   "journal-title": "Power Syst. Prot. Control"
+  },
+  {
+   "key": "ref_238",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Geethanjali, M., Kannan, V., and Anjana, A.V.R. (2011, January 19\u201321). Bacterial foraging optimization algorithm trained ANN based differential protection scheme for power transformers. Proceedings of the 2nd International Conference on Swarm, Evolutionary, and Memetic Computing, Part II, Visakhapatnam, India.",
+   "DOI": "10.1007/978-3-642-27242-4_31"
+  },
+  {
+   "key": "ref_239",
+   "doi-asserted-by": "crossref",
+   "first-page": "1569",
+   "DOI": "10.4236/cs.2016.78137",
+   "article-title": "An effective detection of inrush and internal faults in power transformers using bacterial foraging optimization technique",
+   "volume": "7",
+   "author": "Gopila",
+   "year": "2016",
+   "journal-title": "Circuits Syst."
+  },
+  {
+   "key": "ref_240",
+   "first-page": "32",
+   "article-title": "An optimizing method based on autonomous animals: Fish-swarm algorithm",
+   "volume": "22",
+   "author": "Li",
+   "year": "2002",
+   "journal-title": "Syst. Eng. Theory Pract."
+  },
+  {
+   "key": "ref_241",
+   "first-page": "1",
+   "article-title": "Studies on artificial fish swarm optimization algorithm based on decomposition and coordination techniques",
+   "volume": "8",
+   "author": "Li",
+   "year": "2003",
+   "journal-title": "J. Circuits Syst."
+  },
+  {
+   "key": "ref_242",
+   "unstructured": "Karaboga, D. (2005). An Idea Based on Honey Bee Swarm for Numerical Optimization, Computer Engineering Department, Erciyes University, Engineering Faculty. Technical Report-TR06."
+  },
+  {
+   "key": "ref_243",
+   "doi-asserted-by": "crossref",
+   "first-page": "271",
+   "DOI": "10.21533/pen.v5i3.103",
+   "article-title": "Multi-objective artificial bee colony algorithm to estimate transformer equivalent circuit parameters",
+   "volume": "5",
+   "author": "Yilmaz",
+   "year": "2017",
+   "journal-title": "Period. Eng. Nat. Sci."
+  },
+  {
+   "key": "ref_244",
+   "first-page": "93",
+   "article-title": "Glowworm swarm optimisation: A new method for optimising multi-modal functions",
+   "volume": "1",
+   "author": "Krishnanand",
+   "year": "2009",
+   "journal-title": "Int. J. Comput. Intell. Stud."
+  },
+  {
+   "key": "ref_245",
+   "unstructured": "Huang, X.B., Song, T., Wang, Y.N., and Liwen, J.Z. (2014). Transformer Fault Diagnostic Method Based on Gray Fuzzy Firefly Algorithm Optimization. (No. CN 103698627 A), Patent Application."
+  },
+  {
+   "key": "ref_246",
+   "first-page": "60",
+   "article-title": "Power transformer fault diagnosis based on IGSO optimization algorithm",
+   "volume": "47",
+   "author": "Huang",
+   "year": "2014",
+   "journal-title": "Electr. Power"
+  },
+  {
+   "key": "ref_247",
+   "doi-asserted-by": "crossref",
+   "first-page": "141",
+   "DOI": "10.1504/IJBIC.2013.055093",
+   "article-title": "Bat algorithm: Literature review and applications",
+   "volume": "5",
+   "author": "Yang",
+   "year": "2013",
+   "journal-title": "Int. J. Bioinspir. Comput."
+  },
+  {
+   "key": "ref_248",
+   "first-page": "70",
+   "article-title": "Fault diagnosis of power transformer based on improved BP neural network optimized by bat algorithm",
+   "volume": "36",
+   "author": "Gong",
+   "year": "2017",
+   "journal-title": "J. Shandong Univ. Sci. Technol."
+  },
+  {
+   "key": "ref_249",
+   "first-page": "1275",
+   "article-title": "Diagnosis model for transformer fault based on CRO-BP neural network and fusion DGA method",
+   "volume": "42",
+   "author": "Zhang",
+   "year": "2016",
+   "journal-title": "High Volt. Eng."
+  },
+  {
+   "key": "ref_250",
+   "first-page": "15",
+   "article-title": "Power transformer fault diagnosis based on integrated artificial intelligence",
+   "volume": "27",
+   "author": "Zang",
+   "year": "2003",
+   "journal-title": "Power Syst. Technol."
+  },
+  {
+   "key": "ref_251",
+   "first-page": "27",
+   "article-title": "Application of rough set and multiple population genetic algorithm in fault diagnosis of transformer",
+   "volume": "37",
+   "author": "Huang",
+   "year": "2016",
+   "journal-title": "Process Autom. Instrum."
+  },
+  {
+   "key": "ref_252",
+   "unstructured": "Yao, H. (2016). Power Transformer Fault Diagnosis Based on Improved Artificial Fish Algorithm-RBF Network. [Master\u2019s Thesis, Guangxi University]."
+  },
+  {
+   "key": "ref_253",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Illias, H.A., and Zhao, W.L. (2018). Identification of transformer fault based on dissolved gas analysis using hybrid support vector machine-modified evolutionary particle swarm optimization. PLoS ONE, 13.",
+   "DOI": "10.1371/journal.pone.0191366"
+  },
+  {
+   "key": "ref_254",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Wang, X.X., Wang, T., and Wang, B.S. (2008, January 20\u201322). Hybrid PSO-BP based probabilistic neural network for power transformer fault diagnosis. Proceedings of the IEEE International Symposium on Intelligent Information Technology Application, Shanghai, China.",
+   "DOI": "10.1109/IITA.2008.381"
+  },
+  {
+   "key": "ref_255",
+   "unstructured": "Sima, L.P., and Shu, N.Q. (2011, January 15\u201317). Fault diagnosis of power transformer based on clustering binary tree SVMs. Proceedings of the 2011 IEEE International Conference on Electric Information and Control Engineering, Wuhan, China."
+  },
+  {
+   "key": "ref_256",
+   "first-page": "641",
+   "article-title": "On challenges in artificial intelligence",
+   "volume": "42",
+   "author": "Zheng",
+   "year": "2016",
+   "journal-title": "Acta Autom. Sin."
+  },
+  {
+   "key": "ref_257",
+   "first-page": "1",
+   "article-title": "Parallel learning\u2014A new framework for machine learning",
+   "volume": "43",
+   "author": "Li",
+   "year": "2017",
+   "journal-title": "Acta Autom. Sin."
+  },
+  {
+   "key": "ref_258",
+   "doi-asserted-by": "crossref",
+   "first-page": "107",
+   "DOI": "10.1561/2200000018",
+   "article-title": "Online learning and online convex optimization",
+   "volume": "4",
+   "year": "2011",
+   "journal-title": "Found. Trends Mach. Learn."
+  },
+  {
+   "key": "ref_259",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Settles, B. (2012). Active Learning, Morgan and Claypool Publishers.",
+   "DOI": "10.1007/978-3-031-01560-1"
+  },
+  {
+   "key": "ref_260",
+   "first-page": "685",
+   "article-title": "Reinforcement learning and its application to the game of Go",
+   "volume": "42",
+   "author": "Chen",
+   "year": "2016",
+   "journal-title": "Acta Autom. Sin."
+  },
+  {
+   "key": "ref_261",
+   "first-page": "1",
+   "article-title": "A survey on deep reinforcement learning",
+   "volume": "41",
+   "author": "Liu",
+   "year": "2018",
+   "journal-title": "Chin. J. Comput."
+  },
+  {
+   "key": "ref_262",
+   "first-page": "229",
+   "article-title": "Optimization strategy research on combined-kernel support vector machine for partial discharge pattern recognition",
+   "volume": "30",
+   "author": "Wang",
+   "year": "2015",
+   "journal-title": "Trans. China Electrotech. Soc."
+  },
+  {
+   "key": "ref_263",
+   "first-page": "722",
+   "article-title": "Application of support vector machine in transformer fault diagnosis",
+   "volume": "41",
+   "author": "Wu",
+   "year": "2007",
+   "journal-title": "J. Xi\u2019an Jiaotong Univ."
+  },
+  {
+   "key": "ref_264",
+   "unstructured": "Huang, G.B., Zhu, Q.Y., and Siew, C.K. (2004, January 25\u201329). Extreme learning machine: A new learning scheme of feedforward neural networks. Proceedings of the 2004 IEEE International Joint Conference on Neural Networks, Budapest, Hungary."
+  },
+  {
+   "key": "ref_265",
+   "doi-asserted-by": "crossref",
+   "first-page": "31",
+   "DOI": "10.1016/j.neucom.2011.12.045",
+   "article-title": "Robust extreme learning machine",
+   "volume": "102",
+   "author": "Horata",
+   "year": "2013",
+   "journal-title": "Neurocomput"
+  },
+  {
+   "key": "ref_266",
+   "doi-asserted-by": "crossref",
+   "first-page": "2405",
+   "DOI": "10.1109/TCYB.2014.2307349",
+   "article-title": "Semi-supervised and unsupervised extreme learning machines",
+   "volume": "44",
+   "author": "Huang",
+   "year": "2014",
+   "journal-title": "IEEE Trans. Cybern."
+  },
+  {
+   "key": "ref_267",
+   "first-page": "311",
+   "article-title": "Domain adaption algorithm with ELM parameter transfer",
+   "volume": "44",
+   "author": "Xu",
+   "year": "2018",
+   "journal-title": "Acta Autom. Sin."
+  },
+  {
+   "key": "ref_268",
+   "first-page": "9",
+   "article-title": "Research status of power transformer fault diagnosis based on machine learning",
+   "volume": "24",
+   "author": "Liu",
+   "year": "2017",
+   "journal-title": "Electr. World"
+  },
+  {
+   "key": "ref_269",
+   "first-page": "176",
+   "article-title": "Fault diagnosis of power transformer using particle swarm optimization and extreme learning machine based on DGA",
+   "volume": "52",
+   "author": "Yuan",
+   "year": "2016",
+   "journal-title": "High Volt. Appar."
+  },
+  {
+   "key": "ref_270",
+   "first-page": "88",
+   "article-title": "Fuzzy fault diagnosis of power transformer based on new coding membership function",
+   "volume": "30",
+   "author": "Zou",
+   "year": "2010",
+   "journal-title": "Electr. Power Autom. Equip."
+  },
+  {
+   "key": "ref_271",
+   "first-page": "56",
+   "article-title": "Application of wavelet neural networks in fault diagnosis of transformer",
+   "volume": "29",
+   "author": "Li",
+   "year": "2001",
+   "journal-title": "J. Zhejiang Univ. Technol."
+  },
+  {
+   "key": "ref_272",
+   "first-page": "330",
+   "article-title": "Integrated diagnosis of transformer faults based on three-layer Bayesian network",
+   "volume": "39",
+   "author": "Bai",
+   "year": "2013",
+   "journal-title": "High Volt. Eng."
+  },
+  {
+   "key": "ref_273",
+   "first-page": "161",
+   "article-title": "Synthesized diagnosis on transformer faults based on Bayesian classifier and rough set",
+   "volume": "25",
+   "author": "Zhu",
+   "year": "2005",
+   "journal-title": "Proc. CSEE"
+  },
+  {
+   "key": "ref_274",
+   "first-page": "82",
+   "article-title": "Fault diagnosis strategy for transformer oil chromatography monitoring of fuzzy neural network based on improved PSO",
+   "volume": "26",
+   "author": "Wang",
+   "year": "2013",
+   "journal-title": "Guangdong Electr. Power"
+  },
+  {
+   "key": "ref_275",
+   "first-page": "321",
+   "article-title": "Generative adversarial networks: The state of the art and beyond",
+   "volume": "43",
+   "author": "Wang",
+   "year": "2017",
+   "journal-title": "Acta Autom. Sin."
+  },
+  {
+   "key": "ref_276",
+   "doi-asserted-by": "crossref",
+   "first-page": "484",
+   "DOI": "10.1038/nature16961",
+   "article-title": "Mastering the game of Go with deep neural networks and tree search",
+   "volume": "529",
+   "author": "Silver",
+   "year": "2016",
+   "journal-title": "Nature"
+  },
+  {
+   "key": "ref_277",
+   "doi-asserted-by": "crossref",
+   "first-page": "354",
+   "DOI": "10.1038/nature24270",
+   "article-title": "Mastering the game of Go without human knowledge",
+   "volume": "550",
+   "author": "Silver",
+   "year": "2017",
+   "journal-title": "Nature"
+  },
+  {
+   "key": "ref_278",
+   "unstructured": "Silver, D., Hubert, T., Schrittwieser, J., Antonoglou, I., Lai, M., Guez, A., Lanctot, M., Sifre, L., Kumaran, D., and Graepel, T. (2017). Mastering chess and Shogi by self-play with a general reinforcement learning algorithm. arXiv."
+  }
+ ],
+ "container-title": [
+  "Energies"
+ ],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://www.mdpi.com/1996-1073/11/4/913/pdf",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    11
+   ]
+  ],
+  "date-time": "2025-10-11T15:00:32Z",
+  "timestamp": 1760194832000
+ },
+ "score": 120.405464,
+ "resource": {
+  "primary": {
+   "URL": "https://www.mdpi.com/1996-1073/11/4/913"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2018,
+    4,
+    12
+   ]
+  ]
+ },
+ "references-count": 278,
+ "journal-issue": {
+  "issue": "4",
+  "published-online": {
+   "date-parts": [
+    [
+     2018,
+     4
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "en11040913"
+ ],
+ "URL": "https://doi.org/10.3390/en11040913",
+ "ISSN": [
+  "1996-1073"
+ ],
+ "issn-type": [
+  {
+   "value": "1996-1073",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2018,
+    4,
+    12
+   ]
+  ]
+ }
+}

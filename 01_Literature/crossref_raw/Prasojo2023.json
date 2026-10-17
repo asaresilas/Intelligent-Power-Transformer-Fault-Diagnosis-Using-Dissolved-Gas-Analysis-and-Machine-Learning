@@ -1,0 +1,756 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    3
+   ]
+  ],
+  "date-time": "2026-10-03T16:57:52Z",
+  "timestamp": 1791046672013,
+  "version": "4.1.0"
+ },
+ "reference-count": 43,
+ "publisher": "Elsevier BV",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      7,
+      1
+     ]
+    ],
+    "date-time": "2023-07-01T00:00:00Z",
+    "timestamp": 1688169600000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      7,
+      1
+     ]
+    ],
+    "date-time": "2023-07-01T00:00:00Z",
+    "timestamp": 1688169600000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.elsevier.com/legal/tdmrep-license"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      4,
+      2
+     ]
+    ],
+    "date-time": "2023-04-02T00:00:00Z",
+    "timestamp": 1680393600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "http://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100006261",
+   "name": "Taif University",
+   "doi-asserted-by": "publisher",
+   "id": [
+    {
+     "id": "10.13039/501100006261",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "elsevier.com",
+   "sciencedirect.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "Electric Power Systems Research"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2023,
+    7
+   ]
+  ]
+ },
+ "DOI": "10.1016/j.epsr.2023.109361",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2023,
+    4,
+    4
+   ]
+  ],
+  "date-time": "2023-04-04T11:34:52Z",
+  "timestamp": 1680608092000
+ },
+ "page": "109361",
+ "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 86,
+ "special_numbering": "C",
+ "title": [
+  "Precise transformer fault diagnosis via random forest model enhanced by synthetic minority over-sampling technique"
+ ],
+ "prefix": "10.1016",
+ "volume": "220",
+ "author": [
+  {
+   "given": "Rahman Azis",
+   "family": "Prasojo",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Muhammad Akmal A.",
+   "family": "Putra",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "family": "Ekojono",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Meyti Eka",
+   "family": "Apriyani",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Anugrah Nur",
+   "family": "Rahmanto",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Sherif S.M.",
+   "family": "Ghoneim",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Karar",
+   "family": "Mahmoud",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Matti",
+   "family": "Lehtonen",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Mohamed M.F.",
+   "family": "Darwish",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "78",
+ "reference": [
+  {
+   "issue": "19",
+   "key": "10.1016/j.epsr.2023.109361_bib0001",
+   "doi-asserted-by": "crossref",
+   "first-page": "4",
+   "DOI": "10.3390/s19194057",
+   "article-title": "Dissolved gas analysis equipment for online monitoring of transformer oil: a review",
+   "volume": "19",
+   "author": "Bustamante",
+   "year": "2019",
+   "journal-title": "Sensors (Switzerland)"
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0002",
+   "doi-asserted-by": "crossref",
+   "first-page": "81693",
+   "DOI": "10.1109/ACCESS.2021.3086135",
+   "article-title": "Accuracy improvement of power transformer faults diagnostic using KNN classifier with decision tree principle",
+   "author": "Kherif",
+   "year": "2021",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0003",
+   "series-title": "The 2nd International Conference on High Voltage and Power Systems ICHVEPS",
+   "article-title": "Development of analytic hierarchy process technique in determining weighting factor for power transformer health index",
+   "author": "Prasojo",
+   "year": "2019"
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0004",
+   "series-title": "8th International Conference on Condition Monitoring and Diagnosis (CMD)",
+   "first-page": "234",
+   "article-title": "A multiple expert consensus model for transformer assessment index weighting factor determination",
+   "author": "Prasojo",
+   "year": "2020"
+  },
+  {
+   "issue": "3",
+   "key": "10.1016/j.epsr.2023.109361_bib0005",
+   "doi-asserted-by": "crossref",
+   "first-page": "1838",
+   "DOI": "10.1109/TDEI.2016.005301",
+   "article-title": "Integrated ANN-based proactive fault diagnostic scheme for power transformers using dissolved gas analysis",
+   "volume": "23",
+   "author": "Ghoneim",
+   "year": "2016",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0006",
+   "unstructured": "IEEE Std C57.104-2019, \u201cIEEE guide for the interpretation of gases generated in mineral oil-immersed transformers.\u201d 2019."
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0007",
+   "unstructured": "IEC 60599, \u201cMineral oil-filled electrical equipment in service - guidance on the interpretation of dissolved and free gases analysis.\u201d 2015."
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0008",
+   "doi-asserted-by": "crossref",
+   "first-page": "30817",
+   "DOI": "10.1109/ACCESS.2021.3060288",
+   "article-title": "Enhancing diagnostic accuracy of transformer faults using teaching-learning-based optimization",
+   "volume": "9",
+   "author": "Ghoneim",
+   "year": "2021",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0009",
+   "first-page": "1",
+   "article-title": "Alternate and effective dissolved gas interpretation to understand the transformer incipient faults",
+   "author": "Manoj",
+   "year": "2023",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.epsr.2023.109361_bib0010",
+   "doi-asserted-by": "crossref",
+   "first-page": "1239",
+   "DOI": "10.1109/TDEI.2017.005959",
+   "article-title": "Dissolved gas analysis evaluation in electric power transformers using conventional methods a review",
+   "volume": "24",
+   "author": "Faiz",
+   "year": "2017",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.epsr.2023.109361_bib0011",
+   "doi-asserted-by": "crossref",
+   "first-page": "9",
+   "DOI": "10.1109/MEI.2014.6943428",
+   "article-title": "The Duval pentagon \u2014 a new complementary tool for the",
+   "volume": "30",
+   "author": "Duval",
+   "year": "2014",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "issue": "November 2022",
+   "key": "10.1016/j.epsr.2023.109361_bib0012",
+   "article-title": "Conventional methods of dissolved gas analysis using oil-immersed power transformer for fault diagnosis: a review",
+   "volume": "216",
+   "author": "Ali",
+   "year": "2023",
+   "journal-title": "Electr. Power Syst. Res."
+  },
+  {
+   "issue": "10",
+   "key": "10.1016/j.epsr.2023.109361_bib0013",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/en14102970",
+   "article-title": "Accuracy improvement of transformer faults diagnostic based on DGA data using SVM-BA classifier",
+   "volume": "14",
+   "author": "Benmahamed",
+   "year": "2021",
+   "journal-title": "Energies"
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0014",
+   "doi-asserted-by": "crossref",
+   "first-page": "78324",
+   "DOI": "10.1109/ACCESS.2021.3083593",
+   "article-title": "Adaptive dynamic meta-heuristics for feature selection and classification in diagnostic accuracy of transformer faults",
+   "volume": "9",
+   "author": "Ghoneim",
+   "year": "2021",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "issue": "17",
+   "key": "10.1016/j.epsr.2023.109361_bib0015",
+   "doi-asserted-by": "crossref",
+   "first-page": "1",
+   "DOI": "10.3390/math10173144",
+   "article-title": "Feature selection and classification of transformer faults based on novel meta-heuristic algorithm",
+   "volume": "10",
+   "author": "El-kenawy",
+   "year": "2022",
+   "journal-title": "Mathematics"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.epsr.2023.109361_bib0016",
+   "doi-asserted-by": "crossref",
+   "first-page": "1325",
+   "DOI": "10.1109/TDEI.2019.008034",
+   "article-title": "Improving diagnostic performance of a power transformer using an adaptive over-sampling method for imbalanced data",
+   "volume": "26",
+   "author": "Tra",
+   "year": "2019",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "7",
+   "key": "10.1016/j.epsr.2023.109361_bib0017",
+   "doi-asserted-by": "crossref",
+   "first-page": "959",
+   "DOI": "10.1049/iet-smt.2018.5135",
+   "article-title": "Multiple incipient fault classification approach for enhancing the accuracy of dissolved gas analysis (DGA)",
+   "volume": "13",
+   "author": "Wani",
+   "year": "2019",
+   "journal-title": "IET Sci. Meas. Technol."
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0018",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1007/s00202-022-01532-5",
+   "article-title": "Investigation on machine learning algorithms to support transformer dissolved gas analysis fault identification",
+   "author": "Ekojono",
+   "year": "2022",
+   "journal-title": "Electr. Eng."
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0019",
+   "doi-asserted-by": "crossref",
+   "first-page": "178295",
+   "DOI": "10.1109/ACCESS.2020.3027830",
+   "article-title": "A semi-supervised autoencoder with an auxiliary task (saat) for power transformer fault diagnosis using dissolved gas analysis",
+   "volume": "8",
+   "author": "Kim",
+   "year": "2020",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "issue": "23",
+   "key": "10.1016/j.epsr.2023.109361_bib0020",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/en15239030",
+   "article-title": "Dissolved gas analysis and application of artificial intelligence technique for fault diagnosis in power transformers: a South African case study",
+   "volume": "15",
+   "author": "Thango",
+   "year": "2022",
+   "journal-title": "Energies"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.epsr.2023.109361_bib0021",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.3390/app10041329",
+   "article-title": "A deep parallel diagnostic method for transformer dissolved gas analysis",
+   "volume": "10",
+   "author": "Wu",
+   "year": "2020",
+   "journal-title": "Appl. Sci."
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0022",
+   "doi-asserted-by": "crossref",
+   "first-page": "64606",
+   "DOI": "10.1109/ACCESS.2021.3074243",
+   "article-title": "Review of classification methods on unbalanced data sets",
+   "volume": "9",
+   "author": "Wang",
+   "year": "2021",
+   "journal-title": "IEEE Access"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.epsr.2023.109361_bib0023",
+   "doi-asserted-by": "crossref",
+   "first-page": "82",
+   "DOI": "10.18178/ijeee.8.4.82-87",
+   "article-title": "Transformers fault prediction: an improved ensembled method",
+   "volume": "8",
+   "author": "Peiwen",
+   "year": "2020",
+   "journal-title": "Int. J. Electron. Electr. Eng."
+  },
+  {
+   "issue": "5",
+   "key": "10.1016/j.epsr.2023.109361_bib0024",
+   "doi-asserted-by": "crossref",
+   "first-page": "2363",
+   "DOI": "10.1109/TDEI.2014.004547",
+   "article-title": "Improvement of power transformer insulation diagnosis using oil characteristics data preprocessed by SMOTEBoost technique",
+   "volume": "21",
+   "author": "Cui",
+   "year": "2014",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.epsr.2023.109361_bib0025",
+   "doi-asserted-by": "crossref",
+   "first-page": "388",
+   "DOI": "10.14716/ijtech.v11i2.3625",
+   "article-title": "Data-driven fault diagnosis of power transformers using dissolved gas analysis (DGA",
+   "volume": "11",
+   "author": "Dhini",
+   "year": "2020",
+   "journal-title": "Int. J. Technol."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.epsr.2023.109361_bib0026",
+   "doi-asserted-by": "crossref",
+   "first-page": "9",
+   "DOI": "10.1109/MEI.2014.6943428",
+   "article-title": "The duval pentagon-a new complementary tool for the interpretation of dissolved gas analysis in transformers",
+   "volume": "30",
+   "author": "Duval",
+   "year": "2014",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0027",
+   "series-title": "2021 IEEE International Conference on the Properties and Applications of Dielectric Materials (ICPADM)",
+   "first-page": "298",
+   "article-title": "Integration of Duval pentagon to the multi-method interpretation to improve the accuracy of dissolved gas analysis technique",
+   "author": "Sutikno",
+   "year": "2021"
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0028",
+   "series-title": "2019 5th International Conference on Engineering, Applied Sciences and Technology (ICEAST)",
+   "first-page": "1",
+   "article-title": "Application of Duval pentagon compared with other DGA interpretation techniques: case studies for actual transformer inspections including experience from power plants in Thailand",
+   "author": "Pattanadech",
+   "year": "2019"
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.epsr.2023.109361_bib0029",
+   "doi-asserted-by": "crossref",
+   "DOI": "10.1016/j.jece.2020.104599",
+   "article-title": "River water quality index prediction and uncertainty analysis: a comparative study of machine learning models",
+   "volume": "9",
+   "author": "Asadollah",
+   "year": "2021",
+   "journal-title": "J. Environ. Chem. Eng."
+  },
+  {
+   "issue": "7",
+   "key": "10.1016/j.epsr.2023.109361_bib0030",
+   "doi-asserted-by": "crossref",
+   "first-page": "1545",
+   "DOI": "10.1162/neco.1997.9.7.1545",
+   "article-title": "Shape quantization and recognition with randomized trees",
+   "volume": "9",
+   "author": "Amit",
+   "year": "1997",
+   "journal-title": "Neural Comput."
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0031",
+   "series-title": "Random Forests - Random Features",
+   "first-page": "1",
+   "author": "Breiman",
+   "year": "1999"
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0032",
+   "article-title": "Ensemble machine learning",
+   "author": "Cutler",
+   "year": "2012",
+   "journal-title": "Ensemble Mach. Learn."
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0033",
+   "series-title": "2019 IEEE 20th International Conference on Dielectric Liquids (ICDL)",
+   "first-page": "1",
+   "article-title": "Partial discharge defect recognition in power transformer using random forest",
+   "author": "Kartojo",
+   "year": "2019"
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0034",
+   "series-title": "2021 2nd Int. Conf. Emerg. Technol. INCET 2021",
+   "article-title": "Random forest classifier based dissolved gas analysis for identification of power transformer faults using gas ratio data",
+   "author": "Jamshed",
+   "year": "2021"
+  },
+  {
+   "issue": "4",
+   "key": "10.1016/j.epsr.2023.109361_bib0035",
+   "article-title": "A review on classification of imbalanced data for wireless sensor networks",
+   "volume": "16",
+   "author": "Patel",
+   "year": "2020",
+   "journal-title": "Int. J. Distrib. Sens. Networks"
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0036",
+   "doi-asserted-by": "crossref",
+   "first-page": "321",
+   "DOI": "10.1613/jair.953",
+   "article-title": "SMOTE: synthetic minority over-sampling technique",
+   "volume": "16",
+   "author": "V",
+   "year": "2002",
+   "journal-title": "J. Artif. Intell. Res."
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0037",
+   "series-title": "Investigation of Data Centric Diagnostic Techniques For Transformer Condition Assessment",
+   "author": "Cui",
+   "year": "2016"
+  },
+  {
+   "key": "10.1016/j.epsr.2023.109361_bib0038",
+   "unstructured": "CIGRE TB 771: advances in DGA interpretation. 2019."
+  },
+  {
+   "issue": "1",
+   "key": "10.1016/j.epsr.2023.109361_bib0039",
+   "doi-asserted-by": "crossref",
+   "first-page": "222",
+   "DOI": "10.1109/TDEI.2019.008395",
+   "article-title": "Optimal ratio limits of rogers\u2019 four-ratios and IEC 60599 code methods using particle swarm optimization fuzzy-logic approach",
+   "volume": "27",
+   "author": "Taha",
+   "year": "2020",
+   "journal-title": "IEEE Trans. Dielectr. Electr. Insul."
+  },
+  {
+   "issue": "6",
+   "key": "10.1016/j.epsr.2023.109361_bib0040",
+   "doi-asserted-by": "crossref",
+   "first-page": "22",
+   "DOI": "10.1109/MEI.2008.4665347",
+   "article-title": "The Duval triangle for load tap changers, non-mineral oils and low",
+   "volume": "24",
+   "author": "Duval",
+   "year": "2008",
+   "journal-title": "IEEE Electr. Insul. Mag."
+  },
+  {
+   "issue": "2016-Novem",
+   "key": "10.1016/j.epsr.2023.109361_bib0041",
+   "first-page": "2",
+   "article-title": "Refining DGA methods of IEC Code and Rogers four ratios for transformer fault diagnosis",
+   "author": "Taha",
+   "year": "2016",
+   "journal-title": "IEEE Power Energy Soc. Gen. Meet."
+  },
+  {
+   "issue": "September 2020",
+   "key": "10.1016/j.epsr.2023.109361_bib0042",
+   "article-title": "Transformer fault types and severity class prediction based on neural pattern-recognition techniques",
+   "volume": "191",
+   "author": "Taha",
+   "year": "2021",
+   "journal-title": "Electr. Power Syst. Res."
+  },
+  {
+   "issue": "2",
+   "key": "10.1016/j.epsr.2023.109361_bib0043",
+   "doi-asserted-by": "crossref",
+   "first-page": "302",
+   "DOI": "10.1049/hve2.12136",
+   "article-title": "New correlation features for dissolved gas analysis based transformer fault diagnosis based on the maximal information coefficient",
+   "volume": "7",
+   "author": "Liang",
+   "year": "2022",
+   "journal-title": "High Volt"
+  }
+ ],
+ "container-title": [
+  "Electric Power Systems Research"
+ ],
+ "original-title": [],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S037877962300250X?httpAccept=text/xml",
+   "content-type": "text/xml",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  },
+  {
+   "URL": "https://api.elsevier.com/content/article/PII:S037877962300250X?httpAccept=text/plain",
+   "content-type": "text/plain",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    4,
+    18
+   ]
+  ],
+  "date-time": "2025-04-18T20:09:49Z",
+  "timestamp": 1745006989000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://linkinghub.elsevier.com/retrieve/pii/S037877962300250X"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2023,
+    7
+   ]
+  ]
+ },
+ "references-count": 43,
+ "alternative-id": [
+  "S037877962300250X"
+ ],
+ "URL": "https://doi.org/10.1016/j.epsr.2023.109361",
+ "relation": {},
+ "ISSN": [
+  "0378-7796"
+ ],
+ "issn-type": [
+  {
+   "value": "0378-7796",
+   "type": "print"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2023,
+    7
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "Elsevier",
+   "name": "publisher",
+   "label": "This article is maintained by"
+  },
+  {
+   "value": "Precise transformer fault diagnosis via random forest model enhanced by synthetic minority over-sampling technique",
+   "name": "articletitle",
+   "label": "Article Title"
+  },
+  {
+   "value": "Electric Power Systems Research",
+   "name": "journaltitle",
+   "label": "Journal Title"
+  },
+  {
+   "value": "https://doi.org/10.1016/j.epsr.2023.109361",
+   "name": "articlelink",
+   "label": "CrossRef DOI link to publisher maintained version"
+  },
+  {
+   "value": "article",
+   "name": "content_type",
+   "label": "Content Type"
+  },
+  {
+   "value": "\u00a9 2023 The Authors. Published by Elsevier B.V.",
+   "name": "copyright",
+   "label": "Copyright"
+  }
+ ],
+ "article-number": "109361"
+}

@@ -1,0 +1,210 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    13
+   ]
+  ],
+  "date-time": "2026-10-13T17:44:07Z",
+  "timestamp": 1791913447923,
+  "version": "4.3.4"
+ },
+ "reference-count": 9,
+ "publisher": "IEEE",
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "published-print": {
+  "date-parts": [
+   [
+    2013,
+    10
+   ]
+  ]
+ },
+ "DOI": "10.1109/ceidp.2013.6748121",
+ "type": "proceedings-article",
+ "created": {
+  "date-parts": [
+   [
+    2014,
+    3,
+    7
+   ]
+  ],
+  "date-time": "2014-03-07T21:03:24Z",
+  "timestamp": 1394226204000
+ },
+ "page": "198-201",
+ "source": "Crossref",
+ "is-referenced-by-count": 13,
+ "title": [
+  "Fault gases dissolved in vegetable insulating oil under electrical faults"
+ ],
+ "prefix": "10.1109",
+ "author": [
+  {
+   "given": "Yu",
+   "family": "Liu",
+   "sequence": "first",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Jian",
+   "family": "Li",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Zhaotao",
+   "family": "Zhang",
+   "sequence": "additional",
+   "affiliation": [],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "3",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MEI.2007.4318269"
+  },
+  {
+   "key": "2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MEI.2008.4635656"
+  },
+  {
+   "key": "1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/57.917529"
+  },
+  {
+   "key": "7",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MEI.2008.4635656"
+  },
+  {
+   "key": "6",
+   "first-page": "60599",
+   "article-title": "Mineral oil-impregnated electrical equipment in service-guide to the interpretation of dissolved and free gases analysis",
+   "year": "2007",
+   "journal-title": "IEC Standard"
+  },
+  {
+   "key": "5",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/57.675572"
+  },
+  {
+   "key": "4",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/CEIDP.1999.807886"
+  },
+  {
+   "key": "9",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/BF02542382"
+  },
+  {
+   "key": "8",
+   "doi-asserted-by": "crossref",
+   "first-page": "721",
+   "DOI": "10.1002/app.1988.070360320",
+   "article-title": "Thermogravimetri/mass spectrometric characterization of the thermal decomposition of-omethyl-dglucurono-d-xylan",
+   "volume": "36",
+   "author": "ivan",
+   "year": "1988",
+   "journal-title": "Journal of Applied Polymer Science"
+  }
+ ],
+ "event": {
+  "name": "2013 IEEE Conference on Electrical Insulation and Dielectric Phenomena - (CEIDP 2013)",
+  "location": "Chenzhen, China",
+  "start": {
+   "date-parts": [
+    [
+     2013,
+     10,
+     20
+    ]
+   ]
+  },
+  "end": {
+   "date-parts": [
+    [
+     2013,
+     10,
+     23
+    ]
+   ]
+  }
+ },
+ "container-title": [
+  "2013 Annual Report Conference on Electrical Insulation and Dielectric Phenomena"
+ ],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx7/6733444/6747062/06748121.pdf?arnumber=6748121",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2017,
+    6,
+    22
+   ]
+  ],
+  "date-time": "2017-06-22T09:14:04Z",
+  "timestamp": 1498122844000
+ },
+ "score": 30.367935,
+ "resource": {
+  "primary": {
+   "URL": "http://ieeexplore.ieee.org/document/6748121/"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2013,
+    10
+   ]
+  ]
+ },
+ "references-count": 9,
+ "URL": "https://doi.org/10.1109/ceidp.2013.6748121",
+ "published": {
+  "date-parts": [
+   [
+    2013,
+    10
+   ]
+  ]
+ }
+}

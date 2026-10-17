@@ -1,0 +1,399 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    8,
+    22
+   ]
+  ],
+  "date-time": "2026-08-22T23:45:58Z",
+  "timestamp": 1787442358777,
+  "version": "build-2736575974"
+ },
+ "reference-count": 23,
+ "publisher": "Institution of Engineering and Technology (IET)",
+ "issue": "1",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      9,
+      4
+     ]
+    ],
+    "date-time": "2023-09-04T00:00:00Z",
+    "timestamp": 1693785600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "http://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "content-domain": {
+  "domain": [
+   "ietresearch.onlinelibrary.wiley.com"
+  ],
+  "crossmark-restriction": true
+ },
+ "short-container-title": [
+  "High Voltage"
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2024,
+    2
+   ]
+  ]
+ },
+ "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Accurate assessment of hot\u2010spot temperature is essential for the safe operation of power transformers. Existing dynamic thermal models cannot estimate hot\u2010spot temperature accurately since some input parameters are roughly determined by transformer capacity and cooling mode while ignoring the effect of winding structure, tank dimensions, and material physical properties. To improve the accuracy of temperature assessment, empirical parameters of the IEC thermal model including thermal constants, winding and oil exponents are optimised with the help of numerical simulation in this article. Based on energy conservation and heat transfer theory, a computational fluid dynamic (CFD) model of a transformer in oil natural air natural (ONAN) cooling mode is established. This CFD model simulates the entity's structure, sizes, and multi\u2010stage heat dissipation processes realistically, so it can more precisely calculate the dynamic hot\u2010spot temperature. According to the simulated temperature curves at different operating conditions, the thermal constants and oil exponent are estimated using non\u2010linear regression, and the winding exponent is optimised using linear regression. A case study is conducted on an ONAN transformer. It shows the improved IEC model with optimised parameters can more accurately evaluate hot\u2010spot temperature, and the absolute error is decreased by 2.4\u00a0K (38.7%) compared with traditional thermal models.</jats:p>",
+ "DOI": "10.1049/hve2.12374",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2023,
+    9,
+    4
+   ]
+  ],
+  "date-time": "2023-09-04T05:49:35Z",
+  "timestamp": 1693806575000
+ },
+ "page": "217-229",
+ "update-policy": "https://doi.org/10.1002/crossmark_policy",
+ "source": "Crossref",
+ "is-referenced-by-count": 15,
+ "title": [
+  "Improving IEC thermal model for oil natural air natural transformers using optimised parameters based on dynamic simulation"
+ ],
+ "prefix": "10.1049",
+ "volume": "9",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0003-1786-9653",
+   "authenticated-orcid": false,
+   "given": "Lijing",
+   "family": "Zhang",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering Shanghai Jiao Tong University  Shanghai China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Yingting",
+   "family": "Luo",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Electric Power Research Institute of Guangdong Power Grid Corporation  Guangzhou China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Gehao",
+   "family": "Sheng",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering Shanghai Jiao Tong University  Shanghai China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Zizhan",
+   "family": "Ni",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering Shanghai Jiao Tong University  Shanghai China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "Xiuchen",
+   "family": "Jiang",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Electrical Engineering Shanghai Jiao Tong University  Shanghai China"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "265",
+ "published-online": {
+  "date-parts": [
+   [
+    2023,
+    9,
+    4
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "e_1_2_10_2_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/t\u2010aiee.1930.5055572"
+  },
+  {
+   "key": "e_1_2_10_3_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/hve2.12226"
+  },
+  {
+   "key": "e_1_2_10_4_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/hve2.12031"
+  },
+  {
+   "key": "e_1_2_10_5_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet\u2010gtd.2016.1321"
+  },
+  {
+   "key": "e_1_2_10_6_1",
+   "unstructured": "IEEE Guide for Loading Mineral\u2010Oil\u2010Immersed Transformers and Step\u2010Voltage Regulators IEEE Standard C57.91 (2011)"
+  },
+  {
+   "key": "e_1_2_10_7_1",
+   "unstructured": "Power Transformers\u2010Part 7: Loading Guide for Mineral\u2010Oil\u2010Immersed Power Transformers IEC 60076\u20107 (2017)"
+  },
+  {
+   "key": "e_1_2_10_8_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/61.915478"
+  },
+  {
+   "key": "e_1_2_10_9_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/61.915479"
+  },
+  {
+   "key": "e_1_2_10_10_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tpwrd.2004.835255"
+  },
+  {
+   "key": "e_1_2_10_11_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tpwrd.2017.2710087"
+  },
+  {
+   "key": "e_1_2_10_12_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tdei.2017.006228"
+  },
+  {
+   "key": "e_1_2_10_13_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-epa.2011.0122"
+  },
+  {
+   "key": "e_1_2_10_14_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tpwrd.2009.2022670"
+  },
+  {
+   "key": "e_1_2_10_15_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/mper.1985.5526455"
+  },
+  {
+   "key": "e_1_2_10_16_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tpwrd.2019.2903939"
+  },
+  {
+   "key": "e_1_2_10_17_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.applthermaleng.2017.07.167"
+  },
+  {
+   "key": "e_1_2_10_18_1",
+   "volume-title": "Transformer Engineering: Design, Technology, and Diagnostics",
+   "author": "Kulkarni S.V.",
+   "year": "2012"
+  },
+  {
+   "key": "e_1_2_10_19_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/61.141852"
+  },
+  {
+   "key": "e_1_2_10_20_1",
+   "unstructured": "Power Transformers\u2010Part 2: Temperature Rise for Liquid\u2010Immersed Transformers IEC 60076\u20102 (2011)"
+  },
+  {
+   "key": "e_1_2_10_21_1",
+   "volume-title": "Heat Transfer Theory",
+   "author": "Huang S.",
+   "year": "2014"
+  },
+  {
+   "key": "e_1_2_10_22_1",
+   "volume-title": "Transformer Design Principle",
+   "author": "Yin K.",
+   "year": "2003"
+  },
+  {
+   "key": "e_1_2_10_23_1",
+   "volume-title": "Fundamentals of Heat and Mass Transfer",
+   "author": "Incropera F.P.",
+   "year": "1996"
+  },
+  {
+   "key": "e_1_2_10_24_1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/tpwrd.2022.3142889"
+  }
+ ],
+ "container-title": [
+  "High Voltage"
+ ],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/hve2.12374",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2025,
+    10,
+    28
+   ]
+  ],
+  "date-time": "2025-10-28T07:25:18Z",
+  "timestamp": 1761636318000
+ },
+ "score": 102.64598,
+ "resource": {
+  "primary": {
+   "URL": "https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/hve2.12374"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2023,
+    9,
+    4
+   ]
+  ]
+ },
+ "references-count": 23,
+ "journal-issue": {
+  "issue": "1",
+  "published-print": {
+   "date-parts": [
+    [
+     2024,
+     2
+    ]
+   ]
+  }
+ },
+ "alternative-id": [
+  "10.1049/hve2.12374"
+ ],
+ "URL": "https://doi.org/10.1049/hve2.12374",
+ "archive": [
+  "Portico"
+ ],
+ "ISSN": [
+  "2096-9813",
+  "2397-7264"
+ ],
+ "issn-type": [
+  {
+   "value": "2096-9813",
+   "type": "print"
+  },
+  {
+   "value": "2397-7264",
+   "type": "electronic"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2023,
+    9,
+    4
+   ]
+  ]
+ },
+ "assertion": [
+  {
+   "value": "2023-01-17",
+   "order": 0,
+   "name": "received",
+   "label": "Received",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  },
+  {
+   "value": "2023-07-19",
+   "order": 2,
+   "name": "accepted",
+   "label": "Accepted",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  },
+  {
+   "value": "2023-09-04",
+   "order": 3,
+   "name": "published",
+   "label": "Published",
+   "group": {
+    "name": "publication_history",
+    "label": "Publication History"
+   }
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+panel,class,records
+Development,Normal,75
+Development,PD,37
+Development,D1,53
+Development,D2,85
+Development,T1,80
+Development,T2,39
+Development,T3,70
+Internal test,Normal,10
+Internal test,PD,10
+Internal test,D1,10
+Internal test,D2,10
+Internal test,T1,10
+Internal test,T2,10
+Internal test,T3,10
+IEC TC 10 benchmark,PD,9
+IEC TC 10 benchmark,D1,26
+IEC TC 10 benchmark,D2,48
+IEC TC 10 benchmark,T12,16
+IEC TC 10 benchmark,T3,18
+External test (Li 2019),PD,16
+External test (Li 2019),D1,49
+External test (Li 2019),D2,54
+External test (Li 2019),T1,19
+External test (Li 2019),T2,9
+External test (Li 2019),T12,16
+External test (Li 2019),T3,38

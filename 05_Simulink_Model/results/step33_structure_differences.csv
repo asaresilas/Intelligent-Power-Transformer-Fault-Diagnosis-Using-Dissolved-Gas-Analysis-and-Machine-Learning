@@ -1,0 +1,8 @@
+item,kind,parameter,value_new,value_ref
+SS2_Power_Transformer/Two_Winding_Transformer,parameter value,pu_X0,X0_pu,0.5
+SS3_LV_Measurement/Square_Root,block type,BlockType,Sqrt,Math
+SS3_LV_Measurement/Square_Root,parameter value,AlgorithmType,Exact,Newton-Raphson
+SS6_Thermal_Network/Ambient_Temperature,parameter value,temperature,theta_amb_C + T_zero_C_in_K,theta_amb_C + 273.15
+SS6_Thermal_Network/Thermal_Mass_HS1,parameter value,T,theta_amb_C + T_zero_C_in_K,theta_amb_C + 273.15
+SS6_Thermal_Network/Thermal_Mass_HS2,parameter value,T,theta_amb_C + T_zero_C_in_K,theta_amb_C + 273.15
+SS6_Thermal_Network/Thermal_Mass_Oil,parameter value,T,theta_amb_C + T_zero_C_in_K,theta_amb_C + 273.15

@@ -1,0 +1,483 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    10,
+    13
+   ]
+  ],
+  "date-time": "2026-10-13T17:44:31Z",
+  "timestamp": 1791913471014,
+  "version": "4.3.4"
+ },
+ "reference-count": 32,
+ "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+ "issue": "3",
+ "license": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2023-06-01T00:00:00Z",
+    "timestamp": 1685577600000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2023-06-01T00:00:00Z",
+    "timestamp": 1685577600000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-029"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2023,
+      6,
+      1
+     ]
+    ],
+    "date-time": "2023-06-01T00:00:00Z",
+    "timestamp": 1685577600000
+   },
+   "content-version": "stm-asf",
+   "delay-in-days": 0,
+   "URL": "https://doi.org/10.15223/policy-037"
+  }
+ ],
+ "funder": [
+  {
+   "DOI": "10.13039/501100006261",
+   "name": "Taif University",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "TURSP-2020/34"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "TURSP-2020/34"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100006261",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  },
+  {
+   "DOI": "10.13039/501100001408",
+   "name": "Department of Scientific and Industrial Research, Ministry of Science and Technology, India",
+   "doi-asserted-by": "publisher",
+   "award": [
+    "A2KS-11011/11/2021-IRD(SC)-DSIR"
+   ],
+   "award-info": [
+    {
+     "award-number": [
+      "A2KS-11011/11/2021-IRD(SC)-DSIR"
+     ]
+    }
+   ],
+   "id": [
+    {
+     "id": "10.13039/501100001408",
+     "id-type": "DOI",
+     "asserted-by": "publisher"
+    }
+   ]
+  }
+ ],
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "IEEE Trans. Dielect. Electr. Insul."
+ ],
+ "published-print": {
+  "date-parts": [
+   [
+    2023,
+    6
+   ]
+  ]
+ },
+ "DOI": "10.1109/tdei.2023.3237795",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2023,
+    1,
+    18
+   ]
+  ],
+  "date-time": "2023-01-18T18:40:24Z",
+  "timestamp": 1674067224000
+ },
+ "page": "1231-1239",
+ "source": "Crossref",
+ "is-referenced-by-count": 21,
+ "title": [
+  "Alternate and Effective Dissolved Gas Interpretation to Understand the Transformer Incipient Faults"
+ ],
+ "prefix": "10.1109",
+ "volume": "30",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0002-6021-8453",
+   "authenticated-orcid": false,
+   "given": "T.",
+   "family": "Manoj",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Electrical Engineering Department, National Institute of Technology, Srinagar, India"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "given": "C.",
+   "family": "Ranga",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Electrical Engineering Department, National Institute of Technology, Srinagar, India"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-9387-1950",
+   "authenticated-orcid": false,
+   "given": "Sherif S. M.",
+   "family": "Ghoneim",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Electrical Engineering Department, College of Engineering, Taif University, Taif, Saudi Arabia"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0002-6905-6374",
+   "authenticated-orcid": false,
+   "given": "U. Mohan",
+   "family": "Rao",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Department of Applied Sciences, University of Quebec at Chicoutimi (UQAC), Chicoutimi, QC, Canada"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  },
+  {
+   "ORCID": "https://orcid.org/0000-0003-3113-2084",
+   "authenticated-orcid": false,
+   "given": "Saad A. Mohamed",
+   "family": "Abdelwahab",
+   "sequence": "additional",
+   "affiliation": [
+    {
+     "name": "Electrical Department, Faculty of Technology and Education, Suez University, Suez, Egypt"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "263",
+ "reference": [
+  {
+   "key": "ref13",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2016.005927"
+  },
+  {
+   "key": "ref12",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MEI.2008.4665347"
+  },
+  {
+   "key": "ref15",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2016.005301"
+  },
+  {
+   "key": "ref14",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2019.008395"
+  },
+  {
+   "key": "ref31",
+   "first-page": "1016",
+   "article-title": "Power transformer incipient faults diagnosis based on dissolved gas analysis",
+   "volume": "17",
+   "author": "gouda",
+   "year": "2016",
+   "journal-title": "Indonesian J Elect Eng Comput Sci"
+  },
+  {
+   "key": "ref30",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ICDL.1999.798957"
+  },
+  {
+   "key": "ref11",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MEI.2002.1014963"
+  },
+  {
+   "key": "ref10",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TEI.1978.298141"
+  },
+  {
+   "key": "ref32",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-gtd.2016.0886"
+  },
+  {
+   "key": "ref2",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.epsr.2020.106346"
+  },
+  {
+   "key": "ref1",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2014.004478"
+  },
+  {
+   "key": "ref17",
+   "year": "2005",
+   "journal-title": "Transformers Basics Maintenance and Diagnostics"
+  },
+  {
+   "key": "ref16",
+   "doi-asserted-by": "crossref",
+   "first-page": "1798",
+   "DOI": "10.1109/TDEI.2018.007191",
+   "article-title": "Assessment of computational intelligence and conventional dissolved gas analysis methods for transformer fault diagnosis",
+   "volume": "25",
+   "author": "jawad",
+   "year": "2018",
+   "journal-title": "IEEE Trans Dielectr Electr Insul"
+  },
+  {
+   "key": "ref19",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/b102051"
+  },
+  {
+   "key": "ref18",
+   "author": "karray",
+   "year": "2004",
+   "journal-title": "Soft Computing and Intelligent Systems Design Theory Tools and Applications"
+  },
+  {
+   "key": "ref24",
+   "year": "2016",
+   "journal-title": "Egyptian Electricity Holding Company (EEHC) Reports"
+  },
+  {
+   "key": "ref23",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/57.917529"
+  },
+  {
+   "key": "ref26",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ISdea.2012.599"
+  },
+  {
+   "key": "ref25",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TENCON.2004.1414803"
+  },
+  {
+   "key": "ref20",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1049/iet-smt.2016.0497"
+  },
+  {
+   "key": "ref22",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.ijepes.2016.02.018"
+  },
+  {
+   "key": "ref21",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1007/978-981-16-2354-7_52"
+  },
+  {
+   "key": "ref28",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TENCON.2012.6412171"
+  },
+  {
+   "key": "ref27",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/REVET.2012.6195276"
+  },
+  {
+   "key": "ref29",
+   "first-page": "14",
+   "article-title": "A novel proposed model to diagnose incipient fault of power transformer using dissoved gas analysis by ratio methods",
+   "author": "soni",
+   "year": "2015",
+   "journal-title": "Proc 4th Int Conf Comput Power Energy Inf Commun"
+  },
+  {
+   "key": "ref8",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1016/j.epsr.2020.106899"
+  },
+  {
+   "key": "ref7",
+   "year": "2007"
+  },
+  {
+   "key": "ref9",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/MEI.2002.1161456"
+  },
+  {
+   "key": "ref4",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/ACCESS.2021.3060288"
+  },
+  {
+   "key": "ref3",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2013.6678888"
+  },
+  {
+   "key": "ref6",
+   "year": "2019",
+   "journal-title": "IEEE Guide for the Interpretation of Gases Generated in Mineral Oil-Immersed Transformers"
+  },
+  {
+   "key": "ref5",
+   "doi-asserted-by": "publisher",
+   "DOI": "10.1109/TDEI.2015.005277"
+  }
+ ],
+ "container-title": [
+  "IEEE Transactions on Dielectrics and Electrical Insulation"
+ ],
+ "original-title": [],
+ "link": [
+  {
+   "URL": "http://xplorestaging.ieee.org/ielx7/94/10142149/10019310.pdf?arnumber=10019310",
+   "content-type": "unspecified",
+   "content-version": "vor",
+   "intended-application": "similarity-checking"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2023,
+    6,
+    19
+   ]
+  ],
+  "date-time": "2023-06-19T18:31:46Z",
+  "timestamp": 1687199506000
+ },
+ "score": 1,
+ "resource": {
+  "primary": {
+   "URL": "https://ieeexplore.ieee.org/document/10019310/"
+  }
+ },
+ "subtitle": [],
+ "short-title": [],
+ "issued": {
+  "date-parts": [
+   [
+    2023,
+    6
+   ]
+  ]
+ },
+ "references-count": 32,
+ "journal-issue": {
+  "issue": "3"
+ },
+ "URL": "https://doi.org/10.1109/tdei.2023.3237795",
+ "relation": {},
+ "ISSN": [
+  "1070-9878",
+  "1558-4135"
+ ],
+ "issn-type": [
+  {
+   "value": "1070-9878",
+   "type": "print"
+  },
+  {
+   "value": "1558-4135",
+   "type": "electronic"
+  }
+ ],
+ "subject": [],
+ "published": {
+  "date-parts": [
+   [
+    2023,
+    6
+   ]
+  ]
+ }
+}

@@ -1,0 +1,9 @@
+gas,condition1_limit_ppm,source_edition,source_table,source_page,source_type,status,notes
+H2,100,IEEE Std C57.104-2008,Table 1 - Dissolved gas concentrations (Condition 1),10,PRIMARY (copy consulted not licensed to the researcher),TO VERIFY against a licensed copy before submission,Same values are the limit L1 of Table 4 (p.15). Clause 6.7: Rogers suggests using the method only when the normal limits of the individual gases are exceeded
+CH4,120,IEEE Std C57.104-2008,Table 1 - Dissolved gas concentrations (Condition 1),10,PRIMARY (copy consulted not licensed to the researcher),TO VERIFY against a licensed copy before submission,
+C2H2,1,IEEE Std C57.104-2008,Table 1 - Dissolved gas concentrations (Condition 1),10,PRIMARY (copy consulted not licensed to the researcher),TO VERIFY against a licensed copy before submission,
+C2H4,50,IEEE Std C57.104-2008,Table 1 - Dissolved gas concentrations (Condition 1),10,PRIMARY (copy consulted not licensed to the researcher),TO VERIFY against a licensed copy before submission,
+C2H6,65,IEEE Std C57.104-2008,Table 1 - Dissolved gas concentrations (Condition 1),10,PRIMARY (copy consulted not licensed to the researcher),TO VERIFY against a licensed copy before submission,
+CO,350,IEEE Std C57.104-2008,Table 1 - Dissolved gas concentrations (Condition 1),10,PRIMARY (copy consulted not licensed to the researcher),TO VERIFY against a licensed copy before submission,Not used by the five-gas models
+CO2,2500,IEEE Std C57.104-2008,Table 1 - Dissolved gas concentrations (Condition 1),10,PRIMARY (copy consulted not licensed to the researcher),TO VERIFY against a licensed copy before submission,Not used by the five-gas models
+TDCG,720,IEEE Std C57.104-2008,Table 1 - Dissolved gas concentrations (Condition 1),10,PRIMARY (copy consulted not licensed to the researcher),TO VERIFY against a licensed copy before submission,Total dissolved combustible gas (excludes CO2)

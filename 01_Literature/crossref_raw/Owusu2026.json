@@ -1,0 +1,341 @@
+{
+ "indexed": {
+  "date-parts": [
+   [
+    2026,
+    7,
+    29
+   ]
+  ],
+  "date-time": "2026-07-29T14:28:27Z",
+  "timestamp": 1785335307719,
+  "version": "3.55.0"
+ },
+ "reference-count": 30,
+ "publisher": "Science Publishing Group",
+ "issue": "1",
+ "content-domain": {
+  "domain": [],
+  "crossmark-restriction": false
+ },
+ "short-container-title": [
+  "ACIS"
+ ],
+ "accepted": {
+  "date-parts": [
+   [
+    2026,
+    2,
+    27
+   ]
+  ]
+ },
+ "abstract": "<jats:p xml:lang=\"en\">Power transformers are critical and high-value assets in electric power systems, and their unexpected failure can lead to severe economic losses, safety hazards, and prolonged service interruptions. Dissolved Gas Analysis (DGA) is widely used for transformer condition monitoring. However, conventional interpretation techniques rely on fixed thresholds and heuristic rules. These methods often struggle under complex, overlapping, or incipient fault conditions. This study proposes a data-driven framework for transformer fault detection and diagnosis. The framework integrates DGA with a Random Forest classification model. Its purpose is to improve diagnostic reliability and interpretability. Historical, labelled DGA data comprising hydrogen, carbon monoxide, ethylene, and acetylene concentrations were analysed and classified into normal operation, partial discharge, overheating, and arcing fault categories. To enhance model robustness, multicollinearity was mitigated through feature selection, while class imbalance was addressed using the Synthetic Minority Over-sampling Technique. The Random Forest classifier was trained with optimised hyperparameters and evaluated using precision, recall, F1-score, confusion matrix analysis, and out-of-bag error estimation. The results demonstrate high diagnostic accuracy for normal operating conditions and partial discharge faults, with strong precision and recall, while moderate performance was observed for overheating and arcing faults due to inherent overlap in gas generation patterns. Feature importance analysis further revealed the relative contributions of key dissolved gases, enhancing model transparency and engineering insight. The findings confirm that ensemble learning can effectively capture nonlinear relationships in DGA data that are not addressed by conventional methods. This work contributes an interpretable and practical diagnostic framework that supports predictive maintenance, informed decision-making, and improved reliability of transformer condition monitoring in modern power systems.</jats:p>",
+ "DOI": "10.11648/j.acis.20261401.13",
+ "type": "journal-article",
+ "created": {
+  "date-parts": [
+   [
+    2026,
+    3,
+    14
+   ]
+  ],
+  "date-time": "2026-03-14T01:34:12Z",
+  "timestamp": 1773452052000
+ },
+ "page": "14-28",
+ "source": "Crossref",
+ "is-referenced-by-count": 1,
+ "title": [
+  "Data-driven Fault Detection and Diagnosis of Power Transformers Using Dissolved Gas Analysis and Random Forest Classifiers"
+ ],
+ "prefix": "10.11648",
+ "volume": "14",
+ "author": [
+  {
+   "ORCID": "https://orcid.org/0000-0002-2864-0822",
+   "authenticated-orcid": true,
+   "given": "Daniel",
+   "family": "Owusu",
+   "sequence": "first",
+   "affiliation": [
+    {
+     "name": "Department of Electrical and Electronic Engineering, Takoradi Technical University, Takoradi, Ghana"
+    }
+   ],
+   "role": [
+    {
+     "vocabulary": "crossref",
+     "role": "author"
+    }
+   ]
+  }
+ ],
+ "member": "4911",
+ "published-online": {
+  "date-parts": [
+   [
+    2026,
+    3,
+    12
+   ]
+  ]
+ },
+ "reference": [
+  {
+   "key": "ref1",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Preonto, S., Swarnaker, A., Khan, A. A., Ahmed, H. F., Khan, U. A. How Grid Decarbonization Reshapes Distribution Transformer Life-cycle Impacts: A Forecasting-based Life Cycle Assessment Framework for Hydro-dominated Grids, Energies. 2026, 19(3), 1-30. https://doi.org/10.3390/en19030651",
+   "DOI": "10.3390/en19030651"
+  },
+  {
+   "key": "ref2",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Nazarychev, A., Iliev, I., Manukian, D., Beloev, H., Suslov, K., Beloev, I. Review of Operating Conditions, Diagnostic Methods, and Technical Condition Assessment to Improve Reliability and Develop a Maintenance Strategy for Electrical Equipment, Energies. 2025, 18(21), 1-40. \nhttps://doi.org/10.3390/en18215832",
+   "DOI": "10.3390/en18215832"
+  },
+  {
+   "key": "ref3",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Hashemi, M. H. Applications of Feature Selection for Detecting Energy Discharge and Thermal Faults in Transformers Using DGA Data. In 8th International Artificial Intelligence and Data Processing Symposium 2024. IEEE, USA, 2024; pp. 1-5. https://doi.org/10.1109/IDAP64064.2024.10711118",
+   "DOI": "10.1109/IDAP64064.2024.10711118"
+  },
+  {
+   "key": "ref4",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ibrahim, S. A., Ward, S. A., EL-Faraskoury, A., Mansour, D. E. A. Towards Identification of Transformer Oil Faults via Novel Combined DGA Approach, Delta University Scientific Journal. 2024, 7(3), 218-227. \nhttps://doi.org/10.21608/dusj.2024.433464",
+   "DOI": "10.21608/dusj.2024.433464"
+  },
+  {
+   "key": "ref5",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Nambiar, M. S., Murthy, C. N., Shingne, N. Investigating High Intensity Thermal Faults in Ester-based Transformer Oil: A Dissolved Gas Analysis Approach, Engineering, Technology and Applied Science Research. 2026, 16(1), 31502\u201331508. https://doi.org/10.48084/etasr.15023",
+   "DOI": "10.48084/etasr.15023"
+  },
+  {
+   "key": "ref6",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Suprihadi, E., Danila, N., Ali, Z., Ananta, G. P. Explainable Ensemble Learning for Predicting Stock Market Crises: Calibration, Threshold Optimisation, and Robustness Analysis, Information. 2026, 17(2), 1-29. \nhttps://doi.org/10.3390/info17020114",
+   "DOI": "10.3390/info17020114"
+  },
+  {
+   "key": "ref7",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Alam, M. A., Alam, M. K., Mahmud, M. A. Deep Learning for Early Detection of Systemic Risk in Interconnected Financial Markets: A US Regulatory Perspective, Journal of Computer Science and Technology Studies. 2025, 7(9), 353-375. \nhttps://doi.org/10.32996/jcsts.2025.7.9.42",
+   "DOI": "10.32996/jcsts.2025.7.9.42"
+  },
+  {
+   "key": "ref8",
+   "unstructured": "Yin, S. Machine Learning Algorithms for Early Warning Systems: Predicting Systemic Financial Crises Through Non-linear Econometric Models. International Journal of Economics and Finance Studies. 2024, 16(4), 286-311. \nhttps://doi.org/10.34109/ijefs.202416414"
+  },
+  {
+   "key": "ref9",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Sutikno, H., Prasojo, R. A., Abu-Siada, A. Machine Learning-based Multi-method Interpretation to Enhance Dissolved Gas Analysis for Power Transformer Fault Diagnosis. Heliyon. 2024, 10(4), 1-21. \nhttps://doi.org/10.1016/j.heliyon.2024.e25975",
+   "DOI": "10.1016/j.heliyon.2024.e25975"
+  },
+  {
+   "key": "ref10",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Hechifa, A., Lakehal, A., Nanfak, A., Saidi, L., Labiod, C., Kelaiaia, R., Ghoneim, S. S. Improved Intelligent Methods for Power Transformer Fault Diagnosis Based On Tree Ensemble Learning and Multiple Feature Vector Analysis. Electrical Engineering. 2024, 106(3), 1-22. \nhttps://doi.org/10.21203/rs.3.rs-3207776/v1",
+   "DOI": "10.1007/s00202-023-02084-y"
+  },
+  {
+   "key": "ref11",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Capulong, C. D., Camat, P. K., Gonzales, P., Bunoan, K. G., Tolentino, A., Gomez, R. J., Favorito, R. Analysis of Failure Rate Due to Transformer Loadings of Commonly Used Transformers in Porac Substation. Journal of Science Technology and Engineering Research. 2025, 6(2), 107-117. \nhttps://doi.org/10.53525/jster.1722805",
+   "DOI": "10.53525/jster.1722805"
+  },
+  {
+   "key": "ref12",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Hoffmann, M. A., Lasch, R. Unlocking the Potential of Predictive Maintenance for Intelligent Manufacturing: A Case Study On Potentials, Barriers, and Critical Success Factors. Schmalenbach Journal of Business Research. 2025, 77(1), 27-55. https://doi.org/10.1007/s41471-024-00204-3",
+   "DOI": "10.1007/s41471-024-00204-3"
+  },
+  {
+   "key": "ref13",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Kumar, D., Dutta, S., Illias, H. A. Streamlining Fault Classification of Dissolved Gases in Transformer Using Data Synthesis and Dimension Reduction. IEEE Transactions on Dielectrics and Electrical Insulation. 2024, 31(5), 2451-2460. \nhttps://doi.org/10.1109/TDEI.2024.3387416",
+   "DOI": "10.1109/TDEI.2024.3387416"
+  },
+  {
+   "key": "ref14",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Liu, Z., Zhou, Q., Liu, H. A Time-frequency Fusion Fault Diagnosis Framework for Nuclear Power Plants Oriented to Class-incremental Learning Under Data Imbalance. Computers. 2026, 15(1), 22. https://doi.org/10.3390/computers15010022",
+   "DOI": "10.3390/computers15010022"
+  },
+  {
+   "key": "ref15",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Lee, S. Y., Oh, J. S., Park, J. D., Lee, D. H., Park, T. S. Autoencoder-based Missing Data Imputation for Enhanced Power Transformer Health Index Assessment. Energies. 2026, 19(1), 244. https://doi.org/10.3390/en19010244",
+   "DOI": "10.3390/en19010244"
+  },
+  {
+   "key": "ref16",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Kamara, G. D., Marrah, S. A., Koroma, A. B., Sheku, N., Cole, M. E., Kargbo, S. I., Mani, E. K. F. AI-powered Grid Resilience: Hybrid CNN Transformer for Predictive Fault Detection and Real Time Optimization. Journal of Scientific Reports. 2026, 12(1), 163-176. https://doi.org/10.58970/JSR.1162",
+   "DOI": "10.58970/JSR.1162"
+  },
+  {
+   "key": "ref17",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zhu, H., Zong, C., Fang, L., Zhang, H., Sun, Y., Tian, Y., Zhang, S., Wang, X. Intelligent Machine Learning-Based Spectroscopy for Condition Monitoring of Energy Infrastructure: A Review Focused on Transformer Oils and Hydrogen Systems. Processes. 2026, 14(2), 1-23. https://doi.org/10.3390/pr14020255",
+   "DOI": "10.3390/pr14020255"
+  },
+  {
+   "key": "ref18",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ranjani, K., Baranidharan, T., Ramal, J. Intelligent Deep Learning Based Fault Classification Using Dual-stream Transformer-CNN with Self-Supervised Feature Refinement for Industrial Applications. Tehni\u010dki Vjesnik. 2026, 33(1), 159-165. https://doi.org/10.17559/TV-20250321002502",
+   "DOI": "10.17559/TV-20250321002502"
+  },
+  {
+   "key": "ref19",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Maseko, N. S., Thango, B. A., Mabunda, N. Fault detection in power transformers using frequency response analysis and machine learning models. Applied Sciences. 2025, 15(5), 1-20. \nhttps://doi.org/10.3390/app15052406",
+   "DOI": "10.3390/app15052406"
+  },
+  {
+   "key": "ref20",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Tamakloe, E., Kommey, B., Kponyo, J. J., Tchao, E. T., Agbemenu, A. S., Klogo, G. S. Predictive AI Maintenance of Distribution Oil immersed Transformer via Multimodal Data Fusion: A New Dynamic Multiscale Attention CNN LSTM Anomaly Detection Model for Industrial Energy Management. IET Electric Power Applications. 2025, 19(1), 1-25. \nhttps://doi.org/10.1049/elp2.70011",
+   "DOI": "10.1049/elp2.70011"
+  },
+  {
+   "key": "ref21",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Nuruzzaman, M., Limon, G. Q., Chowdhury, A. R., Khan, M. M. Predictive Maintenance in Power Transformers: A Systematic Review of AI and IoT Applications. ASRC Procedia: Global Perspectives in Science and Scholarship. 2025, 1(01), 34-47. https://doi.org/10.63125/r72yd809",
+   "DOI": "10.63125/r72yd809"
+  },
+  {
+   "key": "ref22",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ajith, S., Malik, G. R., Sajith, S., Sivakumar, J., Jayasree, K. R. Reimagining Transformer Diagnostics: Synergizing Classical and Deep Learning Models for Health Evaluation. In 8th International Conference on Circuit, Power and Computing Technologies 2025. IEEE, India, 2025; pp. 1365-1370. \nhttps://doi.org/10.1109/ICCPCT65132.2025.11176725",
+   "DOI": "10.1109/ICCPCT65132.2025.11176725"
+  },
+  {
+   "key": "ref23",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Atiyah, W. A., Karimi, S., Moradi, M. Real-time Revolutionising Internal Defect Detection in Power Transformers by Leveraging Wavelet Transform and Deep Learning LSTM in Cascading Application. J. Electr. Eng. Technol. 2024, 19, 5273-5292. https://doi.org/10.1007/s42835-024-02048-7",
+   "DOI": "10.1007/s42835-024-02048-7"
+  },
+  {
+   "key": "ref24",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Hadiki, H., Hasnaoui, F. S., Georges, S. Enhancing Electrical Transformer Fault Prediction with Deep Learning: A Focus on ANN-based Classification. In International Conference on Circuit, Systems and Communication 2024. 2024; pp. 1-6. \nhttps://doi.org/10.1109/ICCSC62074.2024.10617006",
+   "DOI": "10.1109/ICCSC62074.2024.10617006"
+  },
+  {
+   "key": "ref25",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Nanfak, A., Samuel, E., Fofana, I., Meghnefi, F., Ngaleu, M. G., Hubert Kom, C. Traditional Fault Diagnosis Methods For Mineral Oil Immersed Power Transformer Based On Dissolved Gas Analysis: Past, Present and Future. IET Nanodielectrics. 2024, 7(3), 97-130. https://doi.org/10.1049/nde2.12082",
+   "DOI": "10.1049/nde2.12082"
+  },
+  {
+   "key": "ref26",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Biradar, V., Kakeri, D., Agasti, A. Machine Learning Based Predictive Maintenance in Distribution Transformers. In 8th International Conference on Computing, Communication, Control and Automation 2024. IEEE, USA, 2024; pp. 1-5. \nhttps://doi.org/10.1109/ICCUBEA61740.2024.10774993",
+   "DOI": "10.1109/ICCUBEA61740.2024.10774993"
+  },
+  {
+   "key": "ref27",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Ngwenyama, M. K., Gitau, M. N. Application of Back Propagation Neural Network in Complex Diagnostics and Forecasting Loss of Life of Cellulose Paper Insulation in Oil Immersed Transformers. Scientific Reports. 2024, 14(1). \nhttps://doi.org/10.1038/s41598-024-56598-x",
+   "DOI": "10.1038/s41598-024-56598-x"
+  },
+  {
+   "key": "ref28",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Zheng, Y., Rao, C., Wang, F., Zou, H. Transformer Fault Diagnosis Method Based on Improved Particle Swarm Optimization and XGBoost in Power System. Processes. 2025, 13(10), 1-16. https://doi.org/10.3390/pr13103321",
+   "DOI": "10.3390/pr13103321"
+  },
+  {
+   "key": "ref29",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Mateus, B. C., Farinha, J. T., Mendes, M. Fault Detection and Prediction for Power Transformers Using Fuzzy Logic and Neural Networks. Energies. 2024, 17(2), 1-18. \nhttps://doi.org/10.3390/en17020296",
+   "DOI": "10.3390/en17020296"
+  },
+  {
+   "key": "ref30",
+   "doi-asserted-by": "crossref",
+   "unstructured": "Baroumand, S., Abbasi, A. R., Mahmoudi, M. Integrative fault diagnostic analytics in transformer windings: Leveraging logistic regression, discrete wavelet transform, and neural networks. Heliyon. 2025, 11(4), 1-16. \nhttps://doi.org/10.1016/j.heliyon.2025.e42872",
+   "DOI": "10.1016/j.heliyon.2025.e42872"
+  }
+ ],
+ "container-title": [
+  "Automation, Control and Intelligent Systems"
+ ],
+ "language": "en",
+ "link": [
+  {
+   "URL": "https://article.sciencepublishinggroup.com/pdf/j.acis.20261401.13",
+   "content-type": "application/pdf",
+   "content-version": "vor",
+   "intended-application": "text-mining"
+  }
+ ],
+ "deposited": {
+  "date-parts": [
+   [
+    2026,
+    3,
+    14
+   ]
+  ],
+  "date-time": "2026-03-14T01:34:16Z",
+  "timestamp": 1773452056000
+ },
+ "score": 90.897736,
+ "resource": {
+  "primary": {
+   "URL": "https://www.sciencepublishinggroup.com/article/10.11648/j.acis.20261401.13"
+  }
+ },
+ "issued": {
+  "date-parts": [
+   [
+    2026,
+    3,
+    12
+   ]
+  ]
+ },
+ "references-count": 30,
+ "journal-issue": {
+  "issue": "1",
+  "published-online": {
+   "date-parts": [
+    [
+     2026,
+     1,
+     8
+    ]
+   ]
+  }
+ },
+ "URL": "https://doi.org/10.11648/j.acis.20261401.13",
+ "ISSN": [
+  "2328-5591",
+  "2328-5583"
+ ],
+ "issn-type": [
+  {
+   "value": "2328-5591",
+   "type": "electronic"
+  },
+  {
+   "value": "2328-5583",
+   "type": "print"
+  }
+ ],
+ "published": {
+  "date-parts": [
+   [
+    2026,
+    3,
+    12
+   ]
+  ]
+ },
+ "article-number": "3391082"
+}

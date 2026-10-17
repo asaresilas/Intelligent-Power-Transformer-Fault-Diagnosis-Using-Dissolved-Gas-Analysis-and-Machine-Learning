@@ -1,0 +1,16 @@
+method,data_role,n,n_gate_upper,n_gate_lower,ND_final,DT_final,D1D2_final,PDT1_final,ND_raw,DT_raw,D1D2_raw,PDT1_raw
+IEC60599,all,827,242,91,200,0,83,0,319,0,90,0
+IEC60599,benchmark,117,10,4,24,0,25,0,27,0,27,0
+IEC60599,development,439,164,71,115,0,23,0,192,0,26,0
+IEC60599,internal_test,70,24,8,19,0,5,0,36,0,5,0
+IEC60599,external_test,201,44,8,42,0,30,0,64,0,32,0
+Rogers,all,827,242,91,296,0,0,0,424,0,0,0
+Rogers,benchmark,117,10,4,42,0,0,0,47,0,0,0
+Rogers,development,439,164,71,157,0,0,0,250,0,0,0
+Rogers,internal_test,70,24,8,28,0,0,0,35,0,0,0
+Rogers,external_test,201,44,8,69,0,0,0,92,0,0,0
+Duval,all,827,242,91,1,22,0,0,2,27,0,0
+Duval,benchmark,117,10,4,0,1,0,0,0,1,0,0
+Duval,development,439,164,71,1,15,0,0,2,20,0,0
+Duval,internal_test,70,24,8,0,4,0,0,0,4,0,0
+Duval,external_test,201,44,8,0,2,0,0,0,2,0,0

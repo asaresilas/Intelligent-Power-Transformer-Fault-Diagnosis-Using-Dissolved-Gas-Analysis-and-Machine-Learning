@@ -1,0 +1,28 @@
+WHAT THE DIAGNOSIS MEANS
+Record IECTC10_0002
+Measured gases (ppm): H2 37800, CH4 1740, C2H6 249, C2H4 8, C2H2 8. These values come from the data file as they are.
+
+Gas level: at least one gas is above the typical value of IEC 60599 (Annex A), so the classical methods look at the gas ratios to name a fault type.
+
+Classical methods:
+- Rogers ratio: ND, no diagnosis: the ratios fall in no coded combination.
+- IEC 60599 ratio: PD, partial discharges.
+- Duval Triangle 1: PD, partial discharges.
+
+Machine learning (Random Forest, model 1.0): most probable type PD (partial discharges), probability 81 %.
+The next most probable types are D1 (12 %) and T1 (5 %).
+The model has a clear majority for one type (more than half of the probability).
+
+Agreement (amber lamp): 2 of the 3 classical methods agree with the ML answer. When methods disagree, the record is close to a boundary between fault types or is unusual: do not rely on one method alone.
+Who differs from ML (PD): Rogers says ND. D1/D2 counts as agreeing with D1 or D2; DT and ND never count as agreeing.
+
+HOW MUCH TO TRUST IT
+This is decision support, not a verdict. On the inspection-confirmed IEC TC 10 cases used in this study, the ML model was not shown to be better than the classical methods (thesis, Chapter 4); use it as a second opinion. Confirm any fault indication with a repeat sample, the gas trend over time and, if needed, an inspection.
+
+WHAT THE SIMULATION SHOWS
+The transformer was simulated for 24 hours with an ambient temperature of 20 degC.
+Top-oil temperature (blue): ends at 78.6 degC. Hot-spot temperature (red, the hottest point of the winding): peaks at 100.3 degC at 24.0 h and ends at 100.3 degC.
+The load factor was constant at 0.98 times the rated load.
+Insulation ageing: the paper insulation ages faster when the hot-spot is hotter. At a hot-spot of 98 degC the ageing rate is 1 (normal); every 6 K more doubles it (reference values of params_transformer.m, TO VERIFY against IEC 60076-7). Over this run the insulation aged as much as it would in 27.9 hours at the normal rate (loss of life).
+The hot-spot was above 98 degC for part of the run, so the insulation aged faster than the normal rate during that time.
+Remember: this is a thermal model of the operating condition. It gives context for the gas results; it does not prove or disprove a fault.

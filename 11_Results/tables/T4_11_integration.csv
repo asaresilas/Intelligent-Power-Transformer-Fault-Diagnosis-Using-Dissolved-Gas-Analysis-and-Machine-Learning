@@ -1,0 +1,20 @@
+group,measure,records,value,unit,requirement,passed
+Fidelity,"ML class identical to the offline prediction (F, Eq. 47)",388/388,1.0,fraction,F = 1,yes
+Fidelity,ML class identical - IEC TC 10 benchmark,117/117,1.0,fraction,F = 1,yes
+Fidelity,ML class identical - internal test,70/70,1.0,fraction,F = 1,yes
+Fidelity,ML class identical - external test (Li 2019),201/201,1.0,fraction,F = 1,yes
+Fidelity,All 7 class probabilities identical,388/388,1.0,fraction,,
+Fidelity,Rogers Ratio answer identical to the offline result,388/388,1.0,fraction,,
+Fidelity,IEC 60599 ratio answer identical to the offline result,388/388,1.0,fraction,,
+Fidelity,Duval Triangle 1 answer identical to the offline result,388/388,1.0,fraction,,
+Fidelity,Failed service calls,0/388,0.0,count,0,yes
+Response time (service request),median - all records,388,78.64225,ms,,
+Response time (service request),95th percentile - all records,388,95.389525,ms,< 1000 ms,yes
+Response time (service request),median - without the 5 warm-up calls,383,78.4799,ms,,
+Response time (service request),95th percentile - without the 5 warm-up calls,383,95.08732,ms,,
+Response time (service request),minimum - all records,388,62.0695,ms,,
+Response time (service request),maximum - all records,388,157.7174,ms,,
+Conventional diagnoses in MATLAB,median - all records,388,277.4985,ms,,
+Conventional diagnoses in MATLAB,95th percentile - all records,388,331.789625,ms,,
+Total per record (information),median - all records,388,468.74455,ms,,
+Total per record (information),95th percentile - all records,388,548.401555,ms,,

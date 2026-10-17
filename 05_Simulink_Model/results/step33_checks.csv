@@ -1,0 +1,10 @@
+check,passed,detail
+"opens, updates and simulates from a clean path",1,"no error"
+"no warning during update/simulation",1,"none"
+"model and all 8 subsystems carry an annotation; every subsystem has a Description",1,"8 subsystems, 21 annotations in all"
+"no number typed into a block (all settings are variables or equation constants)",1,"124 settings logged; offending: "
+"no block produces or names a gas concentration",1,"98 blocks scanned"
+"exactly one Solver Configuration per physical network (electrical, thermal)",1,"2 found: Transformer_Operating_Model/SS1_Grid_Supply/Solver_Configuration, Transformer_Operating_Model/SS6_Thermal_Network/Solver_Configuration_Thermal"
+"structure equals the reference model (blocks, parameters, connections)",1,"84 blocks compared; 7 expected differences (273.15 -> T_zero_C_in_K; Sqrt block and X0_pu, Step 34); 0 unexpected"
+"24 h run equals the analytic steady state of the IEC 60076-7 equations (<= 0.1 K)",1,"K = 0.9839; oil 78.638 vs 78.638 degC (diff 0.000 K); hot-spot 100.276 vs 100.276 degC (diff 0.000 K)"
+"results equal the reference model (logged signals, same run)",1,"largest difference 9.00e-02 (K or pu)"
