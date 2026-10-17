@@ -497,3 +497,7 @@
 ## 2026-10-17 (later) - Healthy state made reachable (researcher: 'the app always predicts fault, and warning, no healthy state')
 - Cause measured: 346 of the 356 held-out records with a known class are faults (10 Normal); only 16 of 388 records give a green HEALTHY banner because the ML model has no normal-gas check and names a fault on 62 of the 78 records whose gases are all within typical values (amber WATCH). Not a coding error.
 - New: sample set 'Healthy records only' (dashboard_samples('healthy')), editable gas table with button 'Diagnose the values typed above' (diagnoseGas), run summary 'Verdicts: n healthy, n fault, n watch/check' in the status line, welcome text. erify_step44 now 22 checks (22/22).
+
+## 2026-10-17 (evening) - Dark-theme colours; data-origin statement
+- Researcher screenshots: card texts and the Duval Triangle labels were unreadable in MATLAB's dark theme (light default text on pale tints; dark ink on a dark background). Fix: explicit dark text on the cards, the three chart areas and the simulation tab always on white with dark text (styleAxes), event labels and legend dark. Checked with screenshots in the dark theme and erify_step44.
+- README: added the statement on data origin (no generated gas data; open TO VERIFY on possible resampling in the Dissanayake files; what is illustrative).

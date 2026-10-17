@@ -69,6 +69,13 @@
             end
         end
 
+        % The chart areas are always drawn on white with dark text, so that they read well in the light and in the dark theme of MATLAB (RD)
+        function styleAxes(~, ax)
+            ink = [0.15 0.15 0.15];
+            ax.Color = [1 1 1];  ax.XColor = ink;  ax.YColor = ink;  ax.GridColor = [0.5 0.5 0.5];
+            try, ax.Title.Color = ink; ax.XLabel.Color = ink; ax.YLabel.Color = ink; catch, end
+        end
+
         % Colour of a banner or card: panel and its grid (a grid does not take the colour of its parent) (RD)
         function tint(app, comps, rgb)
             for c = comps(:)'
@@ -90,6 +97,7 @@
             end
             cla(app.GasAxes);  cla(app.ProbAxes);  cla(app.UIAxesDuval);
             title(app.GasAxes, 'Gas level compared with the typical value');  title(app.ProbAxes, 'ML probability of each fault type');
+            app.styleAxes(app.GasAxes);  app.styleAxes(app.ProbAxes);  app.styleAxes(app.UIAxesTemperature);
             app.StepsArea.Value = {'The standard procedure for the sample on the screen appears here after a diagnosis.'};
         end
 
@@ -124,7 +132,7 @@
             if V.has_ref
                 app.RefAnswer.Text = char(V.ref);
                 app.RefNote.Text = char(dashboard_explain('label', V.ref));
-                app.RefJudge.Text = 'from the data file';
+                app.RefJudge.Text = 'from the data file';  app.RefJudge.FontColor = [0.1 0.1 0.1];
                 app.tint({app.RefCard, app.RefGrid}, [0.88 0.92 0.98]);
             else
                 app.RefAnswer.Text = '-';  app.RefNote.Text = 'This file has no known label for the record.';  app.RefJudge.Text = '';
@@ -149,6 +157,8 @@
             hold(ax, 'off');
             ylabel(ax, 'times the typical value');
             title(ax, 'Gas level (red = above typical value)');
+            app.styleAxes(ax);
+            for tx = findobj(ax, 'Type', 'text')', tx.Color = [0.1 0.1 0.1]; end
         end
 
         % Bar chart: probability of each fault type according to the ML model (RD)
@@ -156,7 +166,8 @@
             ax = app.ProbAxes;  cla(ax);
             if m.status ~= "OK"
                 text(ax, 0.5, 0.5, {'ML not available'; char(m.status)}, 'HorizontalAlignment', 'center', 'Units', 'normalized');
-                ax.XTick = [];  ax.YTick = [];  title(ax, 'ML probability of each fault type');
+                ax.XTick = [];  ax.YTick = [];  title(ax, 'ML probability of each fault type');  app.styleAxes(ax);
+                for tx = findobj(ax, 'Type', 'text')', tx.Color = [0.1 0.1 0.1]; end
                 return
             end
             order = ["Normal" "PD" "D1" "D2" "T1" "T2" "T3"];
@@ -168,6 +179,7 @@
             ax.YTick = 1:7;  ax.YTickLabel = cellstr(order);  ax.YDir = 'reverse';  xlim(ax, [0 100]);
             xlabel(ax, 'probability (%)');
             title(ax, 'ML probability of each fault type');
+            app.styleAxes(ax);
         end
 
         % Show one finished diagnosis on the screen: verdict banner, method cards, charts, tables, steps and the explanation text (MC, RD)
@@ -197,6 +209,7 @@
                 else
                     title(app.UIAxesDuval, 'Duval Triangle 1 (this sample)');
                 end
+                app.styleAxes(app.UIAxesDuval);
             catch ME
                 cla(app.UIAxesDuval);
                 app.StatusLabel.Text = ['Duval Triangle not drawn: ' ME.message];
@@ -406,12 +419,13 @@ app.SimResult = r;
 delete(findall(app.UIAxesTemperature, 'Type', 'constantline'));   % event lines of an earlier run (hidden handles are not cleared by plot)
 plot(app.UIAxesTemperature, r.t_h, r.theta_oil_C, 'b', r.t_h, r.theta_hs_C, 'r', 'LineWidth', 1.3);
 xlabel(app.UIAxesTemperature, 'Time (h)'); ylabel(app.UIAxesTemperature, 'Temperature (\circC)');
-legend(app.UIAxesTemperature, 'Top-oil', 'Hot-spot', 'Location', 'southeast');
+lg = legend(app.UIAxesTemperature, 'Top-oil', 'Hot-spot', 'Location', 'southeast');  lg.TextColor = [0.15 0.15 0.15];  lg.Color = [1 1 1];
+app.styleAxes(app.UIAxesTemperature);
 title(app.UIAxesTemperature, ['Operating condition: ' sc.label ' (simulated, context only)']);
 grid(app.UIAxesTemperature, 'on');
 app.SimEvents = r.events;
 for k = 1:height(r.events)          % sampling events of SS8, numbered in time order
-    xline(app.UIAxesTemperature, r.events.time_h(k), ':', char("#" + k), 'HandleVisibility', 'off');
+    xline(app.UIAxesTemperature, r.events.time_h(k), ':', char("#" + k), 'HandleVisibility', 'off', 'Color', [0.35 0.35 0.35]);
 end
 baseText = sprintf('Simulation done (%s). Final hot-spot %.1f degC, ageing %.1f h. (Operating context only.)', sc.label, ...
     r.theta_hs_C(end), r.loss_of_life_h);
