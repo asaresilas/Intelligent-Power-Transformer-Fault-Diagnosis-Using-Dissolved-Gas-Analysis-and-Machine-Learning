@@ -34,7 +34,7 @@ Full plan, phases and dataset links: [PROJECT_PLAN.md](PROJECT_PLAN.md).
 
 ## Current state (17 October 2026)
 
-- Thesis draft: `12_Thesis/Thesis_Draft_v3.docx` (138 pages); sources in `12_Thesis/source`, build chain in `12_Thesis/builder`.
+- Thesis draft: `12_Thesis/Thesis_Draft_v3.1.docx` (138 pages); sources in `12_Thesis/source`, build chain in `12_Thesis/builder`.
 - Dashboard: `10_Dashboard_Client/DGADashboard.mlapp` (start with `DGADashboard` in MATLAB); how to run everything: `00_Project_Admin/README_HOW_TO_RUN_AND_SETUP.md`.
 - The whole project in plain words: `00_Project_Admin/Project_Explained_Simply.docx`.
 - Decisions: `00_Project_Admin/decisions_log.md` (latest D43, proposed). Session history: `PROJECT_MEMORY/SESSION_SUMMARY.md`, `CHANGELOG.md`.
