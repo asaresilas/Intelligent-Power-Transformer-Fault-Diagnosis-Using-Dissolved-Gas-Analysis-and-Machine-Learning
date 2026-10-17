@@ -1,4 +1,4 @@
-function L = dashboard_explain(kind, varargin)
+﻿function L = dashboard_explain(kind, varargin)
 %DASHBOARD_EXPLAIN  Plain-language text that explains a dashboard result to the person who looks at the screen (15 Oct 2026).
 %
 %   L = dashboard_explain('welcome')                         what the dashboard does and how to use it
@@ -57,7 +57,8 @@ L = [
     "1. Choose the operating condition (constant rated load, daily cycle or short overload) and which oil samples to look at (a mixed set with a healthy sample and every fault type, random samples, or the first samples)."
     "2. Press 'Run simulation + diagnose'. The model simulates the transformer and takes the oil samples (the sampling events, numbered #1, #2, ... on the plot). For every sample the dashboard reads one measured gas record, asks three classical methods (Rogers, IEC 60599, Duval Triangle) and the machine-learning (ML) model for a diagnosis, and shows them side by side."
     "3. The coloured banner at the top is the answer: GREEN = healthy, RED = fault (with the fault type), AMBER = watch or check. Under it, the four method cards show who says what and whether each one AGREES with the verdict."
-    "4. Click a row of the sample table to look at another sample. Or pick a record yourself: choose a fault type, press 'Pick random record'; or use 'Load measured DGA file', enter a record number and press 'Diagnose selected record'."
+    "4. Click a row of the sample table to look at another sample. Or pick a record yourself: choose a fault type, press 'Pick random record'; or use 'Load measured DGA file', enter a record number and press 'Diagnose selected record'; or type five gas values (ppm) into the gas table on the left and press 'Diagnose the values typed above'."
+    "   Healthy samples: choose 'Healthy records only' in step 2, or pick the type 'Healthy (Normal)'. Most published DGA records come from faulty transformers, so a random sample is usually a fault."
     "5. The tab 'Step by step' shows the standard procedure (IEC 60599 / IEEE C57.104) with the numbers of the sample; this panel explains the result in words."
     ""
     "THE TWO KINDS OF INFORMATION"

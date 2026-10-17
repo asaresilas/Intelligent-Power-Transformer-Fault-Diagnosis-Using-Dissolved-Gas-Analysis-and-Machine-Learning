@@ -181,9 +181,9 @@ If the ML row ever says NOT_CONNECTED, press this button: it stops the service (
 
 ### Step 2 - What to do in the dashboard
 1. **Operating condition** (left, step 1): constant rated load, daily load cycle (3 days simulated, last day shown) or short overload. It changes only the simulated temperatures.
-2. **Oil samples to examine** (left, step 2): *Mixed* = a healthy sample plus one of each fault type (a new set each time you press Run); *Random* = 7 random held-out records; *First 4* = the original test run (records IECTC10_0001 to 0004).
+2. **Oil samples to examine** (left, step 2): *Mixed* = a healthy sample plus one of each fault type (a new set each time you press Run); *Healthy records only* = 7 records of the known class Normal (most published DGA records are faults, so a random sample is usually a fault); *Random* = 7 random held-out records; *First 4* = the original test run (records IECTC10_0001 to 0004).
 3. Press **Run simulation + diagnose**. The model runs, the sampling events are marked on the temperature plot (tab *Simulation*), and every sample is diagnosed and added to the sample table. A run takes a few seconds; the daily cycle takes longer.
-4. **Look at one record instead:** choose a fault type in the drop-down and press **Pick random record**, or use **Load measured DGA file**, type a record number and press **Diagnose selected record**. (CSV/XLSX with columns H2, CH4, C2H6, C2H4, C2H2 in ppm; optional record_id, equipment_type, class_name.)
+4. **Look at one record instead:** choose a fault type in the drop-down and press **Pick random record**, or type five gas values (ppm) into the gas table and press **Diagnose the values typed above**; or use **Load measured DGA file**, type a record number and press **Diagnose selected record**. (CSV/XLSX with columns H2, CH4, C2H6, C2H4, C2H2 in ppm; optional record_id, equipment_type, class_name.)
 5. The **agreement lamp** (right of the banner): green = all three conventional methods agree with ML; amber = at least one disagrees; grey = ML not available. (D1/D2 counts as agreeing with D1 or D2; "DT" and "ND" never count as agreement.)
 6. Fault classes: Normal, PD (partial discharge), D1 (low-energy discharge), D2 (high-energy discharge), T1/T2/T3 (thermal faults <300, 300-700, >700 degC).
 

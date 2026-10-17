@@ -97,6 +97,23 @@ chk = add(chk, 'record picker: "Any record" works', ~isempty(app.LastResult.reco
 app.RecordSpinner.Value = 5;  app.DiagnoseButton.ButtonPushedFcn(app.DiagnoseButton, []);  drawnow;
 chk = add(chk, 'Diagnose selected record still works for record number 5', string(app.LastResult.record_id) == M.record_id(5), char(app.LastResult.record_id));
 
+%% 2b healthy set and typed values (added 17 Oct 2026 after "the app always predicts fault") -----------------------------------------------
+app.ScenarioDropDown.Value = 'rated';  app.SampleSetDropDown.Value = 'healthy';
+app.RunSimulationButton.ButtonPushedFcn(app.RunSimulationButton, []);  drawnow;
+tbH = app.EventTable.Data;
+chk = add(chk, 'sample set "Healthy records only": 7 records of the known class Normal, the state of each is shown and the status line counts the verdicts', ...
+    height(tbH) == 7 && all(string(tbH.("Known label")) == "Normal") && contains(app.StatusLabel.Text, 'Verdicts:') && sum(string(tbH.Verdict) == "HEALTHY") >= 3, strjoin(string(tbH.Verdict)', ' | '));
+app.GasTable.Data = table(["H2"; "CH4"; "C2H6"; "C2H4"; "C2H2"], [30; 20; 10; 10; 0], 'VariableNames', {'Gas', 'ppm'});
+app.DiagnoseValuesButton.ButtonPushedFcn(app.DiagnoseValuesButton, []);  drawnow;
+V = app.LastResult.verdict;
+chk = add(chk, 'typed values (low gases): all gases within typical values, banner HEALTHY or WATCH (never FAULT), no error', ~any(V.gas.above) && any(V.health == ["healthy" "watch"]) && string(app.VerdictLabel.Text) == V.title, sprintf('%s | %s', V.health, V.title));
+app.GasTable.Data = table(["H2"; "CH4"; "C2H6"; "C2H4"; "C2H2"], [20000; 3000; 500; 10; 5], 'VariableNames', {'Gas', 'ppm'});
+app.DiagnoseValuesButton.ButtonPushedFcn(app.DiagnoseValuesButton, []);  drawnow;
+V = app.LastResult.verdict;
+chk = add(chk, 'typed values (high hydrogen): a fault is indicated and the banner is red', V.health == "fault" && isequal(app.VerdictPanel.BackgroundColor, V.color), sprintf('%s | %s', V.health, V.title));
+app.GasTable.Data = table(["H2"; "CH4"; "C2H6"; "C2H4"; "C2H2"], [-1; 20; 10; 10; 0], 'VariableNames', {'Gas', 'ppm'});
+app.DiagnoseValuesButton.ButtonPushedFcn(app.DiagnoseValuesButton, []);  drawnow;
+chk = add(chk, 'typed values: a negative number gives a message and no diagnosis', contains(app.StatusLabel.Text, 'Type five gas values'), app.StatusLabel.Text);
 %% 3 ML service not reachable: the verdict uses the classical methods ----------------------------------------------------------------
 url0 = app.ServiceURL;  app.ServiceURL = 'http://127.0.0.1:9/diagnose';  err = "";
 try, app.RecordSpinner.Value = 5;  app.DiagnoseButton.ButtonPushedFcn(app.DiagnoseButton, []); catch ME, err = string(ME.message); end

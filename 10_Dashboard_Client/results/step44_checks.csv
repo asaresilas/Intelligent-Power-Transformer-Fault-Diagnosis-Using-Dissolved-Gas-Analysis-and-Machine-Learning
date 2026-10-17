@@ -1,6 +1,6 @@
 check,passed,detail
 "start screen: banner says it is waiting, cards are empty, the welcome text names the colours",1,"WAITING FOR A SAMPLE"
-"mixed run: 7 sampling events, no error, all diagnosed",1," | 2 s | Simulation done (Constant rated load). Final hot-spot 100.3 degC, ageing 27.9 h. (Operating context only.) Sample set no. 1. (No DGA file loaded: using dga_master.csv.) 7 of 7 sampling events diagnosed."
+"mixed run: 7 sampling events, no error, all diagnosed",1," | 2 s | Simulation done (Constant rated load). Final hot-spot 100.3 degC, ageing 27.9 h. (Operating context only.) Sample set no. 1. (No DGA file loaded: using dga_master.csv.) 7 of 7 sampling events diagnosed. Verdicts: 1 healthy, 5 fault, 1 watch/check."
 "mixed run: the 7 records are the healthy sample and one of each fault type, in the order Normal PD D1 D2 T1 T2 T3",1,"DISTEST_0065 LI2019_0007 IECTC10_0010 IECTC10_0069 DISTEST_0035 DISTEST_0042 IECTC10_0112"
 "mixed run: sampling times 3, 6, ... 21 h (7 samples spread over the 24 h)",1,"3 6 9 12 15 18 21"
 "mixed run: the table shows both states - at least one HEALTHY or WATCH and at least one FAULT",1,"HEALTHY | FAULT PD | FAULT D1 | FAULT D2 | FAULT T1 | CHECK | FAULT T3"
@@ -13,6 +13,10 @@ check,passed,detail
 "record picker: for each type (Normal, PD, D1, D2, T1, T2, T3) a record of that known class is chosen and diagnosed",1,"Normal:DISTEST_0066:healthy | PD:LI2019_0156:fault | D1:IECTC10_0028:undecided | D2:LI2019_0078:fault | T1:DISTEST_0033:watch | T2:LI2019_0171:watch | T3:IECTC10_0100:fault"
 "record picker: ""Any record"" works",1,"LI2019_0113"
 "Diagnose selected record still works for record number 5",1,"IECTC10_0005"
+"sample set ""Healthy records only"": 7 records of the known class Normal, the state of each is shown and the status line counts the verdicts",1,"HEALTHY | HEALTHY | HEALTHY | WATCH | WATCH | WATCH | HEALTHY"
+"typed values (low gases): all gases within typical values, banner HEALTHY or WATCH (never FAULT), no error",1,"healthy | HEALTHY - all five gases are within the typical values"
+"typed values (high hydrogen): a fault is indicated and the banner is red",1,"fault | FAULT INDICATED - PD: partial discharges"
+"typed values: a negative number gives a message and no diagnosis",1,"Type five gas values in ppm (numbers, not below 0) in the table, then press the button again."
 "ML not reachable: no error, ML card says n/a, verdict from the 3 classical methods (3 voters)",1," | CHECK - gas levels are raised, but the methods do not agree on a fault type"
 "scenario ""Short overload"": 4 events at 6, 12, 18, 22 h; the hot-spot rises during the overload (peak above the rated-load run)",1,"peak 129.0 degC"
 "scenario ""Daily load cycle"": 72 h simulated, the last 24 h shown, 7 events inside the shown day, all diagnosed",1,"2 s, hot-spot 54.0 to 99.9 degC"

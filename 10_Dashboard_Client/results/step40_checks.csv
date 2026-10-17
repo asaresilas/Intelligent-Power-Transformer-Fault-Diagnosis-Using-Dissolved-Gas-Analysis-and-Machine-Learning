@@ -1,6 +1,6 @@
 check,passed,detail
-"a full simulated day (24 h) runs from the Run Simulation button without error and is plotted",1," | 1.2 s | Simulation done (Constant rated load). Final hot-spot 100.3 degC, ageing 27.9 h. (Operating context only.) (No DGA file loaded: using dga_master.csv.) 4 of 4 sampling events diagnosed."
-"no DGA file loaded: the app uses dga_master.csv and says so",1,"Simulation done (Constant rated load). Final hot-spot 100.3 degC, ageing 27.9 h. (Operating context only.) (No DGA file loaded: using dga_master.csv.) 4 of 4 sampling events diagnosed."
+"a full simulated day (24 h) runs from the Run Simulation button without error and is plotted",1," | 1.4 s | Simulation done (Constant rated load). Final hot-spot 100.3 degC, ageing 27.9 h. (Operating context only.) (No DGA file loaded: using dga_master.csv.) 4 of 4 sampling events diagnosed. Verdicts: 0 healthy, 4 fault, 0 watch/check."
+"no DGA file loaded: the app uses dga_master.csv and says so",1,"Simulation done (Constant rated load). Final hot-spot 100.3 degC, ageing 27.9 h. (Operating context only.) (No DGA file loaded: using dga_master.csv.) 4 of 4 sampling events diagnosed. Verdicts: 0 healthy, 4 fault, 0 watch/check."
 "the sampling events passed to the dashboard equal those of Step 37 (times, indices, record_ids); the table holds no gas value",1,"4 events at 6, 12, 18, 22 h: IECTC10_0001, IECTC10_0002, IECTC10_0003, IECTC10_0004"
 "every sampling event is marked on the temperature plot at its time",1,"4 markers"
 "at each sampling event the next record is diagnosed in time order; conventional answers, ML class and probabilities equal the offline results",1,"IECTC10_0001 ND-PD-PD/PD | IECTC10_0002 ND-PD-PD/PD | IECTC10_0003 ND-ND-PD/PD | IECTC10_0004 ND-ND-PD/PD"
@@ -8,7 +8,7 @@ check,passed,detail
 "event table: time, record, ML class and the simulated hot-spot temperature at that time",1,"IECTC10_0001 99.97 degC | IECTC10_0002 100.27 degC | IECTC10_0003 100.28 degC | IECTC10_0004 100.28 degC"
 "the temperatures plotted by the app equal run_transformer_simulation of the unchanged model",1,"1459 points per line"
 "the same run twice gives the same events and replaces the table (4 rows, not 8)",1,"4 rows, 4 results"
-"service not reachable during the run: the day still runs, every event shows NOT_CONNECTED, no error",1," | Simulation done (Constant rated load). Final hot-spot 100.3 degC, ageing 27.9 h. (Operating context only.) 4 of 4 sampling events diagnosed."
-"records of other events missing from the loaded file are skipped with a message, no error",1,"Simulation done (Constant rated load). Final hot-spot 100.3 degC, ageing 27.9 h. (Operating context only.) 1 of 4 sampling events diagnosed."
+"service not reachable during the run: the day still runs, every event shows NOT_CONNECTED, no error",1," | Simulation done (Constant rated load). Final hot-spot 100.3 degC, ageing 27.9 h. (Operating context only.) 4 of 4 sampling events diagnosed. Verdicts: 0 healthy, 2 fault, 2 watch/check."
+"records of other events missing from the loaded file are skipped with a message, no error",1,"Simulation done (Constant rated load). Final hot-spot 100.3 degC, ageing 27.9 h. (Operating context only.) 1 of 4 sampling events diagnosed. Verdicts: 0 healthy, 1 fault, 0 watch/check."
 "the model file is unchanged by the app runs (checksum)",1,"DF0681C6B6437EC2831873F531789A0B"
 "the 19 checks of verify_step39.m still pass with the new app",1,"19 of 19"

@@ -43,7 +43,7 @@
             st = 'on'; if tf, st = 'off'; end
             app.RunSimulationButton.Enable = st;  app.LoadDGAFileButton.Enable = st;  app.DiagnoseButton.Enable = st;
             app.RestartServiceButton.Enable = st;  app.RecordSpinner.Enable = st;
-            app.ScenarioDropDown.Enable = st;  app.SampleSetDropDown.Enable = st;  app.FaultFilterDropDown.Enable = st;  app.RandomRecordButton.Enable = st;
+            app.DiagnoseValuesButton.Enable = st;  app.ScenarioDropDown.Enable = st;  app.SampleSetDropDown.Enable = st;  app.FaultFilterDropDown.Enable = st;  app.RandomRecordButton.Enable = st;
             drawnow;
         end
 
@@ -221,7 +221,14 @@
                 app.StatusLabel.Text = ['Cannot read the record: ' ME.message];
                 return
             end
-            g = app.Gas;
+            ref = "";                                      % known label of the record, only if the file has one (used for the right/wrong note, never for a diagnosis)
+            if ismember('class_name', app.Info.Properties.VariableNames), ref = string(app.Info.class_name(1)); end
+            ok = app.diagnoseGas(app.Gas, ref, row);
+        end
+
+        % Diagnose one set of five gas values (from a file row or typed in the table): conventional methods, ML, agreement, verdict, screen (RD)
+        function ok = diagnoseGas(app, g, ref, row)
+            ok = false;
             app.StatusLabel.Text = 'Diagnosing...'; drawnow;
             d = conventional_diagnosis(g);                 % three conventional diagnoses, computed here in MATLAB
             app.mlReady();                                 % the service answers, or it is restarted (MC)
@@ -234,14 +241,14 @@
             end
             a = dga_agreement(d, m);
             rid = ""; if isfield(g, 'record_id'), rid = g.record_id; end
-            ref = "";                                      % known label of the record, only if the file has one (used for the right/wrong note, never for a diagnosis)
-            if ismember('class_name', app.Info.Properties.VariableNames), ref = string(app.Info.class_name(1)); end
             V = dashboard_verdict(g, d, m, a, ref);
             app.LastResult = struct('record_id', rid, 'gas', g, 'conventional', d, 'ml', m, 'agreement', a, 'verdict', V);
             app.ExplainState.focus = "diag";
             app.showResult(app.LastResult, row);
             if startsWith(app.StatusLabel.Text, 'Diagnosing')
-                app.StatusLabel.Text = sprintf('Record %d %s diagnosed.', row, char(rid));
+                if row > 0, app.StatusLabel.Text = sprintf('Record %d %s diagnosed.', row, char(rid));
+                else, app.StatusLabel.Text = 'The typed gas values were diagnosed.';
+                end
             end
             ok = true;
         end
@@ -294,6 +301,10 @@
                 pause(app.PlaybackPause);
             end
             app.StatusLabel.Text = sprintf('%s %d of %d sampling events diagnosed.', baseText, nok, height(ev));
+            if ~isempty(app.EventResults)       % how many of each state, so that the mix of the run is visible at once
+                hl = arrayfun(@(e) string(e.result.verdict.health), app.EventResults);
+                app.StatusLabel.Text = [app.StatusLabel.Text sprintf(' Verdicts: %d healthy, %d fault, %d watch/check.', sum(hl == "healthy"), sum(hl == "fault"), sum(hl == "watch" | hl == "undecided"))];
+            end
             app.ExplainState.events = dashboard_explain('events', app.EventResults);   % summary of the run first, then the last record (MC)
             app.ExplainState.focus = "run";
             app.refreshExplanation();
@@ -329,6 +340,7 @@ app.ServiceURL = 'http://127.0.0.1:8000/diagnose';
 app.ExplainState = struct('sim', strings(0, 1), 'diag', strings(0, 1), 'events', strings(0, 1), 'focus', "diag");
 app.refreshExplanation();                                  % the welcome text: what the dashboard does and how to use it
 app.showIdle();                                            % banner, cards and charts before the first diagnosis (RD)
+app.GasTable.Data = table(["H2"; "CH4"; "C2H6"; "C2H4"; "C2H2"], zeros(5, 1), 'VariableNames', {'Gas', 'ppm'});   % editable: type values and press "Diagnose the values typed above"
 % The dashboard is the master control: it starts the ML service itself if it is not running (15 Oct 2026).
 % A progress dialog shows what happens, so that the window never looks frozen; the buttons stay off until the service is ready.
 app.setBusy(true);
@@ -362,6 +374,7 @@ kind = app.SampleSetDropDown.Value;
 try
     switch kind
         case 'mixed',  app.Chosen = dashboard_samples('mixed', app.DGAFile, 'Seed', app.SampleSeed);
+        case 'healthy', app.Chosen = dashboard_samples('healthy', app.DGAFile, 'N', 7, 'Seed', app.SampleSeed);
         case 'random', app.Chosen = dashboard_samples('random', app.DGAFile, 'N', 7, 'Seed', app.SampleSeed);
         otherwise                                           % the Step 40 test run: the first four held-out records of the project list, looked up by record_id
             ids4 = string(evalin('base', 'heldout_record_ids(1:4)'));  ids4 = ids4(:);
@@ -374,7 +387,7 @@ catch ME
 end
 nS = numel(app.Chosen.rows);
 setNo = app.SampleSeed;
-if any(strcmp(kind, {'mixed', 'random'})), app.SampleSeed = app.SampleSeed + 1; end
+if any(strcmp(kind, {'mixed', 'healthy', 'random'})), app.SampleSeed = app.SampleSeed + 1; end
 % 2 which operating condition (scenarios.m, decision D34): demand profile, run length and the window that is shown (RD)
 scn = scenarios();  sc = scn(strcmp({scn.id}, app.ScenarioDropDown.Value));
 from_h = sc.show_from_s / 3600;
@@ -402,7 +415,7 @@ for k = 1:height(r.events)          % sampling events of SS8, numbered in time o
 end
 baseText = sprintf('Simulation done (%s). Final hot-spot %.1f degC, ageing %.1f h. (Operating context only.)', sc.label, ...
     r.theta_hs_C(end), r.loss_of_life_h);
-if any(strcmp(kind, {'mixed', 'random'})), baseText = [baseText sprintf(' Sample set no. %d.', setNo)]; end
+if any(strcmp(kind, {'mixed', 'healthy', 'random'})), baseText = [baseText sprintf(' Sample set no. %d.', setNo)]; end
 if usedDefault, baseText = [baseText ' (No DGA file loaded: using dga_master.csv.)']; end
 app.StatusLabel.Text = baseText; drawnow;
 P = struct('theta_ref_age', evalin('base', 'theta_ref_age'), 'dT_double_age', evalin('base', 'dT_double_age'), 'theta_amb_C', evalin('base', 'theta_amb_C'));
@@ -451,6 +464,17 @@ end
 app.RecordSpinner.Limits = [1 nrec];
 app.RecordSpinner.Value = S.rows;
 app.diagnoseRow(S.rows);
+%%@ CALLBACK DiagnoseValuesButtonPushed Button pushed function: DiagnoseValuesButton
+% Diagnose the five gas values typed in the table at the left (ppm); nothing is stored or changed (RD)
+T = app.GasTable.Data;
+v = double(T{:, 2});
+if numel(v) ~= 5 || any(~isfinite(v)) || any(v < 0)
+    app.StatusLabel.Text = 'Type five gas values in ppm (numbers, not below 0) in the table, then press the button again.';
+    return
+end
+g = struct('H2', v(1), 'CH4', v(2), 'C2H6', v(3), 'C2H4', v(4), 'C2H2', v(5), 'record_id', "typed values", 'equipment_type', "");
+app.setBusy(true);  cleanBusy = onCleanup(@() app.setBusy(false));
+app.diagnoseGas(g, "", 0);
 %%@ CALLBACK RestartServiceButtonPushed Button pushed function: RestartServiceButton
 % Master control: stop the ML service (if it runs, also a hung one) and start it again (MC)
 app.setBusy(true);  cleanBusy = onCleanup(@() app.setBusy(false));

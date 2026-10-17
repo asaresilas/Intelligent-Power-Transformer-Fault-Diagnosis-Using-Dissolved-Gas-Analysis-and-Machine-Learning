@@ -1,4 +1,4 @@
-function S = dashboard_samples(kind, file, varargin)
+﻿function S = dashboard_samples(kind, file, varargin)
 %DASHBOARD_SAMPLES  Choose which measured records the dashboard shows (17 Oct 2026).
 %
 %   S = dashboard_samples(kind, file)
@@ -8,6 +8,7 @@ function S = dashboard_samples(kind, file, varargin)
 %                    held-out records with a fixed Seed, so the same Seed always gives the same records
 %          "random"  N held-out records picked at random (Seed)
 %          "first"   the first N held-out records in file order (the Step 40 demonstration)
+%          "healthy" N held-out records of the known class Normal, in random order (Seed); fewer if the file has fewer
 %          "class"   ONE random held-out record of the given 'Class' ("Normal" = healthy); "" or "All" = any class
 %   file   DGA file (default: 03_Data/processed/dga_master.csv). Held-out = data_role is not "development" (as in params_transformer.m).
 %          A file without the columns record_id / data_role / class_name is accepted: every row counts, no class is known.
@@ -47,6 +48,9 @@ switch lower(string(kind))
         rows = poolRows(randperm(rs, numel(poolRows), n));
     case "first"
         rows = poolRows(1:min(n, numel(poolRows)));
+    case "healthy"
+        cand = poolRows(lab(poolRows) == "Normal");
+        rows = cand(randperm(rs, numel(cand), min(n, numel(cand))));
     case "class"
         cand = poolRows;
         if cls ~= "" && lower(cls) ~= "all", cand = poolRows(lab(poolRows) == cls); end
